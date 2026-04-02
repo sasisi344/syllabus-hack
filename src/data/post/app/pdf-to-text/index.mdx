@@ -1,0 +1,31 @@
+---
+publishDate: 2026-02-12
+title: PDF Syllabus Parser
+description: Helper tool to extract keywords from IPA Syllabus PDF text and generate JSON structure
+category: app
+knowledge:
+  type: method
+  examId: common
+tags: ['dev-tool', 'syllabus']
+draft: true
+metadata:
+  robots:
+    index: false
+---
+
+import SyllabusParser from '~/apps/pdf-to-text/SyllabusParser';
+
+# Syllabus Parser
+
+This tool helps structure the raw text from IPA Syllabus PDF into the JSON format required for `syllabusRef`.
+
+1. Select the <strong>Target Exam</strong> (IP, SG, FE).
+2. Select the <strong>Middle Category</strong> you are working on.
+3. Paste the <strong>Keywords</strong> section from the PDF (e.g., the text column under "用語例" or "技術要素").
+4. Click <strong>Extract</strong>.
+5. Repeat for other categories.
+6. Click <strong>Copy Full JSON</strong> to get the `syllabus-{examId}.json` content.
+
+<div className="my-8">
+  <SyllabusParser client:load />
+</div>

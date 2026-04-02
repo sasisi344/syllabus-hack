@@ -1,0 +1,57 @@
+# build output
+dist/
+.output/
+
+# dependencies
+node_modules/
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+*.txt
+!public/llms.txt
+
+# environment variables
+.env
+.env.production
+
+# macOS-specific files
+.DS_Store
+
+# Astro/Tooling
+.astro
+.netlify
+.vercel
+
+# --- Security & Privacy (Syllabus Hack Internal) ---
+.skills/
+.workspace/
+00_templates/
+GEMINI.md
+
+# --- Development Scripts & Temp Files ---
+# 独自ツール類を除外
+scripts/
+*.js
+!astro.config.ts
+!tailwind.config.js
+!eslint.config.js
+!check-missing.js
+!fix-images.js
+*.cjs
+!*.config.cjs
+*.py
+*.json
+!package.json
+!package-lock.json
+!tsconfig.json
+!*questions*.json
+!src/data/**/*.json
+!exams.json
+!search-results.json
+
+# --- Others ---
+pnpm-lock.yaml

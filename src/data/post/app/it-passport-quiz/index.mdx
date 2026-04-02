@@ -1,0 +1,85 @@
+---
+publishDate: 2026-02-10
+title: ITパスポート 模擬試験シミュレーター (CBT対応)
+image: ~/assets/images/post/common/app.png
+excerpt: 本番のCBT試験を忠実に再現した、ITパスポート模擬試験ツールです。最新のシラバスに準拠し、AIによる解説機能も搭載しています。
+category: app
+knowledge:
+  type: app
+  examId: ip
+tags:
+  - ITパスポート
+  - CBT
+  - 模擬試験
+  - SyllabusHack
+metadata:
+  description: ITパスポートの本番試験を再現したCBTシミュレーター。AIによる詳細な解説付きで、最短合格をサポートします。
+---
+
+import QuizApp from '~/apps/it-passport-quiz/QuizApp';
+import '~/apps/it-passport-quiz/quiz.css';
+import masterQuestions from '~/data/master/questions-it-passport.json';
+import strategyQuestions from '~/data/quiz/it-passport/strategy.json';
+import managementQuestions from '~/data/quiz/it-passport/management.json';
+import technologyQuestions from '~/data/quiz/it-passport/technology.json';
+import predictedQuestions from '~/data/quiz/it-passport/predicted.json';
+import generativeAiQuestions from '~/data/quiz/it-passport/generative-ai.json';
+
+import { transformRawQuestions } from '~/apps/it-passport-quiz/transformQuestions';
+
+export const rawQuestions = [
+  ...masterQuestions,
+  ...strategyQuestions,
+  ...managementQuestions,
+  ...technologyQuestions,
+  ...predictedQuestions,
+  ...generativeAiQuestions,
+];
+
+export const allQuestions = transformRawQuestions(rawQuestions);
+
+## アプリについて
+
+このシミュレーターは、 <strong>ITパスポート試験</strong> の本番（CBT方式）をブラウザ上で体験できるツールです。
+最新の <strong>シラバス 6.x</strong> （生成AIの活用とリスクなど）に完全対応しており、従来の知識・暗記問題だけでなく、実務的な判断力を問う設問も中心に構成しています。
+
+---
+
+<QuizApp client:load questions={allQuestions} examId="it-passport" examName="ITパスポート試験" />
+
+---
+
+## ITパスポート試験 合格への最短戦略
+
+ITパスポート（iパス）は、ITを利活用するすべての社会人・学生が備えておくべき基礎知識を証明する国家試験です。合格率は約50％前後で推移していますが、シラバスの改訂により、近年は <strong>生成AI</strong> や <strong>DX</strong>（デジタルトランスフォーメーション）に関連する設問の比重が高まっています。
+
+### 1. 3つの分野の配点を意識する
+試験は以下の3つの分野から構成されます。
+- <strong>ストラテジ系</strong>（経営全般）: 配点約35%。
+- <strong>マネジメント系</strong>（IT管理）: 配点約20%。
+- <strong>テクノロジ系</strong>（IT技術）: 配点約45%。
+合格には全分野合計で600点以上、かつ各分野で300点以上の正解が必要です。
+
+### 2. シラバス 6.x の新トピック
+最新の試験では、以下のようなトピックが頻出します。
+- <strong>生成AIのリスクと管理</strong>: ハルシネーション（もっともらしい嘘）への対処、著作権侵害のリスク。
+- <strong>プロンプトエンジニアリング</strong>: 効果的な指示出しの基本。
+- <strong>最新のセキュリティ</strong>: ゼロトラスト、多要素認証（MFA）の実装。
+
+### 3. CBT（Computer Based Testing）への慣れ
+本アプリは本番に近い操作感を再現しています。マウス操作での選択、進捗管理機能などを使いこなし、実際の試験会場で「操作に戸惑う」という無駄なロスをなくしましょう。
+
+## よくある質問 (FAQ)
+
+### Q. 試験範囲が広すぎて覚えられません。効率的な方法は？
+<strong>A.</strong> すべてを完璧に覚えようとせず、まずは過去問を解いて「よく出るパターン」を把握するのがコツです。本アプリの <strong>AI解説機能</strong> を使い、用語同士の「つながり」を理解することで、記憶の定着率が飛躍的に向上します。
+
+### Q. 非エンジニアでも合格できますか？
+<strong>A.</strong> はい。ITパスポートは「技術」だけでなく「ビジネス（ストラテジ）」の設問が多く含まれます。普段の業務に関連するキーワード（財務、知的財産権など）から学習を始めるのも一つの戦略です。
+
+### Q. AI解説機能（Gemini連携）は無料ですか？
+<strong>A.</strong> はい、当サイトでは学習効率を最大化するために無料で提供しています。回答結果のページにある「Geminiに詳しく聞く」ボタンから、より深い背景解説を受けることができます。
+
+---
+
+<QuizApp client:load questions={allQuestions} examId="it-passport" examName="ITパスポート試験" />

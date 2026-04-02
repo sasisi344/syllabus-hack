@@ -1,0 +1,69 @@
+---
+publishDate: 2026-03-01
+lastmod: 2026-03-01
+title: ITパスポート マネジメント系 集中80問ドリル
+image: ~/assets/images/post/common/app.png
+excerpt: プロジェクト管理からサービスマネジメント、システム開発まで。実務に直結する「マネジメント系」全81問を徹底演習。AI解説付きで確実にマスター。
+category: app
+persona: IT初学者
+knowledge:
+  type: app
+  examId: ip
+tags:
+  - ITパスポート
+  - CBT
+  - 模擬試験
+  - SyllabusHack
+metadata:
+  description: ITパスポート試験のマネジメント系（プロジェクト管理、サービスマネジメント、システム監査など）に特化した集中ドリル。全81問をAI解説付きで演習。苦手分野を優先出題。
+---
+
+import StrategyDrill from '~/apps/it-passport-quiz/StrategyDrill';
+import '~/apps/it-passport-quiz/quiz.css';
+import managementQuestions from '~/data/quiz/it-passport/management.json';
+import { transformRawQuestions } from '~/apps/it-passport-quiz/transformQuestions';
+
+export const allQuestions = transformRawQuestions(managementQuestions);
+
+## なぜ「マネジメント系」が重要なのか
+
+ITパスポート試験において、マネジメント系は全体の <strong>約20%</strong> を占めます。ストラテジ系やテクノロジ系に比べると問題数は少ないですが、その分、一つひとつの用語が実務に直結しています。
+
+プロジェクトをどう進めるか、運用をどう安定させるか。これらはエンジニアだけでなく、ITを活用するすべてのビジネスパーソンにとって必須のスキルです。
+
+### 実務で活用できるマネジメントの型
+
+- <strong>プロジェクトマネジメント</strong>：スケジュールやコストの管理手法。
+- <strong>サービスマネジメント</strong>：ITILに基づいた運用のベストプラクティス。
+- <strong>システム開発</strong>：要件定義からデバッグまでの流れ。
+- <strong>システム監査</strong>：運用の適切さを第三者がチェックする仕組み。
+
+### このドリルの構成
+
+このドリルには、マネジメント系の問題を <strong>81問</strong> 収録しています。
+
+| 中分類                   | 問題数 |
+| :----------------------- | :----- |
+| サービスマネジメント     | 26問   |
+| システム開発技術         | 17問   |
+| ソフトウェア開発管理技術 | 16問   |
+| システム監査             | 12問   |
+| プロジェクトマネジメント | 10問   |
+
+### 使い方
+
+1. まず <strong>30問、40問、50問</strong> のいずれかを選んでスタート。
+2. 解答後すぐに正誤と <strong>AI解説</strong> が表示されます。
+3. セッション終了後に <strong>中分類ごとの正答率</strong> を確認しましょう。
+4. 「もう一度挑戦」ボタンを押すと、あなたが間違えた問題が優先的に選ばれます。
+
+> 💡 回答の詳細はブラウザに保存されるため、復習を繰り返すことで正答率が確実にアップします。
+
+---
+
+<StrategyDrill
+  client:load
+  questions={allQuestions}
+  examId="it-passport-mgmt"
+  examName="ITパスポート マネジメント系ドリル"
+/>

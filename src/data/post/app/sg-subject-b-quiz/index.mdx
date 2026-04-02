@@ -1,0 +1,52 @@
+---
+publishDate: 2026-02-21
+lastmod: 2026-02-21
+title: SG科目B 実務シナリオ演習ドリル
+excerpt: 情報セキュリティマネジメント試験の最難関「科目B」に特化。実務シナリオ形式の長文問題を攻略し、合格を確実に。
+category: app
+image: ~/assets/images/post/common/app.png
+knowledge:
+  examId: sg
+  type: app
+  difficulty: advanced
+tags:
+  - 情報セキュリティマネジメント
+  - 科目B
+  - ケーススタディ
+  - SyllabusHack
+metadata:
+  description: 情報セキュリティマネジメント試験（SG）の科目B試験に特化した演習ツール。実務的なシナリオからリスクを特定し、適切な対策を導き出す思考力を養います。
+---
+
+import QuizApp from '~/apps/sg-subject-b-quiz/QuizApp';
+import '~/apps/sg-subject-b-quiz/quiz.css';
+import questionsJson from '~/data/master/questions-sg-b.json';
+import { transformRawQuestions } from '~/apps/sg-subject-b-quiz/transformQuestions';
+
+export const allQuestions = transformRawQuestions(questionsJson);
+
+## アプリについて
+
+<strong>情報セキュリティマネジメント試験（SG）</strong> の合格を左右するのは、実務的な長文問題が出題される 「 <strong>科目B</strong> 」 です。
+
+このドリルでは、最新の出題傾向に基づき、組織で実際に起こりうる情報セキュリティインシデントや管理上の課題をテーマにしたシナリオ問題を厳選。単なる知識の暗記ではなく、「現場でどう判断すべきか」という <strong>実践的な思考プロセス</strong> を鍛えます。
+
+## 攻略のポイント
+
+- <strong>シナリオ横並びレイアウト</strong> : デスクトップ環境では、シナリオ本文と設問を左右に並べて表示。試験本番に近い感覚で、本文を参照しながら解くことができます。
+- <strong>思考の根拠を明確にする解説</strong> : なぜその選択肢が正解なのか、どの記述に着目すべきだったのかを具体的に解説。
+- <strong>AIによる深掘り学習</strong> : シナリオの状況について、さらに別の対策案や最新の技術動向をAI（Gemini）に詳しく聞くことができます。
+
+---
+
+<div class="not-prose">
+  <QuizApp client:load questions={allQuestions} examId="sg" examName="情報セキュリティマネジメント試験" />
+</div>
+
+---
+
+## 合格へのアドバイス
+
+1.  <strong>主語と役割を明確に</strong> : シナリオに登場する「情報システム部のAさん」「営業部のBさん」など、誰がどの責任を持っているかを整理しましょう。
+2.  <strong>「人的・組織的・技術的・物理的」の分類</strong> : 対策を問う問題では、どの分類の対策を求められているか（例：技術的対策を答えよ）を読み飛ばさないことが重要です。
+3.  <strong>時系列を追う</strong> : インシデント発生から対応までの時系列を意識すると、次に取るべき「最優先の行動」が見えてきます。

@@ -1,0 +1,76 @@
+---
+title: "【無料配布】応用情報・記述式を無限に練習できる「論文トレーナー」スクリプトを作りました"
+publishDate: 2026-02-03T01:15:00+09:00
+draft: false
+toc: true
+categories: ["method"]
+tags: ["応用情報技術者", "Python", "Gemini", "SyllabusHack"]
+description: "「記述式問題の採点基準がわからない」「過去問を解き尽くしてしまった」そんな悩みを解決する、Gemini APIを活用した自分専用の論文添削トレーナーを配布します。"
+---
+
+応用情報技術者試験（AP）や高度試験区分で最大の壁となるのが、<strong>午後試験の記述式（論文）問題</strong>です。
+
+*   「自分の回答が合っているのか分からない」
+*   「独学だと添削してくれる人がいない」
+*   「過去問はやり尽くしてしまって、初見の問題がない」
+
+こうした悩みを解決するために、<strong>Google Gemini API を活用した記述式対策スクリプト「Syllabus Hack: Essay Trainer」</strong>を作成しました。
+完全無料で配布しますので、ぜひご活用ください。
+
+## どんなツール？
+
+Pythonで動作するシンプルなコマンドラインツールです。
+あなたのPC上で動作し、以下の機能を提供します。
+
+1.  <strong>無限問題生成</strong>: シラバスに基づいた記述問題をランダムに出題（またはAIが生成）
+2.  <strong>即時AI採点</strong>: あなたの回答を入力すると、その場で合否判定とスコア（100点満点）を表示
+3.  <strong>模範解答</strong>: エンジニア視点での模範解答と、あなたの回答への具体的なアドバイスを提示
+
+![Demo](/images/essay-trainer-demo.png) <!-- 後で差し替えるか、なしでもOK -->
+
+## 使うための準備
+
+このツールは <strong>"Bring Your Own Key" (BYOK)</strong> モデルを採用しています。
+つまり、<strong>あなた自身の Google Gemini API Key</strong> を使用します。
+
+### なぜ自分のキーを使うの？
+*   <strong>無料</strong>: Google AI Studio の API は、個人利用の範囲なら現在無料で利用可能です。
+*   <strong>無制限</strong>: 運営者のサーバーコストを気にせず、好きなだけ使い倒せます。
+
+### 導入手順
+
+1.  <strong>Google AI Studio で API Key を取得</strong>
+    *   [Google AI Studio](https://aistudio.google.com/) にアクセスし、「Get API Key」からキーを作成します。
+2.  <strong>スクリプトをダウンロード</strong>
+    *   以下のボタンからZIPファイルをダウンロードし、解凍してください。
+    
+    [📥 Essay Trainer をダウンロード](/files/essay_trainer.zip)
+
+3.  <strong>実行環境の準備</strong>
+    *   Pythonがインストールされている必要があります。
+    *   解凍したフォルダで端末（コマンドプロンプトやターミナル）を開き、ライブラリをインストールします。
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+4.  <strong>実行</strong>
+    ```bash
+    python trainer.py
+    ```
+    起動時に API Key を求められるので、先ほど取得したキーを貼り付けてください。
+
+## カスタマイズ（上級者向け）
+
+`syllabus_data.json` というファイルを編集すると、出題される問題を自由に追加できます。
+「自分が間違えた過去問」や「予想問題」を登録しておけば、<strong>自分だけの最強のドリル</strong>が完成します。
+
+```json
+"Category Name": [
+  {
+    "theme": "覚えたいキーワード",
+    "question": "ここに問題文..."
+  }
+]
+```
+
+ぜひ、合格に向けた学習にお役立てください！

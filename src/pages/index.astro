@@ -1,0 +1,139 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import { getPermalink } from '~/utils/permalinks';
+
+import Hero from '~/components/widgets/Hero.astro';
+import Features2 from '~/components/widgets/Features2.astro';
+import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
+import DailyQuizSection from '~/components/widgets/DailyQuizSection.astro';
+import Content from '~/components/widgets/Content.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+
+const metadata = {
+  title: 'Syllabus Hack — 生成AIで資格試験を攻略する',
+  ignoreTitleTemplate: true,
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- Hero Widget ******************* -->
+
+  <Hero
+    actions={[
+      {
+        variant: 'primary',
+        text: '試験対策アプリを使う',
+        href: getPermalink('app', 'category'),
+        icon: 'tabler:device-laptop',
+      },
+      { text: '学習メソッドを読む', href: getPermalink('method', 'category') },
+      { text: '用語解説を見る', href: getPermalink('glossary', 'category') },
+    ]}
+    image={{ src: '~/assets/images/hero-syllabushack.jpg', alt: 'Syllabus Hack Hero Image' }}
+  >
+    <Fragment slot="title">
+      生成AIで <span class="text-accent dark:text-blue-400">シラバス</span> をハックする
+    </Fragment>
+
+    <Fragment slot="subtitle">
+      試験合格のその先へ。最新のAI技術を活用して、IT資格試験の学習をよりスマートに、より確実に。
+      ITパスポートから応用情報まで、あなたの「学び」を加速させます。
+    </Fragment>
+  </Hero>
+
+  <!-- Features2 Widget (Core Concept) ************** -->
+
+  <Features2
+    title="2つのアプローチで最短合格へ"
+    subtitle="シラバスハックは、生成AIのパワーを「実践」と「効率」の2軸で提供します。"
+    items={[
+      {
+        title: 'CBT設問アプリ',
+        description:
+          'ITパスポート・セキュマネ等の過去問・予想問題を、AIが最適化したインターフェースで提供。スマホでいつでも実践演習が可能です。',
+        icon: 'tabler:device-mobile',
+      },
+      {
+        title: 'AI学習メソッド',
+        description:
+          'GeminiやChatGPTを活用した暗記術、問題生成、複雑な概念の要約法など、AIを「家庭教師」にする方法を伝授します。',
+        icon: 'tabler:brain',
+      },
+      {
+        title: '最新トレンド情報',
+        description:
+          'IPAのシラバス改訂情報や、試験に役立つ最新AIツールの速報など、受験者に必要なニュースをいち早くお届けします。',
+        icon: 'tabler:news',
+      },
+      {
+        title: 'IT試験用語解説',
+        description:
+          'シラバスに登場する難解な用語を、図解・たとえ話・AI活用法で徹底解説。辞書代わりにも、一歩進んだ深い理解にも。',
+        icon: 'tabler:book',
+      },
+    ]}
+  />
+
+  <!-- Content Widget (Polite Explanation) **************** -->
+
+  <Content
+    isReversed
+    tagline="Concept"
+    title="なぜ、今「AIで勉強」なのか"
+    items={[
+      {
+        title: 'パーソナライズされた学習体験',
+        description:
+          'これまでの「一方通行な学習」から、AIとの「対話的な学習」へ。自分の苦手な部分をAIが察知し、解説を最適化します。',
+      },
+      {
+        title: '膨大なシラバスを構造化',
+        description:
+          '資格試験のシラバスは肥大化しています。AIを活用して情報を整理・要約することで、本質的な理解に集中できます。',
+      },
+    ]}
+    image={{
+      src: 'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      alt: 'Concept Image',
+    }}
+  >
+    <Fragment slot="content">
+      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">落ち着いた学習環境を提供</h3>
+      情報のノイズを削ぎ落とし、勉強に集中できるデザインと機能性を追求しました。
+    </Fragment>
+  </Content>
+
+  <!-- HighlightedPosts Widget (Blog) ******* -->
+
+  <BlogLatestPosts
+    title="最新の学習記事とニュース"
+    information={`最新の試験対策メソッドや、シラバス改訂の速報、AI活用のヒントを定期的に更新しています。`}
+  />
+
+  <!-- Daily Quiz Widget (今日の1問) ******* -->
+
+  <DailyQuizSection />
+
+  <!-- CallToAction Widget *********** -->
+
+  <CallToAction
+    actions={[
+      {
+        variant: 'primary',
+        text: '無料の学習メソッドを体験',
+        href: '/try',
+        icon: 'tabler:rocket',
+      },
+    ]}
+  >
+    <Fragment slot="title">
+      あなたの合格を <br class="block sm:hidden" /><span class="sm:whitespace-nowrap">AIがバックアップ</span>
+    </Fragment>
+
+    <Fragment slot="subtitle">
+      PC・スマホ1台で、最新のシラバス攻略を今すぐ始めましょう。 <br
+        class="hidden md:inline"
+      />生成AIによる効率化と、実践的な演習アプリを無料で体験。
+    </Fragment>
+  </CallToAction>
+</Layout>

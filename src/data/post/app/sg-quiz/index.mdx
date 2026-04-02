@@ -1,0 +1,67 @@
+---
+publishDate: 2026-02-12
+title: '情報セキュリティマネジメント 攻略マスター'
+excerpt: 'SG試験の科目A・科目Bに完全対応。実務シナリオと最新キーワードをハックする戦略的学習ツール。'
+image: ~/assets/images/post/common/app.png
+category: app
+tags: ['情報セキュリティマネジメント', 'セキュリティ', 'SyllabusHack']
+knowledge:
+  examId: sg
+  type: app
+  difficulty: intermediate
+metadata:
+  description: '情報セキュリティマネジメント試験（SG）の科目Aおよび科目B（ケーススタディ）に対応した戦略的演習アプリ。合格に必要な実践的判断力を養います。'
+---
+
+import QuizApp from '~/apps/it-passport-quiz/QuizApp';
+import '~/apps/it-passport-quiz/quiz.css';
+import strategyQuestions from '~/data/quiz/sg/strategy.json';
+import managementQuestions from '~/data/quiz/sg/management.json';
+import technologyQuestions from '~/data/quiz/sg/technology.json';
+import practicalQuestions from '~/data/quiz/sg/practical.json';
+
+import { transformRawQuestions } from '~/apps/it-passport-quiz/transformQuestions';
+
+export const rawQuestions = [
+  ...strategyQuestions,
+  ...managementQuestions,
+  ...technologyQuestions,
+  ...practicalQuestions,
+];
+
+export const allQuestions = transformRawQuestions(rawQuestions, 'sg');
+
+# 情報セキュリティマネジメント 攻略マスター
+
+このシミュレーターは、 <strong>情報セキュリティマネジメント試験（SG）</strong> の科目A・科目Bに完全対応した、合格特化型の演習ツールです。
+
+<div class="not-prose">
+  <QuizApp client:load questions={allQuestions} examId="sg" examName="情報セキュリティマネジメント試験" />
+</div>
+
+---
+
+## 合格への最短ルート：戦略的学習サイクル
+
+SG試験を短期間で突破するため、本アプリは以下の <strong>3ステップ・ハッシュサイクル</strong> に基づいて設計されています。
+
+### 1. 「知識」を「反射」に変える（科目A対策）
+
+科目A（48問）は、過去問の類似問題が多く出題される傾向にあります。
+
+- <strong>攻略法</strong>: 本アプリの `ストラテジ系` `マネジメント系` `テクノロジ系` のドリルを繰り返し、用語を見た瞬間に意味が思い浮かぶ「反射速度」を上げます。
+- <strong>ポイント</strong>: 3C分析や不正のトライアングルなど、頻出キーワードを重点的に潰します。
+
+### 2. 「事例」から「リスク」を見抜く（科目B対策）
+
+科目B（12問）は、組織の状況設定を読み解くケーススタディ形式です。
+
+- <strong>攻略法</strong>: `実務・ケーススタディ` 分野を重点的に演習します。シナリオの中から「脆弱性」と「脅威」を特定し、ISMSの観点で最適な「管理策」を選ぶ訓練を行います。
+- <strong>ポイント</strong>: <strong>「誰が、何のために、どのルールに基づいて」</strong> 行動すべきかを意識してトレースしてください。
+
+### 3. AI解説による「思考の深掘り」
+
+単に正解を確認するだけでなく、解答後の「AIに聞く」機能を活用してください。
+
+- <strong>活用法</strong>: なぜ他の選択肢が不適切なのか、実際の現場ではどのような運用（規程整備や技術的対策）が行われるのかをAIと対話しながら理解します。
+- <strong>効果</strong>: 丸暗記ではない「実務的な判断軸」が身につき、初見の長文問題にも動じない対応力が備わります。

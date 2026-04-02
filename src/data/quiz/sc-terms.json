@@ -1,0 +1,130 @@
+[
+  {
+    "id": "sc-001",
+    "category": "attack",
+    "term": "DoS / DDoS 攻撃",
+    "definition": "サーバーやネットワークに過剰な負荷をかけ、サービスの提供を不能にする攻撃。対策：WAFの導入、特定のIPアドレス制限、CDNによる分散。",
+    "tags": ["午前II", "頻出"],
+    "importance": "A"
+  },
+  {
+    "id": "sc-002",
+    "category": "cryptography",
+    "term": "PFS (Perfect Forward Secrecy)",
+    "definition": "セッション鍵が漏洩しても、過去の通信内容が解読されない性質。対策：固定鍵を使わず、通信ごとに一時的な鍵を生成するDH鍵共有等を採用する。",
+    "tags": ["午前II", "頻出"],
+    "importance": "A"
+  },
+  {
+    "id": "sc-003",
+    "category": "auth",
+    "term": "SAML (Security Assertion Markup Language)",
+    "definition": "異なるドメイン間で認証・認可情報を交換するためのXMLベースの規格。シングルサインオン（SSO）で使われる。対策：XML署名による検証。",
+    "tags": ["午前II", "SSO"],
+    "importance": "B"
+  },
+  {
+    "id": "sc-004",
+    "category": "network",
+    "term": "ゼロトラスト (Zero Trust)",
+    "definition": "「何も信頼しない」を前提に、全アクセスを検証し最小限の権限を付与するモデル。構成要素：IdP, PEP, PDP, CASB/SWG等。",
+    "tags": ["トレンド", "午後対策"],
+    "importance": "A"
+  },
+  {
+    "id": "sc-005",
+    "category": "attack",
+    "term": "XSS (Cross-Site Scripting)",
+    "definition": "動的にHTMLを生成する箇所にスクリプトを注入する攻撃。対策：サニタイジング（エスケープ処理）、Content-Security-Policy (CSP) の設定。",
+    "tags": ["午前II", "午後対策"],
+    "importance": "A"
+  },
+  {
+    "id": "sc-006",
+    "category": "attack",
+    "term": "SQLインジェクション",
+    "definition": "入力フォームにSQL文を注入しDBを不正操作する。対策：バインド機構（プレースホルダ）の利用、入力値の型チェック、最小権限でのDB接続。",
+    "tags": ["午前II", "午後対策"],
+    "importance": "A"
+  },
+  {
+    "id": "sc-011",
+    "category": "attack",
+    "term": "サプライチェーン攻撃",
+    "definition": "ターゲット企業の取引先や利用ソフトの脆弱性を突く攻撃。対策：SBOM (Software Bill of Materials) による依存関係の管理、監査の徹底。",
+    "tags": ["トレンド", "午後対策"],
+    "importance": "A"
+  },
+  {
+    "id": "sc-012",
+    "category": "vulnerability",
+    "term": "ディレクトリ・トラバーサル",
+    "definition": "パス情報を不正に書き換え、非公開ファイルにアクセスする攻撃。対策：ファイル名を直接指定させない、カレントディレクトリ以外のアクセス制限（chroot等）。",
+    "tags": ["午前II", "セキュリティ実装"],
+    "importance": "B"
+  },
+  {
+    "id": "sc-013",
+    "category": "attack",
+    "term": "ブルートフォース攻撃",
+    "definition": "パスワードを片っ端から試す総当たり攻撃。対策：アカウントロック、多要素認証 (MFA) の導入、パスワードの複雑性強制。",
+    "tags": ["午前II", "頻出"],
+    "importance": "A"
+  },
+  {
+    "id": "sc-014",
+    "category": "attack",
+    "term": "セッションハイジャック",
+    "definition": "セッションIDを窃取し本人なりすます。対策：セッションIDの予測困難化、HTTPSによる暗号化、ログイン後のセッションID再発行。",
+    "tags": ["午前II", "Web"],
+    "importance": "B"
+  },
+  {
+    "id": "sc-015",
+    "category": "threat",
+    "term": "BEC (Business Email Compromise)",
+    "definition": "ビジネスメール詐欺。経営層や取引先を装い金銭を騙し取る。対策：電子署名（S/MIME）による証明、送金プロセスの複数人承認、従業員教育。",
+    "tags": ["トレンド", "組織運営"],
+    "importance": "A"
+  },
+  {
+    "id": "sc-016",
+    "category": "management",
+    "term": "CSIRT (Computer Security Incident Response Team)",
+    "definition": "インシデント発生時に対応を行う組織内チーム。活動：検知、分析、封じ込め、根絶、復旧。外部連携（JPCERT/CC等）も重要。",
+    "tags": ["組織的対策", "午後対策"],
+    "importance": "A"
+  },
+  {
+    "id": "sc-017",
+    "category": "network",
+    "term": "IPS (Intrusion Prevention System)",
+    "definition": "ネットワークへの侵入を検知し、自動的に遮断するシステム。IDS（検知のみ）に防御機能が加わったもの。対策：不正パケットの動的な拒否。",
+    "tags": ["境界防御", "午後対策"],
+    "importance": "A"
+  },
+  {
+    "id": "sc-018",
+    "category": "attack",
+    "term": "中間者攻撃 (Man-in-the-Middle)",
+    "definition": "通信経路でデータを盗聴・改ざんする。対策：サーバー証明書による認証、エンドツーエンドの暗号化。HSTSによる常時HTTPS化。",
+    "tags": ["ネットワーク", "頻出"],
+    "importance": "B"
+  },
+  {
+    "id": "sc-019",
+    "category": "attack",
+    "term": "ドライブバイダウンロード",
+    "definition": "閲覧しただけでマルウェアをダウンロードさせる。対策：ブラウザやプラグインを最新に保つ、サンドボックスによる隔離実行。",
+    "tags": ["午前II", "エンドポイント"],
+    "importance": "B"
+  },
+  {
+    "id": "sc-020",
+    "category": "auth",
+    "term": "FIDO2 / WebAuthn",
+    "definition": "パスワードを使わない、公開鍵暗号方式による認証規格。生体認証やセキュリティキーを活用。対策：リスト型攻撃の完全無効化。",
+    "tags": ["最新技術", "認証"],
+    "importance": "A"
+  }
+]

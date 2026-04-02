@@ -1,0 +1,78 @@
+---
+import type { InferGetStaticPropsType, GetStaticPaths } from 'astro';
+import { blogCategoryRobots, getStaticPathsBlogCategory } from '~/utils/blog';
+
+import Layout from '~/layouts/PageLayout.astro';
+import BlogList from '~/components/blog/List.astro';
+import Headline from '~/components/blog/Headline.astro';
+import Pagination from '~/components/blog/Pagination.astro';
+
+export const prerender = true;
+
+export const getStaticPaths = (async ({ paginate }) => {
+  return await getStaticPathsBlogCategory({ paginate });
+}) satisfies GetStaticPaths;
+
+type Props = InferGetStaticPropsType<typeof getStaticPaths> & { category: Record<string, string> };
+
+const { page, category } = Astro.props as Props;
+
+const currentPage = page.currentPage ?? 1;
+
+const isAppCategory = category.slug === 'app';
+const isGlossaryCategory = category.slug === 'glossary';
+const appPosts = isAppCategory ? page.data.filter((post) => post.knowledge?.type === 'app') : [];
+const storyPosts = isAppCategory ? page.data.filter((post) => post.knowledge?.type !== 'app') : page.data;
+
+const description = isGlossaryCategory 
+  ? 'ITパスポート・基本情報などの試験頻出語句を、図解とAI活用法を交えて分かりやすく解説。シラバスに準拠した最新の用語集です。'
+  : (isAppCategory ? '開発した学習補助ツールや、技術的な裏側を公開。' : '');
+
+const metadata = {
+  title: isGlossaryCategory ? `IT試験用語解説・用語集 ${currentPage > 1 ? ` — Page ${currentPage}` : ''}` : `Category '${category.title}' ${currentPage > 1 ? ` — Page ${currentPage}` : ''}`,
+  description: description,
+  robots: {
+    index: blogCategoryRobots?.index,
+    follow: blogCategoryRobots?.follow,
+  },
+};
+---
+
+<Layout metadata={metadata}>
+  <section class="px-4 md:px-6 py-12 sm:py-16 lg:py-20 mx-auto max-w-4xl">
+    <Headline>{category.title}</Headline>
+
+    {
+      isGlossaryCategory && (
+        <div class="mb-10 p-6 bg-blue-50 dark:bg-slate-800 rounded-lg border-l-4 border-primary">
+          <p class="text-lg text-muted dark:text-slate-300">
+            <strong>シラバス完全準拠：</strong> ITパスポートや基本・応用情報試験に出題される重要用語を網羅。単なる暗記ではなく、<strong>「なぜそれが必要か」</strong>と<strong>AI時代の実践的な活用方法</strong>をセットで解説します。
+          </p>
+        </div>
+      )
+    }
+
+    {
+      isAppCategory && appPosts.length > 0 && (
+        <div class="mb-16">
+          <h3 class="text-2xl font-bold mb-8 border-b-2 border-primary pb-2 dark:text-blue-400">
+            利用可能なツール・アプリ
+          </h3>
+          <BlogList posts={appPosts} />
+        </div>
+      )
+    }
+
+    {
+      isAppCategory && appPosts.length > 0 && storyPosts.length > 0 && (
+        <h3 class="text-2xl font-bold mb-8 border-b-2 border-gray-400 pb-2 dark:text-slate-400">
+          開発ストーリー・技術解説
+        </h3>
+      )
+    }
+
+    <BlogList posts={storyPosts} />
+
+    <Pagination prevUrl={page.url.prev} nextUrl={page.url.next} />
+  </section>
+</Layout>

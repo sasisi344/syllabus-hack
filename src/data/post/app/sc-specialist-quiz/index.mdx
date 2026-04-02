@@ -1,0 +1,46 @@
+---
+publishDate: 2026-03-20
+lastmod: 2026-03-26
+title: 'SC（情報処理安全確保支援士）専門用語特訓'
+description: '高度試験（SC）の午前Ⅱおよび午後対策に必要な重要語彙をマスター。シラバスの最新用語に対応。'
+excerpt: 'SC試験の合格に不可欠な「専門用語の暗記」を、もっとスマートに。フラッシュカード形式で、セキュリティの核心用語をインプット効率を最大化します。'
+image: ~/assets/images/post/common/app.png
+category: 'app'
+tags: ['情報処理安全確保支援士', 'SC', '暗記', 'セキュリティ']
+knowledge:
+  examId: 'sc'
+  type: 'app'
+  difficulty: 'advanced'
+appId: sc-specialist-quiz
+---
+
+import scTerms from '~/data/quiz/sc-terms.json';
+import FlashcardApp from '~/apps/flashcard-app/FlashcardApp';
+
+export const allData = {
+  scTerms: scTerms,
+};
+
+## SC試験合格への最短ルート：用語の「正確な」理解
+
+情報処理安全確保支援士（SC）試験では、午前IIの選択式問題はもちろん、午後試験の記述において <strong>「適切なセキュリティ用語を正しく使えるか」</strong> が合否を分けます。
+
+「意味はなんとなくわかるけれど、記述で言葉が出てこない…」
+そんな課題を解決するために、本アプリでは <strong>2-Way学習モード</strong> を搭載しました。
+
+### 本アプリの活用法
+
+1.  **用語 → 説明（午前II対策）**: 用語を見て、その定義や仕組みを正しく想起できるかチェックします。
+2.  **説明 → 用語（午後記述対策）**: 説明文から用語名を導き出す練習により、記述試験での「言葉の引き出し」を増やします。
+
+<FlashcardApp client:load allData={allData} initialDeckId="sc" />
+
+---
+
+### 重点学習カテゴリ
+
+- <strong>攻撃手法</strong>: DoS, XSS, SQLインジェクションなど、攻撃のメカニズムと対策をセットで。
+- <strong>暗号・認証</strong>: PFS, SAML, OAuth 2.0など、最新のプロトコルと強度。
+- <strong>管理基準</strong>: ISMS, ゼロトラストなど、組織的な防御の考え方。
+
+隙間時間の5分を使って、SC試験の合格を確実なものにしましょう。

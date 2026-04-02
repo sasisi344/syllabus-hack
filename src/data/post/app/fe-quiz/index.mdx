@@ -1,0 +1,72 @@
+---
+publishDate: 2026-02-18
+title: '基本情報技術者試験 攻略シミュレーター'
+excerpt: '科目A・科目B（アルゴリズム）に完全対応。擬似言語の「コード感覚」をAIと磨き、最短合格を狙う戦略的シミュレーター。'
+category: app
+tags: ['基本情報技術者', 'アルゴリズム', 'SyllabusHack']
+image: ~/assets/images/post/common/app.png
+knowledge:
+  examId: fe
+  type: app
+  difficulty: intermediate
+metadata:
+  description: '基本情報技術者試験（FE）の科目Aおよび科目B（アルゴリズム）に完全対応した、戦略的学習ツール。出題比率に基づいた効率的な演習が可能。'
+---
+
+import QuizApp from '~/apps/it-passport-quiz/QuizApp';
+import '~/apps/it-passport-quiz/quiz.css';
+import strategyQuestions from '~/data/quiz/fe/strategy.json';
+import managementQuestions from '~/data/quiz/fe/management.json';
+import technologyQuestions from '~/data/quiz/fe/technology.json';
+import practicalQuestions from '~/data/quiz/fe/practical.json';
+
+import { transformRawQuestions } from '~/apps/it-passport-quiz/transformQuestions';
+
+export const rawQuestions = [
+  ...strategyQuestions,
+  ...managementQuestions,
+  ...technologyQuestions,
+  ...practicalQuestions,
+];
+
+export const allQuestions = transformRawQuestions(rawQuestions, 'fe');
+
+## 基本情報技術者試験 攻略シミュレーター
+
+このシミュレーターは、 <strong>基本情報技術者試験（FE）</strong> の新形式（科目A・科目B）に完全対応した、戦略的学習ツールです。本番の出題比率と <strong>IRT（項目応答理論）</strong> を攻略するための設計を導入しています。
+
+---
+
+<div class="not-prose">
+  <QuizApp client:load questions={allQuestions} examId="fe" examName="基本情報技術者試験" />
+</div>
+
+---
+
+## 2025年最新：FE試験の合格ラインと新形式の攻略法
+
+基本情報技術者試験（FE）は、2023年の制度改定以来、通年受験が可能となり、内容も大きく変化しました。現在の試験において、合格を左右するのは「知識の量」ではなく、<strong>「論理的思考力（科目B）」</strong> です。
+
+### 1. 科目B：アルゴリズムとプログラミングの壁
+科目Bは全20問中、16問が <strong>データ構造及びアルゴリズム</strong> （擬似言語）に関連する問題です。
+- <strong>トレース力の重要性</strong>: コードを一行ずつ読み解き、変数の変化を追う「トレース」の精度が合否を分けます。
+- <strong>情報セキュリティ</strong>: 残り4問はセキュリティ分野から出題されます。
+
+### 2. 科目A：知識問題の効率的な解き方
+科目Aは、テクノロジ・マネジメント・ストラテジの3分野から幅広く出題されます。
+- <strong>頻出トピックに絞る</strong>: プロジェクトマネジメント、ネットワーク、データベースの基礎、そして最近では <strong>生成AIの活用</strong> に関する設問も増えています。
+
+### 3. 合格戦略：600点の壁を越える
+科目A・科目Bともに、1,000点満点中 <strong>600点以上</strong> が合格基準です。
+本アプリでは、正解を導き出すだけでなく、<strong>AI解説機能</strong> を通じて「コードの論理構造」を深く理解するスキルを身につけることができます。
+
+## よくある質問 (FAQ)
+
+### Q. 擬似言語（アルゴリズム）が苦手です。どう対策すれば良いですか？
+<strong>A.</strong> アルゴリズム問題は、いきなり全体を理解しようとせず、ループ処理や条件分岐の挙動を「小さなパーツ」として理解するのが近道です。本アプリの解説ボタンで、アルゴリズムの動きをAIに自分の言葉で説明させてみてください。
+
+### Q. ITパスポートを取得してから受験すべきですか？
+<strong>A.</strong> ITパスポートの内容はFEの科目Aと重なる部分が多いため、先に取得しておくと学習がスムーズになります。しかし、最初からFEを目指して学習を開始しても、科目B対策に時間をかければ十分合格可能です。
+
+### Q. 科目Bの試験時間は足りなくなりますか？
+<strong>A.</strong> 100分で20問を解く必要があり、1問あたり平均5分です。長文のコードに時間を取られがちですが、簡単な問題（セキュリティなど）を即座に終わらせ、難易度の高いアルゴリズム問題に時間を配分する練習を、このシミュレーターで行ってください。
