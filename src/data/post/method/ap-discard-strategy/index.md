@@ -1,6 +1,6 @@
 ---
 title: '【文系・未経験】3ヶ月で応用情報に受かるための「全力捨て問」戦略'
-image: ~/assets/images/post/common/trend.png
+image: ~/data/post/method/common-cover.png
 description: '「プログラミングができないと受からない？」いいえ、むしろ捨てた方が受かります。文系未経験者が最短で応用情報技術者試験を突破するための、戦略的撤退と科目選択法を解説します。'
 publishDate: 2026-02-02
 category: method
@@ -97,5 +97,6 @@ toc: true
 
 3ヶ月という限られた時間で勝利するには、 <strong>戦略的撤退</strong> こそが最強の武器になります。
 勇気を持って捨て、勝てる場所で確実に勝ちましょう。
+
 
 

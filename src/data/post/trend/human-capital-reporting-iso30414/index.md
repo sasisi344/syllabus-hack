@@ -9,7 +9,7 @@ knowledge:
   examId: ip
   type: news
   difficulty: beginner
-image: ~/assets/images/post/common/trend.png
+image: ~/data/post/trend/common-cover.png
 ---
 
 <div class="summary-box">
@@ -53,6 +53,7 @@ image: ~/assets/images/post/common/trend.png
 
 ---
 [シラバスハック公式アプリでこの用語のクイズを解く](#)
+
 
 
 

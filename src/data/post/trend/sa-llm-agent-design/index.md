@@ -9,7 +9,7 @@ knowledge:
   examId: sa
   type: method
   difficulty: advanced
-image: ~/assets/images/post/common/trend.png
+image: ~/data/post/trend/common-cover.png
 metadata:
   description: 'システムアーキテクトとしてLLMを自律型エージェントとして統合するための設計思想を解説。RAGの最適化からコスト、品質管理まで幅広く網羅。'
 ---
@@ -53,5 +53,6 @@ AIによる「間違った回答」をシステム的にどうフィルタリン
 設計の力でAIの力を引き出し、システムの可能性を無限に広げることができます。
 
 次世代のアーキテクトとしての第一歩を、今ここから始めましょう。
+
 
 

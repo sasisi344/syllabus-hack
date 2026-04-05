@@ -18,7 +18,7 @@ knowledge:
   syllabusRef: common-trend
   difficulty: beginner
 
-image: ~/assets/images/post/common/trend.png
+image: ~/data/post/trend/common-cover.png
 
 metadata:
   description: IPA情報処理技術者試験の最新トレンド解説。2026年からの完全CBT化、生成AI知識の導入、基本情報技術者の易化傾向、将来的な試験区分再編について。'
@@ -76,5 +76,6 @@ ITパスポートは採点に影響のない「テスト問題」として出題
 試験制度が変わるということは、求められるスキルも変わるということです。
 
 CBT化による利便性の向上や、AI知識の導入を前向きに捉え、時代が求める <strong>最新のITリテラシーを客観的に証明する手段</strong> として、IPA資格を最大限に活用していきましょう。
+
 
 

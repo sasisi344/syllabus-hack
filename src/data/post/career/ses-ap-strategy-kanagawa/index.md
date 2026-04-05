@@ -6,7 +6,7 @@ excerpt: 横浜・川崎から都内へ通勤する過酷な時間を、AP（応
 persona: 神奈川県（横浜・川崎等）から都内へ通勤するSES・エンジニア
 category: career
 tags: ['神奈川県', '横浜', '通勤ハック', '応用情報技術者', 'SyllabusHack']
-image: ~/assets/images/post/common/trend.png
+image: ~/data/post/career/common-cover.png
 knowledge:
   examId: ap
   type: method
@@ -72,6 +72,7 @@ metadata:
 <strong>関連リンク</strong>:
 - [【全国版】地方エンジニア・事務職のための「地域別キャリアハック」まとめ](/career/regional-it-career-hub)
 - [応用情報で自社に残るか外へ飛ぶか。エンジニアの自信を取り戻すAP活用術（総論）](/career/ses-ap-strategy)
+
 
 
 

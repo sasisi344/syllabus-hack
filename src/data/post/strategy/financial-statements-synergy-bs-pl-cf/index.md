@@ -2,7 +2,7 @@
 publishDate: 2026-04-01
 title: "財務諸表の繋がり：B/S・P/L・C/Fを連動して読み解く「ビジネスの透視術」"
 excerpt: "損益計算書が黒字でも、会社が潰れることがある？ ITパスポートの『財務会計』で学ぶ3つの報告書を、パズルのように組み合わせて読み解く重要メソッド。"
-image: ~/assets/images/post/common/bridge.png
+image: ~/data/post/strategy/common-cover.png
 category: "strategy"
 tags: ["財務諸表", "BS", "PL", "キャッシュフロー", "ITパスポート", "会計"]
 knowledge:
@@ -81,3 +81,4 @@ AIが、売掛金の回収サイクルの悪化や、過剰在庫、棚卸資産
 3.  **C/Fで生き残る力（継続性）を確実にする** 。
 
 シラバスの知識という「レンズ」を3つ重ねることで、あなたのビジネス視界はもっと広く、もっと深くなるはずです。
+

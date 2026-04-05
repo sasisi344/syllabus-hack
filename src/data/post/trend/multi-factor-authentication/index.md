@@ -9,7 +9,7 @@ knowledge:
   examId: ip
   type: news
   difficulty: beginner
-image: ~/assets/images/post/common/trend.png
+image: ~/data/post/trend/common-cover.png
 metadata:
   description: 'ITパスポート試験で頻出の多要素認証。知識、所持、生体の3要素から2つ以上を組み合わせて本人確認。パスキーの話題も網羅。'
 ---
@@ -39,5 +39,6 @@ AIを使って「MFAの組み合わせチェック」を学習。
 
 ### プロンプト例:
 > 「指紋認証（生体）とICカード（所持）の組み合わせは、2要素認証と呼べますか？ 理由を添えて100文字以内で回答してください。」
+
 
 

@@ -3,7 +3,7 @@ publishDate: 2026-02-19
 updateDate: 2026-02-19
 title: '正解には価値がない。AIに自分の「思考の癖」を分析させて弱点だけを潰す方法'
 excerpt: '間違えた問題だけを集めた「ミス・ノート」を作り、AIに傾向を診断してもらう。自分の認知バイアスを修正するデータ活用法。'
-image: ~/assets/images/post/common/trend.png
+image: ~/data/post/method/common-cover.png
 category: 'method'
 tags: ['学習法', 'データ分析', 'Notion', 'メタ認知']
 metadata:
@@ -63,5 +63,6 @@ AIは冷徹です。「基礎理解が足りていない」と事実を突きつ
 正解した問題は忘れましょう。もう二度と解く必要はありません。
 間違えた問題だけを、宝石のように大切に収集し、分析し、克服する。
 それが最短の合格ルートです。
+
 
 

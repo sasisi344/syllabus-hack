@@ -18,7 +18,7 @@ knowledge:
   syllabusRef: common-trend
   difficulty: beginner
 
-image: ~/assets/images/post/common/trend.png
+image: ~/data/post/trend/common-cover.png
 
 metadata:
   description: IPA情報処理技術者試験における生成AIの出題範囲と対策。セキュリティやネットワーク分野での重要性、最新トレンドをキャッチアップする方法について。'
@@ -52,5 +52,6 @@ ITパスポートから高度試験に至るまで、シラバスの改訂によ
 ## まとめ：AIリテラシーは「ITの基礎体力」へと変わった
 
 生成AIの知識は、もはや特殊なスキルではなく、ITに関わるすべての人が備えておくべき <strong>基礎体力</strong> です。最新の技術動向にアンテナを張りつつ、セキュリティやネットワークといった既存の強みと掛け合わせることで、試験合格の先にある市場価値を高めていきましょう。
+
 
 

@@ -2,7 +2,7 @@
 title: "バグを見逃さない！V字モデルと各テスト工程の意味"
 description: "単体、結合、システム、運用テスト。それぞれの違いと、V字モデルによってどのように設計とテストが対応しているかを解説します。"
 date: 2026-03-31
-image: ~/assets/images/post/common/trend.png
+image: ~/data/post/theory/common-cover.png
 category: theory
 tags: ["シラバス対策", "テスト工程", "V字モデル"]
 draft: false
@@ -95,5 +95,6 @@ V字モデルは、左側に<strong>設計工程</strong>、右側に<strong>テ
 <strong>試験対策メモ</strong>
 テストを「開発者が行うもの（単体・結合）」と「ユーザーが行うもの（受入）」で分ける考え方も重要です。
 :::
+
 
 

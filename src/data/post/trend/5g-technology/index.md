@@ -9,7 +9,7 @@ knowledge:
   examId: ip
   type: news
   difficulty: beginner
-image: ~/assets/images/post/common/trend.png
+image: ~/data/post/trend/common-cover.png
 metadata:
   description: 'ITパスポート試験の定番「5G」。高速大容量、低遅延、多数同時接続の3つの特徴が試験でどう問われるか、分かりやすく整理。'
 ---
@@ -39,5 +39,6 @@ AIを使って「5Gの3本柱」を丸暗記。
 
 ### プロンプト例:
 > 「5G通信の3要素である『高速大容量』『超低遅延』『多数同時接続』を、それぞれ1分で分かりやすく、日常生活の例えを使って箇条書きで解説してください（各項目1行）。」
+
 
 

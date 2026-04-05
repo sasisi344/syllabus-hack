@@ -4,7 +4,7 @@ description: "複数の事業を「市場成長率」と「シェア」で分類
 pubDate: "2026-03-31"
 category: "theory"
 tags: ["経営戦略", "PPM", "経営資源", "ポートフォリオ"]
-image: ~/assets/images/post/common/trend.png
+image: ~/data/post/theory/common-cover.png
 ---
 
 「限られたお金（資源）を、どの事業に突っ込むべきか？」
@@ -56,6 +56,7 @@ PPMは単なる仕分け作業ではなく、企業という船の<strong>「重
 
 <strong>【次に読むべき記事】</strong>
 [バリューチェーン：価値が生まれる「鎖」の正体をAIで解剖する](./value-chain-analysis)
+
 
 
 

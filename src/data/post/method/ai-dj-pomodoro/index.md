@@ -4,7 +4,7 @@ lastmod: 2026-02-28
 persona: 資格試験の勉強中に集中力が途切れやすいIT初学者
 title: '25分で脳をハックする。AIに最適な「集中BGM」を作らせてポモドーロを回す'
 excerpt: '集中と弛緩のサイクルをAI DJが管理。最適なBGM生成でゾーンに入る。25分＋5分の脳科学的ハック。'
-image: ~/assets/images/post/common/trend.png
+image: ~/data/post/method/common-cover.png
 category: method
 tags: ['学習法', '集中力', 'ポモドーロ', 'SyllabusHack']
 metadata:
@@ -84,5 +84,6 @@ Lo-fi Hip Hop style, 90 BPM, no vocals, focus study, deep focus
 大切なのは、自分の脳の癖を知ることです。
 
 画一的なルールに自分を合わせるのではなく、AIという優秀なパートナーを使って、あなたにとって最適な <strong>リズム</strong> を見つけ出しましょう。
+
 
 

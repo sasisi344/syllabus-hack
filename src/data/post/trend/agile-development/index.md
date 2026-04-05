@@ -9,7 +9,7 @@ knowledge:
   examId: ip
   type: news
   difficulty: beginner
-image: ~/assets/images/post/common/trend.png
+image: ~/data/post/trend/common-cover.png
 metadata:
   description: 'ITパスポート試験で問われるアジャイル開発の基本。ウォーターフォールとの違いや、メリット・デメリットを丁寧に解説。'
 ---
@@ -39,5 +39,6 @@ AIを使って「アジャイルなカレー作り」を想像する。
 
 ### プロンプト例:
 > 「あらかじめ完璧なレシピ（設計書）を用意して作るカレー（ウォーターフォール）と、味見をしながら具材やスパイスを足していくカレー（アジャイル）の違いを、変化への対応という観点で100文字以内で説明してください。」
+
 
 

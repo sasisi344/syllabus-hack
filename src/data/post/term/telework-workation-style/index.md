@@ -2,7 +2,7 @@
 publishDate: 2026-04-01
 title: "テレワーク・ワーケーションとは？場所にとらわれない働き方のIT基礎"
 excerpt: "ICTを活用した新しい働き方。テレワーク、ワーケーション、サテライトオフィスなど、IT試験の最新キーワードを解説。"
-image: ~/assets/images/post/common/term.png
+image: ~/data/post/term/common-cover.png
 category: "glossary"
 tags: ["テレワーク", "ワーケーション", "働き方改革", "ITパスポート", "ICT"]
 knowledge:
@@ -38,3 +38,4 @@ AIが「VDIによるデータ保護」や「勤怠管理ツールの活用」「
 テレワークやワーケーションは、IT（ICT）の力によって、私たちの生活と仕事のバランスを大きく変える可能性を持っています。
 
 試験では、 <strong>ICTを活用した場所選ばない働き方</strong> という大原則と、それを支える <strong>VPN/VDI</strong> などの用語をセットで覚えておきましょう。
+

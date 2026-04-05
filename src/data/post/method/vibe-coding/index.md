@@ -2,7 +2,7 @@
 publishDate: 2026-02-10
 lastmod: 2026-02-17
 title: バイブコーディングで実現する「自分専用」の資格試験対策アプリ開発
-image: ~/assets/images/post/common/trend.png
+image: ~/data/post/method/common-cover.png
 excerpt: プログラミング知識がなくても、AIエディターと「会話」するだけで、シラバスに基づいた高度な学習アプリが作れる時代。その具体的なステップを解説します。
 category: method
 tags:
@@ -65,5 +65,6 @@ metadata:
 
 「作る」苦労をAIに任せ、人間は「学ぶ」楽しさに集中する。
 これが、Syllabus Hackが提案する <strong>バイブコーディング×資格試験</strong> の新しい形です。
+
 
 

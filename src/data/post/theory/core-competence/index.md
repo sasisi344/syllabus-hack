@@ -4,7 +4,7 @@ description: "競合がどれだけ努力しても追いつけない圧倒的な
 pubDate: "2026-03-31"
 category: "theory"
 tags: ["経営戦略", "コアコンピタンス", "競争優位", "AI自己分析"]
-image: ~/assets/images/post/common/trend.png
+image: ~/data/post/theory/common-cover.png
 ---
 
 「わが社でなければならない理由は何か？」
@@ -58,6 +58,7 @@ image: ~/assets/images/post/common/trend.png
 
 <strong>【次に読むべき記事】</strong>
 [CRM / SCM：顧客と物流を最適化する「マネジメントの型」を学ぶ](./crm-scm-management)
+
 
 
 

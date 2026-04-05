@@ -2,7 +2,7 @@
 publishDate: 2026-04-01
 title: "CPUとメモリの役割とは？「頭脳」と「作業机」のITハードウェア基礎"
 excerpt: "計算が得意なCPU、記憶を一時的に置くメモリ。コンピュータの主要パーツの役割を、事務作業に例えて最強解説。"
-image: ~/assets/images/post/common/term.png
+image: ~/data/post/term/common-cover.png
 category: "glossary"
 tags: ["CPU", "メモリ", "RAM", "レジスタ", "ITパスポート", "ハードウェア"]
 knowledge:
@@ -39,3 +39,4 @@ AIが「並行作業のしやすさ（マルチコア）」や「一時保存領
 CPU（脳）がいくら速くても、メモリ（机）が狭ければ作業は進みません。逆にメモリが広くてもCPUが遅ければ指示が追いつきません。
 
 試験では、 <strong>演算・制御</strong> を行うのがCPU、 <strong>一時記憶</strong> を行うのがメモリ、という基本の役割分担を確実に覚えましょう。
+

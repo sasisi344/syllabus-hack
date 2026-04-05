@@ -2,7 +2,7 @@
 publishDate: 2026-03-31
 title: "ブラウザ経由の罠！XSS（クロスサイトスクリプティング）の脅威とWebサイトの保護方法"
 excerpt: "掲示板やSNSに潜む不正スクリプト。XSSの仕組みから、サニタイジングやWAFなどの防御策まで、ITパスポート試験の重要ポイントを速攻解説。"
-image: ~/assets/images/post/common/trend.png
+image: ~/data/post/trend/common-cover.png
 category: trend
 tags: [XSS, 情報セキュリティ, サイバー攻撃, ITパスポート, WAF]
 persona: "Webサイトの安全性を学びたい新米エンジニア"
@@ -53,6 +53,7 @@ knowledge:
 
 ---
 [シラバスハック公式アプリでこの用語のクイズを解く](#)
+
 
 
 

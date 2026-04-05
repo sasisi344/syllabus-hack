@@ -1,7 +1,7 @@
 ---
 title: '【NotebookLM】ITパスポート試験対策を自炊！AIでオリジナル特訓ドリルを作る爆速ルーティン'
 excerpt: '「公式の過去問だけでは物足りない」「最新シラバスの範囲をもっと解きたい」そんな悩みはNotebookLMで解決。公式PDFを読み込ませるだけで、自分専用の50問ドリルを爆速で生成するTipsを公開します。'
-image: ~/assets/images/post/common/trend.png
+image: ~/data/post/method/common-cover.png
 publishDate: 2026-02-25
 category: method
 tags: ['NotebookLM', 'ITパスポート', '勉強法', 'AI活用', '独学']
@@ -78,5 +78,6 @@ ITパスポート試験に限って言えば、最も効率的なのは <strong>
 
 - [【NotebookLM】AIを「スパルタ専属コーチ」にするクイズ機能のハック術](/method/notebooklm-quiz)
 - [Geminiに自分専用の過去問を作らせる最強プロンプト集](/method/gemini-prompt-collection)
+
 
 

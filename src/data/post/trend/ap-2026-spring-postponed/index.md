@@ -2,7 +2,7 @@
 publishDate: 2026-02-25
 title: '【緊急速報】2026年度春の応用情報・高度試験が延期に。CBT移行の波乱と対策案'
 excerpt: 'IPA（情報処理推進機構）は、2026年度から導入予定のCBT方式への移行に伴い、春期試験の大幅な延期を発表しました。応用情報技術者試験を目指す受験生にとっての激震と、今すぐ実践できる学習戦略を解説します。'
-image: ~/assets/images/post/common/trend.png
+image: ~/data/post/trend/common-cover.png
 category: trend
 tags:
   - 応用情報技術者
@@ -93,5 +93,6 @@ IPAは同時に、 <strong>2027年度から新試験制度を導入する</stron
 ---
 
 <strong>参考文献：</strong> IPA プレス発表「情報処理技術者試験「応用情報技術者試験」及び「高度試験」のCBT方式への移行について」（2026年2月24日）
+
 
 

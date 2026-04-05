@@ -3,7 +3,7 @@ publishDate: 2026-02-23
 updateDate: 2026-02-23
 title: '【生成AI資格】用途・難易度別の強化学習プラン大公開'
 excerpt: '生成AIパスポートや導入実務者検定に最短合格するための、あなたの職種や目的に合わせた「ジャンル別・強化学習プラン」を解説します。新機能のドリルをフル活用して弱点を克服しましょう！'
-image: ~/assets/images/post/common/trend.png
+image: ~/data/post/method/common-cover.png
 category: method
 tags: ['学習メソッド', '生成AIパスポート', '生成AI導入実務者検定', '強化学習', 'ドリル']
 knowledge:
@@ -84,5 +84,6 @@ AIを使った当サイトのドリルは、単に「ア・イ・ウ・エ」を
 - <strong>間違えた問題のキーワードをノートアプリにまとめる</strong>
 
 これらのジャンル別プランを活用して、限られた時間の中で最大の学習効果を発揮し、一発合格を勝ち取りましょう！
+
 
 

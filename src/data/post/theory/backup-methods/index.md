@@ -3,7 +3,7 @@ publishDate: "2026-04-01"
 lastmod: "2026-04-01"
 title: "もしもの時の命綱！全バックアップ、増分、差分の使い分け術"
 excerpt: "HDDの故障やランサムウェアの恐怖。データを守る3つのバックアップ方式の違いと、リカバリを最速にする『最適な組み合わせ』を解説。"
-image: ~/assets/images/post/common/trend.png
+image: ~/data/post/theory/common-cover.png
 category: "theory"
 tags: ["バックアップ", "障害対応", "リカバリ", "試験対策"]
 knowledge:
@@ -76,6 +76,7 @@ AIに以下のプロンプトを投げて、設計の練習をしてみましょ
 
 <strong>【次に読むべき記事】</strong>
 [暗号化の仕組み：共通鍵と公開鍵。情報を守る『魔法の錠前』](../public-key-cryptography)
+
 
 
 

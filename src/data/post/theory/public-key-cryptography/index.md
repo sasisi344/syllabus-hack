@@ -3,7 +3,7 @@ publishDate: "2026-04-01"
 lastmod: "2026-04-01"
 title: "秘密の鍵を渡さずに暗号化！公開鍵暗号の魔法"
 excerpt: "相手に会わなくても安全にやり取りできる？インターネットのセキュリティを支える「公開鍵」と「秘密鍵」の仕組みを直感的に解説。"
-image: ~/assets/images/post/common/trend.png
+image: ~/data/post/theory/common-cover.png
 category: "theory"
 tags: ["情報セキュリティ", "暗号化", "公開鍵暗号", "試験対策"]
 knowledge:
@@ -82,6 +82,7 @@ AIに身近な例え話を作らせると、一気にイメージが湧きます
 
 <strong>【次に読むべき記事】</strong>
 [共通鍵暗号方式：スピード重視！高速で効率的な暗号化の仕組み](../common-key-cryptography)
+
 
 
 

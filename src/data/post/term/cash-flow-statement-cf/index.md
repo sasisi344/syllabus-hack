@@ -2,7 +2,7 @@
 publishDate: 2026-04-01
 title: "キャッシュフロー計算書（C/F）とは？現金の流れを掴む3つの区分"
 excerpt: "利益は出ているのに現金がない？会社の「血液」である現金の動きを記録する「C/F」。営業・投資・財務の3つの活動を解説。"
-image: ~/assets/images/post/common/term.png
+image: ~/data/post/term/common-cover.png
 category: "glossary"
 tags: ["キャッシュフロー計算書", "CF", "財務諸表", "ITパスポート", "用語集"]
 knowledge:
@@ -38,3 +38,4 @@ AIが「利益はあるがキャッシュが不足している状態」を具体
 利益は計算方法で変わることがありますが、現金（キャッシュ）の出入りは事実そのものです。
 
 試験では「<strong>どの活動に分類されるか</strong>」を問う問題が多いため、まずは3つの区分の定義をしっかり押さえましょう。
+

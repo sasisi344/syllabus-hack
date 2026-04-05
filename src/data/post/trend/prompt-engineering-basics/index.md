@@ -9,7 +9,7 @@ knowledge:
   examId: ip
   type: news
   difficulty: beginner
-image: ~/assets/images/post/common/trend.png
+image: ~/data/post/trend/common-cover.png
 ---
 
 ## 3行まとめ
@@ -37,6 +37,7 @@ AIを使って「プロンプトエンジニアリング」自体を学ぶと一
 ## まとめ・次のステップ
 AIはもはや「魔法」ではなく、適切な「対話」で動かすツールです。
 次は、さらに高度なAI活用技術である「<strong>RAG（検索拡張生成）</strong>」について深掘りしましょう。
+
 
 
 

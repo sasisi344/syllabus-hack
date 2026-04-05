@@ -2,7 +2,7 @@
 publishDate: 2026-04-01
 title: "貸借対照表（B/S）とは？「資産・負債・純資産」のパズルを解く"
 excerpt: "ある時点での会社の財産状態を示す「B/S」。左側（資産）と右側（負債・純資産）がなぜ一致するのか、ITパスポートの受験対策向けに図解。"
-image: ~/assets/images/post/common/term.png
+image: ~/data/post/term/common-cover.png
 category: "glossary"
 tags: ["貸借対照表", "BS", "財務諸表", "ITパスポート", "用語集"]
 knowledge:
@@ -41,3 +41,4 @@ AIが「支払能力の欠如」や「資金繰りの悪化」といった具体
 貸借対照表は、損益計算書（P/L）と並んで会社の経営状態を把握するための「車の両輪」のような存在です。
 
 試験では、特に <strong>資産 = 負債 + 純資産</strong> という等式と、 <strong>自己資本</strong> の意味が頻出するため、常に左右のバランスをイメージして学習を進めましょう。
+

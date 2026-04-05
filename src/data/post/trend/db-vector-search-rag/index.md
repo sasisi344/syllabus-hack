@@ -9,7 +9,7 @@ knowledge:
   examId: db
   type: method
   difficulty: advanced
-image: ~/assets/images/post/common/trend.png
+image: ~/data/post/trend/common-cover.png
 metadata:
   description: '生成AI時代に必須となるベクトル検索とRAGの基礎をIT専門家の視点で解説。DBスペシャリストに求められる新領域の設計思想を学びます。'
 ---
@@ -53,5 +53,6 @@ SQLのスキルを武器に、AI時代の「データの器」をどう設計す
 旧来の設計手法にベクトル検索の知識を組み合わせることで、唯一無二のスペシャリストになれるはずです。
 
 データベースの新しい地平を、今すぐ切り拓きましょう。
+
 
 

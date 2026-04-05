@@ -2,7 +2,7 @@
 publishDate: 2026-04-01
 title: "データマイニングとは？情報の山から「黄金」を探す技術"
 excerpt: "おむつとビールが一緒に売れる？巨大なデータから、自分たちでは気づけない意外な法則を見つけ出す手法を解説。"
-image: ~/assets/images/post/common/term.png
+image: ~/data/post/term/common-cover.png
 category: "glossary"
 tags: ["データマイニング", "相関関係", "マーケットバスケット分析", "ITパスポート", "AI・ビッグデータ"]
 knowledge:
@@ -41,3 +41,4 @@ AIが「相関関係の活用」や「購入ルールの発見」といった具
 データマイニングは、単なる集計ではなく、そこから新しい「意味」を発掘するためのプロセスです。
 
 試験では、 <strong>おむつとビール</strong> のエピソードと、 <strong>マーケットバスケット分析</strong> というキーワードをセットで覚えて得点源にしましょう。
+

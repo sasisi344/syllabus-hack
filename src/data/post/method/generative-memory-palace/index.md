@@ -3,7 +3,7 @@ publishDate: 2026-02-19
 updateDate: 2026-02-19
 title: '覚えられない専門用語は「絵」にしろ。生成AIで記憶の宮殿を建築する狂気の暗記術'
 excerpt: 'テキストの羅列をDALL-E 3やMidjourneyで印象的な「情景」に。最強の暗記術「記憶の宮殿」をAIでブーストする。'
-image: ~/assets/images/post/common/trend.png
+image: ~/data/post/method/common-cover.png
 category: 'method'
 tags: ['学習法', '画像生成AI', '記憶術', 'Midjourney']
 metadata:
@@ -63,5 +63,6 @@ metadata:
 
 あなたの脳の処理能力の大部分は視覚処理に割かれています。
 文字だけで覚えるのは、脳のCPUの数%しか使っていないようなものです。
+
 
 

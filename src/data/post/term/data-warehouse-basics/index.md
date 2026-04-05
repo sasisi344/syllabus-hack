@@ -2,7 +2,7 @@
 publishDate: 2026-04-01
 title: "データウェアハウス（DWH）とは？「データの倉庫」の4つの特徴"
 excerpt: "散らばったデータを一箇所に集める「DWH」。時系列・非更新・サブジェクト指向など、試験頻出の4つの定義を、ITの倉庫管理と例えて解説。"
-image: ~/assets/images/post/common/term.png
+image: ~/data/post/term/common-cover.png
 category: "glossary"
 tags: ["データウェアハウス", "DWH", "ビッグデータ", "ITパスポート", "DBMS"]
 knowledge:
@@ -41,3 +41,4 @@ AIが「統合的な分析」や「時系列でのトレンド把握」といっ
 データウェアハウスは、バラバラの「事実（データ）」を、経営に役立つ「智恵（インテリジェンス）」に変えるための第一歩です。
 
 試験では、 <strong>サブジェクト指向</strong> と <strong>時系列</strong> という言葉と、それが「分析」のための倉庫であることをセットで覚えましょう。
+

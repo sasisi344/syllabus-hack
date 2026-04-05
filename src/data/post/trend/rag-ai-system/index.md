@@ -9,7 +9,7 @@ knowledge:
   examId: ip
   type: news
   difficulty: beginner
-image: ~/assets/images/post/common/trend.png
+image: ~/data/post/trend/common-cover.png
 ---
 
 ## 3行まとめ
@@ -39,6 +39,7 @@ RAGの仕組みを、AIに身近な状況で例えさせましょう。
 ## まとめ・次のステップ
 RAGは、AIを「仕事で使えるレベル」に引き上げる魔法の技術です。
 次は、RAGが防ごうとしているAIの最大の弱点「<strong>ハルシネーション（幻覚）</strong>」について深掘りしましょう。
+
 
 
 

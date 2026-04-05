@@ -2,7 +2,7 @@
 publishDate: 2026-03-31
 title: "フェイクニュースの脅威！ディープフェイクの仕組みとITパスポート試験対策"
 excerpt: "AIで偽の動画や画像を作る「ディープフェイク」。SNSでの拡散やなりすまし詐欺のリスクなど、セキュリティの観点から最速解説。"
-image: ~/assets/images/post/common/trend.png
+image: ~/data/post/trend/common-cover.png
 category: trend
 tags: [ディープフェイク, 生成AI, 情報セキュリティ, GAN, シラバス]
 persona: "情報の真偽を見極めたいネットユーザー"
@@ -53,6 +53,7 @@ knowledge:
 
 ---
 [シラバスハック公式アプリでこの用語のクイズを解く](#)
+
 
 
 

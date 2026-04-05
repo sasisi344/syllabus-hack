@@ -17,7 +17,7 @@ knowledge:
   syllabusRef: common-trend
   difficulty: intermediate
 
-image: ~/assets/images/post/common/trend.png
+image: ~/data/post/trend/common-cover.png
 
 metadata:
   description: 2026年度から始まる高度試験のCBT化。分割受験の可能性や、論文試験のキーボード入力移行によるメリット・デメリットについて詳しく解説します。'
@@ -75,5 +75,6 @@ CBT移行に伴い、科目名が以下のように再編されます。
 2026年度からのCBT化は、受験者にとって「利便性」と「肉体的な容易さ」という大きな恩恵をもたらします。
 
 一方で、タイピングや画面読解といった新しいスキルへの対応も求められます。今からPC操作に馴染んでおくことで、変化をチャンスに変えていきましょう。
+
 
 

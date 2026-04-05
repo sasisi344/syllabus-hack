@@ -3,7 +3,7 @@ publishDate: "2026-04-01"
 lastmod: "2026-04-01"
 title: "データの衝突を防げ！排他制御とデッドロックの攻略法"
 excerpt: "複数の人が同時にデータを更新したらどうなる？共有ロック、占有ロックの違いと、システムを停止させる「デッドロック」の回避策を解説。"
-image: ~/assets/images/post/common/trend.png
+image: ~/data/post/theory/common-cover.png
 category: "theory"
 tags: ["データベース", "排他制御", "デッドロック", "試験対策"]
 knowledge:
@@ -72,6 +72,7 @@ AIに「レビュアー」として参加してもらうのがおすすめ。
 
 <strong>【次に読むべき記事】</strong>
 [バックアップとリカバリ：もしもデータが壊れても『時計の針』を戻す技術](../backup-methods)
+
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: '【NotebookLM】AIを「スパルタ専属コーチ」にするクイズ機能のハック術'
-image: ~/assets/images/post/common/trend.png
+image: ~/data/post/method/common-cover.png
 description: 'NotebookLM標準のクイズ機能だけでは物足りないあなたへ。チャット機能を活用して「弱点だけを執拗に攻める」「AIに授業をする」など、合格力を極限まで高めるパーソナライズ学習戦略を公開します。'
 publishDate: 2026-02-07T09:30:00+09:00
 category: method
@@ -80,5 +80,6 @@ NotebookLMを使い倒す、最強のルーティンはこれです。
 
 AIに受動的に従うのではなく、<strong>AIを能動的に使い倒す</strong>。
 これこそが、Syllabus Hack流の学習スタイルです。
+
 
 

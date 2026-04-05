@@ -5,7 +5,7 @@ title: '【東京都版】シラバスハック：超高密度な交通網を「
 excerpt: '東京都内の移動時間は「最速の学習環境」です。山手線の運行密度を逆手に取ったActive Recall法から、新宿・秋葉原の優良CBT会場事情までを網羅。'
 category: method
 tags: ['地域最適化', '東京都', 'CBT対策', '効率的学習', '山手線ハック']
-image: ~/assets/images/post/common/trend.png
+image: ~/data/post/method/common-cover.png
 persona: '都内IT企業への転職を目指す20代・30代、または通勤時間を有効活用したいIT初学者'
 knowledge:
   examId: common
@@ -67,5 +67,6 @@ metadata:
 満員電車のストレスを、 <strong>「2分単位のマイクロ学習サイクル」</strong> へと変換することで、忙しい日常の中でも最短合格を掴み取ることが可能です。
 
 AI家庭教師と共に、今日から新宿・渋谷・秋葉原をあなたのキャンパスに変えましょう。
+
 
 

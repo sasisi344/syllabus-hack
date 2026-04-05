@@ -2,7 +2,7 @@
 publishDate: 2026-04-01
 title: "UIとUXの違いとは？「見た目」と「体験」をデザインする基本"
 excerpt: "ボタンの押しやすさ（UI）か、使った後の満足感（UX）か。現代のITサービスに欠かせない2つの概念を試験対策に整理。"
-image: ~/assets/images/post/common/term.png
+image: ~/data/post/term/common-cover.png
 category: "glossary"
 tags: ["UI", "UX", "ユーザーインターフェース", "ユーザーエクスペリエンス", "ITパスポート"]
 knowledge:
@@ -42,3 +42,4 @@ AIが「プロセスの簡略化」や「ユーザーテスト（行動観察）
 UIは「見せる」もの、UXは「感じさせる」ものです。
 
 試験では、 <strong>外観や操作</strong> という言葉があれば UI、 <strong>満足感や体験</strong> という言葉があれば UX と結びつけて考えましょう。
+

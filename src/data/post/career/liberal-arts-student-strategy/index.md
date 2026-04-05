@@ -20,7 +20,7 @@ knowledge:
   difficulty: beginner
 appId: flashcard-app
 
-image: ~/assets/images/post/common/trend.png
+image: ~/data/post/career/common-cover.png
 
 metadata:
   description: 文系学生向けのIT資格（ITパスポート、基本情報）を活用した就活戦略を解説。面接でのアピール方法やガクチカへの組み込み方など、内定直結のノウハウを紹介します。
@@ -81,5 +81,6 @@ metadata:
 
 今日から学習を開始し、自信を持って面接会場に乗り込みましょう。
 合格の先には、あなたが想像しているよりも広い世界が広がっています。
+
 
 

@@ -9,7 +9,7 @@ knowledge:
   examId: st
   type: method
   difficulty: advanced
-image: ~/assets/images/post/common/trend.png
+image: ~/data/post/trend/common-cover.png
 metadata:
   description: 'AI導入の現場で直面するPoCで終わる課題への処方箋。ITストラテジストとして、AIのビジネス価値をどう証明し、組織に定着させるかを解説。'
 ---
@@ -53,5 +53,6 @@ IPAの最新基準に基づいた<strong>リスク管理</strong>のフレーム
 不透明なAIの価値を明確な言葉で語り、組織を動かし、ビジネスの変革を実現してください。
 
 あなたの描くロードマップが、組織の未来を創ります。
+
 
 

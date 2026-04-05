@@ -9,7 +9,7 @@ knowledge:
   examId: ip
   type: news
   difficulty: beginner
-image: ~/assets/images/post/common/trend.png
+image: ~/data/post/trend/common-cover.png
 ---
 
 ## 3行まとめ
@@ -39,6 +39,7 @@ image: ~/assets/images/post/common/trend.png
 ## まとめ・次のステップ
 リスキリングは単なる流行語ではなく、試験合格後のあなたのキャリアにも直結する概念です。
 次は、このリスキリングの最大の目的である「<strong>DX（デジタルトランスフォーメーション）</strong>」について理解を深めましょう。
+
 
 
 

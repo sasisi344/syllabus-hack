@@ -2,7 +2,7 @@
 title: "Web閲覧の基本と安全！HTTPとHTTPSの違いを解説"
 description: "Webページはどうやって表示される？HTTPのステータスコードから、SSL/TLSによる暗号化のHTTPSまでを分かりやすく解説します。"
 date: 2026-03-31
-image: ~/assets/images/post/common/trend.png
+image: ~/data/post/theory/common-cover.png
 category: theory
 tags: ["シラバス対策", "ネットワーク", "HTTP/HTTPS"]
 draft: false
@@ -90,5 +90,6 @@ Web通信を学ぶなら、まずは<strong>リクエスト・レスポンス</s
 <strong>試験対策メモ</strong>
 HTTPSが <strong>443番ポート</strong>、HTTPが <strong>80番ポート</strong> であることも、暗記必須のポイントです。
 :::
+
 
 

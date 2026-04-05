@@ -2,7 +2,7 @@
 title: "テストの中身を見るか見ないか？ホワイトボックス/ブラックボックス手法を比較"
 description: "プログラムの「構造」をチェックするか、「機能」をチェックするか。ホワイトボックスとブラックボックス、それぞれの特徴と、試験頻出のキーワードを解説します。"
 date: 2026-03-31
-image: ~/assets/images/post/common/trend.png
+image: ~/data/post/theory/common-cover.png
 category: theory
 tags: ["シラバス対策", "テスト手法", "ホワイトボックス"]
 draft: false
@@ -87,5 +87,6 @@ draft: false
 <strong>試験対策メモ</strong>
 コードの品質を高めるなら白、ユーザーの期待に応えるなら黒です。どちらが欠けても100点のテストにはなりません。
 :::
+
 
 

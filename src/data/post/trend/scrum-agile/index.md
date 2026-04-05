@@ -9,7 +9,7 @@ knowledge:
   examId: ip
   type: news
   difficulty: beginner
-image: ~/assets/images/post/common/trend.png
+image: ~/data/post/trend/common-cover.png
 metadata:
   description: 'ITパスポート試験で頻出の「スクラム開発」の役割。PO、スクラムマスター、開発チーム。それぞれの責任を分かりやすく整理します。'
 ---
@@ -40,5 +40,6 @@ AIを使って「スクラムチームの会話」を覗く。
 
 ### プロンプト例:
 > 「スクラム開発における『スクラムマスター（SM）』の役割を、サッカーチームの審判やコーチではなく『用具係兼グラウンド整備員（チームの邪魔を取り除く人）』に例えて、その重要性を100文字以内で説明してください。」
+
 
 

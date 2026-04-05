@@ -4,7 +4,7 @@ description: "一目で進捗がわかる魔法の表「ガントチャート」
 pubDate: "2026-03-31"
 category: "theory"
 tags: ["プロジェクトマネジメント", "ガントチャート", "スケジュール管理", "AIツール"]
-image: ~/assets/images/post/common/trend.png
+image: ~/data/post/theory/common-cover.png
 ---
 
 プロジェクトの進捗を報告する際、数字だけのリストよりも圧倒的に「伝わる」もの。それが<strong>ガントチャート（Gantt Chart）</strong>です。
@@ -58,6 +58,7 @@ Mermaidコードを対応するエディタ（Mermaid Live Editorなど）に貼
 
 <strong>【次に読むべき記事】</strong>
 [SLA / SLO：サービスの品質保証と合意の重要性](./sla-slo-service-quality)
+
 
 
 

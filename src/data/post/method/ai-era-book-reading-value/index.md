@@ -9,7 +9,7 @@ knowledge:
   examId: common
   type: method
   difficulty: beginner
-image: ~/assets/images/post/common/trend.png
+image: ~/data/post/method/common-cover.png
 metadata:
   description: 'AIで即座に答えが得られる時代に、読書がなぜ必要なのか。体系的な知識の地図（シラバス）を手に入れ、AIへの「問い」を洗練させるための読書ハックを解説。'
 ---
@@ -55,5 +55,6 @@ metadata:
 本で「知識の地図」を手に入れ、AIで「特定の地点」を深く掘り下げる、という新時代の学習スタイルを確立しましょう。
 
 今すぐ書店に足を運び、自分がまだ知らない世界をハックするための1冊を選んでください。
+
 
 

@@ -6,7 +6,7 @@ excerpt: ITパスポートは「ただの暗記科目」ではありません。
 persona: 非IT職のビジネスパーソン、就活・転職を控えた学生
 category: career
 tags: ['ITパスポート', 'キャリア', 'リスキリング', 'DX', 'SyllabusHack']
-image: ~/assets/images/post/common/trend.png
+image: ~/data/post/career/common-cover.png
 knowledge:
   examId: ip
   type: method
@@ -107,5 +107,6 @@ IPの価値は、その地域の主要産業（製造、観光、スタートア
 ITパスポートは、あなたのキャリアを広げる <strong>最初の扉</strong> です。
 
 「わからない」という恐怖を「わかる」という自信に変え、デジタル社会という大海原を自由に航海するためのライセンスを手に入れましょう。
+
 
 

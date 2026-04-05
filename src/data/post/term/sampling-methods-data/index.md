@@ -2,7 +2,7 @@
 publishDate: 2026-04-01
 title: "サンプリング（標本抽出）とは？全体を知るための調査の仕組み"
 excerpt: "全員に聞くのは無理？一部のデータから全体を推測する「サンプリング」。ランダム抽出や層化抽出など、IT試験の基本知識を網羅。"
-image: ~/assets/images/post/common/term.png
+image: ~/data/post/term/common-cover.png
 category: "glossary"
 tags: ["サンプリング", "標本抽出", "統計", "ITパスポート", "リサーチ"]
 knowledge:
@@ -39,3 +39,4 @@ AIが「若者の携帯電話不所持による偏り」や「精度の高い抽
 サンプリングの目的は、少ない労力でより正確に全体の状態を把握することにあります。
 
 試験では、 <strong>手法の名称</strong> とその <strong>選び方のルール</strong> を組み合わせて覚えることが、得点への近道です。
+

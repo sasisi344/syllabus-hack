@@ -1,6 +1,6 @@
 ---
 title: '【完全未経験から】情報セキュリティマネジメント（SG）最短合格ロードマップ'
-image: ~/assets/images/post/common/trend.png
+image: ~/data/post/method/common-cover.png
 description: '「非エンジニア・完全未経験」から、ITパスポートの次に情報セキュリティマネジメント（SG）を一発合格するためのロードマップ。生成AIを使った独自の「ケーススタディ攻略法」を解説します。'
 publishDate: 2026-03-09
 lastmod: 2026-03-09
@@ -109,5 +109,6 @@ SGにおける最大の難関が、この「科目B」です。
 AIという強力な壁打ち相手と一緒に、ケーススタディ演習を楽しみながら最短合格を勝ち取りましょう！
 
 - <strong>次のステップ</strong>: 👉 [ITパスポートから応用情報への最短登頂スケジュール](/career/it-passport-to-ap-roadmap)を確認する
+
 
 

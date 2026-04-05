@@ -2,7 +2,7 @@
 publishDate: 2026-02-10
 lastmod: 2026-02-17
 title: シラバスハック学習メソッド：生成AIで資格試験を攻略する
-image: ~/assets/images/post/common/trend.png
+image: ~/data/post/method/common-cover.png
 excerpt: 当サイトが推奨する「生成AI×シラバス」を活用した学習メソッドの総まとめです。ITパスポートから基本情報技術者まで、効率的な合格戦略を解説します。
 category: method
 tags:
@@ -63,6 +63,7 @@ ITパスポート、セキュマネ、基本情報の3大試験に対し、AIを
 3.  <strong>パーソナライズ・アウトプット</strong> : 自分の居住地域や目指すキャリアに合わせて、資格という切符を最大限に活用します。
 
 「試験のための勉強」を、AIと共に「未来の人生をハックするトレーニング」に変えていきましょう。
+
 
 
 

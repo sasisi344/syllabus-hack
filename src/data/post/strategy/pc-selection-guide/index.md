@@ -2,7 +2,7 @@
 publishDate: 2026-04-01
 title: "モダンPCの選び方：CPU・メモリ・ストレージの黄金バランスをシラバスから解説"
 excerpt: "PC購入で失敗したくないあなたへ。ITパスポートで学ぶ「3つの基本要素」をベースに、現役エンジニアが教える「失敗しないスペック選び」の基準とは。"
-image: ~/assets/images/post/common/bridge.png
+image: ~/data/post/strategy/common-cover.png
 category: "strategy"
 tags: ["PC選び", "CPU", "メモリ", "ストレージ", "ITパスポート", "生産性"]
 knowledge:
@@ -82,3 +82,4 @@ PC選びは、自分というCPUを最大化するための **「環境投資」
 3.  **ストレージはSSD 512GB以上** （速度と容量の両立）。
 
 シラバスで学んだ用語が、自分だけの「最強の相棒」を選ぶ基準になります。試験勉強を、ぜひ最高の一台を選ぶための楽しみに変えてください。
+

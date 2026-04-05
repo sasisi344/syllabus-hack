@@ -1,6 +1,6 @@
 ---
 title: '【プロンプト配布】基本情報技術者 科目B「無限ドリル」生成メソッド'
-image: ~/assets/images/post/common/trend.png
+image: ~/data/post/method/common-cover.png
 publishDate: 2026-01-26
 lastmod: 2026-03-07
 category: method
@@ -85,5 +85,6 @@ AIが出した問題に正解できたら、「もう少し難しくして」「
 自分なりに使いやすいようにカスタマイズして、<strong>自分だけの最強の学習パートナー</strong>を育て上げてください。
 
 Syllabus Hackでは、今後もこうした「使えるプロンプト」をどんどん公開していきます。
+
 
 

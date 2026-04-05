@@ -18,7 +18,7 @@ knowledge:
   syllabusRef: skill-method
   difficulty: beginner
 
-image: ~/assets/images/post/common/trend.png
+image: ~/data/post/method/common-cover.png
 
 metadata:
   description: ITパスポート等の試験に出る生成AI問題の対策。NotebookLMを活用してシラバスから独自の練習問題を作成し、効率的に学習する方法を詳しく解説します。'
@@ -70,5 +70,6 @@ AIに80問ほど作成してもらったとしても、以下の3点には注意
 ## まとめ：AIは「学習対象」であり「最強の家庭教師」
 
 生成AIを「魔法の杖」として盲信するのではなく、その特性を正しく理解し、自らの学習を加速させるツールとして使いこなしましょう。NotebookLMを活用した自作問題でのトレーニングは、試験合格だけでなく、実務でAIを使いこなすための強力な第一歩になります。
+
 
 

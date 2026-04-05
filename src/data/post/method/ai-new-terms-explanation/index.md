@@ -18,7 +18,7 @@ knowledge:
   syllabusRef: ai-ethics-terms
   difficulty: beginner
 
-image: ~/assets/images/post/common/trend.png
+image: ~/data/post/method/common-cover.png
 
 metadata:
   description: 最新のIPA試験シラバスに対応した生成AI・AI倫理の新用語解説. RAG, HITL, XAIなどの意味と試験での問われ方、実務での重要性を詳しく紹介します。'
@@ -54,5 +54,6 @@ AIを盲信するのではなく、プロセスの中に必ず人間を介在さ
 ## まとめ：新用語は「AI時代のIT人材」としての共通言語
 
 RAG、HITL、XAIといった用語は、試験を突破するためだけでなく、AIと共存するこれからのビジネスシーンにおける <strong>共通言語</strong> です。これらの概念を正しく理解し、技術を安全に価値へと変えられる人材を目指しましょう。
+
 
 

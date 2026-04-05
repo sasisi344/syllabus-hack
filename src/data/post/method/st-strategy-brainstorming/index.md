@@ -3,7 +3,7 @@ publishDate: 2026-03-17
 lastmod: 2026-03-17
 title: '【メソッド】ITストラテジスト（ST）：抽象的な経営課題からIT施策への展開・ブレスト術'
 excerpt: 'ITストラテジスト試験で求められる「経営とITの橋渡し」。AIを使って、抽象的な事業課題を具体的なIT戦略へとブレイクダウンする思考プロセスを自動化します。'
-image: ~/assets/images/post/common/trend.png
+image: ~/data/post/method/common-cover.png
 
 category: method
 tags:
@@ -66,5 +66,6 @@ AIに対し、以下のプロンプトを実行させることで、論理的な
 
 STの論文試験は、経営者のビジョンをITの設計図に書き換える「翻訳」の試験です。
 AIを最高のブレスト相手として使い倒し、具体的で隙のないビジネスシナリオを構築しましょう。
+
 
 

@@ -6,7 +6,7 @@ excerpt: 広島市内のメーカー事務職必見。独特の移動時間をSG
 persona: 広島県内のメーカー（マツダ関連等）で働くバックオフィス・事務職
 category: career
 tags: ['広島県', 'バックオフィス', '情報セキュリティマネジメント', '路面電車', 'SyllabusHack']
-image: ~/assets/images/post/common/trend.png
+image: ~/data/post/career/common-cover.png
 knowledge:
   examId: sg
   type: method
@@ -73,6 +73,7 @@ metadata:
 <strong>関連リンク</strong>:
 - [【全国版】地方エンジニア・事務職のための「地域別キャリアハック」まとめ](/career/regional-it-career-hub)
 - [バックオフィスの武器になる！セキュマネ取得で市場価値を高める理由（総論）](/career/backoffice-sg-strategy)
+
 
 
 

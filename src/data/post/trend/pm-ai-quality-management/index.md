@@ -9,7 +9,7 @@ knowledge:
   examId: pm
   type: method
   difficulty: advanced
-image: ~/assets/images/post/common/trend.png
+image: ~/data/post/trend/common-cover.png
 metadata:
   description: 'AI特有の不確実性と品質管理の難しさを、実務知識に基づいて解決。PMに求められる新しい品質の定義と合意形成の手法を学びます。'
 ---
@@ -55,5 +55,6 @@ metadata:
 AIの振る舞いを正しく理解し、新しい時代のマネジメント手法を確立してください。
 
 プロジェクトを成功に導く、強固な羅針盤を手に入れましょう。
+
 
 

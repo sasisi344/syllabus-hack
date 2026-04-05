@@ -9,7 +9,7 @@ knowledge:
   examId: common
   type: method
   difficulty: beginner
-image: ~/assets/images/post/common/trend.png
+image: ~/data/post/trend/common-cover.png
 metadata:
   description: 'Anthropicが公開した無料学習プラットフォーム「AI Academy」の活用術。英語コンテンツをAIで翻訳・要約しながら学習するハック手法を解説。'
 ---
@@ -55,5 +55,6 @@ Anthropicの公式教材は、AI時代の「正解の地図」の一つです。
 英語の壁を<strong>翻訳ツール</strong>と<strong>AI自身</strong>の力で乗り越え、最先端の知見を自分の武器にしましょう。
 
 今すぐアクセスして、無料で最高峰の家庭教師を雇ってください。
+
 
 

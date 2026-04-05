@@ -2,7 +2,7 @@
 publishDate: 2026-04-01
 title: "OS(オペレーティングシステム)とは？WindowsからLinuxまで種類の違い基礎"
 excerpt: "Windows、macOS、Android。コンピュータの「司令塔」のOSが担う、資源管理と使いやすさの役割を徹底解説。"
-image: ~/assets/images/post/common/term.png
+image: ~/data/post/term/common-cover.png
 category: "glossary"
 tags: ["OS", "基本ソフトウェア", "Windows", "Linux", "ITパスポート", "ソフトウェア"]
 knowledge:
@@ -40,3 +40,4 @@ AIが「使いやすさ（Windows）」と「構築の自由度（Linux）」、
 OSがあるおかげで、私たちは複雑な電気信号やメモリの番地を気にせず、ボタンをクリックするだけでPCを操作できます。
 
 試験では、 <strong>資源（CPU・メモリ・ファイル）の管理</strong> がOSの主な仕事、という基本を理解しておきましょう。
+

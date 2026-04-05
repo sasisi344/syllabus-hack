@@ -2,7 +2,7 @@
 publishDate: 2026-04-01
 title: "確率とベイズの定理の基礎とは？不確実な未来を「予測」する統計学"
 excerpt: "偶然に頼らない。過去の経験や条件から、未知のことが起きる確率を絞り出す手法を、迷惑メールフィルタを例に解説。"
-image: ~/assets/images/post/common/term.png
+image: ~/data/post/term/common-cover.png
 category: "glossary"
 tags: ["確率", "ベイズの定理", "統計学", "ITパスポート", "AI・機械学習"]
 knowledge:
@@ -38,3 +38,4 @@ AIが「事前確率」から「事後確率」へのアップデートという
 確率は単なる数学ではなく、不確実なビジネスの世界で「より良い選択」をするための強力なツールです。
 
 試験では、 <strong>期待値</strong> の計算問題と、 <strong>過去の経験から確率を更新する</strong> ベイズの考え方をセットで覚えておきましょう。
+

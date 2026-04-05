@@ -4,7 +4,7 @@ lastmod: 2026-02-25
 title: '注目資格：生成AIパスポート試験とは？ ITパスポートとの違いを解説'
 excerpt: 'IPAの試験とは異なる、GUGA（生成AI活用普及協会）が実施する民間資格「生成AIパスポート試験」の概要について紹介します。'
 category: trend
-image: ~/assets/images/post/common/trend.png
+image: ~/data/post/trend/what-is-genai-passport-exam/cover.png
 tags:
   - 生成AIパスポート
   - 新設資格

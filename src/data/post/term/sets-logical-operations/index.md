@@ -2,7 +2,7 @@
 publishDate: 2026-04-01
 title: "集合と論理演算とは？コンピュータの「思考の回路」"
 excerpt: "AかつB？AまたはB？コンピュータが条件を判断するための、ベン図と論理積・論理和の基礎を、検索エンジンの仕組みに例えて解説。"
-image: ~/assets/images/post/common/term.png
+image: ~/data/post/term/common-cover.png
 category: "glossary"
 tags: ["集合", "論理演算", "ベン図", "ITパスポート", "論理学"]
 knowledge:
@@ -39,3 +39,4 @@ AIが「2つの円の重なり」や「どちらかの円に入っていればOK
 集合と論理演算は、プログラミングやデータベースの検索、さらにはビジネスの意思決定において不可欠なスキルです。
 
 試験では、 <strong>ベン図の色が付いた範囲</strong> を見極めることと、 <strong>XOR（排他的論理和）</strong> の特殊なルール（重なりを含まない）に注意しましょう。
+

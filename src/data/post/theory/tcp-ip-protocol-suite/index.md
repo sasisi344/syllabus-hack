@@ -2,7 +2,7 @@
 title: "インターネットの主役！TCP/IPの4階層を読み解く"
 description: "現代のネットワーク通信のデファクトスタンダード。OSI参照モデルとの違いや、TCPとUDPの使い分けまでを詳しく解説します。"
 date: 2026-03-31
-image: ~/assets/images/post/common/trend.png
+image: ~/data/post/theory/common-cover.png
 category: theory
 tags: ["シラバス対策", "ネットワーク", "TCP/IP"]
 draft: false
@@ -102,5 +102,6 @@ TCP/IPは、現代社会を支える「最も成功したルール」です。
 <strong>試験対策メモ</strong>
 TCPが「コネクション型」、UDPが「コネクションレス型」と呼ばれることも忘れずに！
 :::
+
 
 

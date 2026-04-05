@@ -2,7 +2,7 @@
 publishDate: 2026-04-01
 title: "BPR（業務プロセス再設計）とは？「改善」ではなく「根本的な作り直し」"
 excerpt: "既存の仕事のやり方を少しずつ直す「カイゼン」とは違う？ゼロベースで業務フローを組み直す、ダイナミックな変革手法を解説。"
-image: ~/assets/images/post/common/term.png
+image: ~/data/post/term/common-cover.png
 category: "glossary"
 tags: ["BPR", "ビジネスプロセス再設計", "IT戦略", "ITパスポート", "企業戦略"]
 knowledge:
@@ -40,3 +40,4 @@ AIが「ハンコレス化」「自動承認ルールの導入」「ゼロベー
 BPRは、小さな「プラス」を積み重ねるのではなく、大きな「掛け算」で成果を生むための手法です。
 
 試験では、 <strong>抜本的</strong> や <strong>再設計</strong> というキーワードがあれば BPR と結びつけて考えましょう。
+

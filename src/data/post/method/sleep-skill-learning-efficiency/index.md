@@ -9,7 +9,7 @@ knowledge:
   examId: common
   type: method
   difficulty: beginner
-image: ~/assets/images/post/common/trend.png
+image: ~/data/post/method/common-cover.png
 metadata:
   description: '1秒で寝れるほどの深い入眠テクニックが、なぜ資格試験の学習効率を劇的に高めるのか。睡眠と記憶定着のメカニズム、最強の入眠メソッドを解説。'
 ---
@@ -55,5 +55,6 @@ metadata:
 1秒で寝れる<strong>入眠ハック</strong>を駆使し、翌日の学習ポテンシャルを常に最大化させてください。
 
 今日から枕元にスマホを置くのをやめ、最高の睡眠という「最強の学習ツール」を手に入れましょう。
+
 
 

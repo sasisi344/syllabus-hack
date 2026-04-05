@@ -9,7 +9,7 @@ knowledge:
   examId: ip
   type: news
   difficulty: beginner
-image: ~/assets/images/post/common/trend.png
+image: ~/data/post/trend/common-cover.png
 ---
 
 ## 3行まとめ
@@ -36,6 +36,7 @@ AIを使って「ランサムウェアの罠（事例）」をシミュレーシ
 ## まとめ・次のステップ
 ランサムウェアは「感染後の支払い」では解決しません。「感染させない・させても戻せる」体制が不可欠です。
 次は、ランサムウェアの主要な侵入経路である「<strong>標的型メール攻撃</strong>」について詳しく見ていきましょう。
+
 
 
 

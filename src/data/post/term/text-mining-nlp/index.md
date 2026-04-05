@@ -2,7 +2,7 @@
 publishDate: 2026-04-01
 title: "テキストマイニングとは？言葉の山から「本音」を読み解く"
 excerpt: "アンケートやSNSの膨大な「テキスト」から、頻出単語や感情を抽出。自然言語処理（NLP）を活用して、顧客の声を分析する基本を解説。"
-image: ~/assets/images/post/common/term.png
+image: ~/data/post/term/common-cover.png
 category: "glossary"
 tags: ["テキストマイニング", "自然言語処理", "NLP", "ITパスポート", "分析・統計"]
 knowledge:
@@ -41,3 +41,4 @@ AIが「形態素解析」による頻出語の特定や「センチメント分
 テキストマイニングは、AI（自然言語処理）の進化により、ビジネスにおける「顧客の声」を最も手軽に、かつ深く知る手段となっています。
 
 試験では、 <strong>非構造化データ</strong> を対象として <strong>形態素解析</strong> を用いる、という一連の流れを覚えておきましょう。
+

@@ -1,6 +1,6 @@
 ---
 title: '【完全版】IPA試験「最強」学習ガイド：AIで合格をハックする4つのステップ'
-image: ~/assets/images/post/common/trend.png
+image: ~/data/post/method/common-cover.png
 publishDate: 2026-03-10
 lastmod: 2026-03-10
 category: method
@@ -89,6 +89,7 @@ IPA（情報処理推進機構）が公開するシラバスは、ITパスポー
 - <strong>STEP 3</strong>: 本番に備え、[CBT対応のフルキーボード](/method/typing-speed-cbt)でタイピング感覚を養う。
 
 さあ、シラバスという「地図」をハッキングしましょう。
+
 
 
 

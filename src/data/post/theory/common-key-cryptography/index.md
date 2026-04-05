@@ -3,7 +3,7 @@ publishDate: "2026-04-01"
 lastmod: "2026-04-01"
 title: "共通鍵暗号方式：スピード重視！高速で効率的な暗号化の仕組み"
 excerpt: "一つの鍵で「暗号化」も「復号」も行うスピードスター。共通鍵暗号のメリットと、避けては通れない『鍵配送問題』のジレンマを解説。"
-image: ~/assets/images/post/common/trend.png
+image: ~/data/post/theory/common-cover.png
 category: "theory"
 tags: ["情報セキュリティ", "暗号化", "共通鍵暗号", "試験対策"]
 knowledge:
@@ -70,6 +70,7 @@ ITパスポートや基本情報をはじめとする試験では、名前がよ
 
 <strong>【次に読むべき記事】</strong>
 [公開鍵暗号の魔法：秘密の鍵を渡さずに安全にやり取りする仕組み](../public-key-cryptography)
+
 
 
 

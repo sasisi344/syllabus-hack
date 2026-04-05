@@ -3,7 +3,7 @@ publishDate: 2026-02-19
 updateDate: 2026-02-19
 title: 'AI信者が語る、あえて「スマホを封印して紙に書く」時間の重要性'
 excerpt: '構成やアイデア出しはAI、定着は手書き。ハイブリッドな使い分けの黄金比。'
-image: ~/assets/images/post/common/trend.png
+image: ~/data/post/method/common-cover.png
 category: 'method'
 tags: ['学習法', 'ハイブリッド学習', 'デジタルデトックス', '手書き']
 metadata:
@@ -66,5 +66,6 @@ PCも閉じます。目の前には、白紙の紙とペンだけ。
 AIを使う側になりましょう。
 「ここは人間にしか（まだ）できない」という領域を見極め、そこだけは徹底的にアナログで鍛え上げます。
 それが、AI時代に生き残るエンジニアの学習法です。
+
 
 

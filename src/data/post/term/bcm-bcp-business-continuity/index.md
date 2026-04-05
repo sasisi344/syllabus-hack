@@ -2,7 +2,7 @@
 publishDate: 2026-04-01
 title: "BCM/BCP (事業継続) とは？不測の事態に強い会社を作るIT試験の攻略法"
 excerpt: "災害やシステム障害など、不測の事態でも事業を止めないための計画「BCP」と、その運用の仕組み「BCM」を分かりやすく解説します。"
-image: ~/assets/images/post/common/term.png
+image: ~/data/post/term/common-cover.png
 category: "glossary"
 tags: ["BCP", "BCM", "リスクマネジメント", "用語集", "試験対策"]
 knowledge:
@@ -47,4 +47,5 @@ AIが具体的なシナリオを提示してくれるため、単なる暗記で
 ## まとめ：事業を「止めない」準備
 BCM/BCPは、単なるマニュアル作成ではありません。いざという時に「動ける人」と「動くシステム」を準備しておく、組織の生存戦略そのものです。
 RTO/RPOなどの数値目標を意識して、試験突破だけでなく現場で役立つ知識としてマスターしましょう。
+
 

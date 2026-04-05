@@ -2,7 +2,7 @@
 publishDate: 2026-04-01
 title: "クラウド選定の基準：SaaS・PaaS・IaaSの使い分け「失敗しないサービス選び」の教科書"
 excerpt: "「クラウド化」は目的ではなく手段です。ITパスポートで学ぶ『3つのサービスモデル』の境界線を知るだけで、導入コストと運用負荷のバランスを完璧にコントロールできます。"
-image: ~/assets/images/post/common/bridge.png
+image: ~/data/post/strategy/common-cover.png
 category: "strategy"
 tags: ["クラウド", "SaaS", "PaaS", "IaaS", "ITパスポート", "コスト削減"]
 knowledge:
@@ -80,3 +80,4 @@ AIが、コスト・速度・セキュリティの多角的な視点から、納
 3.  **IaaSでインフラを自在にコントロールする** 。
 
 「なんとなくクラウド」を卒業し、シラバスの知識という「基準」で、自社のビジネスを加速させる **最高の一台（サービス）** を選べるようになりましょう。
+

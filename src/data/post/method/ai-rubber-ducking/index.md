@@ -3,7 +3,7 @@ publishDate: 2026-02-19
 updateDate: 2026-02-19
 title: '【フェイマン・テクニック×AI】10歳児に教えるつもりでGeminiに説明したら、理解度が爆上がりした話'
 excerpt: 'わからないことをAIに質問するのではなく、「自分がAIに説明する」プロンプト。Active Recallを半強制的に行う最強のアウトプット学習。'
-image: ~/assets/images/post/common/trend.png
+image: ~/data/post/method/common-cover.png
 category: 'method'
 tags: ['学習法', 'AI活用', 'アウトプット', 'フェイマンテクニック']
 metadata:
@@ -77,5 +77,6 @@ AIに「私の説明を聞いて、間違っているところや分かりにく
 
 「教わる側」から「教える側」へ。
 AIを最高の生徒役にすることで、あなたの学習効率は最大化されます。
+
 
 

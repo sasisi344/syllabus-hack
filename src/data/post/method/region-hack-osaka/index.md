@@ -5,7 +5,7 @@ title: '【大阪府版】シラバスハック：梅田・難波の「勉強カ
 excerpt: '大阪の強みは「勉強カフェ」の密度。仕事終わりや移動の合間に、1時間単位で超集中環境をハックする大阪流の合格メソッドを解説。'
 category: method
 tags: ['地域最適化', '大阪府', '勉強カフェ', 'CBT対策', '効率的学習']
-image: ~/assets/images/post/common/trend.png
+image: ~/data/post/method/common-cover.png
 persona: '大阪府内で働きながら、効率的にIT資格を取得したい社会人・学生'
 knowledge:
   examId: common
@@ -64,5 +64,6 @@ metadata:
 スマホで [フラッシュカード](/app/flashcard-app) を回しながら梅田を移動し、30分でも集中できる場所を見つける。この「機動力」こそが、忙しい大阪人のための最短合格法です。
 
 AI家庭教師と共に、御堂筋線をあなたの「合格ライン」に変えましょう。
+
 
 

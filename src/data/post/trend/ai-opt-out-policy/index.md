@@ -9,7 +9,7 @@ knowledge:
   examId: ip
   type: news
   difficulty: beginner
-image: ~/assets/images/post/common/trend.png
+image: ~/data/post/trend/common-cover.png
 ---
 
 ## 3行まとめ
@@ -36,6 +36,7 @@ AIを使って「自社のセキュリティポリシー」を作成。
 ## まとめ・次のステップ
 AIの利用は「便利さ」だけでなく「安全性」とのセットで考える必要があります。
 次は、AIに安全かつ効果的に命令を出す技術「<strong>プロンプトエンジニアリング</strong>」について学びましょう。
+
 
 
 

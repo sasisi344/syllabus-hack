@@ -9,7 +9,7 @@ knowledge:
   examId: ip
   type: news
   difficulty: beginner
-image: ~/assets/images/post/common/trend.png
+image: ~/data/post/trend/common-cover.png
 metadata:
   description: 'ITパスポート試験でも頻出の「AI倫理」とガバナンス。人間中心の原則やバイアス、プライバシーのリスクと対策を分かりやすく解説します。'
 ---
@@ -39,5 +39,6 @@ AI倫理をAIに「自己分析」させると理解が深まります。
 
 ### プロンプト例:
 > 「生成AIの普及によって、人間のプライバシーが侵害されるリスクを3つ挙げて、それぞれ対応策を簡潔に回答してください。」
+
 
 

@@ -2,7 +2,7 @@
 publishDate: 2026-03-31
 title: "AIで作った絵に著作権はある？最新の法務解釈とITパスポート試験対策"
 excerpt: "AIの生成物は誰のもの？「創作的寄与」や「学習利用」など、ITパスポート試験で問われる最新の法務解釈を分かりやすく解説。"
-image: ~/assets/images/post/common/trend.png
+image: ~/data/post/trend/common-cover.png
 category: trend
 tags: [著作権, 生成AI, 法務, ITパスポート, シラバス]
 persona: "生成AIを仕事で使いたいクリエイター・広報担当者"
@@ -52,6 +52,7 @@ knowledge:
 
 ---
 [シラバスハック公式アプリでこの用語のクイズを解く](#)
+
 
 
 

@@ -2,7 +2,7 @@
 publishDate: 2026-04-01
 title: "労働者派遣法とは？SESや準委任契約との違いを試験向けに整理"
 excerpt: "エンジニアの働き方に直結する「派遣法」。請負契約や準委任契約との最大の違いを、ITパスポートや基本情報の重要ポイントで徹底解説。"
-image: ~/assets/images/post/common/term.png
+image: ~/data/post/term/common-cover.png
 category: "glossary"
 tags: ["労働者派遣法", "派遣契約", "請負契約", "SES", "ITパスポート"]
 knowledge:
@@ -38,3 +38,4 @@ AIが「指揮命令系統の逸脱」や「偽装請負のリスク」を指摘
 労働者派遣法は、エンジニアとして「どこで」「誰の指示で」働くかを定義する非常に重要な法律です。
 
 試験では、請負契約との<strong>境界線</strong>を問う問題が多いため、常に「誰が指示を出すのか」を基準にして整理しておきましょう。
+

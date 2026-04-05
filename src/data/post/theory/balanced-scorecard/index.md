@@ -4,7 +4,7 @@ description: "財務数値だけでは見えない企業の真価を測る「BSC
 pubDate: "2026-03-31"
 category: "theory"
 tags: ["経営戦略", "BSC", "KPI", "キャリア開発"]
-image: ~/assets/images/post/common/trend.png
+image: ~/data/post/theory/common-cover.png
 ---
 
 「売上さえ良ければ、その企業は安泰なのか？」
@@ -61,6 +61,7 @@ BSCの視点を持てば、ITの導入が経営のどこに効いているのか
 
 <strong>【次に読むべき記事】</strong>
 [アンゾフの成長マトリクス：AI時代に打つべき『次の一手』を決める](./ansoff-matrix)
+
 
 
 

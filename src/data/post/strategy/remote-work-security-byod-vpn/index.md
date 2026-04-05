@@ -2,7 +2,7 @@
 publishDate: 2026-04-01
 title: "リモートワークの守護神：BYOD・VPN・シャドーIT対策をシラバスで読み解く"
 excerpt: "カフェや自宅での作業、そのPC設定は本当に安全ですか？ITパスポートで学ぶ「情報セキュリティ」の知識を、実機で活かすための3つの防衛策。"
-image: ~/assets/images/post/common/bridge.png
+image: ~/data/post/strategy/common-cover.png
 category: "strategy"
 tags: ["リモートワーク", "セキュリティ", "VPN", "BYOD", "シャドーIT", "ITパスポート"]
 knowledge:
@@ -77,3 +77,4 @@ AIが、パスワード変更やアクセスログの確認、多要素認証の
 3.  **覗き見などのアナログリスクも防ぐ** （物理的対策）。
 
 シラバスの知識を「武器」に変えて、どこでも安心して働けるスマートな受験生・ビジネスパーソンを目指しましょう。
+

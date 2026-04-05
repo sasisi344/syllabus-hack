@@ -52,7 +52,7 @@ publishDate: 2026-02-18T00:00:00Z # Current timestamp
 lastmod: 2026-02-18 # Current timestamp
 title: 'Article Title'
 excerpt: 'Brief summary (approx. 100 characters)'
-image: '~/assets/images/cover.jpg'
+image: '~/data/post/{category}/{slug}/cover.jpg'
 category: 'method' # Select from: trend, method, career, app
 tags: ['Tag1', 'Tag2', 'Tag3'] # 3-5 tags, compliant with tag_rules.md
 draft: false

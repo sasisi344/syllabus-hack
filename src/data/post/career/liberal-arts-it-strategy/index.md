@@ -6,7 +6,7 @@ excerpt: 文系学生がIT資格を取得することで、就活における市
 persona: 20代文系大学生・就活生
 category: career
 tags: ['就活', 'ITパスポート', '基本情報技術者', '文系学生', 'シラバス攻略']
-image: ~/assets/images/post/common/trend.png
+image: ~/data/post/career/common-cover.png
 knowledge:
   examId: common
   type: method
@@ -89,5 +89,6 @@ IT資格を持っていることは、データの裏付けを持った提案が
 就活という戦場において、IT資格はあなたの可能性を広げる <strong>パスポート</strong> です。
 
 戦略的に取得し、自分だけのキャリアを切り拓く第一歩を踏み出しましょう。
+
 
 

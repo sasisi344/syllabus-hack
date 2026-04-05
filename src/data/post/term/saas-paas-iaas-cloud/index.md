@@ -2,7 +2,7 @@
 publishDate: 2026-04-01
 title: "SaaS・PaaS・IaaSとは？クラウドの3大サービスを「料理」で例えて解説"
 excerpt: "何も持たないクラウドの時代。どこまで自分で用意し、どこからサービスを利用するか？IT試験の必修用語を最速攻略。"
-image: ~/assets/images/post/common/term.png
+image: ~/data/post/term/common-cover.png
 category: "glossary"
 tags: ["SaaS", "PaaS", "IaaS", "クラウドコンピューティング", "ITパスポート"]
 knowledge:
@@ -39,3 +39,4 @@ AIが「外食（SaaS）」「宅配（PaaS）」「自作（IaaS）」といっ
 クラウドサービスの本質は、サーバーなどの高価な設備を自分で持つリスクを避け、必要な分だけ安く、素早く利用することにあります。
 
 試験では、 <strong>アプリケーション層</strong> まで含むのがSaaS、 <strong>OS層</strong> から含むのがIaaS、というポイントを確実に押さえましょう。
+

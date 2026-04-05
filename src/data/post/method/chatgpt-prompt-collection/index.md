@@ -3,7 +3,7 @@ publishDate: 2026-02-19
 updateDate: 2026-02-19
 title: 'ChatGPTプロンプト集：Syllabus Hackを支える記事・アプリ開発プロンプト'
 excerpt: '当サイト「Syllabus Hack」の膨大な記事執筆やクイズアプリ開発で実際に使用した、実践的なChatGPT/Geminiプロンプトを公開。'
-image: ~/assets/images/post/common/trend.png
+image: ~/data/post/method/common-cover.png
 category: method
 tags: ['ChatGPT', 'Gemini', 'プロンプト', '開発記', '効率化']
 knowledge:
@@ -110,5 +110,6 @@ React（Preact）を使用したクイズアプリのロジックや、Tailwind 
 AIは一度のプロンプトで100点を出そうとするよりも、 <strong>「役割を与える」→「ステップを分ける」→「修正を繰り返す」</strong> というプロセスを経ることで、真のパフォーマンスを発揮します。
 
 当サイトの「学習メソッド」カテゴリでは、これらのプロンプトをさらに試験対策用に特化させた例を多数紹介しています。ぜひ併せてご覧ください。
+
 
 

@@ -2,7 +2,7 @@
 publishDate: 2026-04-01
 title: "入出力インタフェース(USB/HDMI)とは？周辺機器をつなぐ「窓口」基礎"
 excerpt: "もっとも身近なUSB、映像と音声を同時に送るHDMI。パソコンと周辺機器をつなぐ、各接続端子の特徴を徹底解説。"
-image: ~/assets/images/post/common/term.png
+image: ~/data/post/term/common-cover.png
 category: "glossary"
 tags: ["USB", "HDMI", "Bluetooth", "インタフェース", "ITパスポート", "ハードウェア"]
 knowledge:
@@ -39,3 +39,4 @@ AIが「電力不足（バスパワー）」や「端子の物理的な形状（
 インタフェースは「つなぐ窓口」です。USBは汎用的、HDMIはAV/メディア用といった基本を理解しましょう。
 
 試験では、 <strong>ホットプラグ</strong> や <strong>プラグアンドプレイ</strong> という利便性を表すキーワードを、 <strong>USB</strong> とひも付けて覚えておくと強力です。
+

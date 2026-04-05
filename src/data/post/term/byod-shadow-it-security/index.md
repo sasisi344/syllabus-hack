@@ -2,7 +2,7 @@
 publishDate: 2026-04-01
 title: "BYODとシャドーITとは？私物デバイス利用のメリットとセキュリティ・リスク"
 excerpt: "自分のスマホで仕事をする「BYOD」。一方で、会社に無断でサービスを使う「シャドーIT」の危険性を試験対策ガイドで徹底解説。"
-image: ~/assets/images/post/common/term.png
+image: ~/data/post/term/common-cover.png
 category: "glossary"
 tags: ["BYOD", "シャドーIT", "情報セキュリティ", "ITパスポート", "テレワーク"]
 knowledge:
@@ -38,3 +38,4 @@ AIが「管理外デバイスからの流出」や「機密情報の不正持ち
 BYODもシャドーITも、きっかけは「仕事を効率化したい」という想いです。
 
 試験では、 <strong>許可されているか（BYOD）</strong> か <strong>無断か（シャドーIT）</strong> かという違いと、どちらもセキュリティリスクが伴うことを覚えておきましょう。
+

@@ -9,7 +9,7 @@ knowledge:
   examId: common
   type: method
   difficulty: beginner
-image: ~/assets/images/post/common/trend.png
+image: ~/data/post/trend/common-cover.png
 metadata:
   description: 'さくらインターネットが提供する無料のAI検定とそのシラバス活用法。他のAI関連資格との違いや、合格のための効率的な学習パスを紹介。'
 ---
@@ -55,5 +55,6 @@ metadata:
 シラバスを活用して効率的に知識を整理し、合格という形で自信を手に入れてください。
 
 今すぐ公式サイトでシラバスをチェックし、学習のロードマップを描き始めましょう。
+
 
 

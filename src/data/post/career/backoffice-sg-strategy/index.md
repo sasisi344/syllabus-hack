@@ -19,7 +19,7 @@ knowledge:
   difficulty: beginner
 appId: flashcard-app
 
-image: ~/assets/images/post/common/trend.png
+image: ~/data/post/career/common-cover.png
 
 metadata:
   description: 総務や人事などのバックオフィス職種における情報セキュリティマネジメント（SG）資格の重要性を解説。市場価値の向上やDX対応について詳しく紹介します。'
@@ -102,5 +102,6 @@ metadata:
 セキュリティ知識は現代の <strong>盾</strong> であり、あなたのキャリアを守る最強の防具です。
 
 セキュマネ取得をきっかけに、世の中の9割が置き去りにしている「防衛の真実」を掴み、組織にとって代えの効かない存在へとステップアップしましょう。
+
 
 

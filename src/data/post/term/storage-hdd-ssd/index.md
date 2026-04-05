@@ -2,7 +2,7 @@
 publishDate: 2026-04-01
 title: "ストレージ(HDD/SSD)とは？PCの「倉庫」を賢く選ぶハードウェア基礎"
 excerpt: "磁気ディスクのHDD、フラッシュメモリのSSD。コンピュータの長期保存場所の特徴と、速度・音・寿命の違いを徹底解説。"
-image: ~/assets/images/post/common/term.png
+image: ~/data/post/term/common-cover.png
 category: "glossary"
 tags: ["HDD", "SSD", "ストレージ", "磁気ディスク", "ITパスポート", "ハードウェア"]
 knowledge:
@@ -38,3 +38,4 @@ AIが「大容量（HDD）」と「読み書き速度（SSD）」という、利
 HDDは大容量のデータを安く保存するのに向いており、SSDはOSの起動やアプリの実行スピードを上げるのに適しています。
 
 試験では、 <strong>HDD（磁気・回転）</strong> と <strong>SSD（メモリ・高速）</strong> という、物理的な仕組みの違いを起点にそれぞれのメリットを整理して覚えましょう。
+

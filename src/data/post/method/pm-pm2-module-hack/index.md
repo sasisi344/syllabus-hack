@@ -3,7 +3,7 @@ publishDate: 2026-03-17
 lastmod: 2026-03-17
 title: '【メソッド】プロジェクトマネージャ（PM）午後Ⅱ：実務経験の棚卸しと論文モジュール化プロンプト'
 excerpt: 'PM試験午後Ⅱの鬼門、論文対策を効率化。自分の経歴をAIで棚卸しし、どんな設問にも組み替え可能な「論文モジュール」として構成するメソッド。'
-image: ~/assets/images/post/common/trend.png
+image: ~/data/post/method/common-cover.png
 
 category: method
 tags:
@@ -76,5 +76,6 @@ metadata:
 論文対策を「文章修行」ではなく、AIを使った「データ整備」と捉え直してみましょう。
 
 事前に質の高いモジュールを用意しておくことこそが、試験会場での余裕と合格率に直結します。
+
 
 

@@ -3,7 +3,7 @@ publishDate: 2026-02-19
 updateDate: 2026-02-19
 title: '実力を120%出すための「ドーピング」戦略。エンジニアのための試験当日コンディション管理'
 excerpt: '知識以外のパラメータ（血糖値、睡眠）を最大化。前日の食事、当日のカフェイン戦略、試験会場でのエネルギー補給。'
-image: ~/assets/images/post/common/trend.png
+image: ~/data/post/method/common-cover.png
 category: 'method'
 tags: ['試験対策', 'コンディション管理', 'パフォーマンス', '集中力']
 metadata:
@@ -53,5 +53,6 @@ metadata:
 
 どんなに優れたソフトウェア（知識）も、ハードウェア（身体）が壊れていては動作しません。
 試験当日は、あなたの身体を最高の状態にチューニングするエンジニアになりましょう。
+
 
 

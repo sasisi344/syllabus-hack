@@ -2,7 +2,7 @@
 publishDate: 2026-04-01
 title: "アクセシビリティとユーザビリティとは？使いやすさと「誰でも使えること」の違い"
 excerpt: "特定の人の「使いやすさ」か、全員の「使いやすさ」か。似ているようで違う2つの用語を、IT試験対策に整理して解説。"
-image: ~/assets/images/post/common/term.png
+image: ~/data/post/term/common-cover.png
 category: "glossary"
 tags: ["アクセシビリティ", "ユーザビリティ", "UX", "ITパスポート", "UIデザイン"]
 knowledge:
@@ -42,3 +42,4 @@ AIが「スクリーンリーダー対応（アクセシビリティ）」や「
 アクセシビリティは「全員」を対象にし、ユーザビリティは「使いやすさ」を追求します。
 
 試験では、 <strong>高齢者や障害者</strong> への配慮、という言葉があれば アクセシビリティ と結びつけて考えましょう。
+

@@ -4,7 +4,7 @@ description: "バラバラのシステムを一つにまとめ、経営をスピ
 pubDate: "2026-03-31"
 category: "theory"
 tags: ["経営マネジメント", "ERP", "システム統合", "業務効率化"]
-image: ~/assets/images/post/common/trend.png
+image: ~/data/post/theory/common-cover.png
 ---
 
 「経理の数字と営業の売上、どっちが正しいんだ？」
@@ -59,6 +59,7 @@ ERPを学ぶことは、企業の<strong>「情報の血流」</strong>を良く
 
 <strong>【次に読むべき記事】</strong>
 [ウォーターフォールモデル：王道の開発手法をAI工程管理でアップデートする](../theory/waterfall-development)
+
 
 
 

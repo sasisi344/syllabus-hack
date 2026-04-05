@@ -3,7 +3,7 @@ publishDate: 2026-02-19
 updateDate: 2026-02-19
 title: '手が疲れたら口を動かせ。歩きながら学ぶ「音声独り言」学習法のススメ'
 excerpt: '書くのは遅い。喋れば3倍速い。スマートフォンとWhisper/Voice Modeを使った超高速アウトプット学習。'
-image: ~/assets/images/post/common/trend.png
+image: ~/data/post/method/common-cover.png
 category: 'method'
 tags: ['学習法', '音声入力', 'Whisper', '移動学習']
 metadata:
@@ -74,5 +74,6 @@ metadata:
 
 学習はデスクの上だけで完結するものではありません。
 「歩く」「話す」という身体機能を使って、脳を多角的に刺激しましょう。
+
 
 

@@ -19,7 +19,7 @@ knowledge:
   difficulty: intermediate
 appId: flashcard-app
 
-image: ~/assets/images/post/common/trend.png
+image: ~/data/post/career/common-cover.png
 
 metadata:
   description: SES・派遣エンジニアが応用情報技術者試験（AP）を通じて自信をつけ、自社内での昇進やフリーランスへの転身、自社開発企業への転職を成功させるための考え方。'
@@ -94,5 +94,6 @@ metadata:
 今の場所に留まるにせよ、新しい挑戦をするにせよ、応用情報はあなたの選択肢を広げる <strong>自由への鍵</strong> となります。
 
 未来に対する不安を、学習という前向きなエネルギーに変え、理想のキャリアへと一歩踏み出しましょう。
+
 
 

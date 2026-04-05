@@ -2,7 +2,7 @@
 publishDate: 2026-03-31
 title: "人的資本経営をAIで攻略！従業員を「コスト」ではなく「資産」と見る理由【ITパスポート】"
 excerpt: "最新シラバスで重要度が増している「人的資本経営」。なぜ今、企業は人を資産と呼ぶのか？試験で問われるポイントと、生成AIでの学び方を解説。"
-image: ~/assets/images/post/common/trend.png
+image: ~/data/post/trend/common-cover.png
 category: trend
 tags: [人的資本経営, 経営戦略, ITパスポート, シラバス, リスキリング]
 persona: "ITパスポート合格を目指すビジネスパーソン"
@@ -50,6 +50,7 @@ knowledge:
 
 ---
 [シラバスハック公式アプリでこの用語のクイズを解く](#)
+
 
 
 

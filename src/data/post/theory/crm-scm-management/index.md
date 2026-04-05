@@ -4,7 +4,7 @@ description: "顧客との関係を深める「CRM」と、物流を最適化す
 pubDate: "2026-03-31"
 category: "theory"
 tags: ["経営マネジメント", "CRM", "SCM", "試験対策", "サプライチェーン"]
-image: ~/assets/images/post/common/trend.png
+image: ~/data/post/theory/common-cover.png
 ---
 
 「誰に売るか？」と「どう届けるか？」
@@ -59,6 +59,7 @@ CRMもSCMも、その核にあるのは<strong>情報の共有</strong>です。
 
 <strong>【次に読むべき記事】</strong>
 [ERPパッケージ：社内情報を一元管理する「経営の心臓部」](./erp-system-integration)
+
 
 
 

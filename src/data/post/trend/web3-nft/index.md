@@ -9,7 +9,7 @@ knowledge:
   examId: ip
   type: news
   difficulty: beginner
-image: ~/assets/images/post/common/trend.png
+image: ~/data/post/trend/web3-nft/cover.png
 metadata:
   description: 'ITパスポート試験でも注目のWeb3.0とNFT。ブロックチェーンが可能にする非中央集権的な仕組みや、デジタル資産の価値について解説します。'
 ---
