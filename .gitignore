@@ -13,6 +13,7 @@ pnpm-debug.log*
 *.log
 *.txt
 !public/llms.txt
+!public/ads.txt
 
 # environment variables
 .env
