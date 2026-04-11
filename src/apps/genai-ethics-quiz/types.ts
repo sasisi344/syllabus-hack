@@ -49,4 +49,4 @@ export interface QuizAppProps {
   examName: string;
 }
 
-export type AppMode = 'drill' | 'flashcard';
+export type AppMode = 'drill' | 'flashcard' | 'hack';

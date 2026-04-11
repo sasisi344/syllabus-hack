@@ -5,6 +5,7 @@ export interface Flashcard {
   front: string;    // 用語 または 説明
   back: string;     // 定義・解説 または 用語名
   category?: string; // 中分類名など
+  largeCategory?: string; // 大分類名（テクノロジ等）
   examId: string;   // ip, fe, ap, sc etc.
   importance?: 'A' | 'B' | 'C';
   tags?: string[];
@@ -51,4 +52,12 @@ export interface Syllabus {
       }[];
     }[];
   }[];
+}
+export interface SpecializedTerm {
+  id: string;
+  term: string;
+  definition: string;
+  category: string;
+  importance: 'A' | 'B' | 'C';
+  tags: string[];
 }

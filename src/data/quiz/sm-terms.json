@@ -1,0 +1,50 @@
+[
+  {
+    "id": "sm-001",
+    "category": "operation",
+    "term": "AIOps",
+    "definition": "IT運用にAIを活用し、ログ分析、異常検知、障害対応の自動化を行う手法。膨大なデータから予測保全や原因特定を迅速化し、運用不可を軽減する。",
+    "tags": ["午前II", "最新用語"],
+    "importance": "A"
+  },
+  {
+    "id": "sm-002",
+    "category": "strategy",
+    "term": "SLO (Service Level Objective)",
+    "definition": "SLAの達成を測るための具体的な数値目標。AI導入時は「100%の正答」は困難なため、妥当な精度や解決時間、エスカレーション率などを定義する。",
+    "tags": ["午前II", "管理指標"],
+    "importance": "A"
+  },
+  {
+    "id": "sm-003",
+    "category": "automation",
+    "term": "CI / CD",
+    "definition": "継続的インテグレーション/デリバリー。テストとデプロイの自動化により、新機能提供のリードタイムを短縮する。ITSSにおける変更管理・リリース管理の重要技術。",
+    "tags": ["午前II", "DevOps"],
+    "importance": "A"
+  },
+  {
+    "id": "sm-004",
+    "category": "management",
+    "term": "ナレッジベースの継続的改善",
+    "definition": "RAGを用いたFAQ対応自動化等において、AIの解答精度を維持するために不可欠なプロセス。マネージャはモニタリングとナレッジの陳腐化防止を管理すべき。",
+    "tags": ["午後II", "運用品質"],
+    "importance": "A"
+  },
+  {
+    "id": "sm-005",
+    "category": "incident",
+    "term": "シームレスなエスカレーション",
+    "definition": "AIが解決できない問い合わせを、会話文脈を引き継いだまま人間のオペレータへ渡す仕組み。顧客満足度を損なわないための重要なサービスフロー設計。",
+    "tags": ["午後I", "サービスデスク"],
+    "importance": "B"
+  },
+  {
+    "id": "sm-006",
+    "category": "risk",
+    "term": "モデル破綻 (Model Collapse)",
+    "definition": "AIが生成したデータを元にAIが再学習を繰り返すことで、元のデータの多様性が失われ、出力が劣化する現象。外部情報の適切な取り込みが管理ポイント。",
+    "tags": ["トレンド", "最新技術"],
+    "importance": "C"
+  }
+]

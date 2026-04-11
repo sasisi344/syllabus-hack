@@ -1,0 +1,58 @@
+[
+  {
+    "id": "pm-001",
+    "category": "risk",
+    "term": "PoC死",
+    "definition": "概念実証（PoC）後、明確な本番移行基準やビジネス価値が示せず、プロジェクトが停滞・終了すること。PMは開始前に「撤退基準」を合意しておく必要がある。",
+    "tags": ["午後II", "トラブル対策"],
+    "importance": "A"
+  },
+  {
+    "id": "pm-002",
+    "category": "strategy",
+    "term": "PoV (Proof of Value / 価値実証)",
+    "definition": "技術検証（PoC）の一歩先、実際にそのシステムがビジネス上の投資対効果（ROI）を生むかを実証すること。AIプロジェクトの承認を得るための鍵。",
+    "tags": ["午前II", "トレンド"],
+    "importance": "A"
+  },
+  {
+    "id": "pm-003",
+    "category": "management",
+    "term": "不確実性の段階的詳細化",
+    "definition": "初期段階では全容が見えないプロジェクトにおいて、進行に合わせて徐々に詳細な計画を作成する手法。AI導入など探索的要素の強い現場で重視される。",
+    "tags": ["午後II", "シラバスv7.1"],
+    "importance": "A"
+  },
+  {
+    "id": "pm-004",
+    "category": "quality",
+    "term": "データドリフト / 精度劣化",
+    "definition": "時間の経過とともに学習時と入力データの傾向が変わり、AIの精度が下がること。PMは稼働後の再学習やモニタリング体制（MLOps）を計画に盛り込むべき。",
+    "tags": ["午後I", "運用リスク"],
+    "importance": "B"
+  },
+  {
+    "id": "pm-005",
+    "category": "legal",
+    "term": "著作権法第30条の4",
+    "definition": "AI学習などの情報解析目的であれば、原則として著作権者の許諾なく著作物を利用できる規定。ただし権利者の利益を不当に害する場合は例外。法務との連携が重要。",
+    "tags": ["コンプライアンス", "トレンド"],
+    "importance": "B"
+  },
+  {
+    "id": "pm-006",
+    "category": "team",
+    "term": "自己組織化チーム",
+    "definition": "PMが細かく管理するのではなく、チーム自らが課題を発見し解決する自律的な状態。アジャイル開発や、高度な技術判断が必要なAIプロジェクトの理想像。",
+    "tags": ["午前II", "最新トレンド"],
+    "importance": "B"
+  },
+  {
+    "id": "pm-007",
+    "category": "procurement",
+    "term": "SBOM (Software Bill of Materials)",
+    "definition": "ソフトウェアに含まれる全部品（OSS等）をリスト化したもの。サプライチェーン攻撃対策として、調達管理や品質管理の文脈で重視されている。",
+    "tags": ["サプライチェーン", "トレンド"],
+    "importance": "A"
+  }
+]

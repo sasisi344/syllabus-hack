@@ -1,9 +1,9 @@
-import type { Flashcard, QuizQuestion, Syllabus } from './types';
+import type { Flashcard, QuizQuestion, Syllabus, SpecializedTerm } from './types';
 
 /**
- * SC用語集のJSONからフラッシュカード形式に変換する
+ * 専門用語集のJSONからフラッシュカード形式に変換する
  */
-export function mapScTermsToCards(terms: any[], mode: 'term-to-def' | 'def-to-term' = 'term-to-def'): Flashcard[] {
+export function mapTermsToCards(terms: SpecializedTerm[], examId: string, mode: 'term-to-def' | 'def-to-term' = 'term-to-def'): Flashcard[] {
   return terms.map((t) => {
     const isTermToDef = mode === 'term-to-def';
     return {
@@ -11,7 +11,7 @@ export function mapScTermsToCards(terms: any[], mode: 'term-to-def' | 'def-to-te
       front: isTermToDef ? t.term : t.definition,
       back: isTermToDef ? t.definition : t.term,
       category: t.category,
-      examId: 'sc',
+      examId: examId,
       importance: t.importance,
       tags: t.tags,
       originalTerm: t.term,
@@ -96,6 +96,7 @@ export function mapSyllabusToCards(syllabus: Syllabus): Flashcard[] {
             front: kw,
             back: `「${kw}」の公式定義は現在準備中です。シラバス：${mc.name}`,
             category: mc.name,
+            largeCategory: cat.name,
             examId: examId
           });
         });

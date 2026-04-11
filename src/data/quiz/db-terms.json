@@ -1,0 +1,58 @@
+[
+  {
+    "id": "db-001",
+    "category": "ai",
+    "term": "RAG (Retrieval-Augmented Generation)",
+    "definition": "LLMに外部ナレッジ（DBやPDF）を検索させて回答させる手法。回答精度を高め、ハルシネーション（嘘）を抑制する。DB試験では非構造化データの管理として最重要。",
+    "tags": ["午前II", "トレンド"],
+    "importance": "A"
+  },
+  {
+    "id": "db-002",
+    "category": "search",
+    "term": "ハイブリッド検索",
+    "definition": "ベクトル検索（意味的類似度）とキーワード検索（完全一致）を組み合わせる手法。専門用語や固有名詞への対応力を補強する。SQLでのWHERE句併用等の設計が鍵。",
+    "tags": ["午後I", "トレンド"],
+    "importance": "A"
+  },
+  {
+    "id": "db-003",
+    "category": "index",
+    "term": "HNSW (Hierarchical Navigable Small World)",
+    "definition": "ベクトルDBで主流のインデックス方式。階層構造により、高次元データの近似最近傍探索（ANN）を高速・高精度に行う。構築コストとメモリ消費がトレードオフ。",
+    "tags": ["午前II", "最新用語"],
+    "importance": "B"
+  },
+  {
+    "id": "db-004",
+    "category": "preprocessing",
+    "term": "チャンキング (Chunking)",
+    "definition": "長文データをLLMが処理しやすい単位（段落や固定文字数など）に分割すること。分割単位の設計はRAGの検索精度に直結する。メタデータ付与とセットで検討。",
+    "tags": ["午後I", "設計論点"],
+    "importance": "A"
+  },
+  {
+    "id": "db-005",
+    "category": "security",
+    "term": "メタデータフィルタリング",
+    "definition": "ベクトル検索の前に、作成日や権限属性などのメタデータで検索対象を絞り込むこと。検索ノイズの削減やアクセス制御に不可欠な設計要素。",
+    "tags": ["午後I", "セキュリティ"],
+    "importance": "B"
+  },
+  {
+    "id": "db-006",
+    "category": "representation",
+    "term": "エンベディング (Embedding)",
+    "definition": "テキストや画像などのデータを、意味を保持したまま「高次元の数値配列（ベクトル）」に変換すること。ベクトルDBはこの数値を類似度計算に用いる。",
+    "tags": ["午前II", "共通知識"],
+    "importance": "A"
+  },
+  {
+    "id": "db-007",
+    "category": "ai",
+    "term": "GraphRAG",
+    "definition": "ベクトル類似度だけでなく、知識グラフを用いてエンティティ間の「関係性」を辿り回答生成する手法。複雑な情報の構造的理解に優れる。グラフDBの応用論点。",
+    "tags": ["トレンド", "最新技術"],
+    "importance": "C"
+  }
+]
