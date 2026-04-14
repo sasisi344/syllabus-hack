@@ -1,40 +1,54 @@
 ---
 name: image-creation-rules
-description: Rules for generating article cover images.
+description: Rules for generating article cover images. Design spec and placement rules for Syllabus Hack brand.
 ---
 
-# Image Creation Rules
+# 画像作成ルール（Image Creation Rules）
 
-## 1. File Specifications
+## 1. ファイル仕様
 
-- **Filename**: `cover.jpg` (preferred) or relative path in frontmatter.
-- **Format**: JPEG
-- **Aspect Ratio**: 16:9 (Landscape)
-- **Placement**: Inside the article's Page Bundle directory (e.g., `src/data/post/category/slug/cover.jpg`).
+- **ファイル名**: `cover.jpg`（原則）
+- **フォーマット**: JPEG
+- **アスペクト比**: 16:9（横長）
+- **配置場所**: 記事の Page Bundle ディレクトリ内
+  - 例: `src/data/post/method/my-hack/cover.jpg`
+- **フロントマターの参照パス**: `~/data/post/{category}/{slug}/cover.jpg`（`~/` エイリアス必須）
 
-## 2. Design Constraints
+## 2. デザイン制約
 
-- **NO TEXT**: Do **NOT** include any text inside the image. The article title will be overlaid by the theme.
-- **Subject**: Abstract, symbolic, or atmospheric representations of the topic. Avoid generic "stock photo" styles.
+- **テキスト禁止**: 画像内にテキストを含めない（タイトルはテーマ側でオーバーレイされる）
+- **被写体**: トピックを抽象的・象徴的に表現する。一般的なストックフォト風は避ける。
 
-## 3. Aesthetic Theme (Syllabus Hack Brand - Updated 2026-02-06)
+## 3. ビジュアルテーマ（Syllabus Hack ブランド）
 
-- **Style**: **Minimalist Pictogram-style** illustrations. Flat design with simple white icons/shapes.
-- **Background**: Solid color backgrounds (Deep Indigo, Navy, Charcoal) or very subtle gradients.
-- **Keywords**: Blueprint, Digital Network, AI Neural Nodes, Terminal Green, Abstract data visualization, Minimalist icon.
-- **Vibe**: "Hacking the system", "Digital intelligence", "Future of learning".
+- **スタイル**: ミニマリスト・ピクトグラム形式のイラスト。フラットデザイン、白のシンプルアイコン。
+- **背景**: 単色（Deep Indigo / Navy / Charcoal）または控えめなグラデーション。
+- **キーワード**: Blueprint, Digital Network, AI Neural Nodes, Terminal Green, Abstract data visualization, Minimalist icon.
+- **ヴァイブ**: "Hacking the system", "Digital intelligence", "Future of learning".
 
-## 4. Prompting Strategy (for AI Image Generation)
+## 4. AI画像生成プロンプト構造
 
-- **Style Modifiers**: `minimalist pictogram, flat design, white icon on dark solid background, vector style, simple shapes, 16:9 aspect ratio`
-- **Negative Prompt**: `text, letters, words, realistic photo, complex details, gradient overkill, human faces`
+**スタイル修飾子（必須）**:
 
-## 5. Tooling & Workflow
+```
+minimalist pictogram, flat design, white icon on dark solid background,
+vector style, simple shapes, 16:9 aspect ratio
+```
 
-- **Automation (Mandatory)**: 
-  - Images **MUST** be generated using the API script at `.workspace/scripts/Antigravity-nanobana/generate-image.js`.
-  - **Prohibited**: Do NOT use the built-in `generate_image` tool directly for production assets. 
-  - **Why**: The local script uses a specific model and style settings that maintain site consistency.
-- **How to execute**: Use `run_command` with `node` (e.g., `node .workspace/scripts/Antigravity-nanobana/generate-image.js "Prompt" "Path/to/cover.png"`).
-- **Workflow**: Ensure the subject follows the prompt structure defined in GEMINI.md.
-- **Drafting Phase**: During draft creation, insert the English prompt as a comment in the markdown file.
+**ネガティブプロンプト（必須）**:
+
+```
+text, letters, words, realistic photo, complex details, gradient overkill, human faces
+```
+
+## 5. 生成ツール・ワークフロー
+
+画像生成は **外部ツール・スクリプトを使用** する。Claude Code からの直接生成は行わない。
+
+1. 上記のスタイル仕様に従い、英語プロンプトを作成する。
+2. **ドラフト段階**: Markdownファイル内にプロンプトをコメントとして残す。
+   ```markdown
+   <!-- IMAGE_PROMPT: minimalist pictogram, white circuit board icon, deep indigo background, flat design, 16:9 -->
+   ```
+3. **本番移行前**: 生成した `cover.jpg` を Page Bundle ディレクトリに配置し、コメントを削除する。
+4. 画像が未生成の場合は `image` フロントマターフィールドを省略するか、`src/assets/images/post/common/` の共通画像を使用する。

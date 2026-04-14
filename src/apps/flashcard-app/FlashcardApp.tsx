@@ -21,7 +21,7 @@ interface FlashcardAppProps {
     apSyllabus?: Syllabus;
     feSyllabus?: Syllabus;
     ipSyllabus?: Syllabus;
-  }
+  };
 }
 
 export default function FlashcardApp({ allData, initialDeckId }: FlashcardAppProps) {
@@ -101,10 +101,10 @@ export default function FlashcardApp({ allData, initialDeckId }: FlashcardAppPro
         }
         break;
     }
-    
+
     setRawCards(newCards);
     // 初期状態では全選択 or カテゴリがない場合はそのまま
-    const hasCategories = newCards.some(c => !!c.largeCategory);
+    const hasCategories = newCards.some((c) => !!c.largeCategory);
     if (!hasCategories) {
       setCards(newCards.sort(() => Math.random() - 0.5));
     } else {
@@ -118,7 +118,7 @@ export default function FlashcardApp({ allData, initialDeckId }: FlashcardAppPro
 
     let filtered = rawCards;
     if (selectedCategory !== 'ALL') {
-      filtered = rawCards.filter(c => c.largeCategory === selectedCategory);
+      filtered = rawCards.filter((c) => c.largeCategory === selectedCategory);
     }
 
     // 数が多い場合は100枚に制限（負荷対策・学習効率）
@@ -142,16 +142,16 @@ export default function FlashcardApp({ allData, initialDeckId }: FlashcardAppPro
     return <DeckSelector onSelect={setSelectedDeckId} />;
   }
 
-  const categories = Array.from(new Set(rawCards.map(c => c.largeCategory).filter(Boolean))) as string[];
+  const categories = Array.from(new Set(rawCards.map((c) => c.largeCategory).filter(Boolean))) as string[];
 
   // デッキ選択済みかつ、カテゴリ未選択かつ、カテゴリが存在する場合
   if (categories.length > 0 && !selectedCategory) {
     return (
-      <CategorySelector 
-        categories={categories} 
-        rawCards={rawCards} 
-        onSelect={setSelectedCategory} 
-        onBack={handleBackToMenu} 
+      <CategorySelector
+        categories={categories}
+        rawCards={rawCards}
+        onSelect={setSelectedCategory}
+        onBack={handleBackToMenu}
       />
     );
   }
@@ -159,9 +159,11 @@ export default function FlashcardApp({ allData, initialDeckId }: FlashcardAppPro
   // データ読み込み中（rawCardsがない、もしくはカテゴリはあるが未選択）
   if (rawCards.length === 0 || (categories.length > 0 && !selectedCategory)) {
     return (
-      <div style={{textAlign: 'center', padding: '2rem'}}>
+      <div style={{ textAlign: 'center', padding: '2rem' }}>
         <p>データを読み込んでいます...</p>
-        <button class="control-btn" onClick={handleBackToMenu}>戻る</button>
+        <button class="control-btn" onClick={handleBackToMenu}>
+          戻る
+        </button>
       </div>
     );
   }
@@ -170,52 +172,52 @@ export default function FlashcardApp({ allData, initialDeckId }: FlashcardAppPro
 
   return (
     <div>
-      <div style={{marginBottom: '1rem', display: 'flex', justifyContent: 'space-between', alignItems: 'center'}}>
-        <div style={{display: 'flex', gap: '1rem'}}>
+      <div style={{ marginBottom: '1rem', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+        <div style={{ display: 'flex', gap: '1rem' }}>
           {!initialDeckId && (
-            <button 
+            <button
               onClick={handleBackToMenu}
-              style={{background: 'none', border: 'none', color: '#3b82f6', cursor: 'pointer', fontSize: '0.9rem'}}
+              style={{ background: 'none', border: 'none', color: '#3b82f6', cursor: 'pointer', fontSize: '0.9rem' }}
             >
               ← デッキ選択
             </button>
           )}
           {categories.length > 0 && (
-            <button 
+            <button
               onClick={handleBackToCategory}
-              style={{background: 'none', border: 'none', color: '#3b82f6', cursor: 'pointer', fontSize: '0.9rem'}}
+              style={{ background: 'none', border: 'none', color: '#3b82f6', cursor: 'pointer', fontSize: '0.9rem' }}
             >
               ← 分野選択
             </button>
           )}
         </div>
-        
+
         {isAdvancedExam && (
-          <div style={{display: 'flex', gap: '0.5rem'}}>
-            <button 
+          <div style={{ display: 'flex', gap: '0.5rem' }}>
+            <button
               onClick={() => setLearningMode('term-to-def')}
               style={{
-                fontSize: '0.7rem', 
-                padding: '0.2rem 0.5rem', 
+                fontSize: '0.7rem',
+                padding: '0.2rem 0.5rem',
                 borderRadius: '4px',
                 background: learningMode === 'term-to-def' ? '#3b82f6' : 'rgba(255,255,255,0.1)',
                 color: 'white',
                 border: 'none',
-                cursor: 'pointer'
+                cursor: 'pointer',
               }}
             >
               用語→説明
             </button>
-            <button 
+            <button
               onClick={() => setLearningMode('def-to-term')}
               style={{
-                fontSize: '0.7rem', 
-                padding: '0.2rem 0.5rem', 
+                fontSize: '0.7rem',
+                padding: '0.2rem 0.5rem',
                 borderRadius: '4px',
                 background: learningMode === 'def-to-term' ? '#3b82f6' : 'rgba(255,255,255,0.1)',
                 color: 'white',
                 border: 'none',
-                cursor: 'pointer'
+                cursor: 'pointer',
               }}
             >
               説明→用語
@@ -223,8 +225,7 @@ export default function FlashcardApp({ allData, initialDeckId }: FlashcardAppPro
           </div>
         )}
       </div>
-      <CardSession initialCards={cards} />
+      <CardSession initialCards={cards} deckId={selectedDeckId} />
     </div>
   );
 }
-

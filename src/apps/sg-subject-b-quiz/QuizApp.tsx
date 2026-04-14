@@ -1,6 +1,7 @@
 /** @jsxImportSource preact */
-import { useState, useCallback, useMemo, useRef } from 'preact/hooks';
+import { useState, useCallback, useRef } from 'preact/hooks';
 import type { Question, QuizAppProps } from './types';
+import { loadProgress, recordAnswer } from './progress';
 import ScenarioViewer from './ScenarioViewer';
 import './quiz.css';
 
@@ -8,20 +9,27 @@ export default function QuizApp({ questions, examId, examName }: QuizAppProps) {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [answers, setAnswers] = useState<Record<string, string>>({});
   const [isFinished, setIsFinished] = useState(false);
+  const [progress, setProgress] = useState(() => loadProgress(examId));
   const containerRef = useRef<HTMLDivElement>(null);
 
   const activeQuestion = questions[currentIndex];
   const userAnswer = answers[activeQuestion?.id];
   const isAnswered = !!userAnswer;
 
-  const handleAnswer = useCallback((label: string) => {
-    if (!activeQuestion || isAnswered) return;
-    setAnswers(prev => ({ ...prev, [activeQuestion.id]: label }));
-  }, [activeQuestion, isAnswered]);
+  const handleAnswer = useCallback(
+    (label: string) => {
+      if (!activeQuestion || isAnswered) return;
+      setAnswers((prev) => ({ ...prev, [activeQuestion.id]: label }));
+      const isCorrect = label === activeQuestion.answer;
+      const updated = recordAnswer(examId, activeQuestion.id, isCorrect);
+      setProgress(updated);
+    },
+    [activeQuestion, isAnswered, examId]
+  );
 
   const goNext = useCallback(() => {
     if (currentIndex < questions.length - 1) {
-      setCurrentIndex(i => i + 1);
+      setCurrentIndex((i) => i + 1);
       if (containerRef.current) containerRef.current.scrollIntoView({ behavior: 'smooth' });
     } else {
       setIsFinished(true);
@@ -46,15 +54,25 @@ ${q.answer}
   };
 
   if (isFinished) {
-    const correctCount = questions.filter(q => answers[q.id] === q.answer).length;
+    const sessionCorrect = questions.filter((q) => answers[q.id] === q.answer).length;
+    const cumAccuracy =
+      progress.totalAnswered > 0 ? Math.round((progress.totalCorrect / progress.totalAnswered) * 100) : 0;
+
     return (
       <div class="sg-quiz-container res-view" ref={containerRef}>
         <div class="sg-result-card">
           <h2>演習終了</h2>
           <div class="sg-score">
-            <span class="num">{correctCount}</span> / {questions.length}
+            <span class="num">{sessionCorrect}</span> / {questions.length}
           </div>
-          <button class="sg-btn primary" onClick={reset}>もう一度挑戦</button>
+          <p class="sg-score-label">今回の正答率: {Math.round((sessionCorrect / questions.length) * 100)}%</p>
+          <div class="sg-cumulative">
+            <span>累積回答数: {progress.totalAnswered}</span>
+            <span>累積正答率: {cumAccuracy}%</span>
+          </div>
+          <button class="sg-btn primary" onClick={reset}>
+            もう一度挑戦
+          </button>
         </div>
       </div>
     );
@@ -72,7 +90,10 @@ ${q.answer}
             <span class="sg-q-num">第 {currentIndex + 1} 問</span>
             <div class="sg-progress-dots">
               {questions.map((_, i) => (
-                <span key={i} class={`dot ${i === currentIndex ? 'active' : ''} ${answers[questions[i].id] ? 'done' : ''}`} />
+                <span
+                  key={i}
+                  class={`dot ${i === currentIndex ? 'active' : ''} ${answers[questions[i].id] ? 'done' : ''}`}
+                />
               ))}
             </div>
           </div>
@@ -88,12 +109,7 @@ ${q.answer}
                 else cls += ' dimmed';
               }
               return (
-                <button
-                  key={choice.label}
-                  class={cls}
-                  onClick={() => handleAnswer(choice.label)}
-                  disabled={isAnswered}
-                >
+                <button key={choice.label} class={cls} onClick={() => handleAnswer(choice.label)} disabled={isAnswered}>
                   <span class="label">{choice.label}</span>
                   <span class="text">{choice.text}</span>
                 </button>
@@ -103,9 +119,7 @@ ${q.answer}
 
           {isAnswered && (
             <div class="sg-explanation-box">
-              <div class="sg-status-badge">
-                {userAnswer === activeQuestion.answer ? '✅ 正解' : '❌ 不正解'}
-              </div>
+              <div class="sg-status-badge">{userAnswer === activeQuestion.answer ? '✅ 正解' : '❌ 不正解'}</div>
               <p class="text">{activeQuestion.explanation}</p>
               <div class="sg-actions">
                 <a

@@ -5,6 +5,7 @@ import Image from '~/components/common/Image.astro';
 import PostTags from '~/components/blog/Tags.astro';
 import SocialShare from '~/components/common/SocialShare.astro';
 
+import { SITE } from 'astrowind:config';
 import { getPermalink } from '~/utils/permalinks';
 import { getFormattedDate } from '~/utils/utils';
 
@@ -16,7 +17,67 @@ export interface Props {
 }
 
 const { post, url } = Astro.props;
+
+const postUrl = String(url);
+const imageUrl =
+  post.image && typeof post.image === 'object' && 'src' in post.image
+    ? `${SITE.site}${post.image.src}`
+    : typeof post.image === 'string'
+      ? post.image
+      : undefined;
+
+const blogPostingJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BlogPosting',
+  '@id': postUrl,
+  url: postUrl,
+  headline: post.title,
+  description: post.excerpt,
+  datePublished: post.publishDate.toISOString(),
+  dateModified: (post.updateDate ?? post.publishDate).toISOString(),
+  author: {
+    '@type': 'Person',
+    name: post.author ?? 'さしし',
+    url: `${SITE.site}/about`,
+  },
+  publisher: {
+    '@type': 'Organization',
+    '@id': `${SITE.site}/#organization`,
+    name: SITE.name,
+    logo: {
+      '@type': 'ImageObject',
+      url: `${SITE.site}/favicon.svg`,
+    },
+  },
+  ...(imageUrl ? { image: { '@type': 'ImageObject', url: imageUrl } } : {}),
+  mainEntityOfPage: {
+    '@type': 'WebPage',
+    '@id': postUrl,
+  },
+};
+
+const breadcrumbJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'ホーム', item: SITE.site },
+    ...(post.category
+      ? [
+          {
+            '@type': 'ListItem',
+            position: 2,
+            name: post.category.title,
+            item: `${SITE.site}${getPermalink(post.category.slug, 'category')}`,
+          },
+          { '@type': 'ListItem', position: 3, name: post.title, item: postUrl },
+        ]
+      : [{ '@type': 'ListItem', position: 2, name: post.title, item: postUrl }]),
+  ],
+};
 ---
+
+<script type="application/ld+json" set:html={JSON.stringify(blogPostingJsonLd)} />
+<script type="application/ld+json" set:html={JSON.stringify(breadcrumbJsonLd)} />
 
 <section class="py-8 sm:py-16 lg:py-20 mx-auto">
   <article>
@@ -109,7 +170,8 @@ const { post, url } = Astro.props;
 
           // Create copy button
           const copyButton = document.createElement('button');
-          copyButton.className = 'copy-code-btn absolute top-2 right-2 p-2 bg-slate-700/50 hover:bg-slate-600/80 text-white rounded-md opacity-0 group-hover:opacity-100 transition-all duration-200 focus:outline-none';
+          copyButton.className =
+            'copy-code-btn absolute top-2 right-2 p-2 bg-slate-700/50 hover:bg-slate-600/80 text-white rounded-md opacity-0 group-hover:opacity-100 transition-all duration-200 focus:outline-none';
           copyButton.setAttribute('aria-label', 'Copy code');
           copyButton.innerHTML = `
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="copy-icon"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
@@ -122,11 +184,11 @@ const { post, url } = Astro.props;
             const code = codeBlock.querySelector('code')?.innerText || codeBlock.innerText;
             try {
               await navigator.clipboard.writeText(code);
-              
+
               // Show check icon
               copyButton.querySelector('.copy-icon').classList.add('hidden');
               copyButton.querySelector('.check-icon').classList.remove('hidden');
-              
+
               setTimeout(() => {
                 copyButton.querySelector('.copy-icon').classList.remove('hidden');
                 copyButton.querySelector('.check-icon').classList.add('hidden');
@@ -147,7 +209,7 @@ const { post, url } = Astro.props;
         position: relative;
         padding-top: 2.5rem !important; /* Make room for button */
       }
-      
+
       .prose pre code {
         white-space: pre-wrap !important;
       }
@@ -159,7 +221,7 @@ const { post, url } = Astro.props;
       .copy-code-btn .hidden {
         display: none;
       }
-      
+
       .dark .prose pre {
         background-color: #0f172a !important;
         border: 1px solid rgba(255, 255, 255, 0.1);

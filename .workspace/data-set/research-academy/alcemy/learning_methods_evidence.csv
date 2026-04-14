@@ -1,0 +1,17 @@
+"学習方法 (Method)","概要 (Summary)","科学的根拠・エビデンス (Evidence)","具体的な実践方法 (HowTo)","情報源URL (SourceURL)"
+"アクティブリコール（能動的な想起）","学んだ内容を思い出す作業を行うことで、記憶を強化する方法。テキストを読み返す受動的な学習より効果が高い。","記憶の検索行為そのものが記憶を強化するという「検索練習仮説」に基づいている。多くの認知心理学研究で有効性が証明されている。","・学んだ内容を何も見ずに書き出す
+・問題集を解く
+・誰かに説明する","https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4GTCYJguFpgyLAgx4vluKxsW1w_qufTvtxIpI0AyGG9bjOgQEPjWUU2GautVDN_zI64E-mar8sLgEypqsxR9yVZadTKR0y4onuw6Axf8is5YRZGDr0KxYPwLrAhYTdZuJuuzgy6o="
+"分散学習（間隔反復）","一度にまとめて学習するのではなく、時間を空けて複数回に分けて復習する方法。長期記憶に定着しやすい。","忘却曲線に基づき、忘れかけたタイミングで復習することで記憶が再強化される「間隔効果」を利用している。","・学習した翌日、1週間後、1ヶ月後など、徐々に間隔を広げて復習する
+・Ankiなどのフラッシュカードアプリを活用する","https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGBCyO4_tqwdd1JxxMTEjDeuRKZQaqDB7mI6znt7O7at4fdiyXA3kUOyf2nEbJ1zRmGpU1_acwT-964uA0QWEZ52tKOlDK_OPsvQdkBX4SZ649tw_OaNvSoz0x71sj0fiIS2DTHqISise3h"
+"インターリービング（多様な練習）","一つのトピックを集中して学習するのではなく、複数の異なるトピックを交互に織り交ぜて学習する方法。","脳がパターンを一般化し、応用力を高める効果があるとされる。文脈的干渉（Contextual Interference）効果とも関連付けられる。","・数学の問題を数問解いた後、英単語を覚える、といったように異なる科目を交互に行う
+・同じ科目内でも、異なる種類の問題を混ぜて解く","https://www.lifehacker.jp/article/2108-interleaving-study-technique/"
+"精緻化（Elaboration）","新しい情報を自分の既存の知識と関連付けたり、具体例を考えたりして、情報に意味付けを行う方法。","情報の意味的処理を深めることで、記憶のネットワークが豊かになり、思い出しやすくなる。","・学んだ内容を自分の言葉で要約する
+・「なぜそうなるのか？」と自問自答する
+・具体例や身近なものに例える","https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGE7pgAvre_9khCWbXkBBE9WYWJpQkrBuhHXzh63qeJfc0BZAyvUzs_FwR2C-NMFNyihNK8d5hB7YeqGoeVT6g2dc7WjspyYdwuY9Y7bAAZXJygnVYIReIYEC4K9ATOVIbKpIPa596_zIBhaWQM7DpeUISlp-BdLRiOELYXeNCBJR-d-g=="
+"自己説明（Self-Explanation）","学習内容について、自分自身に「これはどういうことか」「なぜこうなるのか」と説明するプロセス。","学習内容のギャップや誤解を自己発見し、理解を深める効果がある。精緻化の一種とも考えられる。","・教科書や参考書の一節を読むごとに、その内容を自分の言葉で説明してみる
+・数式の各ステップの意味を口に出して説明する","https://www.jstage.jst.go.jp/article/jjes/42/1/42_29/_pdf"
+"睡眠","学習した情報が脳内で整理され、長期記憶として定着するために不可欠なプロセス。","レム睡眠とノンレム睡眠のサイクルを通じて、記憶の取捨選択と固定化（コンソリデーション）が行われる。","・徹夜を避け、十分な睡眠時間を確保する
+・特に暗記したい内容は、就寝前に学習すると効果的とされる","https://www.we-school.net/column/20210326-2/"
+"適度な運動","ウォーキングなどの有酸素運動は、脳の血流を促進し、記憶を司る海馬の機能を高める効果がある。","運動によってBDNF（脳由来神経栄養因子）などの物質が分泌され、神経細胞の成長や結合を促すことが示されている。","・勉強の合間に15〜30分程度のウォーキングやジョギングを取り入れる
+・学習前に軽い運動をする","https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGr8uXCYe7bi5Mng_sewoUcbYaP9aFRYJ1KSM1xTDtvjiTFR-TH7uxXCGVrVY0pDv84N6911_Dx2Is2okxC_HQ5n9siM52F-EBK0WKPBH5LtR0lHzpq-E6u6d26yZss"

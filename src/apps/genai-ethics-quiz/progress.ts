@@ -1,11 +1,20 @@
 import type { UserProgress, AnswerRecord, MasteryLevel } from './types';
 
-const STORAGE_KEY = 'syllabushack_genai_ethics_progress';
+const STORAGE_KEY = 'sh_quiz_genai-ethics';
+/** @deprecated 旧キー — マイグレーション用 */
+const LEGACY_STORAGE_KEY = 'syllabushack_genai_ethics_progress';
+
+function migrateIfNeeded(): void {
+  if (typeof window === 'undefined') return;
+  if (!localStorage.getItem(STORAGE_KEY) && localStorage.getItem(LEGACY_STORAGE_KEY)) {
+    localStorage.setItem(STORAGE_KEY, localStorage.getItem(LEGACY_STORAGE_KEY)!);
+    localStorage.removeItem(LEGACY_STORAGE_KEY);
+  }
+}
 
 export function loadProgress(): UserProgress {
-  if (typeof window === 'undefined') {
-    return createEmptyProgress();
-  }
+  migrateIfNeeded();
+  if (typeof window === 'undefined') return createEmptyProgress();
   const saved = localStorage.getItem(STORAGE_KEY);
   if (!saved) return createEmptyProgress();
   try {
@@ -29,18 +38,18 @@ function createEmptyProgress(): UserProgress {
   };
 }
 
-export function saveProgress(progress: UserProgress) {
+export function saveProgress(progress: UserProgress): void {
   if (typeof window === 'undefined') return;
-  localStorage.setItem(STORAGE_KEY, JSON.stringify(progress));
+  try {
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(progress));
+  } catch {
+    // Storage full — ignore silently
+  }
 }
 
-export function recordAnswer(
-  questionId: string,
-  category: string,
-  isCorrect: boolean
-): UserProgress {
+export function recordAnswer(questionId: string, category: string, isCorrect: boolean): UserProgress {
   const current = loadProgress();
-  
+
   const record: AnswerRecord = {
     questionId,
     isCorrect,
@@ -59,7 +68,7 @@ export function recordAnswer(
       ...current.categoryStats,
       [category]: categoryStat,
     },
-    history: [record, ...current.history].slice(0, 1000), // Keep last 1000
+    history: [record, ...current.history].slice(0, 100),
   };
 
   saveProgress(updated);
@@ -69,16 +78,16 @@ export function recordAnswer(
 export function recordMastery(questionId: string, level: MasteryLevel): UserProgress {
   const current = loadProgress();
   const flashcard = current.flashcard || { mastery: {} };
-  
+
   const updated: UserProgress = {
     ...current,
     flashcard: {
       ...flashcard,
       mastery: {
         ...flashcard.mastery,
-        [questionId]: level
-      }
-    }
+        [questionId]: level,
+      },
+    },
   };
 
   saveProgress(updated);

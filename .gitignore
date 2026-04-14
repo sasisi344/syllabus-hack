@@ -29,7 +29,6 @@ pnpm-debug.log*
 
 # --- Security & Privacy (Syllabus Hack Internal) ---
 .skills/
-.workspace/
 00_templates/
 GEMINI.md
 

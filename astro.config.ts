@@ -1,4 +1,5 @@
 import path from 'path';
+import fs from 'node:fs';
 import { fileURLToPath } from 'url';
 
 import { defineConfig } from 'astro/config';
@@ -19,6 +20,40 @@ import { readingTimeRemarkPlugin, responsiveTablesRehypePlugin, lazyImagesRehype
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
+// Build slug → lastmod map from post frontmatter at config time
+function buildLastmodMap(): Map<string, Date> {
+  const map = new Map<string, Date>();
+  const postsDir = path.join(__dirname, 'src/data/post');
+  if (!fs.existsSync(postsDir)) return map;
+
+  const walk = (dir: string) => {
+    for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+      const full = path.join(dir, entry.name);
+      if (entry.isDirectory()) {
+        walk(full);
+      } else if (entry.name === 'index.md' || entry.name === 'index.mdx') {
+        const content = fs.readFileSync(full, 'utf-8');
+        const fmMatch = content.match(/^---\n([\s\S]*?)\n---/);
+        if (!fmMatch) continue;
+        const fm = fmMatch[1];
+        const slug = path.basename(path.dirname(full));
+        const dateStr = fm.match(/^lastmod:\s*(.+)$/m)?.[1]?.trim() ?? fm.match(/^publishDate:\s*(.+)$/m)?.[1]?.trim();
+        if (slug && dateStr) {
+          try {
+            map.set(slug, new Date(dateStr));
+          } catch {
+            // ignore invalid dates
+          }
+        }
+      }
+    }
+  };
+  walk(postsDir);
+  return map;
+}
+
+const lastmodMap = buildLastmodMap();
+
 const hasExternalScripts = true;
 const whenExternalScripts = (items: (() => AstroIntegration) | (() => AstroIntegration)[] = []) =>
   hasExternalScripts ? (Array.isArray(items) ? items.map((item) => item()) : [items()]) : [];
@@ -33,10 +68,11 @@ export default defineConfig({
     preact({ compat: true }),
     sitemap({
       serialize(item) {
-        if (/src\/data\/post\//.test(item.url)) {
-          // Note: Full URL analysis or a helper would be better, but we are inside the config.
-          // For simplicity, we can't easily fetch the specific post data here without more logic.
-          // However, we can try to use a more automated approach if we use a plugin.
+        // Extract slug from URL (last path segment, strip trailing slash)
+        const slug = item.url.replace(/\/$/, '').split('/').pop() ?? '';
+        const lastmod = lastmodMap.get(slug);
+        if (lastmod) {
+          item.lastmod = lastmod.toISOString();
         }
         return item;
       },
@@ -61,9 +97,9 @@ export default defineConfig({
 
     ...whenExternalScripts(() =>
       partytown({
-        config: { 
+        config: {
           forward: ['dataLayer.push'],
-          lib: 'partytown', 
+          lib: 'partytown',
         },
       })
     ),
