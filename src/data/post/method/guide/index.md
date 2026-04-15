@@ -1,19 +1,31 @@
 ---
 publishDate: 2026-02-10
-lastmod: 2026-02-17
+lastmod: 2026-04-15
 title: シラバスハック学習メソッド：生成AIで資格試験を攻略する
 image: ~/data/post/method/common-cover.png
 excerpt: 当サイトが推奨する「生成AI×シラバス」を活用した学習メソッドの総まとめです。ITパスポートから基本情報技術者まで、効率的な合格戦略を解説します。
 category: method
 tags:
   - 学習メソッド
-  - AI活用
+  - ChatGPT
+  - Claude
+  - Gemini
   - SyllabusHack
-  - 効率的学習
-  - 2026年試験
 metadata:
   description: 生成AIを「最強の家庭教師」に変える、Syllabus Hack流の学習メソッド。2026年のCBT完全移行対応、NotebookLM学習法、地域別キャリア戦略。
 ---
+
+## ツール別早見（ChatGPT / Claude / Gemini）
+
+迷ったらこの表だけ見て、今日の作業に合うツールを1本選ぶ。
+
+| ツール | 向いている用途 | 典型シーン |
+| :--- | :--- | :--- |
+| <strong>ChatGPT</strong> | 対話での用語解説・問題生成・プロンプトの追従 | 4択の類題を量産したい、手順どおりの出力が欲しい |
+| <strong>Claude</strong> | 長文・PDFの要約・記述式の言語化・添削 | 午後問題のシナリオ全文を扱う、Projectsで文脈を蓄える |
+| <strong>Gemini</strong> | 検索連携・最新情報の当たり付け | IPAの公式発表や直近トレンドを確認したい |
+
+ITパスポートの手順を1本にまとめた柱は <strong>[ChatGPTでITパスポートに合格する全手順](/method/chatgpt-itpassport-ai-complete-guide)</strong>。基本情報・科目Bのプロンプト索引は <strong>[FE科目Bプロンプトハブ](/method/fe-subject-b-ai-prompt-hub)</strong>。
 
 ## 【重要】2026年、情報処理試験の「ルール」が変わる
 

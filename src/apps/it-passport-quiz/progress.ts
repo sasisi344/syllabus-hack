@@ -14,6 +14,8 @@ const createDefaultProgress = (): UserProgress => ({
     strategy: { answered: 0, correct: 0 },
     management: { answered: 0, correct: 0 },
     technology: { answered: 0, correct: 0 },
+    'generative-ai': { answered: 0, correct: 0 },
+    practical: { answered: 0, correct: 0 },
   },
   history: [],
   lastUpdated: Date.now(),

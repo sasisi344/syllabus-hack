@@ -3,6 +3,7 @@ import { useState, useCallback, useMemo, useEffect, useRef } from 'preact/hooks'
 import type { Question, QuizAppProps, ExamField } from './types';
 import { FIELD_LABELS } from './types';
 import { recordAnswer, loadProgress, getFieldAccuracy, getWeakestField } from './progress';
+import { buildDeepDiveAiPrompt, buildGeminiDeepDiveUrl, copyPromptToClipboard } from './aiPrompt';
 
 type QuizMode = 'menu' | 'drill' | 'result';
 
@@ -24,6 +25,8 @@ export default function QuizApp({ questions, examId, examName }: QuizAppProps) {
   };
   const [showResult, setShowResult] = useState(false);
   const [progress, setProgress] = useState(() => loadProgress(examId));
+  const [copyFeedback, setCopyFeedback] = useState<'idle' | 'ok' | 'err'>('idle');
+  const copyFeedbackTimerRef = useRef<number | undefined>(undefined);
 
   // ドリルの問題セット
   const drillQuestions = useMemo(() => {
@@ -62,7 +65,7 @@ export default function QuizApp({ questions, examId, examName }: QuizAppProps) {
 
     // 各分野からランダムに抽出
     for (const [field, count] of Object.entries(TARGET_COUNTS)) {
-      let fieldQuestions = [];
+      let fieldQuestions: Question[] = [];
       if (field === 'technology') {
         fieldQuestions = questions.filter((q) => q.field === 'technology' || q.field === 'generative-ai');
       } else {
@@ -128,27 +131,27 @@ export default function QuizApp({ questions, examId, examName }: QuizAppProps) {
   // 苦手分野の取得
   const weakest = useMemo(() => getWeakestField(progress), [progress]);
 
-  // AIに聞くプロンプト生成
-  const generateAiPrompt = useCallback(
-    (q: Question, userAnswer: string) => {
-      const scenarioText = q.scenario ? `【シナリオ】\n${q.scenario}\n\n` : '';
-      const keywordsText = q.keywords && q.keywords.length > 0
-        ? `【解答のヒントとなるキーワード】\n${q.keywords.map(k => `・${k}`).join('\n')}\n\n`
-        : '';
+  const flashCopyFeedback = useCallback((ok: boolean) => {
+    if (typeof window === 'undefined') return;
+    window.clearTimeout(copyFeedbackTimerRef.current);
+    setCopyFeedback(ok ? 'ok' : 'err');
+    copyFeedbackTimerRef.current = window.setTimeout(() => setCopyFeedback('idle'), 2000);
+  }, []);
 
-      return `以下の${examName}の問題について、なぜ「${q.correctLabel}」が正解なのか、初学者にもわかるように詳しく解説してください。
-解説では、各選択肢が「なぜ正しいのか」または「なぜ誤りなのか」を、上記の関連キーワードの意味も交えて丁寧に説明してください。
-
-${keywordsText}${scenarioText}【問題】
-${q.text}
-
-${q.choices.map((c) => `${c.label}. ${c.text}`).join('\n')}
-
-正解: ${q.correctLabel}
-私の回答: ${userAnswer}`;
+  const handleCopyDeepDivePrompt = useCallback(
+    async (q: Question, userAnswer: string) => {
+      const text = buildDeepDiveAiPrompt(examName, q, userAnswer);
+      const ok = await copyPromptToClipboard(text);
+      flashCopyFeedback(ok);
     },
-    [examName]
+    [examName, flashCopyFeedback]
   );
+
+  useEffect(() => {
+    return () => {
+      if (typeof window !== 'undefined') window.clearTimeout(copyFeedbackTimerRef.current);
+    };
+  }, []);
 
   // ---- RENDER ----
 
@@ -286,8 +289,19 @@ ${q.choices.map((c) => `${c.label}. ${c.text}`).join('\n')}
               <strong>{isCorrect ? '✅ 正解！' : `❌ 不正解… 正解は「${activeQuestion.correctLabel}」`}</strong>
               <p>{activeQuestion.explanation}</p>
               <div class="qa-feedback-actions">
+                <button
+                  type="button"
+                  class="qa-copy-prompt-btn"
+                  onClick={() => handleCopyDeepDivePrompt(activeQuestion, userAnswer)}
+                >
+                  📋 深掘りプロンプトをコピー
+                </button>
+                {copyFeedback === 'ok' && <span class="qa-copy-feedback qa-copy-feedback-ok">コピーしました</span>}
+                {copyFeedback === 'err' && (
+                  <span class="qa-copy-feedback qa-copy-feedback-err">コピーできませんでした</span>
+                )}
                 <a
-                  href={`https://gemini.google.com/app?q=${encodeURIComponent(generateAiPrompt(activeQuestion, userAnswer))}`}
+                  href={buildGeminiDeepDiveUrl(examName, activeQuestion, userAnswer)}
                   target="_blank"
                   rel="noopener noreferrer"
                   class="qa-ai-link"
@@ -318,6 +332,8 @@ ${q.choices.map((c) => `${c.label}. ${c.text}`).join('\n')}
           <p class="qa-result-rate">
             正答率: {Math.round((correctCount / activeQuestions.length) * 100)}%
           </p>
+          {copyFeedback === 'ok' && <p class="qa-copy-banner qa-copy-banner-ok">コピーしました</p>}
+          {copyFeedback === 'err' && <p class="qa-copy-banner qa-copy-banner-err">コピーできませんでした</p>}
 
           {/* 間違った問題一覧 */}
           <div class="qa-wrong-list">
@@ -330,14 +346,23 @@ ${q.choices.map((c) => `${c.label}. ${c.text}`).join('\n')}
                   <p class="qa-wrong-a">
                     あなたの回答: {answers[q.id]} → 正解: {q.correctLabel}
                   </p>
-                  <a
-                    href={`https://gemini.google.com/app?q=${encodeURIComponent(generateAiPrompt(q, answers[q.id]))}`}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="qa-ai-link-sm"
-                  >
-                    🤖 AIで復習
-                  </a>
+                  <div class="qa-wrong-actions">
+                    <button
+                      type="button"
+                      class="qa-copy-prompt-btn sm"
+                      onClick={() => handleCopyDeepDivePrompt(q, answers[q.id])}
+                    >
+                      📋 プロンプトをコピー
+                    </button>
+                    <a
+                      href={buildGeminiDeepDiveUrl(examName, q, answers[q.id])}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="qa-ai-link-sm"
+                    >
+                      🤖 AIで復習
+                    </a>
+                  </div>
                 </div>
               ))}
             {correctCount === activeQuestions.length && (

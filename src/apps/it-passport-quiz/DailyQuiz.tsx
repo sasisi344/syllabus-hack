@@ -1,6 +1,7 @@
 /** @jsxImportSource preact */
-import { useState, useCallback, useMemo } from 'preact/hooks';
+import { useState, useCallback, useMemo, useRef, useEffect } from 'preact/hooks';
 import type { Question, DailyQuizProps } from './types';
+import { buildDeepDiveAiPrompt, buildGeminiDeepDiveUrl, copyPromptToClipboard } from './aiPrompt';
 
 /**
  * DailyQuiz — 「今日の1問」コンポーネント
@@ -17,6 +18,9 @@ export default function DailyQuiz({ questions }: DailyQuizProps) {
 
   const [selected, setSelected] = useState<string | null>(null);
   const [revealed, setRevealed] = useState(false);
+  const [copyFeedback, setCopyFeedback] = useState<'idle' | 'ok' | 'err'>('idle');
+  const copyFeedbackTimerRef = useRef<number | undefined>(undefined);
+  const DAILY_EXAM_NAME = 'ITパスポート試験';
 
   const handleSelect = useCallback(
     (label: string) => {
@@ -29,29 +33,30 @@ export default function DailyQuiz({ questions }: DailyQuizProps) {
 
   const isCorrect = selected === todayQuestion.correctLabel;
 
-  // AIに聞くプロンプト生成
-  const aiPrompt = useMemo(() => {
-    if (!revealed || !selected) return '';
-    const keywordsText = todayQuestion.keywords && todayQuestion.keywords.length > 0
-      ? `【解答のヒントとなるキーワード】\n${todayQuestion.keywords.map(k => `・${k}`).join('\n')}\n\n`
-      : '';
-
-    return `以下のITパスポート試験の問題について、なぜ「${todayQuestion.correctLabel}」が正解なのか、初学者にもわかるように詳しく解説してください。
-解説では、各選択肢が「なぜ正しいのか」または「なぜ誤りなのか」を、上記の関連キーワードの意味も交えて丁寧に説明してください。
-
-${keywordsText}【問題】
-${todayQuestion.text}
-
-${todayQuestion.choices.map((c) => `${c.label}. ${c.text}`).join('\n')}
-
-正解: ${todayQuestion.correctLabel}
-私の回答: ${selected}`;
+  const geminiUrl = useMemo(() => {
+    if (!revealed || !selected) return '#';
+    return buildGeminiDeepDiveUrl(DAILY_EXAM_NAME, todayQuestion, selected);
   }, [revealed, selected, todayQuestion]);
 
-  const geminiUrl = useMemo(() => {
-    if (!aiPrompt) return '#';
-    return `https://gemini.google.com/app?q=${encodeURIComponent(aiPrompt)}`;
-  }, [aiPrompt]);
+  const flashCopyFeedback = useCallback((ok: boolean) => {
+    if (typeof window === 'undefined') return;
+    window.clearTimeout(copyFeedbackTimerRef.current);
+    setCopyFeedback(ok ? 'ok' : 'err');
+    copyFeedbackTimerRef.current = window.setTimeout(() => setCopyFeedback('idle'), 2000);
+  }, []);
+
+  const handleCopyPrompt = useCallback(async () => {
+    if (!revealed || !selected) return;
+    const text = buildDeepDiveAiPrompt(DAILY_EXAM_NAME, todayQuestion, selected);
+    const ok = await copyPromptToClipboard(text);
+    flashCopyFeedback(ok);
+  }, [revealed, selected, todayQuestion, flashCopyFeedback]);
+
+  useEffect(() => {
+    return () => {
+      if (typeof window !== 'undefined') window.clearTimeout(copyFeedbackTimerRef.current);
+    };
+  }, []);
 
   return (
     <div class="daily-quiz">
@@ -98,14 +103,18 @@ ${todayQuestion.choices.map((c) => `${c.label}. ${c.text}`).join('\n')}
             <strong>{isCorrect ? '正解！' : `不正解… 正解は「${todayQuestion.correctLabel}」`}</strong>
             <p class="dq-explanation">{todayQuestion.explanation}</p>
           </div>
-          <a
-            href={geminiUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            class="dq-ai-btn"
-          >
-            🤖 AIにもっと詳しく聞く
-          </a>
+          <div class="dq-ai-actions">
+            <button type="button" class="dq-copy-btn" onClick={handleCopyPrompt}>
+              📋 深掘りプロンプトをコピー
+            </button>
+            {copyFeedback === 'ok' && <span class="dq-copy-feedback dq-copy-feedback-ok">コピーしました</span>}
+            {copyFeedback === 'err' && (
+              <span class="dq-copy-feedback dq-copy-feedback-err">コピーできませんでした</span>
+            )}
+            <a href={geminiUrl} target="_blank" rel="noopener noreferrer" class="dq-ai-btn">
+              🤖 AIにもっと詳しく聞く
+            </a>
+          </div>
         </div>
       )}
     </div>

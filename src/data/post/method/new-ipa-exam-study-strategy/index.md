@@ -1,14 +1,15 @@
 ---
 draft: false
 publishDate: 2026-04-11
-lastmod: 2026-04-11
+lastmod: 2026-04-15
 title: 新IPA試験を攻略する「最短合格」戦略｜データとAIを武器にする勉強法
 persona: 効率的な試験対策を求める戦略的学習者
 category: method
 tags:
  - 試験対策
- - プロンプト
- - 生成AI
+ - ChatGPT
+ - Claude
+ - Gemini
  - データマネジメント
 knowledge:
  examId: common
@@ -40,9 +41,28 @@ image: ~/data/post/method/new-ipa-exam-study-strategy/cover.png
 
 IPAが順次公開するキーワードを網羅することが、出題範囲を制覇する唯一の道といえます。
 
-参考書に頼る前に、まずはシラバスの用語リストを <strong>生成AI</strong> に整理させ、概要を把握することから始めましょう。
+参考書に頼る前に、まずはシラバスの用語リストをAIに整理させ、概要を把握することから始めましょう。
 
-特に過去問が少ない新設試験では、 <strong>ChatGPT</strong> や <strong>Gemini</strong> をパーソナルチューターとして使い倒すことが不可欠です。
+特に過去問が少ない新設試験では、<strong>ChatGPT / Claude / Gemini</strong> を役割分担で使うと効率が上がります。
+
+### ツール別の役割分担（調査・添削・スケジュール）
+
+| ツール | 主担当 | 使う場面 |
+| :--- | :--- | :--- |
+| <strong>ChatGPT</strong> | 問題生成・理解確認 | 4択の類題作成、誤答分析、日次ドリル |
+| <strong>Claude</strong> | 長文添削・論理整形 | 記述答案の添削、長文シナリオの要点抽出 |
+| <strong>Gemini</strong> | 公式情報の調査 | IPA公開資料の更新確認、最新動向の下調べ |
+
+以下を最初の設定メッセージとして貼ると、学習フローを固定しやすいです。
+
+```text
+あなたはIPA試験対策の学習コーチです。
+私は新試験制度に向けて学習します。次の役割で支援してください。
+- ChatGPT: 類題生成と誤答分析
+- Claude: 記述答案の添削
+- Gemini: 公式情報の更新確認
+毎日の学習計画を「60分版」で提案し、最後に今日の確認問題を3問出してください。
+```
 
 ## 理論の習得が「ツール選択」の武器になる
 

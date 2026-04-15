@@ -152,6 +152,45 @@
   margin-bottom: 0.75rem;
 }
 
+.dq-ai-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.65rem;
+}
+
+.dq-copy-btn {
+  display: inline-flex;
+  align-items: center;
+  background: transparent;
+  color: #c7d2fe;
+  font-size: 0.85rem;
+  font-weight: 600;
+  padding: 0.55rem 1.2rem;
+  border-radius: 0.5rem;
+  border: 1px solid rgba(199, 210, 254, 0.45);
+  cursor: pointer;
+  transition: background 0.2s, border-color 0.2s;
+}
+
+.dq-copy-btn:hover {
+  background: rgba(99, 102, 241, 0.15);
+  border-color: #a5b4fc;
+}
+
+.dq-copy-feedback {
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.dq-copy-feedback-ok {
+  color: #86efac;
+}
+
+.dq-copy-feedback-err {
+  color: #fca5a5;
+}
+
 .dq-ai-btn {
   display: inline-block;
   background: linear-gradient(135deg, #6366f1, #818cf8);
@@ -532,6 +571,92 @@
   gap: 0.75rem;
   margin-top: 1rem;
   flex-wrap: wrap;
+  align-items: center;
+}
+
+.qa-copy-prompt-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  background: transparent;
+  color: #475569;
+  font-size: 0.82rem;
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid #cbd5e1;
+  cursor: pointer;
+  transition: background 0.2s, border-color 0.2s;
+}
+
+.qa-copy-prompt-btn:hover {
+  background: rgba(99, 102, 241, 0.06);
+  border-color: #818cf8;
+}
+
+.dark .qa-copy-prompt-btn {
+  color: #e2e8f0;
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.qa-copy-prompt-btn.sm {
+  font-size: 0.78rem;
+  padding: 0.35rem 0.75rem;
+}
+
+.qa-copy-feedback {
+  font-size: 0.78rem;
+  font-weight: 600;
+}
+
+.qa-copy-feedback-ok {
+  color: #16a34a;
+}
+
+.dark .qa-copy-feedback-ok {
+  color: #86efac;
+}
+
+.qa-copy-feedback-err {
+  color: #dc2626;
+}
+
+.dark .qa-copy-feedback-err {
+  color: #fca5a5;
+}
+
+.qa-copy-banner {
+  font-size: 0.88rem;
+  font-weight: 600;
+  margin: 0 0 1rem;
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.5rem;
+  text-align: center;
+}
+
+.qa-copy-banner-ok {
+  background: rgba(34, 197, 94, 0.12);
+  color: #166534;
+}
+
+.dark .qa-copy-banner-ok {
+  color: #bbf7d0;
+}
+
+.qa-copy-banner-err {
+  background: rgba(239, 68, 68, 0.12);
+  color: #991b1b;
+}
+
+.dark .qa-copy-banner-err {
+  color: #fecaca;
+}
+
+.qa-wrong-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.65rem;
 }
 
 .qa-ai-link {
