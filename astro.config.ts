@@ -7,11 +7,9 @@ import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
 import tailwind from '@astrojs/tailwind';
 import mdx from '@astrojs/mdx';
-import partytown from '@astrojs/partytown';
 import preact from '@astrojs/preact';
 import icon from 'astro-icon';
 import compress from 'astro-compress';
-import type { AstroIntegration } from 'astro';
 import remarkLinkCard from 'remark-link-card-plus';
 
 import astrowind from './vendor/integration';
@@ -54,10 +52,6 @@ function buildLastmodMap(): Map<string, Date> {
 
 const lastmodMap = buildLastmodMap();
 
-const hasExternalScripts = true;
-const whenExternalScripts = (items: (() => AstroIntegration) | (() => AstroIntegration)[] = []) =>
-  hasExternalScripts ? (Array.isArray(items) ? items.map((item) => item()) : [items()]) : [];
-
 export default defineConfig({
   output: 'static',
 
@@ -94,15 +88,6 @@ export default defineConfig({
         ],
       },
     }),
-
-    ...whenExternalScripts(() =>
-      partytown({
-        config: {
-          forward: ['dataLayer.push'],
-          lib: 'partytown',
-        },
-      })
-    ),
 
     compress({
       CSS: true,

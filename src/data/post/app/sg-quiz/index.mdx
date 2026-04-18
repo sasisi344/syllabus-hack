@@ -36,7 +36,7 @@ export const allQuestions = transformRawQuestions(rawQuestions, 'sg');
 このシミュレーターは、 <strong>情報セキュリティマネジメント試験（SG）</strong> の科目A・科目Bに完全対応した、合格特化型の演習ツールです。
 
 <div class="not-prose">
-  <QuizApp client:load questions={allQuestions} examId="sg" examName="情報セキュリティマネジメント試験" />
+  <QuizApp client:visible questions={allQuestions} examId="sg" examName="情報セキュリティマネジメント試験" />
 </div>
 
 ---

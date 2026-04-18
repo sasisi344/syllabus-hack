@@ -41,7 +41,7 @@ export const allQuestions = transformRawQuestions(questionsJson);
 ---
 
 <div class="not-prose">
-  <QuizApp client:load questions={allQuestions} examId="common" examName="生成AI・AI倫理特訓ドリル" />
+  <QuizApp client:visible questions={allQuestions} examId="common" examName="生成AI・AI倫理特訓ドリル" />
 </div>
 
 ---

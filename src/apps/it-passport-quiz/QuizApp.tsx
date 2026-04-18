@@ -10,7 +10,38 @@ type QuizMode = 'menu' | 'drill' | 'result';
 /**
  * QuizApp — 分野別ドリル + 進捗管理 の本体コンポーネント
  */
-export default function QuizApp({ questions, examId, examName }: QuizAppProps) {
+export default function QuizApp({ questions: questionsProp, examId, examName }: QuizAppProps) {
+  const [questions, setQuestions] = useState<Question[]>(questionsProp ?? []);
+  const [loadError, setLoadError] = useState(false);
+
+  useEffect(() => {
+    if (questionsProp && questionsProp.length > 0) return;
+    fetch(`/data/questions-${examId}.json`)
+      .then((r) => {
+        if (!r.ok) throw new Error(`HTTP ${r.status}`);
+        return r.json();
+      })
+      .then((data: Question[]) => setQuestions(data))
+      .catch(() => setLoadError(true));
+  }, [examId, questionsProp]);
+
+  if (loadError) {
+    return (
+      <div class="quiz-app">
+        <p style={{ textAlign: 'center', padding: '2rem' }}>
+          問題の読み込みに失敗しました。ページを再読み込みしてください。
+        </p>
+      </div>
+    );
+  }
+
+  if (questions.length === 0) {
+    return (
+      <div class="quiz-app">
+        <p style={{ textAlign: 'center', padding: '2rem' }}>読み込み中…</p>
+      </div>
+    );
+  }
   const [mode, setMode] = useState<QuizMode>('menu');
   const [currentField, setCurrentField] = useState<ExamField | null>(null);
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -55,11 +86,12 @@ export default function QuizApp({ questions, examId, examName }: QuizAppProps) {
   const [allQuestions, setAllQuestions] = useState<Question[]>([]);
   const startAll = useCallback(() => {
     // 分野ごとのターゲット出題数 (合計10問)
-    const TARGET_COUNTS: Record<string, number> = examId === 'sg'
-      ? { strategy: 2, management: 2, technology: 3, practical: 3 }
-      : examId === 'fe'
-      ? { strategy: 2, management: 2, technology: 3, practical: 3 }
-      : { strategy: 3, management: 2, technology: 5 };
+    const TARGET_COUNTS: Record<string, number> =
+      examId === 'sg'
+        ? { strategy: 2, management: 2, technology: 3, practical: 3 }
+        : examId === 'fe'
+          ? { strategy: 2, management: 2, technology: 3, practical: 3 }
+          : { strategy: 3, management: 2, technology: 5 };
 
     const selectedQuestions: Question[] = [];
 
@@ -71,7 +103,7 @@ export default function QuizApp({ questions, examId, examName }: QuizAppProps) {
       } else {
         fieldQuestions = questions.filter((q) => q.field === field);
       }
-      
+
       if (fieldQuestions.length === 0) continue;
 
       // シャッフル
@@ -167,26 +199,30 @@ export default function QuizApp({ questions, examId, examName }: QuizAppProps) {
             <span class="icon">🎲</span> 全分野シャッフル (10問)
           </button>
           <div class="qa-grid">
-            {(Object.keys(FIELD_LABELS) as ExamField[]).filter(f => f !== 'generative-ai').map((field) => {
-              const count = questions.filter((q) => q.field === field).length;
-              if (count === 0) return null; // 問題がない分野は表示しない
-              const accuracy = getFieldAccuracy(progress, field);
-              return (
-                <button
-                  key={field}
-                  class={`qa-btn ${weakest === field ? 'qa-weak' : ''}`}
-                  onClick={() => startDrill(field)}
-                >
-                  <span class="qa-field-name">{FIELD_LABELS[field]}</span>
-                  <span class="qa-field-meta">{count}問 / 正答率 {accuracy}%</span>
-                  {weakest === field && <span class="qa-weak-badge">苦手</span>}
-                </button>
-              );
-            })}
+            {(Object.keys(FIELD_LABELS) as ExamField[])
+              .filter((f) => f !== 'generative-ai')
+              .map((field) => {
+                const count = questions.filter((q) => q.field === field).length;
+                if (count === 0) return null; // 問題がない分野は表示しない
+                const accuracy = getFieldAccuracy(progress, field);
+                return (
+                  <button
+                    key={field}
+                    class={`qa-btn ${weakest === field ? 'qa-weak' : ''}`}
+                    onClick={() => startDrill(field)}
+                  >
+                    <span class="qa-field-name">{FIELD_LABELS[field]}</span>
+                    <span class="qa-field-meta">
+                      {count}問 / 正答率 {accuracy}%
+                    </span>
+                    {weakest === field && <span class="qa-weak-badge">苦手</span>}
+                  </button>
+                );
+              })}
           </div>
 
           {/* 生成AI特訓ボタン */}
-          {questions.some(q => q.field === 'generative-ai') && (
+          {questions.some((q) => q.field === 'generative-ai') && (
             <div class="qa-special-menu">
               <button class="qa-btn primary" onClick={() => startDrill('generative-ai')}>
                 <span class="icon">🤖</span> {FIELD_LABELS['generative-ai']} (特訓)
@@ -203,10 +239,7 @@ export default function QuizApp({ questions, examId, examName }: QuizAppProps) {
               </div>
               <div class="qa-stat">
                 <span class="qa-stat-num">
-                  {progress.totalAnswered > 0
-                    ? Math.round((progress.totalCorrect / progress.totalAnswered) * 100)
-                    : 0}
-                  %
+                  {progress.totalAnswered > 0 ? Math.round((progress.totalCorrect / progress.totalAnswered) * 100) : 0}%
                 </span>
                 <span class="qa-stat-label">正答率</span>
               </div>
@@ -270,12 +303,7 @@ export default function QuizApp({ questions, examId, examName }: QuizAppProps) {
                 else cls += ' qa-dimmed';
               }
               return (
-                <button
-                  key={choice.label}
-                  class={cls}
-                  onClick={() => handleAnswer(choice.label)}
-                  disabled={isAnswered}
-                >
+                <button key={choice.label} class={cls} onClick={() => handleAnswer(choice.label)} disabled={isAnswered}>
                   <span class="qa-label">{choice.label}</span>
                   <span class="qa-text">{choice.text}</span>
                 </button>
@@ -329,9 +357,7 @@ export default function QuizApp({ questions, examId, examName }: QuizAppProps) {
             <span class="qa-result-num">{correctCount}</span>
             <span class="qa-result-denom">/ {activeQuestions.length}</span>
           </div>
-          <p class="qa-result-rate">
-            正答率: {Math.round((correctCount / activeQuestions.length) * 100)}%
-          </p>
+          <p class="qa-result-rate">正答率: {Math.round((correctCount / activeQuestions.length) * 100)}%</p>
           {copyFeedback === 'ok' && <p class="qa-copy-banner qa-copy-banner-ok">コピーしました</p>}
           {copyFeedback === 'err' && <p class="qa-copy-banner qa-copy-banner-err">コピーできませんでした</p>}
 
@@ -365,9 +391,7 @@ export default function QuizApp({ questions, examId, examName }: QuizAppProps) {
                   </div>
                 </div>
               ))}
-            {correctCount === activeQuestions.length && (
-              <p class="qa-perfect">🏆 全問正解！素晴らしいです！</p>
-            )}
+            {correctCount === activeQuestions.length && <p class="qa-perfect">🏆 全問正解！素晴らしいです！</p>}
           </div>
 
           <button class="qa-back-btn" onClick={() => setMode('menu')}>

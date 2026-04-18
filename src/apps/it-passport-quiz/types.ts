@@ -29,16 +29,16 @@ export interface Question {
   id: string;
   examId: ExamId;
   field: ExamField;
-  scenario?: string;         // 長文ケーススタディのシナリオ文
-  subField?: string;         // 例: "企業活動", "ネットワーク"
-  year?: string;             // 出典年度 例: "R05秋"
-  questionNumber?: number;   // 問題番号
-  text: string;              // 問題文
+  scenario?: string; // 長文ケーススタディのシナリオ文
+  subField?: string; // 例: "企業活動", "ネットワーク"
+  year?: string; // 出典年度 例: "R05秋"
+  questionNumber?: number; // 問題番号
+  text: string; // 問題文
   choices: Choice[];
-  correctLabel: string;      // 正解ラベル "ア" | "イ" | "ウ" | "エ"
-  explanation: string;       // 解説テキスト
-  keywords?: string[];       // キーワード集 (AI解説生成・検索用)
-  syllabusRef?: string;      // シラバス参照
+  correctLabel: string; // 正解ラベル "ア" | "イ" | "ウ" | "エ"
+  explanation: string; // 解説テキスト
+  keywords?: string[]; // キーワード集 (AI解説生成・検索用)
+  syllabusRef?: string; // シラバス参照
   difficulty: 'beginner' | 'intermediate' | 'advanced';
 }
 
@@ -61,12 +61,14 @@ export interface UserProgress {
 
 /** 「今日の1問」コンポーネントのProps */
 export interface DailyQuizProps {
-  questions: Question[];
+  question: Question;
 }
 
 /** クイズアプリ本体のProps */
 export interface QuizAppProps {
-  questions: Question[];
-  examId: ExamId;
+  /** 省略時は /data/questions-{examId}.json から fetch */
+  questions?: Question[];
+  /** LocalStorage キー兼 fetch パスに使用する識別子（例: "it-passport"） */
+  examId: string;
   examName: string;
 }

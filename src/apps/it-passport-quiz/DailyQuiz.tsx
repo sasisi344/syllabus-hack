@@ -7,15 +7,7 @@ import { buildDeepDiveAiPrompt, buildGeminiDeepDiveUrl, copyPromptToClipboard } 
  * DailyQuiz — 「今日の1問」コンポーネント
  * トップページに埋め込む、1問だけの即時判定クイズ
  */
-export default function DailyQuiz({ questions }: DailyQuizProps) {
-  // 日付シードでランダムに1問選ぶ
-  const todayQuestion: Question = useMemo(() => {
-    const today = new Date();
-    const seed = today.getFullYear() * 10000 + (today.getMonth() + 1) * 100 + today.getDate();
-    const index = seed % questions.length;
-    return questions[index];
-  }, [questions]);
-
+export default function DailyQuiz({ question: todayQuestion }: DailyQuizProps) {
   const [selected, setSelected] = useState<string | null>(null);
   const [revealed, setRevealed] = useState(false);
   const [copyFeedback, setCopyFeedback] = useState<'idle' | 'ok' | 'err'>('idle');
@@ -82,12 +74,7 @@ export default function DailyQuiz({ questions }: DailyQuizProps) {
           }
 
           return (
-            <button
-              key={choice.label}
-              class={cls}
-              onClick={() => handleSelect(choice.label)}
-              disabled={revealed}
-            >
+            <button key={choice.label} class={cls} onClick={() => handleSelect(choice.label)} disabled={revealed}>
               <span class="dq-label">{choice.label}</span>
               <span class="dq-text">{choice.text}</span>
             </button>

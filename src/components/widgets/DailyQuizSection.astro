@@ -8,15 +8,18 @@ import '~/apps/it-passport-quiz/quiz.css';
 
 import type { Question } from '~/apps/it-passport-quiz/types';
 
-// JSON問題データをインポート
+// JSON問題データをインポートし、SSR で今日の1問だけを抽出
 import allQuestionsRaw from '~/data/master/questions-it-passport.json';
 
 const allQuestions = allQuestionsRaw as unknown as Question[];
+const today = new Date();
+const seed = today.getFullYear() * 10000 + (today.getMonth() + 1) * 100 + today.getDate();
+const todayQuestion = allQuestions[seed % allQuestions.length];
 ---
 
 <section class="daily-quiz-section">
   <div class="mx-auto max-w-3xl px-4 sm:px-6">
-    <DailyQuiz client:load questions={allQuestions} />
+    <DailyQuiz client:visible question={todayQuestion} />
   </div>
 </section>
 
