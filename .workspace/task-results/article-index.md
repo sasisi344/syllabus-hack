@@ -1,6 +1,6 @@
 # Syllabus Hack Article Index
 
-Generated on: 2026/4/18 22:46:00
+Generated on: 2026/4/26 10:14:47
 
 | Publish Date | Category | Title | Tags | Path |
 | :--- | :--- | :--- | :--- | :--- |
@@ -30,6 +30,17 @@ Generated on: 2026/4/18 22:46:00
 | Unknown | theory | 王道の開発手法！ウォーターフォールモデルの工程をマスター | シラバス対策, 開発手法, ウォーターフォール | `src/data/post/theory/waterfall-development/index.md` |
 | Unknown | theory | テストの中身を見るか見ないか？ホワイトボックス/ブラックボックス手法を比較 | シラバス対策, テスト手法, ホワイトボックス | `src/data/post/theory/white-black-box-testing/index.md` |
 | Unknown | theory | WBS（作業分解構造）をマスターせよ！プロジェクトの迷子をゼロにする技術 | プロジェクトマネジメント, WBS, 試験対策, AIタスク管理 | `src/data/post/theory/work-breakdown-structure/index.md` |
+| 2026-04-26 | method | スマホ・タブレット・PCをどう使い分ける？IT資格学習の最適デバイス戦略 | ITパスポート, 学習設計, 独学, 効率化, 基本情報技術者 | `src/data/post/method/multi-device-cert-study/index.md` |
+| 2026-04-26 | method | PC学習が強い理由。長時間学習で合格率を上げる環境の作り方 | ITパスポート, PC学習, ディープワーク, 学習環境, 独学 | `src/data/post/method/pc-study-setup-guide/index.md` |
+| 2026-04-26 | method | タブレットで学ぶIT資格対策。見やすさ重視の学習設計ガイド | ITパスポート, タブレット学習, PDF, 学習設計, 独学 | `src/data/post/method/tablet-study-guide/index.md` |
+| 2026-04-18 | career | 応用情報に受かったのに何も変わらない。合格証を「実務の武器」に変えるAIリフォーム術 | 応用情報技術者, キャリア戦略, 生成AI, 実務活用 | `src/data/post/career/ap-cert-practical-use-hack/index.md` |
+| 2026-04-18 | career | 地方事務職がITパスポートを取っても給料が上がらない本当の理由と、それでも取るべき理由 | ITパスポート, キャリア戦略, 事務職, 地方, 年収アップ | `src/data/post/career/itp-rural-salary-hack/index.md` |
+| 2026-04-18 | method | IPアドレス計算が「意味不明」なのはテキストのせいだ。AIに自分の言語へ翻訳させれば10分で理解できる | ITパスポート, ネットワーク, 生成AI, 計算問題, 基本情報技術者 | `src/data/post/method/ip-address-ai-metaphor-hack/index.md` |
+| 2026-04-18 | method | 改姓後のIPA試験、受けられますか？氏名不一致が「詰み」になる前に使う緊急ハック | ITパスポート, 事務ハック, 生成AI, 手続き | `src/data/post/method/itp-name-change-marriage-hack/index.md` |
+| 2026-04-18 | method | スマホしか触ったことがない大学生でもITパスポートに合格できる。PCゼロから始める完全ロードマップ | ITパスポート, 大学生, 初心者, スマホ学習, 独学 | `src/data/post/method/itp-smartphone-only-hack/index.md` |
+| 2026-04-18 | method | ITパスポートはスマホ学習で合格できる？スキマ時間で進める最短ルート | ITパスポート, スマホ学習, スキマ時間, 独学, 学習設計 | `src/data/post/method/smartphone-study-guide/index.md` |
+| 2026-04-18 | method | SQLのJOINが覚えられないのは正常だ。AIに「ビジュアル変換」させて脳の拒絶反応を終わらせる | 基本情報技術者, データベーススペシャリスト, SQL, 生成AI, データベース | `src/data/post/method/sql-join-visual-ai-hack/index.md` |
+| 2026-04-18 | trend | 「情報I」と「ITパスポート」どっちが難しい？高校生が今すぐ始めるべき理由 | ITパスポート, 高校生, 情報I, 共通テスト, 試験対策 | `src/data/post/trend/itp-vs-info1-comparison-hack/index.md` |
 | 2026-04-17 | glossary | プロンプトエンジニアリングとは？生成AIの回答品質を上げる指示設計の基本 | プロンプトエンジニアリング, 生成AI, LLM, ITパスポート, AI活用 | `src/data/post/term/prompt-engineering-basics/index.md` |
 | 2026-04-15 | method | ChatGPTでITパスポートに合格する全手順｜生成AI（Gemini・Claude）対応マップ | ITパスポート, ChatGPT, Claude, Gemini, 学習メソッド | `src/data/post/method/chatgpt-itpassport-ai-complete-guide/index.md` |
 | 2026-04-15 | method | FE科目Bを生成AIで攻略するプロンプト集｜場面別・ツール別インデックス【ChatGPT・Gemini・Claude】 | 基本情報技術者, 科目B, ChatGPT, Claude, Gemini | `src/data/post/method/fe-subject-b-ai-prompt-hub/index.md` |
@@ -42,33 +53,33 @@ Generated on: 2026/4/18 22:46:00
 | 2026-04-11 | career | ITパスポートが「恥ずかしい」と感じるあなたへ｜履歴書から真っ先に消すべき時と武器にする時の境界線 | ITパスポート, キャリア戦略, 転職ハック | `src/data/post/career/itp-shameful-career-hack/index.md` |
 | 2026-04-11 | career | 支援士を「登録しない」勇気｜維持費の罠を回避して、実力者として転職する履歴書の戦略 | 情報処理安全確保支援士, キャリア戦略, コストパフォーマンス | `src/data/post/career/sc-unregistered-benefit-hack/index.md` |
 | 2026-04-11 | method | 応用情報の採点基準はブラックボックスか？｜採点者に「×」をつけさせない部分点獲得キーワード術 | 応用情報技術者試験, 試験対策, 記述対策, ChatGPT, Claude | `src/data/post/method/ap-grader-blackbox-hack/index.md` |
-| 2026-04-11 | method | 生成AIで10分で自作する、自分専用のIT資格対策アプリ | 生成AI, ITパスポート, シラバスハック, 効率学習 | `src/data/post/method/genai-self-made-app-hack/index.md` |
-| 2026-04-11 | method | 試験当日、ベッドから出られなかった君へ。その「欠席」を次回の「期待」に変えるリスクマネジメント報告術 | IPA試験, リスクマネジメント, メンタルハック, 生成AI | `src/data/post/method/ipa-absence-report-hack/index.md` |
+| 2026-04-11 | method | 生成AIで10分で自作する、自分専用のIT資格対策アプリ | ITパスポート, ChatGPT, Gemini, シラバスハック, 効率学習 | `src/data/post/method/genai-self-made-app-hack/index.md` |
+| 2026-04-11 | method | 試験当日、ベッドから出られなかった君へ。その「欠席」を次回の「期待」に変えるリスクマネジメント報告術 | IPA試験, ChatGPT, Gemini, Claude, リスクマネジメント | `src/data/post/method/ipa-absence-report-hack/index.md` |
 | 2026-04-11 | method | 新IPA試験を攻略する「最短合格」戦略｜データとAIを武器にする勉強法 | 試験対策, ChatGPT, Claude, Gemini, データマネジメント | `src/data/post/method/new-ipa-exam-study-strategy/index.md` |
-| 2026-04-11 | method | 「実務経験なし」は不合格の理由にならない。シラバスの共通言語で「架空の成功」を錬成する技術 | ITストラテジスト, 論文対策, 生成AI, シラバスハック | `src/data/post/method/st-no-experience-essay-hack/index.md` |
+| 2026-04-11 | method | 「実務経験なし」は不合格の理由にならない。シラバスの共通言語で「架空の成功」を錬成する技術 | ITストラテジスト, ChatGPT, Claude, Gemini, 論文対策 | `src/data/post/method/st-no-experience-essay-hack/index.md` |
 | 2026-04-11 | trend | 2027年からのIPA試験再編まとめ｜データマネジメントと新区分PDとは？ | IPA, 情報処理技術者試験, 試験情報, DX | `src/data/post/trend/ipa-2027-restructuring/index.md` |
 | 2026-04-11 | trend | IPAシラバスの変更に「秒」で対応する、AIディープリサーチ術 | IPA, シラバス, 生成AI, 効率学習 | `src/data/post/trend/ipa-syllabus-follow-up/index.md` |
 | 2026-04-05 | career | ITパスポートの次はAWSかFPか？『ITスキル×金融リテラシー』の最強キャリアパス | ITパスポート, AWS, FP3級, キャリアパス, リスキリング | `src/data/post/career/next-step-aws-vs-fp-strategy/index.md` |
 | 2026-04-05 | method | 【内部構成】AIだけでサイトをフルスクラッチ？ Syllabus Hack を支える技術の正体 | 生成AI, Astro, Antigravity, GeminiAPI, SyllabusHack | `src/data/post/method/ai-driven-architecture-hack/index.md` |
 | 2026-04-05 | method | AI時代の福音を読み解け：生成AIという『新大陸』を確実な得点源に変える方法 | 生成AI, ChatGPT, シラバス追加, ITパスポート, トレンド | `src/data/post/method/ai-problem-master-syllabus/index.md` |
 | 2026-04-05 | method | 「あと5点」が届かないときに。採点者の意図をAIで読み解き、得点につなげるコツ | 応用情報技術者, 午後記述式, ChatGPT, Claude, 採点ハック | `src/data/post/method/ap-grader-intent-hack/index.md` |
-| 2026-04-05 | method | 【AWS攻略】多すぎるサービスで迷子？AIに『逆算ロードマップ』を作らせて最短距離で駆ければいい | AWS, ロードマップ, 生成AI, 効率学習, キャリア開発 | `src/data/post/method/aws-personalized-roadmap-hack/index.md` |
+| 2026-04-05 | method | 【AWS攻略】多すぎるサービスで迷子？AIに『逆算ロードマップ』を作らせて最短距離で駆ければいい | AWS, ロードマップ, ChatGPT, Claude, 効率学習, キャリア開発 | `src/data/post/method/aws-personalized-roadmap-hack/index.md` |
 | 2026-04-05 | method | 計算問題という名の『罠』を回避せよ：効率的に得点を稼ぐ取捨選択の美学 | 計算問題, ITパスポート, 基本情報, 対策, 戦略 | `src/data/post/method/calc-problem-abandon-strategy/index.md` |
 | 2026-04-05 | method | 120分の戦場を支配せよ：CBT試験の迷宮を突破する操作感の極意 | CBT試験, ITパスポート, 時間配分, 試験対策, メンタル | `src/data/post/method/cbt-exam-tactics/index.md` |
 | 2026-04-05 | method | 最速合格への叙事詩：文系・未経験から20時間でITパスポートを征服した軌跡 | ITパスポート, ロードマップ, 独学, 短期集中, メソッド | `src/data/post/method/fast-track-roadmap-20h-pass/index.md` |
-| 2026-04-05 | method | 擬似言語が『読めない』のはあなたのせいじゃない。AIでコードを可視化し、脳内の「？」を「！」に変える15分 | 基本情報技術者, 科目B, 擬似言語, アルゴリズム, 生成AI | `src/data/post/method/fe-pseudo-code-visual-hack/index.md` |
+| 2026-04-05 | method | 擬似言語が『読めない』のはあなたのせいじゃない。AIでコードを可視化し、脳内の「？」を「！」に変える15分 | 基本情報技術者, 科目B, 擬似言語, ChatGPT, Gemini | `src/data/post/method/fe-pseudo-code-visual-hack/index.md` |
 | 2026-04-05 | method | 最後の審判へ挑む君に贈る：100個のキーワードが織りなす合格への最終確認書 | ITパスポート, 直前対策, チェックリスト, 頻出用語, 総仕上げ | `src/data/post/method/final-checkpoint-100-plus/index.md` |
-| 2026-04-05 | method | FP2級・3級の暗記を『自分専用AIシミュレーター』で終了させるハック術 | FP3級, FP2級, 生成AI, シミュレーション, 資産形成 | `src/data/post/method/fp-ai-simulator-hack/index.md` |
-| 2026-04-05 | method | 「あと10日しかない」と震える夜。AIを最強の家庭教師に変えて、どん底から逆算合格を掴むタイムリープ戦略 | ITパスポート, 直前対策, 生成AI, 効率学習 | `src/data/post/method/itp-10-days-panic-hack/index.md` |
-| 2026-04-05 | method | ITパスポート事務局の「対応不可」に絶望したあなたへ。自腹を回避し、経理を納得させる『第3の証明書』錬成術 | ITパスポート, 事務ハック, 生成AI, 経理対策 | `src/data/post/method/itp-receipt-name-change-hack/index.md` |
+| 2026-04-05 | method | FP2級・3級の暗記を『自分専用AIシミュレーター』で終了させるハック術 | FP3級, FP2級, ChatGPT, Gemini, シミュレーション | `src/data/post/method/fp-ai-simulator-hack/index.md` |
+| 2026-04-05 | method | 「あと10日しかない」と震える夜。AIを最強の家庭教師に変えて、どん底から逆算合格を掴むタイムリープ戦略 | ITパスポート, 直前対策, ChatGPT, Gemini, 効率学習 | `src/data/post/method/itp-10-days-panic-hack/index.md` |
+| 2026-04-05 | method | ITパスポート事務局の「対応不可」に絶望したあなたへ。自腹を回避し、経理を納得させる『第3の証明書』錬成術 | ITパスポート, 事務ハック, ChatGPT, Gemini, 経理対策 | `src/data/post/method/itp-receipt-name-change-hack/index.md` |
 | 2026-04-05 | method | 暗記という名の鎖を断ち切れ：用語の『繋がり』で記憶を永遠に変える記述式メソッド | 暗記法, 記憶術, ITパスポート, 連結学習, メソッド | `src/data/post/method/logical-memory-linkage-hack/index.md` |
 | 2026-04-05 | method | 行間の向こうに正解を読め：マネジメント系長文問題を『国語の力』でハックする | マネジメント問題, 読解力, ITパスポート, ストラテジ, 攻略術 | `src/data/post/method/management-comprehension-hack/index.md` |
 | 2026-04-05 | method | 意志の力を信じるな、仕組みを信じろ：AI時代のモチベーション不要な完走技術 | モチベーション, 心理学, 習慣化, ITパスポート, メンタル | `src/data/post/method/mental-hack-20h-marathon/index.md` |
 | 2026-04-05 | method | 【全人類合格】NotebookLM × Deep Research で挑む「100日資格ハック」の極意 | NotebookLM, DeepResearch, 学習メソッド, 100日チャレンジ, 脳科学 | `src/data/post/method/notebooklm-100-day-hack/index.md` |
 | 2026-04-05 | method | あらゆる資格を100日で完遂せよ！NotebookLMで『私専用の合格ロードマップ』を自動生成する技術 | NotebookLM, スケジュール管理, AI活用, 脳科学, 100日チャレンジ | `src/data/post/method/notebooklm-100days-challenge-hack/index.md` |
 | 2026-04-05 | method | 論理の階段を登り始めた君へ：擬似言語とアルゴリズムの壁を突破する思考の転換 | 基本情報, アルゴリズム, 擬似言語, プログラミング, 入門 | `src/data/post/method/pseudo-code-bridge-to-fe/index.md` |
-| 2026-04-05 | method | 「セキュマネは紙の無駄」と笑う同僚を後悔させろ。形だけの資格を、実務を支配する『実務の盾』に変える極意 | 情報セキュリティマネジメント, キャリア戦略, 生成AI, 実務直結 | `src/data/post/method/sg-meaningless-rumors-hack/index.md` |
-| 2026-04-05 | method | 【図解ハック】手書きノートが1秒でMermaidに？AIで『構成図の作画』という苦行を終わらせる方法 | Mermaid, 図解ハック, AI活用, 視覚学習, 効率化 | `src/data/post/method/vision-to-mermaid-hack/index.md` |
+| 2026-04-05 | method | 「セキュマネは紙の無駄」と笑う同僚を後悔させろ。形だけの資格を、実務を支配する『実務の盾』に変える極意 | 情報セキュリティマネジメント, キャリア戦略, ChatGPT, Claude, 実務直結 | `src/data/post/method/sg-meaningless-rumors-hack/index.md` |
+| 2026-04-05 | method | 【図解ハック】手書きノートが1秒でMermaidに？AIで『構成図の作画』という苦行を終わらせる方法 | Mermaid, ChatGPT, Gemini, 図解ハック, 視覚学習 | `src/data/post/method/vision-to-mermaid-hack/index.md` |
 | 2026-04-05 | method | 正解の裏側に潜む『3つの財宝』：不正解の選択肢を知識の泉に変える逆転学習法 | 過去問対策, 勉強法, ITパスポート, 攻略術, メソッド | `src/data/post/method/wrong-choice-analysis-hack/index.md` |
 | 2026-04-05 | theory | 【AWS】Mermaid構成図の作り方：3つの視点と題目サンプルで設計意図まで言語化する | AWS, SAA, CLF, 図解ハック, Mermaid | `src/data/post/theory/aws-concept-metaphor-hack/index.md` |
 | 2026-04-05 | trend | 【最新】令和8年度の応用・高度試験は11月開始！CBT移行と「科目名変更」の全貌 | 応用情報技術者, 高度試験, 試験制度変更, CBT, 情報処理技術者試験 | `src/data/post/trend/ipa-2026-cbt-confirmed-schedule/index.md` |
@@ -136,7 +147,7 @@ Generated on: 2026/4/18 22:46:00
 | 2026-04-01 | theory | データの衝突を防げ！排他制御とデッドロックの攻略法 | データベース, 排他制御, デッドロック, 試験対策 | `src/data/post/theory/exclusive-control/index.md` |
 | 2026-04-01 | theory | 秘密の鍵を渡さずに暗号化！公開鍵暗号の魔法 | 情報セキュリティ, 暗号化, 公開鍵暗号, 試験対策 | `src/data/post/theory/public-key-cryptography/index.md` |
 | 2026-04-01 | theory | データの守護神！ACID特性で学ぶトランザクションの4原則 | データベース, トランザクション, ACID特性, 試験対策 | `src/data/post/theory/transaction-acid/index.md` |
-| 2026-03-31 | method | 【ITパスポート】独学・AI学習・通信講座のどれが最短？タイプ別合格ルート比較 | ITパスポート, 勉強法, 比較, AI学習, リスキリング | `src/data/post/method/it-passport-study-route-comparison/index.md` |
+| 2026-03-31 | method | 【ITパスポート】独学・AI学習・通信講座のどれが最短？タイプ別合格ルート比較 | ITパスポート, ChatGPT, Claude, Gemini, 勉強法 | `src/data/post/method/it-passport-study-route-comparison/index.md` |
 | 2026-03-31 | trend | モバイル革命！5Gの3大特徴（高速・低遅延・多接続）を攻略 | 5G, ネットワーク, IoT, ITパスポート, 試験対策 | `src/data/post/trend/5g-technology/index.md` |
 | 2026-03-31 | trend | 走りながら作る！アジャイル開発のメリットとスクラムの流れ | アジャイル, ウォーターフォール, ITパスポート, 開発モデル, 試験対策 | `src/data/post/trend/agile-development/index.md` |
 | 2026-03-31 | trend | 仕事の相棒！AIアシスタントの活用とITパスポート試験対策 | AIアシスタント, 生成AI, 業務効率化, ITパスポート, シラバス | `src/data/post/trend/ai-assistant/index.md` |
@@ -170,23 +181,23 @@ Generated on: 2026/4/18 22:46:00
 | 2026-03-20 | career | 文系学生が「ITパスポート・基本情報」で新卒カードを強化する就活戦略 | 就活戦略, 文系学生, ITパスポート, 基本情報技術者, ガクチカ, 新卒採用 | `src/data/post/career/liberal-arts-student-strategy/index.md` |
 | 2026-03-20 | career | 応用情報で自社に残るか外へ飛ぶか。エンジニアの自信を取り戻すAP活用術 | 応用情報技術者, SESからの脱出, フリーランス, キャリアアップ, AI活用 | `src/data/post/career/ses-ap-strategy/index.md` |
 | 2026-03-20 | method | Agent Teacher:24時間365日の「最強の家庭教師」を無料で雇う技術 | AI学習法, ChatGPT, Gemini, NotebookLM, 独学術 | `src/data/post/method/agent-teacher/index.md` |
-| 2026-03-20 | method | 【高度試験】Level4完全攻略ロードマップ：生成AIを「専門家」に変えて論文・記述の壁を越える | 高度試験, 論文対策, 午後Ⅱ対策, ロードマップ, AI活用, SyllabusHack | `src/data/post/method/level4-strategy-hub/index.md` |
+| 2026-03-20 | method | 【高度試験】Level4完全攻略ロードマップ：生成AIを「専門家」に変えて論文・記述の壁を越える | 高度試験, ChatGPT, Claude, Gemini, ロードマップ | `src/data/post/method/level4-strategy-hub/index.md` |
 | 2026-03-20 | method | Notionで進捗管理！「落ちる人」と「受かる人」のダッシュボードの違い | 勉強法, Notion, タスク管理, モチベーション, 進捗管理 | `src/data/post/method/notion-study-tracker/index.md` |
-| 2026-03-20 | method | 【メソッド】情報処理安全確保支援士（SC）：長文インシデント事例からタイムライン表と構成図を自動生成する | 情報処理安全確保支援士, SC, インシデント対応, AI活用 | `src/data/post/method/sc-timeline-hack/index.md` |
+| 2026-03-20 | method | 【メソッド】情報処理安全確保支援士（SC）：長文インシデント事例からタイムライン表と構成図を自動生成する | 情報処理安全確保支援士, ChatGPT, Claude, インシデント対応 | `src/data/post/method/sc-timeline-hack/index.md` |
 | 2026-03-20 | trend | 基本情報技術者は意味ない論争に終止符を打つ！現役エンジニアが教える本当の使い道 | 基本情報技術者, 資格取得, キャリア戦略, 就活 | `src/data/post/trend/fe-certification-value-debate/index.md` |
 | 2026-03-20 | Uncategorized | 基本情報シラバスVer.9.0緊急解説！「生成AI」追加で試験はどう変わる？ |  | `src/data/post/trend/syllabus-ver9-update/index.md` |
 | 2026-03-19 | method | 3つの科学的アプローチによる学習効率最大化ハック：脳・肉体・心理を掌握せよ | 勉強法, 脳科学, バイオハッキング, 心理学, 集中力 | `src/data/post/method/3kw-study-method/index.md` |
-| 2026-03-19 | method | 【メソッド】データベース（DB）：過去のスキーマ構造と要件から、正規化ドリルやSQLクイズを無限生成する | データベーススペシャリスト, DB, 正規化, SQL | `src/data/post/method/db-normalization-hack/index.md` |
+| 2026-03-19 | method | 【メソッド】データベース（DB）：過去のスキーマ構造と要件から、正規化ドリルやSQLクイズを無限生成する | データベーススペシャリスト, ChatGPT, Claude, 正規化, SQL | `src/data/post/method/db-normalization-hack/index.md` |
 | 2026-03-19 | method | 日本の『成功体験』、海外の『エビデンス』：多様性社会が生んだ科学的自己啓発のすすめ | 自己啓発, 多様性, 脳科学, バイオハッキング, 科学的根拠 | `src/data/post/method/diversity-study-method/index.md` |
-| 2026-03-19 | method | 【NW】ネットワーク図の覚え方・書き方｜MermaidとAIで複雑な要件を視覚化するハック術 | ネットワークスペシャリスト, NW, Mermaid, ネットワーク構成図, 勉強法 | `src/data/post/method/nw-mermaid-hack/index.md` |
+| 2026-03-19 | method | 【NW】ネットワーク図の覚え方・書き方｜MermaidとAIで複雑な要件を視覚化するハック術 | ネットワークスペシャリスト, ChatGPT, Gemini, Mermaid, ネットワーク構成図 | `src/data/post/method/nw-mermaid-hack/index.md` |
 | 2026-03-17 | method | 【メソッド】共通論文添削：シラバスと過去の採点講評を学習させた「AI試験委員」プロンプトの作成 | 論文対策, 高度試験, ChatGPT, Claude, セルフ添削 | `src/data/post/method/common-essay-ai-examiner/index.md` |
-| 2026-03-17 | method | 【メソッド】プロジェクトマネージャ（PM）午後Ⅱ：実務経験の棚卸しと論文モジュール化プロンプト | プロジェクトマネージャ, 午後Ⅱ対策, 論文準備, 論文モジュール, 生成AI活用 | `src/data/post/method/pm-pm2-module-hack/index.md` |
-| 2026-03-17 | method | 【メソッド】ITストラテジスト（ST）：抽象的な経営課題からIT施策への展開・ブレスト術 | ITストラテジスト, 経営課題, IT戦略, ブレインストーミング, 生成AI活用 | `src/data/post/method/st-strategy-brainstorming/index.md` |
+| 2026-03-17 | method | 【メソッド】プロジェクトマネージャ（PM）午後Ⅱ：実務経験の棚卸しと論文モジュール化プロンプト | プロジェクトマネージャ, ChatGPT, Claude, Gemini, 午後Ⅱ対策 | `src/data/post/method/pm-pm2-module-hack/index.md` |
+| 2026-03-17 | method | 【メソッド】ITストラテジスト（ST）：抽象的な経営課題からIT施策への展開・ブレスト術 | ITストラテジスト, ChatGPT, Gemini, IT戦略, ブレインストーミング | `src/data/post/method/st-strategy-brainstorming/index.md` |
 | 2026-03-13 | career | バックオフィス職が職種変更なしで年収を上げる「セキュリティ」ハック | 情報セキュリティマネジメント, バックオフィス, 年収アップ, リスキリング | `src/data/post/career/backoffice-sg-career-hack/index.md` |
 | 2026-03-13 | career | SESでの「孤独」をAP取得で「独立」に変えるキャリア戦略 | 応用情報技術者, SES, フリーランス, キャリア戦略 | `src/data/post/career/ses-ap-independence-strategy/index.md` |
 | 2026-03-13 | method | 応用情報「午後記述」をChatGPT・Claude・Geminiで添削するセルフコーチング術 | 応用情報技術者, ChatGPT, Claude, Gemini, 午後対策 | `src/data/post/method/ap-afternoon-ai-coaching/index.md` |
 | 2026-03-13 | method | NotebookLMでITパスポート用語を自分事化する最強の学習法 | ITパスポート, 生成AI, NotebookLM, SyllabusHack | `src/data/post/method/notebooklm-ip-study-hack/index.md` |
-| 2026-03-10 | method | 【基礎知識あり・なし別】基本情報技術者（FE）AIハックロードマップ：科目Bアルゴリズム攻略 | 基本情報技術者, 科目A, 科目B, アルゴリズム, プログラミング, 未経験, ロードマップ | `src/data/post/method/fe-algorithm-roadmap/index.md` |
+| 2026-03-10 | method | 【基礎知識あり・なし別】基本情報技術者（FE）AIハックロードマップ：科目Bアルゴリズム攻略 | 基本情報技術者, 科目B, ChatGPT, Claude, ロードマップ | `src/data/post/method/fe-algorithm-roadmap/index.md` |
 | 2026-03-10 | method | 【完全版】IPA試験「最強」学習ガイド：ChatGPT／Claude／Geminiで合格をハックする4つのステップ | 学習メソッド, ChatGPT, Claude, Gemini, SyllabusHack | `src/data/post/method/practice-guide-ipa/index.md` |
 | 2026-03-09 | method | 【完全未経験から】情報セキュリティマネジメント（SG）最短合格ロードマップ | 情報セキュリティマネジメント, 科目A, 科目B, 未経験, ロードマップ | `src/data/post/method/sg-beginner-roadmap/index.md` |
 | 2026-03-08 | career | 【広島編】広電（路面電車）の「揺れ」をリズムに変える暗記ハック | 広島県, バックオフィス, 情報セキュリティマネジメント, 路面電車, SyllabusHack | `src/data/post/career/backoffice-sg-strategy-hiroshima/index.md` |
@@ -200,20 +211,20 @@ Generated on: 2026/4/18 22:46:00
 | 2026-03-08 | career | 【北海道編】極寒の「チ・カ・ホ」を味方に！札幌エンジニアのAP攻略術 | 北海道, 札幌, SES, 応用情報技術者, SyllabusHack | `src/data/post/career/ses-ap-strategy-hokkaido/index.md` |
 | 2026-03-08 | career | 【神奈川編】満員電車を「耳」で攻略！通勤エンジニアのロングトレイン術 | 神奈川県, 横浜, 通勤ハック, 応用情報技術者, SyllabusHack | `src/data/post/career/ses-ap-strategy-kanagawa/index.md` |
 | 2026-03-08 | career | 【宮城編】仙台の自社開発企業を狙うための応用情報（AP）活用術 | 宮城県, 仙台, SES, 応用情報技術者, SyllabusHack | `src/data/post/career/ses-ap-strategy-miyagi/index.md` |
-| 2026-03-08 | method | 【科目B攻略】基本情報の「疑似言語」をAIで動くコードに変換して10倍速で理解する | 基本情報技術者, 科目B, アルゴリズム, 疑似言語, 生成AI活用 | `src/data/post/method/fe-pseudo-code-ai-hack/index.md` |
+| 2026-03-08 | method | 【科目B攻略】基本情報の「疑似言語」をAIで動くコードに変換して10倍速で理解する | 基本情報技術者, 科目B, ChatGPT, Gemini, 疑似言語 | `src/data/post/method/fe-pseudo-code-ai-hack/index.md` |
 | 2026-03-08 | method | スキマ時間だけで合格！スマホアプリをフル活用した最短ルート学習法 | ITパスポート, 隙間時間, 学習効率, スマホアプリ, SyllabusHack | `src/data/post/method/gap-time-apps/index.md` |
 | 2026-03-08 | method | 【最短合格】社会人がITパスポートに1週間で受かるための「全力捨て問」戦略 | ITパスポート, 勉強法, 時短学習, 捨て問, SyllabusHack | `src/data/post/method/ip-discard-strategy/index.md` |
-| 2026-03-08 | method | 経済学ゼロからでも解ける！ストラテジ系をAIの「たとえ話」で攻略する技術 | ITパスポート, ストラテジ系, 生成AI, 学習法, SyllabusHack | `src/data/post/method/ip-strategy-ai-hack/index.md` |
+| 2026-03-08 | method | 経済学ゼロからでも解ける！ストラテジ系をAIの「たとえ話」で攻略する技術 | ITパスポート, ストラテジ系, ChatGPT, Gemini, 学習法 | `src/data/post/method/ip-strategy-ai-hack/index.md` |
 | 2026-03-08 | method | 【大阪府版】シラバスハック：梅田・難波の「勉強カフェ」を合格拠点にする戦略 | 地域最適化, 大阪府, 勉強カフェ, CBT対策, 効率的学習 | `src/data/post/method/region-hack-osaka/index.md` |
 | 2026-03-08 | method | 【東京都版】シラバスハック：超高密度な交通網を「合格タイマー」に変える戦略 | 地域最適化, 東京都, CBT対策, 効率的学習, 山手線ハック | `src/data/post/method/region-hack-tokyo/index.md` |
-| 2026-03-08 | method | 【SG攻略】セキュリティ事故ニュースを「最強の教科書」に変えるスマホハック | セキュリティマネジメント, 科目B, ニュース活用, 情報漏洩, 生成AI | `src/data/post/method/sg-news-study-hack/index.md` |
+| 2026-03-08 | method | 【SG攻略】セキュリティ事故ニュースを「最強の教科書」に変えるスマホハック | 情報セキュリティマネジメント, 科目B, ChatGPT, Gemini, ニュース活用 | `src/data/post/method/sg-news-study-hack/index.md` |
 | 2026-03-08 | trend | ITパスポートは「恥ずかしい」資格なのか？2026年の市場価値と現実 | ITパスポート, 資格試験, キャリア, 就職活動, SyllabusHack | `src/data/post/trend/it-passport-shame-debate/index.md` |
 | 2026-03-07 | trend | 【2026年最新】情報処理技術者試験CBT日程表｜4月の中止期間と予約の注意点 | IPA試験, CBT, 応用情報技術者, 高度試験, スケジュール | `src/data/post/trend/ipa-2026-cbt-schedule-guide/index.md` |
 | 2026-03-04 | app | Syllabus Hack開発記：メンテナンス性を高めるファイル構成と実装戦略 | Astro, React, 個人開発, 設計, SyllabusHack | `src/data/post/app/dev-doc-structure-astro/index.md` |
 | 2026-03-04 | trend | 2026年からのCBT化は高度試験にどう影響する？ | CBT, 高度試験, 応用情報技術者, 試験トレンド | `src/data/post/trend/cbt-impact-advanced-exams/index.md` |
-| 2026-03-03 | method | 生成AI問題の攻略：NotebookLMでITパスポートのシラバスをハックする | 生成AI, NotebookLM, ITパスポート, シラバス, 学習メソッド | `src/data/post/method/genai-problem-mastery-notebooklm/index.md` |
+| 2026-03-03 | method | 生成AI問題の攻略：NotebookLMでITパスポートのシラバスをハックする | ITパスポート, NotebookLM, ChatGPT, Claude, 学習メソッド | `src/data/post/method/genai-problem-mastery-notebooklm/index.md` |
 | 2026-03-02 | career | IPA資格でキャリアを切り拓く：転職市場での価値と将来性 | キャリア開発, 転職, リスキリング, 履歴書, IT資格 | `src/data/post/career/ipa-career-value-job-change/index.md` |
-| 2026-03-02 | method | 生成AI・AI倫理の新用語攻略：HITLやRAGを実務の武器にする方法 | 生成AI, AI倫理, RAG, HITL, 試験対策 | `src/data/post/method/ai-new-terms-explanation/index.md` |
+| 2026-03-02 | method | 生成AI・AI倫理の新用語攻略：HITLやRAGを実務の武器にする方法 | ITパスポート, ChatGPT, Claude, Gemini, RAG | `src/data/post/method/ai-new-terms-explanation/index.md` |
 | 2026-03-01 | app | 【開発記】1,171語のシラバスからクイズを自動生成する「AIエンジン」の仕組み | Gemini, API, SyllabusHack, 開発記 | `src/data/post/app/dev-story-ai-engine/index.md` |
 | 2026-03-01 | app | ITパスポート マネジメント系 集中80問ドリル | ITパスポート, CBT, 模擬試験, SyllabusHack | `src/data/post/app/ip-management-drill/index.mdx` |
 | 2026-03-01 | app | ITパスポート テクノロジ系 集中100問ドリル | ITパスポート, CBT, 模擬試験, SyllabusHack | `src/data/post/app/ip-technology-drill/index.mdx` |
@@ -225,7 +236,7 @@ Generated on: 2026/4/18 22:46:00
 | 2026-02-27 | app | 構想からリリースまで！ Syllabus Hackアプリ開発プロセスの全軌跡 | アプリ開発, プロダクト開発, LLM, 学習効率, SyllabusHack | `src/data/post/app/dev-doc-process-mvp/index.md` |
 | 2026-02-27 | trend | 2026年を見据えたIPA試験の最新トレンド：CBT化とAI知識の必須化 | CBT, 生成AI, 基本情報技術者, 応用情報技術者, 試験トレンド | `src/data/post/trend/ipa-exam-trends-2026/index.md` |
 | 2026-02-26 | trend | 2026年からのCBT化は高度試験にどう影響する？ | CBT, 高度試験, 試験制度改定, 今後の動向 | `src/data/post/trend/2026-cbt-transition-advanced-exam/index.md` |
-| 2026-02-25 | method | 生成AI関連語彙の学習効率を最大化する「シラバス・ハック」術 | 学習手法, 効率化, 生成AI, 用語学習 | `src/data/post/method/genai-vocabulary-learning-efficiency/index.md` |
+| 2026-02-25 | method | 生成AI関連語彙の学習効率を最大化する「シラバス・ハック」術 | ITパスポート, ChatGPT, Claude, Gemini, 用語学習 | `src/data/post/method/genai-vocabulary-learning-efficiency/index.md` |
 | 2026-02-25 | method | 【NotebookLM】ITパスポート試験対策を自炊！AIでオリジナル特訓ドリルを作る爆速ルーティン | NotebookLM, ITパスポート, 勉強法, AI活用, 独学 | `src/data/post/method/notebooklm-it-passport-drill/index.md` |
 | 2026-02-25 | trend | 【緊急速報】2026年度春の応用情報・高度試験が延期に。CBT移行の波乱と対策案 | 応用情報技術者, 高度試験, IPA, CBT, 試験制度変更 | `src/data/post/trend/ap-2026-spring-postponed/index.md` |
 | 2026-02-25 | trend | 2027年に試験制度が激変？生成AI時代に落ちないための新攻略法 | シラバス改訂, 生成AI, 資格トレンド, 試験対策 | `src/data/post/trend/syllabus-ai-knowledge-introduction/index.md` |
@@ -234,7 +245,7 @@ Generated on: 2026/4/18 22:46:00
 | 2026-02-23 | app | 応用情報技術者(AP) 科目B試験 ケーススタディ演習 | 応用情報, AP, 科目B, 午後試験, ケーススタディ | `src/data/post/app/ap-subject-b/index.mdx` |
 | 2026-02-23 | app | 生成AI導入実務者検定 攻略マスター：ROIを最大化する実務ドリル | 生成AI導入実務者検定, 資格試験, ROI最適化, AI導入コンサル, 業務プロセス改革 | `src/data/post/app/genai-ip-quiz/index.mdx` |
 | 2026-02-23 | app | 生成AIパスポート 模擬試験シミュレーター：シラバス完全対応AIドリル | 生成AIパスポート, 資格試験, プロンプトエンジニアリング, アダプティブラーニング, 無料アプリ | `src/data/post/app/genai-passport-quiz/index.mdx` |
-| 2026-02-23 | method | 応用情報・高度試験の「午後問題（記述式）」をAIで突破するプロンプト集 | 応用情報技術者, 午後試験, ChatGPT, Claude, Gemini | `src/data/post/method/ap-pm-descriptive-ai-prompts/index.md` |
+| 2026-02-23 | method | IPA高度試験の午後問題をAIで突破するプロンプト集（記述式・試験対策） | 応用情報技術者, プロジェクトマネージャ, 午後試験, 記述式, ChatGPT | `src/data/post/method/ap-pm-descriptive-ai-prompts/index.md` |
 | 2026-02-23 | method | 【生成AI資格】用途・難易度別の強化学習プラン大公開 | 学習メソッド, 生成AIパスポート, 生成AI導入実務者検定, 強化学習, ドリル | `src/data/post/method/genai-cert-study-plan/index.md` |
 | 2026-02-21 | app | 生成AI・AI倫理「新用語」特化型クイズ | 生成AI, AI倫理, ITパスポート, 基本情報技術者, SyllabusHack | `src/data/post/app/genai-ethics-quiz/index.mdx` |
 | 2026-02-21 | app | SG科目B 実務シナリオ演習ドリル | 情報セキュリティマネジメント, 科目B, ケーススタディ, SyllabusHack | `src/data/post/app/sg-subject-b-quiz/index.mdx` |
@@ -242,14 +253,14 @@ Generated on: 2026/4/18 22:46:00
 | 2026-02-19 | app | 【技術解説】PDFシラバスをGeminiで構造化データへ。無限クイズ生成パイプラインの裏側 | Gemini, API, Node.js, 技術解説 | `src/data/post/app/dev-story-data/index.md` |
 | 2026-02-19 | app | 【実装編】Antigravityとペアプログラミング。Astro+Reactで構築する爆速Webアプリ開発 | Astro, React, Tailwind, ペアプロ | `src/data/post/app/dev-story-ui/index.md` |
 | 2026-02-19 | app | 【Gemini 2.0】CLIで無限にクイズを作る自作ツール "Quiz Generator" | Gemini, CLI, Node.js, 自作ツール | `src/data/post/app/gemini-cli-quiz-maker/index.md` |
-| 2026-02-19 | method | 25分で脳をハックする。AIに最適な「集中BGM」を作らせてポモドーロを回す | 学習法, 集中力, ポモドーロ, SyllabusHack | `src/data/post/method/ai-dj-pomodoro/index.md` |
+| 2026-02-19 | method | 25分で脳をハックする。AIに最適な「集中BGM」を作らせてポモドーロを回す | 学習法, 集中力, ポモドーロ, ChatGPT, Suno | `src/data/post/method/ai-dj-pomodoro/index.md` |
 | 2026-02-19 | method | 【ラバーダッキング×AI】初級・中級・上級で伸ばす説明学習術（フェイマン・テクニック実践付き） | 学習法, AI活用, アウトプット, ラバーダッキング, フェイマンテクニック | `src/data/post/method/ai-rubber-ducking/index.md` |
 | 2026-02-19 | method | ChatGPTプロンプト集：Syllabus Hackを支える記事・アプリ開発プロンプト | ChatGPT, Gemini, プロンプト, 開発記, 効率化 | `src/data/post/method/chatgpt-prompt-collection/index.md` |
 | 2026-02-19 | method | AI信者が語る、あえて「スマホを封印して紙に書く」時間の重要性 | 学習法, ハイブリッド学習, デジタルデトックス, 手書き | `src/data/post/method/digital-detox-learning/index.md` |
 | 2026-02-19 | method | 実力を120%出すための「ドーピング」戦略。エンジニアのための試験当日コンディション管理 | 試験対策, コンディション管理, パフォーマンス, 集中力 | `src/data/post/method/exam-day-doping/index.md` |
 | 2026-02-19 | method | 覚えられない専門用語は「絵」にしろ。生成AIで記憶の宮殿を建築する狂気の暗記術 | 学習法, 画像生成AI, 記憶術, Midjourney | `src/data/post/method/generative-memory-palace/index.md` |
 | 2026-02-19 | method | システムアーキテクチャ図を「写経」する。Miroを使った構造化思考トレーニング | 学習法, 図解, Miro, システム設計 | `src/data/post/method/miro-diagram-thinking/index.md` |
-| 2026-02-19 | method | 正解には価値がない。AIに自分の「思考の癖」を分析させて弱点だけを潰す方法 | 学習法, データ分析, Notion, メタ認知 | `src/data/post/method/miss-note-db/index.md` |
+| 2026-02-19 | method | 正解には価値がない。AIに自分の「思考の癖」を分析させて弱点だけを潰す方法 | 基本情報技術者, ChatGPT, Gemini, Notion, メタ認知 | `src/data/post/method/miss-note-db/index.md` |
 | 2026-02-19 | method | 【Active Recall】科学的に「脳に効く」勉強法だけをやる。エビデンスベースの資格試験攻略 | 学習法, 科学的根拠, ActiveRecall, 効率化 | `src/data/post/method/scientific-study-methods/index.md` |
 | 2026-02-19 | method | 試験に出るのは「新参者」だ。シラバス改訂差分から次回の出題を予測するハック | 学習法, 試験予想, データ分析, シラバス | `src/data/post/method/syllabus-diff-hack/index.md` |
 | 2026-02-19 | method | 手が疲れたら口を動かせ。歩きながら学ぶ「音声独り言」学習法のススメ | 学習法, 音声入力, Whisper, 移動学習 | `src/data/post/method/voice-output-learning/index.md` |
@@ -288,7 +299,7 @@ Generated on: 2026/4/18 22:46:00
 | 2026-02-06 | method | 【NotebookLM】フラッシュカード機能の「癖」と最強の活用法を徹底解説 | NotebookLM, ITパスポート, 応用情報技術者, 勉強法, SyllabusHack | `src/data/post/method/notebooklm-flashcard/index.md` |
 | 2026-02-06 | method | 【NotebookLM】動画解説機能（音声オーバービュー）で最強の聞き流し教材を作る方法 | NotebookLM, 勉強法, YouTube, SyllabusHack, 時短学習 | `src/data/post/method/notebooklm-movie/index.md` |
 | 2026-02-02 | career | 30代未経験エンジニア転職、ITパスポートは武器になるか？ | ITパスポート, 30代, 未経験転職, キャリア, リスキリング | `src/data/post/career/30s-career-change/index.md` |
-| 2026-02-02 | career | 応用情報技術者は意味ない？年収・市場価値・人生変化を本音で解説 | 応用情報技術者, 年収, キャリア, 転職, 資格手当 | `src/data/post/career/ap-salary-impact/index.md` |
+| 2026-02-02 | career | 応用情報技術者試験は意味ない？意味ある職業・ない職業と、証明できるスキルを本音で整理 | 応用情報技術者, キャリア, メリット, 難易度, 年収 | `src/data/post/career/ap-salary-impact/index.md` |
 | 2026-02-02 | Uncategorized | フリーランスエンジニアこそ「基本情報」を取り直すべき3つの理由 | フリーランス, 基本情報技術者, キャリア, 学び直し, 単価アップ | `src/data/post/career/freelance-fe-merit/index.md` |
 | 2026-02-02 | Uncategorized | 高度試験への登竜門：応用情報を取ると論文試験が楽になる理由 | 応用情報技術者, 高度情報処理技術者, 論文, キャリアパス, 午後問題 | `src/data/post/career/gateway-to-advanced/index.md` |
 | 2026-02-02 | career | 資格よりポートフォリオは本当か？採用担当が見ている資格欄の意味 | キャリア, ポートフォリオ, 未経験転職, 採用, 資格 | `src/data/post/career/portfolio-vs-cert/index.md` |
