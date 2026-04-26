@@ -1,15 +1,15 @@
 ---
 publishDate: 2026-03-03
-lastmod: 2026-02-27
+lastmod: 2026-04-24
 title: '生成AI問題の攻略：NotebookLMでITパスポートのシラバスをハックする'
 excerpt: '最新シラバスに含まれる生成AI知識。講師が不在で教材も少ない新興分野を、NotebookLMを活用して自前で攻略するための実践テクニックを公開。'
 
 category: method
 tags:
-  - 生成AI
-  - NotebookLM
   - ITパスポート
-  - シラバス
+  - NotebookLM
+  - ChatGPT
+  - Claude
   - 学習メソッド
 
 knowledge:
@@ -21,7 +21,7 @@ knowledge:
 image: ~/data/post/method/common-cover.png
 
 metadata:
-  description: ITパスポート等の試験に出る生成AI問題の対策。NotebookLMを活用してシラバスから独自の練習問題を作成し、効率的に学習する方法を詳しく解説します。'
+  description: 'ITパスポートの生成AI問題をNotebookLMで自作しつつ、ChatGPT・Claudeで穴埋め・誤答肢の推敲を足すハイブリッド手順を解説します。'
 ---
 
 ## 講師もテキストも足りない「生成AI」分野をどう攻略するか
@@ -48,6 +48,14 @@ NotebookLMに以下のようなプロンプトを投げます。
 > 「ITパスポートの出題範囲で、生成AIに関する問題だけを4択形式で50問作成して」
 
 これだけで、最新シラバスに基づいたオリジナルの練習問題がサクッと完成します。難易度のばらつきはありますが、知識体系の導入としては十分すぎる内容です。
+
+## ChatGPT・Claudeで補う（NotebookLMと役割分担）
+
+NotebookLMはソース拘束の強みがありますが、誤答肢の妙や最新の言い回しは <strong>ChatGPT</strong> や <strong>Claude</strong> に任せるとバランスが良くなります。
+
+- <strong>NotebookLM</strong> : シラバスPDFをソースにした一括出題。
+- <strong>ChatGPT</strong> : 「この選択肢がなぜダメか」を短く言い換えさせ、理解を深める。
+- <strong>Claude</strong> : 長文の解説や、複数問題の整合チェック。
 
 ## 暗記だけでは解けない「3つの壁」
 

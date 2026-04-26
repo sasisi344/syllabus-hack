@@ -1,23 +1,36 @@
 ---
 publishDate: 2026-02-25
-lastmod: 2026-02-25
+lastmod: 2026-04-24
 title: '生成AI関連語彙の学習効率を最大化する「シラバス・ハック」術'
-excerpt: 'シラバスに大量追加された生成AI用語。200問の丸暗記に頼らず、AIを家庭教師にして効率的にマスターするBEAF戦略を解説します。'
+excerpt: 'シラバスに大量追加された生成AI用語。ChatGPT・Claude・Geminiそれぞれに短文テスト生成を任せ、200問ノックに頼らずマスターするBEAF戦略を解説します。'
 category: method
 tags:
-  - 学習手法
-  - 効率化
-  - 生成AI
+  - ITパスポート
+  - ChatGPT
+  - Claude
+  - Gemini
   - 用語学習
+knowledge:
+  examId: common
+  type: method
+  difficulty: beginner
 metadata:
-  description: '大量の生成AI用語を効率的に学ぶ方法を解説。300問ノックに頼らないAI活用学習法と、性格タイプ別の最短合格戦略を紹介します。'
+  description: '生成AI用語を、ChatGPT・Claude・Geminiの短文クイズ生成に対応づけて反復するシラバスハックと、性格タイプ別の最短戦略を紹介します。'
 image: ~/data/post/method/common-cover.png
 draft: false
 ---
 
 IPAのシラバス改訂により、生成AI関連の新用語が急増しています。これらを「従来の丸暗記」で攻略しようとすれば、膨大な時間と労力が削られます。
 
-本記事では、AIを活用して学習効率を劇的に高める「シラバス・ハック」の手法を解説します。
+本記事では、 <strong>ChatGPT</strong> ・ <strong>Claude</strong> ・ <strong>Gemini</strong> を活用して学習効率を劇的に高める「シラバス・ハック」の手法を解説します。
+
+## ツール別：短文テスト生成の使い分け
+
+| ツール | 短文テスト向きの理由 |
+| --- | --- |
+| <strong>ChatGPT</strong> | 1問1答を連発し、すぐに別角度から出し直せる。 |
+| <strong>Claude</strong> | 長い定義文を読ませたうえで、「誤答肢を含む4択」を作らせるのに強い。 |
+| <strong>Gemini</strong> | スマホでサクッと出題。表形式のまとめも依頼しやすい（利用時点の機能に合わせる）。 |
 
 ## 1. 300問の丸暗記か、AIによる本質的理解か？
 

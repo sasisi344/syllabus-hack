@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-03-08
-lastmod: 2026-04-05
+lastmod: 2026-04-26
 title: 'ITパスポートから応用情報まで｜AP・SGを同時攻略する最短合格ロードマップ'
 excerpt: 'ITパスポートの次はどうする？年2回しかない応用情報（AP）を見据え、同時攻略が可能なセキュリティマネジメント（SG）を組み合わせた最短ロードマップを解説。'
 image: ~/data/post/career/it-passport-to-ap-roadmap/cover.png
@@ -28,6 +28,8 @@ ITパスポートを取得した。あるいは、これから取得しようと
 しかし、無計画に参考書を買い込み、「次は基本情報かな…」と漠然と勉強を始めるのは効率的ではありません。
 
 最短で合格を掴み取るための「最適技」は、 <strong>AP・SG同時攻略</strong> という戦略にあります。
+
+学習の進め方は、利用できるデバイスと時間帯で設計し直すと続きやすい。[ITパスポートはスマホ学習で合格できる？スキマ時間で進める最短ルート](/method/smartphone-study-guide)、[PC学習が強い理由。長時間学習で合格率を上げる環境の作り方](/method/pc-study-setup-guide)、[タブレットで学ぶIT資格対策。見やすさ重視の学習設計ガイド](/method/tablet-study-guide)、全体の使い分けは [スマホ・タブレット・PCをどう使い分ける？IT資格学習の最適デバイス戦略](/method/multi-device-cert-study) を参照。
 
 ---
 

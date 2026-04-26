@@ -1,7 +1,7 @@
 ---
 draft: false
 publishDate: 2026-04-05
-lastmod: 2026-04-11
+lastmod: 2026-04-24
 title: 'ITパスポート事務局の「対応不可」に絶望したあなたへ。自腹を回避し、経理を納得させる『第3の証明書』錬成術'
 excerpt: '「領収書の宛名が変更できない」という公式の回答に絶望していませんか？経理に突き返された領収書を、AIの力で「有効な証憑」へ昇華させる技術を公開。'
 image: ~/data/post/method/itp-receipt-name-change-hack/cover.png
@@ -9,7 +9,8 @@ category: method
 tags:
  - ITパスポート
  - 事務ハック
- - 生成AI
+ - ChatGPT
+ - Gemini
  - 経理対策
 knowledge:
  examId: ip
@@ -17,7 +18,7 @@ knowledge:
  syllabusRef: strategy
  difficulty: beginner
 metadata:
- description: 'ITパスポート試験の領収書の宛名変更ができない問題への対処法を解説。AIを活用して、経理部門への説明資料や正当性を証明するテンプレートを作成する方法。'
+ description: 'ITパスポートの領収書宛名変更不可を前提に、ChatGPTまたはGeminiで経理向け上申書を生成するプロンプトと手順を解説します。'
 ---
 
 ## 経理部門の冷たい視線と、公式の「NO」
@@ -36,7 +37,7 @@ metadata:
 確かに、システム上の宛名変更は <strong>不可能</strong> かもしれません。
 しかし、ビジネスマンにとって重要なのは「システムを動かすこと」ではなく「経理を納得させること」です。
 
-公式が「続き」を教えてくれないなら、私たちが <strong>生成AI</strong> を使って解決策をハックすればいい。
+公式が「続き」を教えてくれないなら、私たちが <strong>ChatGPT</strong> または <strong>Gemini</strong> を使って解決策をハックすればいい。
 
 ## 公式の回答を「前提条件」に変える逆転の発想
 
@@ -48,7 +49,7 @@ metadata:
 
 ## 【最適技】経理を説得する「上申書プロンプト」
 
-以下のプロンプトを <strong>ChatGPT</strong> や <strong>Gemini</strong> にコピー＆ペーストしてください。
+以下のプロンプトを <strong>ChatGPT</strong> または <strong>Gemini</strong> にコピー＆ペーストしてください（1案件につき1ツールに固定）。
 
 あなたの状況（試験日、会社名、氏名、経理が求めている形式）を具体的に反映した、強力な説明用ドキュメントが生成されます。
 

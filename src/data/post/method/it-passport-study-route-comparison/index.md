@@ -1,9 +1,9 @@
 ---
 title: "【ITパスポート】独学・AI学習・通信講座のどれが最短？タイプ別合格ルート比較"
 publishDate: 2026-03-31
-lastmod: 2026-03-31
+lastmod: 2026-04-24
 category: method
-tags: ['ITパスポート', '勉強法', '比較', 'AI学習', 'リスキリング']
+tags: ['ITパスポート', 'ChatGPT', 'Claude', 'Gemini', '勉強法']
 persona: 最適な学習プランを立てたい受験生
 knowledge:
   examId: ip
@@ -11,7 +11,7 @@ knowledge:
   difficulty: beginner
 image: ~/data/post/method/common-cover.png
 metadata:
-  description: 'ITパスポート合格に「正解」はありませんが「最短ルート」はあります。AI学習、市販テキスト、通信講座を徹底比較。あなたに最適な勉強法を診断します。'
+  description: 'ITパスポートの学習ルートを、市販テキスト・通信講座と比較しつつ、ChatGPT・Claude・Gemini・NotebookLMをどう組み合わせるかまで整理したタイプ別ガイドです。'
 ---
 
 ITパスポート試験の対策を始めようとして、最初に悩むのが「どうやって勉強するか？」ではないでしょうか。
@@ -26,12 +26,21 @@ ITパスポート試験の対策を始めようとして、最初に悩むのが
 
 ## 1. 比較表：3つの学習ルートをざっくり把握
 
-| 比較項目 | AI学習ルート (Syllabus Hack) | 市販テキストルート (王道・独学) | 通信講座ルート (安心・伴走) |
+| 比較項目 | ツール別AI学習ルート (Syllabus Hack) | 市販テキストルート (王道・独学) | 通信講座ルート (安心・伴走) |
 | :--- | :--- | :--- | :--- |
 | <strong>最短合格スピード</strong> | ★★★★★ (超速) | ★★★☆☆ (標準) | ★★★★☆ (効率的) |
 | <strong>コスト</strong> | ★★★★★ (ほぼ無料〜) | ★★★★☆ (2,000円〜) | ★★☆☆☆ (1万円〜) |
 | <strong>学習のしやすさ</strong> | ★★★☆☆ (能動性が必要) | ★★★★☆ (安定) | ★★★★★ (お任せ) |
 | <strong>おすすめの人</strong> | <strong>時短重視・IT好き</strong> | <strong>自分のペースでやりたい</strong> | <strong>プロに導いてほしい</strong> |
+
+### ツール別の役割（AI学習ルート内）
+
+| ツール | 向いている役割 |
+| :--- | :--- |
+| <strong>ChatGPT</strong> | 用語の噛み砕き、模擬試験の生成、毎日の学習ログ整理 |
+| <strong>Claude</strong> | 長文解説・PDFの要約、誤答の深掘りディスカッション |
+| <strong>Gemini</strong> | 公式資料や動画の要約（利用可能なら）、スマホでの隙間学習 |
+| <strong>NotebookLM</strong> | シラバスPDFをソースにした出題・要約（Googleアカウントで） |
 
 ---
 

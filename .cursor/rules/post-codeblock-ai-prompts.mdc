@@ -1,0 +1,18 @@
+---
+description: 記事内フェンスコードの強調は Markdown bold（AI向け）。本文は strong タグ。
+globs:
+  - src/data/post/**/*.md
+  - src/data/post/**/*.mdx
+alwaysApply: false
+---
+
+# コードブロック内の強調（AI向けプロンプト）
+
+`src/data/post/` の記事で、読者が ChatGPT・Claude・Gemini などにコピーするフェンスコード内（例: 言語タグ text のブロック）のテキストでは次を守る。
+
+- 強調は Markdown の太字記法（行頭・文中でアスタリスク2つで囲む形式）のみ使う。
+- HTML の strong タグはプロンプト内に書かない。モデルが指示の構造を読み取りやすいのは Markdown 寄りのことが多い。
+
+本文（フェンス外）の強調はサイト方針どおり strong タグに統一する。ドラフトから本番へ移すときも、フェンス内の太字は Markdown のまま残し、本文だけ strong へ変換する。
+
+詳細はリポジトリ直下の `CLAUDE.md`（必須ルール・ワークフローD）および `.agents/post_writer.md` を参照。

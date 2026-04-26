@@ -1,7 +1,7 @@
 ---
 draft: false
 publishDate: 2026-04-05
-lastmod: 2026-04-11
+lastmod: 2026-04-24
 title: '「あと10日しかない」と震える夜。AIを最強の家庭教師に変えて、どん底から逆算合格を掴むタイムリープ戦略'
 excerpt: '試験まで残り10日。「もう間に合わない」と諦める前に。AIを常駐型の家庭教師に変え、あなたの弱点だけを最短で埋め尽くす逆算合格術。'
 image: ~/data/post/method/itp-10-days-panic-hack/cover.png
@@ -9,7 +9,8 @@ category: method
 tags:
  - ITパスポート
  - 直前対策
- - 生成AI
+ - ChatGPT
+ - Gemini
  - 効率学習
 knowledge:
  examId: ip
@@ -17,7 +18,7 @@ knowledge:
  syllabusRef: final-check
  difficulty: beginner
 metadata:
- description: 'ITパスポート試験直前（10日前）からでも合格を目指すための、生成AIを活用した超効率学習メソッド。弱点分析と特化型演習のプロンプト。'
+ description: 'ITパスポート直前10日を、ChatGPT・Gemini・Claudeのミニプランとスパルタプロンプトで詰める手順を解説します。'
 ---
 
 ## 目の前の分厚い参考書を、今すぐ閉じろ
@@ -36,14 +37,20 @@ metadata:
 ## 参考書から逃げ、AIへ駆け込め
 
 残された240時間で、分厚い本を読み直す時間はありません。
-今この瞬間から、あなたの <strong>生成AI</strong> を「24時間使い放題、世界一優秀な家庭教師」として再定義します。
+今この瞬間から、 <strong>ChatGPT</strong> ・ <strong>Gemini</strong> ・ <strong>Claude</strong> のいずれかを「24時間使い放題の家庭教師」に <strong>1ツール固定</strong> で再定義します。
 
 あなたがやるべきことは、参考書を読むことではなく、 <strong>過去問</strong> を解き、間違えた瞬間、その回答をAIに叩きつけること。
 それだけです。
 
+## ツール別ミニプラン（直前10日）
+
+- <strong>ChatGPT</strong> : 上記スパルタプロンプトを同一スレッドで回し、誤答ごとに追撃質問。
+- <strong>Gemini</strong> : スマホで過去問のスクショを読み込ませ、通勤中に短文クイズのみ生成（利用可能なら）。
+- <strong>Claude</strong> : 長文の解説が必要な分野だけ切り出して添削（メインは ChatGPT に固定してもよい）。
+
 ## 【最適技】AI家庭教師「スパルタ・チューター」プロンプト
 
-このプロンプトを <strong>ChatGPT</strong> や <strong>Gemini</strong> に入力し、あなたの学習パートナーとして召喚してください。
+このプロンプトを選んだツール（ <strong>ChatGPT</strong> または <strong>Gemini</strong> 推奨）に入力し、学習パートナーとして召喚してください。
 
 ```text
 # 指示

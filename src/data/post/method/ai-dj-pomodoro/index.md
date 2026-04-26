@@ -1,12 +1,12 @@
 ---
 publishDate: 2026-02-19
-lastmod: 2026-02-28
+lastmod: 2026-04-24
 persona: 資格試験の勉強中に集中力が途切れやすいIT初学者
 title: '25分で脳をハックする。AIに最適な「集中BGM」を作らせてポモドーロを回す'
 excerpt: '集中と弛緩のサイクルをAI DJが管理。最適なBGM生成でゾーンに入る。25分＋5分の脳科学的ハック。'
 image: ~/data/post/method/common-cover.png
 category: method
-tags: ['学習法', '集中力', 'ポモドーロ', 'SyllabusHack']
+tags: ['学習法', '集中力', 'ポモドーロ', 'ChatGPT', 'Suno']
 metadata:
   description: '人間の集中力の限界にあわせたポモドーロ・テクニックを、AI DJでさらにハック。25分学習＋5分休憩のサイクルと、それが合わない人向けの代替案まで解説。'
 ---
@@ -36,12 +36,12 @@ metadata:
 
 意志の力だけで25分を測るのは大変です。
 
-そこで活用したいのが、AIに生成させた <strong>集中BGM</strong> です。
+そこで活用したいのが、 <strong>音楽生成サービス</strong> や <strong>ChatGPT</strong> 経由で整えた <strong>集中BGM</strong> です。2026年時点では、 <strong>Suno</strong> や <strong>Udio</strong> などの仕様・利用規約が頻繁に変わるため、実際に使う前に公式ヘルプで「長尺・商用・学習利用」を必ず確認してください。
 
-AIに学習用の楽曲を作らせ、その再生終了を「休憩の合図」にします。
+楽曲を生成させ、その再生終了を「休憩の合図」にします。
 タイマーの音で現実に戻されるのではなく、音楽が止まるという「変化」をトリガーにするのがポイントです。
 
-たとえば、音楽生成AIにこのような指示（プロンプト）を出してみましょう。
+たとえば、 <strong>ChatGPT</strong> で英語のタグ案を整えたうえで、音楽生成AIにこのような指示を出してみましょう。
 
 ```text
 Lo-fi Hip Hop style, 90 BPM, no vocals, focus study, deep focus

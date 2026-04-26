@@ -1,21 +1,24 @@
 ---
 image: ~/data/post/method/ipa-absence-report-hack/cover.png
 draft: false
-lastmod: 2026-04-11
+lastmod: 2026-04-24
 publishDate: 2026-04-11
 title: '試験当日、ベッドから出られなかった君へ。その「欠席」を次回の「期待」に変えるリスクマネジメント報告術'
 persona: 'プレッシャーや体調不良でIPA試験を欠席し、会社や上司への報告に恐怖を感じている若手社員'
 category: method
 tags:
- - IPA試験
- - リスクマネジメント
- - メンタルハック
- - 生成AI
+  - IPA試験
+  - ChatGPT
+  - Gemini
+  - Claude
+  - リスクマネジメント
 knowledge:
- examId: fe
- type: method
- syllabusRef: management
- difficulty: beginner
+  examId: fe
+  type: method
+  syllabusRef: management
+  difficulty: beginner
+metadata:
+  description: 'IPA試験欠席後の上司報告文を、ChatGPT・Gemini・Claudeのいずれかに固定して生成するリカバリー報告プロンプトを解説します。'
 ---
 
 ## 目覚ましを止めて、絶望に沈んだ朝
@@ -45,7 +48,7 @@ knowledge:
 
 ## 上司の叱責を「応援」に変える、リカバリー報告プロンプト
 
-このプロンプトを <strong>ChatGPT</strong> や <strong>Gemini</strong> にコピー＆ペーストして、明日の朝、上司に送るメール（または面談の台本）を作成してください。
+このプロンプトを <strong>ChatGPT</strong> ・ <strong>Gemini</strong> ・ <strong>Claude</strong> のいずれか1つに固定してコピー＆ペーストし、明日の朝、上司に送るメール（または面談の台本）を作成してください。長文の丁寧さは <strong>Claude</strong> 、テンプレ量産は <strong>ChatGPT</strong> 向きです。
 
 ```text
 # 指示

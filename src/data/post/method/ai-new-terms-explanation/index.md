@@ -1,16 +1,16 @@
 ---
 publishDate: 2026-03-02
-lastmod: 2026-02-27
+lastmod: 2026-04-24
 title: '生成AI・AI倫理の新用語攻略：HITLやRAGを実務の武器にする方法'
 excerpt: 'IPA最新シラバスに準拠。RAGやHITL、XAIといった新用語がなぜ重要なのか、試験での出題傾向と実務での活用シーンをセットで解説します。'
 
 category: method
 tags:
-  - 生成AI
-  - AI倫理
+  - ITパスポート
+  - ChatGPT
+  - Claude
+  - Gemini
   - RAG
-  - HITL
-  - 試験対策
 
 knowledge:
   examId: common
@@ -21,7 +21,7 @@ knowledge:
 image: ~/data/post/method/common-cover.png
 
 metadata:
-  description: 最新のIPA試験シラバスに対応した生成AI・AI倫理の新用語解説. RAG, HITL, XAIなどの意味と試験での問われ方、実務での重要性を詳しく紹介します。'
+  description: 'IPA試験の生成AI・AI倫理用語（RAG/HITL/XAI）の整理と、ChatGPT・Claude・Gemini向けの自分用クイズ生成プロンプトをまとめます。定義は必ず公式シラバスで確認してください。'
 ---
 
 ## 単なる用語暗記を超えた「AIリテラシー」の重要性
@@ -48,6 +48,16 @@ AIを盲信するのではなく、プロセスの中に必ず人間を介在さ
 
 - <strong>試験での問われ方</strong>: 金融や医療など、判断の根拠が厳しく問われる分野で、従来のAIが抱える「ブラックボックス問題」をどう解決するか。
 - <strong>実務での価値</strong>: システムの透明性を高め、ユーザーや取引先からの <strong>信頼</strong> を勝ち取るための技術的基盤となります。
+
+## 出典の優先順位と自分用クイズ
+
+境界の揺れる用語は、必ず <strong>IPAが公開しているシラバス・試験要綱・サンプル問題</strong> で確認し、生成AIの説明は下書き扱いにしてください。
+
+ツールは用途で固定し、同じ型でクイズを回します。
+
+- <strong>ChatGPT</strong> : 「RAGとファインチューニングの違いをITパスポート向け4択で3問。各問で誤答肢がなぜ誤りか1行」
+- <strong>Claude</strong> : 「HITL前提の運用フローを箇条書きにしたあと、関連4択を2問」
+- <strong>Gemini</strong> : 「XAIとブラックボックス問題を100字以内の定義のあと4択1問」
 
 ---
 

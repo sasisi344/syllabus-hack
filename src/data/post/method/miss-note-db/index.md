@@ -1,13 +1,17 @@
 ---
 publishDate: 2026-02-19
-updateDate: 2026-02-19
+lastmod: 2026-04-24
 title: '正解には価値がない。AIに自分の「思考の癖」を分析させて弱点だけを潰す方法'
 excerpt: '間違えた問題だけを集めた「ミス・ノート」を作り、AIに傾向を診断してもらう。自分の認知バイアスを修正するデータ活用法。'
 image: ~/data/post/method/common-cover.png
 category: 'method'
-tags: ['学習法', 'データ分析', 'Notion', 'メタ認知']
+tags: ['基本情報技術者', 'ChatGPT', 'Gemini', 'Notion', 'メタ認知']
+knowledge:
+  examId: fe
+  type: method
+  difficulty: intermediate
 metadata:
-  description: 'AIを用いた「間違い分析」。過去問道場の不正解履歴をNotionに集約し、AIに「なぜ間違えたのか」のパターンを解析させることで、弱点をピンポイントで強化。'
+  description: '誤答ログをNotionに集約し、ChatGPTでパターン抽出・Geminiでサマリと表形式整理に分ける間違い分析ハックを解説します。'
 ---
 
 ## 90点を100点にするより、0点を30点にする方が簡単
@@ -25,7 +29,7 @@ metadata:
 
 ## バイブコーディングで「自分専用復習ツール」を作る
 
-プログラミング知識は不要です。CursorやWindsurf、あるいはGeminiにこう指示するだけです。
+プログラミング知識は不要です。 <strong>Cursor</strong> や Windsurf のチャット、あるいは <strong>ChatGPT</strong> にこう指示するだけです（スクリプト生成は <strong>ChatGPT</strong> 、ログの要約表は <strong>Gemini</strong> 向き）。
 
 1.  <strong>コードを入手</strong>:
     クイズアプリのソースコード（リポジトリ）をクローン、または結果画面のHTML/JSONを保存。
@@ -40,7 +44,7 @@ metadata:
 
 ## AIによる「誤答パターン分析」
 
-生成された `miss_list.md` を、さらにAI（Gemini 1.5 Proなど）に読み込ませて分析させます。
+生成された `miss_list.md` を、さらに <strong>Gemini</strong> または <strong>ChatGPT</strong> に読み込ませて分析させます。長いログの傾向把握は <strong>Gemini</strong> 、冷徹な一文コメントは <strong>ChatGPT</strong> が向きやすいです。
 
 <strong>プロンプト</strong>:
 

@@ -1,19 +1,22 @@
 ---
 publishDate: 2026-03-20
-lastmod: 2026-04-17
+lastmod: 2026-04-24
 title: '【高度試験】Level4完全攻略ロードマップ：生成AIを「専門家」に変えて論文・記述の壁を越える'
-excerpt: 'PM/ST/SA/SC/NWなど、情報処理技術者試験の最上位（Level 4）をAIでハック。論文モジュール化からインシデント図解化まで、合格への道筋を総まとめ。'
+excerpt: 'PM/ST/SA/SC/NWなどLevel4を、ChatGPT・Claude・Geminiの役割分担でハック。論文モジュール化からインシデント図解化まで、合格への道筋を総まとめ。'
 image: ~/data/post/method/common-cover.png
 category: method
 tags:
   - 高度試験
-  - 論文対策
-  - 午後Ⅱ対策
+  - ChatGPT
+  - Claude
+  - Gemini
   - ロードマップ
-  - AI活用
-  - SyllabusHack
+knowledge:
+  examId: common
+  type: method
+  difficulty: advanced
 metadata:
-  description: '情報処理技術者試験の高度区分（Level 4）を生成AIで攻略するための総合ガイド。PM論文からSC記述式まで、当サイト推奨のハック術を網羅。'
+  description: 'Level4攻略で生成AIを使うとき、ChatGPT・Claude・Geminiの使い所をマトリクス化し、答え生成ではなく思考補助として回す手順をまとめた総合ガイドです。'
 ---
 
 ## 高度試験（Level4）の壁を越える最短ルート
@@ -137,6 +140,16 @@ ESはハードウェア寄りの制約、リアルタイム性、品質保証な
 - 論文骨子を短時間で比較し、採用案を決める
 
 AIは「代筆者」ではなく、思考の速度を上げる <strong>伴走者</strong> として使うのが正解です。
+
+## ChatGPT・Claude・Geminiの使い所マトリクス
+
+| やりたいこと | おすすめ |
+| --- | --- |
+| 設問の要求事項の箇条書き化、別解の列挙、短い添削ループ | <strong>ChatGPT</strong> |
+| 長文インシデント・論文素材の整理、一括要約 | <strong>Claude</strong> |
+| 手元PDFやスライドの要約・表化（利用時点で利用可能なら） | <strong>Gemini</strong> |
+
+試験区分ごとの詳細プロンプトは、当サイトの各メソッド記事に譲り、ここでは「どの画面に貼るか」を先に決めることが再現性の鍵です。
 
 ---
 

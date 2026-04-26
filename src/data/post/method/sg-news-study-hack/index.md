@@ -1,16 +1,16 @@
 ---
 publishDate: 2026-03-08
-lastmod: 2026-03-08
+lastmod: 2026-04-24
 title: '【SG攻略】セキュリティ事故ニュースを「最強の教科書」に変えるスマホハック'
 excerpt: '教科書の暗記はもう古い。日々流れてくる「情報漏洩」や「サイバー攻撃」のニュースを、セキュマネ試験の「科目B（多肢選択）」演習に変える、AI活用型のリアルタイム学習法。'
 persona: 'セキュリティマネジメントの学習にリアリティを持たせたい社会人・管理者'
 category: method
-tags: ['セキュリティマネジメント', '科目B', 'ニュース活用', '情報漏洩', '生成AI']
+tags: ['情報セキュリティマネジメント', '科目B', 'ChatGPT', 'Gemini', 'ニュース活用']
 image: ~/data/post/method/common-cover.png
 knowledge:
   examId: sg
   type: method
-  syllabusRef: Security-Incidents'
+  syllabusRef: 'Security-Incidents'
   difficulty: beginner
 metadata:
   description: '最新のセキュリティ事故ニュースを題材に、セキュリティマネジメント試験の重要用語や対策を学ぶ方法。生成AIを使った「事故分析シミュレーション」のやり方を解説。'
@@ -24,9 +24,9 @@ metadata:
 しかし、ニュースアプリを開けば、そこには <strong>「生きた教材」</strong> が溢れています。
 大手企業の個人情報漏洩、マルウェアによる病院の機能停止。これらを「ただの可哀想な事件」で終わらせず、あなたの「SG合格へのブースト」に変えましょう。
 
-## AIを使った「事故分析シミュレーター」プロンプト
+## 事故分析シミュレーター：ChatGPT / Gemini 固定プロンプト
 
-気になるセキュリティ関連のニュースを見つけたら、本文をコピーしてAI（ChatGPTやGeminiなど）にこう投げかけてみてください。
+気になるセキュリティ関連のニュースを見つけたら、本文をコピーして <strong>ChatGPT</strong> または <strong>Gemini</strong> に固定し、毎回同じ型でこう投げかけてください（スマホなら <strong>Gemini</strong> 、長文の整理なら <strong>ChatGPT</strong> ）。
 
 > <strong>プロンプト例</strong>：
 > 以下のセキュリティ事故ニュースを読んで、<strong>IPAの情報セキュリティマネジメント試験（SG）の視点</strong>で分析してください。

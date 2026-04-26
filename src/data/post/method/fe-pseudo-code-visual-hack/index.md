@@ -1,7 +1,7 @@
 ---
 draft: false
 publishDate: 2026-04-05
-lastmod: 2026-04-11
+lastmod: 2026-04-24
 title: '擬似言語が『読めない』のはあなたのせいじゃない。AIでコードを可視化し、脳内の「？」を「！」に変える15分'
 excerpt: '基本情報技術者試験（FE）難化の象徴「科目B・擬似言語」。記号の羅列という壁を、AIによる「動くコード」への翻訳で一気に破壊する新時代の学習法。'
 image: ~/data/post/method/fe-pseudo-code-visual-hack/cover.png
@@ -10,15 +10,15 @@ tags:
  - 基本情報技術者
  - 科目B
  - 擬似言語
- - アルゴリズム
- - 生成AI
+ - ChatGPT
+ - Gemini
 knowledge:
  examId: fe
  type: method
  syllabusRef: algorithm
  difficulty: intermediate
 metadata:
- description: '基本情報技術者試験の科目B（擬似言語）が理解できない人向けの学習法。AIを活用して擬似言語をPythonに変換し、動作を可視化して理解を深めるプロンプトを解説。'
+ description: 'FE科目Bの擬似言語を、ChatGPTでコード・トレースに、Geminiで図や要約に分けて可視化する手順とプロンプトを解説します。'
 ---
 
 ## その「呪文」のような羅列に、心が折れていませんか？
@@ -40,11 +40,17 @@ metadata:
 その途中で1つでも計算を間違えれば、すべてが崩れ去る。
 
 その「脳内デバッグ」という苦行、もうやめませんか？
-<strong>生成AI</strong> を使えば、死んでいる擬似言語を、1秒で「生きたプログラミング言語」に変えることができます。
+<strong>ChatGPT</strong> または <strong>Gemini</strong> を使えば、死んでいる擬似言語を、1秒で「生きたプログラミング言語」に変えることができます。
 
-## 【最適技】AIコード可視化「トランスレーター」プロンプト
+## 使い分け：コードはChatGPT、図解の下書きはGemini
 
-このプロンプトを <strong>ChatGPT</strong> や <strong>Claude</strong> にコピーして、分からない擬似言語の問題を貼り付けてください。
+- <strong>ChatGPT</strong> : Python への翻訳、行ごとのトレース表、別解の比較。コードブロックの整形が安定しやすいです。
+- <strong>Gemini</strong> : フローチャートや表形式の要約、スマホで写真の擬似言語を読ませる用途（利用時点の機能に合わせる）。
+- <strong>Claude</strong> : 長い問題文つきの一括解説向き。どれか1つに固定して運用してください。
+
+## 【最適技】コード可視化「トランスレーター」プロンプト（ChatGPT / Claude 向け）
+
+このプロンプトを <strong>ChatGPT</strong> または <strong>Claude</strong> にコピーして、分からない擬似言語の問題を貼り付けてください。
 
 ```text
 # 指示

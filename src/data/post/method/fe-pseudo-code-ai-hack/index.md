@@ -1,16 +1,16 @@
 ---
 publishDate: 2026-03-08
-lastmod: 2026-03-08
+lastmod: 2026-04-24
 title: '【科目B攻略】基本情報の「疑似言語」をAIで動くコードに変換して10倍速で理解する'
 excerpt: '基本情報技術者（FE）最大の壁「科目B・疑似言語」。紙の上だけで悩むのはもう終わりです。生成AIを使い、疑似言語をその場で実行可能なコードに変換して、ロジックを体感で理解する新時代の学習法。'
 persona: '科目Bのアルゴリズム問題で挫折しかけているFE受験者'
 category: method
-tags: ['基本情報技術者', '科目B', 'アルゴリズム', '疑似言語', '生成AI活用']
+tags: ['基本情報技術者', '科目B', 'ChatGPT', 'Gemini', '疑似言語']
 image: ~/data/post/method/common-cover.png
 knowledge:
   examId: fe
   type: method
-  syllabusRef: Algorithm-PseudoCode'
+  syllabusRef: 'Algorithm-PseudoCode'
   difficulty: intermediate
 metadata:
   description: '基本情報技術者試験の科目B（旧午後）で出題される疑似言語を、ChatGPTやGeminiを使ってPythonなどの実行可能なコードに変換し、デバッグしながら理解を深める学習メソッド。'
@@ -23,11 +23,13 @@ metadata:
 
 なぜなら、疑似言語は「動かない」からです。
 
-紙の上の記号を頭の中の仮想メモリで処理しようとするのは、未経験者にとって非常に負荷の高い作業です。この負荷を <strong>生成AI</strong> という外部メモリに肩代わりさせるのが、今回のハックです。
+紙の上の記号を頭の中の仮想メモリで処理しようとするのは、未経験者にとって非常に負荷の高い作業です。この負荷を <strong>ChatGPT</strong> または <strong>Gemini</strong> （コード整形は <strong>ChatGPT</strong> 、スマホで貼るなら <strong>Gemini</strong> ）という外部メモリに肩代わりさせるのが、今回のハックです。
+
+科目Bのプロンプト集めは、柱記事の [基本情報 科目B AIプロンプト集](/method/fe-subject-b-ai-prompt-hub) もあわせて参照してください。
 
 ## AIティーチャーへの「変換依頼」プロンプト
 
-理解できない疑似言語の問題を見つけたら、そのままAI（ChatGPT, Gemini, Claudeなど）に以下のプロンプトを投げてみてください。
+理解できない疑似言語の問題を見つけたら、固定したツールのチャットに以下のプロンプトを投げてみてください。
 
 > <strong>プロンプト例</strong>：
 > 以下のIPA基本情報技術者の疑似言語プログラムを、<strong>Pythonで実行可能なコード</strong>に変換してください。

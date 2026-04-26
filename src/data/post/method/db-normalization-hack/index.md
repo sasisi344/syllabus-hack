@@ -1,13 +1,14 @@
 ---
 publishDate: 2026-03-19
-lastmod: 2026-03-19
+lastmod: 2026-04-24
 title: '【メソッド】データベース（DB）：過去のスキーマ構造と要件から、正規化ドリルやSQLクイズを無限生成する'
 excerpt: 'DBスペシャリスト試験の難所「正規化」と「DB設計」。過去問のデータをAIに食わせ、自分だけの練習問題（ドリル）を無限に生成して苦手意識を払拭する学習法。'
 image: ~/data/post/method/common-cover.png
 category: method
 tags:
   - データベーススペシャリスト
-  - DB
+  - ChatGPT
+  - Claude
   - 正規化
   - SQL
 draft: false
@@ -16,7 +17,7 @@ knowledge:
   type: method
   difficulty: intermediate
 metadata:
-  description: 'DB試験の設計問題をAIで自分事に。過去のスキーマ構造から正規化ドリルやSQL抽出クイズを自動作成。反復練習により、「概念」を「スキル」に変えるハック術を紹介。'
+  description: 'DB試験の正規化ドリルとSQLクイズを、ChatGPTまたはClaudeに無限生成させる手順。反復で概念をスキルに変えるハックを紹介します。'
 ---
 
 # DB試験の「設計力」をAIドリルで定着させる
@@ -35,7 +36,7 @@ metadata:
 
 ## Evidence: スキーマ構造からのドリル生成
 
-DB試験の問題文や付随するテーブル（関係スキーマ）をAIに読み込ませ、ドリル形式に変換させます。
+DB試験の問題文や付随するテーブル（関係スキーマ）を、 <strong>ChatGPT</strong> （短い反復）または <strong>Claude</strong> （長い問題文の一括変換）に読み込ませ、ドリル形式に変換させます。どちらかに固定してください。
 
 > <strong>プロンプト例</strong>:
 > 以下の関係スキーマと業務要件を元に、(1)第1正規形から第3正規形までの分解手順を答える練習問題 と (2)関連するSQLクエリ作成クイズ を3問作成してください。
