@@ -1,4 +1,4 @@
-import type { Flashcard, QuizQuestion, Syllabus, SpecializedTerm } from './types';
+import type { Flashcard, QuizQuestion, Syllabus, SpecializedTerm, MasterTermEntry } from './types';
 
 /**
  * 専門用語集のJSONからフラッシュカード形式に変換する
@@ -75,6 +75,32 @@ export function mapQuestionsToCards(questions: QuizQuestion[], examId: string): 
       back: definition,
       category: q.middle_category || q.category || q.subField,
       examId: examId
+    };
+  });
+}
+
+/**
+ * master/terms-*.json の形式（定義キー・フィールド構造が異なる）からフラッシュカードへ変換する
+ * AP: { term, definition, category(大分類), field(中分類) }
+ * NW: { term, meaning, exam_id, category(中分類) }
+ */
+export function mapMasterTermEntriesToCards(
+  terms: MasterTermEntry[],
+  examId: string,
+  mode: 'term-to-def' | 'def-to-term' = 'term-to-def'
+): Flashcard[] {
+  return terms.map((t, idx) => {
+    const definition = t.definition || t.meaning || '';
+    const isTermToDef = mode === 'term-to-def';
+    return {
+      id: `${examId}-mt-${idx}`,
+      front: isTermToDef ? t.term : definition,
+      back: isTermToDef ? definition : t.term,
+      category: t.field || t.category,
+      largeCategory: t.field ? t.category : undefined,
+      examId,
+      originalTerm: t.term,
+      originalDefinition: definition,
     };
   });
 }

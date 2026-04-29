@@ -126,5 +126,149 @@
     "definition": "パスワードを使わない、公開鍵暗号方式による認証規格。生体認証やセキュリティキーを活用。対策：リスト型攻撃の完全無効化。",
     "tags": ["最新技術", "認証"],
     "importance": "A"
+  },
+  {
+    "id": "sc-021",
+    "category": "マルウェア対策",
+    "term": "シグネチャ検知",
+    "definition": "既知のマルウェアが持つ固有のパターン（シグネチャ）をデータベースと照合して検知する手法。",
+    "tags": ["午前II"],
+    "importance": "B"
+  },
+  {
+    "id": "sc-022",
+    "category": "マルウェア対策",
+    "term": "ヒューリスティック検知",
+    "definition": "プログラムの振る舞いや静的な特徴から、未知のマルウェアを推定して検知する手法。",
+    "tags": ["午前II"],
+    "importance": "B"
+  },
+  {
+    "id": "sc-023",
+    "category": "マルウェア対策",
+    "term": "ビヘイビア検知",
+    "definition": "実行中のプログラムの動作（ファイル書き換え、ネットワーク通信など）を監視し、不審な挙動に基づいて検知する手法。動的解析の一種。",
+    "tags": ["午前II"],
+    "importance": "B"
+  },
+  {
+    "id": "sc-024",
+    "category": "マルウェア対策",
+    "term": "サンドボックス",
+    "definition": "外部から隔離された保護領域で、不審なファイルを実行して安全性を確認するための仮想環境。",
+    "tags": ["午前II", "頻出"],
+    "importance": "A"
+  },
+  {
+    "id": "sc-025",
+    "category": "リスクアセスメント",
+    "term": "STRIDE分析",
+    "definition": "Microsoftが提唱した脅威モデリング手法。Spoofing（なりすまし）、Tampering（改ざん）、Repudiation（否認）、Information Disclosure（情報漏洩）、Denial of Service（サービス拒否）、Elevation of Privilege（権限昇格）の頭文字。",
+    "tags": ["午前II", "脅威分析"],
+    "importance": "B"
+  },
+  {
+    "id": "sc-026",
+    "category": "リスクアセスメント",
+    "term": "アタックツリー分析",
+    "definition": "攻撃の目標を頂点とし、それを達成するための具体的な攻撃手段を木構造（ツリー状）で列挙・分析する手法。",
+    "tags": ["午前II", "脅威分析"],
+    "importance": "B"
+  },
+  {
+    "id": "sc-027",
+    "category": "情報セキュリティの特性",
+    "term": "真正性 (Authenticity)",
+    "definition": "利用者や情報が、主張する通りのものであることが確実であるという特性。",
+    "tags": ["午前II", "頻出"],
+    "importance": "A"
+  },
+  {
+    "id": "sc-028",
+    "category": "情報セキュリティの特性",
+    "term": "責任追跡性 (Accountability)",
+    "definition": "利用者やプロセスの動作を一意に追跡でき、誰がいつ何をしたかを証明できる特性。",
+    "tags": ["午前II"],
+    "importance": "B"
+  },
+  {
+    "id": "sc-029",
+    "category": "情報セキュリティの特性",
+    "term": "否認防止 (Non-repudiation)",
+    "definition": "事後になって、ある行為や事象が発生した事実を否定できないようにする特性。電子署名などが用いられる。",
+    "tags": ["午前II", "頻出"],
+    "importance": "A"
+  },
+  {
+    "id": "sc-030",
+    "category": "情報セキュリティの特性",
+    "term": "信頼性 (Reliability)",
+    "definition": "システムが意図した動作を矛盾なく確実に実行できるという特性。",
+    "tags": ["午前II"],
+    "importance": "B"
+  },
+  {
+    "id": "sc-031",
+    "category": "アカウント・アクセス管理",
+    "term": "FIDO (Fast IDentity Online)",
+    "definition": "パスワードを使わないユーザー認証の標準規格。公開鍵暗号方式を利用し、秘密鍵をデバイス内の安全な領域（TPMなど）に保持する。",
+    "tags": ["午前II", "認証"],
+    "importance": "B"
+  },
+  {
+    "id": "sc-032",
+    "category": "アカウント・アクセス管理",
+    "term": "OAuth 2.0",
+    "definition": "リソースオーナーが認可サーバーを介して、サードパーティアプリケーションに限定的なアクセス権（アクセストークン）を付与するための認可フレームワーク。",
+    "tags": ["午前II", "認可"],
+    "importance": "A"
+  },
+  {
+    "id": "sc-033",
+    "category": "アカウント・アクセス管理",
+    "term": "OpenID Connect",
+    "definition": "OAuth 2.0を拡張し、ユーザーのID属性（プロファイル情報）を交換できるようにしたID連携のための認証プロトコル。",
+    "tags": ["午前II", "認証"],
+    "importance": "A"
+  },
+  {
+    "id": "sc-034",
+    "category": "ネットワークセキュリティ",
+    "term": "DNSSEC",
+    "definition": "DNS応答にデジタル署名を付加することで、応答の真正性と完全性を保証し、キャッシュポイズニング攻撃を防止する技術。",
+    "tags": ["午前II", "DNS"],
+    "importance": "B"
+  },
+  {
+    "id": "sc-035",
+    "category": "ネットワークセキュリティ",
+    "term": "DMARC",
+    "definition": "SPFおよびDKIMの認証結果に基づき、認証失敗時のメール処理（隔離、拒否など）を受信者側でどのように扱うかを送信者側が宣言する仕組み。",
+    "tags": ["午前II", "メールセキュリティ"],
+    "importance": "B"
+  },
+  {
+    "id": "sc-036",
+    "category": "セキュリティテスト",
+    "term": "ペネトレーションテスト",
+    "definition": "ネットワークやシステムに対し、想定される攻撃手法を用いて実際に侵入を試みることで、脆弱性や防御態勢の有効性を検証するテスト。",
+    "tags": ["午後対策", "頻出"],
+    "importance": "A"
+  },
+  {
+    "id": "sc-037",
+    "category": "インシデント管理",
+    "term": "SOC (Security Operations Center)",
+    "definition": "24時間365日体制でネットワークやシステムを監視し、セキュリティログの分析や攻撃の検知を行う専門組織。",
+    "tags": ["組織的対策", "午後対策"],
+    "importance": "A"
+  },
+  {
+    "id": "sc-038",
+    "category": "インシデント管理",
+    "term": "デジタルフォレンジックス",
+    "definition": "コンピュータや電子媒体に残された証拠資料を、法的証拠として保全・収集・分析するための技術的・法的手続きの総称。",
+    "tags": ["午前II", "証拠保全"],
+    "importance": "B"
   }
 ]

@@ -11,11 +11,13 @@ export default function DeckSelector({ onSelect }: { onSelect: (id: string) => v
     { id: 'ip', name: 'ITパスポート全シラバス', count: 1300 },
     { id: 'fe', name: '基本情報全シラバス', count: 3200 },
     { id: 'ap', name: '応用情報全シラバス', count: 600 },
+    { id: 'ap-terms', name: 'AP重要用語（応用情報）', count: 49 },
     { id: 'genai-ethics', name: '生成AI・AI倫理', count: 20 },
   ];
 
   const advancedDecks: Deck[] = [
-    { id: 'sc', name: 'SC重要用語（支援士）', count: 16 },
+    { id: 'sc', name: 'SC重要用語（支援士）', count: 34 },
+    { id: 'nw', name: 'NW重要用語（ネスペ）', count: 13 },
     { id: 'db', name: 'DB重要用語（スペシャリスト）', count: 7 },
     { id: 'sa', name: 'SA重要用語（アーキテクト）', count: 7 },
     { id: 'pm', name: 'PM重要用語（プロマネ）', count: 7 },

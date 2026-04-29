@@ -3,8 +3,8 @@ import { useState, useEffect } from 'preact/hooks';
 import CardSession from './CardSession';
 import DeckSelector from './DeckSelector';
 import CategorySelector from './CategorySelector';
-import { mapQuestionsToCards, mapSyllabusToCards, mapTermsToCards } from './utils';
-import type { Flashcard, QuizQuestion, Syllabus, SpecializedTerm } from './types';
+import { mapQuestionsToCards, mapSyllabusToCards, mapTermsToCards, mapMasterTermEntriesToCards } from './utils';
+import type { Flashcard, QuizQuestion, Syllabus, SpecializedTerm, MasterTermEntry } from './types';
 
 interface FlashcardAppProps {
   initialDeckId?: string;
@@ -18,6 +18,8 @@ interface FlashcardAppProps {
     smTerms?: SpecializedTerm[];
     auTerms?: SpecializedTerm[];
     stTerms?: SpecializedTerm[];
+    apTerms?: MasterTermEntry[];
+    nwTerms?: MasterTermEntry[];
     apSyllabus?: Syllabus;
     feSyllabus?: Syllabus;
     ipSyllabus?: Syllabus;
@@ -76,6 +78,16 @@ export default function FlashcardApp({ allData, initialDeckId }: FlashcardAppPro
       case 'st':
         if (allData.stTerms) {
           newCards = mapTermsToCards(allData.stTerms, 'st', learningMode);
+        }
+        break;
+      case 'ap-terms':
+        if (allData.apTerms) {
+          newCards = mapMasterTermEntriesToCards(allData.apTerms, 'ap', learningMode);
+        }
+        break;
+      case 'nw':
+        if (allData.nwTerms) {
+          newCards = mapMasterTermEntriesToCards(allData.nwTerms, 'nw', learningMode);
         }
         break;
       case 'genai-ethics':
@@ -168,7 +180,7 @@ export default function FlashcardApp({ allData, initialDeckId }: FlashcardAppPro
     );
   }
 
-  const isAdvancedExam = ['sc', 'db', 'sa', 'pm', 'sm', 'au', 'st'].includes(selectedDeckId);
+  const isAdvancedExam = ['sc', 'db', 'sa', 'pm', 'sm', 'au', 'st', 'nw', 'ap-terms'].includes(selectedDeckId);
 
   return (
     <div>

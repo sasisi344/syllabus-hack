@@ -61,3 +61,12 @@ export interface SpecializedTerm {
   importance: 'A' | 'B' | 'C';
   tags: string[];
 }
+
+export interface MasterTermEntry {
+  term: string;
+  definition?: string;
+  meaning?: string;
+  category?: string;
+  field?: string;
+  exam_id?: string;
+}
