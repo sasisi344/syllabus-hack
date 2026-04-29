@@ -135,7 +135,6 @@
 127. [method] スキマ時間だけで合格！スマホアプリをフル活用した最短ルート学習法 (2026-03-08) - src/data/post/method/gap-time-apps/index.md
 128. [method] 【最短合格】社会人がITパスポートに1週間で受かるための「全力捨て問」戦略 (2026-03-08) - src/data/post/method/ip-discard-strategy/index.md
 129. [method] 経済学ゼロからでも解ける！ストラテジ系をAIの「たとえ話」で攻略する技術 (2026-03-08) - src/data/post/method/ip-strategy-ai-hack/index.md
-130. [method] 【大阪府版】シラバスハック：梅田・難波の「勉強カフェ」を合格拠点にする戦略 (2026-03-08) - src/data/post/method/region-hack-osaka/index.md
 131. [method] 【東京都版】シラバスハック：超高密度な交通網を「合格タイマー」に変える戦略 (2026-03-08) - src/data/post/method/region-hack-tokyo/index.md
 132. [method] 【SG攻略】セキュリティ事故ニュースを「最強の教科書」に変えるスマホハック (2026-03-08) - src/data/post/method/sg-news-study-hack/index.md
 133. [trend] ITパスポートは「恥ずかしい」資格なのか？2026年の市場価値と現実 (2026-03-08) - src/data/post/trend/it-passport-shame-debate/index.md
@@ -175,7 +174,6 @@
 167. [career] 未経験からIT業界へ！元営業・教員が資格を武器にキャリアチェンジに成功した理由 (2026-02-17) - src/data/post/career/career-change-to-it-with-ipa/index.md
 168. [career] 非エンジニアこそ基本情報を取得せよ！DX時代の共通言語の身につけ方 (2026-02-17) - src/data/post/career/fundamental-it-engineer-for-non-engineers/index.md
 169. [career] 基本情報・応用情報で年収は上がる？資格手当の相場と転職市場のリアル (2026-02-17) - src/data/post/career/ipa-certification-salary-impact/index.md
-170. [career] 1年間の猛勉強で人生は変わる！リスキリング転身の実録ストーリー (2026-02-17) - src/data/post/career/reskilling-success-story-it-passport-to-data-scientist/index.md
 171. [career] 書類選考通過率1.5倍？資格を最大限アピールする履歴書の書き方 (2026-02-17) - src/data/post/career/resume-writing-tips-ipa-certification/index.md
 172. [method] 月100時間を捻出！AIをメンターにする最短合格ロードマップ (2026-02-17) - src/data/post/method/ai-mentor-study-method-roadmap/index.md
 173. [trend] 【2026年CBT化】応用情報・高度試験がペーパー廃止へ！変更点とエンジニアの備え (2026-02-17) - src/data/post/trend/applied-advanced-exam-cbt-transition-2026/index.md
