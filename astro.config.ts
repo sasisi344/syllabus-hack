@@ -59,6 +59,7 @@ const lastmodMap = buildLastmodMap();
 
 export default defineConfig({
   output: 'static',
+  site: 'https://syllabushack.com',
 
   integrations: [
     tailwind({
