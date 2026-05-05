@@ -60,6 +60,8 @@ const lastmodMap = buildLastmodMap();
 export default defineConfig({
   output: 'static',
   site: 'https://syllabushack.com',
+  // Explicit so @astrojs/sitemap and prerender see canonical trailing URLs even if integrations order changes
+  trailingSlash: 'always',
 
   integrations: [
     tailwind({

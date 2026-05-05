@@ -3,6 +3,9 @@ import { toString } from 'mdast-util-to-string';
 import { visit } from 'unist-util-visit';
 import type { RehypePlugin, RemarkPlugin } from '@astrojs/markdown-remark';
 
+/** Must match `site.site` in src/config.yaml (virtual `astrowind:config` is unavailable in this module). */
+const SITE_ORIGIN = 'https://syllabushack.com';
+
 export const readingTimeRemarkPlugin: RemarkPlugin = () => {
   return function (tree, file) {
     const textOnPage = toString(tree);
@@ -50,7 +53,25 @@ export const lazyImagesRehypePlugin: RehypePlugin = () => {
 };
 
 const normalizeInternalHref = (href: string): string => {
-  if (!href || !href.startsWith('/') || href.startsWith('//')) return href;
+  if (!href || href.startsWith('//')) return href;
+
+  // Same-origin absolute URLs (e.g. copied from browser without trailing slash)
+  if (href.startsWith('http://') || href.startsWith('https://')) {
+    try {
+      const u = new URL(href);
+      if (u.origin !== SITE_ORIGIN) return href;
+      const path = u.pathname;
+      if (!path || path === '/' || path.endsWith('/')) return href;
+      const lastSeg = path.split('/').pop() ?? '';
+      if (/\.[a-zA-Z0-9]{1,8}$/.test(lastSeg)) return href;
+      u.pathname = `${path}/`;
+      return u.href;
+    } catch {
+      return href;
+    }
+  }
+
+  if (!href.startsWith('/')) return href;
   if (href === '/') return href;
 
   const [withoutHash, hash = ''] = href.split('#');

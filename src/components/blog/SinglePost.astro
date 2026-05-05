@@ -6,7 +6,7 @@ import PostTags from '~/components/blog/Tags.astro';
 import SocialShare from '~/components/common/SocialShare.astro';
 
 import { SITE } from 'astrowind:config';
-import { getPermalink } from '~/utils/permalinks';
+import { getCanonical, getPermalink } from '~/utils/permalinks';
 import { getFormattedDate } from '~/utils/utils';
 
 import type { Post } from '~/types';
@@ -38,7 +38,7 @@ const blogPostingJsonLd = {
   author: {
     '@type': 'Person',
     name: post.author ?? 'さしし',
-    url: `${SITE.site}/about`,
+    url: String(getCanonical(getPermalink('about'))),
   },
   publisher: {
     '@type': 'Organization',
@@ -60,7 +60,7 @@ const breadcrumbJsonLd = {
   '@context': 'https://schema.org',
   '@type': 'BreadcrumbList',
   itemListElement: [
-    { '@type': 'ListItem', position: 1, name: 'ホーム', item: SITE.site },
+    { '@type': 'ListItem', position: 1, name: 'ホーム', item: String(getCanonical('/')) },
     ...(post.category
       ? [
           {

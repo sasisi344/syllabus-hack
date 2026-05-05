@@ -93,7 +93,7 @@ ITパスポート合格は、計画を立てて継続し、期限までに成果
 無料学習を効率化するなら、演習の習慣化が鍵です。  
 当サイトの <strong>ITパスポート問題集アプリ</strong> は、スキマ時間で反復できる設計になっており、未経験者がつまずきやすい「継続」を支えます。
 
-https://syllabushack.com/app/ip-strategy-drill
+https://syllabushack.com/app/ip-strategy-drill/
 
 おすすめの使い方は次のとおりです。
 
