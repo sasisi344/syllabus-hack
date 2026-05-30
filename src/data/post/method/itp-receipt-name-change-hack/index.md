@@ -1,5 +1,5 @@
 ---
-draft: false
+draft: true
 publishDate: 2026-04-05
 lastmod: 2026-04-24
 title: 'ITパスポート事務局の「対応不可」に絶望したあなたへ。自腹を回避し、経理を納得させる『第3の証明書』錬成術'

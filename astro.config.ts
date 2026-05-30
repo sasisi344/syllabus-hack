@@ -60,6 +60,18 @@ const lastmodMap = buildLastmodMap();
 export default defineConfig({
   output: 'static',
   site: 'https://syllabushack.com',
+
+  redirects: {
+    // グループD: 直前対策統合 (2026-05-30)
+    '/final-checkpoint-100-plus/': '/itp-10-days-panic-hack/',
+    // グループB: NotebookLM統合 (2026-05-30)
+    '/notebooklm-ip-study-hack/': '/notebooklm-it-passport-drill/',
+    // グループC: 氏名変更統合 (2026-05-30)
+    '/itp-receipt-name-change-hack/': '/itp-name-change-marriage-hack/',
+    // グループA: スマホ学習統合 (2026-05-30)
+    '/itp-smartphone-only-hack/': '/smartphone-study-guide/',
+    '/gap-time-apps/': '/smartphone-study-guide/',
+  },
   // Explicit so @astrojs/sitemap and prerender see canonical trailing URLs even if integrations order changes
   trailingSlash: 'always',
 

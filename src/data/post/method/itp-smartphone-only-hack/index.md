@@ -6,7 +6,7 @@ excerpt: 'PC操作に自信がない・スマホ中心の生活をしてきた�
 image: '~/data/post/method/itp-smartphone-only-hack/cover.jpg'
 category: 'method'
 tags: ['ITパスポート', '大学生', '初心者', 'スマホ学習', '独学']
-draft: false
+draft: true
 persona: 'PC操作に不安があるスマホネイティブの大学生・就活生'
 knowledge:
   examId: 'ip'

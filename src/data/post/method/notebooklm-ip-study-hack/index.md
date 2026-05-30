@@ -1,4 +1,5 @@
 ---
+draft: true
 publishDate: 2026-03-13
 lastmod: 2026-03-13
 title: NotebookLMでITパスポート用語を自分事化する最強の学習法
