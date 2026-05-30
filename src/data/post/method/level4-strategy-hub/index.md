@@ -1,5 +1,5 @@
 ---
-publishDate: 2026-03-20
+publishDate: 2026-03-20T00:00:00Z
 lastmod: 2026-04-24
 title: '【高度試験】Level4完全攻略ロードマップ：生成AIを「専門家」に変えて論文・記述の壁を越える'
 excerpt: 'PM/ST/SA/SC/NWなどLevel4を、ChatGPT・Claude・Geminiの役割分担でハック。論文モジュール化からインシデント図解化まで、合格への道筋を総まとめ。'

@@ -1,6 +1,6 @@
 ---
 lastmod: 2026-05-30
-publishDate: 2026-02-19
+publishDate: 2026-02-19T00:00:00Z
 updateDate: 2026-02-19
 title: '覚えられない専門用語は「絵」にしろ。生成AIで記憶の宮殿を建築する狂気の暗記術'
 excerpt: 'テキストの羅列をDALL-E 3やMidjourneyで印象的な「情景」に。最強の暗記術「記憶の宮殿」をAIでブーストする。'

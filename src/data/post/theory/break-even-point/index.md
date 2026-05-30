@@ -1,7 +1,7 @@
 ---
 title: "損益分岐点（BEP）を最速攻略！計算アレルギーをAIで克服する戦略"
 description: "ITパスポート・基本情報試験の最難関「計算問題」。損益分岐点（BEP）の仕組みと計算式を、AIを活用して直感的に理解する Syllabus Hack 流の攻略法を解説。"
-pubDate: "2026-03-31"
+publishDate: 2026-03-31T00:00:00Z
 category: "theory"
 tags: ["計算問題", "ストラテジ", "損益分岐点", "AI学習法"]
 image: ~/data/post/theory/common-cover.png

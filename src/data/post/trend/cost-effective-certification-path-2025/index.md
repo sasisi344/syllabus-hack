@@ -2,7 +2,7 @@
 title: '【2025年版】最新のIT市場予測から見る、今もっとも「コスパが良い」情報処理試験の組み合わせ案'
 image: ~/data/post/trend/common-cover.png
 description: '「どの資格から取ればいい？」「時間をかける価値はある？」限られた学習時間で最大のキャリア効果を得るための、2025年版・戦略的IT資格ロードマップを提案します。'
-publishDate: 2026-02-17
+publishDate: 2026-02-17T00:00:00Z
 lastmod: 2026-05-30
 category: 'trend'
 tags: ['キャリアロードマップ', 'IT資格', 'コスパ', 'ITパスポート', '基本情報技術者']

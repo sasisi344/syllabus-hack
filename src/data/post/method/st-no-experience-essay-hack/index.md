@@ -2,7 +2,7 @@
 image: ~/data/post/method/st-no-experience-essay-hack/cover.png
 draft: false
 lastmod: 2026-05-30
-publishDate: 2026-04-11
+publishDate: 2026-04-11T00:00:00Z
 title: '「実務経験なし」は不合格の理由にならない。シラバスの共通言語で「架空の成功」を錬成する技術'
 persona: '実務未経験で高度試験（ST）に挑む20代後半、理論派だが自信のないエンジニア'
 category: method

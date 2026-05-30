@@ -2,7 +2,7 @@
 title: '大学入試「情報Ⅰ」新設でIT資格の価値が再定義？教育現場で進むITリテラシーの共通化トレンド'
 image: ~/data/post/trend/common-cover.png
 description: '2025年度からの大学入学共通テストにおける「情報Ⅰ」の新設。これが社会人のIT資格の価値にどのような影響を与えるのか。教育現場の大きな変化と、その裏にあるITリテラシーの標準化について解説します。'
-publishDate: 2026-02-17
+publishDate: 2026-02-17T00:00:00Z
 lastmod: 2026-05-30
 category: 'trend'
 tags: ['情報Ⅰ', '大学入試', 'ITパスポート', 'ITリテラシー', '共通テスト']

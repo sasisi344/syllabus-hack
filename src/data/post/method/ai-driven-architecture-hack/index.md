@@ -1,5 +1,5 @@
 ---
-publishDate: 2026-04-05
+publishDate: 2026-04-05T00:00:00Z
 lastmod: 2026-05-30
 title: '【内部構成】AIだけでサイトをフルスクラッチ？ Syllabus Hack を支える技術の正体'
 excerpt: '「コードは書かない、提案するだけ」。Antigravity と Gemini CLI を駆使した AI 駆動開発の実態を公開します。'

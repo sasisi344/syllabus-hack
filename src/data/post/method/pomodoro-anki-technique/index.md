@@ -2,7 +2,7 @@
 title: 'ポモドーロ勉強法を「道具」でハックする。Notionからアナログタイマー、自作アプリまで'
 image: ~/data/post/method/common-cover.png
 description: '「25分集中して5分休む」ポモドーロ・テクニック。手垢のついた手法ですが、Notionやアナログタイマー、さらにはAI自作アプリで最適化することで、その効果は倍増します。'
-publishDate: 2026-01-31
+publishDate: 2026-01-31T00:00:00Z
 lastmod: 2026-02-28
 persona: 集中力が続かず、自分に合った勉強環境を模索しているIT初学者
 category: method

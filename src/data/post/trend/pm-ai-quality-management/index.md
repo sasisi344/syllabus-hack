@@ -1,6 +1,6 @@
 ---
 title: '【PM】AIプロジェクトの品質管理をハックする。確率的な出力と完成の定義をどう合意するか'
-publishDate: 2026-03-25
+publishDate: 2026-03-25T00:00:00Z
 lastmod: 2026-05-30
 category: trend
 tags: ['プロジェクトマネージャ', 'LLMOps', '品質管理', 'リスク管理']

@@ -1,6 +1,6 @@
 ---
 lastmod: 2026-05-30
-publishDate: 2026-02-19
+publishDate: 2026-02-19T00:00:00Z
 updateDate: 2026-02-19
 title: '【Active Recall】科学的に「脳に効く」勉強法だけをやる。エビデンスベースの資格試験攻略'
 excerpt: '精神論ではなくエビデンス。認知科学で実証された「アクティブリコール」「分散学習」「インターリービング」をSyllabus Hack流に実践する手法。'

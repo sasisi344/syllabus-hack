@@ -1,5 +1,5 @@
 ---
-publishDate: 2026-02-23
+publishDate: 2026-02-23T00:00:00Z
 lastmod: 2026-04-24
 title: 'IPA高度試験の午後問題をAIで突破するプロンプト集（記述式・試験対策）'
 excerpt: '応用情報・PM・SAなどIPAのLevel4試験に共通する午後の記述問題。高価なテキストでも例題は数問程度で尽きがちなので、生成AIに出題範囲を学習させて添削・類題まで回す学習手順と、ChatGPT・Gemini・Claude共通のプロンプト集。'

@@ -2,7 +2,7 @@
 title: 'NotebookLMでITパスポートを完全攻略——用語の自分事化からオリジナルドリル作成まで'
 excerpt: 'NotebookLMを使ってITパスポートの用語を「自分の仕事・生活」に紐付けて記憶し、さらに最新シラバス対応の自分専用50問ドリルを爆速で生成する方法を解説します。'
 image: ~/data/post/method/common-cover.png
-publishDate: 2026-02-25
+publishDate: 2026-02-25T00:00:00Z
 lastmod: 2026-05-30
 category: method
 tags: ['ITパスポート', 'NotebookLM', 'AI活用', '独学', '生成AI']

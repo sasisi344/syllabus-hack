@@ -1,5 +1,5 @@
 ---
-publishDate: 2026-02-10
+publishDate: 2026-02-10T00:00:00Z
 lastmod: 2026-04-15
 title: シラバスハック学習メソッド：生成AIで資格試験を攻略する
 image: ~/data/post/method/common-cover.png

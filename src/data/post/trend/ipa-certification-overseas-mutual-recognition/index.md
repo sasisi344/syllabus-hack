@@ -2,7 +2,7 @@
 title: '海外でも通用する？日本の情報処理技術者試験（IPA）の相互認証制度とアジア諸国での価値'
 image: ~/data/post/trend/common-cover.png
 description: '日本のIT国家資格は、実は海外でも高い評価を得ています。アジア13ヶ国との相互認証制度や、アジア共通試験「ITPEC」の仕組みを解説。グローバルなキャリアを目指す方必見の情報です。'
-publishDate: 2026-02-17
+publishDate: 2026-02-17T00:00:00Z
 lastmod: 2026-05-30
 category: 'trend'
 tags: ['相互認証制度', 'ITPEC', 'IPA', '海外就職', 'グローバルキャリア']

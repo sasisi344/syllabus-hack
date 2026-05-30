@@ -1,7 +1,7 @@
 ---
 title: "Web閲覧の基本と安全！HTTPとHTTPSの違いを解説"
 description: "Webページはどうやって表示される？HTTPのステータスコードから、SSL/TLSによる暗号化のHTTPSまでを分かりやすく解説します。"
-date: 2026-03-31
+publishDate: 2026-03-31T00:00:00Z
 image: ~/data/post/theory/common-cover.png
 category: theory
 tags: ["シラバス対策", "ネットワーク", "HTTP/HTTPS"]

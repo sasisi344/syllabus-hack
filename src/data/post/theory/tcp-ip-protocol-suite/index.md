@@ -1,7 +1,7 @@
 ---
 title: "インターネットの主役！TCP/IPの4階層を読み解く"
 description: "現代のネットワーク通信のデファクトスタンダード。OSI参照モデルとの違いや、TCPとUDPの使い分けまでを詳しく解説します。"
-date: 2026-03-31
+publishDate: 2026-03-31T00:00:00Z
 image: ~/data/post/theory/common-cover.png
 category: theory
 tags: ["シラバス対策", "ネットワーク", "TCP/IP"]

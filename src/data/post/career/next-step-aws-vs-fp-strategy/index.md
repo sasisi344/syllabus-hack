@@ -1,5 +1,5 @@
 ---
-publishDate: 2026-04-05
+publishDate: 2026-04-05T00:00:00Z
 lastmod: 2026-05-30
 title: 'ITパスポートの次はAWSかFPか？『ITスキル×金融リテラシー』の最強キャリアパス'
 persona: 'ITパスポートを無事に取得し、次なるスキルアップ先（AWSかFPか）で迷っている若手社会人'

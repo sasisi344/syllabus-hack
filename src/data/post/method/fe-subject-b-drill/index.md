@@ -1,7 +1,7 @@
 ---
 title: '【プロンプト配布】基本情報技術者 科目B「無限ドリル」生成メソッド'
 image: ~/data/post/method/common-cover.png
-publishDate: 2026-01-26
+publishDate: 2026-01-26T00:00:00Z
 lastmod: 2026-05-30
 category: method
 tags: ['基本情報技術者', '科目B', 'アルゴリズム', 'プロンプト配布', 'Python']

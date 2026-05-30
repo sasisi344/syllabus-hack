@@ -1,5 +1,5 @@
 ---
-publishDate: 2026-03-19
+publishDate: 2026-03-19T00:00:00Z
 lastmod: 2026-04-24
 title: '【NW】ネットワーク図の覚え方・書き方｜MermaidとAIで複雑な要件を視覚化するハック術'
 excerpt: 'NW試験の長文要件定義をMermaid構成図に変換。覚え方・書き方のコツを掴むことで、VRRPやOSPFの動作環境を正しく理解するAIハック術を解説。'

@@ -1,7 +1,7 @@
 ---
 title: "住所録の管理人！DNSの仕組みを分かりやすく解説"
 description: "「www.google.com」がIPアドレスに変わるまで。ドメイン名とIPアドレスを結びつけるDNS（Domain Name System）を徹底解説します。"
-date: 2026-03-31
+publishDate: 2026-03-31T00:00:00Z
 image: ~/data/post/theory/common-cover.png
 category: theory
 tags: ["シラバス対策", "ネットワーク", "DNS"]

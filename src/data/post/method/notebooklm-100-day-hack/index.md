@@ -1,5 +1,5 @@
 ---
-publishDate: 2026-04-05
+publishDate: 2026-04-05T00:00:00Z
 lastmod: 2026-05-30
 title: '【全人類合格】NotebookLM × Deep Research で挑む「100日資格ハック」の極意'
 excerpt: '最新 AI を「自分専用の家庭教師」に。100日で合格を掴み取るための具体的なプロンプトと脳科学的アプローチを公開。'

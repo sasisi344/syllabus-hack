@@ -1,6 +1,6 @@
 ---
 draft: true
-publishDate: 2026-03-13
+publishDate: 2026-03-13T00:00:00Z
 lastmod: 2026-03-13
 title: NotebookLMでITパスポート用語を自分事化する最強の学習法
 excerpt: ITパスポートの膨大な用語を効率的に覚えるコツは、AIを使って「自分の生活」や「業務」に関連付けることです。NotebookLMを活用した革新的な暗記術を解説します。

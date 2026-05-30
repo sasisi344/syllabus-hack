@@ -1,6 +1,6 @@
 ---
 lastmod: 2026-05-30
-publishDate: 2026-02-19
+publishDate: 2026-02-19T00:00:00Z
 updateDate: 2026-02-19
 title: '手が疲れたら口を動かせ。歩きながら学ぶ「音声独り言」学習法のススメ'
 excerpt: '書くのは遅い。喋れば3倍速い。スマートフォンとWhisper/Voice Modeを使った超高速アウトプット学習。'

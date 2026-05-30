@@ -1,5 +1,5 @@
 ---
-publishDate: 2026-04-05
+publishDate: 2026-04-05T00:00:00Z
 lastmod: 2026-04-05
 title: '【2026年攻略】IPA試験が「年2回CBT」へ！空白の半年を埋めるAI戦略'
 description: 'IPA（情報処理推進機構）が2026年度（令和8年度）の詳細スケジュールを確定。応用・高度試験がCBT（Computer Based Testing）へ移行し、試験サイクルが激変します。学習の空白期間をAIでハックする最強の合格戦略を解説。'

@@ -1,6 +1,6 @@
 ---
 title: 'AI時代にあえて「本」を読む。ITリテラシーの地図を手に入れ「問い」を洗練させる技術'
-publishDate: 2026-03-25
+publishDate: 2026-03-25T00:00:00Z
 lastmod: 2026-05-30
 category: method
 tags: ['読書術', '独学', '情報収集', 'ITリテラシー', 'プロンプト']

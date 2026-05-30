@@ -1,7 +1,7 @@
 ---
 title: "クリティカルパス最速特定術！プロジェクトを最短で終わらせる「命綱」の正体"
 description: "絶対に遅延できないタスクの連鎖、それが「クリティカルパス」。ITパスポート・基本情報試験の計算問題を、AIによるアローダイアグラム解析で攻略する Syllabus Hack 流ガイド。"
-pubDate: "2026-03-31"
+publishDate: 2026-03-31T00:00:00Z
 category: "theory"
 tags: ["プロジェクトマネジメント", "クリティカルパス", "アローダイアグラム", "試験対策"]
 image: ~/data/post/theory/common-cover.png

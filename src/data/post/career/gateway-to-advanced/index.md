@@ -3,7 +3,7 @@ title: "高度試験への登竜門：応用情報を取ると論文試験が楽
 image: ~/data/post/career/common-cover.png
 description: "「いつかはプロジェクトマネージャやアーキテクトに」そう狙うなら、応用情報技術者は避けて通れません。なぜ応用情報が高度試験（論文）の攻略ルートになるのか、その「接続性」について解説します。"
 lastmod: 2026-05-30
-publishDate: 2026-02-02
+publishDate: 2026-02-02T00:00:00Z
 categories: ["career"]
 tags: ["応用情報技術者", "高度情報処理技術者", "論文", "キャリアパス", "午後問題"]
 draft: false

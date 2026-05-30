@@ -1,7 +1,7 @@
 ---
 title: "アンゾフの成長マトリクス徹底解説！AI時代に打つべき「次の一手」の決め方"
 description: "企業の成長戦略を4つのマトリクスで描く「アンゾフの成長マトリクス」。IT試験の頻出ポイントと、AIを活用して新規事業の『勝率』を高める Syllabus Hack 流の戦略策定法。"
-pubDate: "2026-03-31"
+publishDate: 2026-03-31T00:00:00Z
 category: "theory"
 tags: ["経営戦略", "アンゾフ", "マトリクス", "新規事業"]
 image: ~/data/post/theory/common-cover.png

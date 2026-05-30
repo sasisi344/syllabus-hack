@@ -1,6 +1,6 @@
 --- 
 lastmod: 2026-05-30
-publishDate: 2026-03-31
+publishDate: 2026-03-31T00:00:00Z
 title: "PDCAはもう古い？変化の激しい時代の高速意思決定「OODA（ウーダ）ループ」攻略"
 excerpt: "先の見えない時代の判断基準、OODAループ。PDCAとの違いや、DX時代に求められる「即断即決」の極意をITパスポートの視点で解説。"
 category: trend

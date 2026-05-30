@@ -1,6 +1,6 @@
 --- 
 lastmod: 2026-05-30
-publishDate: 2026-03-31
+publishDate: 2026-03-31T00:00:00Z
 title: "生成AIの弱点を克服！RAGとは？IT試験に出る最新用語【ITパスポート】"
 excerpt: "AIが「嘘」を答えるハルシネーションを防ぐRAGの仕組み。検索と生成の組み合わせがもたらすビジネス価値を1分解説。"
 category: trend

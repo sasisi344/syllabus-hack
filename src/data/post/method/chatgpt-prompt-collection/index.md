@@ -1,6 +1,6 @@
 ---
 lastmod: 2026-05-30
-publishDate: 2026-02-19
+publishDate: 2026-02-19T00:00:00Z
 updateDate: 2026-02-19
 title: 'ChatGPTプロンプト集：Syllabus Hackを支える記事・アプリ開発プロンプト'
 excerpt: '当サイト「Syllabus Hack」の膨大な記事執筆やクイズアプリ開発で実際に使用した、実践的なChatGPT/Geminiプロンプトを公開。'

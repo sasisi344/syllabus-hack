@@ -2,7 +2,7 @@
 title: '【2026年最新】情報処理技術者試験CBT日程表｜4月の中止期間と予約の注意点'
 image: ~/data/post/trend/common-cover.png
 description: '【2026年最新】応用情報・高度試験のCBT化スケジュールを徹底解説。4月の試験休止期間や2026年11月スタートの新制度、科目A・Bへの名称変更、予約の注意点まで、最短合格のための日程表をハックします Lookout 4月のシステム移行に伴う休止期間も網羅。'
-publishDate: 2026-03-07
+publishDate: 2026-03-07T00:00:00Z
 lastmod: 2026-04-05
 category: trend
 tags: ['IPA試験', 'CBT', '応用情報技術者', '高度試験', 'スケジュール']

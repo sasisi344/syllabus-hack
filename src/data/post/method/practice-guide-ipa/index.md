@@ -1,7 +1,7 @@
 ---
 title: '【完全版】IPA試験「最強」学習ガイド：ChatGPT／Claude／Geminiで合格をハックする4つのステップ'
 image: ~/data/post/method/common-cover.png
-publishDate: 2026-03-10
+publishDate: 2026-03-10T00:00:00Z
 lastmod: 2026-04-15
 category: method
 tags: ['学習メソッド', 'ChatGPT', 'Claude', 'Gemini', 'SyllabusHack']

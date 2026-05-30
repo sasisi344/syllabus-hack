@@ -1,7 +1,7 @@
 ---
 title: "WBS（作業分解構造）をマスターせよ！プロジェクトの迷子をゼロにする技術"
 description: "プロジェクト管理の基本「WBS」。ITパスポート・マネジメント系試験の頻出ポイントと、AIを使って完璧なタスク分解を行う Syllabus Hack 流の活用術。"
-pubDate: "2026-03-31"
+publishDate: 2026-03-31T00:00:00Z
 category: "theory"
 tags: ["プロジェクトマネジメント", "WBS", "試験対策", "AIタスク管理"]
 image: ~/data/post/theory/common-cover.png

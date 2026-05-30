@@ -1,5 +1,5 @@
 ---
-publishDate: 2026-03-01
+publishDate: 2026-03-01T00:00:00Z
 lastmod: 2026-05-30
 title: 'PDF学習をハックする！「PDF to Text」変換ツールの活用手順'
 excerpt: 'IPAの公式シラバス（PDF）を、AIが理解しやすいテキスト形式に変換。効率的な学習データを作成するための「PDF to Text」ツールの使い方をステップバイステップで解説します。'

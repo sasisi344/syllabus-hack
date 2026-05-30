@@ -2,7 +2,7 @@
 title: '30代未経験エンジニア転職、ITパスポートは武器になるか？'
 image: ~/data/post/career/common-cover.png
 description: '「30代未経験だけど、とりあえずITパスポートを取るべき？」その疑問に、辛口ですが現実的な答えを出します。武器にはなりませんが、最強の「防具」にはなります。'
-publishDate: 2026-02-02
+publishDate: 2026-02-02T00:00:00Z
 lastmod: 2026-02-28
 category: career
 tags: ['ITパスポート', '30代', '未経験転職', 'キャリア', 'リスキリング']

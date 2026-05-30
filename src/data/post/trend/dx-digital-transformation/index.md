@@ -1,6 +1,6 @@
 --- 
 lastmod: 2026-05-30
-publishDate: 2026-03-31
+publishDate: 2026-03-31T00:00:00Z
 title: "DX（デジタルトランスフォーメーション）とは？IT化との違いを1分で理解！試験の頻出ポイント"
 excerpt: "ITパスポート試験で最も重要な「DX」。単なるデジタル化（Digitization/Digitalization）との違いを明確にし、試験で正解を逃さないためのポイントを解説。"
 category: trend

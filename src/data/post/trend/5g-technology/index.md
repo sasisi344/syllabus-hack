@@ -1,6 +1,6 @@
 ---
 title: 'モバイル革命！5Gの3大特徴（高速・低遅延・多接続）を攻略'
-publishDate: 2026-03-31
+publishDate: 2026-03-31T00:00:00Z
 lastmod: 2026-05-30
 category: trend
 tags: ['5G', 'ネットワーク', 'IoT', 'ITパスポート', '試験対策']

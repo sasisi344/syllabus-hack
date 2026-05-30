@@ -1,6 +1,6 @@
 --- 
 lastmod: 2026-05-30
-publishDate: 2026-03-31
+publishDate: 2026-03-31T00:00:00Z
 title: "AI運用を止めるな！MLOps（エムエルオプス）の重要性とITパスポート試験のポイント"
 excerpt: "「一度作れば終わり」ではないAIモデル。精度の劣化を防ぎ、常に最新の状態を保つための手法、MLOpsの世界を速攻略。"
 category: trend

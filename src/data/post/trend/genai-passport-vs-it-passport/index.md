@@ -2,7 +2,7 @@
 title: '生成AIパスポート vs ITパスポート。AI時代にまず取るべき資格はどちらか？徹底比較'
 image: ~/data/post/trend/common-cover.png
 description: '生成AIの急速な普及に伴い、新設された生成AIパスポートと、不動の人気を誇る国家資格ITパスポート。どちらを先に取るべきか、難易度や活用シーンの違いを徹底比較します。'
-publishDate: 2026-02-17
+publishDate: 2026-02-17T00:00:00Z
 lastmod: 2026-05-30
 category: 'trend'
 tags: ['生成AIパスポート', 'ITパスポート', '資格比較', '生成AI', 'リスキリング']

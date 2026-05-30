@@ -1,7 +1,7 @@
 ---
 title: "SLA / SLO 徹底解説！ITサービスの「品質」を守る最強の約束とは？"
 description: "サービスレベル合意（SLA）と目標（SLO）。IT試験の頻出用語を、AIを活用して実務的なシナリオで理解する Syllabus Hack 流の攻略ガイド。"
-pubDate: "2026-03-31"
+publishDate: 2026-03-31T00:00:00Z
 category: "theory"
 tags: ["サービスマネジメント", "SLA", "SLO", "試験対策", "ITIL"]
 image: ~/data/post/theory/common-cover.png

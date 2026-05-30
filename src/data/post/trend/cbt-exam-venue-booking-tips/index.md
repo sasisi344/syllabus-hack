@@ -2,7 +2,7 @@
 title: '試験会場が予約できない！？CBT試験の普及と「受験地の争奪戦」に勝つための予約テクニック'
 image: ~/data/post/trend/common-cover.png
 description: 'ITパスポートや基本情報のCBT方式への移行に伴い、都市部を中心に試験会場の予約が困難になっています。希望の日時・場所で受験するための、賢い予約のコツと注意点を解説します。'
-publishDate: 2026-02-17
+publishDate: 2026-02-17T00:00:00Z
 lastmod: 2026-05-30
 category: 'trend'
 tags: ['CBT試験', '会場予約', 'ITパスポート', '予約のコツ']

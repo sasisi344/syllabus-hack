@@ -2,7 +2,7 @@
 title: 'リスキリング補助金制度を賢く使ってIT資格を取得する方法。受講料最大80%還元の波に乗る'
 image: ~/data/post/trend/common-cover.png
 description: '2025年〜2026年の最新動向を踏まえたリスキリング補助金の活用ガイドです。企業向け・個人向けの各制度を徹底比較。ITスキルとAI知識を身につけ、実質無料でキャリアアップする秘訣を公開します。'
-publishDate: 2026-02-17
+publishDate: 2026-02-17T00:00:00Z
 lastmod: 2026-02-28
 category: trend
 tags: ['リスキリング', '補助金', '助成金', '教育訓練給付金', 'DX']

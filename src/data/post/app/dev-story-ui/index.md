@@ -1,5 +1,5 @@
 ---
-publishDate: 2026-02-19
+publishDate: 2026-02-19T00:00:00Z
 updateDate: 2026-02-19
 title: '【実装編】Antigravityとペアプログラミング。Astro+Reactで構築する爆速Webアプリ開発'
 excerpt: 'フロントエンド開発の新時代。AIと共同で作り上げたUI/UXの実装プロセスと、Astro × Reactの技術選定。'

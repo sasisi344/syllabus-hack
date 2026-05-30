@@ -1,6 +1,6 @@
 --- 
 lastmod: 2026-05-30
-publishDate: 2026-03-31
+publishDate: 2026-03-31T00:00:00Z
 title: "最強の指示出し！プロンプトエンジニアリングの基本と試験ポイント【ITパスポート】"
 excerpt: "生成AIから最良の回答を引き出す「指示の技術」。ITパスポート試験で問われるFew-shotや役割指定のテクニックを網羅。"
 category: trend

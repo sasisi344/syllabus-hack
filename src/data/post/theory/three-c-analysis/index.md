@@ -1,7 +1,7 @@
 ---
 title: "3C分析を徹底解説！市場・競合・自社から「唯一無二の価値」を見つける方法"
 description: "マーケティング・経営戦略の基本「3C分析」。ITパスポート試験のポイントと、AIリサーチを駆使して市場環境を爆速で整理する Syllabus Hack 流の思考フレームワーク。"
-pubDate: "2026-03-31"
+publishDate: 2026-03-31T00:00:00Z
 category: "theory"
 tags: ["経営戦略", "3C分析", "マーケティング", "AIリサーチ"]
 image: ~/data/post/theory/common-cover.png

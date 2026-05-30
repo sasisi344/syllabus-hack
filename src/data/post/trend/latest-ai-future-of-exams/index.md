@@ -2,7 +2,7 @@
 title: '最新の生成AIが変える資格試験の未来：NotebookLMを活用した次世代の学習法'
 image: ~/data/post/trend/common-cover.png
 description: '生成AIの急速な進化により、資格試験の在り方が根本から変わろうとしています。最新のAIを活用したパーソナライズ学習の普及と、特に強力かつ無料で使える「NotebookLM」の活用法について徹底解説します。'
-publishDate: 2026-02-17
+publishDate: 2026-02-17T00:00:00Z
 lastmod: 2026-02-17
 category: trend
 tags: ['生成AI', 'NotebookLM', '学習メソッド', '試験の未来', '効率化']

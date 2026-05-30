@@ -1,7 +1,7 @@
 ---
 title: "SWOT分析をマスター！AIで「自社の勝ち筋」を客観的に見抜く方法"
 description: "経営戦略の超定番「SWOT分析」。試験の頻出ポイントと、生成AIを戦略パートナーにして「強み・弱み・機会・脅威」を深掘りする Syllabus Hack 流の活用術。"
-pubDate: "2026-03-31"
+publishDate: 2026-03-31T00:00:00Z
 category: "theory"
 tags: ["経営戦略", "SWOT分析", "フレームワーク", "AI活用術"]
 image: ~/data/post/theory/common-cover.png

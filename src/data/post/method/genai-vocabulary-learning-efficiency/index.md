@@ -1,5 +1,5 @@
 ---
-publishDate: 2026-02-25
+publishDate: 2026-02-25T00:00:00Z
 lastmod: 2026-05-30
 title: '生成AI関連語彙の学習効率を最大化する「シラバス・ハック」術'
 excerpt: 'シラバスに大量追加された生成AI用語。ChatGPT・Claude・Geminiそれぞれに短文テスト生成を任せ、200問ノックに頼らずマスターするBEAF戦略を解説します。'

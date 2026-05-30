@@ -1,7 +1,7 @@
 ---
 title: "PPM（プロダクトポートフォリオ）徹底攻略！花形か負け犬か？資源配分の黄金律"
 description: "複数の事業を「市場成長率」と「シェア」で分類する「PPM」。IT試験の計算・分析問題のポイントと、AIを戦略顧問にして投資の優先順位を決める Syllabus Hack 流マネジメント。"
-pubDate: "2026-03-31"
+publishDate: 2026-03-31T00:00:00Z
 category: "theory"
 tags: ["経営戦略", "PPM", "経営資源", "ポートフォリオ"]
 image: ~/data/post/theory/common-cover.png

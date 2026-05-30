@@ -1,5 +1,5 @@
 ---
-publishDate: 2026-03-02
+publishDate: 2026-03-02T00:00:00Z
 lastmod: 2026-05-30
 title: '生成AI・AI倫理の新用語攻略：HITLやRAGを実務の武器にする方法'
 excerpt: 'IPA最新シラバスに準拠。RAGやHITL、XAIといった新用語がなぜ重要なのか、試験での出題傾向と実務での活用シーンをセットで解説します。'

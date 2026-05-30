@@ -2,7 +2,7 @@
 image: ~/data/post/career/fe-resume-liar-hack/cover.png
 draft: false
 lastmod: 2026-05-30
-publishDate: 2026-04-11
+publishDate: 2026-04-11T00:00:00Z
 title: '「科目B不合格」を隠す恐怖を捨てる。履歴書を「現在進行形の圧倒的努力」に書き換える逆転ハック'
 persona: '基本情報の科目Bで躓き、就活や転職活動で自信を失っている若手'
 category: career

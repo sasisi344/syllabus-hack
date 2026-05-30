@@ -1,6 +1,6 @@
 ---
 lastmod: 2026-05-30
-publishDate: 2026-03-31
+publishDate: 2026-03-31T00:00:00Z
 title: "AIの「知ったかぶり」ハルシネーションとは？原因と対策を解説【シラバスハック】"
 excerpt: "生成AIが事実に基づかない「それらしい嘘」をつく現象、ハルシネーション。ITパスポート等で問われるリスク管理の視点から、仕組みと防止法を最速解説。"
 image: ~/data/post/trend/common-cover.png

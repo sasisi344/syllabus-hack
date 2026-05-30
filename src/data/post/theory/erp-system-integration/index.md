@@ -1,7 +1,7 @@
 ---
 title: "ERPパッケージ徹底解説！社内情報を一元管理する「経営の心臓部」"
 description: "バラバラのシステムを一つにまとめ、経営をスピードアップさせる「ERP」。IT試験の頻出ポイントと、AIを使ってERP導入の『費用対効果』をシミュレーションする Syllabus Hack 流活用術。"
-pubDate: "2026-03-31"
+publishDate: 2026-03-31T00:00:00Z
 category: "theory"
 tags: ["経営マネジメント", "ERP", "システム統合", "業務効率化"]
 image: ~/data/post/theory/common-cover.png

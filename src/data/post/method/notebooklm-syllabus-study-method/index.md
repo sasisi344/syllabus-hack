@@ -1,6 +1,6 @@
 ---
 title: 'NotebookLM＋シラバスで資格試験を最短攻略。AI家庭教師を作る「3つのプロンプト」活用術'
-publishDate: 2026-03-25
+publishDate: 2026-03-25T00:00:00Z
 lastmod: 2026-03-25
 category: method
 tags: ['NotebookLM', '学習ハック', 'シラバス', 'プロンプト', '勉強法']

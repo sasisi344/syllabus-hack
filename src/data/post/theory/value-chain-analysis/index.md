@@ -1,7 +1,7 @@
 ---
 title: "バリューチェーン徹底解説！価値が生まれる「鎖」をAIで最大化する極意"
 description: "製品が届くまでの全工程を分析し、自社の「強み」を特定する「バリューチェーン」。IT試験の頻出ポイントと、AIを使って付加価値の源泉を特定する Syllabus Hack 流の分析術。"
-pubDate: "2026-03-31"
+publishDate: 2026-03-31T00:00:00Z
 category: "theory"
 tags: ["経営戦略", "バリューチェーン", "競争優位", "AI分析"]
 image: ~/data/post/theory/common-cover.png

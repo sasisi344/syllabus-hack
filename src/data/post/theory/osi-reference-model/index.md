@@ -1,7 +1,7 @@
 ---
 title: "ネットワークの共通言語！OSI参照モデルの7階層を丸暗記"
 description: "難解なネットワーク階層。「物理層」から「アプリケーション層」まで、各階層の役割と覚え方のコツを分かりやすく解説します。"
-date: 2026-03-31
+publishDate: 2026-03-31T00:00:00Z
 image: ~/data/post/theory/common-cover.png
 category: theory
 tags: ["シラバス対策", "ネットワーク", "OSI参照モデル"]

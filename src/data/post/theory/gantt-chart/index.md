@@ -1,7 +1,7 @@
 ---
 title: "ガントチャート徹底活用！進捗の「見える化」でプロジェクトを成功に導く"
 description: "一目で進捗がわかる魔法の表「ガントチャート」。ITパスポート試験のポイントから、AIを使って最適なスケジュール表を自動生成する Syllabus Hack 流の新常識。"
-pubDate: "2026-03-31"
+publishDate: 2026-03-31T00:00:00Z
 category: "theory"
 tags: ["プロジェクトマネジメント", "ガントチャート", "スケジュール管理", "AIツール"]
 image: ~/data/post/theory/common-cover.png

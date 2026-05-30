@@ -1,6 +1,6 @@
 ---
 title: 'AIはどこまで許される？試験に出る「AI倫理」ガイドラインの要点'
-publishDate: 2026-03-31
+publishDate: 2026-03-31T00:00:00Z
 lastmod: 2026-05-30
 category: trend
 tags: ['AI倫理', 'ガバナンス', 'ITパスポート', 'シラバス', '試験対策']

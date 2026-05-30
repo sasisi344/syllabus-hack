@@ -1,7 +1,7 @@
 ---
 title: "Webの記憶装置！Cookieの役割とプライバシー規制"
 description: "「ログインしたまま」を支えるCookie（クッキー）。セッション管理の仕組みと、近年のプライバシー保護（ITPなど）との関係を解説します。"
-date: 2026-03-31
+publishDate: 2026-03-31T00:00:00Z
 image: ~/data/post/theory/common-cover.png
 category: theory
 tags: ["シラバス対策", "ネットワーク", "Cookie"]

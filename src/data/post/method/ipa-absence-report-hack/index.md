@@ -2,7 +2,7 @@
 image: ~/data/post/method/ipa-absence-report-hack/cover.png
 draft: false
 lastmod: 2026-05-30
-publishDate: 2026-04-11
+publishDate: 2026-04-11T00:00:00Z
 title: '試験当日、ベッドから出られなかった君へ。その「欠席」を次回の「期待」に変えるリスクマネジメント報告術'
 persona: 'プレッシャーや体調不良でIPA試験を欠席し、会社や上司への報告に恐怖を感じている若手社員'
 category: method

@@ -1,6 +1,6 @@
 ---
 draft: false
-publishDate: 2026-04-11
+publishDate: 2026-04-11T00:00:00Z
 lastmod: 2026-05-30
 title: 【年代・職種別】2027年版IPA試験・狙い目ガイド｜学生から社会人まで
 persona: 自分に最適な受験区分を知りたい学生・社会人

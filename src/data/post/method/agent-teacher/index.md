@@ -1,5 +1,5 @@
 ---
-publishDate: 2026-03-20
+publishDate: 2026-03-20T00:00:00Z
 lastmod: 2026-03-20
 title: 'Agent Teacher:24時間365日の「最強の家庭教師」を無料で雇う技術'
 excerpt: '高い塾や通信講座はもう不要？ChatGPTやGeminiを「ただのチャット」ではなく「超一流の家庭教師」として使いこなす、Syllabus Hack流のAI講師活用術を全公開。'

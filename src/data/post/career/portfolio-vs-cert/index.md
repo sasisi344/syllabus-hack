@@ -3,7 +3,7 @@ title: '資格よりポートフォリオは本当か？採用担当が見てい
 image: ~/data/post/career/common-cover.png
 description: '「エンジニアに資格は不要、ポートフォリオが全て」という言説を鵜呑みにしていませんか？採用担当者の本音と、資格欄が持つ本当の役割（学習意欲・基礎力の証明）について解説します。'
 lastmod: 2026-05-30
-publishDate: 2026-02-02
+publishDate: 2026-02-02T00:00:00Z
 category: career
 tags: ['キャリア', 'ポートフォリオ', '未経験転職', '採用', '資格']
 knowledge:

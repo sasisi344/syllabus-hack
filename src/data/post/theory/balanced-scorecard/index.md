@@ -1,7 +1,7 @@
 ---
 title: "BSC（バランススコアカード）徹底解説！4つの視点で経営を「多角的」に測る"
 description: "財務数値だけでは見えない企業の真価を測る「BSC」。IT試験の頻出ポイントと、AIを使って自分自身の「キャリアBSC」を作成する Syllabus Hack 流の活用術。"
-pubDate: "2026-03-31"
+publishDate: 2026-03-31T00:00:00Z
 category: "theory"
 tags: ["経営戦略", "BSC", "KPI", "キャリア開発"]
 image: ~/data/post/theory/common-cover.png

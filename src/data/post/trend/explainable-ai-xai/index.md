@@ -1,6 +1,6 @@
 --- 
 lastmod: 2026-05-30
-publishDate: 2026-03-31
+publishDate: 2026-03-31T00:00:00Z
 title: "なぜその答えになった？説明可能なAI（XAI）の必要性と重要ポイント"
 excerpt: "AIの判断プロセスを「見える化」するXAI。ブラックボックス問題を解消し、信頼されるAIを構築するための最新技術をマスターしよう。"
 category: trend

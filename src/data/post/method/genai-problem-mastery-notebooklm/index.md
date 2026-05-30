@@ -1,5 +1,5 @@
 ---
-publishDate: 2026-03-03
+publishDate: 2026-03-03T00:00:00Z
 lastmod: 2026-04-24
 title: '生成AI問題の攻略：NotebookLMでITパスポートのシラバスをハックする'
 excerpt: '最新シラバスに含まれる生成AI知識。講師が不在で教材も少ない新興分野を、NotebookLMを活用して自前で攻略するための実践テクニックを公開。'

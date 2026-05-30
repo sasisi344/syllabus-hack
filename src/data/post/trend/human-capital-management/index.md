@@ -1,6 +1,6 @@
 ---
 lastmod: 2026-05-30
-publishDate: 2026-03-31
+publishDate: 2026-03-31T00:00:00Z
 title: "人的資本経営をAIで攻略！従業員を「コスト」ではなく「資産」と見る理由【ITパスポート】"
 excerpt: "最新シラバスで重要度が増している「人的資本経営」。なぜ今、企業は人を資産と呼ぶのか？試験で問われるポイントと、生成AIでの学び方を解説。"
 image: ~/data/post/trend/common-cover.png

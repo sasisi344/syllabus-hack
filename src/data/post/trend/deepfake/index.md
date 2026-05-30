@@ -1,6 +1,6 @@
 ---
 lastmod: 2026-05-30
-publishDate: 2026-03-31
+publishDate: 2026-03-31T00:00:00Z
 title: "フェイクニュースの脅威！ディープフェイクの仕組みとITパスポート試験対策"
 excerpt: "AIで偽の動画や画像を作る「ディープフェイク」。SNSでの拡散やなりすまし詐欺のリスクなど、セキュリティの観点から最速解説。"
 image: ~/data/post/trend/common-cover.png

@@ -1,7 +1,7 @@
 ---
 title: "ROI（投資利益率）をマスターせよ！IT投資の価値を証明する数値の力"
 description: "ビジネスで最も重要な指標の一つ「ROI」。ITパスポート・高度試験でも頻出のROI計算と、AIを活用してビジネスケースを分析する Syllabus Hack 流の思考法。"
-pubDate: "2026-03-31"
+publishDate: 2026-03-31T00:00:00Z
 category: "theory"
 tags: ["経営戦略", "ROI", "IT投資", "AI分析"]
 image: ~/data/post/theory/common-cover.png

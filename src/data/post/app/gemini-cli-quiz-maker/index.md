@@ -1,5 +1,5 @@
 ---
-publishDate: 2026-02-19
+publishDate: 2026-02-19T00:00:00Z
 updateDate: 2026-02-19
 title: '【Gemini 2.0】CLIで無限にクイズを作る自作ツール "Quiz Generator"'
 excerpt: 'コマンド一発で試験問題を量産。Gemini APIのリミット制御と重複排除を実装したNode.jsスクリプトの全貌。'

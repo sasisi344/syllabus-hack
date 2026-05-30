@@ -1,7 +1,7 @@
 ---
 title: "バグを見逃さない！V字モデルと各テスト工程の意味"
 description: "単体、結合、システム、運用テスト。それぞれの違いと、V字モデルによってどのように設計とテストが対応しているかを解説します。"
-date: 2026-03-31
+publishDate: 2026-03-31T00:00:00Z
 image: ~/data/post/theory/common-cover.png
 category: theory
 tags: ["シラバス対策", "テスト工程", "V字モデル"]

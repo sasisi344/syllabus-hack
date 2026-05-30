@@ -1,6 +1,6 @@
 ---
 title: '【SA】自律型AIエージェントをどう設計するか。システムアーキテクトに求められるLLM統合設計'
-publishDate: 2026-03-25
+publishDate: 2026-03-25T00:00:00Z
 lastmod: 2026-05-30
 category: trend
 tags: ['システムアーキテクト', 'AIエージェント', 'RAG', 'アーキテクチャ設計']

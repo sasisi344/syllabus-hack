@@ -2,7 +2,7 @@
 title: '「ITスキル×AI」が士業DXの鍵。新卒・転職でITパスポートが最強の武器になる理由'
 image: ~/data/post/trend/common-cover.png
 description: '士業（弁護士・税理士・社労士など）を目指す新卒や転職者に発表です。今、士業DXを牽引する力として「ITパスポート」の価値が急上昇しています。ITスキルと生成AIの知識を兼ね備えた人材こそ、これからの事務所に不可欠です。'
-publishDate: 2026-02-28
+publishDate: 2026-02-28T00:00:00Z
 lastmod: 2026-05-30
 category: trend
 tags: ['士業', 'DX', '新卒', '転職', 'ITパスポート', '生成AI']

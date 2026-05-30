@@ -1,6 +1,6 @@
 ---
 title: '高度試験CBT化の衝撃。2026年度からの「手書き廃止」と「AIシラバス」への最短対策'
-publishDate: 2026-03-25
+publishDate: 2026-03-25T00:00:00Z
 lastmod: 2026-05-30
 category: trend
 tags: ['CBT化', '高度試験', 'シラバスVer5.x', 'IPA', '試験対策']

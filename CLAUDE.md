@@ -172,7 +172,7 @@ appId: '{app-slug}' # src/apps/ 下のディレクトリ名（必須）
 
 ### フロントマター制約
 
-- `publishDate`: 一度設定後は **リライト時も変更禁止**
+- `publishDate`: **必ず `YYYY-MM-DDTHH:MM:SSZ` ISO形式**（例: `2026-05-31T00:00:00Z`）で記述。一度設定後はリライト時も変更禁止。`pubDate` は旧フィールド名のため使用禁止
 - `lastmod`: 記事を編集するたびに必ず今日の日付（YYYY-MM-DD）に更新
 - `image`: 必ず `~/data/post/{category}/{slug}/cover.jpg` 形式（相対パス・絶対パス禁止）
 

@@ -1,6 +1,6 @@
 ---
 draft: false
-publishDate: 2026-04-11
+publishDate: 2026-04-11T00:00:00Z
 lastmod: 2026-05-30
 title: 新IPA試験を攻略する「最短合格」戦略｜データとAIを武器にする勉強法
 persona: 効率的な試験対策を求める戦略的学習者

@@ -1,6 +1,6 @@
 --- 
 lastmod: 2026-05-30
-publishDate: 2026-03-31
+publishDate: 2026-03-31T00:00:00Z
 title: "タイピング速度の目安は60WPM？IT試験突破に必要な入力スキルとは"
 excerpt: "CBT方式の試験で意外な落とし穴となるのが「入力速度」。理想とされる60WPM（WPA）の壁と、効率的な上達法を解説します。"
 category: trend

@@ -1,6 +1,6 @@
 ---
 title: "【ITパスポート】独学・AI学習・通信講座のどれが最短？タイプ別合格ルート比較"
-publishDate: 2026-03-31
+publishDate: 2026-03-31T00:00:00Z
 lastmod: 2026-04-24
 category: method
 tags: ['ITパスポート', 'ChatGPT', 'Claude', 'Gemini', '勉強法']

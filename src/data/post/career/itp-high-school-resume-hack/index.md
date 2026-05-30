@@ -2,7 +2,7 @@
 image: ~/data/post/career/itp-high-school-resume-hack/cover.png
 draft: false
 lastmod: 2026-05-30
-publishDate: 2026-04-11
+publishDate: 2026-04-11T00:00:00Z
 title: '【18歳以下の最適技】高校の「情報I」を無駄にしない、最短での履歴書ブースト・マッピング術'
 persona: '共通テストの「情報I」対策をしながらITパスポート取得を目指す、進路を有利にしたい高校生'
 category: theory

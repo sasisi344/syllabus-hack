@@ -1,6 +1,6 @@
 ---
 lastmod: 2026-05-30
-publishDate: 2026-03-31
+publishDate: 2026-03-31T00:00:00Z
 title: "人的資本経営とDE&I（多様性・公平性・包摂）の関係性とは？価値を生む組織の作り方"
 excerpt: "なぜ今、DE&Iが注目されるのか？ITパスポート試験でも問われる、多様性を活かしてDXを加速させる経営の考え方を解説。"
 image: ~/data/post/trend/common-cover.png

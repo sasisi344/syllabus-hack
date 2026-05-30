@@ -1,7 +1,7 @@
 ---
 title: "プロダクトライフサイクル（PLC）を攻略！製品の「旬」を見極める4つのステージ"
 description: "製品には命のサイクルがある。ITパスポート試験で問われる各フェーズの戦略と、AIを使って市場の寿命を予測する Syllabus Hack 流のプロダクト管理術。"
-pubDate: "2026-03-31"
+publishDate: 2026-03-31T00:00:00Z
 category: "theory"
 tags: ["マーケティング", "プロダクトライフサイクル", "PLC", "ビジネス戦略"]
 image: ~/data/post/theory/common-cover.png

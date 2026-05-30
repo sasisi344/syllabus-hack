@@ -1,7 +1,7 @@
 ---
 title: "王道の開発手法！ウォーターフォールモデルの工程をマスター"
 description: "IT資格試験の登竜門。ウォーターフォールモデルの各工程（要件定義〜保守）の役割と、メリット・デメリットを分かりやすく解説します。"
-date: 2026-03-31
+publishDate: 2026-03-31T00:00:00Z
 image: ~/data/post/theory/common-cover.png
 category: theory
 tags: ["シラバス対策", "開発手法", "ウォーターフォール"]

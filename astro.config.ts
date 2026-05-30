@@ -71,6 +71,14 @@ export default defineConfig({
     // グループA: スマホ学習統合 (2026-05-30)
     '/itp-smartphone-only-hack/': '/smartphone-study-guide/',
     '/gap-time-apps/': '/smartphone-study-guide/',
+    // カテゴリ整理 (2026-05-31): glossary → theory, strategy → theory
+    '/category/glossary/': '/category/theory/',
+    '/category/glossary/2/': '/category/theory/',
+    '/category/glossary/3/': '/category/theory/',
+    '/category/glossary/4/': '/category/theory/',
+    '/category/glossary/5/': '/category/theory/',
+    '/category/strategy/': '/category/theory/',
+    '/category/strategy/2/': '/category/theory/',
   },
   // Explicit so @astrojs/sitemap and prerender see canonical trailing URLs even if integrations order changes
   trailingSlash: 'always',

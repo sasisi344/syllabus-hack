@@ -1,7 +1,7 @@
 ---
 title: '【基礎知識あり・なし別】基本情報技術者（FE）AIハックロードマップ：科目Bアルゴリズム攻略'
 image: ~/data/post/method/common-cover.png
-publishDate: 2026-03-10
+publishDate: 2026-03-10T00:00:00Z
 lastmod: 2026-04-24
 category: method
 tags: ['基本情報技術者', '科目B', 'ChatGPT', 'Claude', 'ロードマップ']

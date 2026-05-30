@@ -1,6 +1,6 @@
 ---
 lastmod: 2026-05-30
-publishDate: 2026-03-31
+publishDate: 2026-03-31T00:00:00Z
 title: "仕事の相棒！AIアシスタントの活用とITパスポート試験対策"
 excerpt: "プログラミング、資料作成、メール返信などの業務を支援するAIツール。ITパスポート試験でも問われる最新の効率化手法をマスターしよう。"
 image: ~/data/post/trend/common-cover.png

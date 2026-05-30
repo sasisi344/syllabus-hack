@@ -2,7 +2,7 @@
 title: 'ITパスポートのシラバス改訂で「AI倫理・ガバナンス」が重要視される背景と対策'
 image: ~/data/post/trend/common-cover.png
 description: 'ITパスポートの最新シラバスで追加・強化された「AI倫理」や「AIガバナンス」。なぜ技術だけでなく、使い手のモラルや管理体制が問われるようになったのか。試験対策を兼ねた最新動向をまとめました。'
-publishDate: 2026-02-17
+publishDate: 2026-02-17T00:00:00Z
 lastmod: 2026-05-30
 category: 'trend'
 tags: ['シラバス', 'AI倫理', 'AIガバナンス', 'ITパスポート']

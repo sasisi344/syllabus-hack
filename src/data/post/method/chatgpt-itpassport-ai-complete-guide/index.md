@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-04-15T00:00:00Z
-lastmod: 2026-04-15
+lastmod: 2026-05-31
 title: 'ChatGPTでITパスポートに合格する全手順｜生成AI（Gemini・Claude）対応マップ'
 excerpt: 'ChatGPT・Gemini・Claudeを使ってITパスポートに合格するための全手順を一本化。ツール選択、4週間スケジュール表、最小プロンプトセット、深掘り記事8本へのリンクをまとめた「地図」記事。'
 image: '~/data/post/method/chatgpt-itpassport-ai-complete-guide/cover.jpg'
@@ -233,4 +233,6 @@ ITパスポートの合格証書それ自体より、<strong>AI活用で体得�
 4. <strong>深掘りが必要な部分だけ、上のインデックスから読む</strong>
 
 全部を完璧にこなす必要はない。<strong>今日の自分に一番足りていないステップ</strong>から始めれば、地図は機能する。
+---
 
+> この記事は [ITパスポート完全攻略ガイド](/method/itp-hub/) の一部です。

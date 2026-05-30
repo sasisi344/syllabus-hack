@@ -2,7 +2,7 @@
 title: 'IPA「オープンバッジ」導入の衝撃。デジタル履歴書でIT資格の証明はどう変わる？'
 image: ~/data/post/trend/common-cover.png
 description: 'IPAが導入を開始したデジタル証明「オープンバッジ」。これまでの紙の合格証書から何が変わり、就職や転職にどのようなメリットをもたらすのか。DX推進パスポートの正体を解説します。'
-publishDate: 2026-02-17
+publishDate: 2026-02-17T00:00:00Z
 lastmod: 2026-05-30
 category: 'trend'
 tags: ['オープンバッジ', 'DX推進パスポート', 'IPA', 'スキル可視化']

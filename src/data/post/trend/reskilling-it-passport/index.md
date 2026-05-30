@@ -1,6 +1,6 @@
 --- 
 lastmod: 2026-05-30
-publishDate: 2026-03-31
+publishDate: 2026-03-31T00:00:00Z
 title: "リスキリングとは？AI時代に必須の学び直しを最速解説【ITパスポート】"
 excerpt: "リスキリング（Reskilling）の定義から、ITパスポート試験での出題ポイント、生成AIを活用した効率的な学習法までをコンパクトにまとめました。"
 category: trend

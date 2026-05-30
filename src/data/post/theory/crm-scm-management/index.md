@@ -1,7 +1,7 @@
 ---
 title: "CRM と SCM を徹底攻略！顧客満足と効率化を両立する「経営の型」"
 description: "顧客との関係を深める「CRM」と、物流を最適化する「SCM」。IT試験の基本用語を、AIエージェントの視点から最新事例で理解する Syllabus Hack 流ガイド。"
-pubDate: "2026-03-31"
+publishDate: 2026-03-31T00:00:00Z
 category: "theory"
 tags: ["経営マネジメント", "CRM", "SCM", "試験対策", "サプライチェーン"]
 image: ~/data/post/theory/common-cover.png

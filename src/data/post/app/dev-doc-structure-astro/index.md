@@ -1,5 +1,5 @@
 ---
-publishDate: 2026-03-04
+publishDate: 2026-03-04T00:00:00Z
 lastmod: 2026-02-27
 title: 'Syllabus Hack開発記：メンテナンス性を高めるファイル構成と実装戦略'
 excerpt: '個人開発サイトを長く、楽しく育てるために。AstroとPage Bundleパターンを採用したSyllabus Hackの内部構造を技術解説します。'

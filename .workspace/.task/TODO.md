@@ -6,42 +6,42 @@
 
 ### 1. draft記事の公開（即実行・工数小）
 
-- [ ] `src/data/post/method/ccna-ai-hack/` → `draft: false` に変更・カバー画像確認
-- [ ] `src/data/post/trend/fp2-cbt-strategy/` → `draft: false` に変更・カバー画像確認
-- [ ] `src/data/post/method/mos-ai-shortcut/` → `draft: false` に変更・カバー画像確認
-- [ ] `src/data/post/trend/ds-kentei/` → `draft: false` に変更
-- [ ] `src/data/post/trend/e-shikaku/` → `draft: false` に変更
+- [x] `src/data/post/method/ccna-ai-hack/` → `draft: false` に変更・カバー画像確認
+- [x] `src/data/post/trend/fp2-cbt-strategy/` → `draft: false` に変更・カバー画像確認
+- [x] `src/data/post/method/mos-ai-shortcut/` → `draft: false` に変更・カバー画像確認
+- [x] `src/data/post/trend/ds-kentei/` → `draft: false` に変更
+- [x] `src/data/post/trend/e-shikaku/` → `draft: false` に変更
 
 ### 2. ITパスポートハブページ作成（最優先SEO施策）
 
-- [ ] `src/data/post/method/itp-hub/index.md` を作成
+- [x] `src/data/post/method/itp-hub/index.md` を作成
   - 65記事を method / trend / career / app / theory 別に一覧化
   - 推奨学習ロードマップを記述
   - 詳細: `.workspace/.task/next-task.md` フェーズ1参照
-- [ ] 主要サテライト記事10本にハブへのバックリンクを追加
+- [x] 主要サテライト記事10本にハブへのバックリンクを追加
 
 ### 3. glossary / strategy カテゴリの整理（技術的負債）
 
-- [ ] `glossary` 41記事 → `theory` に統合（frontmatterのcategory変更）
-- [ ] `strategy` 15記事 → 内容に応じて `method` / `trend` / `theory` に振り分け
-- [ ] 旧カテゴリURLに301リダイレクト設定（`astro.config.ts`）
+- [x] `glossary` 41記事（`term/`）→ `theory` に統合（frontmatterのcategory変更・ディレクトリ移動）
+- [x] `strategy` 15記事 → method 2本 / theory 13本 に振り分け（frontmatter更新・ディレクトリ移動）
+- [x] 旧カテゴリURLに301リダイレクト設定（`/category/glossary/` → `/category/theory/`、`/category/strategy/` → `/category/theory/`）
 
 ### 4. AWS / CCNA クラスター形成（新ジャンル最優先）
 
-- [ ] 追加KW記事を5本作成してクラスター化
-  - 「CCNA 独学 落ちた 対策」(method/PASONA)
-  - 「CCNA 文系 未経験 合格 ロードマップ」(method/BEAF)
-  - 「LPIC CCNA AWS 取得順番 インフラエンジニア」(trend/QUEST)
-  - 「AWS SAA 未経験 本当に取れるか」(method/PASONA)
-  - 「CCNA vs AWS SAA どっちを先に取るべきか」(trend/BEAF)
-- [ ] `src/data/post/method/aws-hub/` ハブページ作成（next-task フェーズ6）
+- [x] 追加KW記事を5本作成してクラスター化
+  - [x] 「CCNA 独学 落ちた 対策」→ `method/ccna-fail-comeback`
+  - [x] 「CCNA 文系 未経験 合格 ロードマップ」→ `method/ccna-liberal-arts-roadmap`
+  - [x] 「LPIC CCNA AWS 取得順番 インフラエンジニア」→ `trend/lpic-ccna-aws-order`
+  - [x] 「AWS SAA 未経験 本当に取れるか」→ `method/aws-saa-beginner-reality`
+  - [x] 「CCNA vs AWS SAA どっちを先に取るべきか」→ `trend/ccna-vs-aws-saa`
+- [x] `src/data/post/method/aws-hub/` ハブページ作成
 
 ### 5. FP2級クラスター形成
 
-- [ ] 追加KW記事を2〜3本作成
-  - 「FP2級 実技 きんざい vs 日本FP協会 どちらが簡単か」(trend)
-  - 「FP2級 勉強時間 社会人 3ヶ月プラン」(method)
-- [ ] `src/data/post/method/fp-hub/` ハブページ作成（next-task フェーズ6）
+- [x] 追加KW記事を2本作成
+  - [x] 「FP2級 実技 きんざい vs 日本FP協会 どちらが簡単か」→ `trend/fp2-jitsuki-comparison`
+  - [x] 「FP2級 勉強時間 社会人 3ヶ月プラン」→ `method/fp2-3month-plan`
+- [x] `src/data/post/method/fp-hub/` ハブページ作成
 
 ---
 
@@ -49,9 +49,12 @@
 
 ### SEO基盤
 
-- [ ] **publishDate タイムゾーン統一**
-  - `2026-04-01` 形式 → `2026-04-01T00:00:00Z` 形式に一括変換スクリプト作成・実行
-  - 対象: 約200記事（traffic-improvement-plan A-3参照）
+- [x] **publishDate タイムゾーン統一**
+  - 282本: `YYYY-MM-DD` → `YYYY-MM-DDTHH:MM:SSZ` に変換
+  - 16本: `pubDate` → `publishDate` に改名 + ISO変換
+  - 14本: 引用符付き・`date:` フィールド → ISO変換
+  - 10本: 日付なし → `2026-01-01T00:00:00Z` を追加
+  - `.agents/post_writer.md` / `CLAUDE.md` ルールを ISO形式必須に更新
 
 - [ ] **基本情報技術者ハブページ作成**（next-task フェーズ2）
   - `src/data/post/method/fe-hub/index.md`

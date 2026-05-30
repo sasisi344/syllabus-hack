@@ -1,6 +1,6 @@
 ---
 draft: false
-publishDate: 2026-04-11
+publishDate: 2026-04-11T00:00:00Z
 lastmod: 2026-05-30
 title: 2027年からのIPA試験再編まとめ｜データマネジメントと新区分PDとは？
 persona: IT資格の全貌を把握したい将来志向のビジネスパーソン・学生

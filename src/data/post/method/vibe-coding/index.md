@@ -1,5 +1,5 @@
 ---
-publishDate: 2026-02-10
+publishDate: 2026-02-10T00:00:00Z
 lastmod: 2026-05-30
 title: バイブコーディングで実現する「自分専用」の資格試験対策アプリ開発
 image: ~/data/post/method/common-cover.png
