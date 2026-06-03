@@ -1,0 +1,130 @@
+.region-widget {
+  border: 1px solid var(--color-border, #e2e8f0);
+  border-radius: 12px;
+  padding: 1.25rem 1.5rem;
+  background: var(--color-bg-subtle, #f8fafc);
+  font-family: inherit;
+}
+
+.dark .region-widget {
+  border-color: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.region-widget-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.region-widget-icon {
+  font-size: 1.1rem;
+}
+
+.region-widget-label {
+  font-size: 0.875rem;
+  color: #64748b;
+  margin: 0;
+}
+
+.dark .region-widget-label {
+  color: #94a3b8;
+}
+
+.region-widget-select {
+  width: 100%;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  background: #fff;
+  color: #1e293b;
+  cursor: pointer;
+  appearance: auto;
+}
+
+.dark .region-widget-select {
+  background: #1e293b;
+  border-color: rgba(255, 255, 255, 0.15);
+  color: #e2e8f0;
+}
+
+.region-widget-results {
+  margin-top: 1rem;
+}
+
+.region-widget-region-label {
+  font-size: 0.8rem;
+  color: #64748b;
+  margin: 0 0 0.5rem;
+}
+
+.dark .region-widget-region-label {
+  color: #94a3b8;
+}
+
+.region-widget-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.region-widget-item {
+  margin: 0;
+}
+
+.region-widget-link {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  padding: 0.625rem 0.875rem;
+  background: #fff;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: border-color 0.15s, box-shadow 0.15s;
+}
+
+.region-widget-link:hover {
+  border-color: #6366f1;
+  box-shadow: 0 0 0 2px rgba(99, 102, 241, 0.1);
+}
+
+.dark .region-widget-link {
+  background: rgba(255, 255, 255, 0.05);
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.dark .region-widget-link:hover {
+  border-color: #818cf8;
+}
+
+.region-widget-title {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #1e293b;
+  line-height: 1.4;
+}
+
+.dark .region-widget-title {
+  color: #e2e8f0;
+}
+
+.region-widget-desc {
+  font-size: 0.75rem;
+  color: #64748b;
+}
+
+.dark .region-widget-desc {
+  color: #94a3b8;
+}
+
+.region-widget-hint {
+  margin-top: 0.75rem;
+  font-size: 0.75rem;
+  color: #94a3b8;
+}
