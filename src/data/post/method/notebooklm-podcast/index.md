@@ -1,8 +1,9 @@
----
+﻿---
 title: '【NotebookLM】試験シラバスを「聴く参考書」に変える！音声学習の極意と裏技'
 image: ~/data/post/method/common-cover.png
 description: '「シラバスを読むのが苦痛」「移動時間を勉強にあてたい」そんな悩みをNotebookLMの音声機能で解決。PDFを丸投げするだけでは作れない、自分専用の「高効率ポッドキャスト」を作成するハック術を紹介します。'
 publishDate: 2026-02-07T09:00:00+09:00
+lastmod: 2026-06-03
 category: method
 tags: ['NotebookLM', '勉強法', '耳学', 'SyllabusHack', 'Gemini']
 knowledge:
@@ -10,7 +11,7 @@ knowledge:
   type: method
   difficulty: beginner
 toc: true
-draft: false
+draft: true
 ---
 
 IPA（情報処理推進機構）の試験シラバスや、数百ページある技術書。

@@ -4,7 +4,7 @@ publishDate: 2026-04-01T00:00:00Z
 title: "ストレージ(HDD/SSD)とは？PCの「倉庫」を賢く選ぶハードウェア基礎"
 excerpt: "磁気ディスクのHDD、フラッシュメモリのSSD。コンピュータの長期保存場所の特徴と、速度・音・寿命の違いを徹底解説。"
 image: ~/data/post/theory/common-cover.png
-category: "glossary"
+category: "theory"
 tags: ["HDD", "SSD", "ストレージ", "磁気ディスク", "ITパスポート", "ハードウェア"]
 knowledge:
   type: term

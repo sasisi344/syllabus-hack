@@ -1,8 +1,9 @@
----
+﻿---
 title: '【NotebookLM】機能の9割は捨てる！？エンジニアが選ぶ「学習に使える機能」仕分けリスト'
 image: ~/data/post/method/common-cover.png
 description: 'NotebookLMは多機能ですが、資格試験の学習において本当に使えるのはごく一部です。効率重視のエンジニア視点で、使うべき「Sランク機能」と時間の無駄になる「Cランク機能」を冷徹に仕分けしました。'
 publishDate: 2026-02-07T10:00:00+09:00
+lastmod: 2026-06-03
 category: method
 tags: ['NotebookLM', '勉強法', 'ツール比較', 'SyllabusHack', '効率化']
 knowledge:
@@ -10,7 +11,7 @@ knowledge:
   type: method
   difficulty: beginner
 toc: true
-draft: false
+draft: true
 ---
 
 NotebookLMを使っていると、たくさんのボタンや機能が目に入ります。「これ全部使わないといけないのかな？」「どれが勉強に役立つのかな？」と迷ったことはありませんか？

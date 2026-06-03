@@ -4,7 +4,7 @@ lastmod: 2026-04-17
 title: "DX推進のリーダーシップ：MVVとデジタルディバイド解消で「現場実装できる組織」を作る"
 excerpt: "DX推進で起きる「ベテラン層の抵抗」「シャドーIT」「暗黙知の属人化」にどう向き合うか。MVVとデジタルディバイド（情報格差）を軸に、現場実装まで落とし込む実践論。"
 image: ~/data/post/theory/common-cover.png
-category: "strategy"
+category: "theory"
 tags: ["DX", "リーダーシップ", "MVV", "デジタルディバイド", "ITパスポート", "リテラシー"]
 knowledge:
   type: strategy

@@ -4,7 +4,7 @@ publishDate: 2026-04-01T00:00:00Z
 title: "確率とベイズの定理の基礎とは？不確実な未来を「予測」する統計学"
 excerpt: "偶然に頼らない。過去の経験や条件から、未知のことが起きる確率を絞り出す手法を、迷惑メールフィルタを例に解説。"
 image: ~/data/post/theory/common-cover.png
-category: "glossary"
+category: "theory"
 tags: ["確率", "ベイズの定理", "統計学", "ITパスポート", "AI・機械学習"]
 knowledge:
   type: term

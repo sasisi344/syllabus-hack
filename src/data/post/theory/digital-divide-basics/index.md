@@ -4,7 +4,7 @@ lastmod: 2026-04-17
 title: "デジタルディバイドとは？情報格差がもたらす不平等とIT社会の課題"
 excerpt: "世代間ギャップ、10年刻みの技術変化、AIネイティブ時代まで含めて解説。デジタルディバイド（情報格差）を試験対策と実務の両面から理解する用語ページ。"
 image: ~/data/post/theory/common-cover.png
-category: "glossary"
+category: "theory"
 tags: ["デジタルディバイド", "情報格差", "情報リテラシー", "ITパスポート", "情報化社会"]
 knowledge:
   type: term

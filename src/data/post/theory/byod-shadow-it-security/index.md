@@ -4,7 +4,7 @@ publishDate: 2026-04-01T00:00:00Z
 title: "BYODとシャドーITとは？私物デバイス利用のメリットとセキュリティ・リスク"
 excerpt: "自分のスマホで仕事をする「BYOD」。一方で、会社に無断でサービスを使う「シャドーIT」の危険性を試験対策ガイドで徹底解説。"
 image: ~/data/post/theory/common-cover.png
-category: "glossary"
+category: "theory"
 tags: ["BYOD", "シャドーIT", "情報セキュリティ", "ITパスポート", "テレワーク"]
 knowledge:
   type: term

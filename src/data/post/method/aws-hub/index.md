@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-05-31T00:00:00Z
-lastmod: 2026-05-31
+lastmod: 2026-06-03
 title: 'AWS・CCNAクラスター完全ガイド｜インフラエンジニアの最短キャリアロードマップ'
 excerpt: 'CCNA・AWS SAA・LPICの取得順番と学習法を一冊で整理。インフラエンジニアとしての市場価値を最短で上げるためのクラスター記事インデックスと推奨ロードマップです。'
 image: '~/data/post/method/aws-hub/cover.jpg'
@@ -13,6 +13,15 @@ knowledge:
   type: 'method'
   syllabusRef: 'CCNA 200-301 / AWS SAA / LPIC-1'
   difficulty: 'intermediate'
+faqs:
+  - question: 'CCNAとAWS SAAはどちらを先に取るべきですか？'
+    answer: 'ネットワークの基礎知識がない状態ではAWS SAAのVPC・ルーティング設計が理解しにくいため、CCNAを先に取ることでAWS SAAの学習コストが下がります。Linuxとネットワークの基礎がある場合はAWS SAAから入っても問題ありません。'
+  - question: 'CCNAは独学で合格できますか？'
+    answer: '合格者の多くは独学です。Cisco公式ガイドブックまたはUdemyのCCNA対応コースが定番教材で、サブネット計算・ルーティング設計はAIに類題を生成させながら反復演習することが効果的です。'
+  - question: 'LPICはCCNAの前に必要ですか？'
+    answer: '必須ではありませんが、Linux経験がない場合は推奨されます。LPICで習得するファイルシステム・プロセス管理の知識はAWSのEC2・Lambda・CLI操作で直接役立ちます。サーバーサイドの実務経験があればLPICをスキップしてCCNAから入ることも現実的です。'
+  - question: 'AWS SAAの有効期限はありますか？'
+    answer: 'AWS認定資格の有効期限は3年です。更新には再試験またはアソシエイトレベル以上の新規試験合格が必要です。上位資格（SAP・Professional）を取得すると自動更新されます。'
 metadata:
   description: 'AWS・CCNA・LPICのインフラ資格を最短で攻略するハブガイド。取得順番の論理的根拠から学習法・キャリア設計まで、関連記事インデックスと合わせて完全網羅。'
 ---
@@ -83,6 +92,24 @@ CCNA知識をAWS VPCに応用する観点で整理してください。
 
 - [CCNAとAWS SAA、どちらを先に取るべきか](/trend/ccna-vs-aws-saa) — 学習効率から見た状況別の答え
 - [LPIC・CCNA・AWS、最適な取得順番](/trend/lpic-ccna-aws-order) — インフラエンジニアのロードマップを逆算する
+
+## よくある質問
+
+**Q: CCNAとAWS SAAはどちらを先に取るべきですか？**
+
+A: ネットワークの基礎知識がない状態ではAWS SAAのVPC・ルーティング設計が理解しにくい。<strong>CCNAを先に取ることでAWS SAAの学習コストが下がる</strong>のが一般的な推奨ルートだ。ただしLinuxとネットワークの基礎がすでにある場合は、AWS SAAから入っても問題ない。詳細な判断基準は[CCNAとAWS SAA、どちらを先に取るべきか](/trend/ccna-vs-aws-saa)を参照。
+
+**Q: LPICはCCNAの前に必要ですか？**
+
+A: 必須ではないが、Linux経験がない場合は推奨される。LPICで習得するファイルシステム・プロセス管理・シェルスクリプトの知識は、AWSのEC2・Lambda・CLI操作で直接役立つ。サーバーサイドの実務経験があればLPICをスキップしてCCNAから入ることも現実的だ。
+
+**Q: CCNAは独学で合格できますか？**
+
+A: 合格者の多くは独学だ。使用教材はCisco公式ガイドブックまたはUdemyのCCNA対応コースが一般的。サブネット計算・ルーティング設計は反復演習が必要なため、AIにひたすら類題を生成させながら手を動かす練習が効果的だ。[文系・未経験からCCNA合格するロードマップ](/method/ccna-liberal-arts-roadmap)に具体的な月別計画を掲載している。
+
+**Q: AWS SAAに有効期限はありますか？**
+
+A: AWS認定資格の有効期限は3年。更新には再試験またはアソシエイトレベル以上の新規試験合格が必要だ。3年経過前に上位資格（SAP・Professional）を取得すると、SAAも自動更新される仕組みになっている。
 
 ---
 

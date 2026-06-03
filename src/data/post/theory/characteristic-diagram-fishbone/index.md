@@ -4,7 +4,7 @@ publishDate: 2026-04-01T00:00:00Z
 title: "特性要因図（フィッシュボーン図）とは？原因を深掘りする図解術"
 excerpt: "問題の「結果」と、それを引き起こした「原因」の関係を整理する手法。魚の骨のような形で視覚化し、真の要因を特定します。"
 image: ~/data/post/theory/common-cover.png
-category: "glossary"
+category: "theory"
 tags: ["特性要因図", "フィッシュボーン図", "QC七つ道具", "ITパスポート", "問題解決"]
 knowledge:
   type: term

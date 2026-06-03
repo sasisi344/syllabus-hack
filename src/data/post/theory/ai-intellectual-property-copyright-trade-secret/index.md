@@ -3,7 +3,7 @@ publishDate: 2026-04-01T00:00:00Z
 title: "AI時代の知財戦略：著作権と不正競争防止法への対応「安全にAIを使い倒す」ための処方箋"
 excerpt: "AIで生成した画像や文章、そのまま使っていませんか？ ITパスポートで学ぶ『知的財産権』の知識をアップデートし、法的な炎上リスクを回避する新・コンプライアンス術。"
 image: ~/data/post/theory/common-cover.png
-category: "strategy"
+category: "theory"
 tags: ["AI知財", "著作権", "不正競争防止法", "営業秘密", "ITパスポート", "コンプライアンス"]
 knowledge:
   type: strategy

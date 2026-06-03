@@ -4,7 +4,7 @@ publishDate: 2026-04-01T00:00:00Z
 title: "平均値・中央値・最頻値とは？データの「真ん中」を見極める3つの代表値"
 excerpt: "年収の平均は高いのに、周りにそんな人はいない？異常値に弱い「平均値」と、実態に近い「中央値」「最頻値」の違いを解説。"
 image: ~/data/post/theory/common-cover.png
-category: "glossary"
+category: "theory"
 tags: ["平均値", "中央値", "最頻値", "代表値", "ITパスポート", "分析・統計"]
 knowledge:
   type: term

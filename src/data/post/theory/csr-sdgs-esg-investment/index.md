@@ -4,7 +4,7 @@ publishDate: 2026-04-01T00:00:00Z
 title: "CSR・SDGs・ESG投資とは？企業の社会的責任とITの役割"
 excerpt: "利益だけじゃない？これからの会社に求められる「持続可能性（サステナビリティ）」。3つの用語の違いと試験の重要ポイントを解説。"
 image: ~/data/post/theory/common-cover.png
-category: "glossary"
+category: "theory"
 tags: ["CSR", "SDGs", "ESG投資", "ITパスポート", "企業活動"]
 knowledge:
   type: term

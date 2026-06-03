@@ -153,6 +153,25 @@ export const appRegistry: Record<string, AppMetadata> = {
     status: 'beta',
     examId: 'common',
   },
+  // src/apps/ に実装済みだが未登録だったスラッグ
+  'ap-quiz': {
+    id: 'ap-quiz',
+    slug: 'ap-quiz',
+    title: '応用情報技術者(AP) 試験 攻略シミュレーター',
+    description: 'AP科目A（午前）・科目B（午後ケーススタディ）に対応した演習ツール。AI解説付き。',
+    category: 'quiz',
+    status: 'stable',
+    examId: 'ap',
+  },
+  'genai-cert-quiz': {
+    id: 'genai-cert-quiz',
+    slug: 'genai-cert-quiz',
+    title: '生成AI認定 模擬試験',
+    description: '生成AIパスポート・G検定向けの基礎知識確認クイズ。AI活用倫理・プロンプト設計・モデル基礎を網羅。',
+    category: 'quiz',
+    status: 'development',
+    examId: 'common',
+  },
 };
 
 /**

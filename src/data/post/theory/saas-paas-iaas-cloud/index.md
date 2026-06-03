@@ -4,7 +4,7 @@ publishDate: 2026-04-01T00:00:00Z
 title: "SaaS・PaaS・IaaSとは？クラウドの3大サービスを「料理」で例えて解説"
 excerpt: "何も持たないクラウドの時代。どこまで自分で用意し、どこからサービスを利用するか？IT試験の必修用語を最速攻略。"
 image: ~/data/post/theory/common-cover.png
-category: "glossary"
+category: "theory"
 tags: ["SaaS", "PaaS", "IaaS", "クラウドコンピューティング", "ITパスポート"]
 knowledge:
   type: term

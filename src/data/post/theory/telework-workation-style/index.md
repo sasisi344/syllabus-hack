@@ -4,7 +4,7 @@ publishDate: 2026-04-01T00:00:00Z
 title: "テレワーク・ワーケーションとは？場所にとらわれない働き方のIT基礎"
 excerpt: "ICTを活用した新しい働き方。テレワーク、ワーケーション、サテライトオフィスなど、IT試験の最新キーワードを解説。"
 image: ~/data/post/theory/common-cover.png
-category: "glossary"
+category: "theory"
 tags: ["テレワーク", "ワーケーション", "働き方改革", "ITパスポート", "ICT"]
 knowledge:
   type: term

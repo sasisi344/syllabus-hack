@@ -3,7 +3,7 @@ publishDate: 2026-04-01T00:00:00Z
 title: "ユーザーを動かす設計：UI/UXとアクセシビリティの融合「使いやすさ」を利益に変えるデザイン術"
 excerpt: "「カッコいい」だけでは不十分です。ITパスポートで学ぶ『UI/UX』と『アクセシビリティ』の視点を組み合わせれば、あらゆるユーザーを惹きつけ、離さない最強のプロダクトが生まれます。"
 image: ~/data/post/theory/common-cover.png
-category: "strategy"
+category: "theory"
 tags: ["UI/UX", "アクセシビリティ", "ユニバーサルデザイン", "ユーザー中心設計", "ITパスポート", "デザイン戦略"]
 knowledge:
   type: strategy

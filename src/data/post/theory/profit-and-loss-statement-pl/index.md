@@ -4,7 +4,7 @@ publishDate: 2026-04-01T00:00:00Z
 title: "損益計算書（P/L）とは？5つの利益の計算方法を図解・解説"
 excerpt: "会社の1年間の成績表「P/L」。売上から逆算して、営業利益や経常利益がどのように計算されるか、IT試験の基本知識を整理しました。"
 image: ~/data/post/theory/common-cover.png
-category: "glossary"
+category: "theory"
 tags: ["損益計算書", "PL", "財務会計", "ITパスポート", "用語集"]
 knowledge:
   type: term

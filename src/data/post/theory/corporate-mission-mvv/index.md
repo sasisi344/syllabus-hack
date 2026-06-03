@@ -4,7 +4,7 @@ publishDate: 2026-04-01T00:00:00Z
 title: "経営理念とMVV（ミッション・ビジョン・バリュー）とは？会社の「存在意義」と「行動指針」"
 excerpt: "なぜこの会社は存在するのか？経営の根幹を成す「MVV」。それぞれが何を指すのか、IT試験の基本知識とIT企業の事例で解説。"
 image: ~/data/post/theory/common-cover.png
-category: "glossary"
+category: "theory"
 tags: ["経営理念", "MVV", "ミッション", "ITパスポート", "企業戦略"]
 knowledge:
   type: term

@@ -4,7 +4,7 @@ publishDate: 2026-04-01T00:00:00Z
 title: "不正競争防止法とは？営業秘密を守り、不当なあやかり商法を防ぐIT試験の攻略ルート"
 excerpt: "特許ではないけれど、会社にとって大事な情報「営業秘密」。他人の看板を借りる『コピー品』や『ドメイン不正取得』から守る法律の要点を解説します。"
 image: ~/data/post/theory/common-cover.png
-category: "glossary"
+category: "theory"
 tags: ["不正競争防止法", "営業秘密", "ドメイン名", "コピー品", "試験対策"]
 knowledge:
   type: term

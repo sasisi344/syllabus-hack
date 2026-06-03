@@ -4,7 +4,7 @@ lastmod: 2026-05-30
 title: "プロンプトエンジニアリングとは？生成AIの回答品質を上げる指示設計の基本"
 excerpt: "ITパスポート対策と実務の両面で使える、プロンプトエンジニアリングの基本を解説。役割指定、文脈設定、制約条件、検証手順まで整理します。"
 image: ~/data/post/theory/common-cover.png
-category: "glossary"
+category: "theory"
 tags: ["プロンプトエンジニアリング", "生成AI", "LLM", "ITパスポート", "AI活用"]
 knowledge:
   type: term

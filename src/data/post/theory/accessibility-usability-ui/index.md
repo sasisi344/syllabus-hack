@@ -4,7 +4,7 @@ publishDate: 2026-04-01T00:00:00Z
 title: "アクセシビリティとユーザビリティとは？使いやすさと「誰でも使えること」の違い"
 excerpt: "特定の人の「使いやすさ」か、全員の「使いやすさ」か。似ているようで違う2つの用語を、IT試験対策に整理して解説。"
 image: ~/data/post/theory/common-cover.png
-category: "glossary"
+category: "theory"
 tags: ["アクセシビリティ", "ユーザビリティ", "UX", "ITパスポート", "UIデザイン"]
 knowledge:
   type: term

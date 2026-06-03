@@ -3,7 +3,7 @@ publishDate: 2026-04-01T00:00:00Z
 title: "ITベンダーの法務：下請法・著作権・労働基準法で自分と会社を守る知恵"
 excerpt: "エンジニアや営業なら避けて通れない「法律」の問題。ITパスポートで学ぶ『法務・コンプライアンス』の知識を、現場のトラブル回避に活かす具体的メソッド。"
 image: ~/data/post/theory/common-cover.png
-category: "strategy"
+category: "theory"
 tags: ["IT法務", "下請法", "著作権", "労働基準法", "ITパスポート", "コンプライアンス"]
 knowledge:
   type: strategy

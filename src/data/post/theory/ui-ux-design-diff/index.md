@@ -4,7 +4,7 @@ publishDate: 2026-04-01T00:00:00Z
 title: "UIとUXの違いとは？「見た目」と「体験」をデザインする基本"
 excerpt: "ボタンの押しやすさ（UI）か、使った後の満足感（UX）か。現代のITサービスに欠かせない2つの概念を試験対策に整理。"
 image: ~/data/post/theory/common-cover.png
-category: "glossary"
+category: "theory"
 tags: ["UI", "UX", "ユーザーインターフェース", "ユーザーエクスペリエンス", "ITパスポート"]
 knowledge:
   type: term

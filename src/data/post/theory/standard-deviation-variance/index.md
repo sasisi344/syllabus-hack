@@ -4,7 +4,7 @@ publishDate: 2026-04-01T00:00:00Z
 title: "標準偏差と分散とは？データの「バラツキ」を知る物差し"
 excerpt: "平均点は同じでも、全員が平均に近いか、上下に激しく分かれているか？データの散らばり具合を数値化する統計の基礎を解説。"
 image: ~/data/post/theory/common-cover.png
-category: "glossary"
+category: "theory"
 tags: ["標準偏差", "分散", "正規分布", "ITパスポート", "分析・統計"]
 knowledge:
   type: term

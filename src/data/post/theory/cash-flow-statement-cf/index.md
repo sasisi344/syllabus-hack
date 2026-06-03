@@ -4,7 +4,7 @@ publishDate: 2026-04-01T00:00:00Z
 title: "キャッシュフロー計算書（C/F）とは？現金の流れを掴む3つの区分"
 excerpt: "利益は出ているのに現金がない？会社の「血液」である現金の動きを記録する「C/F」。営業・投資・財務の3つの活動を解説。"
 image: ~/data/post/theory/common-cover.png
-category: "glossary"
+category: "theory"
 tags: ["キャッシュフロー計算書", "CF", "財務諸表", "ITパスポート", "用語集"]
 knowledge:
   type: term

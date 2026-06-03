@@ -1,8 +1,9 @@
----
+﻿---
 title: '【NotebookLM】フラッシュカード機能の「癖」と最強の活用法を徹底解説'
 image: ~/data/post/method/common-cover.png
 description: 'NotebookLMのフラッシュカード機能は用語暗記に最適ですが、自動生成には「癖」があります。その特徴を理解し、チャット機能を併用して応用情報などの難関試験に対応する「最強の問題集」を作る裏技を紹介します。'
 publishDate: 2026-02-07T08:30:00+09:00
+lastmod: 2026-06-03
 category: method
 tags: ['NotebookLM', 'ITパスポート', '応用情報技術者', '勉強法', 'SyllabusHack']
 knowledge:
@@ -10,7 +11,7 @@ knowledge:
   type: method
   difficulty: beginner
 toc: true
-draft: false
+draft: true
 ---
 
 資格試験の勉強で、<strong>「膨大な専門用語が覚えられない」「テキストを読んでも頭に残らない」</strong> と悩んでいませんか？

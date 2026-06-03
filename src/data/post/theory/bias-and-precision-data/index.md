@@ -4,7 +4,7 @@ publishDate: 2026-04-01T00:00:00Z
 title: "データの偏りと精度とは？正しい分析のための基礎知識"
 excerpt: "狙った場所に当たっているか？データの「真の値」とのズレ（偏り）と、バラツキ（精度）の違いをダーツの的で図解・解説。"
 image: ~/data/post/theory/common-cover.png
-category: "glossary"
+category: "theory"
 tags: ["偏り", "精度", "データ分析", "ITパスポート", "統計の基礎"]
 knowledge:
   type: term

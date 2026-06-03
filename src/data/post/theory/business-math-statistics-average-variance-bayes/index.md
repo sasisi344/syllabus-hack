@@ -3,7 +3,7 @@ publishDate: 2026-04-01T00:00:00Z
 title: "ビジネス数学の極意：平均・分散からベイズ統計まで「データに騙されない」意思決定術"
 excerpt: "「平均値」だけを見て判断していませんか？ ITパスポートで学ぶ『ビジネス統計』の基礎をマスターすれば、データの裏側に隠れたリスクとチャンスが魔法のように見えてきます。"
 image: ~/data/post/theory/common-cover.png
-category: "strategy"
+category: "theory"
 tags: ["ビジネス数学", "統計学", "平均・分散", "確率", "ITパスポート", "意思決定"]
 knowledge:
   type: strategy

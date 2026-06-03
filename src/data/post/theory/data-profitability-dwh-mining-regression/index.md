@@ -3,7 +3,7 @@ publishDate: 2026-04-01T00:00:00Z
 title: "データから利益を生む：DWH × マイニング × 回帰分析の相乗効果をシラバスで学ぶ"
 excerpt: "「データは資産だ」と言われるけれど、ただ溜めておくだけでは意味がありません。ITパスポートで学ぶ『データ利活用』の技術を、売上拡大へ繋げる改善フロー。"
 image: ~/data/post/theory/common-cover.png
-category: "strategy"
+category: "theory"
 tags: ["データ活用", "DWH", "データマイニング", "回帰分析", "ITパスポート", "意思決定"]
 knowledge:
   type: strategy

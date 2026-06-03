@@ -4,7 +4,7 @@ publishDate: 2026-04-01T00:00:00Z
 title: "BIOSとデバイスドライバとは？OSを支える密かな「橋渡し」役"
 excerpt: "起動時の立役者BIOS、周辺機器をあやつるドライバ。ハードウェアとソフトを仲介する、目立たないけど重要な影の主役。"
 image: ~/data/post/theory/common-cover.png
-category: "glossary"
+category: "theory"
 tags: ["BIOS", "UEFI", "デバイスドライバ", "OS", "ITパスポート", "ソフトウェア"]
 knowledge:
   type: term

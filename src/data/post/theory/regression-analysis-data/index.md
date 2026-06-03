@@ -4,7 +4,7 @@ publishDate: 2026-04-01T00:00:00Z
 title: "回帰分析とは？データから未来を予測する統計の基本"
 excerpt: "気温が上がればエアコンは売れる？2つのデータの「相関関係」を数式で表し、未知のデータを予測する回帰分析のポイントを整理。"
 image: ~/data/post/theory/common-cover.png
-category: "glossary"
+category: "theory"
 tags: ["回帰分析", "散布図", "単回帰", "ITパスポート", "分析・統計"]
 knowledge:
   type: term

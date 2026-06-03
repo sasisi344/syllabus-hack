@@ -4,7 +4,7 @@ publishDate: 2026-04-01T00:00:00Z
 title: "BPM（ビジネスプロセス管理）とは？業務をPDCAで回し続ける継続的改善"
 excerpt: "一度直しておしまいではない！ビジネスの流れ（プロセス）を可視化し、常に改善のサイクルを回す仕組みを解説。"
 image: ~/data/post/theory/common-cover.png
-category: "glossary"
+category: "theory"
 tags: ["BPM", "ビジネスプロセス管理", "PDCA", "ITパスポート", "企業戦略"]
 knowledge:
   type: term

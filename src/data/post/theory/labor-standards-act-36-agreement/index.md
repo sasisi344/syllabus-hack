@@ -4,7 +4,7 @@ publishDate: 2026-04-01T00:00:00Z
 title: "労働基準法・36協定とは？残業や休日のルールをIT試験向けに整理"
 excerpt: "働く人の権利を守る「労働基準法」と、時間外労働に必要な「36協定」。ITエンジニアも知っておくべき労働時間の基礎知識を解説。"
 image: ~/data/post/theory/common-cover.png
-category: "glossary"
+category: "theory"
 tags: ["労働基準法", "36協定", "コンプライアンス", "ITパスポート", "用語集"]
 knowledge:
   type: term

@@ -4,7 +4,7 @@ publishDate: 2026-04-01T00:00:00Z
 title: "サンプリング（標本抽出）とは？全体を知るための調査の仕組み"
 excerpt: "全員に聞くのは無理？一部のデータから全体を推測する「サンプリング」。ランダム抽出や層化抽出など、IT試験の基本知識を網羅。"
 image: ~/data/post/theory/common-cover.png
-category: "glossary"
+category: "theory"
 tags: ["サンプリング", "標本抽出", "統計", "ITパスポート", "リサーチ"]
 knowledge:
   type: term

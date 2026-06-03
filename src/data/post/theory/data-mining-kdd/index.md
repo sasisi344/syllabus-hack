@@ -4,7 +4,7 @@ publishDate: 2026-04-01T00:00:00Z
 title: "データマイニングとは？情報の山から「黄金」を探す技術"
 excerpt: "おむつとビールが一緒に売れる？巨大なデータから、自分たちでは気づけない意外な法則を見つけ出す手法を解説。"
 image: ~/data/post/theory/common-cover.png
-category: "glossary"
+category: "theory"
 tags: ["データマイニング", "相関関係", "マーケットバスケット分析", "ITパスポート", "AI・ビッグデータ"]
 knowledge:
   type: term

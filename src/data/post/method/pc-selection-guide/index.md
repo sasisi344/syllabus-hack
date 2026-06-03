@@ -3,7 +3,7 @@ publishDate: 2026-04-01T00:00:00Z
 title: "モダンPCの選び方：CPU・メモリ・ストレージの黄金バランスをシラバスから解説"
 excerpt: "PC購入で失敗したくないあなたへ。ITパスポートで学ぶ「3つの基本要素」をベースに、現役エンジニアが教える「失敗しないスペック選び」の基準とは。"
 image: ~/data/post/theory/common-cover.png
-category: "strategy"
+category: "method"
 tags: ["PC選び", "CPU", "メモリ", "ストレージ", "ITパスポート", "生産性"]
 knowledge:
   type: strategy

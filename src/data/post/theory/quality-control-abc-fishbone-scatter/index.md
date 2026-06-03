@@ -3,7 +3,7 @@ publishDate: 2026-04-01T00:00:00Z
 title: "品質管理の決定版：ABC分析 × 特性要因図 × 散布図でミスを根絶する最強ワークフロー"
 excerpt: "「また同じミスを繰り返してしまった…」そんな後悔、ITパスポートの『QC（品質管理）七つ道具』の知識でゼロにできます。原因を突き止め、改善を加速させる分析フロー。"
 image: ~/data/post/theory/common-cover.png
-category: "strategy"
+category: "theory"
 tags: ["品質管理", "ABC分析", "特性要因図", "散布図", "ITパスポート", "業務改善"]
 knowledge:
   type: strategy

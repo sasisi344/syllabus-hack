@@ -4,7 +4,7 @@ publishDate: 2026-04-01T00:00:00Z
 title: "OS(オペレーティングシステム)とは？WindowsからLinuxまで種類の違い基礎"
 excerpt: "Windows、macOS、Android。コンピュータの「司令塔」のOSが担う、資源管理と使いやすさの役割を徹底解説。"
 image: ~/data/post/theory/common-cover.png
-category: "glossary"
+category: "theory"
 tags: ["OS", "基本ソフトウェア", "Windows", "Linux", "ITパスポート", "ソフトウェア"]
 knowledge:
   type: term

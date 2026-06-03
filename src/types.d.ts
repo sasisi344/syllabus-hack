@@ -50,6 +50,9 @@ export interface Post {
     syllabusRef?: string;
     difficulty?: string;
   };
+
+  /**  */
+  faqs?: { question: string; answer: string }[];
 }
 
 export interface Taxonomy {

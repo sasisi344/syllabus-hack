@@ -58,6 +58,7 @@ const getNormalizedPost = async (post: CollectionEntry<'post'>): Promise<Post> =
     draft = false,
     metadata = {},
     knowledge = {},
+    faqs,
   } = data;
 
   const actualCategory = rawCategory || (Array.isArray(rawCategories) && rawCategories.length > 0 ? rawCategories[0] : undefined);
@@ -112,6 +113,7 @@ const getNormalizedPost = async (post: CollectionEntry<'post'>): Promise<Post> =
 
     readingTime: remarkPluginFrontmatter?.readingTime,
     knowledge: knowledge,
+    faqs: faqs,
   };
 };
 

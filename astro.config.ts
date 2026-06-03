@@ -64,8 +64,22 @@ export default defineConfig({
   redirects: {
     // グループD: 直前対策統合 (2026-05-30)
     '/final-checkpoint-100-plus/': '/itp-10-days-panic-hack/',
-    // グループB: NotebookLM統合 (2026-05-30)
-    '/notebooklm-ip-study-hack/': '/notebooklm-it-passport-drill/',
+    // グループB: NotebookLM統合 (2026-05-30) — 旧redirect先も新ガイドへ転送
+    '/notebooklm-ip-study-hack/': '/notebooklm-features-guide/',
+    '/notebooklm-it-passport-drill/': '/notebooklm-features-guide/',
+    '/notebooklm-flashcard/': '/notebooklm-features-guide/',
+    '/notebooklm-anystudy/': '/notebooklm-features-guide/',
+    '/notebooklm-podcast/': '/notebooklm-features-guide/',
+    '/notebooklm-quiz/': '/notebooklm-features-guide/',
+    '/notebooklm-movie/': '/notebooklm-features-guide/',
+    '/notebooklm-mindmap/': '/notebooklm-features-guide/',
+    '/notebooklm-syllabus-study-method/': '/notebooklm-ai-workflow-guide/',
+    '/notebooklm-100-day-hack/': '/notebooklm-ai-workflow-guide/',
+    '/notebooklm-100days-challenge-hack/': '/notebooklm-ai-workflow-guide/',
+    // Gemini統合 (2026-06-03)
+    '/gemini-prompt-collection/': '/gemini-cert-complete/',
+    '/gemini-explanation-template/': '/gemini-cert-complete/',
+    '/gemini-memory-palace-hack/': '/gemini-cert-complete/',
     // グループC: 氏名変更統合 (2026-05-30)
     '/itp-receipt-name-change-hack/': '/itp-name-change-marriage-hack/',
     // グループA: スマホ学習統合 (2026-05-30)
@@ -92,10 +106,33 @@ export default defineConfig({
       serialize(item) {
         // Extract slug from URL (last path segment, strip trailing slash)
         const slug = item.url.replace(/\/$/, '').split('/').pop() ?? '';
+
+        // lastmod from frontmatter
         const lastmod = lastmodMap.get(slug);
         if (lastmod) {
           item.lastmod = lastmod.toISOString();
         }
+
+        // priority by slug pattern
+        if (slug.endsWith('-hub')) {
+          // Hub pages: highest priority, weekly update
+          item.priority = 1.0;
+          item.changefreq = 'weekly';
+        } else if (
+          slug.endsWith('-complete') ||
+          slug.endsWith('-guide') ||
+          slug.endsWith('-roadmap') ||
+          slug.endsWith('-workflow-guide')
+        ) {
+          // Consolidated complete guides: high priority
+          item.priority = 0.8;
+          item.changefreq = 'monthly';
+        } else {
+          // Regular posts
+          item.priority = 0.5;
+          item.changefreq = 'monthly';
+        }
+
         return item;
       },
     }),

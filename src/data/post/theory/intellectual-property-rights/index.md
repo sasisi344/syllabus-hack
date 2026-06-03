@@ -4,7 +4,7 @@ publishDate: 2026-04-01T00:00:00Z
 title: "知的財産権（特許・著作権・意匠・商標）とは？IT試験で頻出の権利保護ルートを攻略"
 excerpt: "自分で作ったものは自分で守る！知的財産権の4大要素「産業財産権」と、ITに欠かせない「著作権」の違いを分かりやすく解説します。"
 image: ~/data/post/theory/common-cover.png
-category: "glossary"
+category: "theory"
 tags: ["知的財産権", "特許法", "著作権法", "用語集", "試験対策"]
 knowledge:
   type: term

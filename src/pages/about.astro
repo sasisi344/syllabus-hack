@@ -37,26 +37,26 @@ const metadata = {
 
   <Features3
     title="サイトのコンセプト"
-    subtitle="試験のシラバス（出題範囲）は膨大です。生成AIを活用して情報を構造化し、最短ルートでの合格を目指すための3つの柱を展開しています。"
+    subtitle="資格学習の本質は「知識を使える状態にすること」です。生成AIを対話相手として使い、概念の論理構造から理解することで、暗記に頼らない本質的な学力が身につきます。"
     columns={3}
     isBeforeContent={true}
     items={[
       {
-        title: 'AI学習メソッド',
+        title: 'AI対話学習メソッド',
         description:
-          'GeminiやChatGPT、NotebookLMを活用し、自分だけの「AI家庭教師」を作るプロンプトや学習手法を公開しています。',
-        icon: 'tabler:brain',
+          '「なぜその概念が必要か」という問いから始めるAI対話学習を体系化。ChatGPT・Claude・Gemini・NotebookLMを活用した実践的プロンプトと学習設計を公開しています。',
+        icon: 'tabler:messages',
       },
       {
         title: '実践的Webアプリ',
         description:
-          '知識のインプットだけでなく、アウトプットを鍛えるためのクイズアプリやCBTシミュレーターを開発・提供しています。',
+          '理解の確認に使えるCBT形式クイズアプリと演習ツールを開発・提供。学習→理解→確認のループを一つのサイトで完結できます。',
         icon: 'tabler:app-window',
       },
       {
-        title: '本質的なキャリア戦略',
+        title: '試験別キャリア戦略',
         description:
-          '資格は「取るだけ」では意味がありません。取得した知識をどうビジネスに活かすか、エンジニアやマーケターとしてのキャリアパスを探求します。',
+          '資格は「取るだけ」では意味がありません。各試験の市場価値・取得順番・合格後のキャリア活用まで、データと現実の両面から解説します。',
         icon: 'tabler:route',
       },
     ]}
@@ -65,33 +65,77 @@ const metadata = {
   <!-- Steps2 Widget (Learning x AI) ****************** -->
 
   <Steps2
-    title="学習 × AI の可能性"
-    subtitle="テクノロジーの進化により、学歴や元の知識量に関係なく、誰もが質の高い教育にアクセスできる時代になりました。"
+    title="AI対話学習という考え方"
+    subtitle="LLMは膨大な知識体系を学習しています。問題を出させるより、「なぜ」を問いかける対話相手として使う方が、理解が深く・応用が利き・他の試験にも転用できる知識が身につきます。"
     callToAction={{
       text: '学習メソッドを見る',
       href: getPermalink('method', 'category'),
     }}
     items={[
       {
-        title: '超・個別最適化',
+        title: '「なぜ」から始める対話',
         description:
-          'AIを使えば、自分の理解度や弱点に合わせて説明のレベルや表現を無限に調整できます。「わからない」で立ち止まる時間が圧倒的に減ります。',
+          '「この概念はなぜ必要か」という問いから対話を始めることで、表面的な暗記ではなく論理の構造が理解できます。構造を理解した知識は、試験が変わっても使い回せます。',
+        icon: 'tabler:messages',
+      },
+      {
+        title: '自分の言葉で説明して確認する',
+        description:
+          '理解したことを自分の言葉でAIに話し、論理の穴を指摘してもらうループが最も速く知識を定着させます。「言えるかどうか」が本当の理解の証明です。',
         icon: 'tabler:user-star',
       },
       {
-        title: 'シラバスの構造化と要約',
+        title: 'シラバスを論理マップに変換する',
         description:
-          'IPAなどの公式ドキュメントは堅牢ですが難解です。AIにこれを読み込ませ、重要なキーワードや関連概念をマップ化させることで、全体像を瞬時に把握できます。',
+          'IPAやFP協会の公式シラバスをAIに読み込ませ、出題頻度・分野の繋がり・優先順位を「自分専用のロードマップ」として可視化します。',
         icon: 'tabler:file-description',
-      },
-      {
-        title: '無限の問題生成',
-        description:
-          '過去問の丸暗記から脱却。AIにシラバスのキーワードに基づく新規問題を生成させることで、初見の問題に対する「適応力」と「真の理解度」を試すことができます。',
-        icon: 'tabler:infinity',
       },
     ]}
   />
+
+  <!-- Site Stats Section ************** -->
+  <section class="relative not-prose scroll-mt-[72px] py-10 md:py-14">
+    <div class="relative max-w-4xl mx-auto px-4 sm:px-6 text-center">
+      <h2 class="font-bold text-2xl md:text-3xl font-heading text-heading mb-2">コンテンツ規模</h2>
+      <p class="text-muted mb-8">2026年5月時点。すべての記事はAIシラバスハック手法に基づき制作しています。</p>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+        {[
+          { num: '340+', label: '公開記事数' },
+          { num: '22+', label: 'クイズ・学習アプリ' },
+          { num: '10+', label: '対応試験・資格' },
+          { num: '5', label: '試験別ハブガイド' },
+        ].map(({ num, label }) => (
+          <div class="bg-white dark:bg-slate-900 border border-gray-200 dark:border-gray-700 rounded-xl p-5 shadow-sm">
+            <p class="text-3xl font-bold text-accent dark:text-blue-400">{num}</p>
+            <p class="text-sm text-muted mt-1">{label}</p>
+          </div>
+        ))}
+      </div>
+      <p class="text-xs text-muted mt-6">
+        対応試験：ITパスポート / 基本情報技術者 / 応用情報技術者 / 情報セキュリティマネジメント / 高度試験群 / FP2級 / MOS / CCNA / AWS SAA / DS検定 / E資格
+      </p>
+    </div>
+  </section>
+
+  <!-- Expertise Section ************** -->
+  <section class="relative not-prose scroll-mt-[72px] bg-slate-50 dark:bg-slate-800/20 py-10 md:py-14">
+    <div class="relative max-w-4xl mx-auto px-4 sm:px-6">
+      <div class="max-w-3xl mx-auto">
+        <h2 class="font-bold text-2xl md:text-3xl font-heading text-heading mb-4 text-center">このサイトの専門性について</h2>
+        <div class="space-y-4 text-muted text-base leading-relaxed">
+          <p>
+            Syllabus Hackの専門性は、資格の合格実績ではなく<strong class="text-heading dark:text-white font-semibold">「生成AIを活用した学習設計の実践と体系化」</strong>にあります。
+          </p>
+          <p>
+            LLMは人類が書き記してきた知識体系を学習しており、概念の論理構造・設計意図・他概念との繋がりを説明することに長けています。この特性を活かして「問題を解かせる」ではなく「なぜを対話する」学習フローを設計し、ITパスポートから高度試験・AWS・FP2級まで横断的に検証してきました。
+          </p>
+          <p>
+            各記事で紹介するプロンプトや学習手順は、実際にシラバスと向き合いながら設計したものです。「まずやってみる」を繰り返すことで能力は更新されます。このサイトはその実践の場であり、記録でもあります。
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <!-- Admin Profile Section ************** -->
   <section class="relative not-prose scroll-mt-[72px] bg-slate-50 dark:bg-slate-800/20 py-12 md:py-16 lg:py-20">
@@ -117,8 +161,9 @@ const metadata = {
           <div class="flex flex-col flex-grow text-center md:text-left">
             <h3 class="text-2xl font-bold mb-2 dark:text-white">さしし / @sasisi344</h3>
             <p class="text-muted text-lg mb-4">
-              「なんでもやればできる」をモットーにするアラフィフ。ITインフラからWeb開発まで幅広く経験。<br />
-              現在はGenAI（生成AI）をフル活用した学習メディア「Syllabus Hack」を運営。リスキリングという言葉に代わり、同年代やさらに上の世代を想定した「AIコソ錬」コンテンツを追求しています。
+              ITインフラからWeb開発まで幅広く経験してきたアラフィフ。<br />
+              生成AIが登場して以来、「AIを道具として正しく使う能力」こそが現代のリテラシーだと確信し、Syllabus Hackを立ち上げました。自分自身が各試験のシラバスとAIを使い倒して学習設計を検証しながら、「AI対話学習メソッド」を構築・発信しています。<br />
+              同年代・それ以上の世代が「AIを使って自分を更新し続ける」ための実践知を届けることをミッションとしています。
             </p>
             <div class="flex justify-center md:justify-start gap-4 mt-2">
               <a

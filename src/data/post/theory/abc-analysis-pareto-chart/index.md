@@ -4,7 +4,7 @@ publishDate: 2026-04-01T00:00:00Z
 title: "ABC分析（パレート図）とは？優先順位を決めるデータの整理術"
 excerpt: "限られた資源をどこに集中させるか？2割の要素が全体の8割を占める「パレートの法則」を活用したABC分析の重要ポイントを解説。"
 image: ~/data/post/theory/common-cover.png
-category: "glossary"
+category: "theory"
 tags: ["ABC分析", "パレート図", "在庫管理", "ITパスポート", "分析手法"]
 knowledge:
   type: term

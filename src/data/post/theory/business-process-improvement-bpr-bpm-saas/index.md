@@ -3,7 +3,7 @@ publishDate: 2026-04-01T00:00:00Z
 title: "業務改善のロードマップ：BPR × BPM × SaaSが生み出す最強の相乗効果"
 excerpt: "「毎日忙しいのに成果が出ない…」その悩み、ITパスポートの『ストラテジ系知識』で解決できます。業務を根本から作り替えるための改善ステップとは。"
 image: ~/data/post/theory/common-cover.png
-category: "strategy"
+category: "theory"
 tags: ["業務改善", "BPR", "BPM", "SaaS", "ITパスポート", "生産性"]
 knowledge:
   type: strategy

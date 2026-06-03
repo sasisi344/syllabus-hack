@@ -1,5 +1,6 @@
----
+﻿---
 publishDate: 2026-01-01T00:00:00Z
+lastmod: 2026-06-03
 title: 'Geminiで構築する「AI記憶の宮殿」。シラバスの暗記地獄を突破する画像生成ハック'
 persona: '大量の専門用語（セキュリティ攻撃名やプロトコル）が覚えられず、暗記に限界を感じているIT初学者'
 category: method
@@ -15,6 +16,7 @@ knowledge:
   type: method
   syllabusRef: stratety
   difficulty: beginner
+draft: true
 ---
 ## 暗記は「根性」から「創造」へ
 

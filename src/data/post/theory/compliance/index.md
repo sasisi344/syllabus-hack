@@ -4,7 +4,7 @@ publishDate: 2026-04-01T00:00:00Z
 title: "コンプライアンス（法令遵守）とは？単なる法律守りではない「企業倫理」の最前線"
 excerpt: "企業活動で守るべきルール「コンプライアンス」。法律だけでなく、社会規範や企業倫理を含めた『誠実な経営』をIT試験の視点を中心に整理します。"
 image: ~/data/post/theory/common-cover.png
-category: "glossary"
+category: "theory"
 tags: ["コンプライアンス", "法令遵守", "企業倫理", "用語集", "試験対策"]
 knowledge:
   type: term

@@ -4,7 +4,7 @@ publishDate: 2026-04-01T00:00:00Z
 title: "下請法とは？IT開発の受発注トラブルを防ぐ「公正な取引」のルール"
 excerpt: "不当な代金の減額や返品を禁止する「下請法」。システム受託開発やSESの現場で絶対に知っておくべき知識を試験対策向けに整理。"
 image: ~/data/post/theory/common-cover.png
-category: "glossary"
+category: "theory"
 tags: ["下請法", "受託開発", "コンプライアンス", "ITパスポート", "法務"]
 knowledge:
   type: term

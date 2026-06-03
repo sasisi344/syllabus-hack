@@ -4,7 +4,7 @@ publishDate: 2026-04-01T00:00:00Z
 title: "BPR（業務プロセス再設計）とは？「改善」ではなく「根本的な作り直し」"
 excerpt: "既存の仕事のやり方を少しずつ直す「カイゼン」とは違う？ゼロベースで業務フローを組み直す、ダイナミックな変革手法を解説。"
 image: ~/data/post/theory/common-cover.png
-category: "glossary"
+category: "theory"
 tags: ["BPR", "ビジネスプロセス再設計", "IT戦略", "ITパスポート", "企業戦略"]
 knowledge:
   type: term

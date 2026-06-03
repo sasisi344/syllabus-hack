@@ -4,7 +4,7 @@ publishDate: 2026-04-01T00:00:00Z
 title: "ジャストインタイム（かんばん方式）とは？在庫を「ゼロ」に近づける魔法"
 excerpt: "必要なものを、必要な時に、必要なだけ。トヨタ自動車で生まれた「ジャストインタイム（JIT）」。IT開発にも通ずる生産管理の極意を解説。"
 image: ~/data/post/theory/common-cover.png
-category: "glossary"
+category: "theory"
 tags: ["ジャストインタイム", "かんばん方式", "JIT", "ITパスポート", "生産管理"]
 knowledge:
   type: term

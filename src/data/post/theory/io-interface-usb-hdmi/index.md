@@ -4,7 +4,7 @@ publishDate: 2026-04-01T00:00:00Z
 title: "入出力インタフェース(USB/HDMI)とは？周辺機器をつなぐ「窓口」基礎"
 excerpt: "もっとも身近なUSB、映像と音声を同時に送るHDMI。パソコンと周辺機器をつなぐ、各接続端子の特徴を徹底解説。"
 image: ~/data/post/theory/common-cover.png
-category: "glossary"
+category: "theory"
 tags: ["USB", "HDMI", "Bluetooth", "インタフェース", "ITパスポート", "ハードウェア"]
 knowledge:
   type: term

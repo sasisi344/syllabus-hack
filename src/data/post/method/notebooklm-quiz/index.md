@@ -1,8 +1,8 @@
----
+﻿---
 title: '【NotebookLM】AIを「スパルタ専属コーチ」にするクイズ機能のハック術'
 image: ~/data/post/method/common-cover.png
 description: 'NotebookLM標準のクイズ機能だけでは物足りないあなたへ。チャット機能を活用して「弱点だけを執拗に攻める」「AIに授業をする」など、合格力を極限まで高めるパーソナライズ学習戦略を公開します。'
-lastmod: 2026-05-30
+lastmod: 2026-06-03
 publishDate: 2026-02-07T09:30:00+09:00
 category: method
 tags: ['NotebookLM', '勉強法', 'ファインマンテクニック', 'SyllabusHack', '弱点克服']
@@ -11,7 +11,7 @@ knowledge:
   type: method
   difficulty: beginner
 toc: true
-draft: false
+draft: true
 ---
 NotebookLMには、資料から自動的にクイズを作ってくれる「学習ガイド」機能があります。
 ボタン一つで問題が出るので便利ですが、<strong>「全体からランダム」に出題されるため、実は効率があまり良くありません。</strong> IT資格試験の範囲は広大であり、ランダムな出題だけでは特定の苦手分野を克服したり、試験頻出の重要ポイントを効率的に深掘りしたりすることが難しいからです。

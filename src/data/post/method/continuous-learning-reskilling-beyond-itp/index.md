@@ -3,7 +3,7 @@ publishDate: 2026-04-01T00:00:00Z
 title: "ITパスポートを超えて：継続的学習とリスキリングの道筋「合格」をキャリアの始まりにする思考法"
 excerpt: "合格、おめでとうございます！ しかし、ここからが本当のスタートです。ITパスポートで得た知識を『実務の武器』に変え、一生モノのキャリアを築くためのリスキリング戦略。"
 image: ~/data/post/theory/common-cover.png
-category: "strategy"
+category: "method"
 tags: ["キャリアアップ", "リスキリング", "継続的学習", "基本情報技術者", "ITパスポート", "自己研鑽"]
 knowledge:
   type: strategy

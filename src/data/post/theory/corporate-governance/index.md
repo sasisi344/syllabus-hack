@@ -4,7 +4,7 @@ publishDate: 2026-04-01T00:00:00Z
 title: "コーポレートガバナンスとは？ITガバナンスとの違いと試験で問われる「企業統治」の基本"
 excerpt: "企業が健全に運営されるための仕組み「コーポレートガバナンス」。IT試験でも頻出の、ステークホルダー、説明責任（アカウンタビリティ）を整理します。"
 image: ~/data/post/theory/common-cover.png
-category: "glossary"
+category: "theory"
 tags: ["ガバナンス", "企業統治", "コンプライアンス", "用語集", "試験対策"]
 knowledge:
   type: term

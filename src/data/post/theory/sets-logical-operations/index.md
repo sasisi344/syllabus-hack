@@ -4,7 +4,7 @@ publishDate: 2026-04-01T00:00:00Z
 title: "集合と論理演算とは？コンピュータの「思考の回路」"
 excerpt: "AかつB？AまたはB？コンピュータが条件を判断するための、ベン図と論理積・論理和の基礎を、検索エンジンの仕組みに例えて解説。"
 image: ~/data/post/theory/common-cover.png
-category: "glossary"
+category: "theory"
 tags: ["集合", "論理演算", "ベン図", "ITパスポート", "論理学"]
 knowledge:
   type: term

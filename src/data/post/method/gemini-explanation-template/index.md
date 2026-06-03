@@ -1,7 +1,7 @@
----
+﻿---
 title: '解説を読んでも分からないをゼロにする、Geminiへの聞き方テンプレート'
 description: '過去問の解説を読んでも意味が分からない。そんな時、Geminiにどう聞けば「腹落ち」する解説を引き出せるのか？「5歳児に説明して」「例え話で教えて」など、脳の理解モードに合わせた4つのテンプレートを紹介。'
-lastmod: 2026-05-30
+lastmod: 2026-06-03
 publishDate: 2026-02-02T00:00:00Z
 category: method
 tags: ['Gemini', '勉強法', 'プロンプト', '質問力', '初心者']
@@ -9,7 +9,7 @@ knowledge:
   examId: common
   type: method
   difficulty: beginner
-draft: false
+draft: true
 toc: true
 ---
 過去問を解いていて、解説を読んだ瞬間にこう思ったことはありませんか？

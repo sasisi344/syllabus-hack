@@ -3,7 +3,7 @@ publishDate: 2026-04-01T00:00:00Z
 title: "システム開発の心得：SES・請負・準委任の契約リスク「開発トラブル」を未然に防ぐ契約術"
 excerpt: "「えっ、バグを直すのに追加料金が必要なの？」 ITパスポートで学ぶ『契約形態』の違いを正しく理解していないと、プロジェクトの失敗や法的トラブルに直結します。"
 image: ~/data/post/theory/common-cover.png
-category: "strategy"
+category: "theory"
 tags: ["システム開発", "SES", "請負契約", "準委任契約", "ITパスポート", "リスク管理"]
 knowledge:
   type: strategy

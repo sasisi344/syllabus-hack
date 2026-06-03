@@ -4,7 +4,7 @@ publishDate: 2026-04-01T00:00:00Z
 title: "テキストマイニングとは？言葉の山から「本音」を読み解く"
 excerpt: "アンケートやSNSの膨大な「テキスト」から、頻出単語や感情を抽出。自然言語処理（NLP）を活用して、顧客の声を分析する基本を解説。"
 image: ~/data/post/theory/common-cover.png
-category: "glossary"
+category: "theory"
 tags: ["テキストマイニング", "自然言語処理", "NLP", "ITパスポート", "分析・統計"]
 knowledge:
   type: term

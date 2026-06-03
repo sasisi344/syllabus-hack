@@ -1,8 +1,8 @@
----
+﻿---
 title: '【NotebookLM】マインドマップ機能で自分の「脳内バグ」を可視化する弱点分析術'
 image: ~/data/post/method/common-cover.png
 description: 'NotebookLMのマインドマップ機能を教科書の整理に使っていませんか？実は「自分の間違えた問題ログ」を分析させることで、無意識の弱点をあぶり出す最強のメタ認知ツールになります。'
-lastmod: 2026-05-30
+lastmod: 2026-06-03
 publishDate: 2026-02-07T09:15:00+09:00
 category: method
 tags: ['NotebookLM', '自己分析', 'メタ認知', 'Mermaid', '勉強法']
@@ -11,7 +11,7 @@ knowledge:
   type: method
   difficulty: beginner
 toc: true
-draft: false
+draft: true
 ---
 NotebookLMに最近追加された「マインドマップ（Studio機能）」、皆さんはどう使っていますか？
 NotebookLMはGoogleが提供するAI学習アシスタントで、特に大量のドキュメントから情報を抽出し、関連性を整理するのに優れています。最近追加されたマインドマップ機能は、ソースから情報を自動で構造化し、視覚的に提示することで、複雑な概念の理解を助けるツールとして注目されています。

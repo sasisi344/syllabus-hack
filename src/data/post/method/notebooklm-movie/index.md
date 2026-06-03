@@ -1,8 +1,9 @@
----
+﻿---
 title: '【NotebookLM】動画解説機能（音声オーバービュー）で最強の聞き流し教材を作る方法'
 image: ~/data/post/method/common-cover.png
 description: 'NotebookLMの音声解説機能は「図解」には不向きですが、「概念の言語化」には最強です。YouTube動画をソースにして学習効率を爆上げする方法や、ブログ記事作成への応用テクニックを紹介します。'
 publishDate: 2026-02-07T08:45:00+09:00
+lastmod: 2026-06-03
 category: method
 tags: ['NotebookLM', '勉強法', 'YouTube', 'SyllabusHack', '時短学習']
 knowledge:
@@ -10,7 +11,7 @@ knowledge:
   type: method
   difficulty: beginner
 toc: true
-draft: false
+draft: true
 ---
 
 NotebookLMには「ビデオの内容を理解する」機能に加え、<strong>「音声オーバービュー（Audio Overview）」</strong> という強力な機能があります。

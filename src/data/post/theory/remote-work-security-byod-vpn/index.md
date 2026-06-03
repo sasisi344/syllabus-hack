@@ -3,7 +3,7 @@ publishDate: 2026-04-01T00:00:00Z
 title: "リモートワークの守護神：BYOD・VPN・シャドーIT対策をシラバスで読み解く"
 excerpt: "カフェや自宅での作業、そのPC設定は本当に安全ですか？ITパスポートで学ぶ「情報セキュリティ」の知識を、実機で活かすための3つの防衛策。"
 image: ~/data/post/theory/common-cover.png
-category: "strategy"
+category: "theory"
 tags: ["リモートワーク", "セキュリティ", "VPN", "BYOD", "シャドーIT", "ITパスポート"]
 knowledge:
   type: strategy

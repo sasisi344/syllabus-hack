@@ -4,7 +4,7 @@ publishDate: 2026-04-01T00:00:00Z
 title: "CPUとメモリの役割とは？「頭脳」と「作業机」のITハードウェア基礎"
 excerpt: "計算が得意なCPU、記憶を一時的に置くメモリ。コンピュータの主要パーツの役割を、事務作業に例えて最強解説。"
 image: ~/data/post/theory/common-cover.png
-category: "glossary"
+category: "theory"
 tags: ["CPU", "メモリ", "RAM", "レジスタ", "ITパスポート", "ハードウェア"]
 knowledge:
   type: term

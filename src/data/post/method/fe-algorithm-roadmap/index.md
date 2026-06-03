@@ -2,7 +2,7 @@
 title: '【基礎知識あり・なし別】基本情報技術者（FE）AIハックロードマップ：科目Bアルゴリズム攻略'
 image: ~/data/post/method/common-cover.png
 publishDate: 2026-03-10T00:00:00Z
-lastmod: 2026-04-24
+lastmod: 2026-05-31
 category: method
 tags: ['基本情報技術者', '科目B', 'ChatGPT', 'Claude', 'ロードマップ']
 metadata:
@@ -104,6 +104,6 @@ Python経験者が最も苦しむのは、FEの擬似言語が<strong>「配列�
 
 - <strong>実力試し</strong>: 👉 [基本情報技術者 総合対策アプリ](/app/fe-quiz)で学習の進捗をチェックする
 - <strong>次のステップ</strong>: 👉 [ITパスポートから応用情報への最短登頂スケジュール](/career/it-passport-to-ap-roadmap)を確認する
+---
 
-
-
+> この記事は [基本情報技術者試験 完全攻略ガイド](/method/fe-hub/) の一部です。
