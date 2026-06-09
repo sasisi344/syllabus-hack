@@ -72,10 +72,34 @@ const postCollection = defineCollection({
       knowledge: z
         .object({
           examId: z
-            .enum(['ip', 'sg', 'fe', 'ap', 'st', 'sa', 'pm', 'nw', 'db', 'es', 'sm', 'au', 'sc', 'common'])
+            .enum([
+              'ip',
+              'sg',
+              'fe',
+              'ap',
+              'st',
+              'sa',
+              'pm',
+              'nw',
+              'db',
+              'es',
+              'sm',
+              'au',
+              'sc',
+              'common',
+              'it-passport',
+              'g-kentei',
+              'ds-kentei',
+              'ccna',
+              'denken',
+              'boki',
+              'takken',
+              'mos',
+              'kiken-butsu',
+            ])
             .optional(),
           exams: z.array(z.string()).optional(),
-          type: z.enum(['term', 'problem', 'method', 'strategy', 'news', 'app']).optional(),
+          type: z.enum(['term', 'problem', 'method', 'strategy', 'news', 'app', 'career', 'theory', 'trend']).optional(),
           syllabusRef: z.string().optional(),
           difficulty: z.enum(['beginner', 'intermediate', 'advanced']).optional(),
         })

@@ -55,4 +55,4 @@ metadata:
 - [ITパスポート「生存戦略」— 9割の社会人が知らない、IT���使いこなす技術（総論）](/career/ip-survival-strategy)
 ---
 
-> この記事は [ITパスポート完全攻略ガイド](/method/itp-hub/) の一部です。
+> この記事は [ITパスポート完全攻略ガイド](/itp-hub/) の一部です。
