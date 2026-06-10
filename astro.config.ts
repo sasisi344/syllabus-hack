@@ -62,6 +62,8 @@ export default defineConfig({
   site: 'https://syllabushack.com',
 
   redirects: {
+    // CBT系統合 (2026-06-10): cbt-impact-advanced-exams の固有情報をマージ
+    '/cbt-impact-advanced-exams/': '/cbt-2026-syllabus-complete-guide/',
     // グループD: 直前対策統合 (2026-05-30)
     '/final-checkpoint-100-plus/': '/itp-10-days-panic-hack/',
     // グループB: NotebookLM統合 (2026-05-30) — 旧redirect先も新ガイドへ転送

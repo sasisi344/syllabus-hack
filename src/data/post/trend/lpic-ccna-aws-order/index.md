@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-05-31T00:00:00Z
-lastmod: 2026-05-31
+lastmod: 2026-06-10
 title: 'LPIC・CCNA・AWSを取る順番——インフラエンジニアが最短で市場価値を上げるロードマップ'
 excerpt: 'LPIC・CCNA・AWS SAAを取得する最も効率的な順番を、インフラエンジニアのキャリア設計から逆算して解説します。どれから始めるかで学習コストが変わります。'
 image: '~/data/post/trend/lpic-ccna-aws-order/cover.jpg'
@@ -109,3 +109,7 @@ LPIC・CCNA・AWSの取得順番は、各資格の知識が次の学習にどう
 <strong>LPIC（OS基礎）→ CCNA（ネットワーク論理）→ AWS SAA（クラウド応用）</strong>の順が、学習コストを最も低く抑える最適ルートです。
 
 まず今日、自分の現在地を確認してください。Linux操作の経験があるなら CCNA から、ゼロからなら LPIC から始めることで、最短でインフラエンジニアとしてのスキルスタックが完成します。
+
+---
+
+> この記事は [CCNA完全攻略ガイド](/ccna-hub/) の一部です。

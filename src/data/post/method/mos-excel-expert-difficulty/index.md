@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-05-31T00:00:00Z
-lastmod: 2026-05-31
+lastmod: 2026-06-10
 title: 'MOS Excel エキスパートは独学で難しすぎる——つまずく理由とAI対話で突破する手順'
 excerpt: '「MOS Excel エキスパートが難しすぎる」と感じるのは、機能の使い方を覚えようとしているからです。なぜその機能が設計されたかをAIとの対話で理解することで、エキスパートレベルは独学射程内に入ります。'
 image: '~/data/post/method/mos-excel-expert-difficulty/cover.jpg'
@@ -131,3 +131,7 @@ MOS Excel エキスパートが「難しすぎる」のは、機能の操作手�
 <strong>Power Query・XLOOKUP・ピボットテーブルを「なぜ設計されたか」という設計意図から理解すること</strong>で、エキスパートの難易度は独学射程内に収まります。
 
 まず今日、Power Queryの「なぜ」をAIに問いかけて、設計意図を言葉で理解するところから始めてください。操作は意図が分かった後に練習すれば、圧倒的に速く定着します。
+
+---
+
+> この記事は [MOS（Microsoft Office Specialist）完全攻略ガイド](/mos-hub/) の一部です。

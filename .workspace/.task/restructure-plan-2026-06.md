@@ -78,7 +78,8 @@ MOS・DS検定・E資格・G検定はハブなし。簿記・宅建・TOEICは�
 | AWS SAA | ○ | × | ○ | △ | × |
 | CCNA | ◎🆕 | ○🆕 | ○ | ○🆕 | × |
 | FP2級 | ◎ | × | ○ | × | × |
-| MOS | ○🆕 | × | ○ | × | × |
+| MOS | ○🆕 | × | ○ | ◎🆕 | × |
+| **秘書検定** | × | × | ○🆕 | ◎🆕 | × |
 | DS検定 | ◎🆕 | ○🆕 | × | ○🆕 | × |
 | G検定/E資格 | ◎🆕 | ○🆕 | × | ○🆕 | × |
 | **日商簿記** | ○🆕 | × | × | × | × |
@@ -86,6 +87,7 @@ MOS・DS検定・E資格・G検定はハブなし。簿記・宅建・TOEICは�
 | **TOEIC** | × | × | × | × | × |
 
 > 2026-06-09 追加: FE theory×2（data-structures-basics, algorithm-search-sort）/ AP theory×1（database-normalization）/ MOS hub / 日商簿記 hub
+> 2026-06-10 追加: MOS career×3（mos-freelance-haken-reality, mos-instructor-school-path, mos-back-office-expert-independence）/ 秘書検定 trend×1（secretarial-why-bosses-recommend）・method×1（secretarial-cost-time-knowledge）・career×1（secretarial-career-up-effect、既存secretarial-exam-multiwork-freelanceと合わせてcareer 2本）
 
 ---
 
@@ -189,7 +191,7 @@ trend に入っている以下はtheory的性格が強い。再分類または n
 
 ## 課題E — SEO構造の整備
 
-### 内部リンクのハブ化（現状の問題）→ 🟡 主要3ハブ対応済み (2026-06-10)
+### 内部リンクのハブ化（現状の問題）→ ✅ 対応済み (2026-06-10)
 
 <!-- 対応結果: itp-hub / fe-hub / ap-hub の3クラスターについて、ハブへの逆リンクが
      欠けていたスポーク記事35件（it-passport-to-ap-roadmapはitp-hub/ap-hub両方）に
@@ -215,10 +217,19 @@ trend に入っている以下はtheory的性格が強い。再分類または n
        cbt-impact-advanced-exams, ap-2026-spring-postponed, ses-ap-independence-strategy,
        ipa-certification-salary-impact, it-passport-to-ap-roadmap, ap-quiz, ap-subject-b)
 
-     残課題: sg-hub / aws-hub / ccna-hub / fp-hub / denken-hub / mos-hub / boki-hub /
-     takken-hub / g-kentei-hub / ds-kentei-hub / kiken-butsu-hub /
-     fe-subject-b-ai-prompt-hub / advanced-ipa-hub / level4-strategy-hub の14ハブは
-     未着手（後続タスク）。 -->
+     残り14ハブも追加対応 (2026-06-10): sg-hub(10) / aws-hub(1) / ccna-hub(5) /
+     fp-hub(5) / mos-hub(3) / advanced-ipa-hub(11) の計35件に同パターンでバックリンク追加。
+     - denken-hub / boki-hub / takken-hub / g-kentei-hub / ds-kentei-hub /
+       kiken-butsu-hub / level4-strategy-hub はスポーク記事が未作成 or 既存記事が
+       既にバックリンク済みのため対応不要（spokes=0 or missing=0）
+     - fe-subject-b-ai-prompt-hub の3スポーク（fe-subject-b-drill,
+       gemini-prompt-collection, fe-pseudo-code-visual-hack）は既に fe-hub への
+       バックリンクを持っており、fe-hubのサブハブという位置づけのため追加バックリンク不要と判断
+     - ccna関連5記事はaws-hub/ccna-hub双方のスポークだが、より具体的なccna-hubのみに
+       バックリンクを設定（aws-saa-beginner-realityのみaws-hub）
+     - next-step-aws-vs-fp-strategy / it-passport-to-ap-roadmap は複数ハブの橋渡し
+       記事のため、それぞれ2件のバックリンクを設定
+     pnpm build で1265ページのビルド成功を確認済み。 -->
 
 個別記事からhub記事へのリンクが弱い。逆も同様。
 理想の内部リンク構造:
@@ -232,7 +243,7 @@ trend に入っている以下はtheory的性格が強い。再分類または n
 ```
 
 現状は「hub → 個別」は一方向リンクになりがち。個別記事にも「← hub記事に戻る」導線が必要。
-→ itp-hub / fe-hub / ap-hub の主要3クラスターは対応済み。残り14ハブは後続タスク。
+→ 全17ハブクラスターで対応完了 (2026-06-10)。
 
 ### タイトルパターンの統一
 

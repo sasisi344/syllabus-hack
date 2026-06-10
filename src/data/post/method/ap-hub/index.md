@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-05-31T00:00:00Z
-lastmod: 2026-06-03
+lastmod: 2026-06-10
 title: '応用情報技術者試験 完全攻略ガイド｜午前・午後記述対策と高度試験へのステップアップ'
 excerpt: '午前II（選択式）と午後（記述式）の2本構成に対応した応用情報技術者試験の完全ガイド。AI添削を使った記述対策・捨て問戦略・高度試験への接続まで、関連記事30本のインデックスと合わせて整理します。'
 image: '~/data/post/method/ap-hub/cover.jpg'
@@ -133,7 +133,7 @@ IPAの模範解答を分析すると、<strong>「〜であるため、〜する
 
 - [【最新】令和8年度の応用・高度試験CBT移行と科目名変更の全貌](/ipa-2026-cbt-confirmed-schedule)
 - [2026年CBT化：応用情報・高度試験がペーパー廃止へ](/applied-advanced-exam-cbt-transition-2026)
-- [CBT化は高度試験にどう影響するか](/cbt-impact-advanced-exams)
+- [情報処理技術者試験CBT完全移行ガイド｜変更点・新シラバス対応・タイピング対策](/cbt-2026-syllabus-complete-guide)
 - [【2026年春延期】応用情報の延期と対策案](/ap-2026-spring-postponed)
 
 ## キャリア設計

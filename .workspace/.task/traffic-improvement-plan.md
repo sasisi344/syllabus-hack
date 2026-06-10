@@ -100,17 +100,24 @@
 
 ---
 
-#### B-2. 重複・カニバリゼーション記事の統合
-
-**問題**: 同テーマで複数の記事が存在し、同一KWで自サイト内競合が発生している。  
-**確認すべき重複グループ例**:
-- NotebookLM系: `notebooklm-100-day-hack` / `notebooklm-100days-challenge-hack` — タイトルがほぼ同じ
-- CBT攻略系: `cbt-2026-syllabus-complete-guide` / `cbt-exam-tactics` / `cbt-impact-advanced-exams`
-- AWS系: `aws-personalized-roadmap-hack` / `ccna-ai-hack` — ターゲットが近い
-
-**対策**:
-- 重複グループを特定し、弱い方を削除または強い方に301リダイレクト
-- または内容を明確に差別化して棲み分けを明示する
+<!-- ✅ DONE (2026-06-10対応):
+     - NotebookLM×IP系/全般系（notebooklm-ip-study-hack, notebooklm-it-passport-drill,
+       notebooklm-syllabus-study-method）: 2026-05-30時点で既に draft:true ＋
+       astro.config.ts に notebooklm-features-guide / notebooklm-ai-workflow-guide への
+       301リダイレクト設定済みを確認。追加対応不要。
+     - CBT系: cbt-impact-advanced-exams(trend) と cbt-2026-syllabus-complete-guide(method) が
+       「高度試験のCBT変更点」で重複していたため、固有セクション（科目名変更表 午前Ⅰ→科目A-1等、
+       分割受験、手書き廃止のメリット・注意点）をcbt-2026-syllabus-complete-guideへマージ。
+       cbt-impact-advanced-examsは削除し astro.config.ts に301リダイレクト追加。
+       ap-hubの逆リンクもcbt-2026-syllabus-complete-guideへ差し替え。
+       complete-guide内のリンク切れ（/notebooklm-syllabus-study-method）も
+       /notebooklm-ai-workflow-guideへ修正。
+     - AWS/CCNA系（aws-personalized-roadmap-hack / ccna-ai-hack）: 試験名が異なり
+       検索クエリが被らないため真のカニバリではないと判断、対象外。
+     - 副次対応: 本日公開の8記事（FP/MOS/秘書検定系）でcover.jpg欠落によりビルド失敗していたため
+       image_rules.mdに従いgenerate-image.jsで生成、pnpm build成功確認済み（1287ページ）。
+-->
+#### ~~B-2. 重複・カニバリゼーション記事の統合~~ → ✅ 対応済み (2026-06-10)
 
 ---
 
@@ -173,7 +180,7 @@
 Week 1: A-1 ピラーページ3本作成 + 内部リンク体系化
 Week 2: A-2 glossary/strategy カテゴリ整理 + A-3 publishDate修正スクリプト実行
 Week 3: B-1 主要ニッチKW記事を深化（上位3記事）
-Week 4: B-2 カニバリゼーション整理 + B-3 About/著者情報強化
+Week 4: ~~B-2 カニバリゼーション整理~~ ✅ 対応済み (2026-06-10) + B-3 About/著者情報強化
 Month 2+: C-1 外部シグナル取得の継続 + C-2 タグ段階的解禁
 ```
 

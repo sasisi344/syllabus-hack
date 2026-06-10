@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-03-19T00:00:00Z
-lastmod: 2026-04-24
+lastmod: 2026-06-10
 title: '【NW】ネットワーク図の覚え方・書き方｜MermaidとAIで複雑な要件を視覚化するハック術'
 excerpt: 'NW試験の長文要件定義をMermaid構成図に変換。覚え方・書き方のコツを掴むことで、VRRPやOSPFの動作環境を正しく理解するAIハック術を解説。'
 image: ~/data/post/method/nw-mermaid-hack/cover.png
@@ -95,3 +95,7 @@ AIと対話しながら図を完成させていく過程こそが、NWエンジ�
 NW試験は <strong>ネットワークをイメージする力</strong> がすべてです。
 
 AIとMermaidを武器に、複雑な文章をシンプルな図形へと落とし込み、正解へのルートを可視化しましょう。
+
+---
+
+> この記事は [高度情報処理技術者試験 完全攻略ガイド](/advanced-ipa-hub/) の一部です。
