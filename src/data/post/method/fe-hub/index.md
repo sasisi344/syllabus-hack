@@ -120,36 +120,36 @@ AIとの対話で概念の「なぜ」から理解することで、テクノロ
 
 ## 科目B・アルゴリズム対策
 
-- [FE科目Bを生成AIで攻略するプロンプト集](/method/fe-subject-b-ai-prompt-hub) — 場面別・ツール別の使い分けインデックス
-- [擬似言語をAIで可視化して脳内ブロックを解除する](/method/fe-pseudo-code-visual-hack) — 読めない→読めるへの具体的手順
-- [擬似言語をAIで動くコードに変換して理解する](/method/fe-pseudo-code-ai-hack) — 疑似言語→Python変換で構造を把握
-- [論理の階段：擬似言語とアルゴリズムの壁を突破する思考転換](/method/pseudo-code-bridge-to-fe) — 「読めない理由」の根本解消
-- [科目B「無限ドリル」生成メソッド](/method/fe-subject-b-drill) — AIで無制限に練習問題を生成する手順
-- [基本情報AIハックロードマップ：科目Bアルゴリズム攻略](/method/fe-algorithm-roadmap) — 基礎知識あり・なし別の最短ルート
+- [FE科目Bを生成AIで攻略するプロンプト集](/fe-subject-b-ai-prompt-hub) — 場面別・ツール別の使い分けインデックス
+- [擬似言語をAIで可視化して脳内ブロックを解除する](/fe-pseudo-code-visual-hack) — 読めない→読めるへの具体的手順
+- [擬似言語をAIで動くコードに変換して理解する](/fe-pseudo-code-ai-hack) — 疑似言語→Python変換で構造を把握
+- [論理の階段：擬似言語とアルゴリズムの壁を突破する思考転換](/pseudo-code-bridge-to-fe) — 「読めない理由」の根本解消
+- [科目B「無限ドリル」生成メソッド](/fe-subject-b-drill) — AIで無制限に練習問題を生成する手順
+- [基本情報AIハックロードマップ：科目Bアルゴリズム攻略](/fe-algorithm-roadmap) — 基礎知識あり・なし別の最短ルート
 
 ## 科目A対策・全般学習
 
-- [SQLのJOINをAIでビジュアル変換して理解する](/method/sql-join-visual-ai-hack) — DB分野の頻出テーマを論理から突破
-- [IPアドレス計算をAIの「たとえ話」で攻略する](/method/ip-address-ai-metaphor-hack) — ネットワーク分野の計算問題対策
-- [Geminiで過去問を自分専用に作らせるプロンプト集](/method/gemini-prompt-collection) — 科目A用の問題生成・解説自動化
-- [科目BのアルゴリズムはPythonで学ぶな——3つの罠と攻略法](/trend/fe-pseudo-language-trap) — 独学でよくある失敗パターンの回避
+- [SQLのJOINをAIでビジュアル変換して理解する](/sql-join-visual-ai-hack) — DB分野の頻出テーマを論理から突破
+- [IPアドレス計算をAIの「たとえ話」で攻略する](/ip-address-ai-metaphor-hack) — ネットワーク分野の計算問題対策
+- [Geminiで過去問を自分専用に作らせるプロンプト集](/gemini-prompt-collection) — 科目A用の問題生成・解説自動化
+- [科目BのアルゴリズムはPythonで学ぶな——3つの罠と攻略法](/fe-pseudo-language-trap) — 独学でよくある失敗パターンの回避
 
 ## 試験情報・価値論
 
-- [基本情報技術者は「意味ない」論争に終止符を打つ](/trend/fe-certification-value-debate) — 現役エンジニアが語る本当の使い道
-- [2026年を見据えたIPA試験の最新トレンド](/trend/ipa-exam-trends-2026) — CBT化とAI知識必須化の動向整理
+- [基本情報技術者は「意味ない」論争に終止符を打つ](/fe-certification-value-debate) — 現役エンジニアが語る本当の使い道
+- [2026年を見据えたIPA試験の最新トレンド](/ipa-exam-trends-2026) — CBT化とAI知識必須化の動向整理
 
 ## キャリア設計
 
-- [生成AI時代の「エンジニアOS」——基本情報で手に入れる指示の解像度](/career/fe-engineer-foundation) — 合格後の実務活用方法
-- [地方エンジニアが大手へ進むために基本情報を最初に受ける理由](/career/fe-career-modern-web) — キャリアパスと資格の位置づけ
-- [非エンジニアこそ基本情報を取得せよ——DX時代の共通言語](/career/fundamental-it-engineer-for-non-engineers) — IT職種以外での活用
-- [フリーランスエンジニアこそ「基本情報」を取り直すべき3つの理由](/career/freelance-fe-merit) — 信頼性・単価・守備範囲への影響
-- [「科目B不合格」を履歴書で活かす方法](/career/fe-resume-liar-hack) — 転職活動中の正直な書き方戦略
+- [生成AI時代の「エンジニアOS」——基本情報で手に入れる指示の解像度](/fe-engineer-foundation) — 合格後の実務活用方法
+- [地方エンジニアが大手へ進むために基本情報を最初に受ける理由](/fe-career-modern-web) — キャリアパスと資格の位置づけ
+- [非エンジニアこそ基本情報を取得せよ——DX時代の共通言語](/fundamental-it-engineer-for-non-engineers) — IT職種以外での活用
+- [フリーランスエンジニアこそ「基本情報」を取り直すべき3つの理由](/freelance-fe-merit) — 信頼性・単価・守備範囲への影響
+- [「科目B不合格」を履歴書で活かす方法](/fe-resume-liar-hack) — 転職活動中の正直な書き方戦略
 
 ## 練習アプリ
 
-- [基本情報技術者試験 攻略シミュレーター](/app/fe-quizx) — CBT形式の科目A総合演習
+- [基本情報技術者試験 攻略シミュレーター](/fe-quiz) — CBT形式の科目A総合演習
 
 ## 科目B頻出アルゴリズムパターン完全分析
 
@@ -229,11 +229,11 @@ A: 並走させるのが最も効率的だ。科目Aの知識（ネットワー�
 
 **Q: 疑似言語が全く読めないのですが、どこから始めればいいですか？**
 
-A: まず疑似言語の記法辞書を作ることから始める。「←（代入）」「÷（整数除算）」「mod（余り）」「while〜endwhile」などの基本記法を一覧にしてから問題に入ると読める部分が格段に増える。AIにこの辞書を作らせるプロンプトは[疑似言語をAIで可視化する記事](/method/fe-pseudo-code-visual-hack)に掲載している。
+A: まず疑似言語の記法辞書を作ることから始める。「←（代入）」「÷（整数除算）」「mod（余り）」「while〜endwhile」などの基本記法を一覧にしてから問題に入ると読める部分が格段に増える。AIにこの辞書を作らせるプロンプトは[疑似言語をAIで可視化する記事](/fe-pseudo-code-visual-hack)に掲載している。
 
 **Q: 合格率40〜50%という数字が高くて難しそうに見えますが、実際の難易度は？**
 
-A: 受験者の中には対策ゼロで受けた人も含まれているため、適切な対策を取れば合格率はもっと上がる。特に科目Bは「アルゴリズムへの慣れ」の問題で、正しい練習を積めば合格できる問題構成になっている。[基本情報AIハックロードマップ](/method/fe-algorithm-roadmap)で、ゼロから科目Bを攻略する手順を解説している。
+A: 受験者の中には対策ゼロで受けた人も含まれているため、適切な対策を取れば合格率はもっと上がる。特に科目Bは「アルゴリズムへの慣れ」の問題で、正しい練習を積めば合格できる問題構成になっている。[基本情報AIハックロードマップ](/fe-algorithm-roadmap)で、ゼロから科目Bを攻略する手順を解説している。
 
 **Q: プログラミング経験ゼロでも合格できますか？**
 

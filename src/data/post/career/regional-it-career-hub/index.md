@@ -30,11 +30,11 @@ metadata:
 あなたに合う地域別戦略へそのまま進めます。
 
 - 年収を上げたいが、職種は大きく変えたくない  
-  → [広島・広電ハックで組織の守護神へ](/career/backoffice-sg-strategy-hiroshima) / [静岡・車社会の移動を学習に変える](/career/backoffice-sg-strategy-shizuoka)
+  → [広島・広電ハックで組織の守護神へ](/backoffice-sg-strategy-hiroshima) / [静岡・車社会の移動を学習に変える](/backoffice-sg-strategy-shizuoka)
 - SESの将来に不安があり、案件ガチャから抜け出したい  
-  → [神奈川・東京との境界線で市場価値を最大化](/career/ses-ap-strategy-kanagawa) / [北海道・冬の学習ハックと案件攻略](/career/ses-ap-strategy-hokkaido) / [宮城・仙台拠点の企業を攻略する](/career/ses-ap-strategy-miyagi)
+  → [神奈川・東京との境界線で市場価値を最大化](/ses-ap-strategy-kanagawa) / [北海道・冬の学習ハックと案件攻略](/ses-ap-strategy-hokkaido) / [宮城・仙台拠点の企業を攻略する](/ses-ap-strategy-miyagi)
 - 文系からITへ進みたいが、何を武器にすべきか迷っている  
-  → [愛知・トヨタ経済圏でのITサバイバル](/career/liberal-arts-it-strategy-aichi) / [福岡・IT特区でのスマートなキャリア形成](/career/liberal-arts-it-strategy-fukuoka)
+  → [愛知・トヨタ経済圏でのITサバイバル](/liberal-arts-it-strategy-aichi) / [福岡・IT特区でのスマートなキャリア形成](/liberal-arts-it-strategy-fukuoka)
 - 地元を離れずに市場価値を上げる全体像から知りたい  
   → このまま下の一覧を確認
 
@@ -51,13 +51,13 @@ metadata:
 
 | 対象地域 | ターゲット職種 | 推奨資格 | 記事リンク |
 | :--- | :--- | :--- | :--- |
-| <strong>広島</strong> | バックオフィス・製造業 | SG | [広島・広電ハックで組織の守護神へ](/career/backoffice-sg-strategy-hiroshima) |
-| <strong>静岡</strong> | メーカー事務・公務員志望 | SG | [静岡・車社会の移動を学習に変える](/career/backoffice-sg-strategy-shizuoka) |
-| <strong>愛知</strong> | 文系IT・製造関連IT | IP/FE | [愛知・トヨタ経済圏でのITサバイバル](/career/liberal-arts-it-strategy-aichi) |
-| <strong>神奈川</strong> | 中堅エンジニア・SES | AP | [神奈川・東京との境界線で市場価値を最大化](/career/ses-ap-strategy-kanagawa) |
-| <strong>福岡</strong> | IT初学者・文系スタートアップ | IP/FE | [福岡・IT特区でのスマートなキャリア形成](/career/liberal-arts-it-strategy-fukuoka) |
-| <strong>北海道</strong> | SESエンジニア・準社員 | AP | [北海道・冬の学習ハックと案件攻略](/career/ses-ap-strategy-hokkaido) |
-| <strong>宮城</strong> | エンジニア・事務・金融 | AP/SG | [宮城・仙台拠点の企業を攻略する](/career/ses-ap-strategy-miyagi) |
+| <strong>広島</strong> | バックオフィス・製造業 | SG | [広島・広電ハックで組織の守護神へ](/backoffice-sg-strategy-hiroshima) |
+| <strong>静岡</strong> | メーカー事務・公務員志望 | SG | [静岡・車社会の移動を学習に変える](/backoffice-sg-strategy-shizuoka) |
+| <strong>愛知</strong> | 文系IT・製造関連IT | IP/FE | [愛知・トヨタ経済圏でのITサバイバル](/liberal-arts-it-strategy-aichi) |
+| <strong>神奈川</strong> | 中堅エンジニア・SES | AP | [神奈川・東京との境界線で市場価値を最大化](/ses-ap-strategy-kanagawa) |
+| <strong>福岡</strong> | IT初学者・文系スタートアップ | IP/FE | [福岡・IT特区でのスマートなキャリア形成](/liberal-arts-it-strategy-fukuoka) |
+| <strong>北海道</strong> | SESエンジニア・準社員 | AP | [北海道・冬の学習ハックと案件攻略](/ses-ap-strategy-hokkaido) |
+| <strong>宮城</strong> | エンジニア・事務・金融 | AP/SG | [宮城・仙台拠点の企業を攻略する](/ses-ap-strategy-miyagi) |
 
 ## 【Benefit】「地域特化ハック」で得られる3つのメリット
 
@@ -74,8 +74,8 @@ metadata:
 ---
 
 <strong>次に読むべき記事</strong>:
-- [【最優先】最短で応用情報（AP）を攻略するロードマップ](/method/ap-master-roadmap)
-- [バックオフィス職がSG（セキュマネ）で人生を変えるステップ](/career/backoffice-sg-career-hack)
+- [【最優先】最短で応用情報（AP）を攻略するロードマップ](/ap-hub)
+- [バックオフィス職がSG（セキュマネ）で人生を変えるステップ](/backoffice-sg-career-hack)
 
 
 

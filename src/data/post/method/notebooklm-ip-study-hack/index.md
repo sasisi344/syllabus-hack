@@ -1,7 +1,7 @@
 ---
 draft: true
 publishDate: 2026-03-13T00:00:00Z
-lastmod: 2026-03-13
+lastmod: 2026-06-10
 title: NotebookLMでITパスポート用語を自分事化する最強の学習法
 excerpt: ITパスポートの膨大な用語を効率的に覚えるコツは、AIを使って「自分の生活」や「業務」に関連付けることです。NotebookLMを活用した革新的な暗記術を解説します。
 persona: IT初学者、試験勉強の効率化を求める社会人、用語暗記に苦戦している人
@@ -66,8 +66,8 @@ NotebookLMを使って「あ、これってあの業務のことか！」とい�
 
 ## 🧐 あわせて読みたい（ITパスポート攻略）
 
-- [ <strong>ITパスポート「生存戦略」— 9割の社会人が知らない、ITを使いこなす技術</strong> ](/career/ip-survival-strategy)
-- [ <strong>経済学ゼロからでも解ける！ストラテジ系をAIの「たとえ話」で攻略する技術</strong> ](/method/ip-strategy-ai-hack)
+- [ <strong>ITパスポート「生存戦略」— 9割の社会人が知らない、ITを使いこなす技術</strong> ](/ip-survival-strategy)
+- [ <strong>経済学ゼロからでも解ける！ストラテジ系をAIの「たとえ話」で攻略する技術</strong> ](/ip-strategy-ai-hack)
 
 ---
 
@@ -77,9 +77,9 @@ NotebookLMを使って「あ、これってあの業務のことか！」とい�
 
 ### ITパスポート 集中ドリル & シミュレーター
 
-- [ <strong>ITパスポート 模擬試験シミュレーター</strong> ](/app/it-passport-quiz)
+- [ <strong>ITパスポート 模擬試験シミュレーター</strong> ](/it-passport-quiz)
   本番のCBT試験を忠実に再現。弱点をAIが分析します。
-- [ <strong>ストラテジ系 集中100問ドリル</strong> ](/app/ip-strategy-drill)
+- [ <strong>ストラテジ系 集中100問ドリル</strong> ](/ip-strategy-drill)
   配点35%を占める最重要分野。経営・マーケティング視点を鍛える。
 
 ---
@@ -90,5 +90,6 @@ NotebookLMを使って「あ、これってあの業務のことか！」とい�
 
 NotebookLMという強力な武器を使い、IPの学習を「誰かの言葉の暗記」から「自分の武器の獲得」へとアップデートしましょう。
 
+---
 
-
+> この記事は [ITパスポート完全攻略ガイド](/itp-hub/) の一部です。

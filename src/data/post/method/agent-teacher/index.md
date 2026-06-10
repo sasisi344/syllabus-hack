@@ -64,8 +64,8 @@ Googleの<strong>NotebookLM</strong>を活用しましょう。PDF化した参�
 AI講師（理論）で理解を深めたら、当サイトのツール（実践）で定着させましょう。
 
 - <strong>理解が曖昧なら</strong>: AI講師に概念を噛み砕いてもらう。
-- <strong>覚える段階なら</strong>: [<strong>重要用語フラッシュカード</strong>](/app/flashcard-app)で反復横跳び。
-- <strong>実力を試すなら</strong>: [<strong>トレンド・倫理クイズ</strong>](/app/genai-trend-quiz)で力試し。
+- <strong>覚える段階なら</strong>: [<strong>重要用語フラッシュカード</strong>](/flashcard-app)で反復横跳び。
+- <strong>実力を試すなら</strong>: [<strong>トレンド・倫理クイズ</strong>](/genai-trend-quiz)で力試し。
 
 ## まとめ：あなたはもう、一人じゃない
 

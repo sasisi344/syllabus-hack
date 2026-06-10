@@ -1,13 +1,13 @@
 ---
 title: '次世代のインターネット！Web3.0とNFTが変えるビジネス'
 publishDate: 2026-03-31T00:00:00Z
-lastmod: 2026-05-30
+lastmod: 2026-06-10
 category: trend
 tags: ['Web3', 'NFT', 'ブロックチェーン', 'ITパスポート', '試験対策']
 persona: 最新テクノロジーでビジネスチャンスを探したい方
 knowledge:
   examId: ip
-  type: news
+  type: theory
   difficulty: beginner
 image: ~/data/post/trend/web3-nft/cover.png
 metadata:

@@ -42,10 +42,10 @@ metadata:
 
 福岡の熱気あるビジネスシーンに飛び込む準備はいいですか？
 
-まずは、福岡独自のスタートアップ事情や就活ハックを<strong>[地域特化型のキャリアハック・ハブ](/career/regional-it-career-hub)</strong>で確認してください。
+まずは、福岡独自のスタートアップ事情や就活ハックを<strong>[地域特化型のキャリアハック・ハブ](/regional-it-career-hub)</strong>で確認してください。
 
-- <strong>STEP 1</strong>: [ITパスポート最短合格ロードマップ](/method/ip-beginner-roadmap)で基礎知識をインプット。
-- <strong>STEP 2</strong>: [NotebookLMでの音声学習](/method/notebooklm-ip-study-hack)を活用し、地下鉄やバスの移動時間をハック。
+- <strong>STEP 1</strong>: [ITパスポート最短合格ロードマップ](/itp-hub)で基礎知識をインプット。
+- <strong>STEP 2</strong>: [NotebookLMでの音声学習](/notebooklm-ip-study-hack)を活用し、地下鉄やバスの移動時間をハック。
 - <strong>STEP 3</strong>: 資格を武器に、天神・博多の「勢いのあるITベンチャー」のインターンや早期選考へエントリー。
 
 ## 福岡限定の勉強ハック：天神・博多の「コワーキング天国」を活用
@@ -70,8 +70,8 @@ metadata:
 ---
 
 <strong>関連リンク</strong>:
-- [【全国版】地方エンジニア・事務職のための「地域別キャリアハック」まとめ](/career/regional-it-career-hub)
-- [文系就活の最強カード「ITリテラシー」で内定を勝ち取る戦略（総論）](/career/liberal-arts-it-strategy)
+- [【全国版】地方エンジニア・事務職のための「地域別キャリアハック」まとめ](/regional-it-career-hub)
+- [文系就活の最強カード「ITリテラシー」で内定を勝ち取る戦略（総論）](/liberal-arts-it-strategy)
 
 
 

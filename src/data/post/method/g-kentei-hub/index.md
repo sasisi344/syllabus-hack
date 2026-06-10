@@ -163,9 +163,9 @@ G検定はAIの技術概念と活用倫理に強く、DS検定は統計・デー
 | 記事 | カテゴリ | 内容 |
 |-----|--------|-----|
 | [DS検定完全攻略ガイド](/ds-kentei-hub/) | method | 統計・データ分析の資格攻略 |
-| [ディープラーニング基礎理論](/theory/deep-learning-basics/) | theory | ニューラルネット・活性化関数・バックプロパゲーション |
-| [機械学習の3種類を理解する](/theory/ml-supervised-unsupervised/) | theory | 教師あり・教師なし・強化学習の概念 |
-| [AI・データ系資格のキャリアパス](/career/ai-data-career/) | career | G検定・DS検定・E資格後の年収・転職 |
+| [ディープラーニング基礎理論](/deep-learning-basics/) | theory | ニューラルネット・活性化関数・バックプロパゲーション |
+| [機械学習の3種類を理解する](/ml-supervised-unsupervised/) | theory | 教師あり・教師なし・強化学習の概念 |
+| [AI・データ系資格のキャリアパス](/ai-data-career/) | career | G検定・DS検定・E資格後の年収・転職 |
 
 ---
 

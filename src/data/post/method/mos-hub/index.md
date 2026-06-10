@@ -140,9 +140,9 @@ MOS Excel 365 アソシエイトの試験範囲で、独学では気づきにく
 
 ## 関連記事インデックス
 
-- [MOS合格を最短化するAI学習法——「役に立たない」と言われる前にやること](/method/mos-ai-shortcut/)
-- [MOS Excel エキスパートは独学で難しすぎる——つまずく理由とAI対話で突破する手順](/method/mos-excel-expert-difficulty/)
-- [MOS vs ITパスポート——どちらが有利か問うより「両方取れるなら取ったほうがいい」理由](/trend/mos-vs-itp-job-hunting/)
+- [MOS合格を最短化するAI学習法——「役に立たない」と言われる前にやること](/mos-ai-shortcut/)
+- [MOS Excel エキスパートは独学で難しすぎる——つまずく理由とAI対話で突破する手順](/mos-excel-expert-difficulty/)
+- [MOS vs ITパスポート——どちらが有利か問うより「両方取れるなら取ったほうがいい」理由](/mos-vs-itp-job-hunting/)
 
 ---
 

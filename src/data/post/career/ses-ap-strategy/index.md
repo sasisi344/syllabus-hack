@@ -56,8 +56,8 @@ metadata:
 
 ## 🧐 おすすめの深掘り記事（キャリア・メソッド）
 
-- [<strong>SESでの「孤独」をAP取得で「独立」に変えるキャリア戦略</strong>](/career/ses-ap-independence-strategy)
-- [<strong>応用情報「午後記述」をAIで添削する最強のセルフコーチング術</strong>](/method/ap-afternoon-ai-coaching)
+- [<strong>SESでの「孤独」をAP取得で「独立」に変えるキャリア戦略</strong>](/ses-ap-independence-strategy)
+- [<strong>応用情報「午後記述」をAIで添削する最強のセルフコーチング術</strong>](/ap-afternoon-ai-coaching)
 
 ---
 
@@ -67,9 +67,9 @@ metadata:
 
 ### 応用情報技術者 & 高度試験への架け橋
 
-- [<strong>重要用語フラッシュカード：暗記ハック</strong>](/app/flashcard-app)
+- [<strong>重要用語フラッシュカード：暗記ハック</strong>](/flashcard-app)
   AP試験の膨大な用語を、隙間時間で効率的にインプット。
-- [<strong>SC（情報処理安全確保支援士）専門用語特訓</strong>](/app/sc-specialist-quiz)
+- [<strong>SC（情報処理安全確保支援士）専門用語特訓</strong>](/sc-specialist-quiz)
   APの先にある「高度試験」を見据えた、セキュリティ専門用語の集中特訓。
 
 ---
@@ -82,9 +82,9 @@ metadata:
 
 ### 地域別キャリアハック一覧
 
-- [【宮城編】仙台の自社開発企業を狙うための応用情報（AP）活用術](/career/ses-ap-strategy-miyagi)
-- [【北海道編】極寒の「チ・カ・ホ」を味方に！札幌エンジニアのAP攻略術](/career/ses-ap-strategy-hokkaido)
-- [【神奈川編】満員電車を「耳」で攻略！通勤エンジニアのロングトレイン術](/career/ses-ap-strategy-kanagawa)
+- [【宮城編】仙台の自社開発企業を狙うための応用情報（AP）活用術](/ses-ap-strategy-miyagi)
+- [【北海道編】極寒の「チ・カ・ホ」を味方に！札幌エンジニアのAP攻略術](/ses-ap-strategy-hokkaido)
+- [【神奈川編】満員電車を「耳」で攻略！通勤エンジニアのロングトレイン術](/ses-ap-strategy-kanagawa)
 - （順次追加予定）
 
 ---

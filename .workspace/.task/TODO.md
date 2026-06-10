@@ -25,3 +25,10 @@
 - [ ] 知的財産管理技能士 Hub
 - [ ] FP（ファイナンシャルプランナー）Hub
 - [ ] ボイラー技士・冷凍機械責任者 クラスターHub
+
+### CISCOのCCNA
+
+https://www.cisco.com/c/ja_jp/training-events/training-certifications/certifications/associate/ccna.html
+
+IT技術者とかエンジニアの世界共通資格。グローバル規模のエンジニアになりたいとか、そういう人材を目指すとか、自分の実力を知りたいという目的なら有りではないだろうか。
+ただ、かなり高難易度らしい。無勉強ならではの話しではある。

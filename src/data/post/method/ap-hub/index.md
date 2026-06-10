@@ -116,39 +116,39 @@ IPAの模範解答を分析すると、<strong>「〜であるため、〜する
 
 2026年からAPのCBT移行が進んでいます。最新のスケジュールは下記記事で確認してください。
 
-- [【最新】令和8年度の応用・高度試験はCBT移行と科目名変更](/trend/ipa-2026-cbt-confirmed-schedule)
-- [2026年CBT化：応用情報・高度試験がペーパー廃止へ](/trend/applied-advanced-exam-cbt-transition-2026)
+- [【最新】令和8年度の応用・高度試験はCBT移行と科目名変更](/ipa-2026-cbt-confirmed-schedule)
+- [2026年CBT化：応用情報・高度試験がペーパー廃止へ](/applied-advanced-exam-cbt-transition-2026)
 
 ---
 
 ## 午後記述対策
 
-- [応用情報「午後記述」をAIで添削するセルフコーチング法](/method/ap-afternoon-ai-coaching) — ChatGPT・Claude・Gemini別の使い方
-- [採点者の意図をAIで読み解き得点につなげるコツ](/method/ap-grader-intent-hack) — 「あと5点」を取るための思考法
-- [採点基準はブラックボックスか？部分点獲得の戦略](/method/ap-grader-blackbox-hack) — 採点基準の構造分析と記述戦略
-- [午後問題AIプロンプト集（記述式・高度試験対応）](/method/ap-pm-descriptive-ai-prompts) — 分野別プロンプト集
-- [【文系・未経験】3ヶ月で応用情報に受かる「全力捨て問」戦略](/method/ap-discard-strategy) — 選択分野の絞り込みと学習計画
+- [応用情報「午後記述」をAIで添削するセルフコーチング法](/ap-afternoon-ai-coaching) — ChatGPT・Claude・Gemini別の使い方
+- [採点者の意図をAIで読み解き得点につなげるコツ](/ap-grader-intent-hack) — 「あと5点」を取るための思考法
+- [採点基準はブラックボックスか？部分点獲得の戦略](/ap-grader-blackbox-hack) — 採点基準の構造分析と記述戦略
+- [午後問題AIプロンプト集（記述式・高度試験対応）](/ap-pm-descriptive-ai-prompts) — 分野別プロンプト集
+- [【文系・未経験】3ヶ月で応用情報に受かる「全力捨て問」戦略](/ap-discard-strategy) — 選択分野の絞り込みと学習計画
 
 ## CBT・最新動向
 
-- [【最新】令和8年度の応用・高度試験CBT移行と科目名変更の全貌](/trend/ipa-2026-cbt-confirmed-schedule)
-- [2026年CBT化：応用情報・高度試験がペーパー廃止へ](/trend/applied-advanced-exam-cbt-transition-2026)
-- [CBT化は高度試験にどう影響するか](/trend/cbt-impact-advanced-exams)
-- [【2026年春延期】応用情報の延期と対策案](/trend/ap-2026-spring-postponed)
+- [【最新】令和8年度の応用・高度試験CBT移行と科目名変更の全貌](/ipa-2026-cbt-confirmed-schedule)
+- [2026年CBT化：応用情報・高度試験がペーパー廃止へ](/applied-advanced-exam-cbt-transition-2026)
+- [CBT化は高度試験にどう影響するか](/cbt-impact-advanced-exams)
+- [【2026年春延期】応用情報の延期と対策案](/ap-2026-spring-postponed)
 
 ## キャリア設計
 
-- [コスパ最強は応用情報技術者——20代・30代こそAPを取得すべき3つのメリット](/career/applied-information-technology-engineer-career-value)
-- [応用情報に受かったのに何も変わらない——合格証を実務の武器に変える方法](/career/ap-cert-practical-use-hack)
-- [応用情報で自社に残るか外へ飛ぶか——SESエンジニアのAP活用術](/career/ses-ap-strategy)
-- [SESの「孤独」をAP取得で「独立」に変えるキャリア戦略](/career/ses-ap-independence-strategy)
-- [基本情報・応用情報で年収は上がる？資格手当の相場と転職市場のリアル](/career/ipa-certification-salary-impact)
-- [ITパスポートから応用情報まで——AP・SGを同時攻略する最短合格ロードマップ](/career/it-passport-to-ap-roadmap)
+- [コスパ最強は応用情報技術者——20代・30代こそAPを取得すべき3つのメリット](/applied-information-technology-engineer-career-value)
+- [応用情報に受かったのに何も変わらない——合格証を実務の武器に変える方法](/ap-cert-practical-use-hack)
+- [応用情報で自社に残るか外へ飛ぶか——SESエンジニアのAP活用術](/ses-ap-strategy)
+- [SESの「孤独」をAP取得で「独立」に変えるキャリア戦略](/ses-ap-independence-strategy)
+- [基本情報・応用情報で年収は上がる？資格手当の相場と転職市場のリアル](/ipa-certification-salary-impact)
+- [ITパスポートから応用情報まで——AP・SGを同時攻略する最短合格ロードマップ](/it-passport-to-ap-roadmap)
 
 ## 練習アプリ
 
-- [応用情報技術者(AP) 科目A試験 模擬試験シミュレーター](/app/ap-quizx) — CBT形式の午前II演習
-- [応用情報技術者(AP) 科目B試験 ケーススタディ演習](/app/ap-subject-bx) — 午後形式の演習アプリ
+- [応用情報技術者(AP) 科目A試験 模擬試験シミュレーター](/ap-quiz) — CBT形式の午前II演習
+- [応用情報技術者(AP) 科目B試験 ケーススタディ演習](/ap-subject-b) — 午後形式の演習アプリ
 
 ## 午後11分野の採点傾向と選択戦略
 
@@ -265,7 +265,7 @@ A: 受験資格に制限はないため基本情報なしでも受けられる�
 
 **Q: 応用情報合格後にどんなキャリアの変化がありますか？**
 
-A: 主な変化は①高度試験（SC・NW・PM等）の午前I免除②転職市場での評価向上③SES案件の単価上昇の3点だ。詳細は[コスパ最強は応用情報技術者](/career/applied-information-technology-engineer-career-value)と[応用情報で自社に残るか外へ飛ぶか](/career/ses-ap-strategy)に実際の数字と事例を掲載している。
+A: 主な変化は①高度試験（SC・NW・PM等）の午前I免除②転職市場での評価向上③SES案件の単価上昇の3点だ。詳細は[コスパ最強は応用情報技術者](/applied-information-technology-engineer-career-value)と[応用情報で自社に残るか外へ飛ぶか](/ses-ap-strategy)に実際の数字と事例を掲載している。
 
 ---
 

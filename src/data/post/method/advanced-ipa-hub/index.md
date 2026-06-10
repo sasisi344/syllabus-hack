@@ -111,35 +111,35 @@ AI時代のDX戦略・システム投資のROI・アジャイル組織変革な�
 
 ## SC（情報処理安全確保支援士）対策
 
-- [SCタイムライン攻略法——過去問から見える頻出パターンとAI活用](/method/sc-timeline-hack) — SC合格者が使うタイムライン型の学習設計
+- [SCタイムライン攻略法——過去問から見える頻出パターンとAI活用](/sc-timeline-hack) — SC合格者が使うタイムライン型の学習設計
 
 ## NW（ネットワークスペシャリスト）対策
 
-- [ネットワーク図の覚え方・書き方｜MermaidとAIで複雑な要件を視覚化するハック術](/method/nw-mermaid-hack) — NW試験の設計要件をAIで可視化する手順
+- [ネットワーク図の覚え方・書き方｜MermaidとAIで複雑な要件を視覚化するハック術](/nw-mermaid-hack) — NW試験の設計要件をAIで可視化する手順
 
 ## PM（プロジェクトマネージャ）対策
 
-- [PMの午後II論文をモジュール化して量産する技術](/method/pm-pm2-module-hack) — 実務経験を論文パーツに分解する準備戦略
-- [AIで実現するプロジェクト品質管理の新手法](/trend/pm-ai-quality-management) — PM試験で問われるAI活用の最新トレンド
+- [PMの午後II論文をモジュール化して量産する技術](/pm-pm2-module-hack) — 実務経験を論文パーツに分解する準備戦略
+- [AIで実現するプロジェクト品質管理の新手法](/pm-ai-quality-management) — PM試験で問われるAI活用の最新トレンド
 
 ## DB（データベーススペシャリスト）対策
 
-- [DBスペシャリスト：過去のスキーマ設計ミスをAIで言語化する自己分析術](/method/db-normalization-hack) — 正規化の落とし穴をAI添削で潰す方法
-- [ベクトル検索・RAGはDB設計にどう影響するか](/trend/db-vector-search-rag) — DB試験に出始めた最新データアーキテクチャの整理
+- [DBスペシャリスト：過去のスキーマ設計ミスをAIで言語化する自己分析術](/db-normalization-hack) — 正規化の落とし穴をAI添削で潰す方法
+- [ベクトル検索・RAGはDB設計にどう影響するか](/db-vector-search-rag) — DB試験に出始めた最新データアーキテクチャの整理
 
 ## ST（ITストラテジスト）対策
 
-- [ITストラテジスト：抽象的なDX論文をAIでロジックツリー化する技術](/method/st-strategy-brainstorming) — 経営×IT論文の骨子を速く作る方法
-- [未経験論文でSTに合格した「借用エピソード構造」の作り方](/method/st-no-experience-essay-hack) — 直接経験がない場合の論文作成術
-- [AIが語るIT戦略とストラテジスト試験の接点](/trend/st-ai-pov-strategy) — 生成AI時代のST試験動向
+- [ITストラテジスト：抽象的なDX論文をAIでロジックツリー化する技術](/st-strategy-brainstorming) — 経営×IT論文の骨子を速く作る方法
+- [未経験論文でSTに合格した「借用エピソード構造」の作り方](/st-no-experience-essay-hack) — 直接経験がない場合の論文作成術
+- [AIが語るIT戦略とストラテジスト試験の接点](/st-ai-pov-strategy) — 生成AI時代のST試験動向
 
 ## SA（システムアーキテクト）対策
 
-- [自律型AIエージェントをどう設計するか——SA試験で問われる最新アーキテクチャ](/trend/sa-llm-agent-design) — LLMエージェント統合の設計パターン整理
+- [自律型AIエージェントをどう設計するか——SA試験で問われる最新アーキテクチャ](/sa-llm-agent-design) — LLMエージェント統合の設計パターン整理
 
 ## キャリア設計
 
-- [情報処理安全確保支援士（登録セキスペ）は登録なしでも価値があるか](/career/sc-unregistered-benefit-hack) — SC合格後の登録vs非登録の現実的な判断
+- [情報処理安全確保支援士（登録セキスペ）は登録なしでも価値があるか](/sc-unregistered-benefit-hack) — SC合格後の登録vs非登録の現実的な判断
 
 ---
 

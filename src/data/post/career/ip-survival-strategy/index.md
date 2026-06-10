@@ -68,10 +68,10 @@ ITパスポートの試験範囲は、大きく3つに分かれます。
 
 ## 🧐 おすすめの深掘り記事（攻略メソッド）
 
-- [<strong>ITパスポートは「恥ずかしい」資格なのか？2026年の市場価値と現実</strong>](/trend/it-passport-shame-debate)
-- [<strong>経済学ゼロからでも解ける！ストラテジ系をAIの「たとえ話」で攻略する技術</strong>](/method/ip-strategy-ai-hack)
-- [<strong>スキマ時間だけで合格！スマホアプリをフル活用した最短ルート学習法</strong>](/method/gap-time-apps)
-- [<strong>NotebookLMでITパスポート用語を自分事化する最強の学習法</strong>](/method/notebooklm-ip-study-hack)
+- [<strong>ITパスポートは「恥ずかしい」資格なのか？2026年の市場価値と現実</strong>](/it-passport-shame-debate)
+- [<strong>経済学ゼロからでも解ける！ストラテジ系をAIの「たとえ話」で攻略する技術</strong>](/ip-strategy-ai-hack)
+- [<strong>スキマ時間だけで合格！スマホアプリをフル活用した最短ルート学習法</strong>](/gap-time-apps)
+- [<strong>NotebookLMでITパスポート用語を自分事化する最強の学習法</strong>](/notebooklm-ip-study-hack)
 
 ---
 
@@ -81,11 +81,11 @@ ITパスポートの試験範囲は、大きく3つに分かれます。
 
 ### ITパスポート 集中ドリル & シミュレーター
 
-- [<strong>ITパスポート 模擬試験シミュレーター</strong>](/app/it-passport-quiz)
+- [<strong>ITパスポート 模擬試験シミュレーター</strong>](/it-passport-quiz)
   本番のCBT試験を忠実に再現。弱点をAIが分析します。
-- [<strong>ストラテジ系 集中100問ドリル</strong>](/app/ip-strategy-drill)
+- [<strong>ストラテジ系 集中100問ドリル</strong>](/ip-strategy-drill)
   配点35%を占める最重要分野。経営・マーケティング視点を鍛える。
-- [<strong>マネジメント系 集中80問ドリル</strong>](/app/ip-management-drill)
+- [<strong>マネジメント系 集中80問ドリル</strong>](/ip-management-drill)
   プロジェクト管理や運用など、実務に即した知識を固める。
 
 ---
@@ -96,8 +96,8 @@ IPの価値は、その地域の主要産業（製造、観光、スタートア
 
 ### 地域別キャリアハック一覧
 
-- [【愛知編】製造業DXの波に乗る！文系学生向けのIT活用術](/career/liberal-arts-it-strategy-aichi)
-- [【福岡編】スタートアップ特区×ITで攻める就活ハック](/career/liberal-arts-it-strategy-fukuoka)
+- [【愛知編】製造業DXの波に乗る！文系学生向けのIT活用術](/liberal-arts-it-strategy-aichi)
+- [【福岡編】スタートアップ特区×ITで攻める就活ハック](/liberal-arts-it-strategy-fukuoka)
 - （順次追加予定）
 
 ---

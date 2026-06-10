@@ -1,13 +1,13 @@
 ---
 title: 'パスワードだけじゃ足りない！多要素認証（MFA）を1分解説'
 publishDate: 2026-03-31T00:00:00Z
-lastmod: 2026-05-30
+lastmod: 2026-06-10
 category: trend
 tags: ['セキュリティ', 'MFA', '認証技術', 'ITパスポート', '試験対策']
 persona: クラウド時代を安全に過ごしたいすべての方
 knowledge:
   examId: ip
-  type: news
+  type: theory
   difficulty: beginner
 image: ~/data/post/trend/common-cover.png
 metadata:

@@ -212,27 +212,38 @@ Month 2+: C-1 外部シグナル取得の継続 + C-2 タグ段階的解禁
      - リッチな説明文（タグ概要テキスト）は未追加だが、薄いページのインデックスは防止されている
      NOTE: 将来的にタグ別の説明文を追加すれば E-E-A-T 向上につながる（低優先度）。 -->
 
-### 🔴 緊急バグ: ハブへの逆リンク URL が全件 404 (2026-06-09発見)
+### ~~🔴 緊急バグ: ハブへの逆リンク URL が全件 404~~ → ✅ 対応済み (2026-06-10修正)
 
-スポーク記事からハブへの逆リンクは存在するが、**リンク先 URL が全件間違っている**。
+<!-- 修正結果:
+     当初の見積もり（64箇所/30ファイル、ハブ逆リンクのみ）より遥かに大規模な
+     サイト全体の問題だった。
 
-- **記載 URL**: `/method/itp-hub/` `/method/fe-hub/` など（64箇所、30ファイル）
-- **実際の URL**: `/itp-hub/` `/fe-hub/` など（permalink: `/%slug%` のため category は含まれない）
-- **影響**: クラスターの上向きリンクが全て 404 → 内部リンクとして無効 → トピッククラスター構造が機能していない
+     - permalink: '/%slug%' のため、`/{category}/{slug}/` 形式のリンクは
+       カテゴリを問わず全て404（method/trend/career/app/theory 全カテゴリが対象）
+     - 全記事を走査し `](/(method|trend|career|app|theory)/{slug}/?)`  パターンを
+       `](/{slug}/)` へ一括置換
+     - 結果: 75ファイル / 362箇所 を修正
+     - 副次的に発見した typo リンク7件も修正:
+       /ap-quizx → /ap-quiz, /ap-subject-bx → /ap-subject-b, /fe-quizx → /fe-quiz,
+       /it-passport-quizx → /it-passport-quiz, /ip-strategy-drillx → /ip-strategy-drill,
+       /ip-technology-drillx → /ip-technology-drill, /ip-management-drillx → /ip-management-drill
+     - pnpm build 成功確認済み（1265ページ生成）
 
-```
-修正方針: 各記事の /method/{hub-slug}/ → /{hub-slug}/ に一括置換
-対象スラッグ（全15ハブ）:
-  itp-hub, fe-hub, ap-hub, sg-hub, aws-hub, ccna-hub, fp-hub,
-  denken-hub, mos-hub, boki-hub, takken-hub, g-kentei-hub,
-  ds-kentei-hub, kiken-butsu-hub, fe-subject-b-ai-prompt-hub,
-  advanced-ipa-hub, level4-strategy-hub
+     残課題 → ✅ 対応済み (2026-06-10): 上記4件の孤立リンク（対象記事が存在しない）も
+     最も近い既存記事へのリンクに差し替え済み:
+       - /ip-beginner-roadmap → /itp-hub （ITパスポート完全攻略ガイド）
+         対象: liberal-arts-it-strategy-aichi, liberal-arts-it-strategy-fukuoka
+       - /consultant-career-ip-logic → /itp-non-engineer-career-strategy
+         対象: liberal-arts-student-strategy
+       - /ap-master-roadmap → /ap-hub （応用情報技術者試験 完全攻略ガイド）
+         対象: regional-it-career-hub, ses-ap-strategy-kanagawa
+     pnpm build 再確認済み（1265ページ生成）。
+-->
 
-コマンド例（PowerShell）:
-  Get-ChildItem src/data/post -Recurse -Filter "*.md" |
-    ForEach-Object { (Get-Content $_.FullName) -replace '/method/([a-z-]+-hub)/', '/$1/' |
-    Set-Content $_.FullName }
-```
+<!-- 2026-06-10 補足: ip-beginner-roadmap / consultant-career-ip-logic / ap-master-roadmap は
+     当初「ロードマップ単独記事」として書かれる想定だったと思われる。restructure-plan-2026-06.md の
+     横展開フェーズと合わせて、将来的にこれらをピラーページから分離した専用記事として
+     新規作成する選択肢もある（その際は逆に /itp-hub, /ap-hub からのリンクに変更する）。 -->
 
 ### 🟡 `term` / `strategy` 空ディレクトリの整理
 

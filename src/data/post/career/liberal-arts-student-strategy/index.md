@@ -70,17 +70,17 @@ ITパスポートや基本情報技術者を取得することは、これらの
 
 ### 就活を有利に進める「攻略ツール」
 
-- [<strong>ITパスポート 攻略マスター</strong>](/app/it-passport-quiz)
+- [<strong>ITパスポート 攻略マスター</strong>](/it-passport-quiz)
   時間のない就活生にこそ使ってほしい、効率重視のインプットアプリ。
-- [<strong>基本情報技術者 重点特訓ドリル</strong>](/app/fe-quiz)
+- [<strong>基本情報技術者 重点特訓ドリル</strong>](/fe-quiz)
   アルゴリズム（科目B）に不安がある文系学生のための、ステップアップ式学習。
 
 ---
 
 ## 🧐 おすすめの深掘り記事（学生向けキャリア）
 
-- [<strong>履歴書で差をつける！IPA資格の正しい「自己PR」例文集</strong>](/career/resume-writing-tips-ipa-certification)
-- [<strong>「コンサル志望ならITパスポートは必須」と言われる本当の理由</strong>](/career/consultant-career-ip-logic)
+- [<strong>履歴書で差をつける！IPA資格の正しい「自己PR」例文集</strong>](/resume-writing-tips-ipa-certification)
+- [<strong>「コンサル志望ならITパスポートは必須」と言われる本当の理由</strong>](/itp-non-engineer-career-strategy)
 
 ---
 

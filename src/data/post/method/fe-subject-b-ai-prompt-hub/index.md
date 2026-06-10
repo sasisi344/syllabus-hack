@@ -25,11 +25,11 @@ metadata:
 
 すぐ深掘りしたい場合は、次の3本へ直行できる。
 
-- <strong>[科目B「無限ドリル」生成](/method/fe-subject-b-drill)</strong>（量演習）
-- <strong>[疑似言語をAIで動くコードに変換](/method/fe-pseudo-code-ai-hack)</strong>（理解の芯）
-- <strong>[Geminiプロンプト集（基本情報向け）](/method/gemini-prompt-collection)</strong>（Gemini中心ルート）
+- <strong>[科目B「無限ドリル」生成](/fe-subject-b-drill)</strong>（量演習）
+- <strong>[疑似言語をAIで動くコードに変換](/fe-pseudo-code-ai-hack)</strong>（理解の芯）
+- <strong>[Geminiプロンプト集（基本情報向け）](/gemini-prompt-collection)</strong>（Gemini中心ルート）
 
-ITパスポートの全手順マップは <strong>[ChatGPTでITパスポートに合格する全手順](/method/chatgpt-itpassport-ai-complete-guide)</strong>。
+ITパスポートの全手順マップは <strong>[ChatGPTでITパスポートに合格する全手順](/chatgpt-itpassport-ai-complete-guide)</strong>。
 
 ---
 
@@ -242,10 +242,10 @@ CBT画面にはコピペができないため、<strong>事前に問題のアプ
 
 | 読む順 | 記事テーマ                                | こんな状況の人に           | リンク                                     |
 | ------ | ----------------------------------------- | -------------------------- | ------------------------------------------ |
-| ①      | 【プロンプト配布】科目B「無限ドリル」生成 | 類題をとにかく量こなしたい | [読む](/method/fe-subject-b-drill)         |
-| ②      | 科目B疑似言語をAIで動くコードに変換       | Pythonへの翻訳で理解したい | [読む](/method/fe-pseudo-code-ai-hack)     |
-| ③      | 疑似言語をAIで可視化・フローチャート化    | 「動き」を図で確認したい   | [読む](/method/fe-pseudo-code-visual-hack) |
-| ④      | Geminiプロンプト集（基本情報向け）        | Geminiで包括的に攻略したい | [読む](/method/gemini-prompt-collection)   |
+| ①      | 【プロンプト配布】科目B「無限ドリル」生成 | 類題をとにかく量こなしたい | [読む](/fe-subject-b-drill)         |
+| ②      | 科目B疑似言語をAIで動くコードに変換       | Pythonへの翻訳で理解したい | [読む](/fe-pseudo-code-ai-hack)     |
+| ③      | 疑似言語をAIで可視化・フローチャート化    | 「動き」を図で確認したい   | [読む](/fe-pseudo-code-visual-hack) |
+| ④      | Geminiプロンプト集（基本情報向け）        | Geminiで包括的に攻略したい | [読む](/gemini-prompt-collection)   |
 
 <strong>① → ② → ③ → ④の順</strong>が最も自然な学習フローだ。まず量（①）で型を身につけ、理解（②③）を深め、ツール幅（④）を広げる。
 

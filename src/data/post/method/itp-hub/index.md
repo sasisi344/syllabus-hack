@@ -141,48 +141,48 @@ ITパスポートの「プロジェクトマネジメント」を学び始めま
 
 学習効率を最大化するための主要記事です。
 
-- [最速合格の20時間ロードマップ](/method/fast-track-roadmap-20h-pass) — 文系・未経験から20時間で合格した軌跡と再現手順
-- [ChatGPT・生成AIで合格する全手順](/method/chatgpt-itpassport-ai-complete-guide) — AI活用の具体的なプロンプトマップ
-- [直前10日の逆転合格術](/method/itp-10-days-panic-hack) — 試験直前の集中プランとキーワードチェックリスト
-- [独学・AI学習・通信講座の合格ルート比較](/method/it-passport-study-route-comparison) — タイプ別の最短ルート診断
-- [スマホだけで合格する完全ガイド](/method/itp-smartphone-only-hack) — PCなし・スキマ時間での学習設計
-- [「全力捨て問」戦略](/method/ip-discard-strategy) — 社会人が1週間で受かるための取捨選択の技法
-- [NotebookLMで用語を自分事化する学習法](/method/notebooklm-ip-study-hack) — 用語暗記をゼロにする対話学習の具体手順
-- [100個のキーワード最終確認書](/method/final-checkpoint-100-plus) — 試験前日に使う頻出キーワード総チェック
-- [ストラテジ系をAIの「たとえ話」で攻略する技術](/method/ip-strategy-ai-hack) — 経済学ゼロからでも解ける解説法
-- [CBT試験の操作感を制する極意](/method/cbt-exam-tactics) — 本番のインターフェースで失点しないための事前対策
+- [最速合格の20時間ロードマップ](/fast-track-roadmap-20h-pass) — 文系・未経験から20時間で合格した軌跡と再現手順
+- [ChatGPT・生成AIで合格する全手順](/chatgpt-itpassport-ai-complete-guide) — AI活用の具体的なプロンプトマップ
+- [直前10日の逆転合格術](/itp-10-days-panic-hack) — 試験直前の集中プランとキーワードチェックリスト
+- [独学・AI学習・通信講座の合格ルート比較](/it-passport-study-route-comparison) — タイプ別の最短ルート診断
+- [スマホだけで合格する完全ガイド](/itp-smartphone-only-hack) — PCなし・スキマ時間での学習設計
+- [「全力捨て問」戦略](/ip-discard-strategy) — 社会人が1週間で受かるための取捨選択の技法
+- [NotebookLMで用語を自分事化する学習法](/notebooklm-ip-study-hack) — 用語暗記をゼロにする対話学習の具体手順
+- [100個のキーワード最終確認書](/final-checkpoint-100-plus) — 試験前日に使う頻出キーワード総チェック
+- [ストラテジ系をAIの「たとえ話」で攻略する技術](/ip-strategy-ai-hack) — 経済学ゼロからでも解ける解説法
+- [CBT試験の操作感を制する極意](/cbt-exam-tactics) — 本番のインターフェースで失点しないための事前対策
 
 ## 試験情報・トレンド
 
 試験の最新動向と周辺情報をまとめた記事です。
 
-- [ITパスポートは「恥ずかしい」資格なのか](/trend/it-passport-shame-debate) — 2026年の市場価値と現実的な評価
-- [最新シラバス攻略｜生成AI・プロンプト変更点と対策](/trend/it-passport-syllabus-genai-update) — シラバス6.3の変更点を整理
-- [生成AIパスポートvsITパスポート。AI時代にまず取るべき資格は](/trend/genai-passport-vs-it-passport) — 2資格の役割分担と優先順位
-- [CBT試験会場の予約テクニック](/trend/cbt-exam-venue-booking-tips) — 「会場が取れない」問題の解決法
-- [コスパが良いIT試験の組み合わせ案](/trend/cost-effective-certification-path-2025) — ITパスポートを起点にした資格ポートフォリオ戦略
-- [生成AI関連の資格は意味あるか](/trend/generative-ai-certification-worth) — 認知度と活用場面から考える資格の価値
+- [ITパスポートは「恥ずかしい」資格なのか](/it-passport-shame-debate) — 2026年の市場価値と現実的な評価
+- [最新シラバス攻略｜生成AI・プロンプト変更点と対策](/it-passport-syllabus-genai-update) — シラバス6.3の変更点を整理
+- [生成AIパスポートvsITパスポート。AI時代にまず取るべき資格は](/genai-passport-vs-it-passport) — 2資格の役割分担と優先順位
+- [CBT試験会場の予約テクニック](/cbt-exam-venue-booking-tips) — 「会場が取れない」問題の解決法
+- [コスパが良いIT試験の組み合わせ案](/cost-effective-certification-path-2025) — ITパスポートを起点にした資格ポートフォリオ戦略
+- [生成AI関連の資格は意味あるか](/generative-ai-certification-worth) — 認知度と活用場面から考える資格の価値
 
 ## キャリア戦略
 
 ITパスポート取得後の活用と次の一手を考えるための記事です。
 
-- [非エンジニアがAI時代に市場価値を2倍にするキャリア戦略](/career/itp-non-engineer-career-strategy) — 文系・事務職のための活用設計
-- [地方事務職がITパスポートを取っても給料が上がらない理由](/career/itp-rural-salary-hack) — キャリアの現実と打開策
-- [ITパスポートが「恥ずかしい」と感じるあなたへ](/career/itp-shameful-career-hack) — 武器にする時と捨てる時の見極め方
-- [ITパスポートから応用情報まで｜最短合格ロードマップ](/career/it-passport-to-ap-roadmap) — FE・SG・APへのステップアップ設計
-- [リスキリングは通過点。データで実務を証明するポートフォリオ戦略](/career/reskilling-success-story-it-passport-to-data-scientist) — 資格を活かす実績の作り方
-- [30代未経験エンジニア転職、ITパスポートは武器になるか](/career/30s-career-change) — 転職市場での現実的な評価と次のステップ
-- [ITパスポートの次はAWSかFPか](/career/next-step-aws-vs-fp-strategy) — ITスキルと金融リテラシーの最強キャリアパス
+- [非エンジニアがAI時代に市場価値を2倍にするキャリア戦略](/itp-non-engineer-career-strategy) — 文系・事務職のための活用設計
+- [地方事務職がITパスポートを取っても給料が上がらない理由](/itp-rural-salary-hack) — キャリアの現実と打開策
+- [ITパスポートが「恥ずかしい」と感じるあなたへ](/itp-shameful-career-hack) — 武器にする時と捨てる時の見極め方
+- [ITパスポートから応用情報まで｜最短合格ロードマップ](/it-passport-to-ap-roadmap) — FE・SG・APへのステップアップ設計
+- [リスキリングは通過点。データで実務を証明するポートフォリオ戦略](/reskilling-success-story-it-passport-to-data-scientist) — 資格を活かす実績の作り方
+- [30代未経験エンジニア転職、ITパスポートは武器になるか](/30s-career-change) — 転職市場での現実的な評価と次のステップ
+- [ITパスポートの次はAWSかFPか](/next-step-aws-vs-fp-strategy) — ITスキルと金融リテラシーの最強キャリアパス
 
 ## 練習アプリ
 
 理解の確認と問題演習に使える無料のCBT対応アプリです。
 
-- [ITパスポート 模擬試験シミュレーター（CBT対応）](/app/it-passport-quizx) — 本番形式で全分野を総合演習
-- [ストラテジ系 集中100問ドリル](/app/ip-strategy-drillx) — 最大出題分野を集中特訓
-- [テクノロジ系 集中100問ドリル](/app/ip-technology-drillx) — 用語と仕組みを問題形式で定着
-- [マネジメント系 集中80問ドリル](/app/ip-management-drillx) — 開発手法・監査の頻出問題
+- [ITパスポート 模擬試験シミュレーター（CBT対応）](/it-passport-quiz) — 本番形式で全分野を総合演習
+- [ストラテジ系 集中100問ドリル](/ip-strategy-drill) — 最大出題分野を集中特訓
+- [テクノロジ系 集中100問ドリル](/ip-technology-drill) — 用語と仕組みを問題形式で定着
+- [マネジメント系 集中80問ドリル](/ip-management-drill) — 開発手法・監査の頻出問題
 
 ## 分野別頻出パターン分析
 
@@ -290,11 +290,11 @@ A: 総合評価点1000点満点で600点以上が合格ライン。ただし分�
 
 **Q: 試験直前に何から確認すればいいですか？**
 
-A: 優先順位は①セキュリティ攻撃名10種②ストラテジ系頻出用語15語③計算問題の3パターン（稼働率・2進数・確率）の順。試験前日はこの3点に絞った確認のみで十分だ。詳細は[直前10日の逆転合格術](/method/itp-10-days-panic-hack)に掲載している。
+A: 優先順位は①セキュリティ攻撃名10種②ストラテジ系頻出用語15語③計算問題の3パターン（稼働率・2進数・確率）の順。試験前日はこの3点に絞った確認のみで十分だ。詳細は[直前10日の逆転合格術](/itp-10-days-panic-hack)に掲載している。
 
 **Q: スマートフォンのみでの学習は可能ですか？**
 
-A: 可能。テキスト閲覧・AIとの対話・過去問アプリがすべてスマホ対応している。PCが必要なのは申し込み時のCBTS登録のみだ。[スマホだけで合格する完全ガイド](/method/itp-smartphone-only-hack)に詳細な学習設計を掲載している。
+A: 可能。テキスト閲覧・AIとの対話・過去問アプリがすべてスマホ対応している。PCが必要なのは申し込み時のCBTS登録のみだ。[スマホだけで合格する完全ガイド](/itp-smartphone-only-hack)に詳細な学習設計を掲載している。
 
 ---
 

@@ -115,25 +115,25 @@ SGで学ぶ情報セキュリティの概念（リスク管理・インシデン
 
 ## 学習メソッド
 
-- [完全未経験から情報セキュリティマネジメント試験に受かるロードマップ](/method/sg-beginner-roadmap) — ゼロから3ヶ月で合格する学習計画
-- [セキュリティ事故ニュースを「生きた問題集」に変えるSG攻略法](/method/sg-news-study-hack) — 時事ニュースから出題傾向を読む手順
-- [「SGなんて意味ない」という噂を論破する3つの根拠](/method/sg-meaningless-rumors-hack) — 資格の価値と活用シーンの整理
+- [完全未経験から情報セキュリティマネジメント試験に受かるロードマップ](/sg-beginner-roadmap) — ゼロから3ヶ月で合格する学習計画
+- [セキュリティ事故ニュースを「生きた問題集」に変えるSG攻略法](/sg-news-study-hack) — 時事ニュースから出題傾向を読む手順
+- [「SGなんて意味ない」という噂を論破する3つの根拠](/sg-meaningless-rumors-hack) — 資格の価値と活用シーンの整理
 
 ## 試験情報・トレンド
 
-- [セキュマネ（SG）が「狙い目資格」になっている理由](/trend/sg-exam-popularity-step-up) — 受験者数の推移と需要の変化
-- [情報セキュリティマネジメント最新シラバス改訂の攻略ポイント](/trend/sg-syllabus-latest-change-guide) — 出題変化と対策の更新
+- [セキュマネ（SG）が「狙い目資格」になっている理由](/sg-exam-popularity-step-up) — 受験者数の推移と需要の変化
+- [情報セキュリティマネジメント最新シラバス改訂の攻略ポイント](/sg-syllabus-latest-change-guide) — 出題変化と対策の更新
 
 ## キャリア戦略
 
-- [バックオフィス職が職種変更なしで年収を上げる「セキュリティ」ハック](/career/backoffice-sg-career-hack) — SGを給与・評価に直結させる方法
-- [バックオフィスの武器になる！セキュマネ取得で市場価値を高める理由](/career/backoffice-sg-strategy) — 管理部門からのキャリア設計
-- [広島のバックオフィス職がSGを取ると何が変わるか](/career/backoffice-sg-strategy-hiroshima) — 地方・中小企業での活用事例
-- [静岡のバックオフィス職がSGを活かすキャリア戦略](/career/backoffice-sg-strategy-shizuoka) — 製造業・地方企業の文脈での価値
+- [バックオフィス職が職種変更なしで年収を上げる「セキュリティ」ハック](/backoffice-sg-career-hack) — SGを給与・評価に直結させる方法
+- [バックオフィスの武器になる！セキュマネ取得で市場価値を高める理由](/backoffice-sg-strategy) — 管理部門からのキャリア設計
+- [広島のバックオフィス職がSGを取ると何が変わるか](/backoffice-sg-strategy-hiroshima) — 地方・中小企業での活用事例
+- [静岡のバックオフィス職がSGを活かすキャリア戦略](/backoffice-sg-strategy-shizuoka) — 製造業・地方企業の文脈での価値
 
 ## 練習アプリ
 
-- [SG科目B 実務シナリオ演習ドリル](/app/sg-subject-b-quiz) — 科目B形式の長文シナリオ問題を繰り返し演習
+- [SG科目B 実務シナリオ演習ドリル](/sg-subject-b-quiz) — 科目B形式の長文シナリオ問題を繰り返し演習
 
 ---
 

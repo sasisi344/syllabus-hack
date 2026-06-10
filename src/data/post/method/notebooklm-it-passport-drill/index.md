@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'NotebookLMでITパスポートを完全攻略——用語の自分事化からオリジナルドリル作成まで'
 excerpt: 'NotebookLMを使ってITパスポートの用語を「自分の仕事・生活」に紐付けて記憶し、さらに最新シラバス対応の自分専用50問ドリルを爆速で生成する方法を解説します。'
 image: ~/data/post/method/common-cover.png
@@ -110,8 +110,8 @@ ITパスポート試験に限って言えば、最も効率的なのは <strong>
 ---
 <strong>関連記事：</strong>
 
-- [【NotebookLM】AIを「スパルタ専属コーチ」にするクイズ機能のハック術](/method/notebooklm-quiz)
-- [Geminiに自分専用の過去問を作らせる最強プロンプト集](/method/gemini-prompt-collection)
+- [【NotebookLM】AIを「スパルタ専属コーチ」にするクイズ機能のハック術](/notebooklm-quiz)
+- [Geminiに自分専用の過去問を作らせる最強プロンプト集](/gemini-prompt-collection)
 
 
 

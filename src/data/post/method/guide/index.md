@@ -25,7 +25,7 @@ metadata:
 | <strong>Claude</strong> | 長文・PDFの要約・記述式の言語化・添削 | 午後問題のシナリオ全文を扱う、Projectsで文脈を蓄える |
 | <strong>Gemini</strong> | 検索連携・最新情報の当たり付け | IPAの公式発表や直近トレンドを確認したい |
 
-ITパスポートの手順を1本にまとめた柱は <strong>[ChatGPTでITパスポートに合格する全手順](/method/chatgpt-itpassport-ai-complete-guide)</strong>。基本情報・科目Bのプロンプト索引は <strong>[FE科目Bプロンプトハブ](/method/fe-subject-b-ai-prompt-hub)</strong>。
+ITパスポートの手順を1本にまとめた柱は <strong>[ChatGPTでITパスポートに合格する全手順](/chatgpt-itpassport-ai-complete-guide)</strong>。基本情報・科目Bのプロンプト索引は <strong>[FE科目Bプロンプトハブ](/fe-subject-b-ai-prompt-hub)</strong>。
 
 ## 【重要】2026年、情報処理試験の「ルール」が変わる
 
@@ -33,7 +33,7 @@ ITパスポートの手順を1本にまとめた柱は <strong>[ChatGPTでITパ�
 
 - 筆記試験の廃止、高度試験のCBT化への備え。
 - 生成AI前提の新シラバスに、これまでの参考書で対応できるか？
-- <strong>[2026年CBT完全移行＆新シラバス攻略マスターガイドはこちら](/method/cbt-2026-syllabus-complete-guide)</strong>
+- <strong>[2026年CBT完全移行＆新シラバス攻略マスターガイドはこちら](/cbt-2026-syllabus-complete-guide)</strong>
 
 ## Syllabus Hack メソッドの「3つの柱」
 
@@ -41,21 +41,21 @@ ITパスポートの手順を1本にまとめた柱は <strong>[ChatGPTでITパ�
 
 ### 1. 【Method】最新の「AI学習法」を極める
 シラバス（試験範囲）をNotebookLMなどのAIに読み込ませ、あなた専用の <strong>「24時間使い放題の家庭教師」</strong> を作り出す独自手法です。
-- <strong>[【保存版】NotebookLM×シラバス学習ハック完全ガイド](/method/notebooklm-syllabus-study-method)</strong>
-- <strong>音声学習</strong>: [公式資料を「ポッドキャスト」に変えて隙間時間をハック](/method/notebooklm-podcast)
-- <strong>演習ツール</strong>: [AIを使って「自分専用のドリル」を自動生成する](/method/notebooklm-it-passport-drill)
+- <strong>[【保存版】NotebookLM×シラバス学習ハック完全ガイド](/notebooklm-syllabus-study-method)</strong>
+- <strong>音声学習</strong>: [公式資料を「ポッドキャスト」に変えて隙間時間をハック](/notebooklm-podcast)
+- <strong>演習ツール</strong>: [AIを使って「自分専用のドリル」を自動生成する](/notebooklm-it-passport-drill)
 
 ### 2. 【Strategy】試験別・最短攻略ロードマップ
 ITパスポート、セキュマネ、基本情報の3大試験に対し、AIをフル活用した最短ルートを提示しています。
 - <strong>[ITパスポート](/tag/itパスポート)</strong>: 「広大な範囲をAIで圧縮する」戦略。
-- <strong>[情報セキュリティマネジメント（SG）](/app/sg-quiz)</strong>: 事例からリスクを抽出する「実務脳」の構築。
-- <strong>[基本情報技術者（FE）](/app/fe-quiz)</strong>: 最難関の「アルゴリズム」をAIで視覚化・デバッグ。
+- <strong>[情報セキュリティマネジメント（SG）](/sg-quiz)</strong>: 事例からリスクを抽出する「実務脳」の構築。
+- <strong>[基本情報技術者（FE）](/fe-quiz)</strong>: 最難関の「アルゴリズム」をAIで視覚化・デバッグ。
 
 ### 3. 【Career】資格を「地元での高年収」に変える
 資格は、地方でのキャリアを最大化するための「最強の武器」です。地域の産業特性（マツダ、トヨタ、静岡のメーカーなど）に合わせた活用術を公開。
-- <strong>[【全国版】地方ITキャリアハック・ハブ：地域別の攻略戦略まとめ](/career/regional-it-career-hub)</strong>
-- <strong>広島編</strong>: [広電での移動時間を「暗記のリズム」に変える](/career/backoffice-sg-strategy-hiroshima)
-- <strong>静岡編</strong>: [製造業サプライチェーンでの市場価値を最大化](/career/backoffice-sg-strategy-shizuoka)
+- <strong>[【全国版】地方ITキャリアハック・ハブ：地域別の攻略戦略まとめ](/regional-it-career-hub)</strong>
+- <strong>広島編</strong>: [広電での移動時間を「暗記のリズム」に変える](/backoffice-sg-strategy-hiroshima)
+- <strong>静岡編</strong>: [製造業サプライチェーンでの市場価値を最大化](/backoffice-sg-strategy-shizuoka)
 
 ---
 

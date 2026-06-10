@@ -45,10 +45,10 @@ metadata:
 
 資格は、あなたの「志」を証明する武器になります。
 
-まずは、静岡の製造業や地元有力企業に強い<strong>[地域特化型のキャリアハック・ハブ](/career/regional-it-career-hub)</strong>で、自分の住んでいるエリアの成功事例を確認してみてください。
+まずは、静岡の製造業や地元有力企業に強い<strong>[地域特化型のキャリアハック・ハブ](/regional-it-career-hub)</strong>で、自分の住んでいるエリアの成功事例を確認してみてください。
 
-- <strong>STEP 1</strong>: [セキュマネ最短合格ロードマップ](/method/sg-beginner-roadmap)で基礎を固める。
-- <strong>STEP 2</strong>: [NotebookLMでの音声学習](/method/notebooklm-ip-study-hack)を導入し、車通勤の時間をハック。
+- <strong>STEP 1</strong>: [セキュマネ最短合格ロードマップ](/sg-beginner-roadmap)で基礎を固める。
+- <strong>STEP 2</strong>: [NotebookLMでの音声学習](/notebooklm-ip-study-hack)を導入し、車通勤の時間をハック。
 - <strong>STEP 3</strong>: 資格を武器に、浜松や静岡市内の「隠れた優良BtoB企業」へのキャリアアップを狙う。
 
 ## 静岡限定の勉強ハック：浜松・静岡の「IT交流」を刺激にする
@@ -72,8 +72,8 @@ metadata:
 ---
 
 <strong>関連リンク</strong>:
-- [【全国版】地方エンジニア・事務職のための「地域別キャリアハック」まとめ](/career/regional-it-career-hub)
-- [バックオフィスの武器になる！セキュマネ取得で市場価値を高める理由（総論）](/career/backoffice-sg-strategy)
+- [【全国版】地方エンジニア・事務職のための「地域別キャリアハック」まとめ](/regional-it-career-hub)
+- [バックオフィスの武器になる！セキュマネ取得で市場価値を高める理由（総論）](/backoffice-sg-strategy)
 
 
 

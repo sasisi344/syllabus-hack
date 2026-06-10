@@ -38,7 +38,18 @@ MOS・DS検定・E資格・G検定はハブなし。簿記・宅建・TOEICは�
 
 ---
 
-## 課題A — 即修正: Uncategorized 6件
+## ~~課題A — 即修正: Uncategorized 6件~~ → ✅ 対応済み (2026-06-10確認)
+
+<!-- 確認結果: 全375記事を走査し category フィールドを検証。
+     6件すべて既に有効なカテゴリ（trend/method/career）が設定済み・draft: false。
+     - trend/syllabus-ver9-update → category: trend ✅
+     - method/article-outlines-feb → category: method ✅（実体はROI計算記事に書き換え済み、読者向けコンテンツとして妥当）
+     - career/freelance-fe-merit → category: career ✅
+     - career/gateway-to-advanced → category: career ✅
+     - method/essay-trainer-script → category: method ✅（appIdなし・対応するsrc/apps/エントリも無いため
+       'app'への変更は不要。Pythonスクリプト紹介のmethod記事として妥当）
+     - trend/fe-pseudo-language-trap → category: trend ✅
+     対応済みのため、本リストは過去の実施記録として残す。 -->
 
 | 記事 | 現状 | 修正後カテゴリ | ファイルパス |
 |-----|------|------------|-----------|
@@ -124,7 +135,16 @@ MOS・DS検定・E資格・G検定はハブなし。簿記・宅建・TOEICは�
 
 ## 課題C — 既存記事のカテゴリ整合性
 
-### trend と theory の混在問題
+### ~~trend と theory の混在問題~~ → ✅ 対応済み (2026-06-10)
+
+<!-- 対応結果: category（trend）・URLは変更せず、6記事すべての knowledge.type を
+     'news' → 'theory' に変更。'theory' は src/content/config.ts の knowledge.type enum に
+     既存（theory/algorithm-search-sort 等で使用済み）のため schema バリデーション通過確認済み。
+     lastmod も2026-06-10に更新。
+
+     現状 knowledge.type は src/utils/blog.ts と [...page].astro で 'app' 判定にのみ使用されており、
+     'theory' フィルタの実装はまだ無い。今後 theory 系の横断一覧・関連記事レコメンドを
+     実装する際にこのフラグを活用できる（実装は別タスク）。 -->
 
 trend に入っている以下はtheory的性格が強い。再分類または note 追加を検討。
 
@@ -169,7 +189,36 @@ trend に入っている以下はtheory的性格が強い。再分類または n
 
 ## 課題E — SEO構造の整備
 
-### 内部リンクのハブ化（現状の問題）
+### 内部リンクのハブ化（現状の問題）→ 🟡 主要3ハブ対応済み (2026-06-10)
+
+<!-- 対応結果: itp-hub / fe-hub / ap-hub の3クラスターについて、ハブへの逆リンクが
+     欠けていたスポーク記事35件（it-passport-to-ap-roadmapはitp-hub/ap-hub両方）に
+     既存の確立済みフォーマットでバックリンクを追記。
+       > この記事は [{ハブ記事タイトル}](/{hub-slug}/) の一部です。
+     を、ファイル末尾（まとめの後）に `---` 区切りで追加。lastmodも2026-06-10に更新。
+     pnpm build で1265ページのビルド成功を確認済み。
+
+     内訳:
+     - itp-hub: 18件 (it-passport-study-route-comparison, ip-discard-strategy,
+       notebooklm-ip-study-hack, ip-strategy-ai-hack, cbt-exam-tactics,
+       it-passport-syllabus-genai-update, genai-passport-vs-it-passport,
+       cbt-exam-venue-booking-tips, cost-effective-certification-path-2025,
+       generative-ai-certification-worth, it-passport-to-ap-roadmap,
+       reskilling-success-story-it-passport-to-data-scientist, 30s-career-change,
+       next-step-aws-vs-fp-strategy, it-passport-quiz, ip-strategy-drill,
+       ip-technology-drill, ip-management-drill)
+     - fe-hub: 9件 (sql-join-visual-ai-hack, ip-address-ai-metaphor-hack,
+       gemini-prompt-collection, fe-pseudo-language-trap, fe-certification-value-debate,
+       ipa-exam-trends-2026, fe-career-modern-web, fundamental-it-engineer-for-non-engineers,
+       fe-quiz)
+     - ap-hub: 9件 (ipa-2026-cbt-confirmed-schedule, applied-advanced-exam-cbt-transition-2026,
+       cbt-impact-advanced-exams, ap-2026-spring-postponed, ses-ap-independence-strategy,
+       ipa-certification-salary-impact, it-passport-to-ap-roadmap, ap-quiz, ap-subject-b)
+
+     残課題: sg-hub / aws-hub / ccna-hub / fp-hub / denken-hub / mos-hub / boki-hub /
+     takken-hub / g-kentei-hub / ds-kentei-hub / kiken-butsu-hub /
+     fe-subject-b-ai-prompt-hub / advanced-ipa-hub / level4-strategy-hub の14ハブは
+     未着手（後続タスク）。 -->
 
 個別記事からhub記事へのリンクが弱い。逆も同様。
 理想の内部リンク構造:
@@ -183,6 +232,7 @@ trend に入っている以下はtheory的性格が強い。再分類または n
 ```
 
 現状は「hub → 個別」は一方向リンクになりがち。個別記事にも「← hub記事に戻る」導線が必要。
+→ itp-hub / fe-hub / ap-hub の主要3クラスターは対応済み。残り14ハブは後続タスク。
 
 ### タイトルパターンの統一
 

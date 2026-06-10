@@ -1,13 +1,13 @@
 ---
 title: '走りながら作る！アジャイル開発のメリットとスクラムの流れ'
 publishDate: 2026-03-31T00:00:00Z
-lastmod: 2026-04-17
+lastmod: 2026-06-10
 category: trend
 tags: ['アジャイル', 'ウォーターフォール', 'ITパスポート', '開発モデル', '試験対策']
 persona: システム開発の流れを知りたいビジネスパーソン・学生
 knowledge:
   examId: ip
-  type: news
+  type: theory
   difficulty: beginner
 image: ~/data/post/trend/common-cover.png
 metadata:

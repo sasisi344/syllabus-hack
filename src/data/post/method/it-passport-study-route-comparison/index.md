@@ -1,7 +1,7 @@
 ---
 title: "【ITパスポート】独学・AI学習・通信講座のどれが最短？タイプ別合格ルート比較"
 publishDate: 2026-03-31T00:00:00Z
-lastmod: 2026-04-24
+lastmod: 2026-06-10
 category: method
 tags: ['ITパスポート', 'ChatGPT', 'Claude', 'Gemini', '勉強法']
 persona: 最適な学習プランを立てたい受験生
@@ -105,5 +105,6 @@ Syllabus Hackは、<strong>「AIもPCも苦手な人」が、「AIという武�
 
 あなたの合格を、AIと共に応援しています。
 
+---
 
-
+> この記事は [ITパスポート完全攻略ガイド](/itp-hub/) の一部です。

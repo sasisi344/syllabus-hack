@@ -148,14 +148,14 @@ CCNAの「IPコネクティビティ」でOSPFが理解できません。
 
 | 記事 | カテゴリ | 内容 |
 |-----|--------|-----|
-| [CCNA合格率20%でも独学で受かる人の共通点](/method/ccna-ai-hack/) | method | シラバスの出題密度マップの作り方 |
-| [文系・未経験からCCNA合格ロードマップ](/method/ccna-liberal-arts-roadmap/) | method | 6ヶ月の具体的な学習手順 |
-| [CCNAに落ちた人が最初にやるべきこと](/method/ccna-fail-comeback/) | method | 敗因分析とリベンジ手順 |
-| [CCNAとAWS SAA、どちらを先に取るべきか](/trend/ccna-vs-aws-saa/) | trend | 学習効率から見た取得順番の論理 |
-| [LPIC・CCNA・AWSを取る順番](/trend/lpic-ccna-aws-order/) | trend | インフラ資格の最短ロードマップ |
-| [ルーティングプロトコルとは？OSPF・EIGRP理論解説](/theory/ccna-routing-protocols/) | theory | OSPF/EIGRPの動作原理 |
-| [VLANとSTPとは？CCNA理論解説](/theory/ccna-vlan-stp/) | theory | VLAN設計とスパニングツリー |
-| [CCNAで目指すネットワークエンジニアのキャリアパス](/career/ccna-network-engineer-career/) | career | 年収・転職・上位資格ロードマップ |
+| [CCNA合格率20%でも独学で受かる人の共通点](/ccna-ai-hack/) | method | シラバスの出題密度マップの作り方 |
+| [文系・未経験からCCNA合格ロードマップ](/ccna-liberal-arts-roadmap/) | method | 6ヶ月の具体的な学習手順 |
+| [CCNAに落ちた人が最初にやるべきこと](/ccna-fail-comeback/) | method | 敗因分析とリベンジ手順 |
+| [CCNAとAWS SAA、どちらを先に取るべきか](/ccna-vs-aws-saa/) | trend | 学習効率から見た取得順番の論理 |
+| [LPIC・CCNA・AWSを取る順番](/lpic-ccna-aws-order/) | trend | インフラ資格の最短ロードマップ |
+| [ルーティングプロトコルとは？OSPF・EIGRP理論解説](/ccna-routing-protocols/) | theory | OSPF/EIGRPの動作原理 |
+| [VLANとSTPとは？CCNA理論解説](/ccna-vlan-stp/) | theory | VLAN設計とスパニングツリー |
+| [CCNAで目指すネットワークエンジニアのキャリアパス](/ccna-network-engineer-career/) | career | 年収・転職・上位資格ロードマップ |
 
 ---
 

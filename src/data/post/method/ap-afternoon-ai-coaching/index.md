@@ -87,8 +87,8 @@ Geminiは、特定のチェックリストに基づいて、迅速かつ正確�
 
 ## 🧐 あわせて読みたい（AP攻略メソッド）
 
-- [ <strong>応用情報で自社に残るか外へ飛ぶか。エンジニアの自信を取り戻すAP活用術</strong> ](/career/ses-ap-strategy)
-- [ <strong>重要用語フラッシュカード：暗記ハック</strong> ](/app/flashcard-app)
+- [ <strong>応用情報で自社に残るか外へ飛ぶか。エンジニアの自信を取り戻すAP活用術</strong> ](/ses-ap-strategy)
+- [ <strong>重要用語フラッシュカード：暗記ハック</strong> ](/flashcard-app)
 
 ---
 
@@ -98,9 +98,9 @@ Geminiは、特定のチェックリストに基づいて、迅速かつ正確�
 
 ### 応用情報技術者 攻略ツール
 
-- [ <strong>重要用語フラッシュカード：暗記ハック</strong> ](/app/flashcard-app)
+- [ <strong>重要用語フラッシュカード：暗記ハック</strong> ](/flashcard-app)
   AP試験の膨大な用語を、隙間時間で効率的にインプット。
-- [ <strong>SC（情報処理安全確保支援士）専門用語特訓</strong> ](/app/sc-specialist-quiz)
+- [ <strong>SC（情報処理安全確保支援士）専門用語特訓</strong> ](/sc-specialist-quiz)
   記述式問題でも頻出するセキュリティ用語を、より高度なレベルで網羅。
 
 ---

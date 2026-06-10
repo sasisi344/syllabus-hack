@@ -61,8 +61,8 @@ metadata:
 
 ## 🧐 あわせて読みたい（SGキャリア戦略）
 
-- [<strong>バックオフィスの武器になる！セキュマネ取得で市場価値を高める理由</strong>](/career/backoffice-sg-strategy)
-- [<strong>【静岡編】中堅メーカーの事務職がセキュマネで市場価値を上げる方法</strong>](/career/backoffice-sg-strategy-shizuoka)
+- [<strong>バックオフィスの武器になる！セキュマネ取得で市場価値を高める理由</strong>](/backoffice-sg-strategy)
+- [<strong>【静岡編】中堅メーカーの事務職がセキュマネで市場価値を上げる方法</strong>](/backoffice-sg-strategy-shizuoka)
 
 ---
 
@@ -72,9 +72,9 @@ metadata:
 
 ### 情報セキュリティマネジメント 攻略マスター & 演習ドリル
 
-- [<strong>情報セキュリティマネジメント 攻略マスター</strong>](/app/sg-quiz)
+- [<strong>情報セキュリティマネジメント 攻略マスター</strong>](/sg-quiz)
   科目A・B完全対応。AI解説付きで「正解の根拠」まで理解できます。
-- [<strong>SG科目B 実務シナリオ演習ドリル</strong>](/app/sg-subject-b-quiz)
+- [<strong>SG科目B 実務シナリオ演習ドリル</strong>](/sg-subject-b-quiz)
   最難関の「科目B」に特化。実務で遭遇し得るシナリオ形式の問題を攻略。
 
 ---

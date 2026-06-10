@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'NotebookLM＋シラバスで資格試験を最短攻略。AI家庭教師を作る「3つのプロンプト」活用術'
 publishDate: 2026-03-25T00:00:00Z
 lastmod: 2026-06-03
@@ -48,11 +48,11 @@ NotebookLMに公式シラバス（PDF）を読み込ませることで、以下�
 
 ### 2. 「聴く参考書」への自動変換（音声オーバービュー）
 最も衝撃的な機能が<strong>「Audio Overview」</strong>です。シラバスを読み込ませてボタンを押すだけで、AI教師二人がその試験の重要ポイントについて対談するPodcastが生成されます。
-👉 <strong>[【詳細】音声学習をハックする手法](/method/notebooklm-podcast)</strong>
+👉 <strong>[【詳細】音声学習をハックする手法](/notebooklm-podcast)</strong>
 
 ### 3. 理解度をデバッグする「無限クイズ生成」
 「シラバスの第3章について、私の弱点を突くような4択問題を作って」という指示一つで、自分専用の問題集が完成します。
-👉 <strong>[【配布】無限ドリル生成プロンプト](/method/notebooklm-quiz)</strong>
+👉 <strong>[【配布】無限ドリル生成プロンプト](/notebooklm-quiz)</strong>
 
 ---
 ## 【Benefit】このメソッドであなたが手に入れる「時間」と「未来」
@@ -68,16 +68,16 @@ NotebookLMハックをマスターすることで、学習プロセスは以下�
 
 合格へのカウントダウンを今すぐ始めましょう。
 
-1.  <strong>シラバスをダウンロード</strong>: IPA公式サイトから最新の[シラバスPDF](/method/pdf-to-text-guide)（ITパスポート、基本情報など）を入手。
+1.  <strong>シラバスをダウンロード</strong>: IPA公式サイトから最新の[シラバスPDF](/pdf-to-text-guide)（ITパスポート、基本情報など）を入手。
 2.  <strong>NotebookLMへ投入</strong>: [NotebookLM公式](https://notebooklm.google.com/)を開き、ソースとしてPDFをアップロード。
 3.  <strong>ハックを開始する</strong>: 以下のガイドに従い、自分の学習スタイルに合わせた機能を使い倒してください。
 
 ### 📚 NotebookLM 活用ハック・全集ロードマップ
-- [【最優先】ITパスポート「自分事化」暗記ハック](/method/notebooklm-ip-study-hack)
-- [【耳学】シラバスをPodcastに変えて通勤時間をハックする](/method/notebooklm-podcast)
-- [【アウトプット】フラッシュカード機能で忘却曲線に抗う](/method/notebooklm-flashcard)
-- [【可視化】マインドマップ機能で脳内バグを修正する](/method/notebooklm-mindmap)
-- [【実戦】AIをスパルタコーチにするクイズ機能ハック](/method/notebooklm-quiz)
+- [【最優先】ITパスポート「自分事化」暗記ハック](/notebooklm-ip-study-hack)
+- [【耳学】シラバスをPodcastに変えて通勤時間をハックする](/notebooklm-podcast)
+- [【アウトプット】フラッシュカード機能で忘却曲線に抗う](/notebooklm-flashcard)
+- [【可視化】マインドマップ機能で脳内バグを修正する](/notebooklm-mindmap)
+- [【実戦】AIをスパルタコーチにするクイズ機能ハック](/notebooklm-quiz)
 
 ---
 ## 【Scarcity】2026年、すべての試験は「デジタル」へ

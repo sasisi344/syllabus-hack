@@ -102,8 +102,8 @@ Python経験者が最も苦しむのは、FEの擬似言語が<strong>「配列�
 プログラミング知識がゼロであっても、 <strong>ChatGPT</strong> ・ <strong>Claude</strong> ・ <strong>Gemini</strong> を用途で切り替える <strong>「専属コーチ＆翻訳機」</strong> があれば、難しい擬似言語も必ず理解できるようになります。
 このロードマップに沿って、毎日AIと一緒に「机上トレース」を繰り返し、最短で基本情報合格を掴み取りましょう！
 
-- <strong>実力試し</strong>: 👉 [基本情報技術者 総合対策アプリ](/app/fe-quiz)で学習の進捗をチェックする
-- <strong>次のステップ</strong>: 👉 [ITパスポートから応用情報への最短登頂スケジュール](/career/it-passport-to-ap-roadmap)を確認する
+- <strong>実力試し</strong>: 👉 [基本情報技術者 総合対策アプリ](/fe-quiz)で学習の進捗をチェックする
+- <strong>次のステップ</strong>: 👉 [ITパスポートから応用情報への最短登頂スケジュール](/it-passport-to-ap-roadmap)を確認する
 ---
 
 > この記事は [基本情報技術者試験 完全攻略ガイド](/fe-hub/) の一部です。

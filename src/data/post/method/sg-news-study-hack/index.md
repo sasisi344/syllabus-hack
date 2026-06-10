@@ -79,5 +79,5 @@ metadata:
 
 <strong>関連リンク</strong>:
 
-- [セキュマネ「1割の守護神」戦略 — 日本の性善説を守るリーダーへの道（総論）](/career/backoffice-sg-strategy)
-- [【セキュマネ攻略】スマホで解ける！重要用語フラッシュカード](/app/flashcard-app)
+- [セキュマネ「1割の守護神」戦略 — 日本の性善説を守るリーダーへの道（総論）](/backoffice-sg-strategy)
+- [【セキュマネ攻略】スマホで解ける！重要用語フラッシュカード](/flashcard-app)

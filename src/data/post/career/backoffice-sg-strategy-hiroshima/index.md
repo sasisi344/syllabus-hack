@@ -45,10 +45,10 @@ metadata:
 
 資格取得はゴールではなく、新しいキャリアへの「切符」です。
 
-まずは、広島の製造業やIT企業に強い<strong>[地域特化型のキャリア支援サービス](/career/regional-it-career-hub)</strong>で、自分の現在の市場価値を確認してみましょう。
+まずは、広島の製造業やIT企業に強い<strong>[地域特化型のキャリア支援サービス](/regional-it-career-hub)</strong>で、自分の現在の市場価値を確認してみましょう。
 
-- <strong>STEP 1</strong>: [セキュマネ最短合格ロードマップ](/method/sg-beginner-roadmap)で学習を開始。
-- <strong>STEP 2</strong>: 広電の移動時間を[音声学習](/method/notebooklm-podcast)でハック。
+- <strong>STEP 1</strong>: [セキュマネ最短合格ロードマップ](/sg-beginner-roadmap)で学習を開始。
+- <strong>STEP 2</strong>: 広電の移動時間を[音声学習](/notebooklm-podcast)でハック。
 - <strong>STEP 3</strong>: 資格を武器に、マツダ関連企業や地元ITベンチャーへのキャリアアップを狙う。
 
 ## 【広島・広電ハック】路面電車の「ゆったり」を暗記に全振り
@@ -58,7 +58,7 @@ metadata:
 ### 独特の揺れを「暗記のリズム」に
 
 - <strong>スマホを閉じて音声学習</strong>:
-  広電の車内は景色も良く、つい外を眺めてしまいがちですが、あえて「音声講義」を読ませた[NotebookLM](/method/notebooklm-ip-study-hack)を聴きながら景色を眺めることで、視覚情報とIT用語を脳内でリンクさせる「記憶の宮殿」化が捗ります。
+  広電の車内は景色も良く、つい外を眺めてしまいがちですが、あえて「音声講義」を読ませた[NotebookLM](/notebooklm-ip-study-hack)を聴きながら景色を眺めることで、視覚情報とIT用語を脳内でリンクさせる「記憶の宮殿」化が捗ります。
 - <strong>本通・紙屋町周辺の拠点化</strong>:
   試験会場（CBTセンター）が多い市内中心部。広電での移動の合間に、本通周辺のカフェで最終確認を行うのが「広島スタイル」の合格術です。
 
@@ -71,8 +71,8 @@ metadata:
 ---
 
 <strong>関連リンク</strong>:
-- [【全国版】地方エンジニア・事務職のための「地域別キャリアハック」まとめ](/career/regional-it-career-hub)
-- [バックオフィスの武器になる！セキュマネ取得で市場価値を高める理由（総論）](/career/backoffice-sg-strategy)
+- [【全国版】地方エンジニア・事務職のための「地域別キャリアハック」まとめ](/regional-it-career-hub)
+- [バックオフィスの武器になる！セキュマネ取得で市場価値を高める理由（総論）](/backoffice-sg-strategy)
 
 
 

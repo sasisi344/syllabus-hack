@@ -90,7 +90,7 @@ Notionは、あなたの「今の現在地」を教えてくれるカーナビ�
 
 ## 🚀 Syllabus Hack ツールとの連携術
 
-Notion単体でも強力ですが、当サイトの[<strong>重要用語フラッシュカード</strong>](/app/flashcard-app)や[<strong>専門クイズ</strong>](/app/it-passport-quiz)と組み合わせることで、その効果は倍増します。
+Notion単体でも強力ですが、当サイトの[<strong>重要用語フラッシュカード</strong>](/flashcard-app)や[<strong>専門クイズ</strong>](/it-passport-quiz)と組み合わせることで、その効果は倍増します。
 
 1.  <strong>アプリで演習</strong>: 隙間時間にフラッシュカードやクイズを解く。
 2.  <strong>苦手項目をNotionに転記</strong>: 間違えた問題や、覚えられない専門用語をNotionの「苦手データベース」に放り込む。

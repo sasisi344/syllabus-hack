@@ -180,9 +180,9 @@ ITパスポート試験が明日です。
 
 ## 次のステップ：基本情報・CBT・NotebookLM
 
-ITパスポートの次に<strong>基本情報技術者・科目B</strong>を目指す場合は、場面別プロンプトの索引である <strong>[FE科目Bを生成AIで攻略するプロンプト集](/method/fe-subject-b-ai-prompt-hub)</strong> へ進むと迷いにくい。
+ITパスポートの次に<strong>基本情報技術者・科目B</strong>を目指す場合は、場面別プロンプトの索引である <strong>[FE科目Bを生成AIで攻略するプロンプト集](/fe-subject-b-ai-prompt-hub)</strong> へ進むと迷いにくい。
 
-<strong>2026年のCBT本番運用</strong>や空白期の学習設計は <strong>[【2026年攻略】IPA試験が「年2回CBT」へ！空白の半年を埋めるAI戦略](/trend/ipa-2026-cbt-strategy-ai)</strong> を参照。シラバスPDFを「読み込ませて聴く」流れは <strong>[NotebookLMでITパスポート用語を聴きながら学ぶ](/method/notebooklm-ip-study-hack)</strong> と組み合わせやすい。
+<strong>2026年のCBT本番運用</strong>や空白期の学習設計は <strong>[【2026年攻略】IPA試験が「年2回CBT」へ！空白の半年を埋めるAI戦略](/ipa-2026-cbt-strategy-ai)</strong> を参照。シラバスPDFを「読み込ませて聴く」流れは <strong>[NotebookLMでITパスポート用語を聴きながら学ぶ](/notebooklm-ip-study-hack)</strong> と組み合わせやすい。
 
 ## 合格後に手に入るもの
 
@@ -201,25 +201,25 @@ ITパスポートの合格証書それ自体より、<strong>AI活用で体得�
 
 | 記事                                                      | こんな人に                           | リンク                                             |
 | --------------------------------------------------------- | ------------------------------------ | -------------------------------------------------- |
-| ITパスポートから応用情報まで——AI活用の4ステップ完全ガイド | 全体手順を体系で把握したい           | [読む](/method/practice-guide-ipa)                 |
-| FE科目Bのプロンプト索引（ChatGPT・Gemini・Claude）        | 基本情報・科目Bの場面別プロンプトが欲しい | [読む](/method/fe-subject-b-ai-prompt-hub)         |
-| シラバスハック学習メソッド総まとめ                        | ITパス・SG・FEの全体像を知りたい     | [読む](/method/guide)                              |
-| AIをメンターにする最短合格ロードマップ                    | シラバス投入プロンプトをすぐ使いたい | [読む](/method/ai-mentor-study-method-roadmap)     |
-| 独学・AI学習・通信講座のどれが最短か                      | どの学習ルートを選ぶか迷っている     | [読む](/method/it-passport-study-route-comparison) |
+| ITパスポートから応用情報まで——AI活用の4ステップ完全ガイド | 全体手順を体系で把握したい           | [読む](/practice-guide-ipa)                 |
+| FE科目Bのプロンプト索引（ChatGPT・Gemini・Claude）        | 基本情報・科目Bの場面別プロンプトが欲しい | [読む](/fe-subject-b-ai-prompt-hub)         |
+| シラバスハック学習メソッド総まとめ                        | ITパス・SG・FEの全体像を知りたい     | [読む](/guide)                              |
+| AIをメンターにする最短合格ロードマップ                    | シラバス投入プロンプトをすぐ使いたい | [読む](/ai-mentor-study-method-roadmap)     |
+| 独学・AI学習・通信講座のどれが最短か                      | どの学習ルートを選ぶか迷っている     | [読む](/it-passport-study-route-comparison) |
 
 ### ツール・プロンプト特化系
 
 | 記事                                         | こんな人に                       | リンク                                   |
 | -------------------------------------------- | -------------------------------- | ---------------------------------------- |
-| ChatGPT・Geminiを「AI家庭教師」にする方法    | ツールの使い方を具体的に知りたい | [読む](/method/agent-teacher)            |
-| NotebookLMでITパスポート用語を聴きながら学ぶ | 音声・ながら学習で効率を上げたい | [読む](/method/notebooklm-ip-study-hack) |
-| ストラテジ系をAIの「たとえ話」で攻略         | ストラテジ分野だけが苦手         | [読む](/method/ip-strategy-ai-hack)      |
+| ChatGPT・Geminiを「AI家庭教師」にする方法    | ツールの使い方を具体的に知りたい | [読む](/agent-teacher)            |
+| NotebookLMでITパスポート用語を聴きながら学ぶ | 音声・ながら学習で効率を上げたい | [読む](/notebooklm-ip-study-hack) |
+| ストラテジ系をAIの「たとえ話」で攻略         | ストラテジ分野だけが苦手         | [読む](/ip-strategy-ai-hack)      |
 
 ### 時間がない人向け
 
 | 記事                                     | こんな人に                    | リンク                                 |
 | ---------------------------------------- | ----------------------------- | -------------------------------------- |
-| あと10日でITパスポートに合格するAIハック | 試験まで2週間以内で追い込み中 | [読む](/method/itp-10-days-panic-hack) |
+| あと10日でITパスポートに合格するAIハック | 試験まで2週間以内で追い込み中 | [読む](/itp-10-days-panic-hack) |
 
 ---
 

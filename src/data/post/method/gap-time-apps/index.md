@@ -32,16 +32,16 @@ metadata:
 
 信号待ちやレジの行列など、1分単位の隙間時間には <strong>アウトプット</strong> が最強です。
 
-- [<strong>ITパスポート 模擬試験シミュレーター</strong>](/app/it-passport-quiz):
+- [<strong>ITパスポート 模擬試験シミュレーター</strong>](/it-passport-quiz):
   ホーム画面に追加しておけば、1問単位でサクサク解けます。ゲーム感覚で脳に刺激を与えましょう。
-- [<strong>分野別ドリル（ストラテジ/マネジメント/テク）</strong>](/app/ip-strategy-drill):
+- [<strong>分野別ドリル（ストラテジ/マネジメント/テク）</strong>](/ip-strategy-drill):
   「今日はストラテジ系だけ5分」といった、ピンポイントな特訓に最適です。
 
 ### 2. 「目」でインプット：フラッシュカード
 
 膨大なIT用語の暗記には、反射神経を鍛えるフラッシュカードが有効です。
 
-- [<strong>暗記ハック：IPA重要用語フラッシュカード</strong>](/app/flashcard-app):
+- [<strong>暗記ハック：IPA重要用語フラッシュカード</strong>](/flashcard-app):
   スマホのフリック操作で、シラバス用語を「見た瞬間に意味が言える」レベルまで叩き込みます。
 
 ### 3. 「耳」で学ぶ：音声学習
@@ -71,8 +71,8 @@ metadata:
 
 <strong>関連リンク</strong>:
 
-- [ITパスポート「生存戦略」— 9割の社会人が知らない、ITを使いこなす技術（総論）](/career/ip-survival-strategy)
-- [経済学ゼロからでも解ける！ストラテジ系をAIの「たとえ話」で攻略する技術](/method/ip-strategy-ai-hack)
+- [ITパスポート「生存戦略」— 9割の社会人が知らない、ITを使いこなす技術（総論）](/ip-survival-strategy)
+- [経済学ゼロからでも解ける！ストラテジ系をAIの「たとえ話」で攻略する技術](/ip-strategy-ai-hack)
 
 
 

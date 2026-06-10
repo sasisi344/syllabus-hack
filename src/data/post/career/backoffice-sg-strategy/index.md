@@ -66,7 +66,7 @@ metadata:
 
 ## 🧐 おすすめの深掘り記事（キャリア戦略）
 
-- [<strong>バックオフィス職が職種変更なしで年収を上げる「セキュリティ」ハック</strong>](/career/backoffice-sg-career-hack)
+- [<strong>バックオフィス職が職種変更なしで年収を上げる「セキュリティ」ハック</strong>](/backoffice-sg-career-hack)
 
 ---
 
@@ -76,9 +76,9 @@ metadata:
 
 ### 情報セキュリティマネジメント 攻略マスター & 演習ドリル
 
-- [<strong>情報セキュリティマネジメント 攻略マスター</strong>](/app/sg-quiz)
+- [<strong>情報セキュリティマネジメント 攻略マスター</strong>](/sg-quiz)
   科目A・B完全対応。AI解説付きで「正解の根拠」まで理解できます。
-- [<strong>SG科目B 実務シナリオ演習ドリル</strong>](/app/sg-subject-b-quiz)
+- [<strong>SG科目B 実務シナリオ演習ドリル</strong>](/sg-subject-b-quiz)
   最難関の「科目B」に特化。実務で遭遇し得るシナリオ形式の問題を攻略。
 
 ---
@@ -91,8 +91,8 @@ metadata:
 
 ### 地域別キャリアハック一覧
 
-- [【静岡編】中堅メーカーの事務職がセキュマネで市場価値を上げる方法](/career/backoffice-sg-strategy-shizuoka)
-- [【広島編】広電（路面電車）の「揺れ」をリズムに変える暗記ハック](/career/backoffice-sg-strategy-hiroshima)
+- [【静岡編】中堅メーカーの事務職がセキュマネで市場価値を上げる方法](/backoffice-sg-strategy-shizuoka)
+- [【広島編】広電（路面電車）の「揺れ」をリズムに変える暗記ハック](/backoffice-sg-strategy-hiroshima)
 - （順次追加予定）
 
 ---

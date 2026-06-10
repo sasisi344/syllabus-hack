@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-05-30
+lastmod: 2026-06-10
 publishDate: 2026-03-31T00:00:00Z
 title: "ブラウザ経由の罠！XSS（クロスサイトスクリプティング）の脅威とWebサイトの保護方法"
 excerpt: "掲示板やSNSに潜む不正スクリプト。XSSの仕組みから、サニタイジングやWAFなどの防御策まで、ITパスポート試験の重要ポイントを速攻解説。"
@@ -9,7 +9,7 @@ tags: [XSS, 情報セキュリティ, サイバー攻撃, ITパスポート, WAF
 persona: "Webサイトの安全性を学びたい新米エンジニア"
 knowledge:
   examId: ip
-  type: news
+  type: theory
   difficulty: beginner
 ---
 <div class="summary-box">

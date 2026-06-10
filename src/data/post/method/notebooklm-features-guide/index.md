@@ -145,7 +145,7 @@ NotebookLMだけで完結する試験勉強の基本フローです。
 ソース資料が日本語でも英語出力になる場合があります。ノートブックのメモ欄に「このノートの音声は日本語で生成してください」と記録すると改善されます。
 
 **Q: NotebookLMとChatGPT/Geminiは使い分けが必要ですか？**
-NotebookLM単独でも十分学習できます。他のAIと組み合わせるとさらに効果が高まりますが、それは[別ガイド](/method/notebooklm-ai-workflow-guide/)で解説しています。
+NotebookLM単独でも十分学習できます。他のAIと組み合わせるとさらに効果が高まりますが、それは[別ガイド](/notebooklm-ai-workflow-guide/)で解説しています。
 
 ---
 

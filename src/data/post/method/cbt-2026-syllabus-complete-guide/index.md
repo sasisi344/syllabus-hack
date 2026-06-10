@@ -31,15 +31,15 @@ IPA（情報処理推進機構）が発表したこの大きな転換は、受�
 
 ### 1. 高度試験を含む「CBT完全移行」の衝撃
 ついに論述式（午後II）を含む高度試験もCBT化が進みます。タイピング速度が合否に直結する時代。これまでの「手書き対策」は通用しなくなります。
-→ [CBT時代のタイピング＆入力ハック術](/method/typing-speed-cbt)
+→ [CBT時代のタイピング＆入力ハック術](/typing-speed-cbt)
 
 ### 2. シラバス 6.x / 7.x 世代への適応
 シラバスには「生成AIの利活用」「ゼロトラスト」「DX推進」といったモダンなキーワードが大量に注入されています。過去問の丸暗記だけでは、もはや太刀打ちできません。
-→ [AIを使ってシラバスの「差分」だけを狙い撃つ方法](/method/syllabus-diff-hack)
+→ [AIを使ってシラバスの「差分」だけを狙い撃つ方法](/syllabus-diff-hack)
 
 ### 3. 「紙のテキスト」から「ハイブリッド学習」へ
 最新のシラバス変更に最も速く対応できるのは、紙の書籍ではなく「AI（LLM）」です。AIを家庭教師に、NotebookLMを外部脳に。この「新しい学び方」こそが、2026年以降の標準（スタンダード）になります。
-→ <strong>[【保存版】NotebookLM×シラバス学習ハック完全ガイド](/method/notebooklm-syllabus-study-method)</strong>
+→ <strong>[【保存版】NotebookLM×シラバス学習ハック完全ガイド](/notebooklm-syllabus-study-method)</strong>
 
 ## 【Benefit】「2026年基準」のスキルが、あなたの市場価値を直結させる
 
@@ -47,15 +47,15 @@ IPA（情報処理推進機構）が発表したこの大きな転換は、受�
 
 1.  <strong>「最新」の証明</strong>: 2026年以降の合格者は、生成AIや最新セキュリティに明るいことが担保されます。
 2.  <strong>生産性の向上</strong>: AIを使いこなした学習経験は、そのまま現場での「AI活用スキル」に転化されます。
-3.  <strong>キャリアの安定</strong>: 制度が変わっても揺るがない「基礎体力（ITリテラシー）」は、[地域別キャリアハック](/career/regional-it-career-hub)で解説した通り、全国どこでも通用する武器になります。
+3.  <strong>キャリアの安定</strong>: 制度が変わっても揺るがない「基礎体力（ITリテラシー）」は、[地域別キャリアハック](/regional-it-career-hub)で解説した通り、全国どこでも通用する武器になります。
 
 ## 【Action】今日から始める「2026年対策」ロードマップ
 
 変化に飲み込まれる前に、一歩先を行くアクションを開始しましょう。
 
 - <strong>STEP 1</strong>: 自分の受ける試験の「新旧シラバス差分」を確認する。
-- <strong>STEP 2</strong>: <strong>[最短合格ロードマップ一覧](/method/guide)</strong>から、自分のレベルに合った戦略を選ぶ。
-- <strong>STEP 3</strong>: <strong>[NotebookLMを導入](/method/notebooklm-features-guide)</strong>し、最新のPDF資料を「自分専用の教科書」に変える。
+- <strong>STEP 2</strong>: <strong>[最短合格ロードマップ一覧](/guide)</strong>から、自分のレベルに合った戦略を選ぶ。
+- <strong>STEP 3</strong>: <strong>[NotebookLMを導入](/notebooklm-features-guide)</strong>し、最新のPDF資料を「自分専用の教科書」に変える。
 
 ## 試験区分別 CBT移行スケジュール（2026年対応版）
 
@@ -150,9 +150,9 @@ A: 1分間30文字未満だと時間的に厳しい局面もありますが、�
 ---
 
 <strong>次に読むべき記事</strong>:
-- [情報セキュリティマネジメント試験（SG）完全攻略ガイド](/method/sg-hub)
-- [応用情報技術者試験 完全攻略ガイド](/method/ap-hub)
-- [高度情報処理技術者試験 完全攻略ガイド](/method/advanced-ipa-hub)
+- [情報セキュリティマネジメント試験（SG）完全攻略ガイド](/sg-hub)
+- [応用情報技術者試験 完全攻略ガイド](/ap-hub)
+- [高度情報処理技術者試験 完全攻略ガイド](/advanced-ipa-hub)
 
 
 

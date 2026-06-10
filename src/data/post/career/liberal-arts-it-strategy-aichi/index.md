@@ -44,10 +44,10 @@ CASEやMaaSといったキーワードが飛び交う中で、企業が求めて
 
 愛知の巨大な産業構造の中で、どこに身を置くべきか。
 
-まずは、愛知の就活市場に特化した具体的な戦法を<strong>[地域特化型のキャリアハック・ハブ](/career/regional-it-career-hub)</strong>で確認してください。
+まずは、愛知の就活市場に特化した具体的な戦法を<strong>[地域特化型のキャリアハック・ハブ](/regional-it-career-hub)</strong>で確認してください。
 
-- <strong>STEP 1</strong>: [ITパスポート最短合格ロードマップ](/method/ip-beginner-roadmap)で「共通言語」を習得。
-- <strong>STEP 2</strong>: [NotebookLMでの音声ハック](/method/notebooklm-ip-study-hack)を使い、ハンドルを握りながら知識を定着。
+- <strong>STEP 1</strong>: [ITパスポート最短合格ロードマップ](/itp-hub)で「共通言語」を習得。
+- <strong>STEP 2</strong>: [NotebookLMでの音声ハック](/notebooklm-ip-study-hack)を使い、ハンドルを握りながら知識を定着。
 - <strong>STEP 3</strong>: 資格を武器に、地元の優良BtoB・製造業インターンシップへ挑戦。
 
 ## 愛知限定の勉強ハック：通勤・通学時間を「改善」する
@@ -69,8 +69,8 @@ CASEやMaaSといったキーワードが飛び交う中で、企業が求めて
 ---
 
 <strong>関連リンク</strong>:
-- [【全国版】地方エンジニア・事務職のための「地域別キャリアハック」まとめ](/career/regional-it-career-hub)
-- [文系就活の最強カード「ITリテラシー」で内定を勝ち取る戦略（総論）](/career/liberal-arts-it-strategy)
+- [【全国版】地方エンジニア・事務職のための「地域別キャリアハック」まとめ](/regional-it-career-hub)
+- [文系就活の最強カード「ITリテラシー」で内定を勝ち取る戦略（総論）](/liberal-arts-it-strategy)
 
 
 
