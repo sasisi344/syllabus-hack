@@ -153,6 +153,7 @@ image: '~/data/post/{category}/{slug}/cover.jpg'
 category: 'method' # trend / method / career / app / theory のいずれか
 tags: ['タグ1', 'タグ2', 'タグ3'] # 3〜5個、tag_rules.md の正規タグ名を使用
 draft: false
+toc: true # 新規記事は必須。冒頭の結論先出しと合わせて読了率改善のため設定
 persona: 'IT初学者' # ターゲット読者（例: 30代未経験転職希望者）
 knowledge:
   examId: 'it-passport' # 試験ID（it-passport / sg / fe 等）

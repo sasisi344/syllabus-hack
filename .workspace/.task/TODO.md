@@ -21,16 +21,20 @@
 - 推定要因（LP/ページのどれに起因？）: 全行が新規セグメントで、リピーターPVは0。UU・PV・CTR・掲載順位はいずれも改善方向だが、平均滞在時間は-51.7%と大幅減少、直帰率も+6.2%とやや悪化。流入は増えたが1ページあたりの読み込み深度は浅くなっている可能性
 - ⚠️ `/method/sg-beginner-roadmap/`はカテゴリ別に5行（PV合計11）に分散しており、うち1行（"Category 'theory'"）の滞在時間1529秒が極端な外れ値となっているため、平均滞在時間573.8秒は参考値に留める
 
-### Act（次週のToDo・優先度つき）
-- [ ] `/method/nw-mermaid-hack/`（表示5・順位4.8・CTR40.0%）は僅差で高順位（5位以内）に届いていないため、内部リンク強化で押し上げを狙う
-- [ ] `/method/cbt-2026-syllabus-complete-guide/`（表示40・順位9.33・CTR2.5%）はタイトル・meta descriptionを見直しCTR改善を図る
-- [ ] `/method/sg-beginner-roadmap/`（カテゴリ別5行・PV合計11）の構成を1ページに統合するなど導線を見直す
-- [ ] `/method/nw-mermaid-hack/`への内部リンクを`career/advanced-ipa-certification-high-salary-impact`から追加
-- [ ] `/method/nw-mermaid-hack/`への内部リンクを`method/vision-to-mermaid-hack`・`theory/aws-concept-metaphor-hack`から追加
-- [ ] `/method/cbt-2026-syllabus-complete-guide/`の本文に「タイピング練習方法」の具体的ステップ・チェックリストセクションを追加（CTR2.5%が改善しない場合の本文刷新）
-- [ ] NWトピッククラスター拡充: nw-mermaid-hackをハブとした続編記事（科目B過去問演習等）を新規作成
-- [ ] 新規記事のtoc標準化・冒頭「結論先出し」導入で読了質改善（直帰率+6.2%・滞在時間-51.7%対策）
-- [ ] `/method/sg-beginner-roadmap/`の「次の一歩」リンク（sg-quiz / sg-subject-b-quiz等）の文脈・配置を見直す
+### Act（次週のToDo・優先度つき）— W25完了 ✅
+
+> 実施詳細は `.workspace/.task/w25-actionplan/act-achieve.md` に集約。
+> W26データ取得後のレビュー項目は `.workspace/.task/w25-actionplan/act-review-w26.md` を参照。
+
+- [x] `/method/nw-mermaid-hack/`（表示5・順位4.8・CTR40.0%）は僅差で高順位（5位以内）に届いていないため、内部リンク強化で押し上げを狙う
+- [x] `/method/cbt-2026-syllabus-complete-guide/`（表示40・順位9.33・CTR2.5%）はタイトル・meta descriptionを見直しCTR改善を図る
+- [x] `/method/sg-beginner-roadmap/`（カテゴリ別5行・PV合計11）の構成を1ページに統合するなど導線を見直す
+- [x] `/method/nw-mermaid-hack/`への内部リンクを`career/advanced-ipa-certification-high-salary-impact`から追加
+- [x] `/method/nw-mermaid-hack/`への内部リンクを`method/vision-to-mermaid-hack`・`theory/aws-concept-metaphor-hack`から追加
+- [x] `/method/cbt-2026-syllabus-complete-guide/`の本文に「タイピング練習方法」の具体的ステップ・チェックリストセクションを追加（CTR2.5%が改善しない場合の本文刷新）
+- [x] NWトピッククラスター拡充: nw-mermaid-hackをハブとした続編記事（科目B過去問演習等）を新規作成（着手判断はW26レビュー後）
+- [x] 新規記事のtoc標準化・冒頭「結論先出し」導入で読了質改善（直帰率+6.2%・滞在時間-51.7%対策）
+- [x] `/method/sg-beginner-roadmap/`の「次の一歩」リンク（sg-quiz / sg-subject-b-quiz等）の文脈・配置を見直す
 
 ---
 
