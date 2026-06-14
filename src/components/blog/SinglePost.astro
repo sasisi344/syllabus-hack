@@ -5,6 +5,7 @@ import Image from '~/components/common/Image.astro';
 import PostTags from '~/components/blog/Tags.astro';
 import SocialShare from '~/components/common/SocialShare.astro';
 import RegionWidget from '~/apps/region-suggest/RegionWidget';
+import sasisiImg from '~/assets/images/sasisi344.jpg';
 
 import { SITE } from 'astrowind:config';
 import { getCanonical, getPermalink } from '~/utils/permalinks';
@@ -256,6 +257,28 @@ const breadcrumbJsonLd = {
     <div class="mx-auto px-6 sm:px-6 max-w-3xl mt-8 flex justify-between flex-col sm:flex-row">
       <PostTags tags={post.tags} class="mr-5 rtl:mr-0 rtl:ml-5" />
       <SocialShare url={url} text={post.title} class="mt-5 sm:mt-1 align-middle text-gray-500 dark:text-slate-600" />
+    </div>
+
+    <div class="mx-auto px-6 sm:px-6 max-w-3xl mt-10">
+      <a
+        href={getPermalink('about')}
+        class="flex flex-col sm:flex-row gap-4 items-center bg-slate-50 dark:bg-slate-800/40 border border-gray-200 dark:border-gray-700 rounded-2xl p-5 hover:border-primary dark:hover:border-blue-400 transition"
+      >
+        <img
+          src={sasisiImg.src}
+          alt="sasisi344"
+          class="w-16 h-16 flex-shrink-0 object-cover rounded-full border-2 border-gray-100 dark:border-slate-800"
+          loading="lazy"
+          decoding="async"
+        />
+        <div class="text-center sm:text-left">
+          <p class="text-sm text-secondary dark:text-blue-200 font-bold tracking-wide uppercase">執筆者</p>
+          <p class="font-bold text-heading dark:text-white">さしし / @sasisi344</p>
+          <p class="text-sm text-muted mt-1">
+            ITインフラからWeb開発まで幅広く経験。生成AIを使った「対話型」学習メソッドを自ら実践・検証しながらSyllabus Hackで発信しています。
+          </p>
+        </div>
+      </a>
     </div>
   </article>
 </section>

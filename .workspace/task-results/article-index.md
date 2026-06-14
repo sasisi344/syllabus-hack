@@ -1,6 +1,6 @@
 # Syllabus Hack Article Index
 
-Generated on: 2026/6/10 14:27:10
+Generated on: 2026/6/14 14:57:02
 
 | Publish Date | Category | Title | Tags | Path |
 | :--- | :--- | :--- | :--- | :--- |
@@ -277,7 +277,6 @@ Generated on: 2026/6/10 14:27:10
 | 2026-03-08 | trend | ITパスポートは「恥ずかしい」資格なのか？2026年の市場価値と現実 | ITパスポート, 資格試験, キャリア, 就職活動, SyllabusHack | `src/data/post/trend/it-passport-shame-debate/index.md` |
 | 2026-03-07 | trend | 【2026年最新】情報処理技術者試験CBT日程・スケジュール完全ガイド｜前期後期の区分と予約の注意点 | IPA試験, CBT, 応用情報技術者, 高度試験, スケジュール | `src/data/post/trend/ipa-2026-cbt-schedule-guide/index.md` |
 | 2026-03-04 | app | Syllabus Hack開発記：メンテナンス性を高めるファイル構成と実装戦略 | Astro, React, 個人開発, 設計, SyllabusHack | `src/data/post/app/dev-doc-structure-astro/index.md` |
-| 2026-03-04 | trend | 2026年からのCBT化は高度試験にどう影響する？ | CBT, 高度試験, 応用情報技術者, 試験トレンド | `src/data/post/trend/cbt-impact-advanced-exams/index.md` |
 | 2026-03-03 | method | 生成AI問題の攻略：NotebookLMでITパスポートのシラバスをハックする | ITパスポート, NotebookLM, ChatGPT, Claude, 学習メソッド | `src/data/post/method/genai-problem-mastery-notebooklm/index.md` |
 | 2026-03-02 | career | IPA資格でキャリアを切り拓く：転職市場での価値と将来性 | キャリア開発, 転職, リスキリング, 履歴書, IT資格 | `src/data/post/career/ipa-career-value-job-change/index.md` |
 | 2026-03-02 | method | 生成AI・AI倫理の新用語攻略：HITLやRAGを実務の武器にする方法 | ITパスポート, ChatGPT, Claude, Gemini, RAG | `src/data/post/method/ai-new-terms-explanation/index.md` |
