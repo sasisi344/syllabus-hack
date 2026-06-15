@@ -96,6 +96,8 @@ const postCollection = defineCollection({
               'takken',
               'mos',
               'kiken-butsu',
+              'biru-kanri',
+              'doboku-sekou',
             ])
             .optional(),
           exams: z.array(z.string()).optional(),

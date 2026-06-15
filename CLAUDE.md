@@ -48,6 +48,7 @@
 | タスク                                                 | 参照スキル                           |
 | ------------------------------------------------------ | ------------------------------------ |
 | 記事執筆・フレームワーク選定（BEAF/QUEST/PASONA）      | `.agents/post_writer.md`             |
+| 資格クエリ拡張施策（資格Hub記事の新規作成）            | `.agents/cert_hub_template.md`       |
 | カテゴリ分類（trend / method / career / app / theory） | `.agents/category_rules.md`          |
 | タグ選定・正規タグ名                                   | `.agents/tag_rules.md`               |
 | ディレクトリ構造・パス設計                             | `.agents/content_structure.md`       |

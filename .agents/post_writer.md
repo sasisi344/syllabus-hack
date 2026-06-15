@@ -151,3 +151,4 @@ Inject the specific "Syllabus Hack" flavor:
 - **Tagging Strategy**: See `tag_rules.md`
 - **Image Guidelines**: See `image_rules.md`
 - **Dark Mode CSS Pattern**: See `dark_mode_css.md`
+- **Certification Hub Articles**: For 資格クエリ拡張施策（new qualification Hub articles）, see `cert_hub_template.md` for the standard 2-segment ("これから勉強する人" / "現場経験者") × "AI as 専任講師" structure.
