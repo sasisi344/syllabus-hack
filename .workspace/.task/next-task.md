@@ -7,17 +7,27 @@
 
 ---
 
-## フェーズ0: 設計（着手前に完了）
+## フェーズ0: 設計（着手前に完了） → ✅ 完了済み（2026-06-19確認、課題E等の実作業で既に決定・実装済み）
 
-- [ ] **ハブページのテンプレート定義**
-  - frontmatter に `hub: true` フラグを追加するかどうか検討
-  - ハブページのスラッグ規則を決定（例: `{examId}-hub` or `{examId}-complete-guide`）
-  - ハブページのカテゴリ: `method` で統一する
-  - ハブページの構成セクションを決定（下記テンプレート案を参照）
+<!-- 確認結果: src/data/post/ 配下のHubページ19件（itp-hub, fe-hub, ap-hub, sg-hub,
+     advanced-ipa-hub, aws-hub, fp-hub, mos-hub, boki-hub, takken-hub, g-kentei-hub,
+     ds-kentei-hub, ccna-hub, denken-hub, kiken-butsu-hub, biru-kanri-hub,
+     doboku-sekou-hub, level4-strategy-hub, fe-subject-b-ai-prompt-hub）を実査し、
+     以下の設計が既に確定・運用中であることを確認。本フェーズの再設計は不要。 -->
 
-- [ ] **サテライト記事 → ハブへのリンク規則を決定**
-  - 記事末尾の「関連ハブ」セクションの書き方を統一
-  - 例: `> この記事は [ITパスポート完全攻略ガイド](/itp-hub) の一部です。`
+- [x] **ハブページのテンプレート定義**
+  - `hub: true` フラグは**追加しない**（既存19Hubすべてfrontmatterに同フラグなし。`category: method` + スラッグの `-hub` サフィックスで判定する運用）
+  - スラッグ規則: **`{資格名}-hub`**（`itp-hub` `fe-hub` `boki-hub` `takken-hub` 等。`{examId}-hub` ではなくHub名は試験の通称ベース。examIdとスラッグが一致しない場合がある点は `exam-id-catalog.md` 側で管理）
+  - カテゴリ: `method` で統一済み（19件中18件がmethod。例外1件 `career/regional-it-career-hub` は資格横断のキャリアHubで対象外）
+  - 構成セクション: 厳密な固定テンプレートではないが、`itp-hub` 実装パターンが標準形 →
+    `{資格名}とは` → `なぜ今この資格か` → `学習時間の目安` → `推奨学習フロー` →
+    `学習メソッド` / `試験情報・トレンド` / `キャリア戦略` / `練習アプリ`（インデックス各H2） →
+    `よくある質問(faqs)` → `まとめ`
+
+- [x] **サテライト記事 → ハブへのリンク規則を決定** → 確定・適用済み
+  - 書式: `> この記事は [{ハブ記事タイトル}](/{hub-slug}/) の一部です。`
+  - 配置: 記事本文「まとめ」セクションの後、`---` 区切りの直後
+  - 17ハブクラスター・対象スポーク記事へ展開済み（詳細は `restructure-plan-2026-06.md` 課題E参照）
 
 ### ハブページ構成テンプレート案
 
@@ -36,122 +46,98 @@
 
 ---
 
-## フェーズ1: ITパスポート クラスター（最優先・記事数65本）
+## フェーズ1: ITパスポート クラスター（最優先・記事数65本） → ✅ ほぼ完了（2026-06-19確認）
 
-- [ ] **ハブページ作成** `src/data/post/method/itp-hub/`
-  - examId: `ip`
-  - タイトル: 「ITパスポート完全攻略ガイド｜シラバスから合格後まで全リンク集」
-  - 既存65記事を method / trend / career / app / theory 別に一覧化
-  - 各記事へのアンカーリンクを本文中に配置
+- [x] **ハブページ作成** `src/data/post/method/itp-hub/`（既存・運用中）
 
-- [ ] **サテライト記事へのバックリンク追加**（ハブ完成後に実施）
-  - [ ] `method/fast-track-roadmap-20h-pass` に ハブリンク追加
-  - [ ] `method/itp-10-days-panic-hack` にハブリンク追加
-  - [ ] `method/itp-smartphone-only-hack` にハブリンク追加
-  - [ ] `method/chatgpt-itpassport-ai-complete-guide` にハブリンク追加
-  - [ ] `method/final-checkpoint-100-plus` にハブリンク追加
-  - [ ] `career/itp-non-engineer-career-strategy` にハブリンク追加
-  - [ ] `career/itp-rural-salary-hack` にハブリンク追加
-  - [ ] `career/itp-shameful-career-hack` にハブリンク追加
-  - [ ] `trend/it-passport-shame-debate` にハブリンク追加
-  - [ ] （残り記事は examId: ip で絞り込み、スクリプトで一括追加）
+- [x] **サテライト記事へのバックリンク追加**（ハブ完成後に実施）
+  - [x] `method/fast-track-roadmap-20h-pass` にハブリンク追加
+  - [x] `method/itp-10-days-panic-hack` にハブリンク追加
+  - [x] `method/smartphone-study-guide` にハブリンク追加（2026-06-19対応）
+  - [x] `method/chatgpt-itpassport-ai-complete-guide` にハブリンク追加
+  - [x] `career/itp-non-engineer-career-strategy` にハブリンク追加
+  - [x] `career/itp-rural-salary-hack` にハブリンク追加
+  - [x] `career/itp-shameful-career-hack` にハブリンク追加
+  - [x] `trend/it-passport-shame-debate` にハブリンク追加
+  - [x] 残り記事（examId: ip）も `restructure-plan-2026-06.md` 課題E作業で一括対応済み（18件）
 
 ---
 
-## フェーズ2: 基本情報技術者 クラスター（記事数19本）
+## フェーズ2: 基本情報技術者 クラスター（記事数19本） → ✅ 完了（2026-06-19確認）
 
-- [ ] **ハブページ作成** `src/data/post/method/fe-hub/`
-  - examId: `fe`
-  - タイトル: 「基本情報技術者試験 完全攻略ガイド｜科目A・B対策から合格後キャリアまで」
-  - 科目A / 科目B（擬似言語・アルゴリズム）/ キャリア の3軸で記事を整理
+- [x] **ハブページ作成** `src/data/post/method/fe-hub/`（既存・運用中）
 
-- [ ] **サテライト記事へのバックリンク追加**
-  - [ ] `method/fe-subject-b-drill` にハブリンク追加
-  - [ ] `method/fe-subject-b-ai-prompt-hub` にハブリンク追加
-  - [ ] `method/pseudo-code-bridge-to-fe` にハブリンク追加
-  - [ ] `method/fe-pseudo-code-visual-hack` にハブリンク追加
-  - [ ] `method/fe-pseudo-code-ai-hack` にハブリンク追加
-  - [ ] `method/fe-algorithm-roadmap` にハブリンク追加
-  - [ ] `career/fe-engineer-foundation` にハブリンク追加
-  - [ ] `career/freelance-fe-merit` にハブリンク追加
-  - [ ] `career/fe-resume-liar-hack` にハブリンク追加
-  - [ ] （残り記事は examId: fe で絞り込み）
+- [x] **サテライト記事へのバックリンク追加**（確認した9件すべて対応済み）
+  - [x] `method/fe-subject-b-drill`
+  - [x] `method/fe-subject-b-ai-prompt-hub`
+  - [x] `method/pseudo-code-bridge-to-fe`
+  - [x] `method/fe-pseudo-code-visual-hack`
+  - [x] `method/fe-pseudo-code-ai-hack`
+  - [x] `method/fe-algorithm-roadmap`
+  - [x] `career/fe-engineer-foundation`
+  - [x] `career/freelance-fe-merit`
+  - [x] `career/fe-resume-liar-hack`
 
 ---
 
-## フェーズ3: 応用情報技術者 クラスター（記事数15本）
+## フェーズ3: 応用情報技術者 クラスター（記事数15本） → ✅ 完了（2026-06-19確認）
 
-- [ ] **ハブページ作成** `src/data/post/method/ap-hub/`
-  - examId: `ap`
-  - タイトル: 「応用情報技術者試験 完全攻略ガイド｜午前・午後記述対策とキャリア戦略」
-  - 午前対策 / 午後記述対策 / 高度試験へのステップアップ の3軸で整理
+- [x] **ハブページ作成** `src/data/post/method/ap-hub/`（既存・運用中）
 
-- [ ] **サテライト記事へのバックリンク追加**
-  - [ ] `method/ap-discard-strategy` にハブリンク追加
-  - [ ] `method/ap-grader-intent-hack` にハブリンク追加
-  - [ ] `method/ap-grader-blackbox-hack` にハブリンク追加
-  - [ ] `method/ap-afternoon-ai-coaching` にハブリンク追加
-  - [ ] `method/ap-pm-descriptive-ai-prompts` にハブリンク追加
-  - [ ] `career/applied-information-technology-engineer-career-value` にハブリンク追加
-  - [ ] `career/ses-ap-strategy` にハブリンク追加
-  - [ ] `career/ap-cert-practical-use-hack` にハブリンク追加
-  - [ ] （残り記事は examId: ap で絞り込み）
+- [x] **サテライト記事へのバックリンク追加**（確認した8件すべて対応済み）
+  - [x] `method/ap-discard-strategy`
+  - [x] `method/ap-grader-intent-hack`
+  - [x] `method/ap-grader-blackbox-hack`
+  - [x] `method/ap-afternoon-ai-coaching`
+  - [x] `method/ap-pm-descriptive-ai-prompts`
+  - [x] `career/applied-information-technology-engineer-career-value`
+  - [x] `career/ses-ap-strategy`
+  - [x] `career/ap-cert-practical-use-hack`
 
 ---
 
-## フェーズ4: 情報セキュリティマネジメント クラスター（記事数11本）
+## フェーズ4: 情報セキュリティマネジメント クラスター（記事数11本） → ✅ 完了（2026-06-19確認）
 
-- [ ] **ハブページ作成** `src/data/post/method/sg-hub/`
-  - examId: `sg`
-  - タイトル: 「情報セキュリティマネジメント試験 完全攻略ガイド｜科目A・B対策と実務活用」
+- [x] **ハブページ作成** `src/data/post/method/sg-hub/`（既存・運用中）
 
-- [ ] **サテライト記事へのバックリンク追加**
-  - [ ] `method/sg-beginner-roadmap` にハブリンク追加
-  - [ ] `method/sg-meaningless-rumors-hack` にハブリンク追加
-  - [ ] `method/sg-news-study-hack` にハブリンク追加
-  - [ ] `career/backoffice-sg-strategy` にハブリンク追加
-  - [ ] `career/backoffice-sg-career-hack` にハブリンク追加
-  - [ ] `trend/sg-syllabus-latest-change-guide` にハブリンク追加
-  - [ ] （残り記事は examId: sg で絞り込み）
+- [x] **サテライト記事へのバックリンク追加**（確認した6件すべて対応済み）
+  - [x] `method/sg-beginner-roadmap`
+  - [x] `method/sg-meaningless-rumors-hack`
+  - [x] `method/sg-news-study-hack`
+  - [x] `career/backoffice-sg-strategy`
+  - [x] `career/backoffice-sg-career-hack`
+  - [x] `trend/sg-syllabus-latest-change-guide`
 
 ---
 
-## フェーズ5: 高度試験群 クラスター（SC / NW / DB / PM / ST / SA）
+## フェーズ5: 高度試験群 クラスター（SC / NW / DB / PM / ST / SA） → ✅ 完了（2026-06-19対応）
 
-> 各試験の記事数は1〜3本と少ない。個別ハブより「高度試験共通ハブ」1本が現実的。
+- [x] **共通ハブページ作成** `src/data/post/method/advanced-ipa-hub/`（既存・運用中）
 
-- [ ] **共通ハブページ作成** `src/data/post/method/advanced-ipa-hub/`
-  - タイトル: 「IPA高度試験 完全攻略ガイド｜SC / NW / DB / PM / ST / SA の選び方と攻略法」
-  - 各試験の概要・難易度・受験者像を横断比較
-  - 各試験の既存記事（sc: 3, nw: 1, db: 2, pm: 2, st: 3, sa: 1）を試験別にリスト
-
-- [ ] **サテライト記事へのバックリンク追加**
-  - [ ] `method/sc-timeline-hack` にハブリンク追加
-  - [ ] `method/nw-mermaid-hack` にハブリンク追加
-  - [ ] `method/db-normalization-hack` にハブリンク追加
-  - [ ] `method/miss-note-db` にハブリンク追加
-  - [ ] `method/pm-pm2-module-hack` にハブリンク追加
-  - [ ] `method/st-strategy-brainstorming` にハブリンク追加
-  - [ ] `method/st-no-experience-essay-hack` にハブリンク追加
-  - [ ] `method/level4-strategy-hub` にハブリンク追加
+- [x] **サテライト記事へのバックリンク追加**
+  - [x] `method/sc-timeline-hack`
+  - [x] `method/nw-mermaid-hack`
+  - [x] `method/db-normalization-hack`
+  - [x] `method/miss-note-db` — ※`knowledge.examId: fe`のため実際は **fe-hub** へのバックリンクが正（2026-06-19対応、advanced-ipa-hubではない点に注意）
+  - [x] `method/pm-pm2-module-hack`
+  - [x] `method/st-strategy-brainstorming`
+  - [x] `method/st-no-experience-essay-hack`
+  - [x] `method/level4-strategy-hub` — advanced-ipa-hubのサブHub。`fe-subject-b-ai-prompt-hub→fe-hub`の precedentに合わせ advanced-ipa-hub へのバックリンクを追加（2026-06-19対応）
 
 ---
 
-## フェーズ6: IPA以外の資格 クラスター（CCNA / AWS / FP2級 / MOS）
+## フェーズ6: IPA以外の資格 クラスター（CCNA / AWS / FP2級 / MOS） → ✅ 完了（2026-06-19対応）
 
-> 各試験の記事は現在1〜2本。ハブは「将来の拡張ベース」として先に作っておく。
+- [x] **AWS クラスターハブ作成** `src/data/post/method/aws-hub/`（既存・運用中）
+  - [x] `method/aws-personalized-roadmap-hack` にハブリンク追加（2026-06-19対応。`ccna-ai-hack`は別途ccna-hubへリンク済みのため対象外）
+  - [x] `method/ccna-ai-hack` にハブリンク追加済み
 
-- [ ] **AWS クラスターハブ作成** `src/data/post/method/aws-hub/`
-  - 既存記事: `aws-personalized-roadmap-hack` / `ccna-ai-hack`（新規）
-  - CCNA → AWS SAA → AWS ANS のロードマップを軸に構成
+- [x] **FP・マネー系ハブ作成** `src/data/post/method/fp-hub/`（既存・運用中。`fp2-cbt-strategy` は `fp2-3month-plan` として実装済み）
+  - [x] `method/fp-ai-simulator-hack` にハブリンク追加（2026-06-19対応）
+  - [x] `method/fp2-3month-plan` にハブリンク追加済み
 
-- [ ] **FP・マネー系ハブ作成** `src/data/post/method/fp-hub/`
-  - 既存記事: `fp-ai-simulator-hack` / `fp2-cbt-strategy`（新規）
-  - DS検定記事（`trend/ds-kentei`）との連携リンクも追加
-
-- [ ] **ビジネス系PC資格ハブ作成** `src/data/post/method/office-cert-hub/`
-  - 既存記事: `mos-ai-shortcut`（新規）
-  - 将来の MOS エキスパート / Word / PowerPoint 記事の受け皿
+- [x] **ビジネス系PC資格ハブ作成** `src/data/post/method/mos-hub/`（`office-cert-hub` ではなく `mos-hub` として実装済み）
+  - [x] `method/mos-ai-shortcut` にハブリンク追加済み
 
 ---
 

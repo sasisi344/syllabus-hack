@@ -73,7 +73,7 @@ NotebookLMハックをマスターすることで、学習プロセスは以下�
 3.  <strong>ハックを開始する</strong>: 以下のガイドに従い、自分の学習スタイルに合わせた機能を使い倒してください。
 
 ### 📚 NotebookLM 活用ハック・全集ロードマップ
-- [【最優先】ITパスポート「自分事化」暗記ハック](/notebooklm-ip-study-hack)
+- [【最優先】用語「自分事化」暗記ハック](/notebooklm-features-guide)
 - [【耳学】シラバスをPodcastに変えて通勤時間をハックする](/notebooklm-podcast)
 - [【アウトプット】フラッシュカード機能で忘却曲線に抗う](/notebooklm-flashcard)
 - [【可視化】マインドマップ機能で脳内バグを修正する](/notebooklm-mindmap)

@@ -49,6 +49,7 @@
 | ------------------------------------------------------ | ------------------------------------ |
 | 記事執筆・フレームワーク選定（BEAF/QUEST/PASONA）      | `.agents/post_writer.md`             |
 | 資格クエリ拡張施策（資格Hub記事の新規作成）            | `.agents/cert_hub_template.md`       |
+| 横展開資格のKW調査・記事企画（宅建・簿記・MOS等）      | `.agents/cert_keyword_db.md`         |
 | カテゴリ分類（trend / method / career / app / theory） | `.agents/category_rules.md`          |
 | タグ選定・正規タグ名                                   | `.agents/tag_rules.md`               |
 | ディレクトリ構造・パス設計                             | `.agents/content_structure.md`       |
@@ -79,7 +80,7 @@
 ```
 1. 要件確認: .workspace/.task/ の該当TODOを Read
 2. スキルロード: post_writer.md + category_rules.md を Read（並列可）
-3. ナレッジ参照: .workspace/data-set/ から関連データを Read
+3. ナレッジ参照: .workspace/data-set/ から関連データを Read（横展開資格は cert-keyword-db/ を優先）
 4. 下書き作成: .workspace/draft/ に Write
 5. 本番移行: .agents/workflows/post-complete.md の手順を実行
 ```

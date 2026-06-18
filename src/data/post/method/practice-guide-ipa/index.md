@@ -56,7 +56,7 @@ IPA（情報処理推進機構）が公開するシラバスは、ITパスポー
 「公開鍵暗号方式を、物理的な南京錠とマスターキーで例えて」といったプロンプトが、記憶の定着率を数倍に跳ね上げます。最新の用語の背景を当たりたいときは<strong>Gemini</strong>で公式情報を確認し、説明の芯は<strong>ChatGPT</strong>で固める、の二段構えも有効です。
 
 ### ステップ3：NotebookLMを「最強の家庭教師」に任命する
-最新のトレンドである<strong>NotebookLM</strong>に公式PDFを読み込ませることで、自分専用の「聴く参考書（Podcast）」や「チャットボット」が爆速で完成します（Googleアカウント前提。手順は <strong>[NotebookLM活用ガイド](/notebooklm-ip-study-hack)</strong>）。
+最新のトレンドである<strong>NotebookLM</strong>に公式PDFを読み込ませることで、自分専用の「聴く参考書（Podcast）」や「チャットボット」が爆速で完成します（Googleアカウント前提。手順は <strong>[NotebookLM活用ガイド](/notebooklm-features-guide)</strong>）。
 
 ### ステップ4：ChatGPT／Claudeに「自分の思考のバグ」をデバッグしてもらう
 間違えた理由をAIに分析させます。「なぜ自分の考え方が論理的に飛躍していたのか」を指摘してもらうことで、独学では不可能な<strong>思考の軌道修正</strong>が可能になります。4択の追い込みは<strong>ChatGPT</strong>、長い記述やシナリオ付きの添削は<strong>Claude</strong>が扱いやすいことが多いです。
@@ -91,7 +91,7 @@ IPA（情報処理推進機構）が公開するシラバスは、ITパスポー
 今、AIを使いこなしながら合格を勝ち取る経験をしておくことは、これからのキャリアにおいて決定的な差となります。
 
 - <strong>STEP 1</strong>: まずは[最短スケジュール](/it-passport-to-ap-roadmap)で自分の目標を定める。
-- <strong>STEP 2</strong>: [NotebookLM活用ガイド](/notebooklm-ip-study-hack)でAI教師を起動する。
+- <strong>STEP 2</strong>: [NotebookLM活用ガイド](/notebooklm-features-guide)でAI教師を起動する。
 - <strong>STEP 3</strong>: 本番に備え、[CBT対応のフルキーボード](/typing-speed-cbt)でタイピング感覚を養う。
 
 さあ、シラバスという「地図」をハッキングしましょう。

@@ -45,7 +45,7 @@ metadata:
 まずは、神奈川特有のエンジニア求人やキャリアハックを<strong>[地域特化型のキャリアハック・ハブ](/regional-it-career-hub)</strong>でチェックしてください。
 
 - <strong>STEP 1</strong>: [応用情報最短攻略ロードマップ](/ap-hub)を読み、学習の優先順位を決める。
-- <strong>STEP 2</strong>: [NotebookLMでの音声学習](/notebooklm-ip-study-hack)を導入。湘南新宿ラインの揺れを暗記のリズムに変える。
+- <strong>STEP 2</strong>: [NotebookLMでの音声学習](/notebooklm-features-guide)を導入。湘南新宿ラインの揺れを暗記のリズムに変える。
 - <strong>STEP 3</strong>: 資格を武器に、横浜・川崎の「自社開発・ホワイト企業」へのキャリア相談を始める。
 
 ## 【神奈川・通勤ハック】画面を見ない「完全リスニング」戦略

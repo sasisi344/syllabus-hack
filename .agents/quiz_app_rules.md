@@ -45,6 +45,10 @@ MDX から `examId=` で渡す実際の文字列と、対応する LocalStorage 
 > **新規追加時のルール**: examId は kebab-case、LocalStorage キーは `sh_quiz_{examId}` で自動決定。
 > 他アプリと examId が衝突しないことを上記カタログで確認してから追加する。
 
+> **別カタログとの関係（重要）**: 上表は**クイズアプリ専用**の examId（`MDX → QuizApp` の `examId=` prop）。
+> §1 手順5 で作成する記事（`index.mdx`）の `knowledge.examId` フロントマターは**別の正本**である `.workspace/.task/exam-id-catalog.md`（および `src/content/config.ts` の enum）に従うこと。
+> 2つの ID 体系は値が一致しないことがある（例: アプリ側 `it-passport-mgmt` ↔ 記事側は `ip` を使用）。記事作成時は必ず `exam-id-catalog.md` で記事用 examId を確認・登録する。
+
 ---
 
 ## 3. ディレクトリ構造

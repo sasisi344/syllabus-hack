@@ -23,6 +23,8 @@
 
 > **禁止**: カタログに存在する examId を別アプリで重複使用しない。
 
+> **注意**: ここで決める examId は**アプリ専用**の値。Step 4 で作成する記事（`index.mdx`）の `knowledge.examId` は別の正本 `.workspace/.task/exam-id-catalog.md` に従うため、アプリ側と値が異なってよい（`quiz_app_rules.md` §2 末尾の注記を参照）。記事用 examId は `exam-id-catalog.md` で確認・未登録なら追加する。
+
 ### Step 3: 既存アプリ参照確認
 
 最も近い既存アプリを特定して参照実装として使う:

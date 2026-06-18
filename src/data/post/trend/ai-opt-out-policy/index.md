@@ -1,5 +1,6 @@
 --- 
 publishDate: 2026-03-31T00:00:00Z
+lastmod: 2026-06-18
 title: "AI学習を拒否できる？オプトアウトポリシーの重要性【ITパスポート】"
 excerpt: "生成AIサービスを利用する際、自分のデータを学習に使わせない「オプトアウト」。IT試験で頻出のプライバシー概念を整理します。"
 category: trend
@@ -164,7 +165,7 @@ AIを使って「法規・社内規程を踏まえたAI利用ポリシー」を�
 
 ## まとめ・次のステップ
 AIの利用は「便利さ」だけでなく「安全性」とのセットで考える必要があります。
-次は、AIに安全かつ効果的に命令を出す技術「<strong><a href="/term/prompt-engineering-basics">プロンプトエンジニアリング</a></strong>」について学びましょう。
+次は、AIに安全かつ効果的に命令を出す技術「<strong><a href="/theory/prompt-engineering-basics/">プロンプトエンジニアリング</a></strong>」について学びましょう。
 
 
 

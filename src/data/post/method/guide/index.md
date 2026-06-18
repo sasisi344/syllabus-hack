@@ -43,7 +43,7 @@ ITパスポートの手順を1本にまとめた柱は <strong>[ChatGPTでITパ�
 シラバス（試験範囲）をNotebookLMなどのAIに読み込ませ、あなた専用の <strong>「24時間使い放題の家庭教師」</strong> を作り出す独自手法です。
 - <strong>[【保存版】NotebookLM×シラバス学習ハック完全ガイド](/notebooklm-syllabus-study-method)</strong>
 - <strong>音声学習</strong>: [公式資料を「ポッドキャスト」に変えて隙間時間をハック](/notebooklm-podcast)
-- <strong>演習ツール</strong>: [AIを使って「自分専用のドリル」を自動生成する](/notebooklm-it-passport-drill)
+- <strong>演習ツール</strong>: [AIを使って「自分専用のドリル」を自動生成する](/notebooklm-features-guide)
 
 ### 2. 【Strategy】試験別・最短攻略ロードマップ
 ITパスポート、セキュマネ、基本情報の3大試験に対し、AIをフル活用した最短ルートを提示しています。

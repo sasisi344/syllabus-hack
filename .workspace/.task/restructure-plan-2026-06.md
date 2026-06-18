@@ -88,6 +88,7 @@ MOS・DS検定・E資格・G検定はハブなし。簿記・宅建・TOEICは�
 
 > 2026-06-09 追加: FE theory×2（data-structures-basics, algorithm-search-sort）/ AP theory×1（database-normalization）/ MOS hub / 日商簿記 hub
 > 2026-06-10 追加: MOS career×3（mos-freelance-haken-reality, mos-instructor-school-path, mos-back-office-expert-independence）/ 秘書検定 trend×1（secretarial-why-bosses-recommend）・method×1（secretarial-cost-time-knowledge）・career×1（secretarial-career-up-effect、既存secretarial-exam-multiwork-freelanceと合わせてcareer 2本）
+> 2026-06-18 追加: 横展開資格のKW→examIdナレッジDB — インデックス [cert-keyword-db/index.md](../data-set/cert-keyword-db/index.md) / スキル [.agents/cert_keyword_db.md](../../.agents/cert_keyword_db.md)（対象: 宅建・簿記・MOS・FP・AWS・TOEIC）
 
 ---
 
@@ -256,6 +257,20 @@ trend に入っている以下はtheory的性格が強い。再分類または n
 | Method | `{問題/状況}を{AI/手法}で{解決}する` |
 | Career | `{職種/状況}が{資格名}で{成果}を得る方法` |
 | App記事 | `{資格名} {問題種別}ドリル — AIが{機能説明}` |
+
+---
+
+## ナレッジDB（2026-06-18 追加）
+
+横展開資格の検索KWを `examId`・Hub・記事タイプに結びつけるAI参照DBを整備済み。
+
+| パス | 内容 |
+| --- | --- |
+| `.workspace/data-set/cert-keyword-db/index.md` | インデックス・KW逆引き |
+| `.workspace/data-set/cert-keyword-db/*-kw-db.md` | 資格別KWマップ（宅建・簿記・MOS・FP・AWS・TOEIC） |
+| `.agents/cert_keyword_db.md` | エージェント参照スキル |
+
+記事企画時は restructure-plan の充足表と KW DB の `状態` 列を突合し、×未着手から着手する。
 
 ---
 

@@ -55,6 +55,8 @@ Read(.workspace/.task/requirement-*.md)
 | タスク要件定義   | `.workspace/.task/requirement-*.md`         |
 | TODO管理         | `.workspace/.task/TODO.md`                  |
 | リサーチデータ   | `.workspace/data-set/`                      |
+| 資格KWナレッジDB | `.workspace/data-set/cert-keyword-db/`      |
+| 資格KW参照スキル | `.agents/cert_keyword_db.md`                |
 | クイズ問題データ | `src/data/master/questions-{examId}.json`   |
 | クイズアプリ本体 | `src/apps/{app-slug}/`                      |
 | アプリレジストリ | `src/apps/index.ts`                         |
@@ -97,5 +99,5 @@ pnpm build
 ---
 
 **Status**: Active  
-**Last Updated**: 2026-04-13  
+**Last Updated**: 2026-06-18  
 **Supersedes**: `gemini-cli-mode.md`

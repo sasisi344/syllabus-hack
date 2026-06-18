@@ -47,7 +47,7 @@ CASEやMaaSといったキーワードが飛び交う中で、企業が求めて
 まずは、愛知の就活市場に特化した具体的な戦法を<strong>[地域特化型のキャリアハック・ハブ](/regional-it-career-hub)</strong>で確認してください。
 
 - <strong>STEP 1</strong>: [ITパスポート最短合格ロードマップ](/itp-hub)で「共通言語」を習得。
-- <strong>STEP 2</strong>: [NotebookLMでの音声ハック](/notebooklm-ip-study-hack)を使い、ハンドルを握りながら知識を定着。
+- <strong>STEP 2</strong>: [NotebookLMでの音声ハック](/notebooklm-features-guide)を使い、ハンドルを握りながら知識を定着。
 - <strong>STEP 3</strong>: 資格を武器に、地元の優良BtoB・製造業インターンシップへ挑戦。
 
 ## 愛知限定の勉強ハック：通勤・通学時間を「改善」する

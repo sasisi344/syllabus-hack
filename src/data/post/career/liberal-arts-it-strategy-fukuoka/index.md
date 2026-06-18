@@ -45,7 +45,7 @@ metadata:
 まずは、福岡独自のスタートアップ事情や就活ハックを<strong>[地域特化型のキャリアハック・ハブ](/regional-it-career-hub)</strong>で確認してください。
 
 - <strong>STEP 1</strong>: [ITパスポート最短合格ロードマップ](/itp-hub)で基礎知識をインプット。
-- <strong>STEP 2</strong>: [NotebookLMでの音声学習](/notebooklm-ip-study-hack)を活用し、地下鉄やバスの移動時間をハック。
+- <strong>STEP 2</strong>: [NotebookLMでの音声学習](/notebooklm-features-guide)を活用し、地下鉄やバスの移動時間をハック。
 - <strong>STEP 3</strong>: 資格を武器に、天神・博多の「勢いのあるITベンチャー」のインターンや早期選考へエントリー。
 
 ## 福岡限定の勉強ハック：天神・博多の「コワーキング天国」を活用

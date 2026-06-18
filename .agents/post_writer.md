@@ -152,3 +152,4 @@ Inject the specific "Syllabus Hack" flavor:
 - **Image Guidelines**: See `image_rules.md`
 - **Dark Mode CSS Pattern**: See `dark_mode_css.md`
 - **Certification Hub Articles**: For 資格クエリ拡張施策（new qualification Hub articles）, see `cert_hub_template.md` for the standard 2-segment ("これから勉強する人" / "現場経験者") × "AI as 専任講師" structure.
+- **Certification Keyword DB**: For 横展開資格（宅建・簿記・MOS・FP・AWS・TOEIC等）のKWマップ・詰まりポイント・記事ギャップ, see `cert_keyword_db.md` and `.workspace/data-set/cert-keyword-db/`.

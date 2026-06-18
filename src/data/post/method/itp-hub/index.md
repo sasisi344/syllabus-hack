@@ -143,12 +143,11 @@ ITパスポートの「プロジェクトマネジメント」を学び始めま
 
 - [最速合格の20時間ロードマップ](/fast-track-roadmap-20h-pass) — 文系・未経験から20時間で合格した軌跡と再現手順
 - [ChatGPT・生成AIで合格する全手順](/chatgpt-itpassport-ai-complete-guide) — AI活用の具体的なプロンプトマップ
-- [直前10日の逆転合格術](/itp-10-days-panic-hack) — 試験直前の集中プランとキーワードチェックリスト
+- [直前10日の逆転合格術](/itp-10-days-panic-hack) — 試験直前の集中プランと100個のキーワード即チェックリスト
 - [独学・AI学習・通信講座の合格ルート比較](/it-passport-study-route-comparison) — タイプ別の最短ルート診断
-- [スマホだけで合格する完全ガイド](/itp-smartphone-only-hack) — PCなし・スキマ時間での学習設計
+- [スマホだけで合格する完全ガイド](/smartphone-study-guide) — PCなし・スキマ時間での学習設計
 - [「全力捨て問」戦略](/ip-discard-strategy) — 社会人が1週間で受かるための取捨選択の技法
-- [NotebookLMで用語を自分事化する学習法](/notebooklm-ip-study-hack) — 用語暗記をゼロにする対話学習の具体手順
-- [100個のキーワード最終確認書](/final-checkpoint-100-plus) — 試験前日に使う頻出キーワード総チェック
+- [NotebookLMで用語を自分事化する学習法](/notebooklm-features-guide) — 用語暗記をゼロにする対話学習の具体手順
 - [ストラテジ系をAIの「たとえ話」で攻略する技術](/ip-strategy-ai-hack) — 経済学ゼロからでも解ける解説法
 - [CBT試験の操作感を制する極意](/cbt-exam-tactics) — 本番のインターフェースで失点しないための事前対策
 

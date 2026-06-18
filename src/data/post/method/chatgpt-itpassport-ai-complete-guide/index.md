@@ -182,7 +182,7 @@ ITパスポート試験が明日です。
 
 ITパスポートの次に<strong>基本情報技術者・科目B</strong>を目指す場合は、場面別プロンプトの索引である <strong>[FE科目Bを生成AIで攻略するプロンプト集](/fe-subject-b-ai-prompt-hub)</strong> へ進むと迷いにくい。
 
-<strong>2026年のCBT本番運用</strong>や空白期の学習設計は <strong>[【2026年攻略】IPA試験が「年2回CBT」へ！空白の半年を埋めるAI戦略](/ipa-2026-cbt-strategy-ai)</strong> を参照。シラバスPDFを「読み込ませて聴く」流れは <strong>[NotebookLMでITパスポート用語を聴きながら学ぶ](/notebooklm-ip-study-hack)</strong> と組み合わせやすい。
+<strong>2026年のCBT本番運用</strong>や空白期の学習設計は <strong>[【2026年攻略】IPA試験が「年2回CBT」へ！空白の半年を埋めるAI戦略](/ipa-2026-cbt-strategy-ai)</strong> を参照。シラバスPDFを「読み込ませて聴く」流れは <strong>[NotebookLM 資格試験完全活用ガイド](/notebooklm-features-guide)</strong> と組み合わせやすい。
 
 ## 合格後に手に入るもの
 
@@ -212,7 +212,7 @@ ITパスポートの合格証書それ自体より、<strong>AI活用で体得�
 | 記事                                         | こんな人に                       | リンク                                   |
 | -------------------------------------------- | -------------------------------- | ---------------------------------------- |
 | ChatGPT・Geminiを「AI家庭教師」にする方法    | ツールの使い方を具体的に知りたい | [読む](/agent-teacher)            |
-| NotebookLMでITパスポート用語を聴きながら学ぶ | 音声・ながら学習で効率を上げたい | [読む](/notebooklm-ip-study-hack) |
+| NotebookLM資格試験完全活用ガイド | 音声・ながら学習で効率を上げたい | [読む](/notebooklm-features-guide) |
 | ストラテジ系をAIの「たとえ話」で攻略         | ストラテジ分野だけが苦手         | [読む](/ip-strategy-ai-hack)      |
 
 ### 時間がない人向け
