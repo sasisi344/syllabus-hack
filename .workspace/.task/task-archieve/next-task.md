@@ -141,16 +141,39 @@
 
 ---
 
-## フェーズ7: クロスクラスターリンク（最終仕上げ）
+## フェーズ7: クロスクラスターリンク（最終仕上げ） → ✅ 完了（2026-06-19対応）
 
 > 試験間の「次のステップ」導線を記事レベルで繋ぐ。
 
-- [ ] ITパスポート → 基本情報技術者 への導線記事を強化
-  - `career/gateway-to-advanced` 等にクロスリンク追加
-- [ ] 基本情報技術者 → 応用情報技術者 への導線を明示
-- [ ] 応用情報技術者 → 高度試験群 への分岐ナビを `advanced-ipa-hub` に集約
-- [ ] IPA高度試験 → AWS / CCNA へのキャリア拡張リンクを追加
-- [ ] FP2級 → DS検定 クロスリンク（`ds-kentei` と `fp2-cbt-strategy` の相互リンク）
+<!-- 対応結果: ハブ記事本文の地の文に既存の試験名言及があったため、新規セクションを増設せず
+     既存パラグラフ内の試験名にインラインリンクを張る方式で実装（hub間の双方向メッシュを強化）。
+     lastmodは全対象ファイル2026-06-19に更新。pnpm buildで1293ページのビルド成功を確認済み。 -->
+
+- [x] **ITパスポート → 基本情報技術者 への導線記事を強化**
+  - `method/itp-hub` の「他の資格への学習コストを下げる土台になる」段落から
+    fe-hub / sg-hub / aws-hub / ds-kentei-hub へインラインリンクを追加
+  - `career/gateway-to-advanced`（実体はAP→高度試験の接続記事）は ap-hub / advanced-ipa-hub
+    どちらへのバックリンクも未設定だったため、本フェーズで両方追加（次の項目とまとめて対応）
+
+- [x] **基本情報技術者 → 応用情報技術者 への導線を明示**
+  - `method/fe-hub` の「なぜ基本情報技術者試験か」段落から itp-hub（前段）・
+    ap-hub / aws-hub / sg-hub（次段）へインラインリンクを追加
+
+- [x] **応用情報技術者 → 高度試験群 への分岐ナビを `advanced-ipa-hub` に集約**
+  - `method/ap-hub` の「高度試験への登竜門として機能する」段落から advanced-ipa-hub へリンク
+  - `career/gateway-to-advanced` へのリンクも追加し、キャリア設計リンク一覧にも掲載
+  - `career/gateway-to-advanced` 側に ap-hub / advanced-ipa-hub へのバックリンクを追加
+
+- [x] **IPA高度試験 → AWS / CCNA へのキャリア拡張リンクを追加**
+  - `method/advanced-ipa-hub` に新規セクション「高度試験合格後のキャリア拡張」を追加し、
+    aws-hub / ccna-hub へリンク
+  - 双方向メッシュ強化のため aws-hub / ccna-hub 側にも advanced-ipa-hub への逆リンクを追加
+
+- [x] **FP2級 → DS検定 クロスリンク**
+  - `method/ds-kentei-hub` に新規セクション「FP2級との相乗効果」を追加し、
+    fp2-3month-plan へリンク（next-task.md記載の`fp2-cbt-strategy`は実装名と異なるため
+    restructure-plan-2026-06.md記載の正式ファイル名`fp2-3month-plan`を使用）
+  - `method/fp2-3month-plan` 側にも ds-kentei-hub への逆リンクを追加
 
 ---
 

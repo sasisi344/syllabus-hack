@@ -1,5 +1,6 @@
 # カテゴリ整合性チェック — 2026-06-18
 
+> **2026-06-19: 残タスクは `.workspace/.task/TODO.md`「統合タスクリスト A」に集約済み。本ファイルは調査結果・分析資料として保持。**
 > トリガー: `restructure-plan-2026-06.md` の Uncategorized 6件の再確認  
 > 走査対象: `src/data/post/**/index.{md,mdx}` 全385ファイル  
 > 検証方法: frontmatter `category` フィールド・フォルダパス・`knowledge.type` の突合

@@ -50,6 +50,7 @@
 | 記事執筆・フレームワーク選定（BEAF/QUEST/PASONA）      | `.agents/post_writer.md`             |
 | 資格クエリ拡張施策（資格Hub記事の新規作成）            | `.agents/cert_hub_template.md`       |
 | 横展開資格のKW調査・記事企画（宅建・簿記・MOS等）      | `.agents/cert_keyword_db.md`         |
+| 新規資格のニッチKW抽出（資格名×パターン×競合占拠度実査） | `.agents/kw_pattern_research.md`     |
 | カテゴリ分類（trend / method / career / app / theory） | `.agents/category_rules.md`          |
 | タグ選定・正規タグ名                                   | `.agents/tag_rules.md`               |
 | ディレクトリ構造・パス設計                             | `.agents/content_structure.md`       |
@@ -237,6 +238,22 @@ node .workspace/scripts/index-articles.js
 ```
 
 手動スキャンや記憶による列挙は不正確なため禁止。
+
+---
+
+## KWリサーチルール
+
+新規資格・既存資格を問わず、**KW検索・キーワードリサーチを行う際は必ず先に `.agents/kw_pattern_research.md` を Read すること**。
+
+```
+Read(.agents/kw_pattern_research.md)
+Read(.workspace/data-set/kw-pattern-library.md)
+```
+
+- 思いつき・記憶ベースでのKW列挙、スキルを経由しない競合サジェストの目視確認は禁止
+- 本スキルのP1〜P9パターンで候補KWを生成し、競合占拠度を実査してからニッチKWを選定する
+- 調査結果は `.workspace/data-set/cert-keyword-db/{examId}-kw-db.md` に記録し、`方向性パターン`列（P1〜P9）を必ず付与する
+- 記事執筆そのもののテンプレートではない点に注意（執筆ルールは `post_writer.md` / `cert_hub_template.md`）
 
 ---
 

@@ -1,7 +1,7 @@
 # 優先ロードマップ TODO（2026年6〜9月）
 
+> **2026-06-19: 実行管理は `.workspace/.task/TODO.md`「統合タスクリスト B・C・H」に集約済み。本ファイルの未完了チェックボックスはそちらを正本とする。** 本ファイルは背景・分析資料として保持。
 > 出典: [restructure-plan-2026-06.md](restructure-plan-2026-06.md) 「優先ロードマップ」「実施優先順位サマリー」を作業用にTODO化したファイル。
-> 本ファイルは**実行管理専用**。背景・分析・現状表は出典側を参照すること。
 > 関連スキル: `.agents/cert_keyword_db.md`（横展開資格KW）/ `.agents/cert_hub_template.md`（Hub構成）/ `.agents/category_rules.md`
 
 進捗確認時は `node .workspace/scripts/index-articles.js` で記事一覧を取得してから状態を更新する（手動スキャン禁止・CLAUDE.md準拠）。

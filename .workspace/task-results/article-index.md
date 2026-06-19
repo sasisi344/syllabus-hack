@@ -1,6 +1,6 @@
 # Syllabus Hack Article Index
 
-Generated on: 2026/6/18 23:41:48
+Generated on: 2026/6/19 15:41:53
 
 | Publish Date | Category | Title | Tags | Path |
 | :--- | :--- | :--- | :--- | :--- |
@@ -50,7 +50,7 @@ Generated on: 2026/6/18 23:41:48
 | 2026-05-31 | method | ITパスポート完全攻略ガイド｜AI時代に最初の一手としてこれを選ぶ理由 | ITパスポート, リスキリング, 生成AI, 独学, ロードマップ | `src/data/post/method/itp-hub/index.md` |
 | 2026-05-31 | method | MOS Excel エキスパートは独学で難しすぎる——つまずく理由とAI対話で突破する手順 | MOS, Excel, エキスパート, 独学, AI活用 | `src/data/post/method/mos-excel-expert-difficulty/index.md` |
 | 2026-05-31 | method | NotebookLM × 生成AI 資格試験ワークフローガイド｜ChatGPT・Gemini・Claudeと組み合わせる方法 | 生成AI, NotebookLM, 資格試験, ワークフロー, プロンプト | `src/data/post/method/notebooklm-ai-workflow-guide/index.md` |
-| 2026-05-31 | method | NotebookLM 資格試験完全活用ガイド｜5つの機能を試験勉強に使い倒す手順 | 生成AI, NotebookLM, 資格試験, 学習メソッド, プロンプト | `src/data/post/method/notebooklm-features-guide/index.md` |
+| 2026-05-31 | method | NotebookLM 資格試験完全活用ガイド｜5つの機能を試験勉強に使い倒す手順 | 生成AI, NotebookLM, 資格試験, 学習メソッド, ドリル | `src/data/post/method/notebooklm-features-guide/index.md` |
 | 2026-05-31 | trend | CCNAとAWS SAA、どちらを先に取るべきか——学習効率から見た正解 | CCNA, AWS, AWS SAA, 資格戦略, ネットワーク | `src/data/post/trend/ccna-vs-aws-saa/index.md` |
 | 2026-05-31 | trend | FP2級の実技試験、きんざいと日本FP協会どちらが受かりやすいか | FP2級, きんざい, 日本FP協会, 実技試験, 資格戦略 | `src/data/post/trend/fp2-jitsuki-comparison/index.md` |
 | 2026-05-31 | trend | LPIC・CCNA・AWSを取る順番——インフラエンジニアが最短で市場価値を上げるロードマップ | CCNA, AWS, LPIC, インフラ, ロードマップ | `src/data/post/trend/lpic-ccna-aws-order/index.md` |

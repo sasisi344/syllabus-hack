@@ -16,6 +16,12 @@ description: 検索KWから資格試験（examId）・Hub・記事企画へ結�
 
 ## 2. 読み込み手順
 
+**ステップ0（必須）**: KW検索・キーワードリサーチを行う場合は、必ず先に `kw_pattern_research.md` で候補生成・競合占拠度の実査を行う。思いつき・記憶ベースでのKW追記は禁止
+
+```
+Read(.agents/kw_pattern_research.md)
+```
+
 **ステップ1（必須）**: インデックスを読む
 
 ```
