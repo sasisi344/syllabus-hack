@@ -4,7 +4,7 @@ image: ~/data/post/method/common-cover.png
 publishDate: 2026-03-10T00:00:00Z
 lastmod: 2026-07-10
 category: method
-tags: ['学習メソッド', 'ChatGPT', 'Claude', 'Gemini', 'SyllabusHack']
+tags: ['学習法', 'ChatGPT', 'Claude', 'Gemini', 'SyllabusHack']
 knowledge:
   examId: common
   type: method

@@ -5,7 +5,7 @@ title: 'CCNAは新卒の就活で武器になる｜企業の見極めに使う�
 excerpt: 'CCNAは新卒の就活市場では知名度が低いが、逆にそれを企業の見極めに使える。反応する企業ほどITへの理解が深い傾向を解説する。'
 image: '~/data/post/career/common-cover.png'
 category: 'career'
-tags: ['CCNA', '新卒', '就職活動', 'ネットワークエンジニア', 'キャリア戦略']
+tags: ['CCNA', '新卒', '就活', 'ネットワークエンジニア', 'キャリア戦略']
 draft: false
 persona: '新卒でネットワークエンジニアを目指す学生、CCNA取得を検討している大学生'
 toc: true

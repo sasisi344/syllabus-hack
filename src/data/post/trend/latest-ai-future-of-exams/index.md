@@ -5,7 +5,7 @@ description: '生成AIの急速な進化により、資格試験の在り方が�
 publishDate: 2026-02-17T00:00:00Z
 lastmod: 2026-07-10
 category: trend
-tags: ['生成AI', 'NotebookLM', '学習メソッド', '試験の未来', '効率化']
+tags: ['生成AI', 'NotebookLM', '学習法', '試験の未来', '効率化']
 knowledge:
   examId: common
   type: method

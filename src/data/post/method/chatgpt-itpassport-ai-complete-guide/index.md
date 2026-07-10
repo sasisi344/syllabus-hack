@@ -5,7 +5,7 @@ title: 'ChatGPTでITパスポートに合格する全手順｜生成AI（Gemini�
 excerpt: 'ChatGPT・Gemini・Claudeを使ってITパスポートに合格するための全手順を一本化。ツール選択、4週間スケジュール表、最小プロンプトセット、深掘り記事8本へのリンクをまとめた「地図」記事。'
 image: '~/data/post/method/chatgpt-itpassport-ai-complete-guide/cover.jpg'
 category: 'method'
-tags: ['ITパスポート', 'ChatGPT', 'Claude', 'Gemini', '学習メソッド']
+tags: ['ITパスポート', 'ChatGPT', 'Claude', 'Gemini', '学習法']
 draft: false
 persona: 'ITパスポート受験予定の初学者・文系社会人'
 knowledge:

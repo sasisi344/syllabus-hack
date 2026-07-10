@@ -1,12 +1,12 @@
 ---
-lastmod: 2026-05-30
+lastmod: 2026-07-10
 publishDate: 2026-02-17T00:00:00Z
 updateDate: 2026-02-19
 title: '月100時間を捻出！AIをメンターにする最短合格ロードマップ'
 excerpt: '仕事と勉強の両立に悩む社会人必見。生成AIを「自分専用のメンター」に変え、最短ルートで合格を勝ち取るための具体的な戦略を公開します。'
 image: '~/data/post/method/common-cover.png'
 category: method
-tags: ['学習メソッド', 'ChatGPT', 'Gemini', '社会人の勉強', 'ロードマップ']
+tags: ['学習法', 'ChatGPT', 'Gemini', '社会人の勉強', 'ロードマップ']
 knowledge:
   examId: common
   type: method

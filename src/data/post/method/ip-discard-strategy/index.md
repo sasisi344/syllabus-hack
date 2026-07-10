@@ -5,7 +5,7 @@ title: '【最短合格】社会人がITパスポートに1週間で受かるた
 excerpt: '「範囲が広すぎて終わらない…」そんな悩みは今日で終わりです。1週間でITパスポート合格ライン（600点）を突破するための、戦略的撤退と得点源の絞り込み術を徹底解説。'
 persona: '仕事が忙しく、最短で資格を取得したい社会人・学生'
 category: method
-tags: ['ITパスポート', '勉強法', '時短学習', '捨て問', 'SyllabusHack']
+tags: ['ITパスポート', '学習法', '時短学習', '捨て問', 'SyllabusHack']
 image: ~/data/post/method/common-cover.png
 knowledge:
   examId: ip

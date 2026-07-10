@@ -5,7 +5,7 @@ title: 'NotebookLM 資格試験完全活用ガイド｜5つの機能を試験勉
 excerpt: 'フラッシュカード・クイズ・音声オーバービュー・マインドマップ・動画解説——NotebookLMの5機能を資格試験学習に最大限活用する具体手順を解説します。用語の自分事化プロンプトとオリジナルドリル生成の応用テクニックも収録。'
 image: '~/data/post/method/notebooklm-features-guide/cover.jpg'
 category: 'method'
-tags: ['生成AI', 'NotebookLM', '資格試験', '学習メソッド', 'ドリル']
+tags: ['生成AI', 'NotebookLM', '資格試験', '学習法', 'ドリル']
 draft: false
 persona: 'NotebookLMを資格勉強に活かしたい社会人・学生'
 knowledge:

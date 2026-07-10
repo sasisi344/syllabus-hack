@@ -6,7 +6,7 @@ publishDate: 2026-01-31T00:00:00Z
 lastmod: 2026-07-10
 persona: 集中力が続かず、自分に合った勉強環境を模索しているIT初学者
 category: method
-tags: ['勉強法', 'ポモドーロ', 'Notion', 'SyllabusHack']
+tags: ['学習法', 'ポモドーロ', 'Notion', 'SyllabusHack']
 draft: false
 toc: true
 knowledge:

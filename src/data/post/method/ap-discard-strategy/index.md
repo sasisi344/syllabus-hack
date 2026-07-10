@@ -5,7 +5,7 @@ description: '「プログラミングができないと受からない？」い
 publishDate: 2026-02-02T00:00:00Z
 lastmod: 2026-07-10
 category: method
-tags: ['応用情報技術者', '勉強法', '文系', '午後試験', '捨て問']
+tags: ['応用情報技術者', '学習法', '文系', '午後試験', '捨て問']
 knowledge:
   examId: ap
   type: method

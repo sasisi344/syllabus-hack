@@ -5,7 +5,7 @@ title: 'Gemini完全ガイド：IT資格試験を攻略するプロンプト集�
 excerpt: 'GeminiでIT資格試験を攻略する決定版ガイド。試験別プロンプト集・記憶術・FAQ完備。ITパスポート・基本情報・応用情報すべての場面で即使えるコピペ素材を収録。'
 image: '~/data/post/method/common-cover.png'
 category: 'method'
-tags: ['生成AI', 'Gemini', '資格試験', 'プロンプト', '学習メソッド']
+tags: ['生成AI', 'Gemini', '資格試験', 'プロンプト', '学習法']
 draft: false
 persona: 'Geminiを学習に使いたい受験生（ITパスポート・基本情報・応用情報 全レベル対応）'
 knowledge:

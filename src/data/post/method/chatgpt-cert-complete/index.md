@@ -5,7 +5,7 @@ title: 'ChatGPTで資格試験を攻略する完全ガイド｜試験別プロ�
 excerpt: 'ChatGPTを使った資格試験学習の全手順を1記事に集約。「なぜ」から始める対話学習の設計から、ITパスポート・基本情報・応用情報・高度試験それぞれの試験別プロンプト集まで解説します。'
 image: '~/data/post/method/chatgpt-cert-complete/cover.jpg'
 category: 'method'
-tags: ['生成AI', 'ChatGPT', '資格試験', 'プロンプト', '学習メソッド']
+tags: ['生成AI', 'ChatGPT', '資格試験', 'プロンプト', '学習法']
 draft: false
 persona: 'ChatGPTを資格勉強に活かしたい社会人・学生'
 knowledge:

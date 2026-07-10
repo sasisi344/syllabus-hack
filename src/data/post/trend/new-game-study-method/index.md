@@ -1,11 +1,11 @@
 ---
 publishDate: 2026-02-21T00:00:00Z
-lastmod: 2026-02-21
+lastmod: 2026-07-10
 title: '強くてニューゲーム学習法の衝撃：生成AI×シラバスが最短合格の新基準'
 excerpt: '参考書をただ読む時代は終わりました。生成AIと認知科学を掛け合わせ、圧倒的な「タイパ」で合格を勝ち取る最新トレンド。'
 image: ~/data/post/trend/common-cover.png
 category: trend
-tags: ['生成AI', '学習メソッド', 'タイパ', '資格試験', 'SyllabusHack']
+tags: ['生成AI', '学習法', 'タイパ', '資格試験', 'SyllabusHack']
 knowledge:
   examId: common
   type: method

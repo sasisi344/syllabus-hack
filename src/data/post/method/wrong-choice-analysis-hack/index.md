@@ -1,11 +1,11 @@
 ---
 publishDate: 2026-04-05T00:00:00Z
-lastmod: 2026-04-05
+lastmod: 2026-07-10
 title: '正解の裏側に潜む『3つの財宝』：不正解の選択肢を知識の泉に変える逆転学習法'
 excerpt: '一問で四問分の価値を。正解だけを見て終わるのは、あまりにももったいない。不正解の選択肢を解剖する、最強の過去問活用術。'
 image: ~/data/post/method/practice.png
 category: method
-tags: [過去問対策, 勉強法, ITパスポート, 攻略術, メソッド]
+tags: ['過去問対策', '学習法', 'ITパスポート', '攻略術', 'メソッド']
 knowledge:
   examId: ip
   type: method
