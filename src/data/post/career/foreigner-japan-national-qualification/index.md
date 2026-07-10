@@ -15,7 +15,6 @@ metadata:
   description: 外国人が日本で国家資格を取得するための条件を整理。言語・受験資格・ビザという3つの壁と、IT・介護・宅建・簿記が選ばれる理由、高度人材ポイント制への影響まで解説する。
 ---
 
-<!-- IMAGE_PROMPT: minimalist pictogram, white passport overlapping certification badge on dark navy background, flat design, 16:9 -->
 
 日本国内で働く外国人が増えるにつれ、国家資格の取得によるキャリアアップを目指す人も多くなっている。日本の資格制度には国籍制限が少ないため、外国人でも多くの資格を取得できる。一方で、特有の壁が3つある。それを理解した上で戦略を立てることが、最短ルートへの近道になる。
 

@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-06-09T00:00:00Z
-lastmod: 2026-06-19
+lastmod: 2026-07-10
 title: 'CCNA完全攻略ガイド｜合格率20%の壁をAIで突破する最短ロードマップ'
 excerpt: '求人数2.5万件・合格率20〜30%のCCNA（200-301）。ネットワーク理論からサブネット計算・ルーティング設計まで、AIで体系化して4〜6ヶ月で合格するための全手順をまとめた。'
 image: ~/data/post/method/ccna-hub/cover.jpg
@@ -35,7 +35,7 @@ CCNAの標準学習時間は<strong>150〜250時間</strong>だ。
 | 基礎的なネットワーク知識あり（ITP/FE取得済み等） | 130〜180時間 |
 | ネットワーク実務経験あり | 80〜130時間 |
 
-### AI活用で「専任講師を月額20ドルで雇う」感覚
+### AI活用で専任講師を月額20ドルで雇う感覚
 
 ネットワーク学習で最も詰まる場面は「サブネット計算の意味が分からない」「ルーティングテーブルがどう動くか頭で動かせない」という瞬間だ。
 テキストには手順が書かれているが「なぜそう計算するのか」は書かれていないことが多い。
@@ -148,14 +148,14 @@ CCNAの「IPコネクティビティ」でOSPFが理解できません。
 
 | 記事 | カテゴリ | 内容 |
 |-----|--------|-----|
-| [CCNA合格率20%でも独学で受かる人の共通点](/ccna-ai-hack/) | method | シラバスの出題密度マップの作り方 |
-| [文系・未経験からCCNA合格ロードマップ](/ccna-liberal-arts-roadmap/) | method | 6ヶ月の具体的な学習手順 |
-| [CCNAに落ちた人が最初にやるべきこと](/ccna-fail-comeback/) | method | 敗因分析とリベンジ手順 |
-| [CCNAとAWS SAA、どちらを先に取るべきか](/ccna-vs-aws-saa/) | trend | 学習効率から見た取得順番の論理 |
-| [LPIC・CCNA・AWSを取る順番](/lpic-ccna-aws-order/) | trend | インフラ資格の最短ロードマップ |
-| [ルーティングプロトコルとは？OSPF・EIGRP理論解説](/ccna-routing-protocols/) | theory | OSPF/EIGRPの動作原理 |
-| [VLANとSTPとは？CCNA理論解説](/ccna-vlan-stp/) | theory | VLAN設計とスパニングツリー |
-| [CCNAで目指すネットワークエンジニアのキャリアパス](/ccna-network-engineer-career/) | career | 年収・転職・上位資格ロードマップ |
+| [CCNA合格率20%でも独学で受かる人の共通点](/method/ccna-ai-hack/) | method | シラバスの出題密度マップの作り方 |
+| [文系・未経験からCCNA合格ロードマップ](/method/ccna-liberal-arts-roadmap/) | method | 6ヶ月の具体的な学習手順 |
+| [CCNAに落ちた人が最初にやるべきこと](/method/ccna-fail-comeback/) | method | 敗因分析とリベンジ手順 |
+| [CCNAとAWS SAA、どちらを先に取るべきか](/trend/ccna-vs-aws-saa/) | trend | 学習効率から見た取得順番の論理 |
+| [LPIC・CCNA・AWSを取る順番](/trend/lpic-ccna-aws-order/) | trend | インフラ資格の最短ロードマップ |
+| [ルーティングプロトコルとは？OSPF・EIGRP理論解説](/theory/ccna-routing-protocols/) | theory | OSPF/EIGRPの動作原理 |
+| [VLANとSTPとは？CCNA理論解説](/theory/ccna-vlan-stp/) | theory | VLAN設計とスパニングツリー |
+| [CCNAで目指すネットワークエンジニアのキャリアパス](/career/ccna-network-engineer-career/) | career | 年収・転職・上位資格ロードマップ |
 
 ---
 
@@ -171,4 +171,4 @@ CCNA攻略の核心は3つだ。
 
 インフラエンジニアとしての求人市場での認知度は、日本国内のネットワーク系資格の中でCCNAが最も高い。AWS・AzureなどクラウドへのステップアップにもCCNAの基礎が直結する。
 
-すでに[ネットワークスペシャリスト（NW）など高度情報処理技術者試験](/advanced-ipa-hub/)に合格している場合は、ベンダー資格としてのCCNAは知識の再確認として軽く触れる程度でも十分なケースが多い。
+すでに[ネットワークスペシャリスト（NW）など高度情報処理技術者試験](/method/advanced-ipa-hub/)に合格している場合は、ベンダー資格としてのCCNAは知識の再確認として軽く触れる程度でも十分なケースが多い。

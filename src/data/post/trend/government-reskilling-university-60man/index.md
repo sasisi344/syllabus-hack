@@ -15,7 +15,6 @@ metadata:
   description: 政府が60万人規模での大学リスキリングを推進している。企業側の負担、知識と実務のギャップ、AIが代替する時代に本当に必要なスキルとは何かを考える。
 ---
 
-<!-- IMAGE_PROMPT: minimalist pictogram, white university building with gear icon on dark navy background, flat design, 16:9 -->
 
 政府が大学を活用したリスキリングを推進し、受講者を60万人規模に拡大する方針が報じられている。企業の戦力強化や、就職氷河期世代の底上げを目的とした政策だが、現場感覚から見ると課題も多い。
 

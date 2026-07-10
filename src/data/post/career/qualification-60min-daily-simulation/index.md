@@ -15,7 +15,6 @@ metadata:
   description: 1日60分の勉強で人気資格に合格できるか。FP・簿記・宅建・行政書士・社労士の5資格を100日・365日の2スパンでシミュレーション。次の一手が明確になる資格選びの指針を解説する。
 ---
 
-<!-- IMAGE_PROMPT: minimalist pictogram, white certification badges with hourglass on dark navy background, flat design, 16:9 -->
 
 書店の資格テキストコーナーには、FP・簿記・宅建・行政書士・社労士のテキストが特に多く並んでいる。需要の高さの証明でもあるが、裏を返せば<strong>競合する学習者も多く、合格までの道のりは甘くない。</strong>
 

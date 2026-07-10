@@ -1,8 +1,9 @@
 ---
 publishDate: 2026-02-17T00:00:00Z
-lastmod: 2026-06-10
+lastmod: 2026-07-10
 title: 'リスキリングは通過点。データで実務を証明するポートフォリオ戦略'
 excerpt: '資格や学習は手段のひとつにすぎない。知識だけでは評価されにくいからこそ、建設・塗装業など身近な題材で分析レポートを作り、次のキャリアの武器にする。'
+image: '~/assets/images/default.png'
 
 category: career
 tags:
@@ -88,4 +89,4 @@ metadata:
 
 ---
 
-> この記事は [ITパスポート完全攻略ガイド](/itp-hub/) の一部です。
+> この記事は [ITパスポート完全攻略ガイド](/method/itp-hub/) の一部です。

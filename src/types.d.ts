@@ -53,6 +53,12 @@ export interface Post {
 
   /**  */
   faqs?: { question: string; answer: string }[];
+
+  /** Render a table of contents before the article body. */
+  toc?: boolean;
+
+  /** Markdown headings extracted at render time (used by the ToC). */
+  headings?: { depth: number; slug: string; text: string }[];
 }
 
 export interface Taxonomy {

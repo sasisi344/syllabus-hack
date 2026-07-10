@@ -1,5 +1,5 @@
---- 
-lastmod: 2026-05-30
+---
+lastmod: 2026-07-10
 publishDate: 2026-03-31T00:00:00Z
 title: "AI運用を止めるな！MLOps（エムエルオプス）の重要性とITパスポート試験のポイント"
 excerpt: "「一度作れば終わり」ではないAIモデル。精度の劣化を防ぎ、常に最新の状態を保つための手法、MLOpsの世界を速攻略。"
@@ -8,9 +8,11 @@ tags: [MLOps, 機械学習, AI運用, ITパスポート, シラバス]
 persona: "AIモデルの精度維持に悩むデータサイエンティスト・エンジニア"
 knowledge:
   examId: ip
-  type: news
+  type: theory
   difficulty: beginner
 image: ~/data/post/trend/common-cover.png
+metadata:
+  description: 'AIモデルを作って終わりにしないMLOpsの考え方をITパスポート試験向けに解説。モデルの精度劣化がなぜ起きるか、継続的な再学習・監視の仕組み、DevOpsとの関係など試験で問われる要点を速攻で整理します。AI運用系の新出用語を効率よく押さえられます。'
 ---
 <div class="summary-box">
 <h3>3行まとめ</h3>

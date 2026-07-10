@@ -1,5 +1,6 @@
 ---
 publishDate: 2026-02-19T00:00:00Z
+lastmod: 2026-02-19
 updateDate: 2026-02-19
 title: '【技術解説】PDFシラバスをGeminiで構造化データへ。無限クイズ生成パイプラインの裏側'
 excerpt: 'JSONで試験を再現する「Data Pipeline」の全貌。PDFパースからGemini 2.0 APIを使った問題生成までを技術的に解説。'

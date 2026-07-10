@@ -1,5 +1,5 @@
---- 
-lastmod: 2026-05-30
+---
+lastmod: 2026-07-10
 publishDate: 2026-03-31T00:00:00Z
 title: "目と耳を持つAI！マルチモーダルAIの仕組みとITパスポート試験対策"
 excerpt: "画像、動画、音声を同時に理解するマルチモーダルAI。Gemini 2.0やGPT-4oなどの具体例を交え、試験頻出の応用シーンを解説。"
@@ -11,6 +11,8 @@ knowledge:
   type: news
   difficulty: beginner
 image: ~/data/post/trend/common-cover.png
+metadata:
+  description: '画像・動画・音声を同時に理解するマルチモーダルAIをITパスポート試験向けに解説。GeminiやGPT-4oなどの具体例を交えながら、シラバスで問われる応用シーンと従来のAIとの違いを分かりやすく整理します。最新AIの動向を試験の得点につなげましょう。'
 ---
 <div class="summary-box">
 <h3>3行まとめ</h3>

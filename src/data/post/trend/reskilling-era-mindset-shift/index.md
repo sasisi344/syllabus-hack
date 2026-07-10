@@ -15,7 +15,6 @@ metadata:
   description: 政府推進のリスキリングには時間・費用・意欲という3つの壁がある。補助制度より先に意識改革が必要な理由と、シラバスハックを使った最短の学習設計を解説する。
 ---
 
-<!-- IMAGE_PROMPT: minimalist pictogram, white person climbing upward arrow on dark navy background, flat design, 16:9 -->
 
 リスキリングという言葉が行政用語として定着して久しい。厚生労働省が整備する「人材開発支援助成金」を筆頭に、学び直しを後押しする制度は年々充実している。だが現場の実感として「制度はあるのに使えない」という声は多い。
 

@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-04-15T00:00:00Z
-lastmod: 2026-05-31
+lastmod: 2026-07-10
 title: 'FE科目Bを生成AIで攻略するプロンプト集｜場面別・ツール別インデックス【ChatGPT・Gemini・Claude】'
 excerpt: '基本情報技術者試験・科目B（疑似言語・アルゴリズム）をAIで攻略するプロンプトを場面別（初見/追試/時間切れ）・ツール別に整理。既存4記事の読む順と、CBT本番で即使える一文プロンプトも収録。'
 image: '~/data/post/method/fe-subject-b-ai-prompt-hub/cover.jpg'
@@ -25,11 +25,11 @@ metadata:
 
 すぐ深掘りしたい場合は、次の3本へ直行できる。
 
-- <strong>[科目B「無限ドリル」生成](/fe-subject-b-drill)</strong>（量演習）
-- <strong>[疑似言語をAIで動くコードに変換](/fe-pseudo-code-ai-hack)</strong>（理解の芯）
-- <strong>[Geminiプロンプト集（基本情報向け）](/gemini-prompt-collection)</strong>（Gemini中心ルート）
+- <strong>[科目B「無限ドリル」生成](/method/fe-subject-b-drill/)</strong>（量演習）
+- <strong>[疑似言語をAIで動くコードに変換](/method/fe-pseudo-code-ai-hack/)</strong>（理解の芯）
+- <strong>[Geminiプロンプト集（基本情報向け）](/method/gemini-cert-complete/)</strong>（Gemini中心ルート）
 
-ITパスポートの全手順マップは <strong>[ChatGPTでITパスポートに合格する全手順](/chatgpt-itpassport-ai-complete-guide)</strong>。
+ITパスポートの全手順マップは <strong>[ChatGPTでITパスポートに合格する全手順](/method/chatgpt-itpassport-ai-complete-guide/)</strong>。
 
 ---
 
@@ -162,7 +162,7 @@ CBT本番では<strong>科目B（25問）を100分</strong>で解く。1問あ�
 
 「理解できるが遅い」という状態の対策は、<strong>問題へのアプローチを型化すること</strong>だ。
 
-### プロンプト C-1：CBT本番用「一文プロンプト」
+### プロンプト C-1：CBT本番用一文プロンプト
 
 CBT画面にはコピペができないため、<strong>事前に問題のアプローチパターンを頭に入れておく</strong>ことが重要だ。
 
@@ -242,10 +242,10 @@ CBT画面にはコピペができないため、<strong>事前に問題のアプ
 
 | 読む順 | 記事テーマ                                | こんな状況の人に           | リンク                                     |
 | ------ | ----------------------------------------- | -------------------------- | ------------------------------------------ |
-| ①      | 【プロンプト配布】科目B「無限ドリル」生成 | 類題をとにかく量こなしたい | [読む](/fe-subject-b-drill)         |
-| ②      | 科目B疑似言語をAIで動くコードに変換       | Pythonへの翻訳で理解したい | [読む](/fe-pseudo-code-ai-hack)     |
-| ③      | 疑似言語をAIで可視化・フローチャート化    | 「動き」を図で確認したい   | [読む](/fe-pseudo-code-visual-hack) |
-| ④      | Geminiプロンプト集（基本情報向け）        | Geminiで包括的に攻略したい | [読む](/gemini-prompt-collection)   |
+| ①      | 【プロンプト配布】科目B「無限ドリル」生成 | 類題をとにかく量こなしたい | [読む](/method/fe-subject-b-drill/)         |
+| ②      | 科目B疑似言語をAIで動くコードに変換       | Pythonへの翻訳で理解したい | [読む](/method/fe-pseudo-code-ai-hack/)     |
+| ③      | 疑似言語をAIで可視化・フローチャート化    | 「動き」を図で確認したい   | [読む](/method/fe-pseudo-code-visual-hack/) |
+| ④      | Geminiプロンプト集（基本情報向け）        | Geminiで包括的に攻略したい | [読む](/method/gemini-cert-complete/)   |
 
 <strong>① → ② → ③ → ④の順</strong>が最も自然な学習フローだ。まず量（①）で型を身につけ、理解（②③）を深め、ツール幅（④）を広げる。
 
@@ -266,4 +266,4 @@ CBT画面にはコピペができないため、<strong>事前に問題のアプ
 今日の問題1問から始めよう。AIに投げて、理解まで完結させる習慣が科目Bを制する。
 ---
 
-> この記事は [基本情報技術者試験 完全攻略ガイド](/fe-hub/) の一部です。
+> この記事は [基本情報技術者試験 完全攻略ガイド](/method/fe-hub/) の一部です。

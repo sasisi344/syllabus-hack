@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-05-31T00:00:00Z
-lastmod: 2026-06-10
+lastmod: 2026-07-10
 title: 'MOS Excel エキスパートは独学で難しすぎる——つまずく理由とAI対話で突破する手順'
 excerpt: '「MOS Excel エキスパートが難しすぎる」と感じるのは、機能の使い方を覚えようとしているからです。なぜその機能が設計されたかをAIとの対話で理解することで、エキスパートレベルは独学射程内に入ります。'
 image: '~/data/post/method/mos-excel-expert-difficulty/cover.jpg'
@@ -17,7 +17,6 @@ metadata:
   description: 'MOS Excel エキスパートが難しいと感じる本当の理由と、AI対話でPower Query・XLOOKUP・ピボットテーブルを論理から理解する独学手順を解説。一般レベル取得後の次のステップとして最短で到達する方法。'
 ---
 
-<!-- IMAGE_PROMPT: minimalist pictogram, spreadsheet with advanced formula and gear icon on dark navy background, flat design, 16:9 -->
 
 「MOS Excel エキスパート、独学で本当に取れるのか」
 
@@ -41,7 +40,7 @@ AIに正確な指示を出すためには、操作の意図と構造を自分が
 
 ---
 
-## エキスパートが「難しすぎる」と感じる3つの理由
+## エキスパートが難しすぎると感じる3つの理由
 
 ### 機能の組み合わせが問われる
 
@@ -61,7 +60,7 @@ ETL（Extract・Transform・Load）という概念を知らずにUIを触ると�
 
 実務経験なしで攻略するには、AI を使って「実務での使いどころ」を具体的に教えてもらうことが有効です。
 
-## AI対話でエキスパート機能の「なぜ」を理解する
+## AI対話でエキスパート機能のなぜを理解する
 
 エキスパートの各機能をAIとの対話で設計意図から理解します。
 
@@ -134,4 +133,4 @@ MOS Excel エキスパートが「難しすぎる」のは、機能の操作手�
 
 ---
 
-> この記事は [MOS（Microsoft Office Specialist）完全攻略ガイド](/mos-hub/) の一部です。
+> この記事は [MOS（Microsoft Office Specialist）完全攻略ガイド](/method/mos-hub/) の一部です。

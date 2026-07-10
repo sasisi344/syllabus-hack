@@ -25,6 +25,10 @@
 | `common`※ | FP2級（※専用 `fp` 未登録） | [fp-kw-db.md](./fp-kw-db.md) | `method/fp-hub` | Hub + Method 一部 |
 | `common`※ | AWS認定（SAA等）+ CCNAクラスター | [aws-kw-db.md](./aws-kw-db.md) | `method/aws-hub` | Hub + 少数スポーク |
 | `toeic`（予定） | TOEIC L&R | [toeic-kw-db.md](./toeic-kw-db.md) | **未作成** | 全面未着手 |
+| `denken` | 電験三種（第三種電気主任技術者） | [denken-kw-db.md](./denken-kw-db.md) | `method/denken-hub` | Hubのみ・スポーク未着手（波3） |
+| `kiken-butsu` | 危険物取扱者（乙4等） | [kiken-butsu-kw-db.md](./kiken-butsu-kw-db.md) | `method/kiken-butsu-hub` | Hubのみ・スポーク未着手（波3） |
+| `biru-kanri` | ビル管理クラスター（ビル管理士・マンション管理士・エネルギー管理士） | [biru-kanri-kw-db.md](./biru-kanri-kw-db.md) | `method/biru-kanri-hub` | Hubのみ・サブ資格別スポーク未分離（波3） |
+| `doboku-sekou` | 土木施工管理技士（1級・2級） | [doboku-sekou-kw-db.md](./doboku-sekou-kw-db.md) | `method/doboku-sekou-hub` | Hubのみ・スポーク未着手（波3） |
 
 ※ FP・AWS は現状 `examId: common`。Hub作成時に `fp` / `aws` 等の専用スラッグ追加を検討（[exam-id-catalog.md](../../.task/exam-id-catalog.md) 参照）。
 

@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-02-03T00:00:00Z
-lastmod: 2026-06-09
+lastmod: 2026-07-10
 title: '応用情報・記述式を無限に練習できる論文トレーナースクリプトを公開します'
 excerpt: '記述式問題の採点基準が分からない、過去問を解き尽くしてしまった——そんな悩みを解決する、Gemini APIを活用した自分専用の論文添削トレーナーを配布します。'
 image: ~/data/post/method/essay-trainer-script/cover.jpg
@@ -70,14 +70,13 @@ Google AI Studio の API は個人利用の範囲なら現在無料で利用で�
 <strong>手順1：Google AI Studio で API Key を取得</strong>
 Google AI Studio にアクセスし、「Get API Key」からキーを作成する。
 
-<strong>手順2：スクリプトをダウンロード</strong>
-以下のリンクからZIPファイルをダウンロードし、解凍する。
-
-[Essay Trainer をダウンロード](/files/essay_trainer.zip)
+<strong>手順2：スクリプトを用意</strong>
+本記事で紹介している機能仕様（無限問題生成・即時AI採点・模範解答提示）と後述の実行例を ChatGPT や Gemini にそのまま渡せば、`trainer.py`・`requirements.txt`・`syllabus_data.json` の3ファイル構成で自分専用のスクリプトを生成できる。
+生成したファイルを1つのフォルダにまとめておく。
 
 <strong>手順3：実行環境の準備</strong>
 Pythonがインストールされている必要がある。
-解凍したフォルダで端末（コマンドプロンプト・ターミナル）を開き、ライブラリをインストールする。
+スクリプトを置いたフォルダで端末（コマンドプロンプト・ターミナル）を開き、ライブラリをインストールする。
 
 ```bash
 pip install -r requirements.txt
@@ -162,5 +161,5 @@ Essay Trainerはこの両方を解決する。
 Gemini APIの無料枠を使えば、毎日1時間の記述練習を追加費用ゼロで続けられる。
 過去問が枯渇している受験生、独学で添削相手がいない受験生にとって、有力な選択肢になるはずだ。
 
-ダウンロードしてまず1問、AIの採点を受けてみてほしい。
+スクリプトを用意してまず1問、AIの採点を受けてみてほしい。
 「自分はここが弱い」という弱点が、明確な言葉で返ってくる体験が一番の説得材料だ。

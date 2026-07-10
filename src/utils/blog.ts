@@ -42,7 +42,7 @@ const generatePermalink = async ({
 
 const getNormalizedPost = async (post: CollectionEntry<'post'>): Promise<Post> => {
   const { id, data } = post;
-  const { Content, remarkPluginFrontmatter } = await render(post);
+  const { Content, remarkPluginFrontmatter, headings } = await render(post);
 
   const {
     publishDate: rawPublishDate = new Date(),
@@ -59,6 +59,7 @@ const getNormalizedPost = async (post: CollectionEntry<'post'>): Promise<Post> =
     metadata = {},
     knowledge = {},
     faqs,
+    toc = false,
   } = data;
 
   const actualCategory = rawCategory || (Array.isArray(rawCategories) && rawCategories.length > 0 ? rawCategories[0] : undefined);
@@ -72,8 +73,7 @@ const getNormalizedPost = async (post: CollectionEntry<'post'>): Promise<Post> =
     method: '学習メソッド',
     career: 'キャリア戦略',
     app: 'ウェブアプリ',
-    glossary: '用語解説',
-    strategy: 'IT戦略・実践',
+    theory: '用語解説',
   };
 
   const category = actualCategory
@@ -114,6 +114,8 @@ const getNormalizedPost = async (post: CollectionEntry<'post'>): Promise<Post> =
     readingTime: remarkPluginFrontmatter?.readingTime,
     knowledge: knowledge,
     faqs: faqs,
+    toc: toc,
+    headings: headings,
   };
 };
 

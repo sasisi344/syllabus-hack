@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-05-31T00:00:00Z
-lastmod: 2026-06-19
+lastmod: 2026-07-10
 title: 'AWS・CCNAクラスター完全ガイド｜インフラエンジニアの最短キャリアロードマップ'
 excerpt: 'CCNA・AWS SAA・LPICの取得順番と学習法を一冊で整理。インフラエンジニアとしての市場価値を最短で上げるためのクラスター記事インデックスと推奨ロードマップです。'
 image: '~/data/post/method/aws-hub/cover.jpg'
@@ -26,7 +26,6 @@ metadata:
   description: 'AWS・CCNA・LPICのインフラ資格を最短で攻略するハブガイド。取得順番の論理的根拠から学習法・キャリア設計まで、関連記事インデックスと合わせて完全網羅。'
 ---
 
-<!-- IMAGE_PROMPT: minimalist pictogram, layered cloud and network nodes stacked vertically on dark navy background, flat design, 16:9 -->
 
 インフラエンジニアとしての需要は、クラウド化の進展とともに構造的に拡大しています。
 
@@ -46,7 +45,7 @@ metadata:
 | ネットワーク | CCNA 200-301 | ネットワーク設計・運用の論理 |
 | クラウド | AWS SAA / AWS ANS | クラウドアーキテクチャの設計 |
 
-この3層を下から積み上げる順番が、最も効率的な学習ルートです。[ネットワークスペシャリスト（NW）など高度情報処理技術者試験](/advanced-ipa-hub/)の合格者は、ネットワーク設計の知識をそのまま活かせるため、この階段を最短で駆け上がれます。
+この3層を下から積み上げる順番が、最も効率的な学習ルートです。[ネットワークスペシャリスト（NW）など高度情報処理技術者試験](/method/advanced-ipa-hub/)の合格者は、ネットワーク設計の知識をそのまま活かせるため、この階段を最短で駆け上がれます。
 
 ## なぜCCNAがAWS SAAの前提になるか
 
@@ -83,31 +82,31 @@ CCNA知識をAWS VPCに応用する観点で整理してください。
 
 ## 学習メソッド
 
-- [CCNAに落ちた人の3ヶ月リベンジ手順](/ccna-fail-comeback) — 敗因分析とAI対話で再挑戦する具体的プロセス
-- [文系・未経験からCCNA合格するロードマップ](/ccna-liberal-arts-roadmap) — 文系出身者が6ヶ月で合格する月別計画
-- [AWS SAA、未経験でも本当に取れるか](/aws-saa-beginner-reality) — 前提知識の現実と最短学習フロー
-- [CCNAのAIシラバスハック術](/ccna-ai-hack) — 出題密度マップの作り方とサブネット理解法
+- [CCNAに落ちた人の3ヶ月リベンジ手順](/method/ccna-fail-comeback/) — 敗因分析とAI対話で再挑戦する具体的プロセス
+- [文系・未経験からCCNA合格するロードマップ](/method/ccna-liberal-arts-roadmap/) — 文系出身者が6ヶ月で合格する月別計画
+- [AWS SAA、未経験でも本当に取れるか](/method/aws-saa-beginner-reality/) — 前提知識の現実と最短学習フロー
+- [CCNAのAIシラバスハック術](/method/ccna-ai-hack/) — 出題密度マップの作り方とサブネット理解法
 
 ## 取得順番・比較情報
 
-- [CCNAとAWS SAA、どちらを先に取るべきか](/ccna-vs-aws-saa) — 学習効率から見た状況別の答え
-- [LPIC・CCNA・AWS、最適な取得順番](/lpic-ccna-aws-order) — インフラエンジニアのロードマップを逆算する
+- [CCNAとAWS SAA、どちらを先に取るべきか](/trend/ccna-vs-aws-saa/) — 学習効率から見た状況別の答え
+- [LPIC・CCNA・AWS、最適な取得順番](/trend/lpic-ccna-aws-order/) — インフラエンジニアのロードマップを逆算する
 
 ## よくある質問
 
-**Q: CCNAとAWS SAAはどちらを先に取るべきですか？**
+<strong>Q: CCNAとAWS SAAはどちらを先に取るべきですか？</strong>
 
-A: ネットワークの基礎知識がない状態ではAWS SAAのVPC・ルーティング設計が理解しにくい。<strong>CCNAを先に取ることでAWS SAAの学習コストが下がる</strong>のが一般的な推奨ルートだ。ただしLinuxとネットワークの基礎がすでにある場合は、AWS SAAから入っても問題ない。詳細な判断基準は[CCNAとAWS SAA、どちらを先に取るべきか](/ccna-vs-aws-saa)を参照。
+A: ネットワークの基礎知識がない状態ではAWS SAAのVPC・ルーティング設計が理解しにくい。<strong>CCNAを先に取ることでAWS SAAの学習コストが下がる</strong>のが一般的な推奨ルートだ。ただしLinuxとネットワークの基礎がすでにある場合は、AWS SAAから入っても問題ない。詳細な判断基準は[CCNAとAWS SAA、どちらを先に取るべきか](/trend/ccna-vs-aws-saa/)を参照。
 
-**Q: LPICはCCNAの前に必要ですか？**
+<strong>Q: LPICはCCNAの前に必要ですか？</strong>
 
 A: 必須ではないが、Linux経験がない場合は推奨される。LPICで習得するファイルシステム・プロセス管理・シェルスクリプトの知識は、AWSのEC2・Lambda・CLI操作で直接役立つ。サーバーサイドの実務経験があればLPICをスキップしてCCNAから入ることも現実的だ。
 
-**Q: CCNAは独学で合格できますか？**
+<strong>Q: CCNAは独学で合格できますか？</strong>
 
-A: 合格者の多くは独学だ。使用教材はCisco公式ガイドブックまたはUdemyのCCNA対応コースが一般的。サブネット計算・ルーティング設計は反復演習が必要なため、AIにひたすら類題を生成させながら手を動かす練習が効果的だ。[文系・未経験からCCNA合格するロードマップ](/ccna-liberal-arts-roadmap)に具体的な月別計画を掲載している。
+A: 合格者の多くは独学だ。使用教材はCisco公式ガイドブックまたはUdemyのCCNA対応コースが一般的。サブネット計算・ルーティング設計は反復演習が必要なため、AIにひたすら類題を生成させながら手を動かす練習が効果的だ。[文系・未経験からCCNA合格するロードマップ](/method/ccna-liberal-arts-roadmap/)に具体的な月別計画を掲載している。
 
-**Q: AWS SAAに有効期限はありますか？**
+<strong>Q: AWS SAAに有効期限はありますか？</strong>
 
 A: AWS認定資格の有効期限は3年。更新には再試験またはアソシエイトレベル以上の新規試験合格が必要だ。3年経過前に上位資格（SAP・Professional）を取得すると、SAAも自動更新される仕組みになっている。
 

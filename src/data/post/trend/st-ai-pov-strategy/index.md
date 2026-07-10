@@ -1,7 +1,7 @@
 ---
 title: '【ST】AI導入はPoCで終わらせない。ITストラテジストが示すべきAIのビジネス価値'
 publishDate: 2026-03-25T00:00:00Z
-lastmod: 2026-06-10
+lastmod: 2026-07-10
 category: trend
 tags: ['ITストラテジスト', 'AI導入', 'PoV', 'ROI', 'ガバナンス']
 persona: AI導入を検討・推進する役割のITコンサルタント・ストラテジスト
@@ -45,4 +45,4 @@ IPAの最新基準に基づいた<strong>リスク管理</strong>のフレーム
 
 ---
 
-> この記事は [高度情報処理技術者試験 完全攻略ガイド](/advanced-ipa-hub/) の一部です。
+> この記事は [高度情報処理技術者試験 完全攻略ガイド](/method/advanced-ipa-hub/) の一部です。

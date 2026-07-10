@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-04-26T00:00:00Z
-lastmod: 2026-04-26
+lastmod: 2026-07-10
 title: 'タブレットで学ぶIT資格対策。見やすさ重視の学習設計ガイド'
 excerpt: 'PDF教材とWeb演習を行き来する学習は、タブレットが最もバランスがいい場面が多い。画面サイズ・スタンド・PDFアプリ設定と、PC・スマホとの棲み分けを具体化する。'
 image: '~/data/post/method/tablet-study-guide/cover.jpg'
@@ -92,4 +92,4 @@ PDFビューアは、 <strong>ダークモード・余白のトリミング・�
 
 デバイスは万能化させず、スマホ・PCと役割を分けるほうが、総合的な合格までの道が短くなる。
 
-スキマ学習の設計は [ITパスポートはスマホ学習で合格できる？スキマ時間で進める最短ルート](/smartphone-study-guide) を、長時間の模試と環境づくりは [PC学習が強い理由。長時間学習で合格率を上げる環境の作り方](/pc-study-setup-guide) を参照。全体の使い分けは [スマホ・タブレット・PCをどう使い分ける？IT資格学習の最適デバイス戦略](/multi-device-cert-study) に集約している。
+スキマ学習の設計は [ITパスポートはスマホ学習で合格できる？スキマ時間で進める最短ルート](/method/smartphone-study-guide/) を、長時間の模試と環境づくりは [PC学習が強い理由。長時間学習で合格率を上げる環境の作り方](/method/pc-study-setup-guide/) を参照。全体の使い分けは [スマホ・タブレット・PCをどう使い分ける？IT資格学習の最適デバイス戦略](/method/multi-device-cert-study/) に集約している。

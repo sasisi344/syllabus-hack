@@ -58,6 +58,7 @@ const postCollection = defineCollection({
       updateDate: z.coerce.date().optional(),
       lastmod: z.coerce.date().optional(),
       draft: z.boolean().optional(),
+      toc: z.boolean().optional(),
 
       title: z.string(),
       excerpt: z.string().optional(),
@@ -87,7 +88,6 @@ const postCollection = defineCollection({
               'au',
               'sc',
               'common',
-              'it-passport',
               'g-kentei',
               'ds-kentei',
               'ccna',

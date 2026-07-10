@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-04-29T00:00:00Z
-lastmod: 2026-06-10
+lastmod: 2026-07-10
 title: 生成AI関連の資格は意味あるか — 認知度と活用場面から考える
 excerpt: 生成AI系資格は急増しているが、知ってもらえなければ評価されない。どんな場面で効果があり、何が限界なのかをITパスポートとの比較で整理する。
 image: ~/data/post/trend/generative-ai-certification-worth/cover.jpg
@@ -15,7 +15,6 @@ metadata:
   description: 生成AI関連の資格は増えているが、知名度と活用場面を把握しないと意味をなさない。どんな資格があり、どこで評価され、ITパスポートとどう組み合わせるかを解説する。
 ---
 
-<!-- IMAGE_PROMPT: minimalist pictogram, white AI chip overlapping certification document on dark navy background, flat design, 16:9 -->
 
 「ある or ない」で答えるなら「ある」。ただし、<strong>効果が出るのは特定の場面に限られる。</strong>
 
@@ -79,4 +78,4 @@ ITパスポートは人事担当者の認知度が高い国家資格だ。「IT�
 
 ---
 
-> この記事は [ITパスポート完全攻略ガイド](/itp-hub/) の一部です。
+> この記事は [ITパスポート完全攻略ガイド](/method/itp-hub/) の一部です。

@@ -24,7 +24,6 @@ metadata:
   description: 'FP資格は副業に使えるのか、独占業務がない資格である点を踏まえて正直に解説。保険・不動産との兼業やコンテンツ発信で副業化しているケース、AIを使ったアウトプット術、金融商品取引法などの注意点を紹介します。'
 ---
 
-<!-- IMAGE_PROMPT: minimalist pictogram, white piggy bank with a small side-arrow branching off, dark navy background, flat design, 16:9 -->
 
 「FP資格を取れば、副業でお金の相談に乗って稼げますか？」
 
@@ -34,7 +33,7 @@ FPは知識として非常に実用的な資格ですが、資格単体で「相
 
 ---
 
-## FPには「独占業務」がない
+## FPには独占業務がない
 
 弁護士や税理士のように、<strong>「その資格を持っている人しかできない業務」を独占業務</strong>と呼びます。
 

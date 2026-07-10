@@ -1,5 +1,5 @@
---- 
-lastmod: 2026-05-30
+---
+lastmod: 2026-07-10
 publishDate: 2026-03-31T00:00:00Z
 title: "脱炭素×IT！GX（グリーントランスフォーメーション）とは？試験のキーワードと企業の取り組み"
 excerpt: "環境保護と経済成長を両立させるGX。ITをどう役立たせるか、DXとの掛け合わせで生まれる新たな価値をITパスポート試験の視点で解説。"
@@ -11,6 +11,8 @@ knowledge:
   type: news
   difficulty: beginner
 image: ~/data/post/trend/common-cover.png
+metadata:
+  description: '脱炭素と経済成長を両立させるGX（グリーントランスフォーメーション）をITパスポート試験の視点で解説。ITが果たす役割、DXとの掛け合わせで生まれる価値、試験で問われるキーワードをまとめて整理します。環境×ITの新頻出テーマを先取りして得点源にできます。'
 ---
 <div class="summary-box">
 <h3>3行まとめ</h3>

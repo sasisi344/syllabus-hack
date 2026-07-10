@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-02-10T00:00:00Z
-lastmod: 2026-06-09
+lastmod: 2026-07-10
 title: 'IT資格の学習投資ROI｜時間・費用・リターンを数値で計算してから受験を決める方法'
 excerpt: '「なんとなく取っておこう」では時間も金も無駄になる。受験前に学習コストとリターンをROIで計算し、自分に最もコスパが良い資格を選ぶ実践的な思考法を解説する。'
 image: ~/data/post/method/article-outlines-feb/cover.jpg
@@ -9,7 +9,7 @@ tags: ['資格取得', 'ROI', '学習設計', 'キャリア戦略', 'リスキ�
 draft: false
 persona: '複数の資格候補を比較中の社会人・転職希望者'
 knowledge:
-  examId: it-passport
+  examId: ip
   type: method
   syllabusRef: 'ストラテジ系-経営戦略'
   difficulty: beginner

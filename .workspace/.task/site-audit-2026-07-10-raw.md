@@ -1,0 +1,1232 @@
+# Site audit raw results (2026-07-10T00:35:08.231Z)
+
+Total posts scanned: 384
+
+## missing-toc (355)
+- trend/2026-cbt-ai-syllabus-strategy
+- trend/2026-cbt-transition-advanced-exam
+- trend/5g-technology
+- trend/agile-development
+- trend/ai-assistant
+- trend/ai-ethics-governance
+- trend/ai-opt-out-policy
+- trend/anthropic-ai-academy-start
+- trend/ap-2026-spring-postponed
+- trend/applied-advanced-exam-cbt-transition-2026
+- trend/ccna-vs-aws-saa
+- trend/copyright-ai-generated
+- trend/cross-site-scripting
+- trend/db-vector-search-rag
+- trend/deepfake
+- trend/dei-diversity-equity-inclusion
+- trend/devops
+- trend/ds-kentei
+- trend/dx-digital-transformation
+- trend/e-shikaku
+- trend/explainable-ai-xai
+- trend/fe-certification-value-debate
+- trend/fe-pseudo-language-trap
+- trend/fp-reskilling-fit-check
+- trend/fp-why-2kyu-is-standard
+- trend/fp2-cbt-strategy
+- trend/fp2-jitsuki-comparison
+- trend/genai-syllabus-integration
+- trend/generative-ai-certification-worth
+- trend/government-reskilling-university-60man
+- trend/gx-green-transformation
+- trend/hallucination-ai-error
+- trend/human-capital-management
+- trend/human-capital-reporting-iso30414
+- trend/invoice-system
+- trend/ipa-2026-cbt-confirmed-schedule
+- trend/ipa-2026-cbt-strategy-ai
+- trend/ipa-2027-restructuring
+- trend/ipa-exam-trends-2026
+- trend/ipa-syllabus-follow-up
+- trend/it-passport-shame-debate
+- trend/it-passport-syllabus-genai-update
+- trend/itp-vs-info1-comparison-hack
+- trend/lpic-ccna-aws-order
+- trend/mlops
+- trend/mos-vs-itp-job-hunting
+- trend/multi-factor-authentication
+- trend/multi-modal-ai
+- trend/ooda-loop
+- trend/pm-ai-quality-management
+- trend/rag-ai-system
+- trend/ransomware-security
+- trend/reskilling-era-mindset-shift
+- trend/reskilling-it-passport
+- trend/sa-llm-agent-design
+- trend/sakura-ai-certification-syllabus
+- trend/scrum-agile
+- trend/secretarial-why-bosses-recommend
+- trend/sg-syllabus-latest-change-guide
+- trend/sql-injection-vulnerability
+- trend/st-ai-pov-strategy
+- trend/syllabus-ai-knowledge-introduction
+- trend/syllabus-ver9-update
+- trend/targeted-threat-email
+- trend/typing-speed-60wpa
+- trend/web3-nft
+- trend/what-is-genai-passport-exam
+- trend/zero-trust-architecture
+- method/3kw-study-method
+- method/advanced-ipa-hub
+- method/agent-teacher
+- method/ai-dj-pomodoro
+- method/ai-driven-architecture-hack
+- method/ai-era-book-reading-value
+- method/ai-mentor-study-method-roadmap
+- method/ai-new-terms-explanation
+- method/ai-problem-master-syllabus
+- method/ai-rubber-ducking
+- method/ap-afternoon-ai-coaching
+- method/ap-grader-blackbox-hack
+- method/ap-grader-intent-hack
+- method/ap-hub
+- method/ap-pm-descriptive-ai-prompts
+- method/article-outlines-feb
+- method/astrowind-template-in-depth
+- method/aws-hub
+- method/aws-personalized-roadmap-hack
+- method/aws-saa-beginner-reality
+- method/boki-hub
+- method/calc-problem-abandon-strategy
+- method/cbt-2026-syllabus-complete-guide
+- method/cbt-exam-tactics
+- method/ccna-ai-hack
+- method/ccna-fail-comeback
+- method/ccna-hub
+- method/ccna-liberal-arts-roadmap
+- method/chatgpt-cert-complete
+- method/chatgpt-itpassport-ai-complete-guide
+- method/chatgpt-prompt-collection
+- method/common-essay-ai-examiner
+- method/continuous-learning-reskilling-beyond-itp
+- method/db-normalization-hack
+- method/denken-hub
+- method/digital-detox-learning
+- method/diversity-study-method
+- method/ds-kentei-hub
+- method/essay-trainer-script
+- method/exam-day-doping
+- method/fast-track-roadmap-20h-pass
+- method/fe-hub
+- method/fe-pseudo-code-ai-hack
+- method/fe-pseudo-code-visual-hack
+- method/fe-subject-b-ai-prompt-hub
+- method/fe-subject-b-drill
+- method/final-checkpoint-100-plus
+- method/fp-ai-simulator-hack
+- method/fp-hub
+- method/fp2-3month-plan
+- method/g-kentei-hub
+- method/gap-time-apps
+- method/gemini-cert-complete
+- method/gemini-memory-palace-hack
+- method/genai-cert-study-plan
+- method/genai-problem-mastery-notebooklm
+- method/genai-self-made-app-hack
+- method/genai-vocabulary-learning-efficiency
+- method/generative-memory-palace
+- method/guide
+- method/ip-address-ai-metaphor-hack
+- method/ip-discard-strategy
+- method/ip-strategy-ai-hack
+- method/ipa-absence-report-hack
+- method/it-passport-study-route-comparison
+- method/itp-10-days-panic-hack
+- method/itp-hub
+- method/itp-name-change-marriage-hack
+- method/itp-receipt-name-change-hack
+- method/itp-smartphone-only-hack
+- method/kiken-butsu-hub
+- method/level4-strategy-hub
+- method/logical-memory-linkage-hack
+- method/management-comprehension-hack
+- method/mental-hack-20h-marathon
+- method/miro-diagram-thinking
+- method/miss-note-db
+- method/mos-ai-shortcut
+- method/mos-excel-expert-difficulty
+- method/mos-hub
+- method/multi-device-cert-study
+- method/new-ipa-exam-study-strategy
+- method/notebooklm-100-day-hack
+- method/notebooklm-100days-challenge-hack
+- method/notebooklm-ai-workflow-guide
+- method/notebooklm-features-guide
+- method/notebooklm-ip-study-hack
+- method/notebooklm-it-passport-drill
+- method/notebooklm-syllabus-study-method
+- method/notion-study-tracker
+- method/nw-mermaid-hack
+- method/pc-selection-guide
+- method/pc-study-setup-guide
+- method/pdf-to-text-guide
+- method/pm-pm2-module-hack
+- method/pomodoro-anki-technique
+- method/practice-guide-ipa
+- method/pseudo-code-bridge-to-fe
+- method/region-hack-osaka
+- method/region-hack-tokyo
+- method/reskilling-strategy-while-working
+- method/sc-timeline-hack
+- method/scientific-study-methods
+- method/secretarial-cost-time-knowledge
+- method/sg-hub
+- method/sg-meaningless-rumors-hack
+- method/sg-news-study-hack
+- method/sleep-skill-learning-efficiency
+- method/smartphone-study-guide
+- method/sql-join-visual-ai-hack
+- method/st-no-experience-essay-hack
+- method/st-strategy-brainstorming
+- method/syllabus-diff-hack
+- method/tablet-study-guide
+- method/takken-hub
+- method/typing-speed-cbt
+- method/vibe-coding
+- method/vision-to-mermaid-hack
+- method/voice-output-learning
+- method/wrong-choice-analysis-hack
+- career/advanced-ipa-certification-high-salary-impact
+- career/ai-data-career
+- career/ap-cert-practical-use-hack
+- career/ap-salary-impact
+- career/applied-information-technology-engineer-career-value
+- career/backoffice-sg-career-hack
+- career/backoffice-sg-strategy
+- career/backoffice-sg-strategy-hiroshima
+- career/backoffice-sg-strategy-shizuoka
+- career/career-change-to-it-with-ipa
+- career/ccna-network-engineer-career
+- career/fe-career-modern-web
+- career/fe-engineer-foundation
+- career/fe-resume-liar-hack
+- career/fe-useless-corporate-hack
+- career/foreigner-japan-national-qualification
+- career/fp-side-business-reality
+- career/freelance-fe-merit
+- career/fundamental-it-engineer-for-non-engineers
+- career/gateway-to-advanced
+- career/ip-survival-strategy
+- career/ipa-career-value-job-change
+- career/ipa-certification-income
+- career/ipa-certification-salary-impact
+- career/ipa-new-exam-target-guide
+- career/ipa-reward-negotiation-hack
+- career/itp-high-school-resume-hack
+- career/itp-non-engineer-career-strategy
+- career/itp-rural-salary-hack
+- career/itp-shameful-career-hack
+- career/liberal-arts-it-strategy
+- career/liberal-arts-it-strategy-aichi
+- career/liberal-arts-it-strategy-fukuoka
+- career/liberal-arts-student-strategy
+- career/mos-back-office-expert-independence
+- career/mos-freelance-haken-reality
+- career/mos-instructor-school-path
+- career/next-step-aws-vs-fp-strategy
+- career/qualification-60min-daily-simulation
+- career/regional-it-career-hub
+- career/regional-salary-qualification-correlation
+- career/reskilling-success-story-it-passport-to-data-scientist
+- career/resume-writing-tips-ipa-certification
+- career/sc-unregistered-benefit-hack
+- career/secretarial-career-up-effect
+- career/secretarial-exam-multiwork-freelance
+- career/ses-ap-independence-strategy
+- career/ses-ap-strategy
+- career/ses-ap-strategy-hokkaido
+- career/ses-ap-strategy-kanagawa
+- career/ses-ap-strategy-miyagi
+- career/sg-company-security-roadmap
+- app/ap-quiz
+- app/ap-subject-b
+- app/dev-doc-process-mvp
+- app/dev-doc-structure-astro
+- app/dev-story-ai-engine
+- app/dev-story-data
+- app/dev-story-ui
+- app/fe-quiz
+- app/flashcard-app
+- app/gemini-cli-quiz-maker
+- app/genai-ethics-quiz
+- app/genai-ip-quiz
+- app/genai-passport-quiz
+- app/genai-trend-quiz
+- app/ip-management-drill
+- app/ip-strategy-drill
+- app/ip-technology-drill
+- app/it-passport-quiz
+- app/pdf-to-text
+- app/pm-essay-gacha
+- app/sc-specialist-quiz
+- app/sg-quiz
+- app/sg-subject-b-quiz
+- theory/abc-analysis-pareto-chart
+- theory/accessibility-usability-ui
+- theory/agile-scrum-basics
+- theory/ai-intellectual-property-copyright-trade-secret
+- theory/algorithm-search-sort
+- theory/ansoff-matrix
+- theory/aws-concept-metaphor-hack
+- theory/backup-methods
+- theory/balance-sheet-bs
+- theory/balanced-scorecard
+- theory/bcm-bcp-business-continuity
+- theory/bias-and-precision-data
+- theory/binary-hexadecimal-basics
+- theory/bios-device-driver
+- theory/bpm-process-management
+- theory/bpr-process-reengineering
+- theory/break-even-point
+- theory/business-math-statistics-average-variance-bayes
+- theory/business-process-improvement-bpr-bpm-saas
+- theory/byod-shadow-it-security
+- theory/cash-flow-statement-cf
+- theory/ccna-routing-protocols
+- theory/ccna-vlan-stp
+- theory/characteristic-diagram-fishbone
+- theory/cloud-service-selection-saas-paas-iaas
+- theory/common-key-cryptography
+- theory/compliance
+- theory/cookie-privacy-web
+- theory/core-competence
+- theory/corporate-governance
+- theory/corporate-mission-mvv
+- theory/cpu-memory-functions
+- theory/critical-path
+- theory/crm-scm-management
+- theory/csr-sdgs-esg-investment
+- theory/data-mining-kdd
+- theory/data-profitability-dwh-mining-regression
+- theory/data-structures-basics
+- theory/data-warehouse-basics
+- theory/database-normalization
+- theory/deep-learning-basics
+- theory/digital-divide-basics
+- theory/dns-domain-name-system
+- theory/dx-leadership-mvv-digital-divide
+- theory/erp-system-integration
+- theory/exclusive-control
+- theory/financial-statements-synergy-bs-pl-cf
+- theory/gantt-chart
+- theory/http-https-security
+- theory/intellectual-property-rights
+- theory/io-interface-usb-hdmi
+- theory/it-legal-subcontract-copyright-labor
+- theory/just-in-time-jit-kanban
+- theory/labor-dispatch-act-ses
+- theory/labor-standards-act-36-agreement
+- theory/mean-median-mode-stats
+- theory/ml-supervised-unsupervised
+- theory/os-operating-systems
+- theory/osi-reference-model
+- theory/ppm-portfolio
+- theory/probability-bayes-basics
+- theory/product-life-cycle
+- theory/profit-and-loss-statement-pl
+- theory/prompt-engineering-basics
+- theory/public-key-cryptography
+- theory/quality-control-abc-fishbone-scatter
+- theory/regression-analysis-data
+- theory/remote-work-security-byod-vpn
+- theory/return-on-investment
+- theory/saas-paas-iaas-cloud
+- theory/sampling-methods-data
+- theory/sets-logical-operations
+- theory/sla-slo-service-quality
+- theory/standard-deviation-variance
+- theory/storage-hdd-ssd
+- theory/subcontract-act-it-dev
+- theory/supply-chain-security-vulnerability-management-incident-response
+- theory/swot-analysis
+- theory/system-development-contracts-ses-outsourcing-risk
+- theory/tcp-ip-protocol-suite
+- theory/telework-workation-style
+- theory/text-mining-nlp
+- theory/three-c-analysis
+- theory/transaction-acid
+- theory/ui-ux-design-diff
+- theory/uiux-accessibility-user-centric-design
+- theory/unfair-competition-prevention-act
+- theory/v-model-testing-phases
+- theory/value-chain-analysis
+- theory/waterfall-development
+- theory/white-black-box-testing
+- theory/work-breakdown-structure
+
+## heading-style (265)
+- trend/agile-development: bracket: なぜ「走りながら作る」が成立するのか
+- trend/ai-opt-out-policy: numbered: 1. 生成AIチャット運用（社内利用） | numbered: 2. AWSでのAIサービス一括オプトアウト（Organizations活用） | numbered: 3. サーバーサイドマーケティング計測（会員ID連携）
+- trend/anthropic-ai-academy-start: bracket: Claudeの開発元が提供する「公式」の教科書 | bracket: 英語ベースの壁を「翻訳ハック」で突破する | bracket: 基礎知識がゼロなら「AI用語」からハックする
+- trend/ap-2026-spring-postponed: bracket: 2026年度の試験日程が「前期・後期」へ再編 | bracket: シラバスハックが提案する「延期期間」の必勝戦略 | bracket: 1. 「科目A」を早期に完成させ、CBT操作に慣れる
+- trend/cbt-exam-venue-booking-tips: bracket: 1. 「3ヶ月前」の予約開始直後を狙う | numbered: 1. 「3ヶ月前」の予約開始直後を狙う | numbered: 2. 平日の午前中を狙う
+- trend/cost-effective-certification-path-2025: numbered: 1. IT パスポート（学習目安：1ヶ月） | bracket: エンジニア・非エンジニア共通の「勝負どころ」 | numbered: 2. 情報セキュリティマネジメント試験（SG）（学習目安：1ヶ月）
+- trend/ds-kentei: bracket: AIで「なぜ」から理解する学習法
+- trend/e-shikaku: bracket: AIで数学とアーキテクチャを「対話」で理解する
+- trend/entrance-exam-information-1-impact: bracket: 社会人の「IT資格」の価値はどう変わるのか？
+- trend/fe-certification-value-debate: bracket: なぜ「意味ない」と言われるのか？5つの理由 | bracket: それでも「意味がある」5つの決定的な理由
+- trend/fp-reskilling-fit-check: bracket: FPが「生活に直結する知識」である強み | bracket: 「資格を取ること」自体が目的になっている
+- trend/fp-why-2kyu-is-standard: bracket: なぜ「2級から」が推奨されるのか | bracket: 2級は「実務で使えるライン」として扱われやすい
+- trend/fp2-cbt-strategy: bracket: 「わかった気」で過去問を解かない
+- trend/genai-syllabus-integration: bracket: セキュリティとネットワークが「AI時代」の主戦場になる理由 | bracket: 効率的な学習法：プログラミングより「ビジネスニュース」を追え | bracket: まとめ：AIリテラシーは「ITの基礎体力」へと変わった
+- trend/ipa-2026-cbt-confirmed-schedule: bracket: 「午前・午後」の名称が消え「科目A・B」へ | bracket: 高度試験も「CBT」で受ける時代へ
+- trend/ipa-2026-cbt-schedule-guide: bracket: 2026年4月：システム移行期間の「空白」に注意
+- trend/ipa-certification-overseas-mutual-recognition: bracket: 「日本の資格」が持つブランド力
+- trend/ipa-exam-trends-2026: bracket: IPA試験は「いつでも受けられるデジタル試験」へ進化する | bracket: シラバスへの「生成AI」知識の本格導入 | bracket: 基本情報技術者試験（FE）の「高合格率」の継続
+- trend/ipa-syllabus-follow-up: bracket: ハック手順2：AIに「差分」を抽出させる
+- trend/it-passport-shame-debate: bracket: 「ITパスポート＝簡単」というレッテルを疑う | bracket: 2026年、なぜITパスポートが「再評価」されているのか | bracket: 恥ずかしいと思う必要はない。むしろ「誇るべき第一歩」
+- trend/it-passport-syllabus-genai-update: bracket: 最新シラバス（Ver.6.2以降）で変わった「試験の重み」
+- trend/itp-vs-info1-comparison-hack: bracket: 2つの試験の「中身」を比較する | bracket: 共通テスト「情報I」 | bracket: 「どっちが難しいか」への直接回答
+- trend/latest-ai-future-of-exams: bracket: 受験側：自分専用の「24時間専属チューター」の誕生 | bracket: 無料で使える最強ツール「NotebookLM」を激推ししたい | bracket: 作成側：AIに対抗するための「問いの高度化」
+- trend/new-game-study-method: bracket: テキストから「データ」への移行 | bracket: 「強くてニューゲーム」を実現する3つの柱 | bracket: 生成AIを「専属メンター」にする
+- trend/professional-occupations-it-literacy-demand: bracket: 採用担当者や上司に知ってほしい「これからの士業像」 | bracket: 新卒・転職者が目指すべき「クロス職種」の価値
+- trend/sakura-ai-certification-syllabus: bracket: さくらインターネットが提唱する「AIの基礎体力」 | bracket: シラバスに隠された「重要キーワード」の共通点 | bracket: 無料検定を「インプットの節目」としてハックする
+- trend/secretarial-why-bosses-recommend: bracket: 上司が「学ばせたい」と感じる瞬間 | bracket: 秘書検定が証明する「ビジネス基礎体力」 | bracket: なぜ「今」勧められるのか
+- trend/sg-exam-popularity-step-up: bracket: スペシ���リスト不要。まずは「共通言語」を持つ | bracket: リスキリング補助金で「投資」を加速させる
+- trend/sg-syllabus-latest-change-guide: bracket: SGシラバスは「セキュリティの現場」に追随する | bracket: 事前に「捨て」と決めていい範囲
+- trend/syllabus-update-ai-ethics: bracket: 道具としてのAIから「共生」のAIへ | bracket: なぜ試験に出るのか？それは「法規制」の前触れ
+- trend/typing-speed-60wpa: bracket: 【AIハック】生成AIで「自分の癖」を分析
+- method/agent-teacher: bracket: 1. なぜ「AI講師」が人間より優れているのか？ | numbered: 1. なぜ「AI講師」が人間より優れているのか？ | bracket: 2. 実践：AIを「有能な講師」に変える3つの魔法
+- method/ai-driven-architecture-hack: bracket: 人間は「提案」し、AIは「実装」する | numbered: 1. Astro ＋ React（UI の土台） | numbered: 2. Antigravity（現場監督の AI エージェント）
+- method/ai-era-book-reading-value: bracket: AIは「答え」をくれるが、「地図」はくれない | bracket: 本は「体系的なシラバス」の完成形である | bracket: 「本の広さ」と「AIの深さ」を掛け合わせる
+- method/ai-mentor-study-method-roadmap: bracket: フェーズ 1：AI を「試験仕様」にセットアップする | bracket: フェーズ 2：知識の「圧縮」と「エンジニア視点」の獲得 | bracket: フェーズ 3：スマホ完結の「無限ドリル」への移行
+- method/ai-new-terms-explanation: bracket: 単なる用語暗記を超えた「AIリテラシー」の重要性 | bracket: RAG（検索拡張生成）：AIの「知ったかぶり」を防ぐ技術 | bracket: まとめ：新用語は「AI時代のIT人材」としての共通言語
+- method/ai-problem-master-syllabus: bracket: 第1章：カタカナ用語の裏側にある「実体」を掴む
+- method/ap-afternoon-ai-coaching: bracket: 「解答例と自分の答えが違う」ときの絶望を解消する | bracket: なぜAIは「記述対策」の最高のパートナーなのか | bracket: AIコーチングで身につく「合格者の思考回路」
+- method/ap-grader-blackbox-hack: bracket: 採点者はあなたの「正解」ではなく「専門用語」を探している | bracket: 部分点をむしり取る「Safe Word」の極意 | bracket: 採点者を「疲れさせない」書き方
+- method/ap-grader-intent-hack: bracket: その「5点」の壁が、なかなか越えられないとき | bracket: 採点官が見ているのは「意見」より「要件」 | bracket: 採点意図を探る「Claude（長文）vs ChatGPT」使い分け
+- method/ap-hub: bracket: 高度試験への「登竜門」として機能する
+- method/ap-pm-descriptive-ai-prompts: numbered: 1. 採点・添削（厳しめ）プロンプト | bracket: 2. 答えを見ずに粘る！「ソクラテス式ヒント」プロンプト | numbered: 2. 答えを見ずに粘る！「ソクラテス式ヒント」プロンプト
+- method/aws-personalized-roadmap-hack: bracket: 脳内スキルの棚卸し：AIに「現在地」を教える | bracket: 羅針盤ハック：AIを「スキル・コンシェルジュ」にする | bracket: 「点」を「線」に変える：機能ベースのマッピング
+- method/biru-kanri-hub: bracket: AI活用で「専任講師を月額20ドルで雇う」感覚
+- method/cbt-2026-syllabus-complete-guide: bracket: 【Problem】2026年、情報処理技術者試験は「別物」になる | bracket: 【Affinity】「変化」を恐れるか、「チャンス」に変えるか | bracket: 【Solution】2026年大転換期の「3つの重要ポイント」
+- method/cbt-exam-tactics: bracket: 第1章：フラグという名の「思考のしおり」
+- method/ccna-fail-comeback: bracket: AIとの対話で「なぜ」から理解し直す
+- method/ccna-hub: bracket: AI活用で「専任講師を月額20ドルで雇う」感覚
+- method/ccna-liberal-arts-roadmap: bracket: ネットワークの「なぜ」が分からない
+- method/chatgpt-cert-complete: bracket: 科目A——計算問題の「捨て方」と「取り方」
+- method/common-essay-ai-examiner: bracket: 独学者の悩みを解消する「AI試験委員」という概念
+- method/continuous-learning-reskilling-beyond-itp: bracket: 1. 【Problem】「過去の知識」は、賞味期限の短い消耗品 | numbered: 1. 【Problem】「過去の知識」は、賞味期限の短い消耗品 | bracket: 2. 【Agitation】「知っているだけ」と「使える」の深い溝
+- method/db-normalization-hack: bracket: Benefit: AIを「自分専用の問題集」にするメリット
+- method/denken-hub: bracket: AI活用で「専任講師を月額20ドルで雇う」感覚 | bracket: 「電顕ホルダー」の希少価値
+- method/digital-detox-learning: bracket: なぜ「デジタル断食」が必要なのか：脳はシングルタスク | numbered: 1. iOS / Android の標準機能を使う | bracket: 2. 特定アプリの「毒性」を抜く
+- method/diversity-study-method: bracket: 1. 日本と海外の「自己啓発」の構造的違い | numbered: 1. 日本と海外の「自己啓発」の構造的違い | numbered: 2. 海外で主流の科学的キーワード
+- method/doboku-sekou-hub: bracket: AI活用で「専任講師を月額20ドルで雇う」感覚
+- method/ds-kentei-hub: bracket: AI活用で「専任講師を月額20ドルで雇う」感覚
+- method/exam-day-doping: bracket: 試験は「頭脳の持久戦」である
+- method/fe-algorithm-roadmap: bracket: ステップ1: ChatGPTに「日常世界の例え」で変数を説明させる | bracket: ステップ2: 擬似言語を「Python」に一括翻訳させる | bracket: ステップ1: 「罠（トラップ）」の確認とギャップ埋め
+- method/fe-hub: bracket: エンジニアとしての「OS」が手に入る
+- method/fe-pseudo-code-ai-hack: bracket: 疑似言語が「読める」と「解ける」の間に横たわる深い溝 | bracket: AIティーチャーへの「変換依頼」プロンプト | bracket: なぜ「Pythonへの変換」が強力なのか
+- method/fe-pseudo-code-visual-hack: bracket: その「呪文」のような羅列に、心が折れていませんか？ | bracket: 「擬似言語」を「生きたコード」に変換せよ | bracket: 【最適技】コード可視化「トランスレーター」プロンプト（ChatGPT / Cla
+- method/fe-subject-b-ai-prompt-hub: bracket: プロンプト C-1：CBT本番用「一文プロンプト」
+- method/fe-subject-b-drill: bracket: まとめ：AIを「使い倒す」ものが勝つ
+- method/fp-ai-simulator-hack: bracket: なぜ「暗記」よりも「シミュレーター作成」なのか | bracket: 1. ライフプラン：AI「自分専用年金診断機」を建てる | numbered: 1. ライフプラン：AI「自分専用年金診断機」を建てる
+- method/fp2-3month-plan: bracket: 制度の「なぜ」を飛ばして計算方法を暗記した人が失敗する
+- method/g-kentei-hub: bracket: AI活用で「専任講師を月額20ドルで雇う」感覚
+- method/gap-time-apps: bracket: 社会人の平均勉強時間は、わずか「6分」という事実 | bracket: 1. 「手」を動かす：当サイトの攻略ドリル | numbered: 1. 「手」を動かす：当サイトの攻略ドリル
+- method/gemini-memory-palace-hack: bracket: 暗記は「根性」から「創造」へ | bracket: まず結論：これは「哲学」ではなく、再現可能な学習方法 | bracket: 文字は忘れても「変な絵」は忘れない
+- method/gemini-prompt-collection: numbered: 1. 24時間いつでも質問できる | numbered: 2. あなたの理解度に合わせた解説 | numbered: 3. 無限に問題を生成できる
+- method/genai-cert-study-plan: numbered: 1. 非エンジニア・ビジネス職向けプラン | numbered: 2. 開発者・エンジニア向けプラン | numbered: 3. 超短期決戦！試験直前の総仕上げプラン
+- method/genai-problem-mastery-notebooklm: bracket: 講師もテキストも足りない「生成AI」分野をどう攻略するか | bracket: 暗記だけでは解けない「3つの壁」 | bracket: まとめ：AIは「学習対象」であり「最強の家庭教師」
+- method/genai-self-made-app-hack: bracket: 教材を「待つ」時代は終わった | bracket: Step 1：ChatGPT / Geminiに「問題データ」を作らせる
+- method/genai-vocabulary-learning-efficiency: numbered: 1. 300問の丸暗記か、AIによる本質的理解か？ | numbered: 2. 性格タイプ（MBTI）別：最短合格へのアプローチ | numbered: 3. 実践：頻出用語クイズデータ（サンプル）
+- method/generative-memory-palace: bracket: 実践例：セキュリティ攻撃を「絵」にする | bracket: なぜ「生成AI」なのか
+- method/guide: bracket: 【重要】2026年、情報処理試験の「ルール」が変わる | bracket: Syllabus Hack メソッドの「3つの柱」 | bracket: 1. 【Method】最新の「AI学習法」を極める
+- method/ip-address-ai-metaphor-hack: bracket: AIは「あなたの言語への翻訳機」になれる | bracket: Step 1: 「なぜ必要か」をメタファーで理解する | bracket: Step 2: 計算の「型」を身につける
+- method/ip-discard-strategy: bracket: 1週間で合格する「かすめ取り」ロードマップ | bracket: Day 1-2：ストラテジ・マネジメント系を「自分事」にする | bracket: Day 3-5：過去問道場で「テクノロジ系の用語」を絨毯爆弾
+- method/ip-strategy-ai-hack: bracket: 暗記は「負け」。ストラテジ系は「イメージ」で制する | bracket: マネジメント系の「流れ」もChatGPTで可視化する | bracket: まとめ：AIは、あなたの「わからない」に寄り添うパートナー
+- method/ipa-absence-report-hack: bracket: 逃げたのではない、これは「リスクの発現」である | bracket: 上司の叱責を「応援」に変える、リカバリー報告プロンプト | bracket: 「欠席」は、最高のケーススタディになる
+- method/it-passport-study-route-comparison: numbered: 1. 比較表：3つの学習ルートをざっくり把握 | numbered: 2. 各ルートのメリット・デメリット | bracket: ① AI学習ルート：24時間365日の「専属家庭教師」を雇う
+- method/itp-10-days-panic-hack: bracket: 【最適技】AI家庭教師「スパルタ・チューター」プロンプト | bracket: 「広げる」学習から「絞る」学習へ
+- method/itp-name-change-marriage-hack: bracket: これがなぜ「詰み」になるのか | bracket: 「第3の解決策」という発想 | bracket: AIで作る「氏名変更説明文書」プロンプト
+- method/itp-receipt-name-change-hack: bracket: 経理部門の冷たい視線と、公式の「NO」 | bracket: なぜ事務局は「できない」と切り捨てるのか | bracket: 公式の回答を「前提条件」に変える逆転の発想
+- method/itp-smartphone-only-hack: bracket: Step 2：用語の「なぜ」をAIに聞き続ける（2〜4週間） | bracket: 就活で「スマホネイティブ×IT国家資格」は差別化になる
+- method/kiken-butsu-hub: bracket: AI活用で「専任講師を月額20ドルで雇う」感覚
+- method/level4-strategy-hub: bracket: ステップ3：午後問題中心で「使う知識」を覚える | bracket: 生成AIの使い方は「答え生成」より「思考補助」 | bracket: まとめ：最短合格は「基礎を経由する」
+- method/mental-hack-20h-marathon: bracket: 第1章：脳をだます「5分間」の潜入作戦 | bracket: 第2章：孤独を殺す「私」という伴走者
+- method/miro-diagram-thinking: bracket: なぜ「描く」のが効くのか | bracket: まとめ：エンジニアの言葉は「図」である
+- method/miss-note-db: bracket: 「ミス・ノート」は手書きで作るな | bracket: バイブコーディングで「自分専用復習ツール」を作る | bracket: AIによる「誤答パターン分析」
+- method/mos-ai-shortcut: bracket: MOSが「役に立たない」と言われる本当の理由 | bracket: Day 15〜20: 苦手機能を「なぜ」から対話で理解する
+- method/mos-excel-expert-difficulty: bracket: エキスパートが「難しすぎる」と感じる3つの理由 | bracket: AI対話でエキスパート機能の「なぜ」を理解する
+- method/new-ipa-exam-study-strategy: bracket: 理論の習得が「ツール選択」の武器になる
+- method/notebooklm-100-day-hack: bracket: ステップ 1：Deep Research で「敵」を知る | bracket: ステップ 2：NotebookLM を「自分専用の家庭教師」にする | bracket: ステップ 3：「100日チャレンジ」を宣言し、脳を味方につける
+- method/notebooklm-100days-challenge-hack: bracket: 源泉（ソース）の構築：NotebookLMに「試験の正体」を教える | bracket: あなたの「自己紹介」メモ | bracket: 脳科学の正解：100日後の自分を「予約」する
+- method/notebooklm-anystudy: numbered: 1. インライン引用（[1], [2]...の番号） | numbered: 2. メモの保存（ピン留め） | numbered: 3. チャット（ただしプロンプトありき）
+- method/notebooklm-features-guide: bracket: 用語の自分事化——抽象概念を「自分のこと」に変換する | bracket: 動画解説機能——概念を「見て」理解する
+- method/notebooklm-flashcard: bracket: フラッシュカード自動生成の「3つの傾向」 | bracket: 1. 「用語解説」問題が圧倒的に多い | numbered: 1. 「用語解説」問題が圧倒的に多い
+- method/notebooklm-ip-study-hack: bracket: 膨大な用語を「地獄の暗記」にしないために | bracket: NotebookLMとは？「根拠のあるAI」が学習を変える | bracket: 実践：シラバスを「自分専用」に書き換える手順
+- method/notebooklm-it-passport-drill: bracket: 技術① 用語を「自分事」に翻訳して記憶に焼き付ける | bracket: 爆速ドリルのための「3つの準備物」 | bracket: Step 2：プロンプトで「50問ドリル」を召喚する
+- method/notebooklm-mindmap: bracket: 1. 教科書ではなく「自分のミス」をソースにする | numbered: 1. 教科書ではなく「自分のミス」をソースにする | numbered: 2. エンジニア向け裏技：Mermaid記法で出力する
+- method/notebooklm-movie: bracket: 1. 「図解」ではなく「概念」を学ばせる | numbered: 1. 「図解」ではなく「概念」を学ばせる | bracket: 2. YouTubeの学習動画を「圧縮」する
+- method/notebooklm-podcast: numbered: 1. メモ機能でソースを絞る（おすすめ！） | bracket: 2. 生成AIで「台本」を作らせる | numbered: 2. 生成AIで「台本」を作らせる
+- method/notebooklm-syllabus-study-method: bracket: 【最短合格】NotebookLM × 公式シラバス：24時間365日の「AI家庭 | bracket: 【Problem】なぜ、あなたの独学は「100時間」もかかるのか？ | bracket: 【Affinity】私たちが、1,171語のキーワードを「一瞬」でハックした理由
+- method/notion-study-tracker: bracket: 落ちる人：「カレンダー」で未来を管理する | bracket: 受かる人：「データベース」で過去（実績）を管理する | bracket: Notionで作る「合格ダッシュボード」の極意
+- method/nw-mermaid-hack: bracket: ネットワーク図の「書き方」: MermaidとChatGPT / Geminiの | bracket: 構成パターンの「覚え方」: 視覚的な脳内変換 | bracket: 「文字」を「図」に変換するメリット
+- method/pc-selection-guide: bracket: 1. 【Problem】なぜ「高いPC」を買っても後悔するのか？ | numbered: 1. 【Problem】なぜ「高いPC」を買っても後悔するのか？ | bracket: 2. 【Agitation】「遅いPC」は、あなたの時間を奪う最大の敵
+- method/pdf-to-text-guide: bracket: PDFは「学習の壁」である
+- method/pomodoro-anki-technique: bracket: 形から入る「ポモドーロ・テクニック」の再定義 | bracket: 1. Notionで「記録と集中」を統合する | numbered: 1. Notionで「記録と集中」を統合する
+- method/practice-guide-ipa: bracket: 【Problem】なぜ、多くの受験生は「シラバス」の壁に跳ね返されるのか？ | bracket: 【Solution】ChatGPT／Claude／Geminiで合格をハックする | bracket: ステップ1：シラバスを「AIの脳」にインストールする
+- method/region-hack-osaka: bracket: 梅田・難波を「働く場所」として定義する
+- method/region-hack-tokyo: bracket: 東京都の圧倒的な「密度」を学習に転用する | bracket: 1. 鉄道網をハックする：山手線「1駅1枚」フラッシュカード | numbered: 1. 鉄道網をハックする：山手線「1駅1枚」フラッシュカード
+- method/reskilling-strategy-while-working: bracket: まず問うべき「現職継続か転職か」
+- method/sc-timeline-hack: bracket: Practical: 午後試験をハックする「実戦プロンプト集」 | numbered: 1. インシデント時系列（タイムライン）抽出 | numbered: 2. インフラ・ネットワーク構成のMermaid図解
+- method/scientific-study-methods: numbered: 1. アクティブ・リコール (Active Recall)
+- method/secretarial-cost-time-knowledge: bracket: AI活用で「専任講師を月額20ドルで雇う」感覚 | bracket: AI対話で「ビジネスマナーのなぜ」を理解する学習ループ
+- method/sg-beginner-roadmap: bracket: あなたの「現在地」から選ぶ3つのルート | numbered: 1. 知識ゼロ（完全未修）からのスタート | numbered: 2. 一般ユーザー（ある程度の用語は知っている）
+- method/sg-hub: bracket: 技術知識不要で取れる唯一の「セキュリティ系」国家資格 | bracket: バックオフィス職の「希少スキル」になる | bracket: 科目A: 用語の「なぜ」から理解する
+- method/sg-meaningless-rumors-hack: bracket: その資格、ただの「コレクション」で終わらせるな | bracket: 試験問題の「外側」にある、本当の価値 | bracket: 【最適技】実務を動かす「セキュリティCSIRT」ハック
+- method/sg-news-study-hack: bracket: 教科書の中の「他人の事」を、スマホの中の「自分事」へ | bracket: なぜ「ニュース×AI」がSG合格に直結するのか | bracket: まとめ：世界はセキュリティの「事例」で満ちている
+- method/sleep-skill-learning-efficiency: bracket: 睡眠は「休み」ではなく「記憶の書き込み時間」である | bracket: 脳内の「海馬」が知識を整理する | bracket: 入眠を劇的に早める「シャッフル睡眠法」
+- method/smartphone-study-guide: bracket: 就活で「スマホネイティブ×IT国家資格」は差別化になる
+- method/sql-join-visual-ai-hack: bracket: AIに「身近な物語」で説明させ���
+- method/st-no-experience-essay-hack: bracket: その「真っ白な画面」は、あなたの経験不足のせいではない | bracket: 試験官は「あなたの自慢話」を聞きたくない | bracket: 論文は「嘘」ではなく「仮説の証明」
+- method/st-strategy-brainstorming: bracket: まとめ：論理的な「ストーリー」が合格を分ける
+- method/syllabus-diff-hack: bracket: 具体的な「狙い目」 | bracket: 最新トレンドを「外部脳」で自動収集する | bracket: まとめ：敵を知るのなら「動き」を見ろ
+- method/takken-hub: bracket: AI活用で「専任講師を月額20ドルで雇う」感覚
+- method/typing-speed-cbt: bracket: CBT化で変わる「書く」から「打つ」への対策 | bracket: 日記（ジャーナル）で「考えながら打つ」を鍛える | bracket: 「アウェイ環境」での練習：図書館やネットカフェの活用
+- method/vibe-coding: bracket: シラバスをAIの「脳」にする | bracket: AIへの「丸投げ」が生む高度な分析 | bracket: 「会話」だけでアプリを具現化する
+- method/vision-to-mermaid-hack: numbered: 1. 苦行の自動化：AI Vision 経由 Mermaid 行き | bracket: 2. 汚い表も「パワポ級」の資産に変える | numbered: 2. 汚い表も「パワポ級」の資産に変える
+- method/voice-output-learning: bracket: 歩けば「脳血流」アップ
+- career/30s-career-change: bracket: それでも「防具」として必要な理由
+- career/ap-cert-practical-use-hack: bracket: 資格知識は「フレームワーク」として使う | bracket: AIと組み合わせて「実務問題」を解く | bracket: 面接での「使い方」に変換する
+- career/ap-salary-impact: bracket: 結論：意味なくない。ただし「即戦力のSE証明」ではない | bracket: 「意味がない」と感じやすい例 | bracket: 学生で取る場合と、社会人で取る場合で「意味」の重心が違う
+- career/applied-information-technology-engineer-career-value: bracket: メリット2：高度試験の「午前I」が免除される | bracket: まとめ：迷っているなら「AP」を目標に据えよう
+- career/backoffice-sg-career-hack: bracket: 事務職の「年収の壁」を突破する意外な武器 | bracket: なぜ「セキュマネ」がバックオフィスの武器になるのか | bracket: 職種変更なしで「年収」に還元させる3つのステップ
+- career/backoffice-sg-strategy: bracket: 「性善説」の日本で、セキュリティ知識は「特権的スキル」になる | bracket: セキュマネ（SG）取得者が手にする「圧倒的な希少性」 | bracket: 🚀 実践：組織の守護神になるための「攻略ツール」
+- career/backoffice-sg-strategy-hiroshima: bracket: 広島のモノづくりを支える「リテラシーの盾」 | bracket: 広島の産業×SG：性善説を超えた「信頼」の構築 | bracket: 【Benefit】広島での市場価値は「年収＋50万円〜」のインパクト
+- career/backoffice-sg-strategy-shizuoka: bracket: 静岡の「モノづくり」を支えるバックオフィスの新しい役割 | bracket: 【Benefit】静岡での「資格の価値」：年収＋100万円のレンジへ | bracket: 【Action】静岡の優良「BtoBメーカー」を攻略する
+- career/career-change-to-it-with-ipa: bracket: なぜ未経験者ほど「資格」が効くのか | numbered: 1. 最短で取りやすく、転職活動に間に合う | numbered: 2. IT基礎とビジネス基礎を同時に押さえられる
+- career/fe-engineer-foundation: bracket: 生成AIが「作る」時代、エンジニアは「選ぶ」存在へ | bracket: FEがもたらす「解像度」の高い指示と判断 | bracket: 「アルゴリズム」がわかるから、AIのコードを最適化できる
+- career/fe-resume-liar-hack: bracket: 履歴書を書く手が止まる「不合格」の重圧 | bracket: 「結果」よりも「解像度」で圧倒する | bracket: AIと作る「現在進行形」のアピール文面プロンプト
+- career/fe-useless-corporate-hack: bracket: 30%の「実戦エリア」だけをハックする | bracket: AIを「試験対策の奴隷」にする
+- career/fp-side-business-reality: bracket: FPには「独占業務」がない
+- career/ip-survival-strategy: bracket: ITパスポートは「ITの専門家」になるための試験ではない | bracket: 「ITの共通言語」がもたらす3つの特権 | bracket: 実は「IT以外」が最大の壁？ストラテジ・マネジメント攻略の鍵
+- career/ipa-career-value-job-change: bracket: 履歴書に「IT資格」を載せることの計り知れないメリット | bracket: キャリアチェンジを成功させる「客観的な証明書」 | bracket: 業種を問わず評価される「やり抜く力（GRIT）」
+- career/ipa-reward-negotiation-hack: bracket: 資格保有者数」は会社の営業武器である | bracket: 月額単価「プラス5万円」の裏側 | bracket: 賢いエンジニアの「手当」最大化戦略
+- career/it-passport-to-ap-roadmap: bracket: 📅 「同時攻略」を見据えた黄金のロードマップ | bracket: パターンA：秋に学習を始め、翌年の「春期AP」を狙う場合 | bracket: パターンB：春に学習を始め、翌年の「秋期AP」を狙う場合
+- career/itp-high-school-resume-hack: bracket: 共通テストの勉強を、ただの「暗記」で終わらせるな | bracket: 「高校生・ITパスポート」という、大人が嫉妬する肩書き | bracket: 大人の階段を「ショートカット」する楽しみ
+- career/itp-non-engineer-career-strategy: bracket: 合格証書を「ただの紙」で終わらせないために | bracket: 「ITがわかる事務・営業」という希少種を目指す | bracket: 価値を証明するための「3ステップ・アクション」
+- career/itp-rural-salary-hack: bracket: 資格の「換金場所」を会社の外に移す | bracket: AIで「自分の現実的な選択肢」を整理する | bracket: 「給料が上がらない」は正しい悔しさだ
+- career/itp-shameful-career-hack: bracket: 非IT職では「最強の防弾チョッキ」になる | bracket: 恥ずかしさを消す「1%の視点」
+- career/liberal-arts-it-strategy: bracket: 「文系×IT」の需要が急増している背景 | bracket: 🚀 実践：最小努力で用語を叩き込む「攻略ツール」 | bracket: 地域・業界別：さらに深い「刺さる」内定戦略
+- career/liberal-arts-it-strategy-aichi: bracket: 愛知の就活市場で「ITリテラシー」が最強の武器になる理由 | bracket: 【Benefit】「文系×IT」が愛知のTier 1企業で無双する理由 | bracket: 【Action】愛知の「勝ち組就活」をスタートさせる
+- career/liberal-arts-it-strategy-fukuoka: bracket: 福岡の「スタートアップ都市」という特殊環境をハックする | bracket: 福岡の成長業界×シラバス：アピールすべき「モダンWeb」の理解 | bracket: 【Benefit】「文系×IT」が福岡のスタートアップで評価される理由
+- career/liberal-arts-student-strategy: bracket: 「文系だからITは関係ない」という慢心が、内定を遠ざける | bracket: なぜIT資格が「新卒カード」を劇的に強化するのか | bracket: ガクチカへの組み込み方：資格を「物語���に昇華させる
+- career/mos-back-office-expert-independence: bracket: なくならない「設計側」の事務需要 | bracket: MOSを「ツールの知識」から「業務設計の言語」に変える | bracket: 社内のAI活用は「Copilot」が現実的な理由
+- career/mos-freelance-haken-reality: bracket: MOSが証明するのは「Officeが使える」という最低ライン | bracket: 「持っていて当然」になりつつある | bracket: ショートカット・効率化を「習慣」として持っている
+- career/mos-instructor-school-path: bracket: ギャップ1: 「できる」と「教えられる」は別の技術
+- career/portfolio-vs-cert: bracket: 採用担当者が見ている「資格欄」の3つの意味
+- career/regional-it-career-hub: bracket: 【Benefit】「地域特化ハック」で得られる3つのメリット | bracket: 【Action】まずは自分の地域の「戦略」を読み込み、キャリアの現在地を把握する
+- career/regional-salary-qualification-correlation: bracket: 地方でIT資格を「本当に活かす」3つの戦略 | bracket: 戦略2: リモートワーク案件で「地域制約」を外す | bracket: 戦略3: IT×専門業界の「希少スキル」を作る
+- career/resume-writing-tips-ipa-certification: bracket: 採用担当者が「おっ」と思うプラスアルファの表現 | bracket: まとめ：資格は「過去の証」ではなく「未来の武器」
+- career/sc-unregistered-benefit-hack: bracket: 維持費という名の「見えない税金」 | bracket: 「登録なし」で履歴書に書くハック | bracket: 登録が必要になる「唯一の瞬間」
+- career/secretarial-career-up-effect: bracket: 「資格を持っている」だけで止まっている場合
+- career/ses-ap-independence-strategy: bracket: 現場が変わるたびにリセットされる「積み上げ」の虚しさ | bracket: なぜAPが「独立」への最短ルートなのか | bracket: 「孤独」な現状をハックする3つのアクション
+- career/ses-ap-strategy: bracket: スキルの偏りは「割り切り」と「工夫」で武器に変える | bracket: 応用情報技術者（AP）が与えてくれる「確かな自信」 | bracket: 「自社SES」の安定か、「フリーランス」の爆発力か
+- career/ses-ap-strategy-hokkaido: bracket: 札幌で「もっと上」を実現する結論
+- career/ses-ap-strategy-kanagawa: bracket: 過酷な「湘南新宿ライン・東横線」を自分専用の教室に | bracket: 【Benefit】AP取得で「脱・SES」と「地元優良企業」への切符を手に入れる | bracket: 【Action】神奈川の「通勤地獄」を今日から終わらせる
+- career/ses-ap-strategy-miyagi: bracket: まとめ：仙台の「杜」から、あなたのキャリアを広げる
+- career/sg-company-security-roadmap: bracket: なぜ「全社員セキュリティ」が必要か | bracket: SGが「全社員向け」な理由 | bracket: AI活用で「専任講師を月額20ドルで雇う」感覚
+- app/dev-doc-process-mvp: bracket: 「自分が欲しいツール」から始まったSyllabusHackの原点 | bracket: AIが「苦手」を先回りする。パーソナライズ学習の深化 | bracket: まとめ：エンジニアとして「学びを形にする」ことの価値
+- app/dev-doc-structure-astro: bracket: アイランド・アーキテクチャ：必要な部分だけを「動的」に
+- app/dev-story-ai-engine: bracket: 膨大なシラバスという「山」に挑む | bracket: 3つのステップで構築する「AIエンジン」 | bracket: 1. シラバスの「地図」を作る（PDF Parse）
+- app/dev-story-ui: bracket: Antigravity との「意思疎通」 | bracket: AIにアプリを作らせるための「プロンプトの要」 | numbered: 1. データ構造（JSON）の定義
+- app/fe-quiz: numbered: 1. 科目B：アルゴリズムとプログラミングの壁 | numbered: 2. 科目A：知識問題の効率的な解き方 | numbered: 3. 合格戦略：600点の壁を越える
+- app/flashcard-app: bracket: 専門用語の暗記を「作業」から「ハック」へ
+- app/gemini-cli-quiz-maker: bracket: 欲しいのは「アプリ」ではなく「データ」 | numbered: 1. APIレートリミットの制御 | numbered: 2. 重複の排除
+- app/genai-trend-quiz: bracket: 1. 概念の「比較」が問われる | numbered: 1. 概念の「比較」が問われる | numbered: 2. AIガバナンスとセキュリティ
+- app/ip-management-drill: bracket: なぜ「マネジメント系」が重要なのか
+- app/ip-strategy-drill: bracket: なぜ「ストラテジ系」を集中的に学ぶべきなのか
+- app/ip-technology-drill: bracket: なぜ「テクノロジ系」が最大の壁なのか
+- app/it-passport-quiz: numbered: 1. 3つの分野の配点を意識する | numbered: 2. シラバス 6.x の新トピック | numbered: 3. CBT（Computer Based Testing）への慣れ
+- app/sc-specialist-quiz: bracket: SC試験合格への最短ルート：用語の「正確な」理解
+- app/sg-quiz: bracket: 1. 「知識」を「反射」に変える（科目A対策） | numbered: 1. 「知識」を「反射」に変える（科目A対策） | bracket: 2. 「事例」から「リスク」を見抜く（科目B対策）
+- theory/abc-analysis-pareto-chart: bracket: AIハック 生成AIで「優先順位」を最適化 | bracket: まとめ：効率的に成果を出すための「取捨選択」
+- theory/accessibility-usability-ui: bracket: 【AIハック】生成AIで「不便なサイト」を改善 | bracket: まとめ：優しさをデザインする「ITの心」
+- theory/ai-intellectual-property-copyright-trade-secret: bracket: 1. 【Problem】「便利だから」で済まされない法的トラブル | numbered: 1. 【Problem】「便利だから」で済まされない法的トラブル | bracket: 2. 【Agitation】知らないうちに「会社の宝」を垂れ流す恐怖
+- theory/algorithm-search-sort: bracket: 探索アルゴリズム — データを「見つける」手順 | bracket: 整列アルゴリズム — データを「並べ替える」手順
+- theory/ansoff-matrix: bracket: Syllabus Hack 流：AIで自分のスキルを「多角化」させる | bracket: AIによる「市場リサーチ」ハック | bracket: まとめ：戦略とは「捨てること」である
+- theory/aws-concept-metaphor-hack: bracket: まとめ：クラウドは「イメージ」できれば勝てる
+- theory/backup-methods: bracket: バックアップは「時間の保存」である | bracket: シラバスハック流：AIに「バックアップ・シミュレーター」を依頼
+- theory/balance-sheet-bs: bracket: 【AIハック】生成AIで「健全な会社」を作る | bracket: まとめ：B/Sで「会社の体力」を見抜こう
+- theory/balanced-scorecard: bracket: 1. BSCとは？「財務」以外の未来を見る4つの視点 | numbered: 1. BSCとは？「財務」以外の未来を見る4つの視点 | bracket: 2. 試験の急所：KGI と KPI の「因果関係」
+- theory/bcm-bcp-business-continuity: bracket: まとめ：事業を「止めない」準備
+- theory/bias-and-precision-data: bracket: 【AIハック】生成AIで「アンケートの穴」を見つける | bracket: まとめ：そのデータは「真実」を映しているか？
+- theory/binary-hexadecimal-basics: bracket: 【AIハック】生成AIで「数字のパズル」を解く | bracket: まとめ：コンピュータの「言葉」に慣れよう
+- theory/bios-device-driver: bracket: BIOSとは？PC起動の「一番初めの仕事人」 | bracket: デバイスドライバとは？OSとハードウェアの「通訳者」 | bracket: UEFIとは？BIOSの進化形「現代PCの基礎」
+- theory/bpm-process-management: bracket: 【AIハック】生成AIで「業務の詰まり」を解消 | bracket: まとめ：常に「進化し続けるチーム」を作る
+- theory/bpr-process-reengineering: bracket: 【AIハック】生成AIで「業務のムダ」を削ぎ落とす | bracket: まとめ：常識を疑い「劇的な変化」を起こす
+- theory/break-even-point: bracket: Syllabus Hack 流：AIに「例え話」で説明させる | bracket: AIを活用した「計算ドリル作成術」 | bracket: まとめ：計算問題は「武器」になる
+- theory/business-math-statistics-average-variance-bayes: bracket: 1. 【Problem】「平均値の罠」が組織を惑わす | numbered: 1. 【Problem】「平均値の罠」が組織を惑わす | bracket: 2. 【Agitation】「ばらつき」を見ない投資はギャンブル
+- theory/business-process-improvement-bpr-bpm-saas: bracket: 1. 【Problem】「頑張っているのに報われない」職場の共通点 | numbered: 1. 【Problem】「頑張っているのに報われない」職場の共通点 | bracket: 2. 【Agitation】「今まで通り」が、会社とあなたの首を絞める
+- theory/byod-shadow-it-security: bracket: 生成AIで「セキュリティ侵害」を警告 | bracket: まとめ：便利な道具を「安全」に使いこなそう
+- theory/cash-flow-statement-cf: bracket: 【AIハック】生成AIで「資金繰り」をシミュレート
+- theory/ccna-vlan-stp: numbered: 802.1Qトランキング | numbered: 802.1Qタギング
+- theory/characteristic-diagram-fishbone: bracket: 【AIハック】生成AIで「原因の深掘り」を体験 | bracket: まとめ：複雑な問題を「見える化」しよう
+- theory/cloud-service-selection-saas-paas-iaas: bracket: 1. 【Problem】「餅は餅屋」を知らないクラウド導入の末路 | numbered: 1. 【Problem】「餅は餅屋」を知らないクラウド導入の末路 | bracket: 2. 【Agitation】「車を自分で作る」か「レンタカーを借りる」か
+- theory/common-key-cryptography: bracket: シラバスハック流：AIに「合鍵」の例え話で解説させる
+- theory/cookie-privacy-web: numbered: 1. サーバーから発行 | numbered: 2. ブラウザが保存 | numbered: 3. 次のリクエストに同封
+- theory/core-competence: numbered: 1. コアコンピタンスとは？ 3つの判定基準 | bracket: 2. 試験のポイント：「アウトソーシング」してもいいのか？ | numbered: 2. 試験のポイント：「アウトソーシング」してもいいのか？
+- theory/corporate-mission-mvv: bracket: 【AIハック】生成AIで「IT企業のMVV」を読み解く | bracket: まとめ：進むべき「北極星」を確認しよう
+- theory/cpu-memory-functions: bracket: 【AIハック】生成AIで「PCの買い��え」を相談 | bracket: まとめ：効率を高める「脳」と「机」のバランス
+- theory/critical-path: bracket: クリティカルパスとは？「余裕ゼロ」の最短ルート | bracket: Syllabus Hack 流：AIをアローダイアグラムの「審判」にする | bracket: 試験の引っかけ：「結合点」に注意！
+- theory/crm-scm-management: bracket: 1. CRM（顧客関係管理）とは？「一見さん」を「ファン」に変える | numbered: 1. CRM（顧客関係管理）とは？「一見さん」を「ファン」に変える | bracket: 2. SCM（サプライチェーン管理）とは？「無駄」を削ぎ落とす物流の鎖
+- theory/csr-sdgs-esg-investment: bracket: 【AIハック】生成AIで「ITの貢献」を考える | bracket: まとめ：社会と共生する「善い会社」を目指す
+- theory/data-mining-kdd: bracket: 【AIハック】生成AIで「隠れたニーズ」を発掘 | bracket: まとめ：データは語る「次の一手」
+- theory/data-profitability-dwh-mining-regression: bracket: 1. 【Problem】「溜めるだけ」のデータは、資産ではなくコストになる | numbered: 1. 【Problem】「溜めるだけ」のデータは、資産ではなくコストになる | bracket: 2. 【Agitation】「勘と経験」に頼る経営は、ギャンブルと同じ
+- theory/data-warehouse-basics: bracket: 【AIハック】生成AIで「情報の洪水」を整理 | bracket: まとめ：情報を「智恵」に変えるための土台
+- theory/digital-divide-basics: bracket: 専門解説：日本における「世代間デジタルディバイド」 | bracket: 【AIハック】生成AIで「格差の壁」を乗り越える | bracket: まとめ：誰もが恩恵を受けられる「デジタル社会」へ
+- theory/dns-domain-name-system: numbered: 1. DNSリゾルバ | numbered: 2. DNSキャッシュサーバ | numbered: 3. 権威DNSサーバ（ネームサーバ）
+- theory/dx-leadership-mvv-digital-divide: bracket: 1. 【Problem】「デジタルを導入するだけ」が失敗の始まり | numbered: 1. 【Problem】「デジタルを導入するだけ」が失敗の始まり | bracket: 2. 【Agitation】「デジタルディバイド」が社内に分断を生む
+- theory/exclusive-control: bracket: シラバスハック流：AIを「デッドロック・チェッカー」にする | bracket: まとめ：同時更新の「秩序」を守る
+- theory/financial-statements-synergy-bs-pl-cf: bracket: 1. 【Problem】「利益」だけを見て判断するリスク | numbered: 1. 【Problem】「利益」だけを見て判断するリスク | bracket: 2. 【Agitation】「黒字倒産」は対岸の火事ではない
+- theory/gantt-chart: bracket: 1. ガントチャートとは？「時間」を「横棒」で見せる図 | numbered: 1. ガントチャートとは？「時間」を「横棒」で見せる図 | numbered: 2. ガントチャートの弱点を知る
+- theory/http-https-security: bracket: Problem：なぜ「中身」が丸見えなのか？ | bracket: Solution：HTTPSは「HTTP + SSL/TLS」 | numbered: 1. SSL/TLSによる暗号化
+- theory/io-interface-usb-hdmi: bracket: 【AIハック】生成AIで「周辺機器のトラブル解決」
+- theory/it-legal-subcontract-copyright-labor: bracket: 1. 【Problem】「契約書を読まない」が招く、最悪のシナリオ | numbered: 1. 【Problem】「契約書を読まない」が招く、最悪のシナリオ | bracket: 2. 【Agitation】知らないうちに「加害者」や「被害者」になっている恐怖
+- theory/just-in-time-jit-kanban: bracket: 【AIハック】生成AIで「工場のムダ」を発見 | bracket: まとめ：効率化の究極形「ジャストインタイム」
+- theory/labor-dispatch-act-ses: bracket: 契約形態を分ける「指揮命令権」の核心 | bracket: 請負契約と「完成責任」 | bracket: 準委任契約（SES）と「善管注意義務」
+- theory/mean-median-mode-stats: bracket: 【AIハック】生成AIで「実態とのズレ」を解明 | bracket: まとめ：1つの「数字」に騙されない
+- theory/os-operating-systems: bracket: 【AIハック】生成AIで「OS選び」を相談 | bracket: まとめ：コンピュータを誰でも動かせる「魔法」
+- theory/osi-reference-model: bracket: Problem：なぜ「7つ」も必要なのか？ | bracket: Evidence：試験の正解率を上げる「覚え方のコツ」 | bracket: Solution（Hacks）：AIに「階層ごとのデータ」を見せてもらう
+- theory/ppm-portfolio: numbered: 1. PPMの4つの象限：市場成長率 × 相対的シェア | bracket: 2. 試験のポイント：資金の「流れ」を意識せよ | numbered: 2. 試験のポイント：資金の「流れ」を意識せよ
+- theory/probability-bayes-basics: bracket: 【AIハック】生成AIで「不確実な判断」を最適化 | bracket: まとめ：データで「確信」を深め��う
+- theory/product-life-cycle: numbered: 1. PLCの4つのステージと必勝戦略 | numbered: 2. 試験の急所：PPM（プロダクトポートフォリオ）との関係 | bracket: 3. Syllabus Hack 流：AIで「身の回りの製品」を診断
+- theory/profit-and-loss-statement-pl: bracket: 【AIハック】生成AIで「利益の変化」を分析 | bracket: まとめ：P/Lで「稼ぐ力」を可視化しよう
+- theory/public-key-cryptography: bracket: シラバスハック流：AIに「南京錠」の例え話で解説させる
+- theory/quality-control-abc-fishbone-scatter: bracket: 1. 【Problem】「全部の問題」を一度に解決しようとしていませんか？ | numbered: 1. 【Problem】「全部の問題」を一度に解決しようとしていませんか？ | bracket: 2. 【Agitation】「的外れな対策」は、現場を疲弊させるだけ
+- theory/regression-analysis-data: bracket: AIハック 生成AIで「予測の精度」を検証 | bracket: まとめ データで「未来」を見通す第一歩
+- theory/remote-work-security-byod-vpn: bracket: 1. 【Problem】「どこでも働ける」裏に潜む、見えないリスク | numbered: 1. 【Problem】「どこでも働ける」裏に潜む、見えないリスク | bracket: 2. 【Agitation】「シャドーIT」が会社を、あなたを、どん底へ突き落と
+- theory/return-on-investment: numbered: 1. ROIの基本：数式はシンプル、本質は深い | numbered: 2. なぜAI時代にROIが重要なのか？ | bracket: Syllabus Hack 流：AIに「投資判断」をシミュレーションさせる
+- theory/saas-paas-iaas-cloud: bracket: 【AIハック】生成AIで「料理の例え」を深掘り | bracket: まとめ：「所有」から「利用」へのパラダイムシフト
+- theory/sampling-methods-data: bracket: 【AIハック】生成AIで「調査の落とし穴」を回避 | bracket: まとめ：正しく選べば「全体」が見える
+- theory/sets-logical-operations: bracket: 【AIハック】生成AIで「検索のパズル」を解く | bracket: まとめ：複雑な条件を「シンプル」に整理しよう
+- theory/sla-slo-service-quality: bracket: 1. SLAとは？「サービスの品質保証書」 | numbered: 1. SLAとは？「サービスの品質保証書」 | numbered: 2. SLA と SLO の違いをスッキリ整理
+- theory/standard-deviation-variance: bracket: 【AIハック】生成AIで「テストの評価」を分析 | bracket: まとめ：データの「密度」を読み取ろう
+- theory/storage-hdd-ssd: bracket: 【AIハック】生成AIで「ストレージ選び」を相談 | bracket: まとめ：用途に合わせた「倉庫」の使い分け
+- theory/subcontract-act-it-dev: bracket: 【AIハック】生成AIで「不当な要求」を暴く
+- theory/supply-chain-security-vulnerability-management-incident-response: bracket: 1. 【Problem】「最も弱い環」から崩壊が始まる | numbered: 1. 【Problem】「最も弱い環」から崩壊が始まる | bracket: 2. 【Agitation】「事後対応」の遅れが会社を潰す
+- theory/swot-analysis: bracket: 1. SWOT分析とは？「4つの視点」で現状を整理 | numbered: 1. SWOT分析とは？「4つの視点」で現状を整理 | numbered: 2. 試験合格の鍵：クロスSWOT分析
+- theory/system-development-contracts-ses-outsourcing-risk: bracket: 1. 【Problem】「言葉の定義」のズレが莫大な損害を生む | numbered: 1. 【Problem】「言葉の定義」のズレが莫大な損害を生む | bracket: 2. 【Agitation】「偽装請負」というコンプライアンスの爆弾
+- theory/tcp-ip-protocol-suite: bracket: Problem：なぜ「理論」と「実際」が違うのか？ | numbered: 1. アプリケーション層 | numbered: 2. トランスポート層
+- theory/telework-workation-style: bracket: 【AIハック】生成AIで��テレワークの課題」を解決 | bracket: まとめ：場所を越えてつながる「ICTの力」
+- theory/text-mining-nlp: bracket: 【AIハック】生成AIで「SNSの炎上」を防ぐ | bracket: まとめ：言葉の中に眠る「��ータ」を掘り起こす
+- theory/three-c-analysis: numbered: 1. 3C分析とは？成功の鍵を探す3つの視点 | numbered: 2. 分析の順番が重要：まず敵より客を見よ | numbered: 3. Syllabus Hack 流：AIで競合を丸裸に���る
+- theory/transaction-acid: bracket: シラバスハック流：AIに「トラブルメーカー」を演じさせる
+- theory/ui-ux-design-diff: bracket: 【AIハック】生成AIで「満足度の源」を探る | bracket: まとめ：「形」を超えた「心地よさ」を作ろう
+- theory/uiux-accessibility-user-centric-design: bracket: 1. 【Problem】「制作者の自己満足」がユーザーを遠ざける | numbered: 1. 【Problem】「制作者の自己満足」がユーザーを遠ざける | bracket: 2. 【Agitation】「使いにくい」は「存在しない」のと同じ
+- theory/v-model-testing-phases: bracket: Problem：テストはなぜ「バラバラ」なのか？ | bracket: Solution：V字モデルの「対応」を覚える | numbered: 1. 単体テスト（Unit Test）
+- theory/value-chain-analysis: bracket: 1. バリューチェーンとは？「購買」から「アフターサービス」まで | numbered: 1. バリューチェーンとは？「購買」から「アフターサービス」まで | bracket: 2. 試験の急所：「マージン（利益）」の考え方
+- theory/waterfall-development: bracket: Problem：なぜ「順番」が重要なのか？ | bracket: Solution：工程ごとの「成果物」を明確にする | numbered: 1. 要件定義（Requirement Definition）
+- theory/white-black-box-testing: bracket: Problem：テストは「網羅」が難しい | numbered: 1. ホワイトボックス（構造テスト） | numbered: 2. ブラックボックス（機能テスト）
+- theory/work-breakdown-structure: bracket: 1. WBSとは？「仕事の解像度」を上げる図 | numbered: 1. WBSとは？「仕事の解像度」を上げる図 | bracket: 2. 試験に出る！WBSの鉄則「100%ルール」
+
+## meta-desc-length (146)
+- trend/2026-cbt-ai-syllabus-strategy (59 chars)
+- trend/2026-cbt-transition-advanced-exam (71 chars)
+- trend/5g-technology (60 chars)
+- trend/agile-development (57 chars)
+- trend/ai-ethics-governance (66 chars)
+- trend/anthropic-ai-academy-start (76 chars)
+- trend/db-vector-search-rag (67 chars)
+- trend/genai-syllabus-integration (73 chars)
+- trend/government-reskilling-university-60man (73 chars)
+- trend/ipa-exam-trends-2026 (75 chars)
+- trend/it-passport-shame-debate (56 chars)
+- trend/itp-vs-info1-comparison-hack (64 chars)
+- trend/multi-factor-authentication (60 chars)
+- trend/new-game-study-method (78 chars)
+- trend/pm-ai-quality-management (62 chars)
+- trend/reskilling-era-mindset-shift (76 chars)
+- trend/sa-llm-agent-design (69 chars)
+- trend/sakura-ai-certification-syllabus (65 chars)
+- trend/scrum-agile (63 chars)
+- trend/sg-syllabus-latest-change-guide (77 chars)
+- trend/st-ai-pov-strategy (69 chars)
+- trend/syllabus-ver9-update (73 chars)
+- trend/web3-nft (70 chars)
+- trend/what-is-genai-passport-exam (63 chars)
+- method/ai-dj-pomodoro (76 chars)
+- method/ai-era-book-reading-value (75 chars)
+- method/ai-problem-master-syllabus (76 chars)
+- method/ap-grader-intent-hack (78 chars)
+- method/article-outlines-feb (74 chars)
+- method/aws-hub (79 chars)
+- method/aws-personalized-roadmap-hack (65 chars)
+- method/calc-problem-abandon-strategy (71 chars)
+- method/cbt-exam-tactics (77 chars)
+- method/ccna-fail-comeback (78 chars)
+- method/ccna-liberal-arts-roadmap (75 chars)
+- method/common-essay-ai-examiner (65 chars)
+- method/db-normalization-hack (70 chars)
+- method/digital-detox-learning (61 chars)
+- method/exam-day-doping (64 chars)
+- method/fast-track-roadmap-20h-pass (69 chars)
+- method/fe-algorithm-roadmap (71 chars)
+- method/fe-pseudo-code-visual-hack (65 chars)
+- method/final-checkpoint-100-plus (70 chars)
+- method/fp-hub (73 chars)
+- method/gap-time-apps (65 chars)
+- method/genai-problem-mastery-notebooklm (75 chars)
+- method/genai-vocabulary-learning-efficiency (74 chars)
+- method/generative-memory-palace (73 chars)
+- method/ip-address-ai-metaphor-hack (72 chars)
+- method/ip-strategy-ai-hack (69 chars)
+- method/ipa-absence-report-hack (70 chars)
+- method/itp-receipt-name-change-hack (66 chars)
+- method/logical-memory-linkage-hack (73 chars)
+- method/management-comprehension-hack (68 chars)
+- method/mental-hack-20h-marathon (71 chars)
+- method/miro-diagram-thinking (69 chars)
+- method/miss-note-db (66 chars)
+- method/multi-device-cert-study (79 chars)
+- method/notebooklm-syllabus-study-method (79 chars)
+- method/pc-selection-guide (79 chars)
+- method/pseudo-code-bridge-to-fe (77 chars)
+- method/region-hack-tokyo (69 chars)
+- method/reskilling-strategy-while-working (67 chars)
+- method/scientific-study-methods (78 chars)
+- method/sg-news-study-hack (78 chars)
+- method/sleep-skill-learning-efficiency (68 chars)
+- method/st-no-experience-essay-hack (77 chars)
+- method/syllabus-diff-hack (65 chars)
+- method/typing-speed-cbt (71 chars)
+- method/vibe-coding (74 chars)
+- method/voice-output-learning (73 chars)
+- method/wrong-choice-analysis-hack (69 chars)
+- career/ap-cert-practical-use-hack (74 chars)
+- career/backoffice-sg-strategy (74 chars)
+- career/backoffice-sg-strategy-hiroshima (51 chars)
+- career/backoffice-sg-strategy-shizuoka (58 chars)
+- career/fe-career-modern-web (70 chars)
+- career/fe-engineer-foundation (77 chars)
+- career/freelance-fe-merit (77 chars)
+- career/gateway-to-advanced (79 chars)
+- career/ip-survival-strategy (68 chars)
+- career/ipa-career-value-job-change (66 chars)
+- career/ipa-certification-income (66 chars)
+- career/liberal-arts-it-strategy (63 chars)
+- career/liberal-arts-it-strategy-aichi (55 chars)
+- career/liberal-arts-it-strategy-fukuoka (58 chars)
+- career/liberal-arts-student-strategy (79 chars)
+- career/regional-it-career-hub (67 chars)
+- career/regional-salary-qualification-correlation (75 chars)
+- career/ses-ap-independence-strategy (69 chars)
+- career/ses-ap-strategy (77 chars)
+- career/ses-ap-strategy-hokkaido (50 chars)
+- career/ses-ap-strategy-kanagawa (57 chars)
+- career/ses-ap-strategy-miyagi (58 chars)
+- app/ap-quiz (53 chars)
+- app/ap-subject-b (59 chars)
+- app/dev-doc-process-mvp (78 chars)
+- app/dev-story-data (75 chars)
+- app/dev-story-ui (76 chars)
+- app/fe-quiz (67 chars)
+- app/genai-passport-quiz (76 chars)
+- app/genai-trend-quiz (58 chars)
+- app/it-passport-quiz (55 chars)
+- app/pm-essay-gacha (69 chars)
+- app/sg-quiz (71 chars)
+- app/sg-subject-b-quiz (74 chars)
+- theory/abc-analysis-pareto-chart (69 chars)
+- theory/accessibility-usability-ui (73 chars)
+- theory/agile-scrum-basics (74 chars)
+- theory/algorithm-search-sort (77 chars)
+- theory/backup-methods (69 chars)
+- theory/balance-sheet-bs (67 chars)
+- theory/bcm-bcp-business-continuity (78 chars)
+- theory/bias-and-precision-data (65 chars)
+- theory/binary-hexadecimal-basics (62 chars)
+- theory/bios-device-driver (77 chars)
+- theory/byod-shadow-it-security (77 chars)
+- theory/cash-flow-statement-cf (65 chars)
+- theory/characteristic-diagram-fishbone (75 chars)
+- theory/common-key-cryptography (77 chars)
+- theory/compliance (78 chars)
+- theory/corporate-mission-mvv (76 chars)
+- theory/cpu-memory-functions (68 chars)
+- theory/csr-sdgs-esg-investment (77 chars)
+- theory/data-mining-kdd (67 chars)
+- theory/data-warehouse-basics (63 chars)
+- theory/database-normalization (76 chars)
+- theory/exclusive-control (74 chars)
+- theory/io-interface-usb-hdmi (63 chars)
+- theory/just-in-time-jit-kanban (71 chars)
+- theory/labor-dispatch-act-ses (60 chars)
+- theory/labor-standards-act-36-agreement (61 chars)
+- theory/mean-median-mode-stats (73 chars)
+- theory/os-operating-systems (73 chars)
+- theory/probability-bayes-basics (62 chars)
+- theory/profit-and-loss-statement-pl (63 chars)
+- theory/prompt-engineering-basics (50 chars)
+- theory/public-key-cryptography (67 chars)
+- theory/regression-analysis-data (72 chars)
+- theory/sampling-methods-data (66 chars)
+- theory/sets-logical-operations (70 chars)
+- theory/subcontract-act-it-dev (61 chars)
+- theory/telework-workation-style (75 chars)
+- theory/text-mining-nlp (73 chars)
+- theory/transaction-acid (79 chars)
+- theory/unfair-competition-prevention-act (73 chars)
+
+## missing-cover-file (101)
+- trend/2026-cbt-transition-advanced-exam
+- trend/agile-development
+- trend/ai-assistant
+- trend/ai-opt-out-policy
+- trend/anthropic-ai-academy-start
+- trend/copyright-ai-generated
+- trend/cross-site-scripting
+- trend/deepfake
+- trend/dei-diversity-equity-inclusion
+- trend/devops
+- trend/ds-kentei
+- trend/dx-digital-transformation
+- trend/e-shikaku
+- trend/explainable-ai-xai
+- trend/genai-syllabus-integration
+- trend/gx-green-transformation
+- trend/hallucination-ai-error
+- trend/human-capital-management
+- trend/human-capital-reporting-iso30414
+- trend/invoice-system
+- trend/ipa-2026-cbt-schedule-guide
+- trend/ipa-exam-trends-2026
+- trend/mlops
+- trend/multi-modal-ai
+- trend/ooda-loop
+- trend/rag-ai-system
+- trend/ransomware-security
+- trend/reskilling-era-mindset-shift
+- trend/reskilling-it-passport
+- method/3kw-study-method
+- method/advanced-ipa-hub
+- method/ai-new-terms-explanation
+- method/ai-problem-master-syllabus
+- method/ap-afternoon-ai-coaching
+- method/calc-problem-abandon-strategy
+- method/cbt-2026-syllabus-complete-guide
+- method/cbt-exam-tactics
+- method/common-essay-ai-examiner
+- method/continuous-learning-reskilling-beyond-itp
+- method/db-normalization-hack
+- method/diversity-study-method
+- method/fast-track-roadmap-20h-pass
+- method/fe-algorithm-roadmap
+- method/fe-pseudo-code-ai-hack
+- method/final-checkpoint-100-plus
+- method/gemini-cert-complete
+- method/genai-cert-study-plan
+- method/genai-problem-mastery-notebooklm
+- method/ip-discard-strategy
+- method/ip-strategy-ai-hack
+- method/level4-strategy-hub
+- method/logical-memory-linkage-hack
+- method/management-comprehension-hack
+- method/mental-hack-20h-marathon
+- method/notebooklm-ip-study-hack
+- method/pc-selection-guide
+- method/pdf-to-text-guide
+- method/pm-pm2-module-hack
+- method/practice-guide-ipa
+- method/pseudo-code-bridge-to-fe
+- method/sc-timeline-hack
+- method/sg-beginner-roadmap
+- method/sg-hub
+- method/sg-news-study-hack
+- method/st-strategy-brainstorming
+- method/typing-speed-cbt
+- method/wrong-choice-analysis-hack
+- career/backoffice-sg-career-hack
+- career/backoffice-sg-strategy
+- career/backoffice-sg-strategy-hiroshima
+- career/backoffice-sg-strategy-shizuoka
+- career/fe-career-modern-web
+- career/fe-engineer-foundation
+- career/ip-survival-strategy
+- career/ipa-career-value-job-change
+- career/ipa-certification-income
+- career/liberal-arts-it-strategy
+- career/liberal-arts-it-strategy-aichi
+- career/liberal-arts-it-strategy-fukuoka
+- career/liberal-arts-student-strategy
+- career/regional-it-career-hub
+- career/regional-salary-qualification-correlation
+- career/secretarial-exam-multiwork-freelance
+- career/ses-ap-independence-strategy
+- career/ses-ap-strategy
+- career/ses-ap-strategy-hokkaido
+- career/ses-ap-strategy-kanagawa
+- career/ses-ap-strategy-miyagi
+- app/ap-quiz
+- app/ap-subject-b
+- app/dev-doc-process-mvp
+- app/dev-doc-structure-astro
+- app/dev-story-ai-engine
+- app/genai-ip-quiz
+- app/genai-passport-quiz
+- app/genai-trend-quiz
+- app/ip-management-drill
+- app/ip-technology-drill
+- app/pdf-to-text
+- app/pm-essay-gacha
+- app/sc-specialist-quiz
+
+## missing-metadata (93)
+- trend/ai-assistant
+- trend/ai-opt-out-policy
+- trend/cbt-exam-venue-booking-tips
+- trend/copyright-ai-generated
+- trend/cost-effective-certification-path-2025
+- trend/cross-site-scripting
+- trend/deepfake
+- trend/dei-diversity-equity-inclusion
+- trend/devops
+- trend/dx-digital-transformation
+- trend/entrance-exam-information-1-impact
+- trend/explainable-ai-xai
+- trend/fe-certification-value-debate
+- trend/genai-passport-vs-it-passport
+- trend/gx-green-transformation
+- trend/hallucination-ai-error
+- trend/human-capital-management
+- trend/human-capital-reporting-iso30414
+- trend/invoice-system
+- trend/ipa-2026-cbt-confirmed-schedule
+- trend/ipa-2026-cbt-strategy-ai
+- trend/ipa-2027-restructuring
+- trend/ipa-certification-overseas-mutual-recognition
+- trend/ipa-open-badge-impact
+- trend/ipa-syllabus-follow-up
+- trend/latest-ai-future-of-exams
+- trend/mlops
+- trend/multi-modal-ai
+- trend/ooda-loop
+- trend/professional-occupations-it-literacy-demand
+- trend/rag-ai-system
+- trend/ransomware-security
+- trend/reskilling-it-passport
+- trend/reskilling-subsidy-it-certification
+- trend/sg-exam-popularity-step-up
+- trend/sql-injection-vulnerability
+- trend/syllabus-update-ai-ethics
+- trend/targeted-threat-email
+- trend/typing-speed-60wpa
+- trend/zero-trust-architecture
+- method/agent-teacher
+- method/ap-discard-strategy
+- method/ap-grader-blackbox-hack
+- method/fe-subject-b-drill
+- method/gemini-explanation-template
+- method/gemini-memory-palace-hack
+- method/gemini-prompt-collection
+- method/new-ipa-exam-study-strategy
+- method/notebooklm-anystudy
+- method/notebooklm-flashcard
+- method/notebooklm-mindmap
+- method/notebooklm-movie
+- method/notebooklm-podcast
+- method/notebooklm-quiz
+- method/notion-study-tracker
+- method/pomodoro-anki-technique
+- method/sg-beginner-roadmap
+- career/30s-career-change
+- career/fe-resume-liar-hack
+- career/fe-useless-corporate-hack
+- career/ipa-new-exam-target-guide
+- career/ipa-reward-negotiation-hack
+- career/itp-high-school-resume-hack
+- career/itp-non-engineer-career-strategy
+- career/itp-shameful-career-hack
+- career/portfolio-vs-cert
+- career/sc-unregistered-benefit-hack
+- app/flashcard-app
+- app/sc-specialist-quiz
+- theory/ansoff-matrix
+- theory/balanced-scorecard
+- theory/break-even-point
+- theory/cookie-privacy-web
+- theory/core-competence
+- theory/critical-path
+- theory/crm-scm-management
+- theory/dns-domain-name-system
+- theory/erp-system-integration
+- theory/gantt-chart
+- theory/http-https-security
+- theory/osi-reference-model
+- theory/ppm-portfolio
+- theory/product-life-cycle
+- theory/return-on-investment
+- theory/sla-slo-service-quality
+- theory/swot-analysis
+- theory/tcp-ip-protocol-suite
+- theory/three-c-analysis
+- theory/v-model-testing-phases
+- theory/value-chain-analysis
+- theory/waterfall-development
+- theory/white-black-box-testing
+- theory/work-breakdown-structure
+
+## markdown-bold-in-prose (49)
+- trend/fp2-cbt-strategy (6 occurrences)
+- trend/ipa-2026-cbt-schedule-guide (4 occurrences)
+- trend/ipa-2026-cbt-strategy-ai (18 occurrences)
+- trend/ipa-syllabus-follow-up (3 occurrences)
+- trend/it-passport-syllabus-genai-update (4 occurrences)
+- trend/lpic-ccna-aws-order (5 occurrences)
+- trend/mos-vs-itp-job-hunting (4 occurrences)
+- trend/scrum-agile (13 occurrences)
+- trend/targeted-threat-email (12 occurrences)
+- method/ai-rubber-ducking (3 occurrences)
+- method/ap-hub (5 occurrences)
+- method/aws-hub (4 occurrences)
+- method/aws-personalized-roadmap-hack (4 occurrences)
+- method/cbt-2026-syllabus-complete-guide (3 occurrences)
+- method/ccna-ai-hack (4 occurrences)
+- method/ccna-liberal-arts-roadmap (1 occurrences)
+- method/chatgpt-cert-complete (10 occurrences)
+- method/continuous-learning-reskilling-beyond-itp (27 occurrences)
+- method/fe-hub (5 occurrences)
+- method/fp-hub (4 occurrences)
+- method/gemini-cert-complete (6 occurrences)
+- method/genai-vocabulary-learning-efficiency (6 occurrences)
+- method/itp-hub (5 occurrences)
+- method/itp-name-change-marriage-hack (3 occurrences)
+- method/mos-ai-shortcut (4 occurrences)
+- method/notebooklm-100days-challenge-hack (2 occurrences)
+- method/notebooklm-ai-workflow-guide (13 occurrences)
+- method/notebooklm-features-guide (19 occurrences)
+- method/pc-selection-guide (17 occurrences)
+- method/smartphone-study-guide (3 occurrences)
+- career/it-passport-to-ap-roadmap (12 occurrences)
+- app/sc-specialist-quiz (2 occurrences)
+- theory/ai-intellectual-property-copyright-trade-secret (25 occurrences)
+- theory/business-math-statistics-average-variance-bayes (16 occurrences)
+- theory/business-process-improvement-bpr-bpm-saas (16 occurrences)
+- theory/ccna-routing-protocols (9 occurrences)
+- theory/ccna-vlan-stp (4 occurrences)
+- theory/cloud-service-selection-saas-paas-iaas (22 occurrences)
+- theory/data-profitability-dwh-mining-regression (19 occurrences)
+- theory/database-normalization (6 occurrences)
+- theory/financial-statements-synergy-bs-pl-cf (18 occurrences)
+- theory/it-legal-subcontract-copyright-labor (18 occurrences)
+- theory/ml-supervised-unsupervised (3 occurrences)
+- theory/ppm-portfolio (2 occurrences)
+- theory/quality-control-abc-fishbone-scatter (21 occurrences)
+- theory/remote-work-security-byod-vpn (12 occurrences)
+- theory/supply-chain-security-vulnerability-management-incident-response (25 occurrences)
+- theory/system-development-contracts-ses-outsourcing-risk (21 occurrences)
+- theory/uiux-accessibility-user-centric-design (29 occurrences)
+
+## missing-lastmod (46)
+- method/ap-discard-strategy
+- method/astrowind-template-in-depth
+- method/continuous-learning-reskilling-beyond-itp
+- method/genai-cert-study-plan
+- method/pc-selection-guide
+- career/itp-non-engineer-career-strategy
+- app/dev-story-data
+- app/dev-story-ui
+- app/gemini-cli-quiz-maker
+- app/genai-passport-quiz
+- app/pdf-to-text
+- app/sg-quiz
+- theory/ai-intellectual-property-copyright-trade-secret
+- theory/ansoff-matrix
+- theory/balanced-scorecard
+- theory/break-even-point
+- theory/business-math-statistics-average-variance-bayes
+- theory/business-process-improvement-bpr-bpm-saas
+- theory/cloud-service-selection-saas-paas-iaas
+- theory/cookie-privacy-web
+- theory/core-competence
+- theory/critical-path
+- theory/crm-scm-management
+- theory/data-profitability-dwh-mining-regression
+- theory/dns-domain-name-system
+- theory/erp-system-integration
+- theory/financial-statements-synergy-bs-pl-cf
+- theory/gantt-chart
+- theory/http-https-security
+- theory/it-legal-subcontract-copyright-labor
+- theory/ppm-portfolio
+- theory/product-life-cycle
+- theory/quality-control-abc-fishbone-scatter
+- theory/remote-work-security-byod-vpn
+- theory/return-on-investment
+- theory/sla-slo-service-quality
+- theory/supply-chain-security-vulnerability-management-incident-response
+- theory/swot-analysis
+- theory/system-development-contracts-ses-outsourcing-risk
+- theory/three-c-analysis
+- theory/uiux-accessibility-user-centric-design
+- theory/v-model-testing-phases
+- theory/value-chain-analysis
+- theory/waterfall-development
+- theory/white-black-box-testing
+- theory/work-breakdown-structure
+
+## image-prompt-leftover (37)
+- trend/ccna-vs-aws-saa
+- trend/ds-kentei
+- trend/e-shikaku
+- trend/fp-reskilling-fit-check
+- trend/fp-why-2kyu-is-standard
+- trend/fp2-cbt-strategy
+- trend/fp2-jitsuki-comparison
+- trend/generative-ai-certification-worth
+- trend/government-reskilling-university-60man
+- trend/lpic-ccna-aws-order
+- trend/mos-vs-itp-job-hunting
+- trend/reskilling-era-mindset-shift
+- trend/secretarial-why-bosses-recommend
+- method/ap-hub
+- method/aws-hub
+- method/aws-saa-beginner-reality
+- method/ccna-ai-hack
+- method/ccna-fail-comeback
+- method/ccna-liberal-arts-roadmap
+- method/chatgpt-cert-complete
+- method/fe-hub
+- method/fp-hub
+- method/fp2-3month-plan
+- method/gemini-cert-complete
+- method/mos-ai-shortcut
+- method/mos-excel-expert-difficulty
+- method/notebooklm-ai-workflow-guide
+- method/notebooklm-features-guide
+- method/reskilling-strategy-while-working
+- method/secretarial-cost-time-knowledge
+- career/foreigner-japan-national-qualification
+- career/fp-side-business-reality
+- career/mos-back-office-expert-independence
+- career/mos-freelance-haken-reality
+- career/mos-instructor-school-path
+- career/qualification-60min-daily-simulation
+- career/secretarial-career-up-effect
+
+## tag-count (25)
+- trend/professional-occupations-it-literacy-demand (6 tags)
+- method/continuous-learning-reskilling-beyond-itp (6 tags)
+- method/pc-selection-guide (6 tags)
+- career/regional-it-career-hub (6 tags)
+- app/flashcard-app (11 tags)
+- app/pdf-to-text (2 tags)
+- theory/ai-intellectual-property-copyright-trade-secret (6 tags)
+- theory/bios-device-driver (6 tags)
+- theory/business-math-statistics-average-variance-bayes (6 tags)
+- theory/business-process-improvement-bpr-bpm-saas (6 tags)
+- theory/cloud-service-selection-saas-paas-iaas (6 tags)
+- theory/cpu-memory-functions (6 tags)
+- theory/data-profitability-dwh-mining-regression (6 tags)
+- theory/dx-leadership-mvv-digital-divide (6 tags)
+- theory/financial-statements-synergy-bs-pl-cf (6 tags)
+- theory/io-interface-usb-hdmi (6 tags)
+- theory/it-legal-subcontract-copyright-labor (6 tags)
+- theory/mean-median-mode-stats (6 tags)
+- theory/os-operating-systems (6 tags)
+- theory/quality-control-abc-fishbone-scatter (6 tags)
+- theory/remote-work-security-byod-vpn (6 tags)
+- theory/storage-hdd-ssd (6 tags)
+- theory/supply-chain-security-vulnerability-management-incident-response (6 tags)
+- theory/system-development-contracts-ses-outsourcing-risk (6 tags)
+- theory/uiux-accessibility-user-centric-design (6 tags)
+
+## bad-image-path (21)
+- app/ap-quiz -> ~/assets/images/post/common/app.png
+- app/ap-subject-b -> ~/assets/images/post/common/app.png
+- app/dev-doc-process-mvp -> ~/assets/images/post/common/trend.png
+- app/dev-doc-structure-astro -> ~/assets/images/post/common/trend.png
+- app/dev-story-ai-engine -> ~/assets/images/post/common/trend.png
+- app/dev-story-data -> ~/assets/images/post/common/trend.png
+- app/dev-story-ui -> ~/assets/images/post/common/trend.png
+- app/fe-quiz -> ~/assets/images/post/common/app.png
+- app/gemini-cli-quiz-maker -> ~/assets/images/post/common/trend.png
+- app/genai-ethics-quiz -> ~/assets/images/post/common/app.png
+- app/genai-ip-quiz -> ~/assets/images/post/common/app.png
+- app/genai-passport-quiz -> ~/assets/images/post/common/app.png
+- app/genai-trend-quiz -> ~/assets/images/post/common/app.png
+- app/ip-management-drill -> ~/assets/images/post/common/app.png
+- app/ip-strategy-drill -> ~/assets/images/post/common/app.png
+- app/ip-technology-drill -> ~/assets/images/post/common/app.png
+- app/it-passport-quiz -> ~/assets/images/post/common/app.png
+- app/pm-essay-gacha -> ~/assets/images/post/common/app.png
+- app/sc-specialist-quiz -> ~/assets/images/post/common/app.png
+- app/sg-quiz -> ~/assets/images/post/common/app.png
+- app/sg-subject-b-quiz -> ~/assets/images/post/common/app.png
+
+## draft-true-in-prod (19)
+- method/final-checkpoint-100-plus
+- method/gap-time-apps
+- method/gemini-explanation-template
+- method/gemini-memory-palace-hack
+- method/gemini-prompt-collection
+- method/itp-receipt-name-change-hack
+- method/itp-smartphone-only-hack
+- method/notebooklm-100-day-hack
+- method/notebooklm-100days-challenge-hack
+- method/notebooklm-anystudy
+- method/notebooklm-flashcard
+- method/notebooklm-ip-study-hack
+- method/notebooklm-it-passport-drill
+- method/notebooklm-mindmap
+- method/notebooklm-movie
+- method/notebooklm-podcast
+- method/notebooklm-quiz
+- method/notebooklm-syllabus-study-method
+- app/pdf-to-text
+
+## missing-image-field (12)
+- method/ai-mentor-study-method-roadmap
+- method/astrowind-template-in-depth
+- method/gemini-explanation-template
+- method/gemini-prompt-collection
+- career/advanced-ipa-certification-high-salary-impact
+- career/applied-information-technology-engineer-career-value
+- career/career-change-to-it-with-ipa
+- career/fundamental-it-engineer-for-non-engineers
+- career/ipa-certification-salary-impact
+- career/reskilling-success-story-it-passport-to-data-scientist
+- career/resume-writing-tips-ipa-certification
+- app/pdf-to-text
+
+## bom-in-file (10)
+- method/gemini-explanation-template
+- method/gemini-memory-palace-hack
+- method/notebooklm-100-day-hack
+- method/notebooklm-100days-challenge-hack
+- method/notebooklm-anystudy
+- method/notebooklm-flashcard
+- method/notebooklm-mindmap
+- method/notebooklm-movie
+- method/notebooklm-podcast
+- method/notebooklm-quiz
+
+## bad-publishDate-format (6)
+- method/notebooklm-anystudy -> 2026-02-07T10:00:00+09:00
+- method/notebooklm-flashcard -> 2026-02-07T08:30:00+09:00
+- method/notebooklm-mindmap -> 2026-02-07T09:15:00+09:00
+- method/notebooklm-movie -> 2026-02-07T08:45:00+09:00
+- method/notebooklm-podcast -> 2026-02-07T09:00:00+09:00
+- method/notebooklm-quiz -> 2026-02-07T09:30:00+09:00
+
+## image-cat-mismatch (2)
+- method/continuous-learning-reskilling-beyond-itp -> ~/data/post/theory/common-cover.png
+- method/pc-selection-guide -> ~/data/post/theory/common-cover.png
+
+## missing-index (1)
+- trend/prompt-engineering-basics
+
+## non-bundle-files (1)
+- method/practice.png (loose file directly under category)
+
+## category-dir-mismatch (1)
+- career/itp-high-school-resume-hack -> frontmatter says theory
+
+## deep-internal-link (1)
+- method/essay-trainer-script -> /files/essay_trainer.zip

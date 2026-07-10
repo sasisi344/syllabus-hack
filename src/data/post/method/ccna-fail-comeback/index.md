@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-05-31T00:00:00Z
-lastmod: 2026-06-10
+lastmod: 2026-07-10
 title: 'CCNAに落ちた人が最初にやるべきこと——敗因分析とAI対話で3ヶ月リベンジする手順'
 excerpt: '合格率20〜30%のCCNAで不合格になるのは珍しくない。敗因を正確に分析してAIと対話しながら「なぜ」から理解し直す、最短リベンジ手順を解説します。'
 image: '~/data/post/method/ccna-fail-comeback/cover.jpg'
@@ -17,7 +17,6 @@ metadata:
   description: 'CCNAに落ちた原因TOP3と、AI対話学習で概念を根本から理解し直す3ヶ月リベンジプランを解説。問題を解くより「なぜ」を先に理解することが最短合格への道。'
 ---
 
-<!-- IMAGE_PROMPT: minimalist pictogram, broken network cable reconnecting with upward arrow on dark navy background, flat design, 16:9 -->
 
 「また落ちた」
 
@@ -59,7 +58,7 @@ Cisco公式の試験結果レポートにはドメイン別のスコアが記載
 
 スコアが低かったドメインを3つ以内に絞り込んでから学習計画を立て直すことが先決です。
 
-## AIとの対話で「なぜ」から理解し直す
+## AIとの対話でなぜから理解し直す
 
 CCNAの再学習で最も効果的なのは、弱点ドメインの概念を「問題を解く前に」AIとの対話で根本から理解することです。
 
@@ -113,4 +112,4 @@ CCNAのリベンジは、同じ方法を繰り返すことでは実現しませ�
 
 ---
 
-> この記事は [CCNA完全攻略ガイド](/ccna-hub/) の一部です。
+> この記事は [CCNA完全攻略ガイド](/method/ccna-hub/) の一部です。

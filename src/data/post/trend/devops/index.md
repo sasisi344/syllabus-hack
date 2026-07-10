@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-06-10
+lastmod: 2026-07-10
 publishDate: 2026-03-31T00:00:00Z
 title: "開発と運用の融合！DevOps（デブオプス）でITサービスを高速化する仕組み"
 excerpt: "「速く作りたい開発」と「安定させたい運用」が手を取り合う。DevOpsの目的、CI/CDなどの技術要素まで、ITパスポートの重要点を網羅。"
@@ -11,6 +11,8 @@ knowledge:
   examId: ip
   type: theory
   difficulty: beginner
+metadata:
+  description: '「速く作りたい開発」と「安定させたい運用」を融合するDevOpsの目的と仕組みを解説。CI/CDや自動化などの技術要素、アジャイル開発との関係まで、ITパスポート試験で問われる重要ポイントをコンパクトに網羅します。開発手法の頻出用語を効率よく整理できます。'
 ---
 <div class="summary-box">
 <h3>3行まとめ</h3>

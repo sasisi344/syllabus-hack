@@ -16,7 +16,7 @@ export const headerData = {
     },
     {
       text: '用語解説',
-      href: getPermalink('glossary', 'category'),
+      href: getPermalink('theory', 'category'),
     },
     {
       text: 'ウェブアプリ',
@@ -34,7 +34,7 @@ export const footerData = {
         { text: 'トレンド', href: getPermalink('trend', 'category') },
         { text: '学習メソッド', href: getPermalink('method', 'category') },
         { text: 'キャリア戦略', href: getPermalink('career', 'category') },
-        { text: '用語解説', href: getPermalink('glossary', 'category') },
+        { text: '用語解説', href: getPermalink('theory', 'category') },
         { text: 'ウェブアプリ', href: getPermalink('app', 'category') },
       ],
     },

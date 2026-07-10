@@ -24,7 +24,6 @@ metadata:
   description: 'MOS資格を活かしてPC教室講師・スクール講師を目指す人向けに、資格だけでは埋まらない指導力・カリキュラム設計・集客のギャップと、AIを使ったオリジナル教材作成・収益モデルの作り方を解説します。'
 ---
 
-<!-- IMAGE_PROMPT: minimalist pictogram, white presentation board with a simple chart icon, dark navy background, flat design, 16:9 -->
 
 「MOSを取ったら、PC教室の講師として独立できるのでは」
 
@@ -44,7 +43,7 @@ MOS資格が証明するのは、Office操作の知識とスキルが一定水�
 
 ---
 
-## ギャップ1: 「できる」と「教えられる」は別の技術
+## ギャップ1: できると教えられるは別の技術
 
 自分が操作できることと、他人ができるように説明することは、まったく別の技術です。
 

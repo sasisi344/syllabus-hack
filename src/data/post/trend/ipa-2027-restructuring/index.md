@@ -1,7 +1,7 @@
 ---
 draft: false
 publishDate: 2026-04-11T00:00:00Z
-lastmod: 2026-05-30
+lastmod: 2026-07-10
 title: 2027年からのIPA試験再編まとめ｜データマネジメントと新区分PDとは？
 persona: IT資格の全貌を把握したい将来志向のビジネスパーソン・学生
 category: trend
@@ -16,6 +16,8 @@ knowledge:
  syllabusRef: common
  difficulty: beginner
 image: ~/data/post/trend/ipa-2027-restructuring/cover.png
+metadata:
+  description: '2027年からのIPA試験再編を総まとめ。新設される「データマネジメント」分野と新区分PDの内容、既存試験への影響、いつ何を受けるべきかの判断基準まで、最新の公開情報をもとに分かりやすく解説します。長期の学習計画を立てる前に押さえておきたい情報です。'
 ---
 <strong>IPA</strong> （情報処理推進機構）は、2027年度から <strong>情報処理技術者試験</strong> の体系を大幅に刷新することを発表しました。情報処理技術者試験は、ITに関する知識や技能を評価する国家試験であり、ITエンジニアを目指す方や、ビジネスでITを活用したい方にとって重要な資格です。
 

@@ -1,5 +1,5 @@
---- 
-lastmod: 2026-05-30
+---
+lastmod: 2026-07-10
 publishDate: 2026-03-31T00:00:00Z
 title: "企業の「人への投資」を数値化！人的資本報告（ISO 30414）の見方と試験対策"
 excerpt: "従業員の価値を国際規格で開示する人的資本報告。ITパスポート試験で問われる背景と、主な開示項目のポイントを速攻マスター。"
@@ -11,6 +11,8 @@ knowledge:
   type: news
   difficulty: beginner
 image: ~/data/post/trend/common-cover.png
+metadata:
+  description: '従業員の価値を国際規格で開示する人的資本報告（ISO 30414）を試験対策向けに解説。開示が求められる背景、主な開示項目、人的資本経営との関係など、ITパスポート試験で問われる要点を速攻でマスターできます。人事・経営に関わる社会人の教養としても役立ちます。'
 ---
 <div class="summary-box">
 <h3>3行まとめ</h3>

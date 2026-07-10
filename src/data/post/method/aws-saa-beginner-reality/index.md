@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-05-31T00:00:00Z
-lastmod: 2026-06-10
+lastmod: 2026-07-10
 title: 'AWS SAA、未経験でも本当に取れるか——合格の現実と最短学習手順'
 excerpt: 'IT未経験からAWS SAAに合格できるかを正直に答えます。前提知識ゼロで始めた場合の現実的なリスクと、AI対話学習を使って最短で到達する具体的な手順を解説します。'
 image: '~/data/post/method/aws-saa-beginner-reality/cover.jpg'
@@ -17,7 +17,6 @@ metadata:
   description: 'AWS SAA（ソリューションアーキテクト アソシエイト）は未経験でも合格可能か。前提知識なしで始めた場合のリスクと、AI対話学習で最短合格を狙う具体手順を正直に解説。'
 ---
 
-<!-- IMAGE_PROMPT: minimalist pictogram, cloud with checkmark and upward arrow on dark navy background, flat design, 16:9 -->
 
 「IT未経験でもAWS SAAに合格できますか？」
 
@@ -118,4 +117,4 @@ IT未経験からのAWS SAA合格は可能ですが、ネットワーク基礎�
 
 ---
 
-> この記事は [AWS・CCNAクラスター完全ガイド](/aws-hub/) の一部です。
+> この記事は [AWS・CCNAクラスター完全ガイド](/method/aws-hub/) の一部です。

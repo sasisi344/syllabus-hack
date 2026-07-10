@@ -1,5 +1,5 @@
---- 
-lastmod: 2026-05-30
+---
+lastmod: 2026-07-10
 publishDate: 2026-03-31T00:00:00Z
 title: "PDCAはもう古い？変化の激しい時代の高速意思決定「OODA（ウーダ）ループ」攻略"
 excerpt: "先の見えない時代の判断基準、OODAループ。PDCAとの違いや、DX時代に求められる「即断即決」の極意をITパスポートの視点で解説。"
@@ -8,9 +8,11 @@ tags: [OODAループ, 経営戦略, 意思決定, 業務改善, ITパスポー�
 persona: "状況変化の激しい現場で素早く判断を下したいリーダー"
 knowledge:
   examId: ip
-  type: news
+  type: theory
   difficulty: beginner
 image: ~/data/post/trend/common-cover.png
+metadata:
+  description: '変化の激しい時代の高速意思決定フレームワーク「OODAループ」を解説。PDCAとの違い、観察・状況判断・意思決定・行動の4ステップ、DX時代に求められる即断即決の考え方をITパスポート試験の視点で整理します。ストラテジ系の頻出用語を確実に得点源にできます。'
 ---
 <div class="summary-box">
 <h3>3行まとめ</h3>

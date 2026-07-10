@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-06-09T00:00:00Z
-lastmod: 2026-06-09
+lastmod: 2026-07-10
 title: 'CCNAで目指すネットワークエンジニアのキャリアパス｜年収・転職・上位資格ロードマップ'
 excerpt: 'CCNA取得後のキャリアを具体的に描く。未経験から入れるネットワーク運用職・年収帯・転職市場の実態・CCNP/AWSへのステップアップロードマップをまとめた。'
 image: ~/data/post/career/ccna-network-engineer-career/cover.jpg
@@ -150,4 +150,4 @@ CCNAは「取得して終わり」ではなく、<strong>インフラエンジ�
 
 CCNAで得たネットワークの基礎知識は、どのルートを選んでも腐らない資産になる。
 
-→ [CCNA完全攻略ガイドに戻る](/ccna-hub/)
+→ [CCNA完全攻略ガイドに戻る](/method/ccna-hub/)

@@ -9,6 +9,7 @@ import tailwind from '@astrojs/tailwind';
 import mdx from '@astrojs/mdx';
 import preact from '@astrojs/preact';
 import icon from 'astro-icon';
+import slugify from 'limax';
 import compress from 'astro-compress';
 import remarkLinkCard from 'remark-link-card-plus';
 
@@ -23,11 +24,12 @@ import {
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
-// Build slug → lastmod map from post frontmatter at config time
-function buildLastmodMap(): Map<string, Date> {
-  const map = new Map<string, Date>();
+// Build slug → lastmod map and tag → published-post count map from post frontmatter at config time
+function scanPostFrontmatter(): { lastmodMap: Map<string, Date>; tagCountMap: Map<string, number> } {
+  const lastmodMap = new Map<string, Date>();
+  const tagCountMap = new Map<string, number>();
   const postsDir = path.join(__dirname, 'src/data/post');
-  if (!fs.existsSync(postsDir)) return map;
+  if (!fs.existsSync(postsDir)) return { lastmodMap, tagCountMap };
 
   const walk = (dir: string) => {
     for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
@@ -35,27 +37,60 @@ function buildLastmodMap(): Map<string, Date> {
       if (entry.isDirectory()) {
         walk(full);
       } else if (entry.name === 'index.md' || entry.name === 'index.mdx') {
-        const content = fs.readFileSync(full, 'utf-8');
-        const fmMatch = content.match(/^---\n([\s\S]*?)\n---/);
+        // Tolerate BOM and CRLF line endings
+        const content = fs.readFileSync(full, 'utf-8').replace(/^﻿/, '');
+        const fmMatch = content.match(/^--- *\r?\n([\s\S]*?)\r?\n--- */);
         if (!fmMatch) continue;
         const fm = fmMatch[1];
         const slug = path.basename(path.dirname(full));
         const dateStr = fm.match(/^lastmod:\s*(.+)$/m)?.[1]?.trim() ?? fm.match(/^publishDate:\s*(.+)$/m)?.[1]?.trim();
         if (slug && dateStr) {
           try {
-            map.set(slug, new Date(dateStr));
+            lastmodMap.set(slug, new Date(dateStr));
           } catch {
             // ignore invalid dates
           }
+        }
+
+        // Drafts generate no pages, so they must not count toward tag totals
+        if (/^draft:\s*true/m.test(fm)) continue;
+        let tags: string[] = [];
+        const inline = fm.match(/^tags:\s*\[([^\]]*)\]/m);
+        if (inline) {
+          tags = inline[1].split(',');
+        } else {
+          const block = fm.match(/^tags:\s*\r?\n((?:\s+-\s+.*\r?\n?)+)/m);
+          if (block) tags = block[1].split(/\r?\n/).map((l) => l.replace(/^\s+-\s+/, ''));
+        }
+        for (const raw of tags) {
+          const tag = raw.trim().replace(/^['"]|['"]$/g, '');
+          if (!tag) continue;
+          // Same slugification as src/utils/permalinks.ts cleanSlug
+          const tagSlug = slugify(tag);
+          tagCountMap.set(tagSlug, (tagCountMap.get(tagSlug) ?? 0) + 1);
         }
       }
     }
   };
   walk(postsDir);
-  return map;
+  return { lastmodMap, tagCountMap };
 }
 
-const lastmodMap = buildLastmodMap();
+const { lastmodMap, tagCountMap } = scanPostFrontmatter();
+
+// Pages that carry noindex (template leftovers, thin tag pages) must stay out of the sitemap
+const SITEMAP_EXCLUDED_PREFIXES = ['/homes/', '/landing/', '/pricing/', '/services/', '/try/'];
+const MIN_TAG_POSTS_FOR_SITEMAP = 10;
+
+function sitemapFilter(page: string): boolean {
+  const pathname = new URL(page).pathname;
+  if (SITEMAP_EXCLUDED_PREFIXES.some((prefix) => pathname.startsWith(prefix))) return false;
+  const tagMatch = pathname.match(/^\/tag\/([^/]+)\//);
+  if (tagMatch) {
+    return (tagCountMap.get(tagMatch[1]) ?? 0) >= MIN_TAG_POSTS_FOR_SITEMAP;
+  }
+  return true;
+}
 
 export default defineConfig({
   output: 'static',
@@ -105,6 +140,7 @@ export default defineConfig({
     }),
     preact({ compat: true }),
     sitemap({
+      filter: sitemapFilter,
       serialize(item) {
         // Extract slug from URL (last path segment, strip trailing slash)
         const slug = item.url.replace(/\/$/, '').split('/').pop() ?? '';

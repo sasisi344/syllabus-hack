@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-05-31T00:00:00Z
-lastmod: 2026-06-19
+lastmod: 2026-07-10
 title: '応用情報技術者試験 完全攻略ガイド｜午前・午後記述対策と高度試験へのステップアップ'
 excerpt: '午前II（選択式）と午後（記述式）の2本構成に対応した応用情報技術者試験の完全ガイド。AI添削を使った記述対策・捨て問戦略・高度試験への接続まで、関連記事30本のインデックスと合わせて整理します。'
 image: '~/data/post/method/ap-hub/cover.jpg'
@@ -28,7 +28,6 @@ metadata:
   description: '応用情報技術者試験（AP）の午前・午後記述対策を完全網羅。捨て問戦略・AI添削法・合格後の高度試験接続まで、30本の関連記事インデックスとともに解説するハブガイド。'
 ---
 
-<!-- IMAGE_PROMPT: minimalist pictogram, layered document with pen writing on dark navy background, flat design, 16:9 -->
 
 「基本情報は取れた。次は応用情報。でも午後の記述が全然書けない」
 
@@ -57,11 +56,11 @@ metadata:
 
 ## なぜ応用情報技術者試験か
 
-### 高度試験への「登竜門」として機能する
+### 高度試験への登竜門として機能する
 
-応用情報技術者の午後問題で身につく「長文を読んで論理的に記述する力」は、[SC・NW・PM・DB・ST・SAなどの高度試験](/advanced-ipa-hub/)で直接役立ちます。
+応用情報技術者の午後問題で身につく「長文を読んで論理的に記述する力」は、[SC・NW・PM・DB・ST・SAなどの高度試験](/method/advanced-ipa-hub/)で直接役立ちます。
 
-<strong>APに合格していると高度試験の午前I免除を受けられ</strong>、試験対策の負担が大幅に軽減されます。なぜAPが高度試験への最短ルートになるのかは[高度試験への登竜門](/gateway-to-advanced/)で詳しく解説しています。
+<strong>APに合格していると高度試験の午前I免除を受けられ</strong>、試験対策の負担が大幅に軽減されます。なぜAPが高度試験への最短ルートになるのかは[高度試験への登竜門](/career/gateway-to-advanced/)で詳しく解説しています。
 
 ### 記述力がエンジニアの実務力を底上げする
 
@@ -116,40 +115,40 @@ IPAの模範解答を分析すると、<strong>「〜であるため、〜する
 
 2026年からAPのCBT移行が進んでいます。最新のスケジュールは下記記事で確認してください。
 
-- [【最新】令和8年度の応用・高度試験はCBT移行と科目名変更](/ipa-2026-cbt-confirmed-schedule)
-- [2026年CBT化：応用情報・高度試験がペーパー廃止へ](/applied-advanced-exam-cbt-transition-2026)
+- [【最新】令和8年度の応用・高度試験はCBT移行と科目名変更](/trend/ipa-2026-cbt-confirmed-schedule/)
+- [2026年CBT化：応用情報・高度試験がペーパー廃止へ](/trend/applied-advanced-exam-cbt-transition-2026/)
 
 ---
 
 ## 午後記述対策
 
-- [応用情報「午後記述」をAIで添削するセルフコーチング法](/ap-afternoon-ai-coaching) — ChatGPT・Claude・Gemini別の使い方
-- [採点者の意図をAIで読み解き得点につなげるコツ](/ap-grader-intent-hack) — 「あと5点」を取るための思考法
-- [採点基準はブラックボックスか？部分点獲得の戦略](/ap-grader-blackbox-hack) — 採点基準の構造分析と記述戦略
-- [午後問題AIプロンプト集（記述式・高度試験対応）](/ap-pm-descriptive-ai-prompts) — 分野別プロンプト集
-- [【文系・未経験】3ヶ月で応用情報に受かる「全力捨て問」戦略](/ap-discard-strategy) — 選択分野の絞り込みと学習計画
+- [応用情報「午後記述」をAIで添削するセルフコーチング法](/method/ap-afternoon-ai-coaching/) — ChatGPT・Claude・Gemini別の使い方
+- [採点者の意図をAIで読み解き得点につなげるコツ](/method/ap-grader-intent-hack/) — 「あと5点」を取るための思考法
+- [採点基準はブラックボックスか？部分点獲得の戦略](/method/ap-grader-blackbox-hack/) — 採点基準の構造分析と記述戦略
+- [午後問題AIプロンプト集（記述式・高度試験対応）](/method/ap-pm-descriptive-ai-prompts/) — 分野別プロンプト集
+- [【文系・未経験】3ヶ月で応用情報に受かる「全力捨て問」戦略](/method/ap-discard-strategy/) — 選択分野の絞り込みと学習計画
 
 ## CBT・最新動向
 
-- [【最新】令和8年度の応用・高度試験CBT移行と科目名変更の全貌](/ipa-2026-cbt-confirmed-schedule)
-- [2026年CBT化：応用情報・高度試験がペーパー廃止へ](/applied-advanced-exam-cbt-transition-2026)
-- [情報処理技術者試験CBT完全移行ガイド｜変更点・新シラバス対応・タイピング対策](/cbt-2026-syllabus-complete-guide)
-- [【2026年春延期】応用情報の延期と対策案](/ap-2026-spring-postponed)
+- [【最新】令和8年度の応用・高度試験CBT移行と科目名変更の全貌](/trend/ipa-2026-cbt-confirmed-schedule/)
+- [2026年CBT化：応用情報・高度試験がペーパー廃止へ](/trend/applied-advanced-exam-cbt-transition-2026/)
+- [情報処理技術者試験CBT完全移行ガイド｜変更点・新シラバス対応・タイピング対策](/method/cbt-2026-syllabus-complete-guide/)
+- [【2026年春延期】応用情報の延期と対策案](/trend/ap-2026-spring-postponed/)
 
 ## キャリア設計
 
-- [高度試験への登竜門——応用情報を取ると論文試験が楽になる理由](/gateway-to-advanced) — PM・ST・SAへの接続性を解説
-- [コスパ最強は応用情報技術者——20代・30代こそAPを取得すべき3つのメリット](/applied-information-technology-engineer-career-value)
-- [応用情報に受かったのに何も変わらない——合格証を実務の武器に変える方法](/ap-cert-practical-use-hack)
-- [応用情報で自社に残るか外へ飛ぶか——SESエンジニアのAP活用術](/ses-ap-strategy)
-- [SESの「孤独」をAP取得で「独立」に変えるキャリア戦略](/ses-ap-independence-strategy)
-- [基本情報・応用情報で年収は上がる？資格手当の相場と転職市場のリアル](/ipa-certification-salary-impact)
-- [ITパスポートから応用情報まで——AP・SGを同時攻略する最短合格ロードマップ](/it-passport-to-ap-roadmap)
+- [高度試験への登竜門——応用情報を取ると論文試験が楽になる理由](/career/gateway-to-advanced/) — PM・ST・SAへの接続性を解説
+- [コスパ最強は応用情報技術者——20代・30代こそAPを取得すべき3つのメリット](/career/applied-information-technology-engineer-career-value/)
+- [応用情報に受かったのに何も変わらない——合格証を実務の武器に変える方法](/career/ap-cert-practical-use-hack/)
+- [応用情報で自社に残るか外へ飛ぶか——SESエンジニアのAP活用術](/career/ses-ap-strategy/)
+- [SESの「孤独」をAP取得で「独立」に変えるキャリア戦略](/career/ses-ap-independence-strategy/)
+- [基本情報・応用情報で年収は上がる？資格手当の相場と転職市場のリアル](/career/ipa-certification-salary-impact/)
+- [ITパスポートから応用情報まで——AP・SGを同時攻略する最短合格ロードマップ](/career/it-passport-to-ap-roadmap/)
 
 ## 練習アプリ
 
-- [応用情報技術者(AP) 科目A試験 模擬試験シミュレーター](/ap-quiz) — CBT形式の午前II演習
-- [応用情報技術者(AP) 科目B試験 ケーススタディ演習](/ap-subject-b) — 午後形式の演習アプリ
+- [応用情報技術者(AP) 科目A試験 模擬試験シミュレーター](/app/ap-quiz/) — CBT形式の午前II演習
+- [応用情報技術者(AP) 科目B試験 ケーススタディ演習](/app/ap-subject-b/) — 午後形式の演習アプリ
 
 ## 午後11分野の採点傾向と選択戦略
 
@@ -248,25 +247,25 @@ APの模範解答は必ず問題文のキーワードを解答に組み込んで
 
 ## よくある質問
 
-**Q: 午後問題の選択分野はどう決めればいいですか？**
+<strong>Q: 午後問題の選択分野はどう決めればいいですか？</strong>
 
 A: 自分のバックグラウンドに最も近い3〜4分野を選ぶのが原則だ。文系・非エンジニアならプロジェクトマネジメント・サービスマネジメント・システム監査の3分野が最初の候補になる。選択を固める前に、各分野の過去問を1問ずつ解いて「60分以内に字数を埋められるか」を確認するのが確実な判断方法だ。
 
-**Q: 午後記述の字数が足りません。どう増やせばいいですか？**
+<strong>Q: 午後記述の字数が足りません。どう増やせばいいですか？</strong>
 
 A: 字数が足りない原因の多くは「根拠を書いていない」ことだ。解答に「〜であるため」「〜という背景から」という根拠の節を追加するだけで字数が自然に増える。また問題文から関連するキーワードを解答に引用すると、採点者に伝わる文脈も作れる。
 
-**Q: 午前IIと午後は同日受験ですか？**
+<strong>Q: 午前IIと午後は同日受験ですか？</strong>
 
 A: 現行制度では同日受験（午前→午後の順）。午前IIは80問90分、午後は5問150分。午前IIで60点以上を確保してから午後に進む構成だ。APに合格後は高度試験の午前I免除が取得でき、1〜2年間有効になる。
 
-**Q: 基本情報なしで応用情報から受けられますか？**
+<strong>Q: 基本情報なしで応用情報から受けられますか？</strong>
 
 A: 受験資格に制限はないため基本情報なしでも受けられる。ただし午前IIの範囲は基本情報と重複しており、基本情報の学習が終わっていない段階で応用情報に挑むと午前IIの学習コストが倍増する。実務での基礎がある場合は問題ないが、学習歴がない場合は基本情報から順に進むのが推奨される。
 
-**Q: 応用情報合格後にどんなキャリアの変化がありますか？**
+<strong>Q: 応用情報合格後にどんなキャリアの変化がありますか？</strong>
 
-A: 主な変化は①高度試験（SC・NW・PM等）の午前I免除②転職市場での評価向上③SES案件の単価上昇の3点だ。詳細は[コスパ最強は応用情報技術者](/applied-information-technology-engineer-career-value)と[応用情報で自社に残るか外へ飛ぶか](/ses-ap-strategy)に実際の数字と事例を掲載している。
+A: 主な変化は①高度試験（SC・NW・PM等）の午前I免除②転職市場での評価向上③SES案件の単価上昇の3点だ。詳細は[コスパ最強は応用情報技術者](/career/applied-information-technology-engineer-career-value/)と[応用情報で自社に残るか外へ飛ぶか](/career/ses-ap-strategy/)に実際の数字と事例を掲載している。
 
 ---
 

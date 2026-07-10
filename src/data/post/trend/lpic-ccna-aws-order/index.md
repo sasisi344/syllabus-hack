@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-05-31T00:00:00Z
-lastmod: 2026-06-10
+lastmod: 2026-07-10
 title: 'LPIC・CCNA・AWSを取る順番——インフラエンジニアが最短で市場価値を上げるロードマップ'
 excerpt: 'LPIC・CCNA・AWS SAAを取得する最も効率的な順番を、インフラエンジニアのキャリア設計から逆算して解説します。どれから始めるかで学習コストが変わります。'
 image: '~/data/post/trend/lpic-ccna-aws-order/cover.jpg'
@@ -17,7 +17,6 @@ metadata:
   description: 'LPIC・CCNA・AWS SAAを取る最適な順番を解説。学習内容の論理的な繋がりから「LPIC → CCNA → AWS SAA」が最も効率的な理由と、各資格の役割を整理します。'
 ---
 
-<!-- IMAGE_PROMPT: minimalist pictogram, three connected steps with upward progression on dark navy background, flat design, 16:9 -->
 
 「LPIC・CCNA・AWSのどれから始めればいいか分からない」
 
@@ -31,11 +30,11 @@ metadata:
 
 まず各資格が「何の知識を証明するか」を確認します。
 
-**LPIC**（Linux Professional Institute Certification）はLinuxサーバーの操作・管理スキルを証明する資格です。コマンドライン操作・ファイルシステム・プロセス管理・ネットワーク設定が対象です。
+<strong>LPIC</strong>（Linux Professional Institute Certification）はLinuxサーバーの操作・管理スキルを証明する資格です。コマンドライン操作・ファイルシステム・プロセス管理・ネットワーク設定が対象です。
 
-**CCNA**（Cisco Certified Network Associate）はネットワーク設計・運用の知識を証明します。TCP/IP・ルーティング・スイッチング・セキュリティ・自動化が範囲です。
+<strong>CCNA</strong>（Cisco Certified Network Associate）はネットワーク設計・運用の知識を証明します。TCP/IP・ルーティング・スイッチング・セキュリティ・自動化が範囲です。
 
-**AWS SAA**（Solutions Architect - Associate）はAWSクラウドの設計・運用スキルを証明します。VPC・EC2・S3・RDS・IAMなどのAWSサービスを使ったシステム設計能力が対象です。
+<strong>AWS SAA</strong>（Solutions Architect - Associate）はAWSクラウドの設計・運用スキルを証明します。VPC・EC2・S3・RDS・IAMなどのAWSサービスを使ったシステム設計能力が対象です。
 
 ## 推奨順番と理由
 
@@ -94,9 +93,9 @@ TCPIPとルーティングの論理を理解し（CCNA）、
 
 状況によって最適な入口は異なります。
 
-すでにLinuxを実務で触っている場合は**LPIC-1をスキップしてCCNAから**始めることも合理的です。Linux基礎の素地があれば、CCNA学習でつまずく場面が少なくなります。
+すでにLinuxを実務で触っている場合は<strong>LPIC-1をスキップしてCCNAから</strong>始めることも合理的です。Linux基礎の素地があれば、CCNA学習でつまずく場面が少なくなります。
 
-クラウド系の求人を優先したい場合は**AWS SAAを先行させる判断もある**ですが、VPCの章で苦労する可能性があることは覚悟が必要です。後からCCNAで補強する逆ルートも機能しますが、学習効率は落ちます。
+クラウド系の求人を優先したい場合は<strong>AWS SAAを先行させる判断もある</strong>ですが、VPCの章で苦労する可能性があることは覚悟が必要です。後からCCNAで補強する逆ルートも機能しますが、学習効率は落ちます。
 
 <strong>既存の実務経験がない状態から始める場合は、LPIC → CCNA → AWS SAAが最もコストが低い順番</strong>です。
 
@@ -112,4 +111,4 @@ LPIC・CCNA・AWSの取得順番は、各資格の知識が次の学習にどう
 
 ---
 
-> この記事は [CCNA完全攻略ガイド](/ccna-hub/) の一部です。
+> この記事は [CCNA完全攻略ガイド](/method/ccna-hub/) の一部です。

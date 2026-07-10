@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-06-09T00:00:00Z
-lastmod: 2026-06-09
+lastmod: 2026-07-10
 title: 'MOS（Microsoft Office Specialist）完全攻略ガイド｜Excel・Word試験の最短合格ロードマップ'
 excerpt: 'MOSはMicrosoftが認定する唯一の公式資格。Excel・Word・PowerPointの一般/エキスパートまで、試験の種類・難易度・AI活用学習法・キャリアへの使い方を一本にまとめたハブガイド。'
 image: ~/data/post/method/mos-hub/cover.jpg
@@ -140,9 +140,9 @@ MOS Excel 365 アソシエイトの試験範囲で、独学では気づきにく
 
 ## 関連記事インデックス
 
-- [MOS合格を最短化するAI学習法——「役に立たない」と言われる前にやること](/mos-ai-shortcut/)
-- [MOS Excel エキスパートは独学で難しすぎる——つまずく理由とAI対話で突破する手順](/mos-excel-expert-difficulty/)
-- [MOS vs ITパスポート——どちらが有利か問うより「両方取れるなら取ったほうがいい」理由](/mos-vs-itp-job-hunting/)
+- [MOS合格を最短化するAI学習法——「役に立たない」と言われる前にやること](/method/mos-ai-shortcut/)
+- [MOS Excel エキスパートは独学で難しすぎる——つまずく理由とAI対話で突破する手順](/method/mos-excel-expert-difficulty/)
+- [MOS vs ITパスポート——どちらが有利か問うより「両方取れるなら取ったほうがいい」理由](/trend/mos-vs-itp-job-hunting/)
 
 ---
 
@@ -161,3 +161,5 @@ MOS攻略の勘所は3つだ。
 
 アソシエイトは50〜80時間でリーチできる。Officeを毎日使っている人なら、学習の半分は既知の確認作業になる。
 まずExcelアソシエイト1本に絞って受験を決めてみてほしい。
+
+関数の使い分けは[MOS Excel頻出関数まとめ](/theory/mos-excel-function-basics/)、Word・PowerPointの基礎知識は[MOS Word・PowerPoint基礎知識まとめ](/theory/mos-word-powerpoint-basics/)を参照。関数への苦手意識がある人は[エクセルアレルギーをAIで克服する方法](/method/mos-kansuu-oboerarenai-hack/)から読むと良い。試験の出題形式・採点の仕組みを先に知っておきたい人は[MOS試験の出題形式・スコアレポートとは？](/theory/mos-exam-format-scoring-basics/)を参照してほしい。

@@ -2,10 +2,13 @@
 title: "Web閲覧の基本と安全！HTTPとHTTPSの違いを解説"
 description: "Webページはどうやって表示される？HTTPのステータスコードから、SSL/TLSによる暗号化のHTTPSまでを分かりやすく解説します。"
 publishDate: 2026-03-31T00:00:00Z
+lastmod: 2026-07-10
 image: ~/data/post/theory/common-cover.png
 category: theory
 tags: ["シラバス対策", "ネットワーク", "HTTP/HTTPS"]
 draft: false
+metadata:
+  description: 'WebのHTTPと暗号化されたHTTPSの違いをITパスポート試験向けに解説。SSL/TLSによる暗号化の仕組み、鍵マークの意味、通信を盗聴・改ざんから守る仕組みなど、試験で問われる要点をコンパクトに整理します。毎日使うWebの安全知識が身につきます。'
 ---
 
 私たちが日常的に利用するWebサイト。その裏側で動いているのが <strong>HTTP（エイチティーティーピー）</strong> です。
@@ -14,7 +17,7 @@ draft: false
 
 今回は、Web通信の根幹をPASBECASの視点で深掘りします。
 
-## Problem：なぜ「中身」が丸見えなのか？
+## Problem：なぜ中身が丸見えなのか？
 
 初期のHTTPは、データを「そのまま（平文）」送る仕組みでした。
 
@@ -32,15 +35,15 @@ draft: false
 
 この「封筒」の役割を果たすのが、<strong>SSL/TLS</strong>という暗号化技術です。
 
-## Solution：HTTPSは「HTTP + SSL/TLS」
+## Solution：HTTPSはHTTP + SSL/TLS
 
 HTTPSの「S」は「Secure（安全）」を意味します。
 
-### 1. SSL/TLSによる暗号化
+### SSL/TLSによる暗号化
 データを暗号化し、盗聴を防ぎます。
 *   <strong>共通鍵暗号</strong>と<strong>公開鍵暗号</strong>を組み合わせて、効率的に安全な通信路を作ります。
 
-### 2. サーバーの証明（デジタル証明書）
+### サーバーの証明（デジタル証明書）
 「このサイトは本物の銀行ですよ」という公的な証明書（サーバー証明書）を確認できます。これにより、なりすまし（フィッシングサイト）を防止します。
 
 ## Benefit：信頼という最大のメリット
@@ -52,7 +55,7 @@ HTTPSを導入するメリットは、単なる安全だけではありません
 
 HTTPS化は、もはやWebサイトにとっての「身だしなみ」と言えます。
 
-## Evidence：試験の正解率を上げる「ステータスコード」
+## Evidence：試験の正解率を上げるステータスコード
 
 試験では、HTTPレスポンスの「結果」を表す3桁の数字がよく出ます。
 
@@ -68,12 +71,12 @@ Webの通信は、常に<strong>「お願い（リクエスト）」</strong>と
 *   <strong>GETメソッド</strong>：ページが欲しいとき。
 *   <strong>POSTメソッド</strong>：データを送りたいとき（お問い合わせフォームなど）。
 
-## Agitation：もし「HTTP」のままだったら？
+## Agitation：もしHTTPのままだったら？
 
 いまだにクレジットカード情報を入力する画面が「HTTP」のサイトがあったら、それは<strong>「詐欺」か「無知」のどちらか</strong>です。
 最新のブラウザでは「このサイトは安全ではありません」と警告が出るようになっています。HTTPSを正しく理解し、自分の情報が守られているかを確認する力は、現代人の必須スキルです。
 
-## Solution（Hacks）：AIに「暗号化の鍵」を説明させる
+## Solution（Hacks）：AIに暗号化の鍵を説明させる
 
 共通鍵と公開鍵のやり取りは、まるで「箱と鍵」のパズルのようです。
 

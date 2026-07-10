@@ -20,7 +20,7 @@ const { page, category } = Astro.props as Props;
 const currentPage = page.currentPage ?? 1;
 
 const isAppCategory = category.slug === 'app';
-const isGlossaryCategory = category.slug === 'glossary';
+const isGlossaryCategory = category.slug === 'theory';
 const appPosts = isAppCategory ? page.data.filter((post) => post.knowledge?.type === 'app') : [];
 const storyPosts = isAppCategory ? page.data.filter((post) => post.knowledge?.type !== 'app') : page.data;
 

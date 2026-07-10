@@ -3,7 +3,7 @@ title: 'リスキリング補助金制度を賢く使ってIT資格を取得す�
 image: ~/data/post/trend/common-cover.png
 description: '2025年〜2026年の最新動向を踏まえたリスキリング補助金の活用ガイドです。企業向け・個人向けの各制度を徹底比較。ITスキルとAI知識を身につけ、実質無料でキャリアアップする秘訣を公開します。'
 publishDate: 2026-02-17T00:00:00Z
-lastmod: 2026-02-28
+lastmod: 2026-07-10
 category: trend
 tags: ['リスキリング', '補助金', '助成金', '教育訓練給付金', 'DX']
 knowledge:
@@ -12,6 +12,8 @@ knowledge:
   difficulty: beginner
 draft: false
 toc: true
+metadata:
+  description: '受講料の最大80%が還元されるリスキリング補助金制度を賢く使ってIT資格を取得する方法を解説。対象講座の探し方、申請の流れ、ITパスポートや基本情報技術者などおすすめの組み合わせまで実践的にまとめました。自己負担を抑えて学びたい社会人は必見です。'
 ---
 
 「IT資格を取得してキャリアアップしたいけれど、講座の受講料が高い……」

@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-01-31T00:00:00Z
-lastmod: 2026-06-10
+lastmod: 2026-07-10
 title: '科目BのアルゴリズムはPythonで学ぶな！試験対策で陥る3つの罠と攻略法'
 excerpt: 'Python勉強すれば基本情報も余裕でしょ？は大間違い。1始まりの添字、使えないソート関数——Python経験者が試験本番でパニックになる擬似言語の罠と、AIを使った賢い攻略法を解説する。'
 image: ~/data/post/trend/fe-pseudo-language-trap/cover.jpg
@@ -141,4 +141,4 @@ Python経験者の「Pythonで学んだから大丈夫」という過信が最�
 
 ---
 
-> この記事は [基本情報技術者試験 完全攻略ガイド](/fe-hub/) の一部です。
+> この記事は [基本情報技術者試験 完全攻略ガイド](/method/fe-hub/) の一部です。

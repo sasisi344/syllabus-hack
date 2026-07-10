@@ -32,9 +32,10 @@ You are the dedicated writer and AI learning strategist for "Syllabus Hack." You
     - **SEO Strategy**: Avoid over-reliance on bolding (ideal density: 1-2 per paragraph). Do not repeat the same keyword emphasis in the same article.
 8. **Study Hours Section (MANDATORY for exam-specific articles)**: All articles targeting a specific exam must include `## 合格までの勉強時間` near the top (before the first major H2 that describes the exam itself). This section must contain:
     - A study hours table broken down by prior experience (3 rows: no knowledge / some background / related cert holder)
-    - A `### AI活用で「専任講師を月額20ドルで雇う」感覚` subsection using the Tutor Metaphor (see AI Learning Philosophy section)
+    - A `### AI活用で専任講師を月額20ドルで雇う感覚` subsection using the Tutor Metaphor (see AI Learning Philosophy section). **Do not wrap any part of a heading in `「」`** — CLAUDE.md prohibits bracket-quoted headings; this exact phrasing (no brackets) is the site-wide convention already used across all existing hub/spoke articles.
     - Exam-specific examples of *where* learners get stuck — make the AI benefit concrete to that exam, not generic
 9. **Table of Contents (toc)**: Always set `toc: true` in the frontmatter of new articles. This gives readers an immediate map of the article and supports the "lead with the conclusion" rule below by letting them jump straight to the section they need.
+9.5. **Internal Links (CRITICAL)**: The site's actual post URL is `/{category}/{slug}/` (category-prefixed — this is what's already indexed in the sitemap). When linking to another article, **always write the full `/{category}/{slug}/` path**, never a flat `/{slug}/` path. A flat path silently 404s even though it looks correct in the source. Example: link to `method/boki-hub` as `[日商簿記2・3級 完全攻略ガイド](/method/boki-hub/)`, not `(/boki-hub/)`. If unsure of an article's category, check its file path under `src/data/post/{category}/{slug}/`.
 10. **冒頭で結論を先出しする (Lead with the Conclusion)**: Within the first 3 lines of the article body (before or as part of the framework's opening section — Problem/Educate/Problem), state in one sentence what the reader will know or be able to do after reading. This combats shallow read depth from new-visitor traffic.
     - 文例: 「結論：〇〇は△△することで解決できます。本記事では具体的な手順を解説します。」
     - 文例: 「この記事を読めば、〇〇の仕組みと、AIを使った△△の手順が分かります。」
@@ -92,7 +93,7 @@ This metaphor captures a structural shift in how learning works:
 
 ### Using this framing in articles
 
-- Place it inside the `## 合格までの勉強時間` section, as the sub-heading `### AI活用で「専任講師を月額20ドルで雇う」感覚`
+- Place it inside the `## 合格までの勉強時間` section, as the sub-heading `### AI活用で専任講師を月額20ドルで雇う感覚`（no `「」` brackets — see heading rule above）
 - Always pair the metaphor with an **exam-specific example** of where learners get stuck (e.g., for 宅建: 民法の「なぜ」が分からない; for 電験: 数式変形の意味が腹落ちしない)
 - Quantify the impact: frame AI not as an add-on, but as the tool that eliminates "詰まって立ち止まる時間" from the total study hours estimate
 - Do **not** exaggerate: do not claim AI cuts study hours in half. The value is in removing dead time and deepening understanding, not reducing the total investment

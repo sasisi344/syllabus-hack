@@ -21,8 +21,7 @@ knowledge:
 
 | examId | 資格名（正式名称・通称） | Hub記事 | 備考 |
 | --- | --- | --- | --- |
-| `ip` | ITパスポート試験 | `method/itp-hub` | **推奨スラッグ**。アプリ・大半の記事で使用 |
-| `it-passport` | ITパスポート試験 | — | `ip` と同義。旧記事・一部記事のみ。新規は `ip` を優先 |
+| `ip` | ITパスポート試験 | `method/itp-hub` | **唯一の正規スラッグ**。旧 `it-passport` は 2026-07-10 に統一・enum から削除済み |
 | `fe` | 基本情報技術者試験 | `method/fe-hub` | 科目B系は `method/fe-subject-b-ai-prompt-hub` |
 | `ap` | 応用情報技術者試験 | `method/ap-hub` | |
 | `sg` | 情報セキュリティマネジメント試験 | `method/sg-hub` | |
@@ -68,7 +67,7 @@ knowledge:
 
 ```
 ip, sg, fe, ap, st, sa, pm, nw, db, es, sm, au, sc,
-common, it-passport, g-kentei, ds-kentei, ccna,
+common, g-kentei, ds-kentei, ccna,
 denken, boki, takken, mos, kiken-butsu, biru-kanri, doboku-sekou
 ```
 

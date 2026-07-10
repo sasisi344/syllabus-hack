@@ -1,5 +1,5 @@
---- 
-lastmod: 2026-05-30
+---
+lastmod: 2026-07-10
 publishDate: 2026-03-31T00:00:00Z
 title: "生成AIの弱点を克服！RAGとは？IT試験に出る最新用語【ITパスポート】"
 excerpt: "AIが「嘘」を答えるハルシネーションを防ぐRAGの仕組み。検索と生成の組み合わせがもたらすビジネス価値を1分解説。"
@@ -8,9 +8,11 @@ tags: [RAG, 生成AI, LLM, 検索拡張生成, ベクトル検索]
 persona: "社内情報の検索にAIを導入したいDX推進担当"
 knowledge:
   examId: ip
-  type: news
+  type: theory
   difficulty: beginner
 image: ~/data/post/trend/common-cover.png
+metadata:
+  description: '生成AIのハルシネーションを防ぐ切り札「RAG（検索拡張生成）」をITパスポート試験向けに解説。検索と生成を組み合わせる仕組み、社内ナレッジ活用などのビジネス価値、試験で問われる要点を1分で整理します。AI系の新出キーワード対策として必読です。'
 ---
 ## 3行まとめ
 - <strong>RAG</strong>（Retrieval-Augmented Generation / 検索拡張生成）は、AIが回答を作る前に「外部の信頼できる情報」を検索して参照する技術です。この技術は、AIの回答の正確性と信頼性を飛躍的に高めるために開発されました。

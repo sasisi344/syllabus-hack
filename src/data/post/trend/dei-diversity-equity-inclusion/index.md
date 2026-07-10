@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-05-30
+lastmod: 2026-07-10
 publishDate: 2026-03-31T00:00:00Z
 title: "人的資本経営とDE&I（多様性・公平性・包摂）の関係性とは？価値を生む組織の作り方"
 excerpt: "なぜ今、DE&Iが注目されるのか？ITパスポート試験でも問われる、多様性を活かしてDXを加速させる経営の考え方を解説。"
@@ -11,6 +11,8 @@ knowledge:
   examId: ip
   type: news
   difficulty: beginner
+metadata:
+  description: 'なぜ今DE&I（多様性・公平性・包摂）が人的資本経営の中心なのか。ITパスポート試験で問われる背景知識から、多様性を活かしてDXを加速させる組織づくりの考え方まで、試験と実務の両面から分かりやすく解説します。ストラテジ系の得点源づくりにも役立つ一本です。'
 ---
 <div class="summary-box">
 <h3>3行まとめ</h3>

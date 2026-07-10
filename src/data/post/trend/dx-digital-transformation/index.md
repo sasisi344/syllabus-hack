@@ -1,5 +1,5 @@
---- 
-lastmod: 2026-05-30
+---
+lastmod: 2026-07-10
 publishDate: 2026-03-31T00:00:00Z
 title: "DX（デジタルトランスフォーメーション）とは？IT化との違いを1分で理解！試験の頻出ポイント"
 excerpt: "ITパスポート試験で最も重要な「DX」。単なるデジタル化（Digitization/Digitalization）との違いを明確にし、試験で正解を逃さないためのポイントを解説。"
@@ -8,9 +8,11 @@ tags: [DX, デジタルトランスフォーメーション, ITパスポート, 
 persona: "DX推進を命じられた中堅社員"
 knowledge:
   examId: ip
-  type: news
+  type: theory
   difficulty: beginner
 image: ~/data/post/trend/common-cover.png
+metadata:
+  description: 'ITパスポート試験の最重要キーワード「DX」を1分で理解。単なるデジタル化（Digitization・Digitalization）との3段階の違いを明確にし、試験で正解を逃さないための判別ポイントと具体例を解説します。初学者がまず押さえるべき一語です。'
 ---
 IT資格学習メディア「Syllabus Hack」の専属ライターとして、DX（デジタルトランスフォーメーション）に関する記事を詳しく・丁寧に拡充しました。
 

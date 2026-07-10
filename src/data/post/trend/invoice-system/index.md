@@ -1,5 +1,5 @@
---- 
-lastmod: 2026-05-30
+---
+lastmod: 2026-07-10
 publishDate: 2026-03-31T00:00:00Z
 title: "今さら聞けないインボイス制度！IT試験で問われる業務への影響とシステム改修"
 excerpt: "適格請求書（インボイス）保存・発行の仕組みとは？ITパスポート試験で問われるERPやECサイトへの影響を分かりやすく解説。"
@@ -11,6 +11,8 @@ knowledge:
   type: news
   difficulty: beginner
 image: ~/data/post/trend/common-cover.png
+metadata:
+  description: '適格請求書（インボイス）制度の仕組みと業務への影響をIT試験の視点で解説。ERPやECサイトなど社内システムの改修ポイント、経理業務の変化、ITパスポート試験で問われる論点を分かりやすく整理します。経理・事務職の実務知識としても役立つ内容です。'
 ---
 <div class="summary-box">
 <h3>3行まとめ</h3>

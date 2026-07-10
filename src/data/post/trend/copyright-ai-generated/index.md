@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-05-30
+lastmod: 2026-07-10
 publishDate: 2026-03-31T00:00:00Z
 title: "AIで作った絵に著作権はある？最新の法務解釈とITパスポート試験対策"
 excerpt: "AIの生成物は誰のもの？「創作的寄与」や「学習利用」など、ITパスポート試験で問われる最新の法務解釈を分かりやすく解説。"
@@ -11,6 +11,8 @@ knowledge:
   examId: ip
   type: news
   difficulty: beginner
+metadata:
+  description: 'AI生成物に著作権は認められるのか。「創作的寄与」や「学習利用」など、ITパスポート試験で問われる生成AIと著作権の最新法務解釈を分かりやすく解説。試験対策と実務のリスク回避の両方に役立つ知識を整理します。クリエイターやAI活用企業の実例も交えて紹介します。'
 ---
 <div class="summary-box">
 <h3>3行まとめ</h3>

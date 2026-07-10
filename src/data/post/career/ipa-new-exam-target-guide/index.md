@@ -1,7 +1,7 @@
 ---
 draft: false
 publishDate: 2026-04-11T00:00:00Z
-lastmod: 2026-05-30
+lastmod: 2026-07-10
 title: 【年代・職種別】2027年版IPA試験・狙い目ガイド｜学生から社会人まで
 persona: 自分に最適な受験区分を知りたい学生・社会人
 category: career
@@ -16,6 +16,8 @@ knowledge:
  syllabusRef: common
  difficulty: beginner
 image: ~/data/post/career/ipa-new-exam-target-guide/cover.png
+metadata:
+  description: '2027年再編後のIPA試験、あなたはどれを受けるべきか。学生・新社会人・中堅・管理職まで年代・職種別に狙い目の試験区分を整理し、新設のPD試験を含む最適な受験順序と準備の始め方を解説します。自分のキャリアに合う試験区分を効率よく見つけられます。'
 ---
 <strong>IPA試験</strong> の再編により、「どの試験をいつ受けるべきか」の判断基準が大きく変わります。この再編は、急速に進化するIT社会、特にAIやデータ活用の重要性に対応するために行われました。
 
