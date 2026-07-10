@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-04-05T00:00:00Z
-lastmod: 2026-06-14
+lastmod: 2026-07-11
 title: '【AWS】Mermaid構成図の作り方：3つの視点と題目サンプルで設計意図まで言語化する'
 excerpt: 'AWSのMermaid構成図を実務で使える粒度で作る方法を解説。要件分解・境界/経路・設計理由の3視点と題目サンプルで、レビューに通る図の作成手順がわかります。'
 persona: 'クラウド学習でカタカナ用語の羅列に挫折している、文系・非エンジニア'
@@ -12,7 +12,7 @@ tags:
   - 図解ハック
   - Mermaid
 knowledge:
-  examId: common
+  examId: aws
   type: method
   syllabusRef: 'SAA-C03'
   difficulty: intermediate
@@ -130,4 +130,4 @@ AIと <strong>Mermaid</strong> を組み合わせ、3つの視点で題目を回
 
 「読むだけでわかる記事」から「再現して使える記事」へ。ここが、クリック後の価値を最大化する分岐点です。Mermaid構成図を通じてAWSの設計意図を言語化するスキルは、資格試験の合格だけでなく、クラウドエンジニアとしてのキャリアを大きく飛躍させる鍵となるでしょう。
 
-AWS以外にも、ネットワークスペシャリスト試験向けのMermaid活用法は<a href="/nw-mermaid-hack">ネットワーク図の覚え方・書き方</a>で解説しています。
+AWS以外にも、ネットワークスペシャリスト試験向けのMermaid活用法は<a href="/method/nw-mermaid-hack/">ネットワーク図の覚え方・書き方</a>で解説しています。

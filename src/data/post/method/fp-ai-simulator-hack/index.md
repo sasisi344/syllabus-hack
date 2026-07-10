@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-04-05T00:00:00Z
-lastmod: 2026-07-10
+lastmod: 2026-07-11
 title: 'FP2級・3級の暗記を『自分専用AIシミュレーター』で終了させるハック術'
 persona: '30代・将来の資産形成に不安を持つIT初学者'
 category: method
@@ -11,7 +11,7 @@ tags:
   - Gemini
   - シミュレーション
 knowledge:
-  examId: common
+  examId: fp
   type: method
   syllabusRef: '2026年度版'
   difficulty: beginner

@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-05-31T00:00:00Z
-lastmod: 2026-07-10
+lastmod: 2026-07-11
 title: 'FP2級を社会人が3ヶ月で合格するプラン——AI対話学習で暗記量を半分にする手順'
 excerpt: '社会人がFP2級に3ヶ月で合格するための月別学習プランを解説します。6分野を均等に学ぶのではなく、AIとの対話で制度の論理から理解することで暗記量を大幅に削減する方法を紹介します。'
 image: '~/data/post/method/fp2-3month-plan/cover.jpg'
@@ -9,7 +9,7 @@ tags: ['FP2級', '社会人', '勉強時間', '独学', 'ロードマップ']
 draft: false
 persona: 'FP2級を3ヶ月で取得したい社会人'
 knowledge:
-  examId: 'common'
+  examId: fp
   type: 'method'
   syllabusRef: 'FP2級・AFP 2026年度'
   difficulty: 'intermediate'

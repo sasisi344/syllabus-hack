@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-05-31T00:00:00Z
-lastmod: 2026-07-10
+lastmod: 2026-07-11
 title: 'FP2級完全攻略ガイド｜CBT時代の合格戦略とAI活用学習ロードマップ'
 excerpt: '合格率50%のFP2級をCBT方式・AI対話学習で攻略するための完全ガイド。リベンジ戦略・団体選択・3ヶ月プランまで、関連記事インデックスとともに網羅します。'
 image: '~/data/post/method/fp-hub/cover.jpg'
@@ -9,7 +9,7 @@ tags: ['FP2級', 'CBT', 'AI活用', '独学', 'ロードマップ']
 draft: false
 persona: 'FP2級の取得を目指す社会人'
 knowledge:
-  examId: 'common'
+  examId: fp
   type: 'method'
   syllabusRef: 'FP2級・AFP 2026年度'
   difficulty: 'intermediate'

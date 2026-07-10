@@ -30,6 +30,7 @@
 | `biru-kanri` | ビル管理クラスター（ビル管理士・マンション管理士・エネルギー管理士） | [biru-kanri-kw-db.md](./biru-kanri-kw-db.md) | `method/biru-kanri-hub` | Hubのみ・サブ資格別スポーク未分離（波3） |
 | `doboku-sekou` | 土木施工管理技士（1級・2級） | [doboku-sekou-kw-db.md](./doboku-sekou-kw-db.md) | `method/doboku-sekou-hub` | Hubのみ・スポーク未着手（波3） |
 | `chiteki-zaisan` | 知的財産管理技能検定（知財検定、1〜3級） | [chiteki-zaisan-kw-db.md](./chiteki-zaisan-kw-db.md) | `method/chiteki-zaisan-hub` | Hubのみ・スポーク未着手（2026-07-10新設） |
+| `boiler-refrigeration` | ボイラー技士・冷凍機械責任者 | [boiler-refrigeration-kw-db.md](./boiler-refrigeration-kw-db.md) | `method/boiler-refrigeration-hub` | Hubのみ・スポーク未着手（2026-07-10新設） |
 
 ※ FP・AWS は現状 `examId: common`。Hub作成時に `fp` / `aws` 等の専用スラッグ追加を検討（[exam-id-catalog.md](../../.task/exam-id-catalog.md) 参照）。
 

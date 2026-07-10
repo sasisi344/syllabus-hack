@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-05-31T00:00:00Z
-lastmod: 2026-07-10
+lastmod: 2026-07-11
 title: 'AWS・CCNAクラスター完全ガイド｜インフラエンジニアの最短キャリアロードマップ'
 excerpt: 'CCNA・AWS SAA・LPICの取得順番と学習法を一冊で整理。インフラエンジニアとしての市場価値を最短で上げるためのクラスター記事インデックスと推奨ロードマップです。'
 image: '~/data/post/method/aws-hub/cover.jpg'
@@ -9,7 +9,7 @@ tags: ['AWS', 'CCNA', 'インフラ', 'ロードマップ', '転職']
 draft: false
 persona: 'インフラエンジニアを目指す社会人・転職希望者'
 knowledge:
-  examId: 'common'
+  examId: aws
   type: 'method'
   syllabusRef: 'CCNA 200-301 / AWS SAA / LPIC-1'
   difficulty: 'intermediate'
@@ -65,6 +65,8 @@ CCNAを先に取得していると、AWSのネットワーク設計が「既知�
 | Step 4 | AWS ANS または AWS SAP | 4〜6ヶ月 | 上位エンジニア・設計ポジション |
 
 各ステップの間に実務や個人プロジェクトを挟むと、資格と実力が噛み合ったキャリアになります。
+
+このロードマップのどこから着手すべきか迷う場合は、[AWS資格診断](/app/aws-cert-diagnosis/)で3つの質問に答えるだけで最初の一歩を診断できる。
 
 ## AI対話でインフラ概念を理解する
 

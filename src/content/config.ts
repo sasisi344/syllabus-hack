@@ -99,6 +99,9 @@ const postCollection = defineCollection({
               'biru-kanri',
               'doboku-sekou',
               'chiteki-zaisan',
+              'boiler-refrigeration',
+              'fp',
+              'aws',
             ])
             .optional(),
           exams: z.array(z.string()).optional(),

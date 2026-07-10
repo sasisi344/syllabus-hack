@@ -1,0 +1,49 @@
+---
+publishDate: 2026-07-10T00:00:00Z
+lastmod: 2026-07-10
+title: G検定 模擬試験シミュレーター｜制限時間20分で本番形式を体験できる無料アプリ
+image: ~/assets/images/post/common/app.png
+excerpt: AIの歴史・機械学習・ディープラーニング・法律倫理の30問を、制限時間付きの模擬試験形式で演習できる無料アプリ。分野別の弱点も一目でわかる。
+category: app
+draft: false
+toc: true
+appId: 'g-kentei-mock-exam'
+knowledge:
+  type: app
+  examId: g-kentei
+persona: 'G検定の出題形式に慣れ、時間配分の感覚を本番前につかんでおきたい学習者'
+tags:
+  - G検定
+  - JDLA
+  - ディープラーニング
+  - CBT
+  - SyllabusHack
+metadata:
+  description: G検定の出題範囲を制限時間20分・全30問の模擬試験形式で演習できる無料アプリ。分野別の正答率が一目でわかりAI解説付き。
+---
+
+import QuizApp from '~/apps/g-kentei-mock-exam/QuizApp';
+import '~/apps/g-kentei-mock-exam/quiz.css';
+import questions from '~/data/master/questions-g-kentei.json';
+
+## 時間切れがG検定最大の落とし穴
+
+G検定の本試験は191問を120分で解く形式で、1問あたり約38秒しかかけられない。知識があっても、この時間感覚に慣れていないと最後の数十問を焦って落とすことになる。
+
+このシミュレーターは、AIの歴史・機械学習の基礎・ディープラーニングの基礎・応用・法律倫理の5分野から全30問を出題し、制限時間20分（本試験と同じ1問あたりのペース）で解く模擬試験形式を体験できる。時間切れになると自動的にその時点の回答で採点されるため、本番さながらの緊張感で時間配分を練習できる。
+
+### AI活用で理解を深める
+
+採点後、間違えた問題・未回答の問題には「AIで復習」リンクが表示される。タップすると、その問題の正解根拠をAIに詳しく解説してもらうためのプロンプトが自動生成される。特にTransformerや勾配消失問題のような概念が絡む問題は、一度の解説では腹落ちしにくいため、AIに「なぜその答えになるのか」を繰り返し質問しながら定着させるとよい。
+
+---
+
+## G検定 模擬試験（全30問・制限時間20分）
+
+<QuizApp client:load questions={questions} examId="g-kentei" examName="G検定" timeLimitSec={1200} />
+
+---
+
+## 次のステップ
+
+模擬試験で苦手分野が見えたら、[G検定（JDLA）完全攻略ガイド](/method/g-kentei-hub/)で分野別の学習ロードマップを確認しよう。統計・確率の計算問題でつまずく場合は[G検定の数学・統計をAIで攻略するハック](/method/g-kentei-math-statistics-hack/)も参考になる。

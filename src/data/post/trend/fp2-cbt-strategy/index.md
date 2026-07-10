@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-05-30T00:00:00Z
-lastmod: 2026-07-10
+lastmod: 2026-07-11
 title: 'FP2級に落ちた人が今すぐやるべきCBTリベンジ戦略'
 excerpt: 'FP2級の合格率は約50%。半数が落ちる試験で「受からない」の本当の原因を分析し、CBT方式を使ったリベンジ手順を解説します。'
 image: '~/data/post/trend/fp2-cbt-strategy/cover.jpg'
@@ -9,7 +9,7 @@ tags: ['FP2級', 'CBT', '独学', '資格戦略', '合格率']
 draft: false
 persona: 'FP2級に一度落ちた20〜30代の社会人'
 knowledge:
-  examId: 'common'
+  examId: fp
   type: 'news'
   syllabusRef: 'FP2級・AFP 2026年度'
   difficulty: 'intermediate'

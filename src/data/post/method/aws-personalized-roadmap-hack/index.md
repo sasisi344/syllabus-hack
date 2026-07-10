@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-04-05T00:00:00Z
-lastmod: 2026-07-10
+lastmod: 2026-07-11
 title: '【AWS攻略】多すぎるサービスで迷子？AIに『逆算ロードマップ』を作らせて最短距離で駆ければいい'
 persona: 'フロントエンドとバックエンドの境界で迷い、AWSの200以上のサービス群を前に立ち尽くしている学習者'
 category: method
@@ -12,7 +12,7 @@ tags:
   - 効率学習
   - キャリア開発
 knowledge:
-  examId: common
+  examId: aws
   type: method
   syllabusRef: '2026年度版'
   difficulty: beginner

@@ -199,6 +199,23 @@ export const appRegistry: Record<string, AppMetadata> = {
     status: 'development',
     examId: 'fp2',
   },
+  'g-kentei-mock-exam': {
+    id: 'g-kentei-mock-exam',
+    slug: 'g-kentei-mock-exam',
+    title: 'G検定 模擬試験シミュレーター',
+    description: 'AIの歴史・機械学習・ディープラーニング・法律倫理を制限時間付きの本番形式で演習できる模擬試験。',
+    category: 'quiz',
+    status: 'development',
+    examId: 'g-kentei',
+  },
+  'aws-cert-diagnosis': {
+    id: 'aws-cert-diagnosis',
+    slug: 'aws-cert-diagnosis',
+    title: 'AWS資格診断',
+    description: '職種・クラウド経験・取得目的の3つの質問から、CLF・SAA・ANSのうちどれから始めるべきかを診断。',
+    category: 'tool',
+    status: 'development',
+  },
 };
 
 /**

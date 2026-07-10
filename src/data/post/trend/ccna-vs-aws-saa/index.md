@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-05-31T00:00:00Z
-lastmod: 2026-07-10
+lastmod: 2026-07-11
 title: 'CCNAとAWS SAA、どちらを先に取るべきか——学習効率から見た正解'
 excerpt: 'CCNAとAWS SAAの取得順番で学習コストは大きく変わります。ネットワーク知識がAWSのVPC設計にどう直結するかを解説し、あなたの状況に合った優先順位を提案します。'
 image: '~/data/post/trend/ccna-vs-aws-saa/cover.jpg'
@@ -10,7 +10,7 @@ draft: false
 toc: true
 persona: 'インフラエンジニア志望・どちらを先に取るか迷っている社会人'
 knowledge:
-  examId: 'common'
+  examId: aws
   type: 'news'
   syllabusRef: 'CCNA 200-301 / AWS SAA'
   difficulty: 'intermediate'

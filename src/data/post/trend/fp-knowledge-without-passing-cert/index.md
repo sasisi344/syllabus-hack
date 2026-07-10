@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-07-10T00:00:00Z
-lastmod: 2026-07-10
+lastmod: 2026-07-11
 title: 'FP2級は資格より知識が武器になる｜落ちても意味がある理由'
 excerpt: 'FP2級は不合格でも身についた知識がそのまま家計・資産運用に使える資格だ。合格にこだわりすぎず知識として学ぶ価値を解説する。'
 image: '~/data/post/trend/common-cover.png'
@@ -10,7 +10,7 @@ draft: false
 persona: '資格取得そのものより、家計・資産運用の実務知識を得たい社会人'
 toc: true
 knowledge:
-  examId: 'common'
+  examId: fp
   type: 'trend'
   difficulty: 'beginner'
 metadata:

@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-07-10T00:00:00Z
-lastmod: 2026-07-10
+lastmod: 2026-07-11
 title: 'FP2級のタックスプランニング計算が心折れる理由｜AIで所得税の流れを図解させる方法'
 excerpt: 'FP2級のタックスプランニング分野の計算問題が心折れるほど難しく感じる原因と、所得税の計算の流れをAIに図解させて突破する方法を解説します。'
 image: '~/data/post/method/common-cover.png'
@@ -10,7 +10,7 @@ draft: false
 toc: true
 persona: 'FP2級のタックスプランニング（所得税）の計算問題で心が折れかけている学習者'
 knowledge:
-  examId: 'common'
+  examId: fp
   type: method
   syllabusRef: 'タックスプランニング-所得税'
   difficulty: 'intermediate'

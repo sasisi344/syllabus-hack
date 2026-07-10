@@ -168,6 +168,7 @@ G検定はAIの技術概念と活用倫理に強く、DS検定は統計・デー
 | [AI・データ系資格のキャリアパス](/career/ai-data-career/) | career | G検定・DS検定・E資格後の年収・転職 |
 | [G検定の数学・統計が苦手でも受かる方法](/method/g-kentei-math-statistics-hack/) | method | 数式ではなく意味からAIで理解する学習法 |
 | [G検定シラバスの最新動向](/trend/g-kentei-2026-syllabus-trend/) | trend | 生成AI・LLM関連の出題比重の変化 |
+| [G検定 模擬試験シミュレーター](/app/g-kentei-mock-exam/) | app | 全30問・制限時間20分の本番形式演習アプリ |
 
 ---
 

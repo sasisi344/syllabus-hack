@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-05-31T00:00:00Z
-lastmod: 2026-07-10
+lastmod: 2026-07-11
 title: 'LPIC・CCNA・AWSを取る順番——インフラエンジニアが最短で市場価値を上げるロードマップ'
 excerpt: 'LPIC・CCNA・AWS SAAを取得する最も効率的な順番を、インフラエンジニアのキャリア設計から逆算して解説します。どれから始めるかで学習コストが変わります。'
 image: '~/data/post/trend/lpic-ccna-aws-order/cover.jpg'
@@ -9,7 +9,7 @@ tags: ['CCNA', 'AWS', 'LPIC', 'インフラ', 'ロードマップ']
 draft: false
 persona: 'インフラエンジニアを目指す社会人・転職希望者'
 knowledge:
-  examId: 'common'
+  examId: aws
   type: 'news'
   syllabusRef: 'CCNA 200-301 / AWS SAA / LPIC-1'
   difficulty: 'intermediate'

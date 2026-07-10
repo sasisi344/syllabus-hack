@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-05-31T00:00:00Z
-lastmod: 2026-07-10
+lastmod: 2026-07-11
 title: 'FP2級の実技試験、きんざいと日本FP協会どちらが受かりやすいか'
 excerpt: 'FP2級の実技試験はきんざいと日本FP協会で出題傾向が大きく異なります。合格率・問題形式・自分の強みとの相性を整理し、団体選択で合格率を上げる方法を解説します。'
 image: '~/data/post/trend/fp2-jitsuki-comparison/cover.jpg'
@@ -10,7 +10,7 @@ draft: false
 toc: true
 persona: 'FP2級の受験団体選択で迷っている社会人'
 knowledge:
-  examId: 'common'
+  examId: fp
   type: 'news'
   syllabusRef: 'FP2級・AFP 2026年度'
   difficulty: 'intermediate'

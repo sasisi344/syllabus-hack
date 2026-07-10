@@ -55,12 +55,15 @@ knowledge:
 | `biru-kanri` | ビル管理クラスター（ビル管理士・マンション管理士・エネルギー管理士） | `method/biru-kanri-hub` | 複数資格クラスター |
 | `doboku-sekou` | 土木施工管理技士（1級・2級） | `method/doboku-sekou-hub` | 級あり資格 |
 | `chiteki-zaisan` | 知的財産管理技能検定（知財検定、1〜3級） | `method/chiteki-zaisan-hub` | 2026-07-10追加。級あり資格 |
+| `boiler-refrigeration` | ボイラー技士・冷凍機械責任者クラスター | `method/boiler-refrigeration-hub` | 2026-07-10追加。複数資格クラスター |
+| `fp` | ファイナンシャル・プランニング技能検定（FP） | `method/fp-hub` | 2026-07-11追加。旧`common`扱いから独立（WP05 J-2）。級あり資格（FP2級記事が中心） |
+| `aws` | AWS認定資格クラスター（CLF・SAA・ANS等） | `method/aws-hub` | 2026-07-11追加。旧`common`扱いから独立（WP05 J-2）。複数資格クラスター |
 
 ### 汎用・横断
 
 | examId | 用途 | Hub記事 | 備考 |
 | --- | --- | --- | --- |
-| `common` | 資格横断・複数資格・非特定 | `method/aws-hub`, `method/fp-hub`, `method/level4-strategy-hub` 等 | IPA全体・AI学習法・キャリア横断記事向け |
+| `common` | 資格横断・複数資格・非特定 | `method/level4-strategy-hub` 等 | IPA全体・AI学習法・キャリア横断記事向け。FP/AWS単独記事は`fp`/`aws`へ移行済み（2026-07-11）。両方に跨る記事（例: `career/next-step-aws-vs-fp-strategy`）は`common`のまま維持 |
 
 ---
 
@@ -69,7 +72,8 @@ knowledge:
 ```
 ip, sg, fe, ap, st, sa, pm, nw, db, es, sm, au, sc,
 common, g-kentei, ds-kentei, ccna,
-denken, boki, takken, mos, kiken-butsu, biru-kanri, doboku-sekou, chiteki-zaisan
+denken, boki, takken, mos, kiken-butsu, biru-kanri, doboku-sekou,
+chiteki-zaisan, boiler-refrigeration, fp, aws
 ```
 
 ---

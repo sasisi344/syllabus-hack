@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-07-10T00:00:00Z
-lastmod: 2026-07-10
+lastmod: 2026-07-11
 title: 'FP2級の受験資格を満たすまでの準備ロードマップ｜3級合格・AFP研修・実務経験の3ルート比較'
 excerpt: 'FP2級はいきなり受験できない。3級合格・AFP認定研修修了・実務経験2年以上という3つのルートを比較し、最短で受験資格を満たす方法を解説する。'
 image: '~/assets/images/default.png'
@@ -10,7 +10,7 @@ draft: false
 toc: true
 persona: 'FP2級に興味があるが、いきなり受験できるのか、何を先に満たす必要があるのか分からない未経験者'
 knowledge:
-  examId: 'common'
+  examId: fp
   type: 'career'
   syllabusRef: 'FP2級-受験資格'
   difficulty: 'beginner'

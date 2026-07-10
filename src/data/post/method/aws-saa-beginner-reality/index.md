@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-05-31T00:00:00Z
-lastmod: 2026-07-10
+lastmod: 2026-07-11
 title: 'AWS SAA、未経験でも本当に取れるか——合格の現実と最短学習手順'
 excerpt: 'IT未経験からAWS SAAに合格できるかを正直に答えます。前提知識ゼロで始めた場合の現実的なリスクと、AI対話学習を使って最短で到達する具体的な手順を解説します。'
 image: '~/data/post/method/aws-saa-beginner-reality/cover.jpg'
@@ -9,7 +9,7 @@ tags: ['AWS', 'AWS SAA', '未経験', '独学', 'クラウド']
 draft: false
 persona: 'クラウドエンジニアを目指すIT未経験の社会人'
 knowledge:
-  examId: 'common'
+  examId: aws
   type: 'method'
   syllabusRef: 'AWS Certified Solutions Architect - Associate'
   difficulty: 'intermediate'

@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-06-10T00:00:00Z
-lastmod: 2026-06-10
+lastmod: 2026-07-11
 title: 'FP資格は副業に使えるか｜稼げる仕事と稼げない仕事の境界線'
 excerpt: 'FP資格を取れば副業で稼げるのか。「相談業務」だけでは難しい理由と、実際に副業として成立しているケース、AIを使ったアウトプット術、注意すべき法律上のリスクを整理しました。'
 image: '~/data/post/career/fp-side-business-reality/cover.jpg'
@@ -9,7 +9,7 @@ tags: ['FP2級', '副業', 'フリーランス', '資産運用', 'キャリア']
 draft: false
 persona: 'FP資格を取得済み、または取得予定で副業に活かせるか知りたい社会人'
 knowledge:
-  examId: 'common'
+  examId: fp
   type: 'career'
   syllabusRef: 'FP2級・3級'
   difficulty: 'beginner'

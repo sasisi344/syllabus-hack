@@ -12,12 +12,13 @@
   `src/data/master/questions-boki.json` + 専用アプリ実装。共通基盤 `src/apps/shared/GenericQuizApp.tsx` を新規作成し利用
 - [x] **A-2: 宅建 権利関係 一問一答**（2026-07-10完了・`app/takken-kenri-quiz`）
   `questions-takken.json` + GenericQuizApp利用
-- [ ] **A-3: G検定 模擬試験シミュレーター**（`app/g-kentei-mock-exam` 想定・未着手）
-  時間制限つき多問数形式（本試験は191問/120分の時間感覚が鍵）。既存 CBT シミュレーター実装を流用。次回セッションへ持ち越し
+- [x] **A-3: G検定 模擬試験シミュレーター**（2026-07-10完了・`app/g-kentei-mock-exam`）
+  `questions-g-kentei.json`（全30問・5分野）+ 専用の時間制限付きモード（`QuizApp.tsx`、既定20分・本試験の1問38秒ペースを再現）を新規実装。GenericQuizAppは正誤判定前提のためA-3では流用せず、時間制限・自動採点・分野別成績を持つ専用コンポーネントとした。g-kentei-hubと双方向リンク設定済み
 - [x] **A-4: FP2級 計算問題ドリル**（2026-07-10完了・`app/fp2-calc-drill`）
   `questions-fp2.json` + GenericQuizApp利用。記事frontmatterの`knowledge.examId`は`common`のまま（WP05 J-2判断待ちと整合）、アプリ内部のexamId文字列`fp2`はLocalStorage名前空間用の別軸として区別
-- [ ] **A-5: AWS資格診断アプリ**（`app/aws-cert-diagnosis`・未着手）
-  クイズ型ではなく診断型のため別途設計が必要。次回セッションへ持ち越し
+- [x] **A-5: AWS資格診断アプリ**（2026-07-11完了・`app/aws-cert-diagnosis`）
+  選択式3問（職種・クラウド経験・目的）→CLF/SAA/ANSのいずれかを提示する診断型アプリ。`DiagnosisApp.tsx`（新規コンポーネント）+ ルールベースの`logic.ts`で実装。LocalStorageは`sh_diag_aws-cert-diagnosis`キー（既存クイズ系`sh_quiz_*`とは別名前空間）で前回の診断結果のみ保存。`aws-hub`から診断アプリへの逆リンクを追加し双方向リンク化
+  - 体制注記: 前回セッションでセッション上限により中断（types.ts・logic.tsのみ完成の状態）。メインセッションが引き継いで完成させた
 
 ## 完了条件（監督がアプリ単位で検証）
 

@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-06-10T00:00:00Z
-lastmod: 2026-06-10
+lastmod: 2026-07-11
 title: 'FP3級・2級・1級は何が違う？なぜ「2級」が主流なのか'
 excerpt: 'FPには3級・2級・1級という区分がありますが、目指すべきはなぜ「2級」と言われることが多いのでしょうか。級ごとの違いと、自分に合った級の選び方をAI診断とあわせて解説します。'
 image: '~/data/post/trend/fp-why-2kyu-is-standard/cover.jpg'
@@ -9,7 +9,7 @@ tags: ['FP2級', 'FP3級', 'FP1級', '資格選び', 'ロードマップ']
 draft: false
 persona: 'FPの受験を検討しているが、どの級から始めればよいか分からない人'
 knowledge:
-  examId: 'common'
+  examId: fp
   type: 'news'
   syllabusRef: 'FP3級・2級・1級 2026年度'
   difficulty: 'beginner'

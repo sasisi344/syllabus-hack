@@ -1,0 +1,173 @@
+/* ===================================================
+   AWS資格診断アプリ — diag- prefix
+   =================================================== */
+
+.diag-app {
+  max-width: 640px;
+  margin: 0 auto;
+  font-family: inherit;
+}
+
+.diag-progress-bar {
+  height: 6px;
+  background: #e2e8f0;
+  border-radius: 9999px;
+  overflow: hidden;
+  margin-bottom: 1.5rem;
+}
+.dark .diag-progress-bar {
+  background: #334155;
+}
+.diag-progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #f59e0b, #fbbf24);
+  transition: width 0.3s ease;
+}
+
+/* ---- QUESTION ---- */
+.diag-question {
+  background: #f8fafc;
+  border-radius: 1rem;
+  padding: 2rem 1.5rem;
+}
+.dark .diag-question {
+  background: #1e293b;
+}
+
+.diag-step-label {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #f59e0b;
+  margin-bottom: 0.5rem;
+}
+.dark .diag-step-label {
+  color: #fbbf24;
+}
+
+.diag-question-title {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #1e293b;
+  margin-bottom: 1.5rem;
+}
+.dark .diag-question-title {
+  color: #f1f5f9;
+}
+
+.diag-options {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.diag-option {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  background: #fff;
+  border: 2px solid #e2e8f0;
+  border-radius: 0.75rem;
+  padding: 1rem 1.25rem;
+  cursor: pointer;
+  transition:
+    border-color 0.15s ease,
+    transform 0.15s ease;
+}
+.dark .diag-option {
+  background: #0f172a;
+  border-color: #334155;
+}
+.diag-option:hover {
+  border-color: #f59e0b;
+  transform: translateY(-1px);
+}
+
+.diag-option-label {
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: #1e293b;
+  margin-bottom: 0.25rem;
+}
+.dark .diag-option-label {
+  color: #f1f5f9;
+}
+
+.diag-option-desc {
+  font-size: 0.8rem;
+  color: #64748b;
+}
+.dark .diag-option-desc {
+  color: #94a3b8;
+}
+
+/* ---- RESULT ---- */
+.diag-result {
+  background: #f8fafc;
+  border-radius: 1rem;
+  padding: 2.5rem 1.5rem;
+  text-align: center;
+}
+.dark .diag-result {
+  background: #1e293b;
+}
+
+.diag-result-eyebrow {
+  font-size: 0.85rem;
+  color: #64748b;
+  margin-bottom: 0.5rem;
+}
+.dark .diag-result-eyebrow {
+  color: #94a3b8;
+}
+
+.diag-result-cert {
+  font-size: 1.4rem;
+  font-weight: 800;
+  background: linear-gradient(135deg, #f59e0b, #fbbf24);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  margin-bottom: 1.25rem;
+}
+
+.diag-result-reason {
+  font-size: 0.95rem;
+  line-height: 1.8;
+  color: #334155;
+  text-align: left;
+  margin-bottom: 1.5rem;
+}
+.dark .diag-result-reason {
+  color: #cbd5e1;
+}
+
+.diag-result-link {
+  display: inline-block;
+  background: linear-gradient(135deg, #6366f1, #818cf8);
+  color: #fff;
+  font-weight: 700;
+  font-size: 0.9rem;
+  border-radius: 0.75rem;
+  padding: 0.85rem 1.5rem;
+  text-decoration: none;
+  margin-bottom: 1rem;
+  transition: transform 0.15s ease;
+}
+.diag-result-link:hover {
+  transform: translateY(-2px);
+}
+
+.diag-restart-btn {
+  display: block;
+  margin: 0 auto;
+  background: none;
+  border: none;
+  color: #64748b;
+  font-size: 0.85rem;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.dark .diag-restart-btn {
+  color: #94a3b8;
+}

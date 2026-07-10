@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-06-10T00:00:00Z
-lastmod: 2026-06-10
+lastmod: 2026-07-11
 title: 'FPはリスキリングにおすすめか？学ぶ価値がある人・ない人'
 excerpt: 'FPは「リスキリングに人気の資格」としてよく挙げられますが、誰にでもおすすめできるわけではありません。向いている人・向いていない人の分かれ目と、自分に合うか判断する方法を解説します。'
 image: '~/data/post/trend/fp-reskilling-fit-check/cover.jpg'
@@ -9,7 +9,7 @@ tags: ['FP2級', 'リスキリング', '資産運用', '家計管理', 'キャ�
 draft: false
 persona: 'リスキリングの選択肢としてFPを検討している社会人'
 knowledge:
-  examId: 'common'
+  examId: fp
   type: 'news'
   syllabusRef: 'FP3級・2級 6分野'
   difficulty: 'beginner'

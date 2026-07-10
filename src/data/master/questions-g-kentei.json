@@ -1,0 +1,512 @@
+[
+  {
+    "id": "gk-01",
+    "examId": "g-kentei",
+    "field": "ai-history",
+    "subField": "AIの歴史",
+    "text": "1956年に開催され、「人工知能（Artificial Intelligence）」という言葉が初めて使われた会議はどれか。",
+    "choices": [
+      { "label": "ア", "text": "ダートマス会議" },
+      { "label": "イ", "text": "エルジンボロ会議" },
+      { "label": "ウ", "text": "パシフィコ横浜会議" },
+      { "label": "エ", "text": "ジュネーブ会議" }
+    ],
+    "correctLabel": "ア",
+    "explanation": "1956年、ジョン・マッカーシーらが主催したダートマス会議で「人工知能」という用語が初めて公式に使用された。これが第1次AIブームの出発点とされる。",
+    "keywords": ["ダートマス会議", "ジョン・マッカーシー", "第1次AIブーム"],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "gk-02",
+    "examId": "g-kentei",
+    "field": "ai-history",
+    "subField": "AIの歴史",
+    "text": "第2次AIブーム（1980年代）を牽引した、専門家の知識をルールとしてコンピュータに与える手法の名称はどれか。",
+    "choices": [
+      { "label": "ア", "text": "エキスパートシステム" },
+      { "label": "イ", "text": "強化学習" },
+      { "label": "ウ", "text": "畳み込みニューラルネットワーク" },
+      { "label": "エ", "text": "遺伝的アルゴリズム" }
+    ],
+    "correctLabel": "ア",
+    "explanation": "第2次AIブームでは、専門家の知識をif-thenルールの形で蓄積・推論するエキスパートシステムが実用化された。しかし知識の記述・保守コストの高さから限界を迎え、冬の時代に入った。",
+    "keywords": ["エキスパートシステム", "第2次AIブーム", "知識ベース"],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "gk-03",
+    "examId": "g-kentei",
+    "field": "ai-history",
+    "subField": "AIの歴史",
+    "text": "2012年の画像認識コンペティション（ILSVRC）で圧倒的な精度で優勝し、第3次AIブームの契機となったモデルはどれか。",
+    "choices": [
+      { "label": "ア", "text": "AlexNet" },
+      { "label": "イ", "text": "ENIAC" },
+      { "label": "ウ", "text": "ELIZA" },
+      { "label": "エ", "text": "Perceptron" }
+    ],
+    "correctLabel": "ア",
+    "explanation": "トロント大学のヒントン教授らのチームが開発したAlexNetは、ILSVRC 2012で従来手法を大きく上回る精度を達成し、ディープラーニングブーム（第3次AIブーム）の火付け役となった。",
+    "keywords": ["AlexNet", "ILSVRC", "ディープラーニング", "第3次AIブーム"],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "gk-04",
+    "examId": "g-kentei",
+    "field": "ai-history",
+    "subField": "AIの歴史",
+    "text": "「シンギュラリティ（技術的特異点）」を提唱したことで知られる人物はどれか。",
+    "choices": [
+      { "label": "ア", "text": "レイ・カーツワイル" },
+      { "label": "イ", "text": "アラン・チューリング" },
+      { "label": "ウ", "text": "マービン・ミンスキー" },
+      { "label": "エ", "text": "ジェフリー・ヒントン" }
+    ],
+    "correctLabel": "ア",
+    "explanation": "レイ・カーツワイルは著書の中で、AIが人間の知能を超える転換点「シンギュラリティ」が2045年頃に到来すると提唱したことで広く知られている。",
+    "keywords": ["シンギュラリティ", "レイ・カーツワイル", "技術的特異点"],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "gk-05",
+    "examId": "g-kentei",
+    "field": "ai-history",
+    "subField": "AIの歴史",
+    "text": "「強いAI」と「弱いAI」の区別を提唱した哲学者はどれか。",
+    "choices": [
+      { "label": "ア", "text": "ジョン・サール" },
+      { "label": "イ", "text": "アラン・チューリング" },
+      { "label": "ウ", "text": "ノーバート・ウィーナー" },
+      { "label": "エ", "text": "マーヴィン・ミンスキー" }
+    ],
+    "correctLabel": "ア",
+    "explanation": "哲学者ジョン・サールは「中国語の部屋」という思考実験を通じて、人間のように思考する「強いAI」と、あたかも知的に振る舞うだけの「弱いAI」を区別する概念を提示した。",
+    "keywords": ["強いAI", "弱いAI", "ジョン・サール", "中国語の部屋"],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "gk-06",
+    "examId": "g-kentei",
+    "field": "ai-history",
+    "subField": "AIの歴史",
+    "text": "第1次AIブームが冬の時代を迎えた最大の要因として適切なものはどれか。",
+    "choices": [
+      { "label": "ア", "text": "迷路やパズルのような「トイ・プロブレム」しか解けず、現実の複雑な問題に対応できなかったこと" },
+      { "label": "イ", "text": "計算資源が過剰であったこと" },
+      { "label": "ウ", "text": "インターネットが普及しすぎたこと" },
+      { "label": "エ", "text": "ディープラーニングが登場したこと" }
+    ],
+    "correctLabel": "ア",
+    "explanation": "第1次AIブームの探索・推論技術は、迷路やチェスのような限定的なルールの「トイ・プロブレム」は解けたが、現実世界の複雑さ・曖昧さに対応できず、実用化の壁にぶつかって冬の時代を迎えた。",
+    "keywords": ["トイ・プロブレム", "第1次AIブーム", "探索・推論"],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "gk-07",
+    "examId": "g-kentei",
+    "field": "ml-basics",
+    "subField": "機械学習の基礎",
+    "text": "正解ラベルが付与されたデータを用いて、入力と出力の関係を学習する手法はどれか。",
+    "choices": [
+      { "label": "ア", "text": "教師あり学習" },
+      { "label": "イ", "text": "教師なし学習" },
+      { "label": "ウ", "text": "強化学習" },
+      { "label": "エ", "text": "半教師あり学習" }
+    ],
+    "correctLabel": "ア",
+    "explanation": "教師あり学習は、正解ラベル（教師データ）付きのデータセットを使って、入力から出力を予測するモデルを学習する手法。分類問題や回帰問題に用いられる。",
+    "keywords": ["教師あり学習", "ラベル", "分類", "回帰"],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "gk-08",
+    "examId": "g-kentei",
+    "field": "ml-basics",
+    "subField": "機械学習の基礎",
+    "text": "正解ラベルのないデータから、データ内に潜む構造やグループを見つけ出す学習手法はどれか。",
+    "choices": [
+      { "label": "ア", "text": "教師なし学習" },
+      { "label": "イ", "text": "教師あり学習" },
+      { "label": "ウ", "text": "強化学習" },
+      { "label": "エ", "text": "転移学習" }
+    ],
+    "correctLabel": "ア",
+    "explanation": "教師なし学習はラベルのないデータを対象に、クラスタリング（グループ分け）や次元削減などによってデータの構造を見つけ出す手法。k-means法や主成分分析（PCA）が代表例。",
+    "keywords": ["教師なし学習", "クラスタリング", "次元削減", "主成分分析"],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "gk-09",
+    "examId": "g-kentei",
+    "field": "ml-basics",
+    "subField": "機械学習の基礎",
+    "text": "エージェントが環境と相互作用しながら、報酬を最大化する行動方針を学習する手法はどれか。",
+    "choices": [
+      { "label": "ア", "text": "強化学習" },
+      { "label": "イ", "text": "教師あり学習" },
+      { "label": "ウ", "text": "教師なし学習" },
+      { "label": "エ", "text": "アンサンブル学習" }
+    ],
+    "correctLabel": "ア",
+    "explanation": "強化学習では、エージェントが試行錯誤を通じて環境から報酬（またはペナルティ）を受け取り、将来の累積報酬を最大化する行動方針（方策）を学習する。AlphaGoなどに応用された。",
+    "keywords": ["強化学習", "エージェント", "報酬", "方策"],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "gk-10",
+    "examId": "g-kentei",
+    "field": "ml-basics",
+    "subField": "機械学習の基礎",
+    "text": "学習データに対して精度が高い一方、未知のデータ（テストデータ）に対する精度が著しく低下する現象を何と呼ぶか。",
+    "choices": [
+      { "label": "ア", "text": "過学習（オーバーフィッティング）" },
+      { "label": "イ", "text": "未学習（アンダーフィッティング）" },
+      { "label": "ウ", "text": "勾配消失" },
+      { "label": "エ", "text": "次元の呪い" }
+    ],
+    "correctLabel": "ア",
+    "explanation": "過学習は、モデルが学習データの細部（ノイズ含む）まで過剰に適合してしまい、汎化性能（未知データへの対応力）が低下する現象。正則化やドロップアウト、データ拡張などで対策する。",
+    "keywords": ["過学習", "オーバーフィッティング", "汎化性能", "正則化"],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "gk-11",
+    "examId": "g-kentei",
+    "field": "ml-basics",
+    "subField": "機械学習の基礎",
+    "text": "分類問題の評価指標のうち、正解と予測した中で実際に正解だった割合を示す指標はどれか。",
+    "choices": [
+      { "label": "ア", "text": "適合率（Precision）" },
+      { "label": "イ", "text": "再現率（Recall）" },
+      { "label": "ウ", "text": "正解率（Accuracy）" },
+      { "label": "エ", "text": "分散" }
+    ],
+    "correctLabel": "ア",
+    "explanation": "適合率（Precision）は「陽性と予測したもの」のうち実際に陽性だった割合。一方、再現率（Recall）は「実際の陽性」のうち正しく陽性と予測できた割合を示す、対をなす指標。",
+    "keywords": ["適合率", "Precision", "再現率", "Recall", "混同行列"],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "gk-12",
+    "examId": "g-kentei",
+    "field": "ml-basics",
+    "subField": "機械学習の基礎",
+    "text": "手元のデータを複数のグループに分割し、それぞれを順番にテストデータとして使うことでモデルの汎化性能を評価する手法はどれか。",
+    "choices": [
+      { "label": "ア", "text": "交差検証（クロスバリデーション）" },
+      { "label": "イ", "text": "アンサンブル学習" },
+      { "label": "ウ", "text": "転移学習" },
+      { "label": "エ", "text": "ファインチューニング" }
+    ],
+    "correctLabel": "ア",
+    "explanation": "交差検証（クロスバリデーション）は、データをk個に分割し、そのうち1つをテスト用、残りを学習用として使う手続きをk回繰り返して評価を平均化する手法。データが少ない場合でも安定した評価ができる。",
+    "keywords": ["交差検証", "クロスバリデーション", "汎化性能", "k分割"],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "gk-13",
+    "examId": "g-kentei",
+    "field": "deep-learning",
+    "subField": "ディープラーニングの基礎",
+    "text": "ニューラルネットワークにおいて、入力の重み付き和を非線形な出力に変換する関数を何と呼ぶか。",
+    "choices": [
+      { "label": "ア", "text": "活性化関数" },
+      { "label": "イ", "text": "損失関数" },
+      { "label": "ウ", "text": "誤差逆伝播" },
+      { "label": "エ", "text": "正則化関数" }
+    ],
+    "correctLabel": "ア",
+    "explanation": "活性化関数は、各ニューロンの重み付き和に非線形性を与える関数。シグモイド関数、ReLU、tanhなどがあり、非線形性がなければ多層構造にしても線形変換と等価になってしまう。",
+    "keywords": ["活性化関数", "シグモイド", "ReLU", "非線形性"],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "gk-14",
+    "examId": "g-kentei",
+    "field": "deep-learning",
+    "subField": "ディープラーニングの基礎",
+    "text": "現在のディープラーニングで最も広く使われている活性化関数で、入力が0以下なら0、0より大きければそのまま出力する関数はどれか。",
+    "choices": [
+      { "label": "ア", "text": "ReLU（Rectified Linear Unit）" },
+      { "label": "イ", "text": "シグモイド関数" },
+      { "label": "ウ", "text": "ソフトマックス関数" },
+      { "label": "エ", "text": "恒等関数" }
+    ],
+    "correctLabel": "ア",
+    "explanation": "ReLUは負の入力を0に、正の入力はそのまま出力するシンプルな関数。シグモイド関数で問題になる勾配消失が起きにくく、計算コストも低いため、中間層で広く使われる。",
+    "keywords": ["ReLU", "活性化関数", "勾配消失"],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "gk-15",
+    "examId": "g-kentei",
+    "field": "deep-learning",
+    "subField": "ディープラーニングの基礎",
+    "text": "ニューラルネットワークの学習において、出力層の誤差を入力層に向かって伝播させ、各層の重みを更新する手法はどれか。",
+    "choices": [
+      { "label": "ア", "text": "誤差逆伝播法（バックプロパゲーション）" },
+      { "label": "イ", "text": "順伝播" },
+      { "label": "ウ", "text": "k-means法" },
+      { "label": "エ", "text": "主成分分析" }
+    ],
+    "correctLabel": "ア",
+    "explanation": "誤差逆伝播法は、出力層で計算した誤差（損失）を連鎖律に基づいて逆方向に伝播させ、各層の重みパラメータを勾配降下法で更新していく学習アルゴリズム。ディープラーニングの学習の基盤技術。",
+    "keywords": ["誤差逆伝播法", "バックプロパゲーション", "勾配降下法", "連鎖律"],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "gk-16",
+    "examId": "g-kentei",
+    "field": "deep-learning",
+    "subField": "ディープラーニングの基礎",
+    "text": "層が深くなるにつれて、逆伝播の際に勾配が極端に小さくなり、学習が進まなくなる問題を何と呼ぶか。",
+    "choices": [
+      { "label": "ア", "text": "勾配消失問題" },
+      { "label": "イ", "text": "過学習" },
+      { "label": "ウ", "text": "次元の呪い" },
+      { "label": "エ", "text": "モード崩壊" }
+    ],
+    "correctLabel": "ア",
+    "explanation": "勾配消失問題は、シグモイド関数のように微分値が小さい活性化関数を多層に重ねると、逆伝播時に勾配が層を遡るごとに小さくなり、入力側の層の重みがほとんど更新されなくなる現象。ReLUの採用や残差接続（ResNet）で緩和される。",
+    "keywords": ["勾配消失", "誤差逆伝播", "ResNet", "残差接続"],
+    "difficulty": "advanced"
+  },
+  {
+    "id": "gk-17",
+    "examId": "g-kentei",
+    "field": "deep-learning",
+    "subField": "ディープラーニングの基礎",
+    "text": "学習中にランダムに一部のニューロンを無効化することで過学習を抑制する手法はどれか。",
+    "choices": [
+      { "label": "ア", "text": "ドロップアウト" },
+      { "label": "イ", "text": "バッチ正規化" },
+      { "label": "ウ", "text": "データ拡張" },
+      { "label": "エ", "text": "早期終了" }
+    ],
+    "correctLabel": "ア",
+    "explanation": "ドロップアウトは、学習の各ステップでランダムに一定割合のニューロンを無効化（出力を0に）する正則化手法。特定のニューロンへの過度な依存を防ぎ、汎化性能を高める効果がある。",
+    "keywords": ["ドロップアウト", "正則化", "過学習対策"],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "gk-18",
+    "examId": "g-kentei",
+    "field": "deep-learning",
+    "subField": "ディープラーニングの基礎",
+    "text": "画像データの局所的な特徴（エッジや模様など）を検出するフィルタを用いる、画像認識に強いニューラルネットワークの種類はどれか。",
+    "choices": [
+      { "label": "ア", "text": "畳み込みニューラルネットワーク（CNN）" },
+      { "label": "イ", "text": "再帰型ニューラルネットワーク（RNN）" },
+      { "label": "ウ", "text": "敵対的生成ネットワーク（GAN）" },
+      { "label": "エ", "text": "オートエンコーダ" }
+    ],
+    "correctLabel": "ア",
+    "explanation": "CNN（畳み込みニューラルネットワーク）は、畳み込み層でフィルタを画像に適用し局所特徴を抽出、プーリング層で情報を圧縮する構造を持つ。画像分類・物体検出など画像認識タスクの基盤技術。",
+    "keywords": ["CNN", "畳み込み", "プーリング", "画像認識"],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "gk-19",
+    "examId": "g-kentei",
+    "field": "deep-learning",
+    "subField": "ディープラーニングの基礎",
+    "text": "時系列データや自然言語のような、順序を持つデータの処理に適したニューラルネットワークの種類はどれか。",
+    "choices": [
+      { "label": "ア", "text": "再帰型ニューラルネットワーク（RNN）" },
+      { "label": "イ", "text": "畳み込みニューラルネットワーク（CNN）" },
+      { "label": "ウ", "text": "自己組織化マップ" },
+      { "label": "エ", "text": "サポートベクターマシン" }
+    ],
+    "correctLabel": "ア",
+    "explanation": "RNN（再帰型ニューラルネットワーク）は、過去の内部状態を次のステップに引き継ぐ再帰構造を持ち、時系列データや文章のような順序依存のあるデータの処理に適する。長期依存の学習が苦手な弱点をLSTMやGRUが補う。",
+    "keywords": ["RNN", "時系列データ", "LSTM", "自然言語処理"],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "gk-20",
+    "examId": "g-kentei",
+    "field": "deep-learning",
+    "subField": "ディープラーニングの基礎",
+    "text": "「Attention（注意機構）」を全面的に採用し、現在の大規模言語モデル（GPT等）の基盤となっているアーキテクチャはどれか。",
+    "choices": [
+      { "label": "ア", "text": "Transformer" },
+      { "label": "イ", "text": "LSTM" },
+      { "label": "ウ", "text": "オートエンコーダ" },
+      { "label": "エ", "text": "サポートベクターマシン" }
+    ],
+    "correctLabel": "ア",
+    "explanation": "Transformerは2017年の論文「Attention Is All You Need」で提案された、再帰構造を使わずAttention機構のみで系列データを処理するアーキテクチャ。並列計算がしやすく長期依存も捉えやすいため、GPTやBERTなど現在の大規模言語モデルの基盤となっている。",
+    "keywords": ["Transformer", "Attention", "自己注意機構", "GPT", "BERT"],
+    "difficulty": "advanced"
+  },
+  {
+    "id": "gk-21",
+    "examId": "g-kentei",
+    "field": "ai-application",
+    "subField": "ディープラーニングの応用",
+    "text": "生成器（Generator）と識別器（Discriminator）を競わせながら学習させ、本物らしいデータを生成する手法はどれか。",
+    "choices": [
+      { "label": "ア", "text": "敵対的生成ネットワーク（GAN）" },
+      { "label": "イ", "text": "畳み込みニューラルネットワーク（CNN）" },
+      { "label": "ウ", "text": "k近傍法" },
+      { "label": "エ", "text": "決定木" }
+    ],
+    "correctLabel": "ア",
+    "explanation": "GAN（敵対的生成ネットワーク）は、偽データを作る生成器と、本物か偽物かを見分ける識別器を敵対的に学習させることで、本物と見分けがつかないデータ生成を可能にする手法。画像生成AIの基盤技術の一つ。",
+    "keywords": ["GAN", "生成器", "識別器", "画像生成"],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "gk-22",
+    "examId": "g-kentei",
+    "field": "ai-application",
+    "subField": "ディープラーニングの応用",
+    "text": "画像内の物体の位置とクラスの両方を検出するタスクの名称として適切なものはどれか。",
+    "choices": [
+      { "label": "ア", "text": "物体検出（object detection）" },
+      { "label": "イ", "text": "画像分類（image classification）" },
+      { "label": "ウ", "text": "セマンティックセグメンテーション" },
+      { "label": "エ", "text": "異常検知" }
+    ],
+    "correctLabel": "ア",
+    "explanation": "物体検出は、画像内の対象物の「どこに」「何が」あるかをバウンディングボックスとクラスラベルの両方で出力するタスク。YOLOやFaster R-CNNなどが代表的なモデル。画像1枚全体に1つのラベルを付ける画像分類とは異なる。",
+    "keywords": ["物体検出", "バウンディングボックス", "YOLO", "画像分類との違い"],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "gk-23",
+    "examId": "g-kentei",
+    "field": "ai-application",
+    "subField": "ディープラーニングの応用",
+    "text": "単語や文章を、意味的な関係性を保ったまま数値ベクトルに変換する技術を何と呼ぶか。",
+    "choices": [
+      { "label": "ア", "text": "単語埋め込み（Word Embedding）" },
+      { "label": "イ", "text": "プーリング" },
+      { "label": "ウ", "text": "バッチ正規化" },
+      { "label": "エ", "text": "エポック" }
+    ],
+    "correctLabel": "ア",
+    "explanation": "単語埋め込み（Word Embedding）は、単語を高次元の実数値ベクトルとして表現する技術。意味が近い単語同士はベクトル空間上でも近い位置に配置され、「王 - 男 + 女 ≈ 女王」のような演算も可能になる。Word2VecやBERTの分散表現が代表例。",
+    "keywords": ["単語埋め込み", "Word Embedding", "分散表現", "Word2Vec"],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "gk-24",
+    "examId": "g-kentei",
+    "field": "ai-application",
+    "subField": "ディープラーニングの応用",
+    "text": "既に大規模データで学習済みのモデルを、少量の別データで再調整して特定タスクに適応させる手法はどれか。",
+    "choices": [
+      { "label": "ア", "text": "転移学習（ファインチューニング）" },
+      { "label": "イ", "text": "強化学習" },
+      { "label": "ウ", "text": "教師なし学習" },
+      { "label": "エ", "text": "アンサンブル学習" }
+    ],
+    "correctLabel": "ア",
+    "explanation": "転移学習は、大規模データで事前学習（Pre-training）した汎用モデルの重みを流用し、少量の目的タスク用データで再学習（ファインチューニング）することで、少ないデータ・計算コストで高精度なモデルを構築する手法。",
+    "keywords": ["転移学習", "ファインチューニング", "事前学習", "Pre-training"],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "gk-25",
+    "examId": "g-kentei",
+    "field": "ai-application",
+    "subField": "ディープラーニングの応用",
+    "text": "自動運転車が周囲の状況を認識するために組み合わせて用いる技術として、最も関連性が低いものはどれか。",
+    "choices": [
+      { "label": "ア", "text": "形態素解析" },
+      { "label": "イ", "text": "物体検出" },
+      { "label": "ウ", "text": "セマンティックセグメンテーション" },
+      { "label": "エ", "text": "センサフュージョン" }
+    ],
+    "correctLabel": "ア",
+    "explanation": "形態素解析は自然言語（文章）を単語単位に分割・品詞分類する自然言語処理の技術であり、画像・センサ情報を扱う自動運転の周囲認識とは直接の関連性が低い。自動運転では物体検出・セグメンテーション・複数センサの統合（センサフュージョン）が中心となる。",
+    "keywords": ["自動運転", "センサフュージョン", "形態素解析", "自然言語処理との違い"],
+    "difficulty": "advanced"
+  },
+  {
+    "id": "gk-26",
+    "examId": "g-kentei",
+    "field": "ai-application",
+    "subField": "ディープラーニングの応用",
+    "text": "音声データを文字列に変換する技術の名称はどれか。",
+    "choices": [
+      { "label": "ア", "text": "音声認識（Speech Recognition）" },
+      { "label": "イ", "text": "音声合成（Text-to-Speech）" },
+      { "label": "ウ", "text": "画像生成" },
+      { "label": "エ", "text": "異常検知" }
+    ],
+    "correctLabel": "ア",
+    "explanation": "音声認識（Speech Recognition, ASR）は、音声波形データをテキストに変換する技術。逆に、テキストを音声に変換する技術は音声合成（Text-to-Speech, TTS）と呼ばれ、両者は対をなす概念として区別される。",
+    "keywords": ["音声認識", "Speech Recognition", "音声合成との違い"],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "gk-27",
+    "examId": "g-kentei",
+    "field": "ai-ethics-law",
+    "subField": "法律・倫理・社会実装",
+    "text": "AIの判断根拠を人間が理解できる形で説明可能にする技術・概念を何と呼ぶか。",
+    "choices": [
+      { "label": "ア", "text": "説明可能なAI（XAI）" },
+      { "label": "イ", "text": "強いAI" },
+      { "label": "ウ", "text": "エッジAI" },
+      { "label": "エ", "text": "生成AI" }
+    ],
+    "correctLabel": "ア",
+    "explanation": "説明可能なAI（XAI: Explainable AI）は、ディープラーニングのような「ブラックボックス」化しやすいモデルの判断根拠を、人間が理解・検証できる形で示すための技術・研究分野。医療診断や与信審査など説明責任が求められる領域で重要性が高い。",
+    "keywords": ["XAI", "説明可能なAI", "ブラックボックス問題", "説明責任"],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "gk-28",
+    "examId": "g-kentei",
+    "field": "ai-ethics-law",
+    "subField": "法律・倫理・社会実装",
+    "text": "日本の著作権法において、AI開発のための機械学習を目的としたデータ利用（情報解析）に関する規定が置かれている条文はどれか。",
+    "choices": [
+      { "label": "ア", "text": "著作権法第30条の4" },
+      { "label": "イ", "text": "個人情報保護法第20条" },
+      { "label": "ウ", "text": "不正競争防止法第2条" },
+      { "label": "エ", "text": "特許法第29条" }
+    ],
+    "correctLabel": "ア",
+    "explanation": "著作権法第30条の4は、AI学習のような「情報解析」を目的とする場合、著作権者の利益を不当に害しない限り、原則として著作権者の許諾なく著作物を利用できる旨を定めた規定。日本のAI開発を法的に後押しする条文として知られる。",
+    "keywords": ["著作権法第30条の4", "情報解析", "AI学習データ"],
+    "difficulty": "advanced"
+  },
+  {
+    "id": "gk-29",
+    "examId": "g-kentei",
+    "field": "ai-ethics-law",
+    "subField": "法律・倫理・社会実装",
+    "text": "AIの学習データに社会的な偏りが含まれることで、予測・判断結果にも偏りが生じてしまう問題を何と呼ぶか。",
+    "choices": [
+      { "label": "ア", "text": "AIバイアス（アルゴリズムバイアス）" },
+      { "label": "イ", "text": "過学習" },
+      { "label": "ウ", "text": "勾配消失" },
+      { "label": "エ", "text": "次元の呪い" }
+    ],
+    "correctLabel": "ア",
+    "explanation": "AIバイアス（アルゴリズムバイアス）は、学習データに含まれる偏り（人種・性別等の社会的偏見を含む）が、そのままAIの予測・判断結果に反映されてしまう問題。採用選考AIや与信審査AIなどで実際に社会問題化した事例がある。",
+    "keywords": ["AIバイアス", "アルゴリズムバイアス", "学習データの偏り", "公平性"],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "gk-30",
+    "examId": "g-kentei",
+    "field": "ai-ethics-law",
+    "subField": "法律・倫理・社会実装",
+    "text": "経済産業省・総務省が公表している、AI開発・利活用にあたって事業者が留意すべき事項をまとめた指針はどれか。",
+    "choices": [
+      { "label": "ア", "text": "AI事業者ガイドライン" },
+      { "label": "イ", "text": "個人情報保護法" },
+      { "label": "ウ", "text": "不正アクセス禁止法" },
+      { "label": "エ", "text": "特定商取引法" }
+    ],
+    "correctLabel": "ア",
+    "explanation": "AI事業者ガイドラインは、経済産業省・総務省が公表した、AI開発者・提供者・利用者それぞれの立場で留意すべき事項をまとめた指針。法的拘束力はないが、日本におけるAIガバナンスの基本的な考え方を示すソフトローとして位置づけられる。",
+    "keywords": ["AI事業者ガイドライン", "AIガバナンス", "経済産業省", "ソフトロー"],
+    "difficulty": "advanced"
+  }
+]
