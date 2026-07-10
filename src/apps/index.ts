@@ -172,6 +172,33 @@ export const appRegistry: Record<string, AppMetadata> = {
     status: 'development',
     examId: 'common',
   },
+  'boki-shiwake-drill': {
+    id: 'boki-shiwake-drill',
+    slug: 'boki-shiwake-drill',
+    title: '日商簿記3級 仕訳ドリル',
+    description: '商品売買・現金預金・債権債務・固定資産・決算整理の5分野を、取引文から仕訳を選ぶ形式で反復演習。',
+    category: 'quiz',
+    status: 'development',
+    examId: 'boki',
+  },
+  'takken-kenri-quiz': {
+    id: 'takken-kenri-quiz',
+    slug: 'takken-kenri-quiz',
+    title: '宅建 権利関係 一問一答',
+    description: '民法総則・物権・債権契約・相続借地借家法を○×形式で攻略。頻出のひっかけ論点を反復演習。',
+    category: 'quiz',
+    status: 'development',
+    examId: 'takken',
+  },
+  'fp2-calc-drill': {
+    id: 'fp2-calc-drill',
+    slug: 'fp2-calc-drill',
+    title: 'FP2級 計算問題ドリル',
+    description: '6つの係数・必要保障額・PER/PBR・税額計算・建蔽率容積率・相続税まで頻出計算パターンを反復演習。',
+    category: 'quiz',
+    status: 'development',
+    examId: 'fp2',
+  },
 };
 
 /**

@@ -205,6 +205,22 @@
 
 ### 判定: ✅ **合格・WP04完走**
 
+## WP05 — 新規企画（2026-07-10）
+
+- **体制**: フォークが監督として直接執筆・検証（サブエージェント起動不可の既知制約）
+- **実施内容**:
+  - N-1〜N-3（起票済み3本）: `trend/fp-knowledge-without-passing-cert`（QUEST）/ `method/secretarial-ai-efficiency-hack`（BEAF）/ `career/ccna-new-grad-company-filter` を新規執筆。それぞれ既存記事（fp-hub / secretarial-cost-time-knowledge / ccna-network-engineer-career）と双方向内部リンクを設定
+  - B-1〜B-4（IPA Theory拡張4本）: `theory/fe-os-control`・`theory/fe-network-basics`・`theory/ap-security-protocols`・`theory/ap-project-planning`。fe-hub・ap-hubとそれぞれ双方向リンク
+  - G-1（知的財産管理技能士Hub）: examId `chiteki-zaisan` を `src/content/config.ts` に新規登録、`cert-keyword-db/chiteki-zaisan-kw-db.md` をWebSearch実査3件（P1/P2/P6の占拠度判定）で新設、Hub記事 `method/chiteki-zaisan-hub` を作成。既存の `theory/ai-intellectual-property-copyright-trade-secret` と双方向リンク設定
+  - G-7（金融IT検定の調査）: WebSearch2件で受験資格・対象者・市場の若さを実査し**Go判定**を記録（次フェーズでexamId登録・記事化を推奨）。記事化はスコープどおり行っていない
+  - `exam-id-catalog.md`・`cert-keyword-db/index.md` を新規examId登録に合わせて更新
+- **自己検出・修正した不備**: 初稿で7記事8箇所の見出しに「」括弧が混入（過去3回と同じ失敗パターン。`post_writer.md`修正後もライター自身の癖で再発）。全箇所を括弧なし表現に修正し `grep` で0件を確認
+- **監督検証**:
+  - `pnpm build` → 成功・1334ページ（1313→1334、+21）
+  - 新規8ページ（N×3・B×4・G-1×1）すべての`dist`出力を確認
+  - 見出しブラケット違反: 全対象ファイルで0件
+- **判定**: ✅ 合格（起票済み3本・B群4本・G-1完走。G-2〜G-6・J群は時間切れのため未着手、次回持ち越し）
+
 ### 重要な副次的発見（スコープ外・要ユーザー判断）
 検証中に**サイト全体に影響する可能性のある構造的な問題**を発見した。`src/utils/blog.ts:67`の`const slug = cleanSlug(id)`は、コメント`// cleanSlug(rawSlug.split('/').pop())`が示す本来の意図（記事slugのみ）ではなく、カテゴリを含むフルID（例: `method/boki-hub`）をそのままpermalinkに使っており、その結果**投稿の実際のURL・sitemap掲載URLは`/method/boki-hub/`のようなカテゴリ付きパスになっている**。一方、サイト内のほぼ全ての記事本文の内部リンク（本セッションのWP01〜04で新規作成した記事を含む）は、既存記事の慣行に倣って`/boki-hub/`のようなカテゴリなしのフラットパスで書かれている。`git diff HEAD`で確認したところ、この`cleanSlug(id)`の実装は本日のセッション開始前から存在しており、本日の変更で生じたものではない。フラットリンクが実際に404になるかは未検証（Netlify側のfallback設定等を確認できていない）。**もし404になっているなら、サイト全体の内部リンク構造に関わる長期的な既知バグであり、WP04のスコープを超える。ユーザーに事実確認と対応要否の判断を仰ぐべき事項として記録する。**
 
@@ -224,7 +240,62 @@
   - `pnpm build` → 成功
   - `verify-links.js`で全記事本文中のカテゴリ付きリンク530件を実際のdist出力と突合 → 529件が実在ページに解決、残り1件（`method/pdf-to-text-guide` → `/app/pdf-to-text/`）はリンク先がdraft:true（未公開）のため意図的にビルド対象外。実害なし（公開時に自動解決）
 - **判定**: ✅ **合格**
+## WP03バッチ2 — 方針転換・再評価（2026-07-10、ユーザー指示）
+
+- **背景**: 「6000字超」固定目標は`rewrite-priority.md`の一文のみが根拠で、実データ裏付けなし。ユーザーから「文量が増えても内容が希薄になる、最低限の文字数で必要な説明を遂行したらクローズすべき」との指摘があり、また既存の週次データ（`weekly-task.md` W25→W26で平均滞在時間-88.7%悪化）が量産による読了質低下のリスクを裏付けていた
+- **決定**: 固定上限を撤廃し、実測分布（T3〜T6の8記事: 2305〜6151字）を目安レンジとして採用。約2000字を下限の目安とし、検索意図を解消したら執筆をクローズする方針に変更
+- **再評価結果**: T4・T5で「未達」としていた7記事（nw-mermaid-hack 5486字 / ap-discard-strategy 4515字 / pomodoro-anki-technique 3648字 / backoffice-sg-career-hack 3204字 / genai-cert-study-plan 3015字 / ses-ap-strategy 2806字 / wrong-choice-analysis-hack 2305字）は、いずれも新基準の目安レンジ内かつ見出し・強調・toc・lastmodルールを満たしており、**追加リライト不要と判定**。バッチ2は事実上全10記事が完了
+- **更新ファイル**: `03-content-rewrite.md`（新基準明記・T4/T5をx扱いに変更）、`task-results/rewrite-priority.md`（旧方針に取り消し線、新方針への参照を追記）
+- **判定**: ✅ バッチ2 完了（新基準で再評価）
+
 - **恒久対策**: `.agents/post_writer.md` を編集し2点を修正
   1. 新規ルール9.5として「内部リンクは必ず `/category/slug/` 形式で書く。フラット `/slug/` は見た目上正しく見えても実際は404になる」を明記
   2. Tutor Metaphorセクション（Rule 8・The Tutor Metaphorセクション）に見出し例として残っていた `### AI活用で「専任講師を月額20ドルで雇う」感覚`（括弧付き）を2箇所とも `### AI活用で専任講師を月額20ドルで雇う感覚`（括弧なし）に修正。これがWP04で3回連続発生した見出しブラケット混入の根本原因だったため
   - 未実施の提案: `fix-internal-links.js`相当のチェックをpre-commitやCIに組み込む案は今回スコープ外
+
+## WP03バッチ3 T7 — タグスプロール統合（部分実施）
+
+- **実施日**: 2026-07-10
+- **体制注記**: フォーク環境の制約（Agentツールでのサブエージェント起動不可）により、監督が直接作業し検証コマンドを自ら実行した。
+- **前提の訂正**: `task-similarity-clusters.md`は記事本文の類似度クラスタ（短い関連記事の統合候補、統合スラッグ案付き）であり、タグ名同士の対応表ではなかった。そのためタグ統合は全646ユニークタグの頻度集計から独自に安全候補を洗い出す方式に切り替えた
+- **統合方針**: 意味判断のリスクが低い3種類のみに限定
+  1. `tag_rules.md`に明記されたエイリアス（`SC`→`情報処理安全確保支援士`）
+  2. 表記揺れ（漢字誤変換・全角/半角）: `疑似言語`→`擬似言語`、`情報Ⅰ`→`情報I`
+  3. サフィックス・完全同義語で多数派表記へ統一: `就職`/`就職活動`→`就活`、`独学術`→`独学`、`AI活用術`→`AI活用`
+  - 見送り: `学習法`/`勉強法`/`学習メソッド`、`キャリア戦略`/`キャリア開発`/`キャリアアップ`等の意味的に近いが別概念の可能性がある同義語クラスタ、都道府県別タグ（構造的に単発が正しい）
+- **処理内容**: 7ファイルの`tags`フィールドを編集（`app/sc-specialist-quiz`は同一記事内の重複タグ削除で3→3個、他6件は1タグを統合先に置換）。全7ファイルのlastmodを2026-07-10に更新
+- **監督検証**:
+  - ユニークタグ数: 646 → 639（-7、想定通り）
+  - `pnpm build` → 成功・1308ページ
+  - `git status --short`で変更ファイルがtags/lastmod編集のみ（7記事）であることを確認、本文・カテゴリ等は不変
+- **判定**: ⚠️ **部分合格**（安全な7件は完了、453個の残り単発タグの大半は意味判断が必要なため未着手）
+- **申し送り**: 次回は`学習法/勉強法/学習メソッド`のような多義的クラスタを人間レビュー付きで個別検討するか、地域タグ等の「構造的に単発が正しい」カテゴリをあらかじめ除外リスト化してから再集計することを推奨
+
+---
+
+## WP06 — 非IPAアプリ展開（3/5完了）
+
+- **実施日**: 2026-07-10
+- **体制注記**: フォーク環境の制約（Agentツールでのサブエージェント起動不可）により、フォークが直接実装した。フォークの最終報告が「Build running in background — waiting for completion.」のみで不完全だったため、**メインセッションが実装内容を引き継いで検証・記録した**
+- **実施内容**:
+  - 共通基盤 `src/apps/shared/GenericQuizApp.tsx` を新規作成: 単一〜少数分野の単発ドリルアプリ向け汎用クイズコンポーネント（既存の `it-passport-quiz` 系専用 `BaseQuizApp` とは独立）。LocalStorageキーは `sh_quiz_{examId}` 命名規約準拠。分野別正答率・苦手分野検出・AI深掘りプロンプトのクリップボードコピー＋Gemini直リンクを実装し、post_writer.mdの「AI Learning Philosophy」（対話理解型）と整合する設計
+  - A-1: `app/boki-shiwake-drill`（`questions-boki.json`、仕訳問題）
+  - A-2: `app/takken-kenri-quiz`（`questions-takken.json`、権利関係一問一答）
+  - A-4: `app/fp2-calc-drill`（`questions-fp2.json`、計算問題）。記事frontmatterの`knowledge.examId`は`common`のまま維持（WP05 J-2の判断待ちと整合させ、アプリ内部のexamId文字列`fp2`とは別軸で区別）
+  - 3アプリとも `src/apps/index.ts` に登録、対応する `src/data/post/app/{slug}/index.mdx` に `appId` 設定済み
+- **メインセッションの検証**:
+  - `grep`で`src/apps/index.ts`への3アプリ登録・各記事の`appId`設定を確認
+  - `pnpm build` → 成功。`dist/app/boki-shiwake-drill/`・`dist/app/fp2-calc-drill/`・`dist/app/takken-kenri-quiz/`の`index.html`生成を確認
+  - `GenericQuizApp.tsx`をコードレビュー: LocalStorageキー命名規約準拠、menu/drill/result のモード遷移、エラーハンドリング（`localStorage`アクセス失敗時のフォールバック）を確認。良好な設計
+  - 問題JSON（`questions-boki.json`）のスキーマをサンプル確認: id/examId/field/text/choices/correctLabel/explanation/keywords/difficulty が揃い、`quiz_data_rules.md`の想定構造と整合
+- **判定**: ⚠️ **部分合格**（A-1・A-2・A-4は合格基準クリア。A-3 G検定模擬試験・A-5 AWS診断アプリは未着手のため次回持ち越し）
+- **未検証事項**: ブラウザでの実機動作確認（出題→解答→結果表示→LocalStorage永続化の一連の流れ）は本セッションでは未実施。コードレビューでは問題ないと判断しているが、ユーザー側での実機確認を推奨
+
+## 総括（2026-07-10 site-check0710 全体・最終）
+
+- 完了: WP01 ✅ / WP02 ✅ / WP03（バッチ1〜3、実質完了、タグ統合は安全な範囲のみ） ✅ / WP04（完走） ✅ / WP05（主要スコープ完了、G-2〜G-6・J群は次回） ✅ / 緊急対応（内部リンクURL構造バグ修正） ✅
+- 部分完了: WP06（A-1・A-2・A-4完了、A-3・A-5は次回）
+- データ待ちで未着手: WP07（GSC/GA4効果検証）
+- 本セッションの成果規模: 新規記事27本（WP04:15本＋WP05:8本）、新規アプリ3本、KW-DB5本（波3の4本＋知財1本）、examId新規登録2件（chiteki-zaisan・fp2はLocalStorage名前空間のみ）、サイト全体の内部リンクURL構造バグ修正（167記事530リンク）、既存記事の整合性修正450件超
+- git: 2026-07-10 14:xx頃に一度コミット済み（`5bf70b8`）。それ以降の変更（WP03再評価・タグ統合7件・WP05新規8記事・WP06新規3アプリ）は未コミット
+- 次回セッションへの申し送り: (1) WP06 A-3（G検定模擬試験）・A-5（AWS診断アプリ）の実装、(2) WP03タグ統合の残り（多義的クラスタの人間レビュー）、(3) WP05 G-2〜G-6（ボイラー技士等）・J-1/J-2判断、(4) WP06 3アプリのブラウザ実機確認

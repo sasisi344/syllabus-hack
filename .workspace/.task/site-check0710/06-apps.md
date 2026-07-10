@@ -8,16 +8,16 @@
 
 ## タスク（優先順）
 
-- [ ] **A-1: 日商簿記3級 仕訳ドリル**（`app/boki-shiwake-drill` 想定）
-  仕訳問題は簿記学習の最大ボリュームゾーンかつ Negative-Narrative 記事（WP04 E-1）との内部リンク相性が良い。問題形式: 取引文→借方/貸方の勘定科目・金額選択
-- [ ] **A-2: 宅建 権利関係 一問一答**（`app/takken-kenri-quiz` 想定）
-  ○×または4択。WP04 E-2 と連携
-- [ ] **A-3: G検定 模擬試験シミュレーター**（`app/g-kentei-mock-exam` 想定)
-  時間制限つき多問数形式（本試験は191問/120分の時間感覚が鍵）。既存 CBT シミュレーター実装を流用
-- [ ] **A-4: FP2級 計算問題ドリル**（`app/fp2-calc-drill` 想定）
-  6分野の頻出計算（年金・税額・利回り等）。examId 整合を先に確認
-- [ ] **A-5: AWS資格診断アプリ**（`app/aws-cert-diagnosis`）
-  選択式質問（職種・経験・目的）→ CLF/SAA/ANS 等のおすすめを提示。既存AWS記事群への内部リンクハブを兼ねる。クイズ型ではなく診断型のため quiz_app_rules の型を拡張する可能性あり（shared コンポーネント流用可否を先に調査）
+- [x] **A-1: 日商簿記3級 仕訳ドリル**（2026-07-10完了・`app/boki-shiwake-drill`）
+  `src/data/master/questions-boki.json` + 専用アプリ実装。共通基盤 `src/apps/shared/GenericQuizApp.tsx` を新規作成し利用
+- [x] **A-2: 宅建 権利関係 一問一答**（2026-07-10完了・`app/takken-kenri-quiz`）
+  `questions-takken.json` + GenericQuizApp利用
+- [ ] **A-3: G検定 模擬試験シミュレーター**（`app/g-kentei-mock-exam` 想定・未着手）
+  時間制限つき多問数形式（本試験は191問/120分の時間感覚が鍵）。既存 CBT シミュレーター実装を流用。次回セッションへ持ち越し
+- [x] **A-4: FP2級 計算問題ドリル**（2026-07-10完了・`app/fp2-calc-drill`）
+  `questions-fp2.json` + GenericQuizApp利用。記事frontmatterの`knowledge.examId`は`common`のまま（WP05 J-2判断待ちと整合）、アプリ内部のexamId文字列`fp2`はLocalStorage名前空間用の別軸として区別
+- [ ] **A-5: AWS資格診断アプリ**（`app/aws-cert-diagnosis`・未着手）
+  クイズ型ではなく診断型のため別途設計が必要。次回セッションへ持ち越し
 
 ## 完了条件（監督がアプリ単位で検証）
 

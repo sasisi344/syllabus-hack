@@ -4,7 +4,7 @@ lastmod: 2026-07-10
 title: 'Agent Teacher:24時間365日の「最強の家庭教師」を無料で雇う技術'
 excerpt: '高い塾や通信講座はもう不要？ChatGPTやGeminiを「ただのチャット」ではなく「超一流の家庭教師」として使いこなす、Syllabus Hack流のAI講師活用術を全公開。'
 category: method
-tags: ['AI学習法', 'ChatGPT', 'Gemini', 'NotebookLM', '独学術']
+tags: ['AI学習法', 'ChatGPT', 'Gemini', 'NotebookLM', '独学']
 image: ~/data/post/method/common-cover.png
 toc: true
 knowledge:

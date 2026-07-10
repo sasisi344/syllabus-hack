@@ -1,0 +1,49 @@
+---
+publishDate: 2026-07-10T00:00:00Z
+lastmod: 2026-07-10
+title: 宅建 権利関係 一問一答｜民法のひっかけ論点を○×で潰すドリルアプリ
+image: ~/assets/images/post/common/app.png
+excerpt: 民法総則・物権・債権契約・相続借地借家法を○×形式で反復演習。連帯保証や危険負担など頻出のひっかけ論点をAI解説付きで潰せるドリルアプリ。
+category: app
+draft: false
+toc: true
+appId: 'takken-kenri-quiz'
+knowledge:
+  type: app
+  examId: takken
+persona: '宅建の権利関係（民法）が「なぜ」で止まってしまう学習者'
+tags:
+  - 宅建
+  - 宅地建物取引士
+  - 権利関係
+  - 民法
+  - SyllabusHack
+metadata:
+  description: 宅建試験の権利関係を○×形式で反復演習できる無料ドリルアプリ。民法の頻出ひっかけ論点をAI解説付きで攻略。
+---
+
+import QuizApp from '~/apps/takken-kenri-quiz/QuizApp';
+import '~/apps/takken-kenri-quiz/quiz.css';
+import questions from '~/data/master/questions-takken.json';
+
+## 権利関係は「知っているか」より「引っかからないか」
+
+宅建の権利関係（民法）は50問中14問という高い配点を持ちながら、条文知識だけでは得点できない科目だ。<strong>「連帯保証人には催告の抗弁権がない」「危険負担は債務者主義が原則」</strong>のように、似た制度との違いを問うひっかけ問題が繰り返し出題される。
+
+このドリルは民法総則・物権・債権契約・相続借地借家法の4分野を○×形式で出題し、正誤の根拠を毎回解説する。特に間違えた問題は「AIで復習」からその場でAIに深掘り質問できるようにしてあるので、なぜ自分がひっかかったのかをその場で言語化すると定着が早い。
+
+### AI活用のコツ
+
+○×だけを覚えるのではなく、AIに「この論点と対比される制度は何か」を聞くと理解が立体的になる。例えば連帯保証を間違えたら、「普通保証と連帯保証の違いを一覧で整理して」と聞くと、次に似た問題が出たときに迷わなくなる。
+
+---
+
+## 権利関係ドリル（分野別・全問シャッフル対応）
+
+<QuizApp client:load questions={questions} examId="takken" examName="宅建 権利関係" />
+
+---
+
+## 次のステップ
+
+権利関係の土台ができたら、[宅建（宅地建物取引士）完全攻略ガイド](/method/takken-hub/)で宅建業法・法令上の制限を含めた全体ロードマップを確認しよう。民法の暗記に苦戦している場合は[宅建の民法をAIで攻略するメモリーハック](/method/takken-minpou-ai-memory-hack/)も合わせて活用してほしい。

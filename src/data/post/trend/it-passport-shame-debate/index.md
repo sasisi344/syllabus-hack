@@ -5,7 +5,7 @@ title: 'ITパスポートは「恥ずかしい」資格なのか？2026年の市
 excerpt: '「ITパスポートなんて簡単すぎて意味がない」という批判は本当か。生成AI全盛の2026年、なぜ今ITパスポートがビジネスの「必須OS」として再注目されているのかを徹底検証。'
 persona: '資格取得を迷っている就活生、周囲の評価を気にしている社会人'
 category: trend
-tags: ['ITパスポート', '資格試験', 'キャリア', '就職活動', 'SyllabusHack']
+tags: ['ITパスポート', '資格試験', 'キャリア', '就活', 'SyllabusHack']
 image: ~/data/post/trend/common-cover.png
 knowledge:
   examId: ip

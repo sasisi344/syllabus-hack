@@ -13,21 +13,32 @@
 
 ## バッチ2: 短記事リライト（TODO.md I / rewrite-priority.md）
 
-各記事を6000字超に拡張。`.agents/post_writer.md` の該当フレームワーク（BEAF/QUEST/PASONA）を Read してから着手。拡張時に見出しルール（「」・番号禁止）・`<strong>` 強調・toc: true 付与・lastmod 更新を同時適用。
+> **2026-07-10 方針転換**: 当初「6000字超」を固定目標としていたが、文字数を稼ぐための水増しは内容を希薄化させ逆効果と判断（`weekly-task.md` W25→W26で平均滞在時間-88.7%の悪化データもあり、量より読了質を優先すべき根拠がある）。
+> **新基準**: 固定の上限文字数は設定しない。**最低ライン約2000字**（実測データの下限）を下回らないことを条件に、**検索意図・読者の疑問を過不足なく解消したら執筆をクローズする**。実測結果（下記T3〜T6）の分布（2305〜6151字）を目安レンジとし、無理に6000字へ引き伸ばさない。
+> 見出しルール（「」・番号禁止）・`<strong>` 強調・toc: true 付与・lastmod 更新は全記事共通で適用。
 
-- [x] **T3 優先度A**（2026-07-10・6000字達成・toc/見出し/強調ルール適用済み）: `method/agent-teacher`(6052字) / `trend/fp2-jitsuki-comparison`(6151字) / `trend/ccna-vs-aws-saa`(5900字)
-- [~] **T4 優先度B**（2026-07-10・toc/見出し/強調ルールは適用済みだが6000字未達、追加リライト必要）: `method/nw-mermaid-hack`(5486字) / `method/ap-discard-strategy`(4515字) / `method/pomodoro-anki-technique`(3648字) / `career/backoffice-sg-career-hack`(3204字)
-- [~] **T5 優先度C**（同上、6000字未達）: `method/genai-cert-study-plan`(3015字) / `career/ses-ap-strategy`(2806字、frontmatterのYAML構文エラーも修正) / `method/wrong-choice-analysis-hack`(2305字)
-- [x] **T6**（2026-07-10）: `method/cbt-2026-syllabus-complete-guide` の見出しルール違反（数字・「」括弧）を修正、toc: true 追加。**検索意図の刷新（CTR 0%対策の本文再構成）は未着手のまま** — 要再訪
+- [x] **T3 優先度A**（2026-07-10完了）: `method/agent-teacher`(6052字) / `trend/fp2-jitsuki-comparison`(6151字) / `trend/ccna-vs-aws-saa`(5900字)
+- [x] **T4 優先度B**（2026-07-10完了・新基準で再評価）: `method/nw-mermaid-hack`(5486字) / `method/ap-discard-strategy`(4515字) / `method/pomodoro-anki-technique`(3648字) / `career/backoffice-sg-career-hack`(3204字) — いずれも新基準の目安レンジ内で内容完結済み、追加リライト不要
+- [x] **T5 優先度C**（2026-07-10完了・新基準で再評価）: `method/genai-cert-study-plan`(3015字) / `career/ses-ap-strategy`(2806字、frontmatterのYAML構文エラーも修正) / `method/wrong-choice-analysis-hack`(2305字) — 新基準の目安レンジ内で内容完結済み、追加リライト不要
+- [x] **T6**（2026-07-10）: `method/cbt-2026-syllabus-complete-guide` の見出しルール違反（数字・「」括弧）を修正、toc: true 追加。**検索意図の刷新（CTR 0%対策の本文再構成）は文字数の問題ではないため別枠の課題として継続** — 要再訪
 
 ## バッチ3: タグ・見出しの段階的正規化（大規模・計画的に）
 
-- [ ] **T7: タグスプロール統合** — ユニーク663個中478個が1記事のみ。`task-results/tag-similarity-clusters.md` と `.agents/tag_rules.md` を Read し、類似タグを正規タグへ統合。**タグページURLが変わるため、多数記事の一括変更はバッチを分けて**（1バッチ50記事目安）実施し、都度 build 確認。**2026-07-10時点で未着手**（ユニークタグ628個中453個が1記事のみと確認済み。統合には記事ごとの意味判断が必要でスクリプト化不可と判断し次回に持ち越し）
+- [~] **T7: タグスプロール統合**（2026-07-10・安全な7件のみ実施、大部分は意味判断リスクのため見送り）
+  `tag-similarity-clusters.md` は記事の類似度クラスタ（統合スラッグ案）であり、タグ名同士の対応表ではないと判明。そのため実際の全646ユニークタグを頻度集計し、以下の**表記揺れ・tag_rules.md明示エイリアス・同一記事内重複**に限定して統合（意味的に近いだけの同義語クラスタ「学習法/勉強法/学習メソッド」「キャリア戦略/キャリア開発/キャリアアップ」等は誤統合リスクが高いため見送り）:
+  - `SC` → `情報処理安全確保支援士`（tag_rules.md明記エイリアス。app/sc-specialist-quizで両方併記されていた重複を解消）
+  - `疑似言語` → `擬似言語`（IPA公式表記の統一。method/fe-pseudo-code-ai-hack）
+  - `情報Ⅰ`（ローマ数字）→ `情報I`（ASCII、検索されやすい表記に統一。trend/entrance-exam-information-1-impact）
+  - `就職` / `就職活動` → `就活`（同義語、多数派表記に統一。method/mos-ai-shortcut, trend/it-passport-shame-debate）
+  - `独学術` → `独学`（術サフィックスのバリアント。method/agent-teacher）
+  - `AI活用術` → `AI活用`（同上。theory/swot-analysis）
+  - ユニークタグ数: 646 → 639（-7）。7記事のlastmod更新済み
+  - **残タスク**: 453個の単発タグの大部分は意味判断が必要で今回未着手。次回は`学習法/勉強法/学習メソッド`のような多義的クラスタを人間レビュー付きで検討するか、地域タグ（都道府県別）等の構造的に単発が正しいカテゴリを除外リストに登録してから再集計することを推奨
 - [x] **T8: 見出しルール違反 265記事**（2026-07-10完了） — 「」括弧・番号付き見出し。`.workspace/scripts/fix-heading-numbers.cjs` を新規作成し全記事へ一括適用（254ファイル・848箇所を機械修正）。副産物としてfrontmatter先頭の末尾スペース問題（15記事、旧index-articles.jsと同根のバグ）を発見・修正。残り5件は個別に手動修正（うち2件は既存データの文字化けが原因、本セッション起因ではないことを確認済み）。監査スクリプトでheading-style違反 265→0件を確認
 
 ## 完了条件（監督がバッチごとに検証）
 
 1. バッチ1: 監査スクリプトで missing-metadata = 0、description が全件 120〜160字（サンプル抽出で確認）
-2. バッチ2: 各記事6000字超・見出しルール準拠・`**bold**` 混入なし・toc: true・lastmod当日・publishDate不変
+2. バッチ2: 各記事が最低約2000字以上・検索意図/読者の疑問を過不足なく解消（水増し目的の冗長化がないこと）・見出しルール準拠・`**bold**` 混入なし・toc: true・lastmod当日・publishDate不変
 3. バッチ3: 変更後も `pnpm build` 成功、タグページ総数が減少方向であること
 4. すべてのバッチ: 変更ファイルがスコープ内のみ

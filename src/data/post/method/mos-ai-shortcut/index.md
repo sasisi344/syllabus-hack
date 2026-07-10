@@ -5,7 +5,7 @@ title: 'MOS合格を最短化するAI学習法——「役に立たない」と�
 excerpt: '「MOS 役に立たない」という検索をする前に知っておくべき、AI時代のMOS活用戦略と独学20時間で合格レベルに到達するプロンプト活用法を解説します。'
 image: '~/data/post/method/mos-ai-shortcut/cover.jpg'
 category: 'method'
-tags: ['MOS', 'Excel', 'AI活用', '独学', '就職']
+tags: ['MOS', 'Excel', 'AI活用', '独学', '就活']
 draft: false
 persona: '事務職・転職活動中のPCスキル証明を急いでいる社会人'
 knowledge:

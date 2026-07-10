@@ -1,0 +1,308 @@
+[
+  {
+    "id": "fp2-yosou-01",
+    "examId": "fp2",
+    "field": "life-plan",
+    "subField": "ライフプランニング",
+    "text": "元本100万円を年利2%で複利運用した場合の10年後の元利合計を求めたい。このとき使う係数はどれか。",
+    "choices": [
+      { "label": "ア", "text": "終価係数" },
+      { "label": "イ", "text": "現価係数" },
+      { "label": "ウ", "text": "減債基金係数" },
+      { "label": "エ", "text": "資本回収係数" }
+    ],
+    "correctLabel": "ア",
+    "explanation": "現在の元本から将来の金額を求めるときは「終価係数」を使う。逆に将来の目標額から現在必要な元本を求めるときは「現価係数」を使う。",
+    "keywords": ["終価係数", "6つの係数", "複利運用"],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "fp2-yosou-02",
+    "examId": "fp2",
+    "field": "life-plan",
+    "subField": "ライフプランニング",
+    "text": "年利3%で複利運用しながら、10年後に300万円を用意するために毎年いくら積み立てればよいかを求めたい。このとき使う係数はどれか。",
+    "choices": [
+      { "label": "ア", "text": "年金終価係数" },
+      { "label": "イ", "text": "年金現価係数" },
+      { "label": "ウ", "text": "減債基金係数" },
+      { "label": "エ", "text": "資本回収係数" }
+    ],
+    "correctLabel": "ウ",
+    "explanation": "将来の目標額を用意するために毎年の積立額を求めるときは「減債基金係数」を使う。逆に毎年一定額を積み立てた場合の将来の合計額を求めるときは「年金終価係数」を使う。",
+    "keywords": ["減債基金係数", "6つの係数", "積立額"],
+    "difficulty": "advanced"
+  },
+  {
+    "id": "fp2-yosou-03",
+    "examId": "fp2",
+    "field": "life-plan",
+    "subField": "ライフプランニング",
+    "text": "現在500万円を年利2%で複利運用しながら10年間で均等に取り崩す場合、毎年受け取れる金額を求めたい。このとき使う係数はどれか。",
+    "choices": [
+      { "label": "ア", "text": "年金終価係数" },
+      { "label": "イ", "text": "資本回収係数" },
+      { "label": "ウ", "text": "現価係数" },
+      { "label": "エ", "text": "減債基金係数" }
+    ],
+    "correctLabel": "イ",
+    "explanation": "現在ある元本を複利運用しながら毎年一定額ずつ取り崩す場合の受取額を求めるときは「資本回収係数」を使う。住宅ローンの毎年の返済額を求める場合にも使われる。",
+    "keywords": ["資本回収係数", "6つの係数", "取り崩し"],
+    "difficulty": "advanced"
+  },
+  {
+    "id": "fp2-yosou-04",
+    "examId": "fp2",
+    "field": "risk",
+    "subField": "リスク管理",
+    "text": "遺族の生活費など今後の支出見込み総額が8,000万円、死亡退職金・遺族年金など遺族の収入見込み総額が5,000万円であるとき、必要保障額はいくらになるか。",
+    "choices": [
+      { "label": "ア", "text": "8,000万円" },
+      { "label": "イ", "text": "5,000万円" },
+      { "label": "ウ", "text": "3,000万円" },
+      { "label": "エ", "text": "13,000万円" }
+    ],
+    "correctLabel": "ウ",
+    "explanation": "必要保障額＝支出見込み総額－収入見込み総額で計算する。8,000万円－5,000万円＝3,000万円が生命保険で準備すべき目安額となる。",
+    "keywords": ["必要保障額", "支出見込み", "収入見込み"],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "fp2-yosou-05",
+    "examId": "fp2",
+    "field": "risk",
+    "subField": "リスク管理",
+    "text": "収入保障保険で年金月額20万円、支払期間が残り10年の場合、単純合計での年金原資総額はいくらになるか。",
+    "choices": [
+      { "label": "ア", "text": "200万円" },
+      { "label": "イ", "text": "2,000万円" },
+      { "label": "ウ", "text": "2,400万円" },
+      { "label": "エ", "text": "240万円" }
+    ],
+    "correctLabel": "ウ",
+    "explanation": "月額20万円×12ヶ月×10年＝2,400万円。収入保障保険は死亡時期が遅いほど受取総額が減っていく点が定期保険との違い。",
+    "keywords": ["収入保障保険", "年金原資", "受取総額"],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "fp2-yosou-06",
+    "examId": "fp2",
+    "field": "risk",
+    "subField": "リスク管理",
+    "text": "地震保険の保険金額は、火災保険の保険金額の何%の範囲内で設定するルールになっているか（建物・家財それぞれ上限あり）。",
+    "choices": [
+      { "label": "ア", "text": "10%～30%" },
+      { "label": "イ", "text": "30%～50%" },
+      { "label": "ウ", "text": "50%～70%" },
+      { "label": "エ", "text": "70%～100%" }
+    ],
+    "correctLabel": "イ",
+    "explanation": "地震保険は火災保険の主契約に付帯して契約し、保険金額は火災保険金額の30%～50%の範囲内（建物5,000万円・家財1,000万円が上限）で設定する。",
+    "keywords": ["地震保険", "火災保険", "保険金額の上限"],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "fp2-yosou-07",
+    "examId": "fp2",
+    "field": "kinyu",
+    "subField": "金融資産運用",
+    "text": "株価1,200円、1株当たり利益(EPS)80円の株式のPER（株価収益率）はいくらか。",
+    "choices": [
+      { "label": "ア", "text": "10倍" },
+      { "label": "イ", "text": "15倍" },
+      { "label": "ウ", "text": "20倍" },
+      { "label": "エ", "text": "1.5倍" }
+    ],
+    "correctLabel": "イ",
+    "explanation": "PER＝株価÷1株当たり利益（EPS）で計算する。1,200円÷80円＝15倍。数値が低いほど株価が割安と評価される目安になる。",
+    "keywords": ["PER", "株価収益率", "EPS"],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "fp2-yosou-08",
+    "examId": "fp2",
+    "field": "kinyu",
+    "subField": "金融資産運用",
+    "text": "株価1,200円、1株当たり純資産(BPS)600円の株式のPBR（株価純資産倍率）はいくらか。",
+    "choices": [
+      { "label": "ア", "text": "0.5倍" },
+      { "label": "イ", "text": "1倍" },
+      { "label": "ウ", "text": "2倍" },
+      { "label": "エ", "text": "3倍" }
+    ],
+    "correctLabel": "ウ",
+    "explanation": "PBR＝株価÷1株当たり純資産（BPS）で計算する。1,200円÷600円＝2倍。PBRが1倍を下回ると理論上は解散価値より株価が低いと判断される。",
+    "keywords": ["PBR", "株価純資産倍率", "BPS"],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "fp2-yosou-09",
+    "examId": "fp2",
+    "field": "kinyu",
+    "subField": "金融資産運用",
+    "text": "額面100円、利率年2%、残存期間5年の固定利付債券を額面98円で購入した場合の単利最終利回りに最も近いものはどれか（概算値）。",
+    "choices": [
+      { "label": "ア", "text": "約2.00%" },
+      { "label": "イ", "text": "約2.24%" },
+      { "label": "ウ", "text": "約2.45%" },
+      { "label": "エ", "text": "約2.86%" }
+    ],
+    "correctLabel": "ウ",
+    "explanation": "最終利回り＝{表面利率＋(額面－購入価格)÷残存年数}÷購入価格×100。{2＋(100－98)÷5}÷98×100＝2.4÷98×100≒2.45%。",
+    "keywords": ["最終利回り", "債券", "単利計算"],
+    "difficulty": "advanced"
+  },
+  {
+    "id": "fp2-yosou-10",
+    "examId": "fp2",
+    "field": "tax",
+    "subField": "タックスプランニング",
+    "text": "給与収入500万円の会社員の給与所得控除額はいくらか（収入360万円超660万円以下は「収入金額×20%＋44万円」で計算）。",
+    "choices": [
+      { "label": "ア", "text": "100万円" },
+      { "label": "イ", "text": "144万円" },
+      { "label": "ウ", "text": "150万円" },
+      { "label": "エ", "text": "192万円" }
+    ],
+    "correctLabel": "イ",
+    "explanation": "500万円×20%＋44万円＝100万円＋44万円＝144万円。給与所得＝給与収入－給与所得控除額で求める。",
+    "keywords": ["給与所得控除", "速算表", "給与収入"],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "fp2-yosou-11",
+    "examId": "fp2",
+    "field": "tax",
+    "subField": "タックスプランニング",
+    "text": "合計所得金額2,400万円以下の納税者に適用される所得税の基礎控除額はいくらか。",
+    "choices": [
+      { "label": "ア", "text": "38万円" },
+      { "label": "イ", "text": "43万円" },
+      { "label": "ウ", "text": "48万円" },
+      { "label": "エ", "text": "58万円" }
+    ],
+    "correctLabel": "ウ",
+    "explanation": "基礎控除は合計所得金額2,400万円以下であれば48万円。2,400万円を超えると段階的に控除額が減り、2,500万円超で控除額はゼロになる。",
+    "keywords": ["基礎控除", "所得税", "合計所得金額"],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "fp2-yosou-12",
+    "examId": "fp2",
+    "field": "tax",
+    "subField": "タックスプランニング",
+    "text": "年間医療費30万円を支払い、うち5万円が保険金等で補填された。総所得金額500万円の場合、医療費控除額はいくらか（控除額＝支払医療費－保険金補填額－10万円）。",
+    "choices": [
+      { "label": "ア", "text": "15万円" },
+      { "label": "イ", "text": "20万円" },
+      { "label": "ウ", "text": "25万円" },
+      { "label": "エ", "text": "30万円" }
+    ],
+    "correctLabel": "ア",
+    "explanation": "30万円－5万円－10万円＝15万円。なお総所得金額が200万円未満の場合は「10万円」の代わりに「総所得金額×5%」を差し引く。",
+    "keywords": ["医療費控除", "保険金補填", "総所得金額"],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "fp2-yosou-13",
+    "examId": "fp2",
+    "field": "fudousan",
+    "subField": "不動産",
+    "text": "建蔽率60%の土地200㎡に建築できる建築面積の上限はいくらか。",
+    "choices": [
+      { "label": "ア", "text": "100㎡" },
+      { "label": "イ", "text": "120㎡" },
+      { "label": "ウ", "text": "140㎡" },
+      { "label": "エ", "text": "160㎡" }
+    ],
+    "correctLabel": "イ",
+    "explanation": "建築面積の上限＝敷地面積×建蔽率。200㎡×60%＝120㎡。建蔽率は「敷地に対する建物の水平投影面積の割合」を制限する規制。",
+    "keywords": ["建蔽率", "建築面積", "敷地面積"],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "fp2-yosou-14",
+    "examId": "fp2",
+    "field": "fudousan",
+    "subField": "不動産",
+    "text": "容積率200%の土地150㎡に建築できる延べ面積の上限はいくらか。",
+    "choices": [
+      { "label": "ア", "text": "200㎡" },
+      { "label": "イ", "text": "250㎡" },
+      { "label": "ウ", "text": "300㎡" },
+      { "label": "エ", "text": "350㎡" }
+    ],
+    "correctLabel": "ウ",
+    "explanation": "延べ面積の上限＝敷地面積×容積率。150㎡×200%＝300㎡。容積率は「敷地に対する建物の各階床面積の合計の割合」を制限する規制。",
+    "keywords": ["容積率", "延べ面積", "敷地面積"],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "fp2-yosou-15",
+    "examId": "fp2",
+    "field": "fudousan",
+    "subField": "不動産",
+    "text": "不動産の所有権移転登記（税率2%）で、課税標準額が3,000万円の場合の登録免許税額はいくらか。",
+    "choices": [
+      { "label": "ア", "text": "30万円" },
+      { "label": "イ", "text": "45万円" },
+      { "label": "ウ", "text": "60万円" },
+      { "label": "エ", "text": "90万円" }
+    ],
+    "correctLabel": "ウ",
+    "explanation": "登録免許税額＝課税標準額×税率。3,000万円×2%＝60万円。売買による所有権移転登記の本則税率は2%（住宅用家屋は軽減措置あり）。",
+    "keywords": ["登録免許税", "課税標準額", "所有権移転登記"],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "fp2-yosou-16",
+    "examId": "fp2",
+    "field": "souzoku",
+    "subField": "相続・事業承継",
+    "text": "法定相続人が配偶者と子2人の合計3人である場合、相続税の基礎控除額はいくらか（基礎控除額＝3,000万円＋600万円×法定相続人の数）。",
+    "choices": [
+      { "label": "ア", "text": "3,600万円" },
+      { "label": "イ", "text": "4,200万円" },
+      { "label": "ウ", "text": "4,800万円" },
+      { "label": "エ", "text": "5,400万円" }
+    ],
+    "correctLabel": "ウ",
+    "explanation": "3,000万円＋600万円×3人＝3,000万円＋1,800万円＝4,800万円。この基礎控除額を超える部分にのみ相続税が課される。",
+    "keywords": ["相続税の基礎控除", "法定相続人の数", "3000万円+600万円"],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "fp2-yosou-17",
+    "examId": "fp2",
+    "field": "souzoku",
+    "subField": "相続・事業承継",
+    "text": "相続人が配偶者と子2人の場合、配偶者の法定相続分はいくらか。",
+    "choices": [
+      { "label": "ア", "text": "1/3" },
+      { "label": "イ", "text": "1/2" },
+      { "label": "ウ", "text": "2/3" },
+      { "label": "エ", "text": "3/4" }
+    ],
+    "correctLabel": "イ",
+    "explanation": "相続人が配偶者と子の場合、配偶者の法定相続分は1/2、子の法定相続分は残り1/2を人数で均等に分ける（このケースでは子1人あたり1/4ずつ）。",
+    "keywords": ["法定相続分", "配偶者と子", "相続人の組み合わせ"],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "fp2-yosou-18",
+    "examId": "fp2",
+    "field": "souzoku",
+    "subField": "相続・事業承継",
+    "text": "相続人が配偶者と被相続人の兄弟姉妹1人の場合（子・直系尊属なし）、配偶者の法定相続分はいくらか。",
+    "choices": [
+      { "label": "ア", "text": "1/2" },
+      { "label": "イ", "text": "2/3" },
+      { "label": "ウ", "text": "3/4" },
+      { "label": "エ", "text": "全部" }
+    ],
+    "correctLabel": "ウ",
+    "explanation": "相続人が配偶者と兄弟姉妹の組み合わせの場合、配偶者の法定相続分は3/4、兄弟姉妹の法定相続分は残り1/4。配偶者と子の場合（1/2ずつ）との違いに注意。",
+    "keywords": ["法定相続分", "配偶者と兄弟姉妹", "相続人の組み合わせ"],
+    "difficulty": "advanced"
+  }
+]

@@ -98,6 +98,7 @@ const postCollection = defineCollection({
               'kiken-butsu',
               'biru-kanri',
               'doboku-sekou',
+              'chiteki-zaisan',
             ])
             .optional(),
           exams: z.array(z.string()).optional(),

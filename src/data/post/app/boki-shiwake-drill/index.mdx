@@ -1,0 +1,49 @@
+---
+publishDate: 2026-07-10T00:00:00Z
+lastmod: 2026-07-10
+title: 日商簿記3級 仕訳ドリル｜取引文から借方貸方を選ぶ反復演習アプリ
+image: ~/assets/images/post/common/app.png
+excerpt: 商品売買・現金預金・債権債務・固定資産・決算整理の5分野を、実際の取引文から正しい仕訳を選ぶ形式で反復演習できるドリルアプリ。
+category: app
+draft: false
+toc: true
+appId: 'boki-shiwake-drill'
+knowledge:
+  type: app
+  examId: boki
+persona: '日商簿記3級の仕訳を反復演習で体に染み込ませたい学習者'
+tags:
+  - 日商簿記
+  - 簿記3級
+  - 仕訳
+  - CBT
+  - SyllabusHack
+metadata:
+  description: 日商簿記3級の仕訳を分野別に反復演習できる無料ドリルアプリ。取引文から借方貸方を選ぶ形式でAI解説付き。
+---
+
+import QuizApp from '~/apps/boki-shiwake-drill/QuizApp';
+import '~/apps/boki-shiwake-drill/quiz.css';
+import questions from '~/data/master/questions-boki.json';
+
+## 仕訳は「暗記」ではなく「反復による回路化」
+
+日商簿記3級のつまずきの大半は、勘定科目の意味が分からないことではなく、<strong>取引文を読んでから借方・貸方を判断するまでの反応速度</strong>が遅いことにある。
+
+このドリルは、商品売買・現金預金・債権債務・固定資産・決算整理の5分野について、実際の取引文から4つの仕訳候補を選ぶ形式で出題する。不正解の選択肢には「貸借を逆にした」「似た勘定科目に置き換えた」といった典型的な引っかけを混ぜてあるため、うっかりミスのパターンを潰す練習にもなる。
+
+### AI活用で理解を深める
+
+解答直後に表示される「深掘りプロンプトをコピー」ボタンから、その仕訳の借方・貸方の理由をAIに詳しく聞くことができる。特に決算整理仕訳（前受収益・未払費用・貸倒引当金など）は一度の解説では腹落ちしにくいため、AIに「なぜこの勘定科目を使うのか」を繰り返し質問しながら定着させるとよい。
+
+---
+
+## 仕訳ドリル（分野別・全問シャッフル対応）
+
+<QuizApp client:load questions={questions} examId="boki" examName="日商簿記3級" />
+
+---
+
+## 次のステップ
+
+仕訳の反応速度が上がってきたら、[日商簿記2・3級 完全攻略ガイド](/method/boki-hub/)で全体の学習ロードマップとCBT試験本番の時間配分戦略を確認しよう。工業簿記・原価計算でつまずいている場合は[工業簿記が分からないを解決するAIハック](/method/boki-genka-keisan-wakaranai-hack/)も参考になる。

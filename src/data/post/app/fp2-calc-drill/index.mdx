@@ -1,0 +1,49 @@
+---
+publishDate: 2026-07-10T00:00:00Z
+lastmod: 2026-07-10
+title: FP2級 計算問題ドリル｜6分野の頻出パターンを反復演習するアプリ
+image: ~/assets/images/post/common/app.png
+excerpt: ライフプランニング・リスク管理・金融資産運用・タックスプランニング・不動産・相続の6分野で、頻出の計算パターンを反復演習できるドリルアプリ。
+category: app
+draft: false
+toc: true
+appId: 'fp2-calc-drill'
+knowledge:
+  type: app
+  examId: common
+persona: 'FP2級の計算問題を「公式は覚えたのに解けない」状態から抜け出したい学習者'
+tags:
+  - FP2級
+  - 計算問題
+  - CBT
+  - 6つの係数
+  - SyllabusHack
+metadata:
+  description: FP2級の頻出計算パターンを6分野で反復演習できる無料ドリルアプリ。6つの係数や税額計算をAI解説付きで攻略。
+---
+
+import QuizApp from '~/apps/fp2-calc-drill/QuizApp';
+import '~/apps/fp2-calc-drill/quiz.css';
+import questions from '~/data/master/questions-fp2.json';
+
+## 計算問題は「公式暗記」ではなく「使い分けの練習」
+
+FP2級の計算問題でつまずく人の多くは、公式そのものを知らないのではなく、<strong>6つの係数のどれを使えばいいか</strong>や、<strong>建蔽率と容積率のどちらを使う場面か</strong>といった「使い分け」の判断で止まっている。
+
+このドリルはライフプランニング・リスク管理・金融資産運用・タックスプランニング・不動産・相続の6分野から、実際の試験で問われる計算パターンをそのまま出題形式にしている。1問ごとに計算式と使い分けの理由を解説するので、暗記ではなく「なぜこの式を使うのか」を積み上げていける。
+
+### AI活用のコツ
+
+間違えた計算問題は、AIに「この計算パターンに似た別の分野の計算はある？」と聞いてみるとよい。例えば必要保障額の考え方（支出見込み－収入見込み）は、事業の資金繰り計算にも似た構造があり、横断的に理解すると忘れにくくなる。
+
+---
+
+## 計算問題ドリル（分野別・全問シャッフル対応）
+
+<QuizApp client:load questions={questions} examId="fp2" examName="FP2級 計算問題" />
+
+---
+
+## 次のステップ
+
+計算問題の型が身についたら、[FP2級完全攻略ガイド](/method/fp-hub/)でCBT試験全体の学習ロードマップを確認しよう。タックスプランニングの暗記に苦戦している場合は[タックスプランニングで心が折れる人のためのAIハック](/method/fp-tax-planning-calc-hack/)も参考になる。

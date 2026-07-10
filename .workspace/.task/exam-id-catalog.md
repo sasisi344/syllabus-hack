@@ -54,6 +54,7 @@ knowledge:
 | `kiken-butsu` | 危険物取扱者（乙4等） | `method/kiken-butsu-hub` | |
 | `biru-kanri` | ビル管理クラスター（ビル管理士・マンション管理士・エネルギー管理士） | `method/biru-kanri-hub` | 複数資格クラスター |
 | `doboku-sekou` | 土木施工管理技士（1級・2級） | `method/doboku-sekou-hub` | 級あり資格 |
+| `chiteki-zaisan` | 知的財産管理技能検定（知財検定、1〜3級） | `method/chiteki-zaisan-hub` | 2026-07-10追加。級あり資格 |
 
 ### 汎用・横断
 
@@ -68,7 +69,7 @@ knowledge:
 ```
 ip, sg, fe, ap, st, sa, pm, nw, db, es, sm, au, sc,
 common, g-kentei, ds-kentei, ccna,
-denken, boki, takken, mos, kiken-butsu, biru-kanri, doboku-sekou
+denken, boki, takken, mos, kiken-butsu, biru-kanri, doboku-sekou, chiteki-zaisan
 ```
 
 ---
@@ -89,7 +90,6 @@ denken, boki, takken, mos, kiken-butsu, biru-kanri, doboku-sekou
 | 想定スラッグ（案） | 資格・クラスター | 状態 |
 | --- | --- | --- |
 | `toeic`（案） | TOEIC L&R | TODO: Hub未作成・KW DBあり（`cert-keyword-db/toeic-kw-db.md`） |
-| `chiteki-zaisan`（案） | 知的財産管理技能士 | TODO: Hub未作成 |
 | `fp`（案） | ファイナンシャルプランナー | TODO: examId未登録（既存 `fp-hub` は `common` を使用） |
 | `aws`（案） | AWS認定（SAA等） | TODO: examId未登録（既存 `aws-hub` は `common` を使用） |
 | `boiler-refrigeration`（案） | ボイラー技士・冷凍機械責任者 | TODO: Hub未作成 |

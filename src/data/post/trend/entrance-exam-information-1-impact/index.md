@@ -5,7 +5,7 @@ description: '2025年度からの大学入学共通テストにおける「情�
 publishDate: 2026-02-17T00:00:00Z
 lastmod: 2026-07-10
 category: 'trend'
-tags: ['情報Ⅰ', '大学入試', 'ITパスポート', 'ITリテラシー', '共通テスト']
+tags: ['情報I', '大学入試', 'ITパスポート', 'ITリテラシー', '共通テスト']
 draft: false
 toc: true
 metadata:

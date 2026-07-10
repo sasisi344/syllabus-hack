@@ -5,7 +5,7 @@ title: '【科目B攻略】基本情報の「疑似言語」をAIで動くコー
 excerpt: '基本情報技術者（FE）最大の壁「科目B・疑似言語」。紙の上だけで悩むのはもう終わりです。生成AIを使い、疑似言語をその場で実行可能なコードに変換して、ロジックを体感で理解する新時代の学習法。'
 persona: '科目Bのアルゴリズム問題で挫折しかけているFE受験者'
 category: method
-tags: ['基本情報技術者', '科目B', 'ChatGPT', 'Gemini', '疑似言語']
+tags: ['基本情報技術者', '科目B', 'ChatGPT', 'Gemini', '擬似言語']
 image: ~/data/post/method/common-cover.png
 knowledge:
   examId: fe
