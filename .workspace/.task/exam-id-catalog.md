@@ -56,6 +56,7 @@ knowledge:
 | `doboku-sekou` | 土木施工管理技士（1級・2級） | `method/doboku-sekou-hub` | 級あり資格 |
 | `chiteki-zaisan` | 知的財産管理技能検定（知財検定、1〜3級） | `method/chiteki-zaisan-hub` | 2026-07-10追加。級あり資格 |
 | `boiler-refrigeration` | ボイラー技士・冷凍機械責任者クラスター | `method/boiler-refrigeration-hub` | 2026-07-10追加。複数資格クラスター |
+| `shobo-setsubi` | 消防設備士（乙6・乙4中心、甲種含む） | `method/shobo-setsubi-hub` | 2026-07-12追加。類あり資格・ビルメン系クラスター |
 | `fp` | ファイナンシャル・プランニング技能検定（FP） | `method/fp-hub` | 2026-07-11追加。旧`common`扱いから独立（WP05 J-2）。級あり資格（FP2級記事が中心） |
 | `aws` | AWS認定資格クラスター（CLF・SAA・ANS等） | `method/aws-hub` | 2026-07-11追加。旧`common`扱いから独立（WP05 J-2）。複数資格クラスター |
 
@@ -73,7 +74,7 @@ knowledge:
 ip, sg, fe, ap, st, sa, pm, nw, db, es, sm, au, sc,
 common, g-kentei, ds-kentei, ccna,
 denken, boki, takken, mos, kiken-butsu, biru-kanri, doboku-sekou,
-chiteki-zaisan, boiler-refrigeration, fp, aws
+chiteki-zaisan, boiler-refrigeration, shobo-setsubi, fp, aws
 ```
 
 ---

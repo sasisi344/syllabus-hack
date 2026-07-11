@@ -32,7 +32,7 @@
 - [x] 本番URLでスラッシュなし→ありのリダイレクトを実査 → 3/4は正常301
 - [x] 301でない（404）だった `prompt-engineering-basics` の原因調査 → netlify.tomlの死んだリダイレクト設定と判明
 - [x] `astro.config.ts` の `redirects` に不足分（3件）を移植し `pnpm build` で確認
-- [ ] **要ユーザー確認**: `netlify.toml` の `[[redirects]]` ブロック（L16-30, `/term/*` ワイルドカード含む）は本番で機能していないため実質死んでいる。ホスティングがNetlifyでなくなった経緯を把握しているか
+- [x] **要ユーザー確認** → 回答済み（2026-07-12）: ホスティングは**Xserverへのdist静的アップロード**で特殊な処理なしと確認。死んだ `[[redirects]]` ブロックは削除し、ファイル冒頭に「本番では機能しない・リダイレクト正本はastro.config.ts」の注記を追加
 - [x] 完了条件: 非正規URL4件のレスポンスコード記録＋必要な修正完了（コミット待ち）
 
 **追補（2026-07-11・レポート§8-1）**: ユーザー提供のGSC累積エクスポート（ページ.csv）で全量棚卸しが完了し、**より深刻なプレフィックス欠落バグを発見・修正**。
@@ -125,22 +125,22 @@ T1/T3/T4 の結果を見てから着手する第二弾。
 > [!forAI]
 > Bingはすでに登録済ではある。GSCより表示回数は多いがクリック率は2.7%とほぼ同じくらいかそれ以上。bingのデータは[.workspace\.task\access-data\2026\w28\syllabushack.com_SearchPerformanceOverview_All_7_11_2026.csv]にアウトプット済。
 
-## T8: カテゴリページのtitle・description刷新（theory以外）【優先度: 中・技術/編集・2026-07-11追加】
+## T8: カテゴリページのtitle・description刷新（theory以外）【✅完了 2026-07-11】
 
 根拠: レポート§6-3。W28に `/category/trend/2/` が順位10でGSC初露出したが、カテゴリページのtitleは theory 以外 `Category 'トレンド・試験情報'` 形式（英語混じり）のまま。descriptionも theory/app 以外空。site-check0710 では theory のみ日本語化済みで、trend/method/career/app が未対応。
 
-- [ ] `src/pages/[...blog]/[category]/[...page].astro` の title 生成を全カテゴリ日本語のSEO titleに変更（例: trend →「IT資格の試験情報・シラバス改訂まとめ」、method →「AI活用の資格学習メソッド一覧」等。30〜40文字目安）
-- [ ] trend / method / career の description を追加（120〜160文字）
-- [ ] `pnpm build` でタイトル出力を確認
-- [ ] 完了条件: 全5カテゴリのtitle/descriptionが日本語で出力され、W30以降のGSCでカテゴリページのCTR/順位を確認
+- [x] `src/pages/[...blog]/[category]/[...page].astro` に `CATEGORY_SEO` マップを新設し、全5カテゴリの title を日本語SEO titleに統一（trend「IT資格の試験情報・シラバス改訂まとめ」／method「AIで資格試験を攻略する学習メソッド一覧」／career「資格を活かすキャリア戦略・転職ガイド」／app「資格試験対策の無料クイズ・学習アプリ」／theory 既存踏襲）
+- [x] 全5カテゴリの description を120〜160字で整備（appは旧30字→拡充）
+- [x] `pnpm build` で dist の `<title>` 出力を4カテゴリ分確認
+- [ ] 完了条件の後半（W30以降のGSCでカテゴリページのCTR/順位確認）はT6に引き継ぎ
 
 ## T9: CTR改善 第二弾 — 累積データで可視化された高順位ゼロクリックページ【優先度: 高・2026-07-11追加】
 
 根拠: レポート§8-4。週次データでは埋もれていたが、累積では順位5前後・表示多数・クリックゼロのページが判明。T1と同じ手法で対応するが、**必ず実クエリデータで既得クエリを確認してからタイトルを動かす**（§8-2の教訓）。
 
-- [ ] `/trend/typing-speed-60wpa/`（表示59・順位5.56・CTR 0%）: クエリ「itパスポート 試験 タイピング 必要か」系。タイトル・meta再設計
-- [ ] `/method/ap-pm-descriptive-ai-prompts/`（表示48・順位8.58・CTR 0%）: 「応用情報 午後 記述式」クラスタ（計26表示・順位約8）。タイトル・meta再設計
-- [ ] `/career/ap-salary-impact/`（表示37・順位4.97・CTR 0%）: 該当クエリ未特定のため、次回クエリデータで特定してから着手
+- [x] `/trend/typing-speed-60wpa/`（表示59・順位5.56・CTR 0%）: SERP実査の結果、質問形クエリに正面回答するページが上位に不在と確認。タイトルを「ITパスポート試験にタイピングは必要か？CBTで求められる速度の目安」へ変更（既得語「タイピング」維持＋クエリ主語「ITパスポート」を追加）。descriptionは答えの先出し型に刷新。本文の文字化け4箇所も修正（2026-07-11）
+- [x] `/method/ap-pm-descriptive-ai-prompts/`（表示48・順位8.58・CTR 0%）: クエリ群の主語が「応用情報」なのにタイトル先頭が「IPA高度試験」だったため、「応用情報の午後・記述式をAIで対策するプロンプト集｜添削と類題演習」へ変更（既得語「午後」「記述式」維持）。descriptionにSERP検証済みの検索意図（添削・類題）を明示（2026-07-11）
+- [ ] `/career/ap-salary-impact/`（表示37・順位4.97・CTR 0%）: 該当クエリ未特定のため保留。次回のページ×クエリ形式データで特定してから着手（`pending-decisions-0711.md` Q6）
 - [ ] 検討: 「基本情報技術者試験 シラバス 2026」（表示100・サイト最大クエリ）専用のFEシラバス解説記事の新設。cbt-guideのタイトル復元（§8-2）の効果をW30で見てから判断。新設する場合は `.agents/kw_pattern_research.md` 経由でKW-DB整備から
 - [ ] 完了条件: 上記2ページのタイトル・meta刷新＋リライト2週後のCTR判定
 
@@ -157,8 +157,8 @@ T1/T3/T4 の結果を見てから着手する第二弾。
 | T5 デッドゾーンリライト | 未着手 | — | W30以降着手 | T1/T3の結果待ち。第二ティア（30位超層）を追加（§6-5・§8-5） |
 | T6 週次検証 | 継続中 | 2026-07-11 | 毎週 | 追加KPI: Google経由エンゲージ済みセッション。K-3クローズ。Bing定点観測を追加 |
 | T7 非Googleチャネル整備 | ✅ほぼ完了 | 2026-07-11 | W30 | Bing登録済み・クエリ/ページCSV供給開始を確認（§8-6）。残タスクはBingエクスポートの週次化と定点観測 |
-| T8 カテゴリページtitle刷新 | 未着手 | — | W30 | theory以外の4カテゴリが `Category 'X'` 形式のまま |
-| T9 CTR改善第二弾 | 未着手 | — | 着手2週後 | typing-speed-60wpa（順位5.56・CTR0%）・ap-pm-descriptive-ai-prompts ほか（§8-4） |
+| T8 カテゴリページtitle刷新 | ✅完了（判定待ち） | 2026-07-11 | W30 | 全5カテゴリのSEO title/description整備・ビルド検証済み |
+| T9 CTR改善第二弾 | 🔶2/3完了 | 2026-07-11 | 着手2週後 | typing-speed-60wpa・ap-pm-descriptive-ai-prompts刷新済み。ap-salary-impactはクエリ特定待ち |
 
 **本セッションでの変更ファイル（コミット待ち）**:
 `astro.config.ts`（リダイレクト全量修正） / `src/data/post/method/{cbt-2026-syllabus-complete-guide,doboku-sekou-hub,new-ipa-exam-study-strategy,practice-guide-ipa}/index.md` / `src/data/post/trend/ipa-2026-cbt-schedule-guide/index.md` / `src/data/post/app/it-passport-quiz/index.mdx` ／ 新規: `w28-analysis-report.md` / `w28-tasks.md` / `nw-cluster-expansion-requirement.md`

@@ -100,6 +100,7 @@ const postCollection = defineCollection({
               'doboku-sekou',
               'chiteki-zaisan',
               'boiler-refrigeration',
+              'shobo-setsubi',
               'fp',
               'aws',
             ])

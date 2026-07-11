@@ -24,13 +24,40 @@ const isGlossaryCategory = category.slug === 'theory';
 const appPosts = isAppCategory ? page.data.filter((post) => post.knowledge?.type === 'app') : [];
 const storyPosts = isAppCategory ? page.data.filter((post) => post.knowledge?.type !== 'app') : page.data;
 
-const description = isGlossaryCategory 
-  ? 'ITパスポート・基本情報などの試験頻出語句を、図解とAI活用法を交えて分かりやすく解説。シラバスに準拠した最新の用語集です。'
-  : (isAppCategory ? '開発した学習補助ツールや、技術的な裏側を公開。' : '');
+// カテゴリ別SEO title / description（2026-07-11 w28-site-verifi T8: 旧 `Category 'X'` 形式を全廃）
+const CATEGORY_SEO: Record<string, { title: string; description: string }> = {
+  trend: {
+    title: 'IT資格の試験情報・シラバス改訂まとめ',
+    description:
+      'ITパスポート・基本情報・応用情報などIPA試験のCBT移行・シラバス改訂・試験日程の最新情報を解説。生成AI時代の資格トレンドをいち早くキャッチアップできます。',
+  },
+  method: {
+    title: 'AIで資格試験を攻略する学習メソッド一覧',
+    description:
+      '生成AI（ChatGPT・Gemini・NotebookLM）を活用した資格試験の学習メソッドを紹介。暗記に頼らず最短で合格するためのシラバスハック手法をまとめています。',
+  },
+  career: {
+    title: '資格を活かすキャリア戦略・転職ガイド',
+    description:
+      'IT資格・ビジネス資格を取得した後のキャリア戦略を解説。転職・年収アップ・独立・資格手当など、資格を実際の市場価値につなげる方法を紹介します。',
+  },
+  app: {
+    title: '資格試験対策の無料クイズ・学習アプリ',
+    description:
+      'CBTシミュレーター・一問一答クイズなど、資格試験対策の無料ウェブアプリを公開。ブラウザだけで過去問演習・模擬試験・弱点チェックができます。',
+  },
+  theory: {
+    title: 'IT試験用語解説・用語集',
+    description:
+      'ITパスポート・基本情報などの試験頻出語句を、図解とAI活用法を交えて分かりやすく解説。シラバスに準拠した最新の用語集です。',
+  },
+};
+
+const seo = CATEGORY_SEO[category.slug] ?? { title: category.title, description: '' };
 
 const metadata = {
-  title: isGlossaryCategory ? `IT試験用語解説・用語集 ${currentPage > 1 ? ` — Page ${currentPage}` : ''}` : `Category '${category.title}' ${currentPage > 1 ? ` — Page ${currentPage}` : ''}`,
-  description: description,
+  title: `${seo.title}${currentPage > 1 ? ` — Page ${currentPage}` : ''}`,
+  description: seo.description,
   robots: {
     index: blogCategoryRobots?.index,
     follow: blogCategoryRobots?.follow,

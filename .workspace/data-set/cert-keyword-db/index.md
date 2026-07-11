@@ -22,8 +22,8 @@
 | `takken` | 宅地建物取引士（宅建） | [takken-kw-db.md](./takken-kw-db.md) | `method/takken-hub` | Hubのみ・スポーク未着手 |
 | `boki` | 日商簿記（2・3級中心） | [boki-kw-db.md](./boki-kw-db.md) | `method/boki-hub` | Hubのみ |
 | `mos` | Microsoft Office Specialist | [mos-kw-db.md](./mos-kw-db.md) | `method/mos-hub` | Hub + Method + Career あり |
-| `common`※ | FP2級（※専用 `fp` 未登録） | [fp-kw-db.md](./fp-kw-db.md) | `method/fp-hub` | Hub + Method 一部 |
-| `common`※ | AWS認定（SAA等）+ CCNAクラスター | [aws-kw-db.md](./aws-kw-db.md) | `method/aws-hub` | Hub + 少数スポーク |
+| `fp` | FP2級（2026-07-11 examId独立済み） | [fp-kw-db.md](./fp-kw-db.md) | `method/fp-hub` | Hub + Method 一部 |
+| `aws` | AWS認定（SAA等）+ CCNAクラスター（2026-07-11 examId独立済み） | [aws-kw-db.md](./aws-kw-db.md) | `method/aws-hub` | Hub + 少数スポーク |
 | `toeic`（予定） | TOEIC L&R | [toeic-kw-db.md](./toeic-kw-db.md) | **未作成** | 全面未着手 |
 | `denken` | 電験三種（第三種電気主任技術者） | [denken-kw-db.md](./denken-kw-db.md) | `method/denken-hub` | Hubのみ・スポーク未着手（波3） |
 | `kiken-butsu` | 危険物取扱者（乙4等） | [kiken-butsu-kw-db.md](./kiken-butsu-kw-db.md) | `method/kiken-butsu-hub` | Hubのみ・スポーク未着手（波3） |
@@ -31,8 +31,11 @@
 | `doboku-sekou` | 土木施工管理技士（1級・2級） | [doboku-sekou-kw-db.md](./doboku-sekou-kw-db.md) | `method/doboku-sekou-hub` | Hubのみ・スポーク未着手（波3） |
 | `chiteki-zaisan` | 知的財産管理技能検定（知財検定、1〜3級） | [chiteki-zaisan-kw-db.md](./chiteki-zaisan-kw-db.md) | `method/chiteki-zaisan-hub` | Hubのみ・スポーク未着手（2026-07-10新設） |
 | `boiler-refrigeration` | ボイラー技士・冷凍機械責任者 | [boiler-refrigeration-kw-db.md](./boiler-refrigeration-kw-db.md) | `method/boiler-refrigeration-hub` | Hubのみ・スポーク未着手（2026-07-10新設） |
+| `shobo-setsubi` | 消防設備士（乙6・乙4中心） | [shobo-setsubi-kw-db.md](./shobo-setsubi-kw-db.md) | `method/shobo-setsubi-hub` | Hub公開済み・スポーク未着手（2026-07-12） |
+| `nw` | ネットワークスペシャリスト | [nw-kw-db.md](./nw-kw-db.md) | 親ハブ `method/advanced-ipa-hub`（NW単独Hubなし） | エース記事 nw-mermaid-hack＋スポーク nw-kakomon-ai-hack 公開済み（2026-07-12新設） |
+| `fintech-it`（予定） | 金融IT検定 | [fintech-it-kw-db.md](./fintech-it-kw-db.md) | **未作成**（段階戦略: trend記事→反応見てクラスター化） | KW-DB＋リサーチ完了（2026-07-12。materials: `data-set/fintech-it-research.md`） |
 
-※ FP・AWS は現状 `examId: common`。Hub作成時に `fp` / `aws` 等の専用スラッグ追加を検討（[exam-id-catalog.md](../../.task/exam-id-catalog.md) 参照）。
+※ examId の正本は [exam-id-catalog.md](../../.task/exam-id-catalog.md) と `src/content/config.ts` の enum。
 
 ---
 
@@ -43,9 +46,11 @@
 | 宅建、宅地建物取引士、権利関係、宅建業法 | `takken` | 民法・業法・法令制限の3本柱 |
 | 簿記、日商簿記、仕訳、工業簿記、原価計算 | `boki` | 1〜初級含むがサイトは2・3級中心 |
 | MOS、Excel資格、Word資格、MOS Master | `mos` | Microsoft公式のパフォーマンス試験 |
-| FP、FP2級、FP3級、AFP、ファイナンシャルプランナー | `common`（→`fp`案） | きんざい / 日本FP協会の2団体 |
-| AWS、SAA、ソリューションアーキテクト、クラウド資格 | `common`（→`aws`案） | CCNA・LPICとクラスター |
+| FP、FP2級、FP3級、AFP、ファイナンシャルプランナー | `fp` | きんざい / 日本FP協会の2団体 |
+| AWS、SAA、ソリューションアーキテクト、クラウド資格 | `aws` | CCNA・LPICとクラスター |
 | TOEIC、英語資格、リスニング、リーディング | `toeic`（未登録） | AI音声活用に差別化 |
+| 消防設備士、乙6、乙4、消火器、鑑別、ビルメン | `shobo-setsubi` | 実技（鑑別・記述式）×AI添削に差別化 |
+| 金融IT検定、勘定系、全銀ネット、フィンテック資格 | `fintech-it`（未登録） | 過去問ゼロ→シラバス用語×AI対話学習に差別化 |
 
 ---
 
@@ -68,11 +73,11 @@
 | --- | --- |
 | `.agents/cert_keyword_db.md` | 本DBの参照手順（スキル定義） |
 | `.workspace/.task/exam-id-catalog.md` | examId 正本カタログ |
-| `.workspace/.task/restructure-plan-2026-06.md` | クラスター充足率・Phase 2 優先度 |
+| `.workspace/.task/task-archieve/restructure-plan-2026-06.md` | クラスター充足率・Phase 2 優先度（アーカイブ済み） |
 | `.agents/cert_hub_template.md` | Hub記事構成テンプレート |
 | `.agents/tag_rules.md` | タグ正規名（拡張候補あり） |
 
 ---
 
-**最終更新**: 2026-06-18  
-**次回リサーチ候補**: GSCクエリCSVとの突合（`data-set/GSC-query-data-*.csv`）、TOEIC Hub 新設、FP/AWS の examId 独立
+**最終更新**: 2026-07-12（shobo-setsubi Hub公開・nw/fintech-it KW-DB新設を反映）  
+**次回リサーチ候補**: 消防設備士スポーク2本（鑑別×AI／落ちた原因）、金融IT検定 第1弾trend記事、TOEIC Hub 新設（ユーザー判断待ち）、GSCクエリCSVとの突合

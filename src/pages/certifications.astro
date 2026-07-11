@@ -1,0 +1,48 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import Headline from '~/components/blog/Headline.astro';
+import { certGroups } from '~/data/cert-hubs';
+
+const metadata = {
+  title: '資格から探す｜取扱資格の完全攻略ガイド一覧',
+  description:
+    'Syllabus Hackが扱う資格の攻略ガイド一覧。ITパスポート・基本情報・応用情報などのIPA試験から、簿記・FP・宅建・電験三種・危険物まで、生成AIを活用した学習ロードマップへ資格名からジャンプできます。',
+};
+---
+
+<Layout metadata={metadata}>
+  <section class="px-4 md:px-6 py-12 sm:py-16 lg:py-20 mx-auto max-w-4xl">
+    <Headline>資格から探す</Headline>
+    <p class="text-muted dark:text-slate-400 text-center mb-12">
+      学びたい資格を選ぶと、その資格の完全攻略ガイド（Hub記事）へ移動します。
+    </p>
+
+    {
+      certGroups.map((group) => (
+        <div class="mb-12">
+          <h2 class="text-2xl font-bold mb-6 border-b-2 border-primary pb-2 dark:text-blue-400">{group.title}</h2>
+          <div class="grid gap-4 sm:grid-cols-2">
+            {group.items.map((item) => (
+              <a
+                href={item.href}
+                class="block p-4 rounded-lg border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-900 hover:border-primary dark:hover:border-blue-400 hover:shadow-md transition"
+              >
+                <span class="font-bold text-lg dark:text-slate-100">{item.name}</span>
+                <p class="text-sm text-muted dark:text-slate-400 mt-1">{item.description}</p>
+              </a>
+            ))}
+          </div>
+        </div>
+      ))
+    }
+
+    <div class="mt-8 p-6 bg-blue-50 dark:bg-slate-800 rounded-lg border-l-4 border-primary">
+      <p class="text-muted dark:text-slate-300">
+        目当ての資格が見つからない場合は、<a href="/category/method/" class="text-primary dark:text-blue-400 underline"
+          >学習メソッド一覧</a
+        >または<a href="/category/theory/" class="text-primary dark:text-blue-400 underline">用語解説</a
+        >から探せます。新しい資格のガイドも順次追加中です。
+      </p>
+    </div>
+  </section>
+</Layout>

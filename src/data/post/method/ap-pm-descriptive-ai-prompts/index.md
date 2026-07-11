@@ -1,7 +1,7 @@
 ---
 publishDate: 2026-02-23T00:00:00Z
-lastmod: 2026-07-10
-title: 'IPA高度試験の午後問題をAIで突破するプロンプト集（記述式・試験対策）'
+lastmod: 2026-07-12
+title: '応用情報の午後・記述式をAIで対策するプロンプト集｜添削と類題演習'
 excerpt: '応用情報・PM・SAなどIPAのLevel4試験に共通する午後の記述問題。高価なテキストでも例題は数問程度で尽きがちなので、生成AIに出題範囲を学習させて添削・類題まで回す学習手順と、ChatGPT・Gemini・Claude共通のプロンプト集。'
 image: ~/data/post/method/common-cover.png
 category: method
@@ -16,7 +16,7 @@ knowledge:
   examId: common
   difficulty: intermediate
 metadata:
-  description: IPA高度試験（応用情報・プロジェクトマネージャ・システムアーキテクト等）の午後記述問題を、ChatGPT・Gemini・Claudeで突破する学習プロンプト集。無料枠での出題・添削の考え方、長文PDF向けの運用も解説。
+  description: 応用情報技術者試験や高度試験（プロジェクトマネージャ・システムアーキテクト等）の午後・記述式問題を、ChatGPT・Gemini・Claudeで対策する学習プロンプト集。記述解答をAIに添削させる手順や類題生成、無料枠・長文PDFでの運用まで解説します。
 ---
 
 ## IPA高度試験の午後問題とは

@@ -5,6 +5,14 @@ description: Rules for generating article cover images. Design spec and placemen
 
 # 画像作成ルール（Image Creation Rules）
 
+## 0. 共通カバーの運用方針（2026-07-12 ユーザー決定）
+
+**既存記事の共通カバー（`common-cover.png`）流用は意図的なコスト設計であり、一括で個別カバーに置き換えない。**
+
+- theory カテゴリ: `theory/common-cover.png` を共通利用（従来どおり・個別生成不要）
+- method / trend / career の一部・アプリ記事: ジャンル単位で共通カバーを使うことでコストダウンを図っている。**「共通カバー＝画像がない」ではない**ので、監査で個別化対象として一括起票しないこと
+- 個別カバーの生成は、新規記事の公開時などにユーザーの明示的な指示がある場合のみ行う
+
 ## 1. ファイル仕様
 
 - **ファイル名**: `cover.jpg`（原則）

@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-06-15T00:00:00Z
-lastmod: 2026-07-10
+lastmod: 2026-07-12
 title: 'ビル管理クラスター完全攻略｜ビル管理士・マンション管理士・エネルギー管理士をAI講師で攻める'
 excerpt: 'ビル管理士・マンション管理士・エネルギー管理士の3資格を徹底比較。難易度・必要時間・キャリアの違いを整理し、AIを専任講師にしてロードマップ・弱点補強プランを作る手順をまとめた。'
 image: '~/data/post/method/biru-kanri-hub/cover.jpg'
@@ -198,4 +198,4 @@ AIは「詰まって立ち止まる時間」をゼロにする講師であり、
 
 学生や実務未経験の人は、まず受験資格が不要な<a href="/method/manshon-energy-student-hack/">マンション管理士・エネルギー管理士は学生でも受験できる</a>から検討してほしい。ビル管理士を目指す場合は、<a href="/career/biru-kanri-jitsumu-keiken-roadmap/">実務経験2年を最短で満たすロードマップ</a>で就職先の選び方から解説している。
 
-設備管理の基礎資格として、<a href="/method/boiler-refrigeration-hub/">ボイラー技士・冷凍機械責任者 完全攻略ガイド</a>も組み合わせておきたい。
+設備管理の基礎資格として、<a href="/method/boiler-refrigeration-hub/">ボイラー技士・冷凍機械責任者 完全攻略ガイド</a>や、法定点検需要が安定している<a href="/method/shobo-setsubi-hub/">消防設備士 完全攻略ガイド</a>も組み合わせておきたい。

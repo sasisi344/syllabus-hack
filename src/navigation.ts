@@ -1,7 +1,15 @@
 import { getPermalink, getBlogPermalink, getAsset } from './utils/permalinks';
+import { headerCertLinks } from './data/cert-hubs';
 
 export const headerData = {
   links: [
+    {
+      text: '資格から探す',
+      links: [
+        ...headerCertLinks.map(({ name, href }) => ({ text: name, href })),
+        { text: 'すべての資格一覧 →', href: getPermalink('/certifications') },
+      ],
+    },
     {
       text: 'トレンド',
       href: getPermalink('trend', 'category'),
@@ -31,6 +39,7 @@ export const footerData = {
     {
       title: 'コンテンツ',
       links: [
+        { text: '資格から探す', href: getPermalink('/certifications') },
         { text: 'トレンド', href: getPermalink('trend', 'category') },
         { text: '学習メソッド', href: getPermalink('method', 'category') },
         { text: 'キャリア戦略', href: getPermalink('career', 'category') },

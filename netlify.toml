@@ -1,3 +1,5 @@
+# 注意: 本番ホスティングは Xserver（dist を静的アップロードのみ）であり、本ファイルは本番では機能しない。
+# リダイレクトは astro.config.ts の redirects（静的meta-refreshページ生成）が正本（2026-07-12 整理、w28-site-verifi T3）。
 [build]
   publish = "dist"
   command = "pnpm run build"
@@ -12,19 +14,3 @@
   [headers.values]
     Content-Type = "application/xml; charset=utf-8"
     Cache-Control = "public, max-age=3600"
-
-# theory カテゴリ移行・スラッグ重複解消（2026-06-18）
-[[redirects]]
-  from = "/term/*"
-  to = "/theory/:splat"
-  status = 301
-
-[[redirects]]
-  from = "/trend/prompt-engineering-basics"
-  to = "/theory/prompt-engineering-basics"
-  status = 301
-
-[[redirects]]
-  from = "/trend/prompt-engineering-basics/"
-  to = "/theory/prompt-engineering-basics/"
-  status = 301
