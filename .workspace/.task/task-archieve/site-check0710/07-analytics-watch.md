@@ -1,5 +1,7 @@
 # WP07 — GSC/GA4 効果検証（データ依存・実行はデータ提供後）
 
+> **クローズ（2026-07-11）**: K-1〜K-5 は `.workspace/.task/w28-site-verifi/w28-analysis-report.md` §3 で全件回答済み。後継の週次検証は w28-site-verifi/w28-tasks.md T6 が引き継ぐ。
+
 出典: TODO.md K / weekly-task.md Act / w25-actionplan（アーカイブ済み）
 
 > **前提**: GSC・GA4 の生データはユーザーが `access-data/2026/` に格納する運用。新しい週次データが届くまで本WPは待機。エージェントが勝手に外部アカウントへアクセスしない。

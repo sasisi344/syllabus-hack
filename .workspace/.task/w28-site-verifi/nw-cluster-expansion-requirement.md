@@ -1,6 +1,6 @@
 # NWクラスター拡充 — 要件定義（候補3案）
 
-出典: `.workspace/.task/site-check0710/07-analytics-watch.md` K-1（`nw-mermaid-hack` のGSC推移確認タスク）
+出典: `.workspace/.task/task-archieve/site-check0710/07-analytics-watch.md` K-1（`nw-mermaid-hack` のGSC推移確認タスク）
 関連スキル: `.agents/kw_pattern_research.md`（P1〜P9パターン）/ `.agents/cert_keyword_db.md` / `.agents/post_writer.md`
 
 > **本ドキュメントのスコープ**: 記事候補の要件定義のみ。記事本文の執筆・下書き作成・画像生成は一切行わない。実行はユーザーレビュー後、別セッションで着手する。
@@ -111,4 +111,4 @@
 
 **Status**: Draft（ユーザーレビュー待ち）
 **作成日**: 2026-07-11
-**関連**: `.workspace/.task/site-check0710/07-analytics-watch.md`（K-1）
+**関連**: `.workspace/.task/task-archieve/site-check0710/07-analytics-watch.md`（K-1）

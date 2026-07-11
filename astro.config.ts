@@ -97,31 +97,55 @@ export default defineConfig({
   site: 'https://syllabushack.com',
 
   redirects: {
+    // 統合リダイレクトの修正 (2026-07-11, w28-site-verifi T3追補):
+    // Googleにインデックスされている旧URLは /method/ プレフィックス付きだが、従来の定義は
+    // ソース・ターゲットともプレフィックス欠落で、実URLは404・生成ページの転送先も404だった。
+    // プレフィックスなしキーも過去の生成ページが参照されている可能性があるため残す（ターゲットのみ修正）。
     // CBT系統合 (2026-06-10): cbt-impact-advanced-exams の固有情報をマージ
-    '/cbt-impact-advanced-exams/': '/cbt-2026-syllabus-complete-guide/',
+    '/cbt-impact-advanced-exams/': '/method/cbt-2026-syllabus-complete-guide/',
+    '/method/cbt-impact-advanced-exams/': '/method/cbt-2026-syllabus-complete-guide/',
+    '/trend/cbt-impact-advanced-exams/': '/method/cbt-2026-syllabus-complete-guide/',
     // グループD: 直前対策統合 (2026-05-30)
-    '/final-checkpoint-100-plus/': '/itp-10-days-panic-hack/',
+    '/final-checkpoint-100-plus/': '/method/itp-10-days-panic-hack/',
+    '/method/final-checkpoint-100-plus/': '/method/itp-10-days-panic-hack/',
     // グループB: NotebookLM統合 (2026-05-30) — 旧redirect先も新ガイドへ転送
-    '/notebooklm-ip-study-hack/': '/notebooklm-features-guide/',
-    '/notebooklm-it-passport-drill/': '/notebooklm-features-guide/',
-    '/notebooklm-flashcard/': '/notebooklm-features-guide/',
-    '/notebooklm-anystudy/': '/notebooklm-features-guide/',
-    '/notebooklm-podcast/': '/notebooklm-features-guide/',
-    '/notebooklm-quiz/': '/notebooklm-features-guide/',
-    '/notebooklm-movie/': '/notebooklm-features-guide/',
-    '/notebooklm-mindmap/': '/notebooklm-features-guide/',
-    '/notebooklm-syllabus-study-method/': '/notebooklm-ai-workflow-guide/',
-    '/notebooklm-100-day-hack/': '/notebooklm-ai-workflow-guide/',
-    '/notebooklm-100days-challenge-hack/': '/notebooklm-ai-workflow-guide/',
+    '/notebooklm-ip-study-hack/': '/method/notebooklm-features-guide/',
+    '/method/notebooklm-ip-study-hack/': '/method/notebooklm-features-guide/',
+    '/notebooklm-it-passport-drill/': '/method/notebooklm-features-guide/',
+    '/method/notebooklm-it-passport-drill/': '/method/notebooklm-features-guide/',
+    '/notebooklm-flashcard/': '/method/notebooklm-features-guide/',
+    '/method/notebooklm-flashcard/': '/method/notebooklm-features-guide/',
+    '/notebooklm-anystudy/': '/method/notebooklm-features-guide/',
+    '/method/notebooklm-anystudy/': '/method/notebooklm-features-guide/',
+    '/notebooklm-podcast/': '/method/notebooklm-features-guide/',
+    '/method/notebooklm-podcast/': '/method/notebooklm-features-guide/',
+    '/notebooklm-quiz/': '/method/notebooklm-features-guide/',
+    '/method/notebooklm-quiz/': '/method/notebooklm-features-guide/',
+    '/notebooklm-movie/': '/method/notebooklm-features-guide/',
+    '/method/notebooklm-movie/': '/method/notebooklm-features-guide/',
+    '/notebooklm-mindmap/': '/method/notebooklm-features-guide/',
+    '/method/notebooklm-mindmap/': '/method/notebooklm-features-guide/',
+    '/notebooklm-syllabus-study-method/': '/method/notebooklm-ai-workflow-guide/',
+    '/method/notebooklm-syllabus-study-method/': '/method/notebooklm-ai-workflow-guide/',
+    '/notebooklm-100-day-hack/': '/method/notebooklm-ai-workflow-guide/',
+    '/method/notebooklm-100-day-hack/': '/method/notebooklm-ai-workflow-guide/',
+    '/notebooklm-100days-challenge-hack/': '/method/notebooklm-ai-workflow-guide/',
+    '/method/notebooklm-100days-challenge-hack/': '/method/notebooklm-ai-workflow-guide/',
     // Gemini統合 (2026-06-03)
-    '/gemini-prompt-collection/': '/gemini-cert-complete/',
-    '/gemini-explanation-template/': '/gemini-cert-complete/',
-    '/gemini-memory-palace-hack/': '/gemini-cert-complete/',
+    '/gemini-prompt-collection/': '/method/gemini-cert-complete/',
+    '/method/gemini-prompt-collection/': '/method/gemini-cert-complete/',
+    '/gemini-explanation-template/': '/method/gemini-cert-complete/',
+    '/method/gemini-explanation-template/': '/method/gemini-cert-complete/',
+    '/gemini-memory-palace-hack/': '/method/gemini-cert-complete/',
+    '/method/gemini-memory-palace-hack/': '/method/gemini-cert-complete/',
     // グループC: 氏名変更統合 (2026-05-30)
-    '/itp-receipt-name-change-hack/': '/itp-name-change-marriage-hack/',
+    '/itp-receipt-name-change-hack/': '/method/itp-name-change-marriage-hack/',
+    '/method/itp-receipt-name-change-hack/': '/method/itp-name-change-marriage-hack/',
     // グループA: スマホ学習統合 (2026-05-30)
-    '/itp-smartphone-only-hack/': '/smartphone-study-guide/',
-    '/gap-time-apps/': '/smartphone-study-guide/',
+    '/itp-smartphone-only-hack/': '/method/smartphone-study-guide/',
+    '/method/itp-smartphone-only-hack/': '/method/smartphone-study-guide/',
+    '/gap-time-apps/': '/method/smartphone-study-guide/',
+    '/method/gap-time-apps/': '/method/smartphone-study-guide/',
     // カテゴリ整理 (2026-05-31): glossary → theory, strategy → theory
     '/category/glossary/': '/category/theory/',
     '/category/glossary/2/': '/category/theory/',
@@ -130,11 +154,26 @@ export default defineConfig({
     '/category/glossary/5/': '/category/theory/',
     '/category/strategy/': '/category/theory/',
     '/category/strategy/2/': '/category/theory/',
-    // term → theory 移行 (2026-06-18): netlify.toml の [[redirects]] は本番(nginx)で機能していないため
-    // GSCに残存インデックスが確認できた slug のみ個別移植 (2026-07-11, w28-site-verifi T3)
+    // term/strategy → theory 移行 (2026-06-18): netlify.toml の [[redirects]] は本番(nginx)で機能していない。
+    // GSC累積エクスポート（2026-07-11 ページ.csv）で表示実績のある旧URLを全量移植 (w28-site-verifi T3追補)
     '/trend/prompt-engineering-basics/': '/theory/prompt-engineering-basics/',
+    '/term/prompt-engineering-basics/': '/theory/prompt-engineering-basics/',
     '/term/sampling-methods-data/': '/theory/sampling-methods-data/',
     '/term/digital-divide-basics/': '/theory/digital-divide-basics/',
+    '/term/standard-deviation-variance/': '/theory/standard-deviation-variance/',
+    '/term/labor-dispatch-act-ses/': '/theory/labor-dispatch-act-ses/',
+    '/term/mean-median-mode-stats/': '/theory/mean-median-mode-stats/',
+    '/term/subcontract-act-it-dev/': '/theory/subcontract-act-it-dev/',
+    '/term/profit-and-loss-statement-pl/': '/theory/profit-and-loss-statement-pl/',
+    '/term/labor-standards-act-36-agreement/': '/theory/labor-standards-act-36-agreement/',
+    '/term/cpu-memory-functions/': '/theory/cpu-memory-functions/',
+    '/term/sets-logical-operations/': '/theory/sets-logical-operations/',
+    '/term/text-mining-nlp/': '/theory/text-mining-nlp/',
+    '/strategy/quality-control-abc-fishbone-scatter/': '/theory/quality-control-abc-fishbone-scatter/',
+    '/strategy/system-development-contracts-ses-outsourcing-risk/': '/theory/system-development-contracts-ses-outsourcing-risk/',
+    '/strategy/data-profitability-dwh-mining-regression/': '/theory/data-profitability-dwh-mining-regression/',
+    '/strategy/business-math-statistics-average-variance-bayes/': '/theory/business-math-statistics-average-variance-bayes/',
+    '/strategy/cloud-service-selection-saas-paas-iaas/': '/theory/cloud-service-selection-saas-paas-iaas/',
   },
   // Explicit so @astrojs/sitemap and prerender see canonical trailing URLs even if integrations order changes
   trailingSlash: 'always',
