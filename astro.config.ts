@@ -130,6 +130,11 @@ export default defineConfig({
     '/category/glossary/5/': '/category/theory/',
     '/category/strategy/': '/category/theory/',
     '/category/strategy/2/': '/category/theory/',
+    // term → theory 移行 (2026-06-18): netlify.toml の [[redirects]] は本番(nginx)で機能していないため
+    // GSCに残存インデックスが確認できた slug のみ個別移植 (2026-07-11, w28-site-verifi T3)
+    '/trend/prompt-engineering-basics/': '/theory/prompt-engineering-basics/',
+    '/term/sampling-methods-data/': '/theory/sampling-methods-data/',
+    '/term/digital-divide-basics/': '/theory/digital-divide-basics/',
   },
   // Explicit so @astrojs/sitemap and prerender see canonical trailing URLs even if integrations order changes
   trailingSlash: 'always',
