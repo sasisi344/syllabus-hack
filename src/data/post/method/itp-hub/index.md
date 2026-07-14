@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-05-31T00:00:00Z
-lastmod: 2026-07-10
+lastmod: 2026-07-14
 title: 'ITパスポート完全攻略ガイド｜AI時代に最初の一手としてこれを選ぶ理由'
 excerpt: 'リスキリング・企業の最低限IT資格化・生成AI時代の入口として注目されるITパスポート。なぜ今この資格なのかという背景から合格手順・関連記事インデックスまで網羅したハブガイドです。'
 image: '~/data/post/method/itp-hub/cover.jpg'
@@ -174,6 +174,7 @@ ITパスポート取得後の活用と次の一手を考えるための記事で
 - [リスキリングは通過点。データで実務を証明するポートフォリオ戦略](/career/reskilling-success-story-it-passport-to-data-scientist/) — 資格を活かす実績の作り方
 - [30代未経験エンジニア転職、ITパスポートは武器になるか](/career/30s-career-change/) — 転職市場での現実的な評価と次のステップ
 - [ITパスポートの次はAWSかFPか](/career/next-step-aws-vs-fp-strategy/) — ITスキルと金融リテラシーの最強キャリアパス
+- [金融IT検定とは？ITパスポートの次に取る価値があるか](/trend/fintech-it-cert-intro/) — 金融機関志望・金融DX担当向けの新しい選択肢
 
 ## 練習アプリ
 

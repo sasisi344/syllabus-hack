@@ -309,3 +309,9 @@ Read(.workspace/data-set/kw-pattern-library.md)
 | `/new-quiz {試験名}`           | examIdカタログ照合→要件定義→スキャフォールド→実装まで展開      |
 | `/quiz-add-questions {examId}` | 既存JSONに問題を追加（重複チェック・ID採番・分野バランス確認） |
 | `/app-audit {app-slug}`        | 規約準拠チェック（LocalStorageキー・型・CSS・レジストリ）      |
+
+### 運用系
+
+| コマンド               | 用途                                                                    |
+| ---------------------- | ----------------------------------------------------------------------- |
+| `/weekly-report {wNN}` | GA4/GSC週次データを分析しPPDCA週報を `w{NN}-weekly-task.md` に書き出す |

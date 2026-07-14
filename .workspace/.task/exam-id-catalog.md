@@ -59,6 +59,7 @@ knowledge:
 | `shobo-setsubi` | 消防設備士（乙6・乙4中心、甲種含む） | `method/shobo-setsubi-hub` | 2026-07-12追加。類あり資格・ビルメン系クラスター |
 | `fp` | ファイナンシャル・プランニング技能検定（FP） | `method/fp-hub` | 2026-07-11追加。旧`common`扱いから独立（WP05 J-2）。級あり資格（FP2級記事が中心） |
 | `aws` | AWS認定資格クラスター（CLF・SAA・ANS等） | `method/aws-hub` | 2026-07-11追加。旧`common`扱いから独立（WP05 J-2）。複数資格クラスター |
+| `fintech-it` | 金融IT検定（FITA主催） | — | 2026-07-14追加。Hub未作成（段階戦略・第1弾trend記事のみ公開。反応次第でHub化） |
 
 ### 汎用・横断
 
@@ -74,7 +75,7 @@ knowledge:
 ip, sg, fe, ap, st, sa, pm, nw, db, es, sm, au, sc,
 common, g-kentei, ds-kentei, ccna,
 denken, boki, takken, mos, kiken-butsu, biru-kanri, doboku-sekou,
-chiteki-zaisan, boiler-refrigeration, shobo-setsubi, fp, aws
+chiteki-zaisan, boiler-refrigeration, shobo-setsubi, fp, aws, fintech-it
 ```
 
 ---

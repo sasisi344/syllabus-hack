@@ -103,6 +103,7 @@ const postCollection = defineCollection({
               'shobo-setsubi',
               'fp',
               'aws',
+              'fintech-it',
             ])
             .optional(),
           exams: z.array(z.string()).optional(),

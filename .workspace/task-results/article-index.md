@@ -1,9 +1,16 @@
 # Syllabus Hack Article Index
 
-Generated on: 2026/7/11 19:54:14
+Generated on: 2026/7/14 17:47:23
 
 | Publish Date | Category | Title | Tags | Path |
 | :--- | :--- | :--- | :--- | :--- |
+| 2026-07-14 | method | 日商PC検定はAI対話学習と相性がいい理由——操作手順ではなく「なぜ」を教わる勉強法 | 日商PC検定, Office操作, 生成AI, ビジネス文書, 独学 | `src/data/post/method/nissho-pc-kentei-ai-hack/index.md` |
+| 2026-07-14 | method | 消防設備士の実技（鑑別）が覚えられないのは暗記法が違うから。AIに連想セットを作らせる攻略法 | 消防設備士, ビルメンテナンス, 生成AI, 実技対策 | `src/data/post/method/shobo-setsubi-kanbetsu-ai-hack/index.md` |
+| 2026-07-14 | method | 消防設備士乙6に落ちた原因は「合計点」では分からない。二重足切り構造をAIで診断する | 消防設備士, ビルメンテナンス, 生成AI, 独学 | `src/data/post/method/shobo-setsubi-otsu6-fail-diagnosis/index.md` |
+| 2026-07-14 | trend | CBT試験を受けられない人はどうする？特別措置試験の対象・申込・配慮内容ガイド | CBT方式, 特別措置試験, ITパスポート, 基本情報技術者, 情報処理技術者試験 | `src/data/post/trend/cbt-tokubetsu-sochi-guide/index.md` |
+| 2026-07-14 | trend | 金融IT検定とは？ITパスポートの次に取る価値があるか一次情報で整理する | 金融IT検定, ITパスポート, リスキリング, 生成AI | `src/data/post/trend/fintech-it-cert-intro/index.md` |
+| 2026-07-12 | method | ネットワークスペシャリスト午後過去問の進め方｜AI×図解で得点力に変える | ネットワークスペシャリスト, ChatGPT, 過去問, 学習法 | `src/data/post/method/nw-kakomon-ai-hack/index.md` |
+| 2026-07-12 | method | 消防設備士 完全攻略ガイド｜乙6から始めて甲種へ届く最短ロードマップ | 消防設備士, ビルメンテナンス, 生成AI, ロードマップ | `src/data/post/method/shobo-setsubi-hub/index.md` |
 | 2026-07-11 | app | AWS資格診断｜3つの質問でCLF・SAA・ANSどれから始めるべきか分かる無料ツール | AWS, AWS SAA, クラウド, 資格診断, SyllabusHack | `src/data/post/app/aws-cert-diagnosis/index.mdx` |
 | 2026-07-10 | app | 日商簿記3級 仕訳ドリル｜取引文から借方貸方を選ぶ反復演習アプリ | 日商簿記, 簿記3級, 仕訳, CBT, SyllabusHack | `src/data/post/app/boki-shiwake-drill/index.mdx` |
 | 2026-07-10 | app | FP2級 計算問題ドリル｜6分野の頻出パターンを反復演習するアプリ | FP2級, 計算問題, CBT, 6つの係数, SyllabusHack | `src/data/post/app/fp2-calc-drill/index.mdx` |
@@ -149,7 +156,7 @@ Generated on: 2026/7/11 19:54:14
 | 2026-04-05 | trend | 【最新】令和8年度の応用・高度試験は11月開始！CBT移行と「科目名変更」の全貌 | 応用情報技術者, 高度試験, 試験制度変更, CBT, 情報処理技術者試験 | `src/data/post/trend/ipa-2026-cbt-confirmed-schedule/index.md` |
 | 2026-04-05 | trend | 【2026年攻略】IPA試験が「年2回CBT」へ！空白の半年を埋めるAI戦略 | IPA試験, CBT移行, 学習戦略, 生成AI, スケジュール | `src/data/post/trend/ipa-2026-cbt-strategy-ai/index.md` |
 | 2026-04-01 | career | 【全国版】地方ITキャリアを「資格×地域ハック」で攻略する：地域別戦略まとめ | 地方キャリア, IT転職, エンジニア, 事務職, Uターン・Iターン | `src/data/post/career/regional-it-career-hub/index.md` |
-| 2026-04-01 | method | 応用情報・高度試験のCBT移行はいつから？令和8年度日程と対策 | CBT移行, シラバス改訂, 試験制度変更, 2026年試験, SyllabusHack | `src/data/post/method/cbt-2026-syllabus-complete-guide/index.md` |
+| 2026-04-01 | method | 【2026年】基本情報・応用情報のシラバス改訂とCBT移行日程まとめ | CBT移行, シラバス改訂, 試験制度変更, 2026年試験, SyllabusHack | `src/data/post/method/cbt-2026-syllabus-complete-guide/index.md` |
 | 2026-04-01 | method | ITパスポートを超えて：継続的学習とリスキリングの道筋「合格」をキャリアの始まりにする思考法 | キャリアアップ, リスキリング, 継続的学習, 基本情報技術者, ITパスポート | `src/data/post/method/continuous-learning-reskilling-beyond-itp/index.md` |
 | 2026-04-01 | method | モダンPCの選び方：CPU・メモリ・ストレージの黄金バランスをシラバスから解説 | PC選び, CPU, メモリ, ストレージ, ITパスポート | `src/data/post/method/pc-selection-guide/index.md` |
 | 2026-04-01 | theory | ABC分析（パレート図）とは？優先順位を決めるデータの整理術 | ABC分析, パレート図, 在庫管理, ITパスポート, 分析手法 | `src/data/post/theory/abc-analysis-pareto-chart/index.md` |
@@ -263,7 +270,7 @@ Generated on: 2026/7/11 19:54:14
 | 2026-03-31 | trend | チームで勝つ！スクラム開発の役割（プロダクトオーナー・マスター） | アジャイル, スクラム, ITパスポート, 開発モデル, 試験対策 | `src/data/post/trend/scrum-agile/index.md` |
 | 2026-03-31 | trend | データベースが危ない！SQLインジェクションの仕組みと防壁【ITパスポート】 | SQLインジェクション, セキュリティ対策, 脆弱性, サニタイジング, プレースホルダ | `src/data/post/trend/sql-injection-vulnerability/index.md` |
 | 2026-03-31 | trend | あなたが狙われている！標的型メール攻撃の手口と対策【ITパスポート】 | 標的型メール, サイバー攻撃, セキュリティ対策, ソーシャルエンジニアリング | `src/data/post/trend/targeted-threat-email/index.md` |
-| 2026-03-31 | trend | タイピング速度の目安は60WPM？IT試験突破に必要な入力スキルとは | タイピング, 業務効率化, CBT試験, ITパスポート, 生産性 | `src/data/post/trend/typing-speed-60wpa/index.md` |
+| 2026-03-31 | trend | ITパスポート試験にタイピングは必要か？CBTで求められる速度の目安 | タイピング, 業務効率化, CBT試験, ITパスポート, 生産性 | `src/data/post/trend/typing-speed-60wpa/index.md` |
 | 2026-03-31 | trend | 次世代のインターネット！Web3.0とNFTが変えるビジネス | Web3, NFT, ブロックチェーン, ITパスポート, 試験対策 | `src/data/post/trend/web3-nft/index.md` |
 | 2026-03-31 | trend | 「誰も信じない」セキュリティ！ゼロトラストの基本概念を攻略【ITパスポート】 | ゼロトラスト, セキュリティ, 境界型防御, 最小権限, 多要素認証 | `src/data/post/trend/zero-trust-architecture/index.md` |
 | 2026-03-25 | method | AI時代にあえて「本」を読む。ITリテラシーの地図を手に入れ「問い」を洗練させる技術 | 読書術, 独学, 情報収集, ITリテラシー, プロンプト | `src/data/post/method/ai-era-book-reading-value/index.md` |
@@ -344,7 +351,7 @@ Generated on: 2026/7/11 19:54:14
 | 2026-02-23 | app | 応用情報技術者(AP) 科目B試験 ケーススタディ演習 | 応用情報, AP, 科目B, 午後試験, ケーススタディ | `src/data/post/app/ap-subject-b/index.mdx` |
 | 2026-02-23 | app | 生成AI導入実務者検定 攻略マスター：ROIを最大化する実務ドリル | 生成AI導入実務者検定, 資格試験, ROI最適化, AI導入コンサル, 業務プロセス改革 | `src/data/post/app/genai-ip-quiz/index.mdx` |
 | 2026-02-23 | app | 生成AIパスポート 模擬試験シミュレーター：シラバス完全対応AIドリル | 生成AIパスポート, 資格試験, プロンプトエンジニアリング, アダプティブラーニング, 無料アプリ | `src/data/post/app/genai-passport-quiz/index.mdx` |
-| 2026-02-23 | method | IPA高度試験の午後問題をAIで突破するプロンプト集（記述式・試験対策） | 応用情報技術者, プロジェクトマネージャ, 午後試験, 記述式, ChatGPT | `src/data/post/method/ap-pm-descriptive-ai-prompts/index.md` |
+| 2026-02-23 | method | 応用情報の午後・記述式をAIで対策するプロンプト集｜添削と類題演習 | 応用情報技術者, プロジェクトマネージャ, 午後試験, 記述式, ChatGPT | `src/data/post/method/ap-pm-descriptive-ai-prompts/index.md` |
 | 2026-02-23 | method | 【生成AI資格】用途・難易度別の強化学習プラン大公開 | 学習法, 生成AIパスポート, 生成AI導入実務者検定, 強化学習, ドリル | `src/data/post/method/genai-cert-study-plan/index.md` |
 | 2026-02-21 | app | 生成AI・AI倫理「新用語」特化型クイズ | 生成AI, AI倫理, ITパスポート, 基本情報技術者, SyllabusHack | `src/data/post/app/genai-ethics-quiz/index.mdx` |
 | 2026-02-21 | app | SG科目B 実務シナリオ演習ドリル | 情報セキュリティマネジメント, 科目B, ケーススタディ, SyllabusHack | `src/data/post/app/sg-subject-b-quiz/index.mdx` |

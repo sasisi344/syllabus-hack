@@ -1,7 +1,7 @@
 # 金融IT検定 キーワードDB
 
-> **examId**: `fintech-it`（未登録・第1弾記事の公開時に `src/content/config.ts` と `exam-id-catalog.md` へ登録）
-> **Hub**: 未作成（段階戦略: trend紹介記事→反応を見てクラスター化。`.workspace/data-set/fintech-it-research.md` 参照）
+> **examId**: `fintech-it`（2026-07-14登録済み・`src/content/config.ts` / `exam-id-catalog.md`）
+> **Hub**: 未作成（段階戦略: trend紹介記事公開済み→GSC反応を見てクラスター化判断。`.workspace/data-set/fintech-it-research.md` 参照）
 > **主催**: 金融ITアソシエーション（FITA）
 > **調査基準日**: 2026-07-12（KW Pattern Research スキル経由）
 
@@ -49,7 +49,7 @@
 
 | KW | 検索意図 | 記事タイプ | 優先度 | 状態 | 方向性パターン | 差別化角度 | 既存記事 slug |
 | --- | --- | --- | --- | --- | :---: | --- | --- |
-| 金融IT検定 とは 難易度 | 新試験の全体像を知りたい | trend | S | × | P5/P8 | 一次情報の最速整理（初級のみ実施中・大手結集の経緯・5〜6時間合格の実態） | （第1弾・承認待ち） |
+| 金融IT検定 とは 難易度 | 新試験の全体像を知りたい | trend | S | ◎公開済み | P5/P8 | 一次情報の最速整理（初級のみ実施中・大手結集の経緯・5〜6時間合格の実態） | fintech-it-cert-intro（2026-07-14公開） |
 | 金融IT検定 勉強法 テキスト | 教材が少なく何をすべきか | method | S | × | P6 | 過去問ゼロ→シラバス用語×AI対話学習（サイトの本流ハック） | （第2弾候補） |
 | 金融IT検定 ITパスポート 違い | どちらを先に取るか | trend | A | × | P3 | 出題3分野の重複分析。itp-hub と相互リンク | - |
 | 銀行員 IT資格 どれから | 金融属性×IT入門 | career | B | × | P4/P9 | 大手リストに金融IT検定が未掲載の鮮度で差すが、占拠度高のため慎重に | - |
