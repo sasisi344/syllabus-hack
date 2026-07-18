@@ -55,6 +55,7 @@
 - [ ] meta description 長さ範囲外146記事の調整（80字未満・180字超のみ。出典: archive/site-check0710/03-content-rewrite.md T2）
 - [ ] タグslugのpinyin問題（`/tag/rdomappu/` 等）: 正規ローマ字slugマップの導入検討（w28 §6-4。実害僅少のため保留）
 - [ ] Phase3構想（出典: archive/priority-roadmap-todo.md）: Career記事拡充（職種別×資格マトリクス・年齢別ガイド・資格手当データ系）／資格比較記事（簿記2級vsFP2級・ITPvsG検定・宅建vs行政書士・APvsAWS SAA）／ペルソナ別LP記事3本
+- [x] **KWギャップ記事化34本 本番公開完了【2026-07-18】**（出典: archive/cert-kw-gap-research-2026-07-17.md／タイトル確定版: `article-title-list-kw-gap-2026-07-18.md`）: 確定版ファイルの全34本を優先度順に執筆→`/check-draft`品質チェック（フロントマター・画像パス・タグは全件OK。ヘッダーの「」括弧は部分引用パターンと判明しCLAUDE.mdへ例外ルールを追記して解消）→内部リンク強化（8本→52本のリンクに増強）→カテゴリ別（career16/method7/theory7/trend4）に本番移行（bold→strong変換、カバー画像生成またはtheory共通カバー適用、`src/data/post/{category}/{slug}/index.md`へ配置）まで完走。`pnpm build`で1496ページ・エラーなしを確認済み。各記事のslugは`article-title-list-kw-gap-2026-07-18.md`の各項目を参照
 
 ## 6. アプリ
 
@@ -86,3 +87,4 @@
 | `query-research/` | 資格クエリリサーチ。G-1〜G-7の判断根拠 | 2026-07-11 |
 | `weekly-task.md` | W26週報。ActはW28検証（w28-site-verifi）で解消 | 2026-07-11 |
 | `article-index.md` | 生成物の旧コピー（正本は `.workspace/task-results/article-index.md`、スクリプトで再生成） | 2026-07-11 |
+| `cert-kw-gap-research-2026-07-17.md` | 資格KWリサーチ統合版（旧`.workspace/task-results/資格試験のKW取得.md`＋`資格試験KWギャップ深堀りリサーチ.md`を統合）。未記事化の優先5件は本ファイル§5へ起票済み | 2026-07-18 |
