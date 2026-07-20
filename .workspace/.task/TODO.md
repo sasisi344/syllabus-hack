@@ -25,9 +25,9 @@
 
 - [x] **②-2 消防設備士スポーク2本【2026-07-14 公開完了】**: (1)「鑑別（実技）×AI連想学習」→ `method/shobo-setsubi-kanbetsu-ai-hack`（P6・占拠度低の最有力。AIプロンプト5パターンに拡充）、(2)「乙6落ちた原因診断」→ `method/shobo-setsubi-otsu6-fail-diagnosis`（P2・AIプロンプト4パターン）。両記事相互リンク＋shobo-setsubi-hubから両方へのリンクバック設定、個別カバー画像生成、`pnpm build`検証済み（1368ページ）
 - [x] **③金融IT検定 第1弾【2026-07-14 公開完了】**: trend「金融IT検定とは？ITパスポートの次に取る価値があるか」→ `trend/fintech-it-cert-intro`（AIプロンプト4パターン）。examId `fintech-it` を src/content/config.ts・exam-id-catalog.md へ登録済み。itp-hubのキャリア戦略セクションから内部リンク、個別カバー画像生成、ビルド検証済み。第2弾method「過去問ゼロをAIで攻略」は第1弾のGSC反応（W30以降）を見てから着手
-- [ ] **④TOEIC**（③の後・Q5で推奨順どおり確定）: `method/toeic-hub`＋AI音声活用Method×1。examId `toeic` を先に登録
-- [ ] 知財Hubスポーク展開（G-1続き）: `method/chiteki-zaisan-hub` 配下のスポーク未着手
-- [ ] ボイラー・冷凍Hubスポーク展開（G-2続き）: `method/boiler-refrigeration-hub` 配下のスポーク未着手
+- [x] **④TOEIC【2026-07-20 公開完了】**: examId `toeic` を `config.ts`・`exam-id-catalog.md` に登録。`method/toeic-hub`（スコア帯別ロードマップ・Hub本体）＋`method/toeic-shadowing-ai-hack`（AI音声活用Method）を公開。既存 `career/toeic-shoushin-youken-kigyou` と相互リンク設定。`pnpm build`で1499ページ・エラーなし確認済み。GSC反応を見てから追加スポーク（800点勉強法等）を検討
+- [x] **知財Hubスポーク展開（G-1続き）【2026-07-20 第1弾公開完了】**: `method/chiteki-zaisan-2kyu-jitsugi-jirei-ai-hack`（2級実技事例問題の判断ステップ分解、KW-DB優先度「高」）を公開・Hubと相互リンク。残り候補（特許商標意匠の違いTheory・未経験社会人向けCareer）は次回以降
+- [x] **ボイラー・冷凍Hubスポーク展開（G-2続き）【2026-07-20 第1弾公開完了】**: `method/boiler-hikkake-mondai-ai-hack`（引っ掛け問題対策、KW-DB優先度A）を公開・Hubと相互リンク。既存`reitoukikai-3shu-iranai`と合わせスポーク2本体制に。残り候補は冷凍サイクル原理Theory（図解要）
 - [ ] FEシラバス2026専用記事の検討（w28 §8-2派生）: サイト最大クエリ「基本情報技術者試験 シラバス 2026」（表示100）。cbt-guideタイトル復元の効果をW30で見てから判断
 
 ## 3. サイト機能: 資格ナビゲーション導線の新設【優先度高・2026-07-12 ユーザー起点】

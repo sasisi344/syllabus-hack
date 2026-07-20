@@ -1,7 +1,7 @@
 # TOEIC キーワードDB
 
-> **examId**: `toeic`（**未登録** — 記事化前に `config.ts` へ追加）  
-> **Hub**: **未作成**（`method/toeic-hub` 想定）  
+> **examId**: `toeic`（**登録済み・2026-07-20**）  
+> **Hub**: **公開済み**（`method/toeic-hub`、2026-07-20公開。career/toeic-shoushin-youken-kigyou と相互リンク）  
 > **主催**: 国際ビジネスコミュニケーション協会（IIBC）  
 > **調査基準日**: 2026-06-18
 
@@ -54,26 +54,27 @@
 
 | KW | 検索意図 | 記事タイプ | 優先度 | 状態 | 差別化角度 | 既存記事 slug |
 | --- | --- | --- | --- | --- | --- | --- |
-| TOEIC 勉強法 AI | AI活用学習 | method | S | × | 音声・対話型（サイト核） | - |
-| TOEIC リスニング 伸ばし方 | Part1-4攻略 | method | A | × | 音の理由をAI対話 | - |
-| TOEIC 800点 勉強法 | スコア帯別 | method | B | × | ギャップ分析プロンプト | - |
-| TOEIC 600点 から 800 | 中級の壁 | method | B | × | 計画の根拠を説明させる | - |
-| TOEIC 独学 | 独学設計 | method | A | × | AI講師＋公式問題の使い方 | - |
-| TOEIC 完全攻略 | 全体像 | hub | A | × | Hub新設（Phase2） | - |
+| TOEIC 勉強法 AI | AI活用学習 | method | S | ◯ | 音声・対話型（サイト核） | method/toeic-hub（Hub内で対応） |
+| TOEIC リスニング 伸ばし方 | Part1-4攻略 | method | A | ◯ | 音の理由をAI対話 | method/toeic-hub（Hub内セクションで対応） |
+| TOEIC 800点 勉強法 | スコア帯別 | method | B | ◯ | ギャップ分析プロンプト | method/toeic-hub（Hub内で対応） |
+| TOEIC 600点 から 800 | 中級の壁 | method | B | ◯ | 計画の根拠を説明させる | method/toeic-hub（Hub内で対応） |
+| TOEIC 独学 | 独学設計 | method | A | ◯ | AI講師＋公式問題の使い方 | method/toeic-hub（Hub内で対応） |
+| TOEIC 完全攻略 | 全体像 | hub | A | ◯ | Hub新設（Phase2） | method/toeic-hub |
 | TOEIC 仕事 必要 | キャリア | career | B | × | 職種別スコア目安 | - |
 | TOEIC 受験 申込 | 手続き | trend | C | × | 公式情報の整理 | - |
 | TOEIC ITパスポート | 資格の組み合わせ | career | B | × | 文系ITロードマップ | liberal-arts-it-strategy-aichi（言及のみ） |
-| TOEIC シャドーイング AI | 発音・リスニング | method | S | × | 音声AIツール連携 | - |
+| TOEIC シャドーイング AI | 発音・リスニング | method | S | ◯ | 音声AIツール連携 | method/toeic-shadowing-ai-hack |
 | TOEIC Part5 文法 | 文法の壁 | theory / method | B | × | ルールの「なぜ」 | - |
 
 ---
 
-## examId 登録手順（未実施）
+## examId 登録手順（2026-07-20完了）
 
-1. `toeic` を `src/content/config.ts` の examId enum に追加
-2. `.workspace/.task/exam-id-catalog.md` に行追加
-3. `method/toeic-hub` を `cert_hub_template.md` に従い作成
-4. 本ファイルの examId 表記を「登録済み」に更新
+1. ~~`toeic` を `src/content/config.ts` の examId enum に追加~~ 完了
+2. ~~`.workspace/.task/exam-id-catalog.md` に行追加~~ 完了
+3. ~~`method/toeic-hub` を `cert_hub_template.md` に従い作成~~ 完了（`career/toeic-shoushin-youken-kigyou` と相互リンク）
+4. ~~本ファイルの examId 表記を「登録済み」に更新~~ 完了
+5. Phase 2目標（Hub + AI音声活用Method×1）も `method/toeic-shadowing-ai-hack` で完了。以降はGSC反応を見てから追加スポーク（800点勉強法・独学設計等）を検討
 
 ---
 

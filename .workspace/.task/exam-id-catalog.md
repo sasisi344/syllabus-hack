@@ -43,6 +43,7 @@ knowledge:
 | `g-kentei` | ディープラーニングG検定 | `method/g-kentei-hub` | |
 | `ds-kentei` | データサイエンティスト検定 | `method/ds-kentei-hub` | |
 | `mos` | Microsoft Office Specialist | `method/mos-hub` | |
+| `toeic` | TOEIC L&R | `method/toeic-hub` | 2026-07-20追加 |
 
 ### 国家資格・実務系（非IPA）
 
@@ -75,7 +76,7 @@ knowledge:
 ip, sg, fe, ap, st, sa, pm, nw, db, es, sm, au, sc,
 common, g-kentei, ds-kentei, ccna,
 denken, boki, takken, mos, kiken-butsu, biru-kanri, doboku-sekou,
-chiteki-zaisan, boiler-refrigeration, shobo-setsubi, fp, aws, fintech-it
+chiteki-zaisan, boiler-refrigeration, shobo-setsubi, fp, aws, fintech-it, toeic
 ```
 
 ---
@@ -93,14 +94,7 @@ chiteki-zaisan, boiler-refrigeration, shobo-setsubi, fp, aws, fintech-it
 
 以下は Hub 作成予定だが、**まだ `config.ts` に examId 未登録**。記事化時に上記手順で追加すること。
 
-| 想定スラッグ（案） | 資格・クラスター | 状態 |
-| --- | --- | --- |
-| `toeic`（案） | TOEIC L&R | TODO: Hub未作成・KW DBあり（`cert-keyword-db/toeic-kw-db.md`） |
-| `fp`（案） | ファイナンシャルプランナー | TODO: examId未登録（既存 `fp-hub` は `common` を使用） |
-| `aws`（案） | AWS認定（SAA等） | TODO: examId未登録（既存 `aws-hub` は `common` を使用） |
-| `boiler-refrigeration`（案） | ボイラー技士・冷凍機械責任者 | TODO: Hub未作成 |
-
-> スラッグ案は確定前。Hub作成時に正式決定し、本カタログと `config.ts` を同時更新する。
+（2026-07-20時点で未登録・予定なし。fp/aws/boiler-refrigeration/toeicはすべて登録済み・上表参照）
 
 ---
 

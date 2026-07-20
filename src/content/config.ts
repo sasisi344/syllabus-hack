@@ -104,6 +104,7 @@ const postCollection = defineCollection({
               'fp',
               'aws',
               'fintech-it',
+              'toeic',
             ])
             .optional(),
           exams: z.array(z.string()).optional(),
