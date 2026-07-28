@@ -12,10 +12,11 @@
 チェック管理は w28-tasks.md 側で行う。ここは要約のみ。
 
 - [ ] **デプロイ第2弾（ユーザー）**: 文字化け779箇所修復（184ファイル）＋T8カテゴリtitle刷新＋T9タイトル2件＋netlify.toml整理のコミット・push（2026-07-12時点で未コミット約190ファイル。Xserverへのdistアップロードも忘れずに）
-- [ ] T6: 週次検証運用（W29〜W31、毎週日曜データ提供後。KPI表更新・Bing定点観測含む）— **W30追補（2026-07-20）**: `cbt-2026-syllabus-complete-guide`のCTR1.02%異常値を検証。前セッションの未コミット編集がタイトルから「基本情報」「シラバス」キーワードを落とす方向だったため差し戻し、代わりに`fe-hub`・`ipa-exam-trends-2026`からの内部リンク強化（上位化施策）で対応。`ap-hub`に「午後記述式」FAQも追加。両方コミット済み（push待ち）。効果判定はW31以降。K-5（7/10改修効果）はカテゴリページのGSC露出データが依然不足しており検証継続中
+- [ ] T6: 週次検証運用（W29〜W31、毎週日曜データ提供後。KPI表更新・Bing定点観測含む）— **W30追補（2026-07-20）**: `cbt-2026-syllabus-complete-guide`のCTR1.02%異常値を検証。前セッションの未コミット編集がタイトルから「基本情報」「シラバス」キーワードを落とす方向だったため差し戻し、代わりに`fe-hub`・`ipa-exam-trends-2026`からの内部リンク強化（上位化施策）で対応。`ap-hub`に「午後記述式」FAQも追加。両方コミット済み（push待ち）。効果判定はW31以降。K-5（7/10改修効果）はカテゴリページのGSC露出データが依然不足しており検証継続中。**W30深掘り（2026-07-29）**: 一次データ再検証によりCTR1.02%の真因は「タイトル」ではなく「IPA 2026年CBT記事8本のカニバリ」と判明（日程専用ページ`ipa-2026-cbt-schedule-guide`が被リンク1本で順位29.2に沈み、method記事が日程クエリの表示だけ浴びていた）。日程ガイド側に区分別早見表＋申込FAQを新設し、日程アンカーの宛先を4記事から集約（被リンク1本→5本）。タイトルは規約内かつクエリ一致語を保持しており改変不要と判断し据え置き。ビルド1504ページ検証済み
 - [ ] T9: CTR改善第二弾 — **2/3完了（2026-07-11）**: typing-speed-60wpa（→「ITパスポート試験にタイピングは必要か？」）・ap-pm-descriptive-ai-prompts（→「応用情報の午後・記述式をAIで対策する」）はSERP実査＋既得クエリ語保持で刷新済み。残り ap-salary-impact はクエリ未特定のため保留（→ `pending-decisions-0711.md` Q6）
-- [ ] T5: 順位8〜15位デッドゾーンリライト（W30以降）＋第二ティア（30位超層、W31以降）
-- [ ] W30確認: 旧URL（/term/・/strategy/・統合slug）のGSC計上消滅と評価移転
+- [ ] T5: 順位8〜15位デッドゾーンリライト（W30以降）＋第二ティア（30位超層、W31以降）— **2026-07-29 対象リスト確定**: w30 GSCページCSVから7ページを特定（aws-concept-metaphor-hack 15/9.4・mos-vs-itp-job-hunting 14/9.5・ccna-vs-aws-saa 12/12.4・app/ap-subject-b 12/14.0・mos-ai-shortcut 10/9.1・gemini-cert-complete 10/7.9・foreigner-japan-national-qualification 8/8.25、いずれもCTR0%）。**着手はページ×クエリデータ取得後**（クエリ未特定のタイトル改変はW29で退行を招いた既知の失敗パターンのため。詳細は`weekly-PPDCA-task-07W30.md`）
+- [x] W30確認: 旧URL（/term/・/strategy/・統合slug）のGSC計上消滅と評価移転 — **2026-07-29 クローズ**: w30 GSCページCSV（6/19〜7/18）で旧URL残存は計4表示のみ（`/strategy/data-profitability-dwh-mining-regression/`1・`/term/digital-divide-basics`2・`/term/sampling-methods-data/`1）。全てastro.config.tsにリダイレクト定義済みで、集計期間にリダイレクト適用前の日付が含まれるための残骸。評価移転も`/theory/sampling-methods-data/`が順位4で表示獲得と確認でき、実質消滅と判定
+- [ ] **【ユーザー判断待ち】IPA 2026年CBT記事8本の統廃合（2026-07-29 起票）**: 日程クエリ群が30〜70位に沈む根本原因は、同一トピックを扱う記事8本（cbt-2026-syllabus-complete-guide／ipa-2026-cbt-schedule-guide／ipa-2026-cbt-confirmed-schedule／applied-advanced-exam-cbt-transition-2026／ap-2026-spring-postponed／2026-cbt-transition-advanced-exam／2026-cbt-ai-syllabus-strategy／ipa-2026-cbt-strategy-ai）のカニバリゼーション。W30では内部リンク宛先の集約という非破壊処置のみ実施。統合・301化は不可逆のためGo/No-Go判断が必要。統合候補は独自価値の薄い`2026-cbt-transition-advanced-exam`・`2026-cbt-ai-syllabus-strategy`・`ipa-2026-cbt-strategy-ai`の3本
 - [ ] T6追加観測（Q6データ・2026-07-12）: Bing日次データで表示回数が3ヶ月で日次3→90件へ成長中と確認（`access-data/2026/w28/3months-…csv`・`7days-…csv`※実際は約1ヶ月分）。週次検証でBingの伸びを継続トラッキング
 - [ ] 継続依頼（Q6未充足分）: GSCの**ページ×クエリ紐付け**データ（ページで絞り込み→クエリ表示）は未取得のまま。`ap-salary-impact`（T9残り1件）のクエリ特定に必要なため、次回データ提供時にお願いしたい
 
@@ -28,7 +29,7 @@
 - [x] **④TOEIC【2026-07-20 公開完了】**: examId `toeic` を `config.ts`・`exam-id-catalog.md` に登録。`method/toeic-hub`（スコア帯別ロードマップ・Hub本体）＋`method/toeic-shadowing-ai-hack`（AI音声活用Method）を公開。既存 `career/toeic-shoushin-youken-kigyou` と相互リンク設定。`pnpm build`で1499ページ・エラーなし確認済み。GSC反応を見てから追加スポーク（800点勉強法等）を検討
 - [x] **知財Hubスポーク展開（G-1続き）【2026-07-20 第1弾公開完了】**: `method/chiteki-zaisan-2kyu-jitsugi-jirei-ai-hack`（2級実技事例問題の判断ステップ分解、KW-DB優先度「高」）を公開・Hubと相互リンク。残り候補（特許商標意匠の違いTheory・未経験社会人向けCareer）は次回以降
 - [x] **ボイラー・冷凍Hubスポーク展開（G-2続き）【2026-07-20 第1弾公開完了】**: `method/boiler-hikkake-mondai-ai-hack`（引っ掛け問題対策、KW-DB優先度A）を公開・Hubと相互リンク。既存`reitoukikai-3shu-iranai`と合わせスポーク2本体制に。残り候補は冷凍サイクル原理Theory（図解要）
-- [ ] FEシラバス2026専用記事の検討（w28 §8-2派生）: サイト最大クエリ「基本情報技術者試験 シラバス 2026」（表示100）。cbt-guideタイトル復元の効果をW30で見てから判断
+- [ ] FEシラバス2026専用記事の検討（w28 §8-2派生）: サイト最大クエリ「基本情報技術者試験 シラバス 2026」（表示100）。**2026-07-29 判断更新**: w30クエリCSVで当該クエリはCTR4.0%→8.75%・順位5.82→6.61と改善傾向にあり、cbt-guideが受け皿として機能している。新規記事を立てると9本目のカニバリを生むリスクがあるため、**新設は保留**。上記のCBT記事8本統廃合の判断が出てから再検討する
 
 ## 3. サイト機能: 資格ナビゲーション導線の新設【優先度高・2026-07-12 ユーザー起点】
 
