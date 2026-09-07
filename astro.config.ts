@@ -12,6 +12,8 @@ import icon from 'astro-icon';
 import slugify from 'limax';
 import compress from 'astro-compress';
 import remarkLinkCard from 'remark-link-card-plus';
+import remarkMath from 'remark-math';
+import rehypeKatex from 'rehype-katex';
 
 import astrowind from './vendor/integration';
 
@@ -261,6 +263,7 @@ export default defineConfig({
   markdown: {
     remarkPlugins: [
       readingTimeRemarkPlugin,
+      remarkMath,
       [
         remarkLinkCard,
         {
@@ -270,7 +273,12 @@ export default defineConfig({
         },
       ],
     ],
-    rehypePlugins: [responsiveTablesRehypePlugin, lazyImagesRehypePlugin, normalizeInternalLinksRehypePlugin],
+    rehypePlugins: [
+      rehypeKatex,
+      responsiveTablesRehypePlugin,
+      lazyImagesRehypePlugin,
+      normalizeInternalLinksRehypePlugin,
+    ],
   },
 
   vite: {

@@ -4,11 +4,16 @@
 
 ## 1. ファイル構成
 
-試験区分ごとに JSON ファイルを分割して管理します。
+試験区分ごとに JSON ファイルを分割して管理します。ファイル名は `questions-{examId}.json`（examId は `quiz_app_rules.md` §2 のアプリ用 examId に準拠、記事フロントマターの examId とは体系が異なる場合がある点に注意）。
 
-- `src/data/master/questions-it-passport.json` （ITパスポート）
-- `src/data/master/questions-sg.json` （情報セキュリティマネジメント）
-- `src/data/master/questions-fe.json` （基本情報技術者）
+現在の実ファイル一覧は `src/data/master/` を直接確認するのが正本（Glob("src/data/master/questions-*.json")）。代表例:
+
+- `questions-it-passport.json` （ITパスポート）
+- `questions-sg-b.json` （情報セキュリティマネジメント 科目B）
+- `questions-genai.json` / `questions-genai-ethics.json` （生成AI系）
+- `questions-boki.json`（日商簿記）, `questions-takken.json`（宅建）, `questions-fp2.json`（FP2級）, `questions-g-kentei.json`（G検定）
+
+新規資格を追加したら、examId の衝突がないか `src/data/master/` を Glob で確認してから配置する。
 
 ## 2. JSON スキーマ
 
@@ -58,6 +63,10 @@
   - **深掘り**: 基数変換、アルゴリズム、データ構造など、論理的な解説を厚くする。
   - `subField` に「アルゴリズム」や「プログラミング」を明記する。
   - **【重要コード翻訳禁止】**: 生成AIを用いた作問時、擬似コードやプログラム中の「変数名（current 等）」や「真偽値・予約語（true/false/return 等）」が不自然に日本語に直訳される（例：「戻る」「真」）現象を防ぐこと。必ず元の英語を保持して出力させるルールの明記が必要。
+
+### 横展開資格（宅建・簿記・FP・G検定 等）
+
+IT系以外の資格（`boki` / `takken` / `fp2` / `g-kentei` 等）の作問最適化・詰まりポイントは `.agents/cert_keyword_db.md` §5「横展開資格の詰まりポイント早見表」と対応する `.workspace/data-set/cert-keyword-db/{examId}-kw-db.md` を参照する。本ファイルには IT系（IPA試験）の作問ノウハウのみを記載する。
 
 ## 5. キーワード（keywords）の選定
 

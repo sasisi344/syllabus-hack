@@ -13,16 +13,53 @@ description: Rules for article tagging, including count limits and controlled vo
 ## 2. Controlled Vocabulary (Standardized Exam Names)
 
 To prevent taxonomy fragmentation, ALWAYS use the **Canonical Tag** for qualification names. Do NOT use aliases.
+正本の examId 一覧は `.workspace/.task/exam-id-catalog.md`。新規資格を追加したら、この表にも canonical tag を追記すること。
 
-| Qualification Name (Alias/Variation)                                 | **Canonical Tag (Use this)** |
-| :------------------------------------------------------------------- | :--------------------------- |
-| ITパスポート, IP, Iパス                                              | `ITパスポート`               |
-| 基本情報技術者試験, FE, 基本情報                                     | `基本情報技術者`             |
-| 応用情報技術者試験, AP, 応用情報                                     | `応用情報技術者`             |
-| 情報処理安全確保支援士, SC, 登録セキスペ, セキュリティスペシャリスト | `情報処理安全確保支援士`     |
-| ネットワークスペシャリスト, NW                                       | `ネットワークスペシャリスト` |
-| データベーススペシャリスト, DB                                       | `データベーススペシャリスト` |
-| プロジェクトマネージャ, PM                                           | `プロジェクトマネージャ`     |
+### IPA 高度試験・国家試験（情報処理技術者）
+
+| Qualification Name (Alias/Variation)                                 | **Canonical Tag (Use this)** | examId |
+| :--------------------------------------------------------------------| :---------------------------- | :--- |
+| ITパスポート, IP, Iパス                                              | `ITパスポート`               | `ip` |
+| 基本情報技術者試験, FE, 基本情報                                     | `基本情報技術者`             | `fe` |
+| 応用情報技術者試験, AP, 応用情報                                     | `応用情報技術者`             | `ap` |
+| 情報セキュリティマネジメント試験, SG                                 | `情報セキュリティマネジメント` | `sg` |
+| 情報処理安全確保支援士, SC, 登録セキスペ, セキュリティスペシャリスト | `情報処理安全確保支援士`     | `sc` |
+| ネットワークスペシャリスト, NW                                       | `ネットワークスペシャリスト` | `nw` |
+| データベーススペシャリスト, DB                                       | `データベーススペシャリスト` | `db` |
+| プロジェクトマネージャ, PM                                           | `プロジェクトマネージャ`     | `pm` |
+| ITストラテジスト, ST                                                 | `ITストラテジスト`           | `st` |
+| システムアーキテクト, SA                                             | `システムアーキテクト`       | `sa` |
+| ITサービスマネージャ, SM                                             | `ITサービスマネージャ`       | `sm` |
+| システム監査技術者, AU                                               | `システム監査技術者`         | `au` |
+
+### ベンダー・民間検定
+
+| Qualification Name (Alias/Variation)  | **Canonical Tag (Use this)** | examId |
+| :------------------------------------- | :---------------------------- | :--- |
+| Cisco CCNA                              | `CCNA`                        | `ccna` |
+| ディープラーニングG検定                 | `G検定`                       | `g-kentei` |
+| データサイエンティスト検定               | `データサイエンティスト検定` | `ds-kentei` |
+| Microsoft Office Specialist             | `MOS`                          | `mos` |
+| TOEIC L&R                               | `TOEIC`                        | `toeic` |
+
+### 国家資格・実務系（非IPA）
+
+| Qualification Name (Alias/Variation)                                     | **Canonical Tag (Use this)** | examId |
+| :------------------------------------------------------------------------- | :---------------------------- | :--- |
+| 宅地建物取引士, 宅建                                                       | `宅建`                        | `takken` |
+| 第三種電気主任技術者, 電験三種                                             | `電験三種`                    | `denken` |
+| 日商簿記                                                                   | `日商簿記`                    | `boki` |
+| 危険物取扱者（乙4等）                                                      | `危険物取扱者`                | `kiken-butsu` |
+| ビル管理士・マンション管理士・エネルギー管理士                             | `ビル管理士`                  | `biru-kanri` |
+| 土木施工管理技士（1級・2級）                                               | `土木施工管理技士`            | `doboku-sekou` |
+| 知的財産管理技能検定（知財検定）                                           | `知財検定`                    | `chiteki-zaisan` |
+| ボイラー技士・冷凍機械責任者                                               | `ボイラー技士` / `冷凍機械責任者` | `boiler-refrigeration` |
+| 消防設備士（乙6・乙4・甲種）                                               | `消防設備士`                  | `shobo-setsubi` |
+| ファイナンシャル・プランニング技能検定, FP2級                              | `FP`                          | `fp` |
+| AWS認定資格（CLF・SAA・ANS等）                                             | `AWS認定`                     | `aws` |
+| 金融IT検定（FITA）                                                         | `金融IT検定`                  | `fintech-it` |
+
+**注意**: `takken` `boki` `fp` `aws` 等は級・種別が分かれる資格が多い。記事タイトルや本文で言及する級（例: FP2級、宅建士）はタグではなく本文キーワードとして扱い、タグは canonical な資格名に統一する。
 
 ## 3. General Tagging Strategy
 

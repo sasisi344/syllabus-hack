@@ -7,7 +7,7 @@
 ## プロジェクト概要
 
 **Syllabus Hack** は「生成AIで資格試験のシラバスをハックする」学習メディア。  
-`syllabushack.com` — Astro 6 + AstroWind テンプレート構成の静的サイト。
+`syllabushack.com` — Astro 5 + AstroWind テンプレート構成の静的サイト。
 
 コアミッション: 暗記中心の旧来学習法を破壊し、AI活用による「効率的・本質的」な資格学習を提案する。
 

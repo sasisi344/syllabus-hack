@@ -1,0 +1,97 @@
+# Task Management（アーカイブ: 2026-09-07時点のスナップショット）
+
+> 2026-09-07、20時間学習法（courseコレクション）への戦略転換に伴い `TODO.md` を全面書き換え。本ファイルはその直前の全内容の保存。個別項目の多くは2026-07台のPDCA記録で、当時の判断根拠として参照する場合はこちらを見る。
+
+---
+
+# Task Management
+
+> 基本方針: **「生成AI × 資格試験」** を軸に外れない。ロングテール・長文・AI検索対応を3本柱にする。
+> **本ファイルが全タスクの正本**。完了したタスク群・分析資料は `archive/` に移動する（履歴はそちらを参照）。
+>
+> **2026-07-11 整理**: 2026-06-19集約時の統合タスクリストA〜Kは、site-check0710（WP01〜07）と w28-site-verifi でほぼ完走したため本ファイルを全面更新。完了済みの旧ファイル（site-audit・priority-roadmap・nextsiken・categories-list-check・restructure-plan・research-kw-non-ipa・weekly-task・site-check0710/・query-research/）は `archive/` へ移動済み。
+
+---
+
+## 1. 進行中: アクセス解析PDCA（正本: `w28-site-verifi/w28-tasks.md`）
+
+チェック管理は w28-tasks.md 側で行う。ここは要約のみ。
+
+- [ ] **デプロイ第2弾（ユーザー）**: 文字化け779箇所修復（184ファイル）＋T8カテゴリtitle刷新＋T9タイトル2件＋netlify.toml整理のコミット・push（2026-07-12時点で未コミット約190ファイル。Xserverへのdistアップロードも忘れずに）
+- [ ] T6: 週次検証運用（W29〜W31、毎週日曜データ提供後。KPI表更新・Bing定点観測含む）— **W30追補（2026-07-20）**: `cbt-2026-syllabus-complete-guide`のCTR1.02%異常値を検証。前セッションの未コミット編集がタイトルから「基本情報」「シラバス」キーワードを落とす方向だったため差し戻し、代わりに`fe-hub`・`ipa-exam-trends-2026`からの内部リンク強化（上位化施策）で対応。`ap-hub`に「午後記述式」FAQも追加。両方コミット済み（push待ち）。効果判定はW31以降。K-5（7/10改修効果）はカテゴリページのGSC露出データが依然不足しており検証継続中。**W30深掘り（2026-07-29）**: 一次データ再検証によりCTR1.02%の真因は「タイトル」ではなく「IPA 2026年CBT記事8本のカニバリ」と判明（日程専用ページ`ipa-2026-cbt-schedule-guide`が被リンク1本で順位29.2に沈み、method記事が日程クエリの表示だけ浴びていた）。日程ガイド側に区分別早見表＋申込FAQを新設し、日程アンカーの宛先を4記事から集約（被リンク1本→5本）。タイトルは規約内かつクエリ一致語を保持しており改変不要と判断し据え置き。ビルド1504ページ検証済み
+- [ ] T9: CTR改善第二弾 — **2/3完了（2026-07-11）**: typing-speed-60wpa（→「ITパスポート試験にタイピングは必要か？」）・ap-pm-descriptive-ai-prompts（→「応用情報の午後・記述式をAIで対策する」）はSERP実査＋既得クエリ語保持で刷新済み。残り ap-salary-impact はクエリ未特定のため保留（→ `pending-decisions-0711.md` Q6）
+- [ ] T5: 順位8〜15位デッドゾーンリライト（W30以降）＋第二ティア（30位超層、W31以降）— **2026-07-29 対象リスト確定**: w30 GSCページCSVから7ページを特定（aws-concept-metaphor-hack 15/9.4・mos-vs-itp-job-hunting 14/9.5・ccna-vs-aws-saa 12/12.4・app/ap-subject-b 12/14.0・mos-ai-shortcut 10/9.1・gemini-cert-complete 10/7.9・foreigner-japan-national-qualification 8/8.25、いずれもCTR0%）。**着手はページ×クエリデータ取得後**（クエリ未特定のタイトル改変はW29で退行を招いた既知の失敗パターンのため。詳細は`weekly-PPDCA-task-07W30.md`）
+- [x] W30確認: 旧URL（/term/・/strategy/・統合slug）のGSC計上消滅と評価移転 — **2026-07-29 クローズ**: w30 GSCページCSV（6/19〜7/18）で旧URL残存は計4表示のみ（`/strategy/data-profitability-dwh-mining-regression/`1・`/term/digital-divide-basics`2・`/term/sampling-methods-data/`1）。全てastro.config.tsにリダイレクト定義済みで、集計期間にリダイレクト適用前の日付が含まれるための残骸。評価移転も`/theory/sampling-methods-data/`が順位4で表示獲得と確認でき、実質消滅と判定
+- [ ] **【ユーザー判断待ち】IPA 2026年CBT記事8本の統廃合（2026-07-29 起票）**: 日程クエリ群が30〜70位に沈む根本原因は、同一トピックを扱う記事8本（cbt-2026-syllabus-complete-guide／ipa-2026-cbt-schedule-guide／ipa-2026-cbt-confirmed-schedule／applied-advanced-exam-cbt-transition-2026／ap-2026-spring-postponed／2026-cbt-transition-advanced-exam／2026-cbt-ai-syllabus-strategy／ipa-2026-cbt-strategy-ai）のカニバリゼーション。W30では内部リンク宛先の集約という非破壊処置のみ実施。統合・301化は不可逆のためGo/No-Go判断が必要。統合候補は独自価値の薄い`2026-cbt-transition-advanced-exam`・`2026-cbt-ai-syllabus-strategy`・`ipa-2026-cbt-strategy-ai`の3本
+- [ ] T6追加観測（Q6データ・2026-07-12）: Bing日次データで表示回数が3ヶ月で日次3→90件へ成長中と確認（`access-data/2026/w28/3months-…csv`・`7days-…csv`※実際は約1ヶ月分）。週次検証でBingの伸びを継続トラッキング
+- [ ] 継続依頼（Q6未充足分）: GSCの**ページ×クエリ紐付け**データ（ページで絞り込み→クエリ表示）は未取得のまま。`ap-salary-impact`（T9残り1件）のクエリ特定に必要なため、次回データ提供時にお願いしたい
+
+## 2. 次フェーズ執筆パイプライン（2026-07-12 ユーザー回答Q3〜Q5で優先順位確定）
+
+着手時は `.agents/kw_pattern_research.md` → KW-DB → `/new-post` の順を厳守。**共通方針（Q5）: 執筆前のリサーチで得た一次情報を最重視し、リサーチ結果次第で方向性を柔軟に変える。**
+
+- [x] **②-2 消防設備士スポーク2本【2026-07-14 公開完了】**: (1)「鑑別（実技）×AI連想学習」→ `method/shobo-setsubi-kanbetsu-ai-hack`（P6・占拠度低の最有力。AIプロンプト5パターンに拡充）、(2)「乙6落ちた原因診断」→ `method/shobo-setsubi-otsu6-fail-diagnosis`（P2・AIプロンプト4パターン）。両記事相互リンク＋shobo-setsubi-hubから両方へのリンクバック設定、個別カバー画像生成、`pnpm build`検証済み（1368ページ）
+- [x] **③金融IT検定 第1弾【2026-07-14 公開完了】**: trend「金融IT検定とは？ITパスポートの次に取る価値があるか」→ `trend/fintech-it-cert-intro`（AIプロンプト4パターン）。examId `fintech-it` を src/content/config.ts・exam-id-catalog.md へ登録済み。itp-hubのキャリア戦略セクションから内部リンク、個別カバー画像生成、ビルド検証済み。第2弾method「過去問ゼロをAIで攻略」は第1弾のGSC反応（W30以降）を見てから着手
+- [x] **④TOEIC【2026-07-20 公開完了】**: examId `toeic` を `config.ts`・`exam-id-catalog.md` に登録。`method/toeic-hub`（スコア帯別ロードマップ・Hub本体）＋`method/toeic-shadowing-ai-hack`（AI音声活用Method）を公開。既存 `career/toeic-shoushin-youken-kigyou` と相互リンク設定。`pnpm build`で1499ページ・エラーなし確認済み。GSC反応を見てから追加スポーク（800点勉強法等）を検討
+- [x] **知財Hubスポーク展開（G-1続き）【2026-07-20 第1弾公開完了】**: `method/chiteki-zaisan-2kyu-jitsugi-jirei-ai-hack`（2級実技事例問題の判断ステップ分解、KW-DB優先度「高」）を公開・Hubと相互リンク。残り候補（特許商標意匠の違いTheory・未経験社会人向けCareer）は次回以降
+- [x] **ボイラー・冷凍Hubスポーク展開（G-2続き）【2026-07-20 第1弾公開完了】**: `method/boiler-hikkake-mondai-ai-hack`（引っ掛け問題対策、KW-DB優先度A）を公開・Hubと相互リンク。既存`reitoukikai-3shu-iranai`と合わせスポーク2本体制に。残り候補は冷凍サイクル原理Theory（図解要）
+- [ ] FEシラバス2026専用記事の検討（w28 §8-2派生）: サイト最大クエリ「基本情報技術者試験 シラバス 2026」（表示100）。**2026-07-29 判断更新**: w30クエリCSVで当該クエリはCTR4.0%→8.75%・順位5.82→6.61と改善傾向にあり、cbt-guideが受け皿として機能している。新規記事を立てると9本目のカニバリを生むリスクがあるため、**新設は保留**。上記のCBT記事8本統廃合の判断が出てから再検討する
+
+## 3. サイト機能: 資格ナビゲーション導線の新設【優先度高・2026-07-12 ユーザー起点】
+
+> 背景（ユーザー指摘）: 扱う資格がIT系以外にも多岐化したのに、トップページ・トップメニューから任意の資格へジャンプする仕組みがなく回遊性が悪い。
+
+- [ ] 追加検討（任意）: (c) トップページ本体への資格グリッドセクション追加は、一覧ページ＋メニューの効果（回遊率・/certifications/のPV）をW30以降のGA4で見てから判断
+- [ ] デプロイ後の実機確認: ドロップダウンのモバイル表示（アコーディオン動作）をブラウザで確認
+
+## 4. 判断待ち（ユーザー判断が必要）
+
+- [ ] **G-6: 講師系資格**（制度調査完了・記事化はユーザー判断待ち）: 職業訓練指導員は123職種区分・都道府県実施の免許制試験（または48時間講習での取得も可）。大阪府実績で合格率74〜92%と易しめ、関連書籍・過去問集が少なくテキストのみ学習が実情。占拠度は低いがIT/生成AI学習ハックとの軸親和性が薄く、受験者母数も小さいニッチ資格。**Go/No-Go判断が必要**: 「占拠度の低さ」を取るか「サイト軸（生成AI×IT資格）からの乖離」を避けるか
+- [x] G-4: ビジネス著作権検定 → 単独記事化せず chiteki-zaisan-hub 内言及に留める（結論済み・対応不要。異論があれば再検討）
+- [x] G-3: 建設機械施工管理技士 → 新規Hubではなく doboku-sekou-hub の関連スポークとして扱う（結論済み・対応不要・優先度低）
+- [x] **Q8: SNS実行タスク4件【2026-07-14 完了】**: Top20ピックアップリスト（`SNS-post-schedule/top20-pickup-list.md`、画像パス統合済み）・5ポストドラフト（`SNS-post-schedule.md` Day1〜5、既存分を確認）はエージェント作成完了。残るThreads予約投稿の実操作のみユーザー作業待ち
+
+## 4.5 カバー画像の方針【2026-07-12 クローズ】
+
+- 棚卸し結果: image欠落0件、theory以外の共通カバー流用152記事
+- **ユーザー決定: 共通カバーはそのまま使う。アプリや特定ジャンルは共通カバーで作成することでコストダウンを図る意図的設計のため、一括個別化は行わない**
+- 方針を `.agents/image_rules.md` §0 に明文化済み（今後の監査で再起票しないため）。個別カバーは新規公開時などユーザー指示があるときのみ生成
+
+## 5. コンテンツバックログ（優先度低）
+
+- [ ] meta description 長さ範囲外146記事の調整（80字未満・180字超のみ。出典: archive/site-check0710/03-content-rewrite.md T2）
+- [ ] タグslugのpinyin問題（`/tag/rdomappu/` 等）: 正規ローマ字slugマップの導入検討（w28 §6-4。実害僅少のため保留）
+- [ ] Phase3構想（出典: archive/priority-roadmap-todo.md）: Career記事拡充（職種別×資格マトリクス・年齢別ガイド・資格手当データ系）／資格比較記事（簿記2級vsFP2級・ITPvsG検定・宅建vs行政書士・APvsAWS SAA）／ペルソナ別LP記事3本
+- [x] **KWギャップ記事化34本 本番公開完了【2026-07-18】**（出典: archive/cert-kw-gap-research-2026-07-17.md／タイトル確定版: `article-title-list-kw-gap-2026-07-18.md`）: 確定版ファイルの全34本を優先度順に執筆→`/check-draft`品質チェック（フロントマター・画像パス・タグは全件OK。ヘッダーの「」括弧は部分引用パターンと判明しCLAUDE.mdへ例外ルールを追記して解消）→内部リンク強化（8本→52本のリンクに増強）→カテゴリ別（career16/method7/theory7/trend4）に本番移行（bold→strong変換、カバー画像生成またはtheory共通カバー適用、`src/data/post/{category}/{slug}/index.md`へ配置）まで完走。`pnpm build`で1496ページ・エラーなしを確認済み。各記事のslugは`article-title-list-kw-gap-2026-07-18.md`の各項目を参照
+
+## 6. アプリ
+
+（進行中タスクなし。直近完了は archive/w28-w29-completed-2026-07-14.md 参照）
+
+## 7. SNS運用（正本: `SNS-post-schedule/sns-strategy.md`）
+
+- [x] **実行タスク4件の消化状況確認【2026-07-14完了】**: Top20記事リスト・画像アセット整理・初回5ポストドラフトの3件はエージェントで作成/確認済み（詳細はQ8参照）。投稿スケジュールのThreads予約操作のみユーザー作業として残存
+- [ ] W28にFacebook/Instagram経由の流入実績あり（fbclid付き3件）— 比較系記事のSNS配信ルーチン化はw28 Act分岐で再現待ち
+
+---
+
+## メモ
+
+- **競合サイト**: [キーマンズネット](https://kn.itmedia.co.jp/) — 構成の参考・対抗
+- **CCNA**（参考）: 世界共通資格・高難易度。関連記事は作成済み（ccna-vs-aws-saa／ccna-new-grad-company-filter 等）
+- **未登録資格の探索**: 金融IT検定はG-7でGo判定済み（上記セクション2）。新規探索時は `exam-id-catalog.md` に候補を追記
+
+## アーカイブ索引（archive/、当時時点）
+
+| ファイル/フォルダ | 内容 | 移動日 |
+|---|---|---|
+| `w28-w29-completed-2026-07-14.md` | W28〜W29完了タスク一括アーカイブ（デプロイ・文字化け修復・NW/消防設備士Hub公開・資格ナビ実装・nw-mermaid-hack内部リンク強化 等） | 2026-07-14 |
+| `site-check0710/` | 2026-07-10サイト改善作業書WP01〜07（WP07はw28-site-verifiが後継） | 2026-07-11 |
+| `site-audit-2026-07-10.md`（+raw） | サイト全体監査。指摘事項はWP01〜03で対応済み | 2026-07-11 |
+| `priority-roadmap-todo.md` | 6〜9月ロードマップ。Phase1・2完走、Phase3は本ファイル§4へ | 2026-07-11 |
+| `nextsiken.md` / `categories-list-check.md` / `restructure-plan-2026-06.md` | 分析・背景資料（2026-06-19にTODOへ集約済み） | 2026-07-11 |
+| `research-kw-non-ipa.md` | 非IPA資格KWリサーチ。forAI起票4件は全て記事化/アプリ化済み | 2026-07-11 |
+| `query-research/` | 資格クエリリサーチ。G-1〜G-7の判断根拠 | 2026-07-11 |
+| `weekly-task.md` | W26週報。ActはW28検証（w28-site-verifi）で解消 | 2026-07-11 |
+| `article-index.md` | 生成物の旧コピー（正本は `.workspace/task-results/article-index.md`、スクリプトで再生成） | 2026-07-11 |
+| `cert-kw-gap-research-2026-07-17.md` | 資格KWリサーチ統合版（旧`.workspace/task-results/資格試験のKW取得.md`＋`資格試験KWギャップ深堀りリサーチ.md`を統合）。未記事化の優先5件は本ファイル§5へ起票済み | 2026-07-18 |

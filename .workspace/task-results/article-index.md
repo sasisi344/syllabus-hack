@@ -1,9 +1,13 @@
 # Syllabus Hack Article Index
 
-Generated on: 2026/7/20 11:52:50
+Generated on: 2026/9/7 3:07:30
 
 | Publish Date | Category | Title | Tags | Path |
 | :--- | :--- | :--- | :--- | :--- |
+| 2026-07-20 | method | ボイラー技士の引っ掛け問題が解けない理由｜数値基準を「暗記」から「理解」に変えるAI活用法 | ボイラー技士, ビルメンテナンス, 生成AI, 過去問対策 | `src/data/post/method/boiler-hikkake-mondai-ai-hack/index.md` |
+| 2026-07-20 | method | 知財検定2級の実技（事例問題）が解けない人へ｜AIに判断ステップを分解させる練習法 | 知的財産管理技能検定, 特許, 著作権, 生成AI | `src/data/post/method/chiteki-zaisan-2kyu-jitsugi-jirei-ai-hack/index.md` |
+| 2026-07-20 | method | TOEIC完全攻略ガイド｜600点から900点までAIを専任講師にする学習ロードマップ | TOEIC, 英語学習, 生成AI, キャリアアップ, ロードマップ | `src/data/post/method/toeic-hub/index.md` |
+| 2026-07-20 | method | TOEICリスニングが伸びない人へ｜AIシャドーイングで音の聞き取りを鍛える方法 | TOEIC, 英語学習, 生成AI, シャドーイング, リスニング | `src/data/post/method/toeic-shadowing-ai-hack/index.md` |
 | 2026-07-18 | career | 50代未経験からの資格挑戦は遅い？年代別の現実 | 50代, 未経験転職, キャリアチェンジ, 資格取得, リスキリング | `src/data/post/career/50dai-mikeiken-shikaku-osoi/index.md` |
 | 2026-07-18 | career | 衛生管理者を会社から取らされる理由｜管理職候補の必置資格 | 衛生管理者, キャリア, 管理職, 資格取得, 労働安全衛生法 | `src/data/post/career/eisei-kanrisha-kaisha-kara-torasareru/index.md` |
 | 2026-07-18 | career | 衛生管理者の選任を断ることはできる？辞められない問題の実態 | 衛生管理者, 労働安全衛生法, キャリア, 人事労務, 働き方 | `src/data/post/career/eisei-kanrisha-sennin-kotowaru/index.md` |
@@ -190,7 +194,7 @@ Generated on: 2026/7/20 11:52:50
 | 2026-04-05 | trend | 【最新】令和8年度の応用・高度試験は11月開始！CBT移行と「科目名変更」の全貌 | 応用情報技術者, 高度試験, 試験制度変更, CBT, 情報処理技術者試験 | `src/data/post/trend/ipa-2026-cbt-confirmed-schedule/index.md` |
 | 2026-04-05 | trend | 【2026年攻略】IPA試験が「年2回CBT」へ！空白の半年を埋めるAI戦略 | IPA試験, CBT移行, 学習戦略, 生成AI, スケジュール | `src/data/post/trend/ipa-2026-cbt-strategy-ai/index.md` |
 | 2026-04-01 | career | 【全国版】地方ITキャリアを「資格×地域ハック」で攻略する：地域別戦略まとめ | 地方キャリア, IT転職, エンジニア, 事務職, Uターン・Iターン | `src/data/post/career/regional-it-career-hub/index.md` |
-| 2026-04-01 | method | 応用情報・高度試験2026年CBT移行はいつ？春試験中止と新日程まとめ | CBT移行, シラバス改訂, 試験制度変更, 2026年試験, SyllabusHack | `src/data/post/method/cbt-2026-syllabus-complete-guide/index.md` |
+| 2026-04-01 | method | 【IPA公式】基本情報・応用情報シラバス2026年改訂とCBT日程まとめ | CBT移行, シラバス改訂, 試験制度変更, 2026年試験, SyllabusHack | `src/data/post/method/cbt-2026-syllabus-complete-guide/index.md` |
 | 2026-04-01 | method | ITパスポートを超えて：継続的学習とリスキリングの道筋「合格」をキャリアの始まりにする思考法 | キャリアアップ, リスキリング, 継続的学習, 基本情報技術者, ITパスポート | `src/data/post/method/continuous-learning-reskilling-beyond-itp/index.md` |
 | 2026-04-01 | method | モダンPCの選び方：CPU・メモリ・ストレージの黄金バランスをシラバスから解説 | PC選び, CPU, メモリ, ストレージ, ITパスポート | `src/data/post/method/pc-selection-guide/index.md` |
 | 2026-04-01 | theory | ABC分析（パレート図）とは？優先順位を決めるデータの整理術 | ABC分析, パレート図, 在庫管理, ITパスポート, 分析手法 | `src/data/post/theory/abc-analysis-pareto-chart/index.md` |

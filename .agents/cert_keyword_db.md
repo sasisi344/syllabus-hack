@@ -28,7 +28,7 @@ Read(.agents/kw_pattern_research.md)
 Read(.workspace/data-set/cert-keyword-db/index.md)
 ```
 
-**ステップ2**: 対象資格の KW DB を読む（並列OK）
+**ステップ2**: 対象資格の KW DB を読む（並列OK）。網羅的な最新一覧は `.workspace/data-set/cert-keyword-db/index.md` を正本とする（本表は主要例のみ・追加時に都度更新）。
 
 | 対象KW・資格 | 読むファイル |
 | --- | --- |
@@ -38,6 +38,15 @@ Read(.workspace/data-set/cert-keyword-db/index.md)
 | FP・ファイナンシャルプランナー | `.workspace/data-set/cert-keyword-db/fp-kw-db.md` |
 | AWS・CCNA・クラウド資格 | `.workspace/data-set/cert-keyword-db/aws-kw-db.md` |
 | TOEIC・英語試験 | `.workspace/data-set/cert-keyword-db/toeic-kw-db.md` |
+| 電験三種 | `.workspace/data-set/cert-keyword-db/denken-kw-db.md` |
+| 危険物取扱者 | `.workspace/data-set/cert-keyword-db/kiken-butsu-kw-db.md` |
+| ビル管理士・マンション管理士・エネルギー管理士 | `.workspace/data-set/cert-keyword-db/biru-kanri-kw-db.md` |
+| 土木施工管理技士 | `.workspace/data-set/cert-keyword-db/doboku-sekou-kw-db.md` |
+| 知的財産管理技能検定 | `.workspace/data-set/cert-keyword-db/chiteki-zaisan-kw-db.md` |
+| ボイラー技士・冷凍機械責任者 | `.workspace/data-set/cert-keyword-db/boiler-refrigeration-kw-db.md` |
+| 消防設備士 | `.workspace/data-set/cert-keyword-db/shobo-setsubi-kw-db.md` |
+| 金融IT検定（FITA） | `.workspace/data-set/cert-keyword-db/fintech-it-kw-db.md` |
+| ネットワークスペシャリスト（IPA・横展開ではないが同ディレクトリ管理） | `.workspace/data-set/cert-keyword-db/nw-kw-db.md` |
 
 **ステップ3（記事化時）**: 以下を併用
 
@@ -90,5 +99,5 @@ Read(.workspace/.task/exam-id-catalog.md)  # examId 確定
 ---
 
 **Status**: Active  
-**Last Updated**: 2026-06-18  
+**Last Updated**: 2026-09-06  
 **Data Root**: `.workspace/data-set/cert-keyword-db/`

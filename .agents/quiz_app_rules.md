@@ -27,23 +27,33 @@ description: Syllabus Hack クイズアプリ（Preact/Islands）の開発規約
 ## 2. examId カタログ（使用中の値）
 
 MDX から `examId=` で渡す実際の文字列と、対応する LocalStorage キー。
+**正本**: `src/apps/index.ts` の `appRegistry`（アプリ追加のたびに本表を同期すること）。
 
 | examId 文字列      | アプリ/用途                        | LocalStorage キー          |
 | ------------------ | ---------------------------------- | -------------------------- |
-| `it-passport`      | ITパスポート 模擬試験              | `sh_quiz_it-passport`      |
-| `it-passport-mgmt` | ITパスポート マネジメント系ドリル  | `sh_quiz_it-passport-mgmt` |
-| `it-passport-tech` | ITパスポート テクノロジ系ドリル    | `sh_quiz_it-passport-tech` |
+| `it-passport`      | ITパスポート 模擬試験（it-passport-quiz） | `sh_quiz_it-passport`      |
+| `it-passport-mgmt` | ITパスポート マネジメント系ドリル（ip-management-drill） | `sh_quiz_it-passport-mgmt` |
+| `it-passport-tech` | ITパスポート テクノロジ系ドリル（ip-technology-drill） | `sh_quiz_it-passport-tech` |
+| `ip`（app-registry上のexamId） | ip-strategy-drill / it-passport-quiz 等の `AppMetadata.examId` | — |
 | `ap-a-quiz`        | 応用情報 科目A                     | `sh_quiz_ap-a-quiz`        |
-| `sg`               | 情報セキュリティマネジメント       | `sh_quiz_sg`               |
-| `fe`               | 基本情報技術者                     | `sh_quiz_fe`               |
-| `genai-pass`       | 生成AIパスポート                   | `sh_quiz_genai-pass`       |
-| `genai-ip`         | 生成AI導入実務者検定               | `sh_quiz_genai-ip`         |
-| `common`           | genai-trend-quiz（汎用 common 系） | `sh_quiz_common`           |
+| `ap`（app-registry上のexamId） | ap-quiz の `AppMetadata.examId` | 実装依存 |
+| `sg`               | 情報セキュリティマネジメント（sg-quiz） | `sh_quiz_sg`               |
+| `sg-subject-b`     | SG 科目B シナリオ演習（sg-subject-b-quiz） | `sh_quiz_sg-subject-b`     |
+| `fe`               | 基本情報技術者（fe-quiz）           | `sh_quiz_fe`               |
+| `sc`               | SC専門用語特訓（sc-specialist-quiz） | `sh_quiz_sc`               |
+| `genai-pass`       | 生成AIパスポート（genai-passport-quiz） | `sh_quiz_genai-pass`       |
+| `genai-ip`         | 生成AI導入実務者検定（genai-ip-quiz） | `sh_quiz_genai-ip`         |
+| `common`           | genai-trend-quiz / genai-cert-quiz / pm-essay-gacha（汎用 common 系） | `sh_quiz_common`           |
 | `genai-ethics`     | genai-ethics-quiz（固定キー）      | `sh_quiz_genai-ethics`     |
-| `sg-subject-b`     | SG 科目B シナリオ演習              | `sh_quiz_sg-subject-b`     |
+| `boki`             | 日商簿記3級 仕訳ドリル（boki-shiwake-drill） | `sh_quiz_boki`             |
+| `takken`           | 宅建 権利関係一問一答（takken-kenri-quiz） | `sh_quiz_takken`           |
+| `fp2`              | FP2級 計算問題ドリル（fp2-calc-drill） | `sh_quiz_fp2`              |
+| `g-kentei`         | G検定 模擬試験（g-kentei-mock-exam） | `sh_quiz_g-kentei`         |
+| （なし・tool系）    | aws-cert-diagnosis / pdf-to-text / flashcard-app はクイズ問題データを持たない診断・変換・暗記ツール | — |
 
 > **新規追加時のルール**: examId は kebab-case、LocalStorage キーは `sh_quiz_{examId}` で自動決定。
-> 他アプリと examId が衝突しないことを上記カタログで確認してから追加する。
+> 他アプリと examId が衝突しないことを上記カタログと `src/apps/index.ts` の両方で確認してから追加する。
+> JSON ファイル名は `src/data/master/questions-{examId}.json`（詳細は `quiz_data_rules.md`）だが、examId の表記ゆれ（`it-passport` と記事側 `ip` 等）が残っているケースがあるため、新規アプリでは記事側 examId カタログ（`.workspace/.task/exam-id-catalog.md`）の値への統一を推奨する。
 
 > **別カタログとの関係（重要）**: 上表は**クイズアプリ専用**の examId（`MDX → QuizApp` の `examId=` prop）。
 > §1 手順5 で作成する記事（`index.mdx`）の `knowledge.examId` フロントマターは**別の正本**である `.workspace/.task/exam-id-catalog.md`（および `src/content/config.ts` の enum）に従うこと。
@@ -269,14 +279,13 @@ export const getWeakestField = (progress: UserProgress): string | null => {
 
 ## 6. CSS クラス命名規則
 
-| プレフィックス | 用途                   | 使用コンポーネント            |
-| -------------- | ---------------------- | ----------------------------- |
-| `qa-`          | QuizApp メイン UI      | QuizApp.tsx（汎用）           |
-| `dq-`          | DailyQuiz「今日の1問」 | DailyQuiz.tsx                 |
-| `sg-`          | SG 科目B シナリオ演習  | sg-subject-b-quiz/QuizApp.tsx |
-| `fc-`          | フラッシュカード       | flashcard-app/CardSession.tsx |
+`it-passport-quiz` 由来の `qa-` / `dq-` プレフィックスを基本形とするが、後発アプリはアプリ固有のプレフィックス（例: `ex-app`, `diag-app`, `subject-b-app`, `flashcard-app`, `region-widget`）を独自に採用しているケースが多い。**厳密な固定表ではなく、次のルールを守ること**:
 
-**ダークモードは必須**。`.dark .qa-xxx` セレクタと `@media (prefers-color-scheme: dark)` の両方を実装すること（`dark_mode_css.md` 参照）。
+- 新規アプリは他アプリと衝突しない一意な短いプレフィックスを1つ決め、そのアプリの全クラスに一貫して使う（例: `takken-` なら `.takken-card`, `.takken-choice` 等）
+- 汎用クイズUIをそのまま流用する場合のみ `qa-` / `dq-` を踏襲する
+- 既存の代表例: `qa-`/`dq-`（it-passport-quiz）, `sg-`（sg-subject-b-quiz）, `fc-`（flashcard-app）, `ex-app`（g-kentei-mock-exam）, `diag-app`（aws-cert-diagnosis）
+
+**ダークモードは必須**。`.dark .{prefix}-xxx` セレクタと `@media (prefers-color-scheme: dark)` の両方を実装すること（`dark_mode_css.md` 参照）。
 
 ### ブランドカラー
 

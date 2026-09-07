@@ -96,6 +96,14 @@ chiteki-zaisan, boiler-refrigeration, shobo-setsubi, fp, aws, fintech-it, toeic
 
 （2026-07-20時点で未登録・予定なし。fp/aws/boiler-refrigeration/toeicはすべて登録済み・上表参照）
 
+**2026-09-07追記**: 2027年IPA試験制度改訂に伴う新設試験3件が候補として浮上。記事化に着手する際にexamId登録すること（現時点では登録不要・シラバス案の構造化のみ完了）。詳細は `.workspace/.new-contentplan/2027-exams/` 配下のプロファイルレポート参照。
+
+| examId候補 | 資格名 | シラバス構造化データ | 備考 |
+| --- | --- | --- | --- |
+| `dm` | データマネジメント試験（新設・2027年度夏〜秋予定） | `src/data/master/syllabus-dm-2027.json` | ITパスポートの次のステップ試験。中分類8（データマネジメント）が独自の深掘り分野 |
+| `pd-m` | プロフェッショナルデジタルスキル（マネジメント）試験（新設・仮称） | `src/data/master/syllabus-pd-m-2027.json` | 応用情報＋高度試験のマネジメント領域を統合再編 |
+| `pd-s` | プロフェッショナルデジタルスキル（システム）試験（新設・仮称） | `src/data/master/syllabus-pd-s-2027.json` | 応用情報＋高度試験のシステム領域を統合再編。AI駆動開発等の新規領域を含む |
+
 ---
 
 ## 関連ドキュメント（別カタログ）
