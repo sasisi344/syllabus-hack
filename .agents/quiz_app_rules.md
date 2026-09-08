@@ -8,6 +8,8 @@ description: Syllabus Hack クイズアプリ（Preact/Islands）の開発規約
 クイズアプリ（CBTシミュレーター）の新規作成・改修に関する統一ルールです。
 **新規アプリ作成前に必ずこのファイルを参照してください。**
 
+> **方針転換（2026-09-09）**: `ap-quiz`／`ap-subject-b`を除く既存クイズアプリ（`it-passport-quiz`等22本）は、トップページ常時露出込みでもGA4セッションが週0〜数件・エンゲージメント最大22秒とほぼ無反応であることをW36データで確認した（詳細: `.workspace/.task/quiz-app-review/w36-quiz-app-audit.md`）。**AP系以外の新規スタンドアロンアプリ開発は当面凍結**し、既存問題データは20時間学習法コース（`course`コレクション、`.workspace/.new-contentplan/ip-course/ip-course-curriculum.md`）の章末チェック問題への転用を優先する。新規アプリ作成の依頼を受けた場合は、まずコース組み込み型で代替できないかをユーザーに確認すること。
+
 ---
 
 ## 1. 開発フロー
@@ -79,9 +81,9 @@ src/
 │   └── post/app/{app-slug}/
 │       ├── index.mdx               # アプリ記事ページ
 │       └── cover.jpg               # カバー画像（ピクトグラムスタイル）
-└── components/widgets/
-    └── DailyQuizSection.astro      # トップページ用 Islands ラッパー
 ```
+
+> トップページへの常時露出（旧 `DailyQuizSection.astro`）は2026-09-09に撤去済み（上記方針転換を参照）。新規アプリをトップページに露出させる設計は行わない。
 
 > **禁止**: `App.ts` のようなスタブファイルは作成しない。
 > 将来的に使う可能性があっても空ファイルは作らない。実装が完成してから追加する。

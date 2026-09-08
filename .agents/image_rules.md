@@ -11,6 +11,7 @@ description: Rules for generating article cover images. Design spec and placemen
 
 - theory カテゴリ: `theory/common-cover.png` を共通利用（従来どおり・個別生成不要）
 - method / trend / career の一部・アプリ記事: ジャンル単位で共通カバーを使うことでコストダウンを図っている。**「共通カバー＝画像がない」ではない**ので、監査で個別化対象として一括起票しないこと
+- **course コレクション**（2026-09-09追記）: 同じ設計思想を適用し、デフォルトで `course/common-cover.png` を共通利用する。章ごとの個別カバーはWeek3実装時にユーザーが明示的に指示した場合のみ生成する
 - 個別カバーの生成は、新規記事の公開時などにユーザーの明示的な指示がある場合のみ行う
 
 ## 1. ファイル仕様

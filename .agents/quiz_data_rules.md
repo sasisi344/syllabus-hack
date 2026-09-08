@@ -15,6 +15,8 @@
 
 新規資格を追加したら、examId の衝突がないか `src/data/master/` を Glob で確認してから配置する。
 
+> **別系統のデータ（2026-09-09追記）**: ITパスポート関連アプリ（`it-passport-quiz`／`ip-strategy-drill`／`ip-management-drill`／`ip-technology-drill`）は上記に加えて `src/data/quiz/it-passport/{generative-ai,management,predicted,strategy,technology}.json`（計334問）も使用する。こちらはスキーマが異なり（`question`/`options`/`answer`/`middleCategory`等、下記§2の`Question`型とは別体系）、`src/apps/it-passport-quiz/transformQuestions.ts` の `transformRawQuestions()` で正規化してから使う。`it-passport-quiz`本体は `src/pages/data/questions-it-passport.json.ts` がmaster側とこちらを統合したAPIエンドポイントとして提供し、`ip-*-drill`系は分野別JSONを直接importする。新規にITパスポート系問題を追加する場合は、この334問バンクとの重複がないか確認すること。
+
 ## 2. JSON スキーマ
 
 `src/apps/it-passport-quiz/types.ts` の `Question` インターフェースに準拠します。
