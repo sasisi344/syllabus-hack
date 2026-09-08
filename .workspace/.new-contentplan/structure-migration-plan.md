@@ -244,3 +244,42 @@ const courseCollection = defineCollection({
 | Week2 | 1-2 で theory 76本の対応表作成と `examId:'ip'` 付け直し、`mapFieldTo2027()` 実装 |
 | Week3 | 2-5 導線付け替え5点、2-6 sitemap、2-7 逆リンク上位10本 |
 | Week4 | GA4 イベント5種の実装確認、`/try` の扱い判断 |
+
+---
+
+## 9. TODO §1「サイト構成の見直し」の結論（2026-09-08）
+
+> `.workspace/.task/TODO.md` §1 の3項目に対する回答。実装（コード変更）は `course` コレクションが存在しないと成立しないため Week3（§5 Phase2 2-5）で行う。本節は設計判断の確定版。
+
+### 9-1. 現行カテゴリ構造と `course` の関係（整理）
+
+既に §0 結論1・§4-1 の通り確定済み。要点のみ再掲：
+
+- `trend/method/career/theory/app` の5カテゴリは**手を入れない**。`course` は独立コレクションで、既存カテゴリ体系の外側に追加する
+- カテゴリ = 記事タイプ（読み物）、`course` = 学習パス（順路・進捗・章末チェック）という別軸である
+- この結論は `.agents/category_rules.md`「Relationship to the `course` Collection」節に明文化済み（2026-09-08追記）
+
+### 9-2. トップページ・グローバルナビの導線設計（反映先）
+
+設計自体は §3-2（3層ファネル）・§5 Phase2 2-5 で確定済み。Week3実装時の変更点をここに一覧化する：
+
+| 箇所 | Before | After |
+| --- | --- | --- |
+| ヘッダーナビ (`navigation.ts`) | 資格から探す／トレンド／学習メソッド／キャリア／用語解説／ウェブアプリ | 「資格から探す」の直後に「学習コース」を追加（`/course/`） |
+| トップページ Hero 第1CTA | 「試験対策アプリを使う」→ `/category/app/` | 「20時間コースで学ぶ」→ `/course/` に差し替え。旧CTAは第2CTAへ降格 |
+| フッター (`footerData`) | 資格から探す／トレンド／学習メソッド／キャリア戦略／用語解説／ウェブアプリ | 「学習コース」を「資格から探す」の直後に追加 |
+| `method/itp-hub` 冒頭 | コース導線なし | コースCTA（`/course/ip/`）を追加 |
+| 章ページ末尾 | — | note導線（Tier2実装後）／CBTアプリへのリンク |
+
+実装タスクとしての実体は §5 Phase2 2-5 と重複するため、Week3で1回のみ実施する（本節は「設計は確定済み」の記録用）。
+
+### 9-3. `/certifications/` との重複・住み分け（確認）
+
+`/certifications/`（`certifications.astro` + `cert-hubs.ts`）と `/course/` は役割が異なり、重複しない：
+
+- **`/certifications/`**: 「資格を選ぶ」入口。`cert-hubs.ts` に登録された全26資格クラスタを横断的に一覧化し、各資格のHub記事（`/method/{slug}-hub/`）へ誘導する。**扱う全資格が対象**（courseの有無を問わない）
+- **`/course/`**: 「（courseコレクションを持つ資格を）体系的に学ぶ」入口。当面はITパスポートのみ、将来的にcourse実装済みのexamIdのみを一覧化する
+- **関係は階層であり重複ではない**: `/certifications/`（資格を選ぶ）→ Hub記事（資格を攻略する）→ `/course/{examId}/`（courseがある資格のみ、体系的に学ぶ）→ CBT／note（演習・応用）。`course` は `/certifications/` の代替ではなく、Hub配下に生える追加ステップという位置づけ
+- **実装への申し送り（Week3, §5 Phase2 2-5 ③に統合）**: `cert-hubs.ts` の `CertHub` interface に `courseHref?: string` を追加し、course実装済みのexamIdのみ値をセット。`certifications.astro` のカードに `courseHref` があれば「20時間コースで学ぶ →」バッジを追加表示する。`/certifications/` 自体のページ構造・全資格一覧という役割は変更しない
+
+**判断**: `/certifications/` に対する新規ページ・構造変更は不要。`courseHref` 追加のみで住み分けが成立する。

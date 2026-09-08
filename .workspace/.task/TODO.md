@@ -16,24 +16,24 @@
 
 | Week | 期間 | 状態 | 内容 |
 |---|---|---|---|
-| Week1 | 9/6〜9/12 | ほぼ完了（残1件） | テンプレート仕様確定・2027年シラバスJSON化（IP/SC/DM/PD-M/PD-S）・KaTeX PoC完了。残: `scaffold-course.cjs` の2027データ対応改修 |
+| Week1 | 9/6〜9/12 | **完了** | テンプレート仕様確定・2027年シラバスJSON化（IP/SC/DM/PD-M/PD-S）・KaTeX PoC・`scaffold-course.cjs` の2027データ対応改修が完了 |
 | Week2 | 9/13〜9/19 | 未着手 | Tier1用語精選（8章・元語数の約4割に絞込）・診断テスト10問・8章本文執筆・章末理解度チェック作成 |
 | Week3 | 9/20〜9/26 | 未着手 | Astro `course` コレクション実装（TOP→章一覧→章ページ）・Tier1パイロット無料公開・itp-hub/既存クイズとの回遊導線接続 |
 | Week4 | 9/27〜10/3 | 未着手 | GA4/GSC計測開始・2本目パイロット候補選定・今月の振り返り・来月Tier2準備 |
 
-- [ ] **（Week1残タスク）** `.workspace/scripts/scaffold-course.cjs` を `syllabus-ip-2027.json` 対応に改修（現状v6.5データ前提）
-- [ ] **（Week1派生）** examId未登録3件（`dm` / `pd-m` / `pd-s`）を `exam-id-catalog.md` へ登録（[`2027-exams-master-report.md`](../.new-contentplan/2027-exams/2027-exams-master-report.md) 参照）
+- [x] **（Week1残タスク）** `.workspace/scripts/scaffold-course.cjs` を `syllabus-ip-2027.json` 対応に改修（2026-09-08完了）。JSON構造の変化（旧v6.5の3階層 `categories→large_categories→middle_categories` → 新2027の2階層 `major_categories→middle_categories`）に合わせてローダーを書き換え、章定義を `ip-course-curriculum.md` §3-2 の8章（ビジネスの基礎／経営戦略とビジネスモデル／DXとビジネス変革／サービス・PJマネジメント／PC・システム基礎／ネットワークとDB／データとAI／セキュリティと情報倫理）に更新。`node .workspace/scripts/scaffold-course.cjs ip` 実行で全章の抽出語数（155/144/70/29/110/64/90/157＝819語）が curriculum定義と完全一致することを確認済み。出力先 `.workspace/draft/course/ip/` はWeek2の用語精選・本文執筆の入力になる
+- [x] **（Week1派生）** examId未登録3件（`dm` / `pd-m` / `pd-s`）を `exam-id-catalog.md` へ登録 → 2026-09-07時点で既に「未登録・予定」候補表として追記済みであることを確認（[`2027-exams-master-report.md`](../.new-contentplan/2027-exams/2027-exams-master-report.md) §5-6の判断: DM/PD-M/PD-Sの`config.ts` enum正式登録・Hub化は現行試験終了後（半年〜1年後）に見送り、時期尚早な登録は検索意図とのズレを生むため意図的に据え置き。`src/content/config.ts` に3件とも未登録であることも確認済みで、方針と齟齬なし）
 - [ ] Week2〜4はブロック着手時に本表のステータスを更新し、正本のWeekファイル側でチェックを消化する
 
 ---
 
 ## 1. サイト構成の見直し・最適化（courseコレクション新設に伴う）
 
-> 背景: `course` という新コレクションが追加されることで、既存5カテゴリ（trend/method/career/app/theory）中心の構造との関係整理が必要になる。詳細分析は [`structure-migration-plan.md`](../.new-contentplan/structure-migration-plan.md) にあるが、カテゴリ体系そのものの見直し（ナビゲーション・トップページ導線・タグ設計との整合）は未着手。
+> 背景: `course` という新コレクションが追加されることで、既存5カテゴリ（trend/method/career/app/theory）中心の構造との関係整理が必要になる。詳細分析・結論は [`structure-migration-plan.md`](../.new-contentplan/structure-migration-plan.md) §9 にまとめ済み（2026-09-08）。ナビ・トップページの**実コード変更**は `course` コレクション実装（§0 Week3）と同時に行う。
 
-- [ ] 現行カテゴリ構造（trend/method/career/app/theory）と新設 `course` の関係を整理し、トップページ・グローバルナビの導線設計に反映
-- [ ] `.agents/category_rules.md` を新構成に合わせて更新
-- [ ] 資格ナビゲーション（`/certifications/` 等、旧タスクで実装済み）との重複・住み分けを確認
+- [x] 現行カテゴリ構造（trend/method/career/app/theory）と新設 `course` の関係を整理し、トップページ・グローバルナビの導線設計に反映 → 設計確定 [`structure-migration-plan.md`](../.new-contentplan/structure-migration-plan.md) §9-1・§9-2（実装はWeek3 §5 Phase2 2-5で1回のみ実施）
+- [x] `.agents/category_rules.md` を新構成に合わせて更新 → 「Relationship to the `course` Collection」節を追加済み
+- [x] 資格ナビゲーション（`/certifications/` 等、旧タスクで実装済み）との重複・住み分けを確認 → [`structure-migration-plan.md`](../.new-contentplan/structure-migration-plan.md) §9-3。階層関係であり重複なしと判断。`cert-hubs.ts` への `courseHref?` 追加のみで住み分け完了予定（Week3実装）
 
 ## 2. 画像生成スクリプトの見直し・最適化
 

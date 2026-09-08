@@ -75,3 +75,11 @@ Syllabus Hack content is strictly divided into five categories. Articles must be
 
 A term-explanation article that was published under `trend/` for topicality reasons (e.g. ゼロトラスト, RAG, MLOps) **keeps its URL** (no move, no redirect). Instead, mark its true nature with `knowledge.type: theory` in frontmatter. New term articles always go to `theory/`.
 This follows the 2026-06-18 categories-list-check decision: URL stability outweighs directory purity for already-indexed pages.
+
+## Relationship to the `course` Collection (2026-09-07〜)
+
+`course` is a **separate content collection** (`src/data/course/{examId}/`, URL `/course/{examId}/`), not a 6th category. Never add `category: 'course'` to `post` frontmatter, and never add `'course'` to this 5-value category enum.
+
+- **Why separate**: The 5 categories above classify *article type* (news / how-to / outcome / reference / tool). `course` represents a *learning path* (chapter order, progress, quizzes) — a different axis entirely. Mixing it into `post` would break pagination, tags, and related-posts logic. Full rationale: [`structure-migration-plan.md`](../.workspace/.new-contentplan/structure-migration-plan.md) §0, §4.
+- **Cannibalization rule**: `theory/` keeps authority for term-explanation SEO keywords. Course chapter pages must stay "summary + link to the canonical `theory/` article" — never re-explain a term in full inside a chapter if a `theory/` article already covers it. If a chapter needs a term that has no `theory/` article yet, write the `theory/` article first, then link it from the chapter.
+- **No new category needed for course-adjacent writing**: chapter body copy, diagnosis tests, and chapter-end quizzes live under `src/data/course/` and `src/data/quiz/{examId}/`, not under `src/data/post/`.

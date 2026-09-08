@@ -34,7 +34,7 @@ tags:
 - [ ] **（新規追加・2026-09-07）** 【ユーザー作業】20hoursコース／シラバスハック専用のSNSアカウントを新規作成（既存個人ブランド`@sasisi344`とは切り離す方針で決定。プラットフォーム・投稿体制は`sns-strategy.md`の型を踏襲しつつ専用アカウント用に再設計）
   - **自己紹介文（採用確定・2026-09-07）**: 「資格の分厚いシラバスを、生成AIで20時間分に圧縮する学習メディア『シラバスハック』公式。無料の入口テキストはこちら」
   - ハンドルは未確定（候補: `@syllabushack` / `@sh_20h` / `@syllabus_hack_ai` / `@20h_shikaku` / `@sh_manabi`）。アカウント作成時に空き状況を見て決定
-- [ ] **（新規追加）** `.workspace/scripts/scaffold-course.cjs` を `syllabus-ip-2027.json` 対応に改修する（現状はv6.5データ前提。Tier1の8章定義を [`ip-course-curriculum.md`](./ip-course/ip-course-curriculum.md) §3-2 の新章立てに更新）
+- [x] **（新規追加）** `.workspace/scripts/scaffold-course.cjs` を `syllabus-ip-2027.json` 対応に改修する（現状はv6.5データ前提。Tier1の8章定義を [`ip-course-curriculum.md`](./ip-course/ip-course-curriculum.md) §3-2 の新章立てに更新） → **完了（2026-09-08）**。2027年JSONの2階層構造（`major_categories→middle_categories`）にローダーを合わせ、章定義を新8章に更新。実行結果の抽出語数が curriculum定義（155/144/70/29/110/64/90/157＝819語）と完全一致することを確認
 
 ## 次Weekへの引き継ぎ
 
