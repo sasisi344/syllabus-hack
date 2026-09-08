@@ -1,6 +1,6 @@
 # Syllabus Hack Article Index
 
-Generated on: 2026/9/7 3:07:30
+Generated on: 2026/9/8 23:31:27
 
 | Publish Date | Category | Title | Tags | Path |
 | :--- | :--- | :--- | :--- | :--- |

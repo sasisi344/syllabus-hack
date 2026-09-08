@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-04-15T00:00:00Z
-lastmod: 2026-07-10
+lastmod: 2026-09-08
 title: 'ChatGPTでITパスポートに合格する全手順｜生成AI（Gemini・Claude）対応マップ'
 excerpt: 'ChatGPT・Gemini・Claudeを使ってITパスポートに合格するための全手順を一本化。ツール選択、4週間スケジュール表、最小プロンプトセット、深掘り記事8本へのリンクをまとめた「地図」記事。'
 image: '~/data/post/method/chatgpt-itpassport-ai-complete-guide/cover.jpg'
@@ -182,7 +182,7 @@ ITパスポート試験が明日です。
 
 ITパスポートの次に<strong>基本情報技術者・科目B</strong>を目指す場合は、場面別プロンプトの索引である <strong>[FE科目Bを生成AIで攻略するプロンプト集](/method/fe-subject-b-ai-prompt-hub/)</strong> へ進むと迷いにくい。
 
-<strong>2026年のCBT本番運用</strong>や空白期の学習設計は <strong>[【2026年攻略】IPA試験が「年2回CBT」へ！空白の半年を埋めるAI戦略](/trend/ipa-2026-cbt-strategy-ai/)</strong> を参照。シラバスPDFを「読み込ませて聴く」流れは <strong>[NotebookLM 資格試験完全活用ガイド](/method/notebooklm-features-guide/)</strong> と組み合わせやすい。
+<strong>2026年のCBT本番運用</strong>や空白期の学習設計は <strong>[情報処理技術者試験CBT完全移行ガイド](/method/cbt-2026-syllabus-complete-guide/)</strong> を参照。シラバスPDFを「読み込ませて聴く」流れは <strong>[NotebookLM 資格試験完全活用ガイド](/method/notebooklm-features-guide/)</strong> と組み合わせやすい。
 
 ## 合格後に手に入るもの
 

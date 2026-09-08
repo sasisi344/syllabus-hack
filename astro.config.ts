@@ -176,6 +176,14 @@ export default defineConfig({
     '/strategy/data-profitability-dwh-mining-regression/': '/theory/data-profitability-dwh-mining-regression/',
     '/strategy/business-math-statistics-average-variance-bayes/': '/theory/business-math-statistics-average-variance-bayes/',
     '/strategy/cloud-service-selection-saas-paas-iaas/': '/theory/cloud-service-selection-saas-paas-iaas/',
+    // IPA 2026年CBT記事クラスタ統廃合 (2026-09-08, article-consolidation/ipa-cbt-2026-cluster-w36.md):
+    // 独自価値の薄い6本をハブ記事へ統合。日程の詳細は ipa-2026-cbt-schedule-guide へ
+    '/trend/ipa-2026-cbt-confirmed-schedule/': '/method/cbt-2026-syllabus-complete-guide/',
+    '/trend/applied-advanced-exam-cbt-transition-2026/': '/method/cbt-2026-syllabus-complete-guide/',
+    '/trend/ap-2026-spring-postponed/': '/trend/ipa-2026-cbt-schedule-guide/',
+    '/trend/2026-cbt-transition-advanced-exam/': '/method/cbt-2026-syllabus-complete-guide/',
+    '/trend/2026-cbt-ai-syllabus-strategy/': '/method/cbt-2026-syllabus-complete-guide/',
+    '/trend/ipa-2026-cbt-strategy-ai/': '/method/cbt-2026-syllabus-complete-guide/',
   },
   // Explicit so @astrojs/sitemap and prerender see canonical trailing URLs even if integrations order changes
   trailingSlash: 'always',
