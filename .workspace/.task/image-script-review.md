@@ -1,6 +1,6 @@
 # 画像生成スクリプトの見直し（TODO §2）
 
-> 正本タスク: `TODO.md` §2「画像生成スクリプトの見直し・最適化」
+> 正本タスク（完了・2026-09-09にアーカイブ済み）: `archive/completed-2026-09-09.md` 旧§2「画像生成スクリプトの見直し・最適化」
 > 対象: `.workspace/scripts/Antigravity-nanobana/generate-image.js`
 
 ## 1. 現状レビュー
