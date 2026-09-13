@@ -19,12 +19,12 @@ ITパスポート20hoursパイロット（Tier1）を実際にWeb公開し、既
 
 ## タスク
 
-- [ ] Astro新テンプレート実装: TOP（学習カテゴリ）→ 章一覧（サブカテゴリ）→ 章ページ（サブページ）の2階層（`course`コレクション、[`structure-migration-plan.md`](./structure-migration-plan.md) §4-2）
-  - 読了目安時間の表示
-  - Week1のKaTeX PoCの結果を反映（ITパスポートでは未使用でも、テンプレート自体は数式表示に対応させておくと2本目テーマで流用できる）
-- [ ] 章末チェック用の新規UIコンポーネントを実装（[`ip-course/ip-course-curriculum.md`](./ip-course/ip-course-curriculum.md) §3-5）: 全問（3〜4問固定・ランダム化なし）に回答後、「答え合わせ」ボタンで一括採点し設問ごとに○✕を表示する方式。既存`it-passport-quiz`系（1問ずつ即時正誤表示、`client:load`）とは異なるUIのため、新規Preactコンポーネントとして切り出す。データはWeek2で作成済みの各章「章末チェック」節（`.workspace/draft/course/ip/0{1-8}-*.md`、計31問）を移植
-- [ ] ITパスポート20hoursパイロット（Tier1・8章）を無料公開
-  - `method/itp-hub` および既存クイズアプリ（`it-passport-quiz` 等）と相互リンクし、回遊導線を作る
+- [x] Astro新テンプレート実装: TOP（学習カテゴリ）→ 章一覧（サブカテゴリ）→ 章ページ（サブページ）の2階層（`course`コレクション、[`structure-migration-plan.md`](./structure-migration-plan.md) §4-2） → **2026-09-09完了**。`src/content/config.ts`に`course`コレクション追加、`src/pages/course/index.astro`・`[exam]/index.astro`・`[exam]/[chapter].astro`・`src/layouts/CourseLayout.astro`を新規実装
+  - 読了目安時間の表示 → 実装済み（既存remarkプラグイン`readingTime`を流用、`CourseLayout`で章の目安分数と併記）
+  - Week1のKaTeX PoCの結果を反映 → ITパスポートでは数式未使用のためKatexStylesは今回未import（章ページ単位でスコープする既存方針どおり、必要な章がでてきたら個別importする）
+- [x] 章末チェック用の新規UIコンポーネントを実装（[`ip-course/ip-course-curriculum.md`](./ip-course/ip-course-curriculum.md) §3-5） → **2026-09-09完了**。`src/apps/course-quiz/ChapterQuiz.tsx`（全問回答後「答え合わせ」で一括採点・○✕表示、診断モードは不正解章へのリンク表示）・`progress.ts`（`sh_course_{examId}`）を新規実装。ブラウザで実際に4問チェック・10問診断の両方を操作し、採点・localStorage保存・弱点章リンクの動作を確認済み
+- [x] ITパスポート20hoursパイロット（Tier1・8章）を無料公開 → **2026-09-09完了**。`src/data/course/ip/`に9ファイル（index.mdx+8章.mdx）を`draft: false`で配置。診断テスト10問・章末チェック31問は`src/data/quiz/it-passport/course-*.json`に分離
+  - `method/itp-hub` および既存クイズアプリ（`it-passport-quiz` 等）と相互リンクし、回遊導線を作る → itp-hub冒頭にコースCTA追加、コース完走ページに`it-passport-quiz`へのリンクを設置（Week2作成コンテンツに既存）。ナビ「学習コース」追加・トップページHero第1CTA差し替え・`/certifications/`カードへの「20時間コースで学ぶ」バッジ表示も実施
 - [ ] ~~CBT形式へのメールアドレスゲート実装~~ → **来月に延期**。有料note（誘導先）が無い状態でゲートだけ作っても導線が完結しないため、Tier2着手時にまとめて実装する
 - [ ] ~~noteマガジン第1弾を公開~~ → **来月に延期**
 
