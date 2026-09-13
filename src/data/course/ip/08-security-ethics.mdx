@@ -1,0 +1,134 @@
+---
+title: '第8章 セキュリティと情報倫理'
+examId: 'ip'
+kind: 'chapter'
+order: 8
+genre: 'セキュリティ・倫理'
+estimatedMinutes: 210
+syllabusRefs: ['情報セキュリティの脅威', '情報セキュリティマネジメント', '情報セキュリティ対策', '情報倫理・AI倫理']
+field2027: 'security-ethics'
+quizRef: 'course-ch8'
+relatedPosts:
+  - /theory/common-key-cryptography/
+  - /theory/public-key-cryptography/
+  - /theory/supply-chain-security-vulnerability-management-incident-response/
+  - /trend/multi-factor-authentication/
+  - /trend/zero-trust-architecture/
+  - /trend/sql-injection-vulnerability/
+  - /trend/hallucination-ai-error/
+  - /trend/deepfake/
+  - /trend/ai-opt-out-policy/
+  - /trend/ai-ethics-governance/
+noteUrl: ''
+draft: false
+lastmod: 2026-09-09
+metadata:
+  description: 'ITパスポート20時間コース第8章。情報セキュリティの脅威・マネジメント・対策と、AI倫理を「攻撃→組織対応→技術対策→倫理」の4段構成で精選62語で押さえる。'
+---
+
+import ChapterQuiz from '~/apps/course-quiz/ChapterQuiz';
+import questions from '~/data/quiz/it-passport/course-ch8.json';
+
+## この章で学ぶこと
+
+全8章中もっとも語数が多い章（157語）です。「何に狙われるか（<strong>情報セキュリティの脅威</strong>）」「組織としてどう守る仕組みを作るか（<strong>情報セキュリティマネジメント</strong>）」「技術的にどう防ぐか（<strong>情報セキュリティ対策</strong>）」「AI時代に何を気をつけるべきか（<strong>情報倫理・AI倫理</strong>）」という「攻撃→組織対応→技術対策→倫理」の4段構成で理解すると、量の多さに圧倒されにくくなります。
+
+## 情報セキュリティの脅威
+
+人の心理的な隙を突く<strong>ソーシャルエンジニアリング</strong>（なりすまし・のぞき見など）と、技術的な攻撃を対比します。マルウェアは種類ごとの動きで区別すると覚えやすく、身代金を要求する<strong>ランサムウェア</strong>、正規ソフトを装う<strong>トロイの木馬</strong>、情報を盗み見る<strong>スパイウェア</strong>、キー入力を記録する<strong>キーロガー</strong>、裏口を仕込む<strong>バックドア</strong>が代表例です。特定の組織を狙う<strong>標的型攻撃</strong>、偽サイトに誘導する<strong>フィッシング</strong>、大量アクセスでサービスを妨害する<strong>DoS攻撃・DDoS攻撃</strong>も基本語です。
+
+Webアプリケーションを狙う攻撃として、不正なSQL文を注入する<strong>SQLインジェクション</strong>、悪意あるスクリプトを埋め込む<strong>クロスサイトスクリプティング</strong>を区別します（「SQLインジェクションはデータベースへの攻撃、XSSは他の利用者のブラウザへの攻撃」という対比が有効）。修正プログラム公開前の脆弱性を突く<strong>ゼロデイ攻撃</strong>、生成AI固有のリスクである<strong>プロンプトインジェクション</strong>（悪意ある指示文で AI を誤動作させる）も新シラバスで重要度が上がっています。
+
+**扱う用語（精選後・17語）**
+
+- 不正アクセス／なりすまし／改ざん
+- ソーシャルエンジニアリング／情報漏えい／内部不正
+- ランサムウェア／トロイの木馬／スパイウェア／キーロガー／バックドア
+- 標的型攻撃／フィッシング
+- DoS攻撃／DDoS攻撃
+- SQLインジェクション／クロスサイトスクリプティング
+- ゼロデイ攻撃
+
+> 深掘り: [データベースが危ない！SQLインジェクションの仕組みと防壁](/trend/sql-injection-vulnerability/)
+
+## 情報セキュリティマネジメント
+
+セキュリティの3要素である<strong>機密性・完全性・可用性（CIA）</strong>が土台です。従来の「社内は安全、社外は危険」という境界型の考え方を捨て、すべての通信を都度検証する<strong>ゼロトラスト</strong>が新シラバスの重要キーワードです。組織としての対応は、リスクを特定→分析→評価する<strong>リスクアセスメント</strong>、避ける・低減する・移す・受け入れるの4パターンからなる<strong>リスク対応</strong>、行動指針を定める<strong>情報セキュリティポリシー</strong>という流れで整理します。
+
+事故対応の専門チームとして、インシデント対応にあたる<strong>CSIRT</strong>、監視を専門に行う<strong>SOC（Security Operation Center）</strong>があります。何を守るべきかを明確にする<strong>情報資産</strong>とその一覧である<strong>情報資産台帳</strong>もマネジメントの出発点として押さえます。
+
+**扱う用語（精選後・14語）**
+
+- 機密性／完全性／可用性
+- ゼロトラスト
+- リスクマネジメント／リスクアセスメント（特定，分析，評価）
+- リスク対応（回避，低減，移転，保有）
+- 情報セキュリティポリシー
+- CSIRT／SOC
+- 情報資産／情報資産台帳
+
+> 深掘り: [「誰も信じない」セキュリティ！ゼロトラストの基本概念](/trend/zero-trust-architecture/)／[サプライチェーンを守る：脆弱性管理とインシデント対応](/theory/supply-chain-security-vulnerability-management-incident-response/)
+
+## 情報セキュリティ対策
+
+暗号化は、同じ鍵で暗号化・復号する高速な<strong>共通鍵暗号方式</strong>と、公開鍵と秘密鍵のペアを使う<strong>公開鍵暗号方式</strong>の違いが最頻出です（「共通鍵は速いが鍵の受け渡しが課題、公開鍵は鍵配送が安全だが処理が遅い」という対比で覚えます）。改ざんされていないことを保証する<strong>デジタル署名</strong>、公開鍵が本物であることを証明する<strong>デジタル証明書</strong>とそれを発行する<strong>認証局（CA）</strong>という<strong>PKI（公開鍵基盤）</strong>の仕組みもセットで理解します。
+
+認証技術では、知識（パスワード）・所持（ICカード）・生体（指紋）の異なる要素を2つ以上組み合わせる<strong>多要素認証（MFA）</strong>、1回のログインで複数サービスを使える<strong>シングルサインオン</strong>が頻出です。ネットワーク防御の技術は、外部との境界を守る<strong>ファイアウォール</strong>、Webアプリ特有の攻撃を防ぐ<strong>WAF</strong>、侵入を検知する<strong>IDS</strong>・防ぐ<strong>IPS</strong>の役割の違いを整理します。
+
+**扱う用語（精選後・18語）**
+
+- 共通鍵暗号方式／公開鍵暗号方式
+- ハッシュ関数／デジタル署名
+- PKI（公開鍵基盤）／デジタル証明書／認証局（CA）
+- 多要素認証（記憶，所有，生体）／シングルサインオン／ワンタイムパスワード
+- ファイアウォール／WAF／IDS（侵入検知システム）／IPS（侵入防止システム）
+- EDR
+- 脆弱性管理／脆弱性検査
+- マルウェア対策ソフト
+
+> 深掘り: [共通鍵暗号方式：スピード重視！](/theory/common-key-cryptography/)／[秘密の鍵を渡さずに暗号化！公開鍵暗号の魔法](/theory/public-key-cryptography/)／[パスワードだけじゃ足りない！多要素認証（MFA）](/trend/multi-factor-authentication/)
+
+## 情報倫理・AI倫理
+
+インターネット上での適切な振る舞いを指す<strong>デジタルシティズンシップ</strong>を土台に、情報の真偽を扱う語群を整理します。悪意を持って作られた<strong>フェイクニュース</strong>と、それを検証する<strong>ファクトチェック</strong>、自分と似た意見ばかりが集まる<strong>エコーチェンバー</strong>・<strong>フィルターバブル</strong>という情報の偏りの構造もセットで扱います。
+
+生成AI固有の倫理課題として、AIがもっともらしい嘘を生成する<strong>ハルシネーション</strong>、AIの判断根拠を人が理解できるようにする<strong>説明可能なAI（XAI）</strong>、最終判断に人間が関与する<strong>ヒューマンインザループ（HITL）</strong>、AI学習への自分のデータ利用を拒否できる<strong>AIサービスのオプトアウトポリシー</strong>、実在しない映像を作る<strong>ディープフェイク</strong>が頻出です。この節は第1章の法規（著作権・個人情報保護法）とセットで出題されることが多く、章をまたいだ復習が効果的です。
+
+**扱う用語（精選後・13語）**
+
+- デジタルシティズンシップ
+- フェイクニュース／ファクトチェック
+- エコーチェンバー／フィルターバブル
+- 偽情報（ディスインフォメーション）／誤情報（ミスインフォメーション）
+- ハルシネーション
+- 説明可能なAI（XAI）
+- ヒューマンインザループ（HITL）
+- AIサービスのオプトアウトポリシー
+- ディープフェイク
+
+> 深掘り: [AIの「知ったかぶり」ハルシネーションとは？](/trend/hallucination-ai-error/)／[フェイクニュースの脅威！ディープフェイクの仕組み](/trend/deepfake/)／[AI学習を拒否できる？オプトアウトポリシー](/trend/ai-opt-out-policy/)／[AIはどこまで許される？「AI倫理」ガイドライン](/trend/ai-ethics-governance/)
+
+## AIで学ぶ
+
+ここまでの用語は、ChatGPTやClaudeなどの生成AIに以下のプロンプトを投げかけると、比較表つきでさらに深く掘り下げて学習できます。コピーして使ってみましょう。
+
+```
+あなたはITパスポート試験の講師です。「セキュリティと情報倫理」の範囲について、以下の用語を初学者向けに**関連づけながら**説明してください。用語同士の違いが分かる**比較表**を最後に付けてください。
+
+【情報セキュリティの脅威】ソーシャルエンジニアリング、ランサムウェア、トロイの木馬、標的型攻撃、フィッシング、DoS／DDoS攻撃、SQLインジェクション、クロスサイトスクリプティング、ゼロデイ攻撃
+【情報セキュリティマネジメント】機密性／完全性／可用性、ゼロトラスト、リスクアセスメント、リスク対応、CSIRT／SOC
+【情報セキュリティ対策】共通鍵暗号方式、公開鍵暗号方式、デジタル署名、PKI、多要素認証、シングルサインオン、ファイアウォール、WAF、IDS／IPS
+【情報倫理・AI倫理】フェイクニュース、ファクトチェック、エコーチェンバー、ハルシネーション、説明可能なAI（XAI）、ヒューマンインザループ、オプトアウトポリシー、ディープフェイク
+```
+
+## 章末チェック
+
+最後に、この章で学んだ知識をアウトプットして定着させましょう。全問に答えたら「答え合わせ」を押してください。
+
+<ChapterQuiz client:load questions={questions} examId="ip" mode="chapter" chapterOrder={8} />
+
+## この章のまとめ
+
+この章では、ランサムウェアなどの脅威、ゼロトラストといった組織的な対応、共通鍵・公開鍵暗号方式などの技術的対策、そしてハルシネーションなどAI時代の情報倫理までを学びました。
+
+これで全8章の学習は完了です。お疲れさまでした。[コースTOP](/course/ip/)の「完走したら」で、模擬試験や合格テキストなど次のステップを確認しましょう。

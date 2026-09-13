@@ -1,0 +1,56 @@
+---
+import type { GetStaticPaths } from 'astro';
+import { getCollection, render } from 'astro:content';
+import CourseLayout from '~/layouts/CourseLayout.astro';
+import { getPermalink } from '~/utils/permalinks';
+import type { MetaData } from '~/types';
+
+export const prerender = true;
+
+export const getStaticPaths = (async () => {
+  const chapterEntries = await getCollection('course', ({ data }) => data.kind === 'chapter' && !data.draft);
+  const indexEntries = await getCollection('course', ({ data }) => data.kind === 'index' && !data.draft);
+
+  return chapterEntries.map((entry) => {
+    const slug = entry.id.split('/').pop()!;
+    const siblings = chapterEntries
+      .filter((c) => c.data.examId === entry.data.examId)
+      .sort((a, b) => (a.data.order ?? 0) - (b.data.order ?? 0));
+    const idx = siblings.findIndex((c) => c.id === entry.id);
+    const prev = idx > 0 ? siblings[idx - 1] : undefined;
+    const next = idx < siblings.length - 1 ? siblings[idx + 1] : undefined;
+    const examName = indexEntries.find((i) => i.data.examId === entry.data.examId)?.data.title ?? entry.data.examId;
+
+    return {
+      params: { exam: entry.data.examId, chapter: slug },
+      props: {
+        entry,
+        examName,
+        prevChapter: prev ? { title: prev.data.title, href: getPermalink(`/course/${entry.data.examId}/${prev.id.split('/').pop()}`) } : undefined,
+        nextChapter: next ? { title: next.data.title, href: getPermalink(`/course/${entry.data.examId}/${next.id.split('/').pop()}`) } : undefined,
+      },
+    };
+  });
+}) satisfies GetStaticPaths;
+
+const { entry, examName, prevChapter, nextChapter } = Astro.props;
+const { Content, remarkPluginFrontmatter } = await render(entry);
+
+const metadata: MetaData = {
+  title: entry.data.title,
+  description: entry.data.metadata?.description || entry.data.title,
+};
+---
+
+<CourseLayout
+  metadata={metadata}
+  examName={examName}
+  examId={entry.data.examId}
+  chapterTitle={entry.data.title}
+  estimatedMinutes={entry.data.estimatedMinutes}
+  readingTime={remarkPluginFrontmatter?.readingTime}
+  prevChapter={prevChapter}
+  nextChapter={nextChapter}
+>
+  <Content />
+</CourseLayout>

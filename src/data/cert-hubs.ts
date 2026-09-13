@@ -6,6 +6,7 @@ export interface CertHub {
   name: string;
   href: string;
   description: string;
+  courseHref?: string;
 }
 
 export interface CertGroup {
@@ -21,6 +22,7 @@ export const certGroups: CertGroup[] = [
         name: 'ITパスポート',
         href: '/method/itp-hub/',
         description: 'AI時代の最初の一手。社会人・学生の入門国家資格',
+        courseHref: '/course/ip/',
       },
       {
         name: '情報セキュリティマネジメント（SG）',

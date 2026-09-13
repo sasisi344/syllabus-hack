@@ -1,0 +1,122 @@
+---
+title: '第7章 データとAI'
+examId: 'ip'
+kind: 'chapter'
+order: 7
+genre: 'データ・AI'
+estimatedMinutes: 120
+syllabusRefs: ['データマネジメント', 'データ分析・データ利活用', 'AI利活用', 'AI技術']
+field2027: 'technology'
+quizRef: 'course-ch7'
+relatedPosts:
+  - /theory/data-warehouse-basics/
+  - /theory/data-mining-kdd/
+  - /theory/regression-analysis-data/
+  - /theory/mean-median-mode-stats/
+  - /theory/standard-deviation-variance/
+  - /theory/abc-analysis-pareto-chart/
+  - /theory/ml-supervised-unsupervised/
+  - /theory/deep-learning-basics/
+  - /theory/prompt-engineering-basics/
+noteUrl: ''
+draft: false
+lastmod: 2026-09-09
+metadata:
+  description: 'ITパスポート20時間コース第7章。データマネジメント・データ分析・AI利活用・AI技術の4系統を精選41語で押さえる。'
+---
+
+import ChapterQuiz from '~/apps/course-quiz/ChapterQuiz';
+import questions from '~/data/quiz/it-passport/course-ch7.json';
+
+## この章で学ぶこと
+
+データを「どう管理するか（<strong>データマネジメント</strong>）」「どう分析するか（<strong>データ分析・データ利活用</strong>）」、そしてAIを「どう使うか（<strong>AI利活用</strong>）」「どういう仕組みか（<strong>AI技術</strong>）」の4系統です。データマネジメント・AI利活用は2027年シラバスで新設・強化された分野、データ分析・AI技術は既存theory記事の蓄積が厚い分野という違いがあるため、両方をバランスよく扱います。
+
+## データマネジメント
+
+企業がデータを経営資源として体系的に管理する考え方が<strong>データマネジメント</strong>です。データが作られてから捨てられるまでを一連の流れとして捉える<strong>データライフサイクル</strong>（生成→保管→処理→活用→廃棄）が骨格で、各段階でデータの正確性を保つ<strong>データ品質管理</strong>、データの意味や出所を記録する<strong>メタデータ管理</strong>が付随します。組織全体でデータ活用のルールを統制する<strong>データガバナンス</strong>、データに基づいて意思決定する<strong>データドリブン経営</strong>という姿勢もあわせて押さえます。
+
+**扱う用語（精選後・6語）**
+
+- データドリブン経営
+- データマネジメント／データガバナンス
+- データライフサイクル（生成，保管，処理，活用，廃棄）
+- データ品質管理
+- メタデータ管理
+
+## データ分析・データ利活用
+
+データを蓄積する基盤として、あらゆる形式のデータをそのまま貯める<strong>データレイク</strong>、整理・統合して分析用に貯める<strong>データウェアハウス（DWH）</strong>、特定部門向けに絞った<strong>データマート</strong>の3段階を区別します。データの種類は、表形式に整理された<strong>構造化データ</strong>と、文章・画像などの<strong>非構造化データ</strong>、量が膨大な<strong>ビッグデータ</strong>、誰でも使える<strong>オープンデータ</strong>で整理します。
+
+分析手法としては、大量データから規則性を見つける<strong>データマイニング</strong>、文章データを分析する<strong>テキストマイニング</strong>、データの「真ん中」を示す<strong>代表値（平均値・中央値・最頻値）</strong>、バラツキを示す<strong>標準偏差・分散</strong>が基本です。2変数の関係を予測する<strong>回帰分析</strong>と関係の強さを見る<strong>相関分析</strong>、母集団の一部から全体を推測する<strong>標本抽出（サンプリング）</strong>もセットで扱います。品質管理の定番手法として、重要度順に並べる<strong>ABC分析（パレート図）</strong>、原因を洗い出す<strong>特性要因図</strong>、2変数の関係を点で示す<strong>散布図</strong>があり、この3つは「QC七つ道具」として一緒に出題されやすい組み合わせです。
+
+**扱う用語（精選後・20語）**
+
+- データレイク／データウェアハウス（DWH）／データマート
+- 構造化データ／非構造化データ／ビッグデータ／オープンデータ
+- データマイニング／テキストマイニング
+- 代表値（平均値，中央値，最頻値）
+- 標準偏差／分散
+- 回帰分析／相関分析
+- 標本抽出（サンプリング）
+- ABC分析（パレート図）／特性要因図／散布図
+- ヒストグラム
+- 確率
+
+> 深掘り: [データウェアハウス（DWH）とは？](/theory/data-warehouse-basics/)／[データマイニングとは？](/theory/data-mining-kdd/)／[回帰分析とは？](/theory/regression-analysis-data/)／[平均値・中央値・最頻値とは？](/theory/mean-median-mode-stats/)／[標準偏差と分散とは？](/theory/standard-deviation-variance/)／[ABC分析（パレート図）とは？](/theory/abc-analysis-pareto-chart/)
+
+## AI利活用
+
+「人間中心のAI社会原則」（公平性・説明責任・透明性など）を土台に、実務でのAI活用パターンを学習方式別に整理します。数値を予測する<strong>教師あり学習による予測</strong>（売上予測など）、似たものをグループ分けする<strong>教師なし学習によるグルーピング</strong>（顧客セグメンテーション）、試行錯誤で最適化する<strong>強化学習による支援</strong>（配車ルート最適化）の3パターンです。
+
+文章・画像・音声を横断して扱う<strong>マルチモーダルAI</strong>、外部情報を検索して回答精度を上げる<strong>RAG（検索拡張生成）</strong>、AIへの指示の出し方を工夫する<strong>プロンプトエンジニアリング</strong>、人に代わって自律的にタスクを進める<strong>AIエージェント</strong>は、生成AI活用の実務語として頻出です。
+
+**扱う用語（精選後・8語）**
+
+- 人間中心のAI社会原則
+- 教師あり学習による予測／教師なし学習によるグルーピング／強化学習による支援
+- マルチモーダルAI
+- RAGによる知識連携
+- プロンプトエンジニアリング
+- AIエージェント
+
+> 深掘り: [プロンプトエンジニアリングとは？](/theory/prompt-engineering-basics/)
+
+## AI技術
+
+AIの学習方式は、正解データを与える<strong>教師あり学習</strong>、正解を与えず特徴を発見させる<strong>教師なし学習</strong>、試行錯誤で報酬を最大化する<strong>強化学習</strong>の3種類が基本です。人間の脳を模した<strong>ニューラルネットワーク</strong>を多層にしたものが<strong>ディープラーニング（深層学習）</strong>で、その延長線上に文章を扱う<strong>大規模言語モデル（LLM）</strong>があります。LLMが外部の知識を検索して参照する仕組みが<strong>検索拡張生成（RAG）</strong>で、AI利活用の節と対応づけて理解すると定着しやすくなります。
+
+**扱う用語（精選後・7語）**
+
+- 教師あり学習／教師なし学習／強化学習
+- ニューラルネットワーク
+- ディープラーニング（深層学習）
+- 大規模言語モデル（LLM）
+- 検索拡張生成（RAG）
+
+> 深掘り: [機械学習の3種類とは？](/theory/ml-supervised-unsupervised/)／[ディープラーニング基礎理論](/theory/deep-learning-basics/)
+
+## AIで学ぶ
+
+ここまでの用語は、ChatGPTやClaudeなどの生成AIに以下のプロンプトを投げかけると、比較表つきでさらに深く掘り下げて学習できます。コピーして使ってみましょう。
+
+```
+あなたはITパスポート試験の講師です。「データとAI」の範囲について、以下の用語を初学者向けに**関連づけながら**説明してください。用語同士の違いが分かる**比較表**を最後に付けてください。
+
+【データマネジメント】データマネジメント、データガバナンス、データライフサイクル
+【データ分析・データ利活用】データレイク／DWH／データマート、構造化／非構造化データ、データマイニング、代表値（平均値・中央値・最頻値）、標準偏差、回帰分析、ABC分析、特性要因図、散布図
+【AI利活用】教師あり学習による予測、教師なし学習によるグルーピング、強化学習による支援、マルチモーダルAI、RAG、プロンプトエンジニアリング
+【AI技術】教師あり／教師なし／強化学習、ニューラルネットワーク、ディープラーニング、LLM、RAG
+```
+
+## 章末チェック
+
+最後に、この章で学んだ知識をアウトプットして定着させましょう。全問に答えたら「答え合わせ」を押してください。
+
+<ChapterQuiz client:load questions={questions} examId="ip" mode="chapter" chapterOrder={7} />
+
+## この章のまとめ
+
+この章では、データマネジメントの考え方、データウェアハウスや回帰分析といった分析手法、そして教師あり学習・ディープラーニングなどAIの技術と活用法を学びました。
+
+最終章では、これまで扱ってきた情報資産をどう守るかという<strong>セキュリティ</strong>と、生成AI時代に欠かせない<strong>情報倫理</strong>を学びます。→ [第8章 セキュリティと情報倫理](/course/ip/08-security-ethics/)

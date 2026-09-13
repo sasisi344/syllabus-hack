@@ -198,6 +198,7 @@ export default defineConfig({
       serialize(item) {
         // Extract slug from URL (last path segment, strip trailing slash)
         const slug = item.url.replace(/\/$/, '').split('/').pop() ?? '';
+        const pathname = new URL(item.url).pathname;
 
         // lastmod from frontmatter
         const lastmod = lastmodMap.get(slug);
@@ -206,7 +207,21 @@ export default defineConfig({
         }
 
         // priority by slug pattern
-        if (slug.endsWith('-hub')) {
+        const coursePathMatch = pathname.match(/^\/course\/([^/]+)\/?([^/]*)\/?$/);
+        if (coursePathMatch) {
+          if (pathname === '/course/') {
+            item.priority = 0.6;
+            item.changefreq = 'monthly';
+          } else if (!coursePathMatch[2]) {
+            // Course TOP (/course/{exam}/): hub-equivalent
+            item.priority = 1.0;
+            item.changefreq = 'weekly';
+          } else {
+            // Chapter pages: guide-equivalent
+            item.priority = 0.8;
+            item.changefreq = 'monthly';
+          }
+        } else if (slug.endsWith('-hub')) {
           // Hub pages: highest priority, weekly update
           item.priority = 1.0;
           item.changefreq = 'weekly';

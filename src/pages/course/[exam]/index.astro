@@ -1,0 +1,28 @@
+---
+import type { GetStaticPaths } from 'astro';
+import { getCollection, render } from 'astro:content';
+import CourseLayout from '~/layouts/CourseLayout.astro';
+import type { MetaData } from '~/types';
+
+export const prerender = true;
+
+export const getStaticPaths = (async () => {
+  const indexEntries = await getCollection('course', ({ data }) => data.kind === 'index' && !data.draft);
+  return indexEntries.map((entry) => ({
+    params: { exam: entry.data.examId },
+    props: { entry },
+  }));
+}) satisfies GetStaticPaths;
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+
+const metadata: MetaData = {
+  title: entry.data.title,
+  description: entry.data.metadata?.description || entry.data.title,
+};
+---
+
+<CourseLayout metadata={metadata} examName={entry.data.title} examId={entry.data.examId}>
+  <Content />
+</CourseLayout>

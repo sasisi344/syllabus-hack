@@ -29,6 +29,11 @@ const metadata = {
               >
                 <span class="font-bold text-lg dark:text-slate-100">{item.name}</span>
                 <p class="text-sm text-muted dark:text-slate-400 mt-1">{item.description}</p>
+                {item.courseHref && (
+                  <span class="inline-block mt-2 text-xs font-bold text-primary dark:text-blue-400 bg-blue-50 dark:bg-slate-800 rounded-full px-2 py-0.5">
+                    20時間コースで学ぶ →
+                  </span>
+                )}
               </a>
             ))}
           </div>

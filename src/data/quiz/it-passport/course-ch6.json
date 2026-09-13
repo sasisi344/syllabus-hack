@@ -1,0 +1,46 @@
+[
+  {
+    "id": "ch6-1",
+    "text": "通信の信頼性を重視し、パケットの到達確認や再送を行うプロトコルはどれか。",
+    "choices": [
+      { "label": "ア", "text": "UDP" },
+      { "label": "イ", "text": "TCP" },
+      { "label": "ウ", "text": "DHCP" },
+      { "label": "エ", "text": "NAT" }
+    ],
+    "correctLabel": "イ"
+  },
+  {
+    "id": "ch6-2",
+    "text": "ドメイン名をIPアドレスに変換する仕組みはどれか。",
+    "choices": [
+      { "label": "ア", "text": "NAT" },
+      { "label": "イ", "text": "DHCP" },
+      { "label": "ウ", "text": "DNS" },
+      { "label": "エ", "text": "ファイアウォール" }
+    ],
+    "correctLabel": "ウ"
+  },
+  {
+    "id": "ch6-3",
+    "text": "データベースの正規化を行う主な目的として正しいものはどれか。",
+    "choices": [
+      { "label": "ア", "text": "処理速度を上げるため" },
+      { "label": "イ", "text": "データの重複や矛盾を排除し、更新時の不整合を防ぐため" },
+      { "label": "ウ", "text": "暗号化を強化するため" },
+      { "label": "エ", "text": "バックアップを自動化するため" }
+    ],
+    "correctLabel": "イ"
+  },
+  {
+    "id": "ch6-4",
+    "text": "複数の処理が同時にデータを更新しようとして、お互いに相手の処理完了を待ち続け動けなくなる状態はどれか。",
+    "choices": [
+      { "label": "ア", "text": "コミット" },
+      { "label": "イ", "text": "ロールバック" },
+      { "label": "ウ", "text": "デッドロック" },
+      { "label": "エ", "text": "排他制御" }
+    ],
+    "correctLabel": "ウ"
+  }
+]

@@ -1,0 +1,122 @@
+---
+title: '第2章 経営戦略とビジネスモデル・ツール活用'
+examId: 'ip'
+kind: 'chapter'
+order: 2
+genre: '経営戦略'
+estimatedMinutes: 180
+syllabusRefs: ['経営戦略・デジタル戦略', 'ビジネスモデル・ビジネスプロセス', 'デジタルサービス・デジタルツール']
+field2027: 'business'
+quizRef: 'course-ch2'
+relatedPosts:
+  - /theory/swot-analysis/
+  - /theory/three-c-analysis/
+  - /theory/core-competence/
+  - /theory/value-chain-analysis/
+  - /theory/balanced-scorecard/
+  - /theory/ppm-portfolio/
+  - /theory/product-life-cycle/
+  - /theory/digital-divide-basics/
+  - /theory/erp-system-integration/
+  - /theory/crm-scm-management/
+  - /theory/just-in-time-jit-kanban/
+noteUrl: ''
+draft: false
+lastmod: 2026-09-09
+metadata:
+  description: 'ITパスポート20時間コース第2章。SWOT・3C・バランススコアカードなどの経営戦略フレームワークと、ERP・CRM・SCMなどデジタルツールを精選57語で押さえる。'
+---
+
+import ChapterQuiz from '~/apps/course-quiz/ChapterQuiz';
+import questions from '~/data/quiz/it-passport/course-ch2.json';
+
+## この章で学ぶこと
+
+「会社の勝ち筋をどう考えるか」を扱う章です。自社・競合・市場を分析するフレームワーク（<strong>経営戦略・デジタル戦略</strong>）、それをどう収益に変えるかという設計図（<strong>ビジネスモデル・ビジネスプロセス</strong>）、そして実務を支える具体的なシステム・ツール（<strong>デジタルサービス・デジタルツール</strong>）の3系統です。分析フレームワークは名前が似ていて混同しやすいので、「何を分析する道具か」で整理しながら覚えます。
+
+## 経営戦略・デジタル戦略
+
+分析フレームワークが最頻出です。自社の強み・弱み・機会・脅威を4象限で整理する<strong>SWOT分析</strong>、市場・競合・自社の3視点で見る<strong>3C分析</strong>、他社に真似できない核となる強みを指す<strong>コアコンピタンス</strong>、原材料から販売までの活動を「価値の連鎖」として分析する<strong>バリューチェーン分析</strong>は、いずれも「自社の立ち位置を把握する」ための道具です。経営目標を財務・顧客・業務プロセス・学習と成長の4視点で管理する<strong>バランススコアカード（BSC）</strong>、複数事業への資源配分を判断する<strong>PPM（プロダクトポートフォリオマネジメント）</strong>、達成度を測る<strong>KGI・KPI</strong>もセットで押さえます。
+
+DX関連では、単なるIT化ではなく<strong>デジタルトランスフォーメーション（DX）</strong>そのものの定義（データとデジタル技術を使って製品・サービス・ビジネスモデルを変革すること）と、情報格差を意味する<strong>デジタルディバイド</strong>の対比を理解しておくと、第3章の内容ともつながります。システム企画の入口として、現状（<strong>As-isモデル</strong>）と理想（<strong>To-beモデル</strong>）を比較する考え方、要件を分ける<strong>業務要件・機能要件・非機能要件</strong>、外部への依頼文書である<strong>RFI（情報提供依頼書）</strong>と<strong>RFP（提案依頼書）</strong>の違い（RFIは情報収集、RFPは提案を求める）も頻出です。
+
+**扱う用語（精選後・21語）**
+
+- SWOT分析／3C分析／コアコンピタンス／バリューチェーン分析
+- バランススコアカード（BSC）／PPM（プロダクトポートフォリオマネジメント）
+- KGI／KPI／CSF
+- M&A／ベンチマーキング
+- デジタルトランスフォーメーション（DX）／デジタルディバイド／DX戦略
+- 情報システム戦略
+- As-isモデル／To-beモデル
+- 業務要件定義／機能要件定義／非機能要件定義
+- RFI（情報提供依頼書）／RFP（提案依頼書）
+
+> 深掘り: [SWOT分析をマスター！](/theory/swot-analysis/)／[3C分析を徹底解説！](/theory/three-c-analysis/)／[コアコンピタンス徹底解説！](/theory/core-competence/)／[バリューチェーン徹底解説！](/theory/value-chain-analysis/)／[BSC徹底解説！](/theory/balanced-scorecard/)／[PPM徹底攻略！](/theory/ppm-portfolio/)／[デジタルディバイドとは？](/theory/digital-divide-basics/)
+
+## ビジネスモデル・ビジネスプロセス
+
+マーケティングの基本フレームは、市場を細分化する<strong>STP分析</strong>（セグメンテーション・ターゲティング・ポジショニング）と、政治・経済・社会・技術の外部環境を見る<strong>PEST分析</strong>です。事業取引の型を示す<strong>BtoB・BtoC</strong>、少量多品種が積み重なって大きな売上になる<strong>ロングテール</strong>、事業の全体像を1枚で整理する<strong>ビジネスモデルキャンバス</strong>もこの分野の定番語です。
+
+業務改善の3兄弟として、継続的にプロセスを改善する<strong>BPM</strong>、抜本的に作り直す<strong>BPR</strong>、外部に委託する<strong>BPO</strong>を区別します。ロボットで定型業務を自動化する<strong>RPA</strong>も同じ文脈でよく出題されます。製品が導入期→成長期→成熟期→衰退期をたどる<strong>プロダクトライフサイクル</strong>、自社製品同士が客を奪い合う<strong>カニバリゼーション</strong>、検索結果で上位表示を狙う<strong>SEO</strong>も押さえておきたい頻出語です。
+
+**扱う用語（精選後・18語）**
+
+- STP分析／PEST分析
+- BtoB／BtoC／ロングテール
+- ビジネスモデルキャンバス
+- ビジネスモデルとマネタイズモデル（広告・買い切り・ライセンス・サブスクリプション・フリーミアム）
+- BPM／BPR／BPO／RPA
+- プロダクトライフサイクル／プロダクトポートフォリオ
+- カニバリゼーション
+- SEO
+- オムニチャネル
+- ダイナミックプライシング
+- シェアリングエコノミー
+- e-ビジネス
+
+> 深掘り: [プロダクトライフサイクル（PLC）を攻略！](/theory/product-life-cycle/)
+
+## デジタルサービス・デジタルツール
+
+社内システムの代表格として、経営資源を一元管理する<strong>ERP</strong>、顧客情報を管理する<strong>CRM</strong>、サプライチェーン全体を最適化する<strong>SCM</strong>、営業活動を支援する<strong>SFA</strong>の役割の違いを整理します。「ERPはヒト・モノ・カネ・情報を一元化、CRMは顧客との関係、SCMは供給網の効率化」という切り口で区別すると覚えやすいです。
+
+生産管理では、必要なものを必要な時に必要な量だけ作る<strong>JIT（ジャストインタイム）</strong>とその手法である<strong>かんばん方式</strong>がセットで出題されます。決済・金融分野では<strong>キャッシュレス決済</strong>・<strong>フィンテック</strong>・<strong>暗号資産</strong>・<strong>NFT</strong>といった新しい用語が2027年シラバスで比重を増しています。業務基盤としては、企業間でデータをやり取りする<strong>EDI</strong>、社内の情報共有を担う<strong>グループウェア</strong>、Webサイトを管理する<strong>CMS</strong>、日常業務で使う表計算ソフトの<strong>ピボットテーブル</strong>機能も範囲に含まれます。
+
+**扱う用語（精選後・18語）**
+
+- ERP（企業資源計画）／CRM（顧客関係管理）／SCM（サプライチェーンマネジメント）／SFA（営業支援システム）
+- POSシステム
+- JIT（ジャストインタイム）／かんばん方式
+- キャッシュレス決済／フィンテック（FinTech）／暗号資産（仮想通貨）／NFT
+- EDI（電子データ交換）
+- グループウェア／CMS（コンテンツ管理システム）
+- 表計算ソフト（ピボットテーブル）
+- ガバメントクラウド／マイナポータル
+- 電子決済システム／インターネットバンキング
+
+> 深掘り: [ERPパッケージ徹底解説！](/theory/erp-system-integration/)／[CRM と SCM を徹底攻略！](/theory/crm-scm-management/)／[ジャストインタイム（かんばん方式）とは？](/theory/just-in-time-jit-kanban/)
+
+## AIで学ぶ
+
+ここまでの用語は、ChatGPTやClaudeなどの生成AIに以下のプロンプトを投げかけると、比較表つきでさらに深く掘り下げて学習できます。コピーして使ってみましょう。
+
+```
+あなたはITパスポート試験の講師です。「経営戦略とビジネスモデル・ツール活用」の範囲について、以下の用語を初学者向けに**関連づけながら**説明してください。用語同士の違いが分かる**比較表**を最後に付けてください。
+
+【経営戦略・デジタル戦略】SWOT分析、3C分析、コアコンピタンス、バリューチェーン分析、バランススコアカード（BSC）、PPM、KGI／KPI、M&A、デジタルトランスフォーメーション（DX）、デジタルディバイド、As-isモデル／To-beモデル、RFI／RFP
+【ビジネスモデル・ビジネスプロセス】STP分析、PEST分析、BtoB／BtoC、ロングテール、ビジネスモデルキャンバス、BPM／BPR／BPO、RPA、プロダクトライフサイクル、カニバリゼーション
+【デジタルサービス・デジタルツール】ERP、CRM、SCM、SFA、JIT、かんばん方式、キャッシュレス決済、フィンテック、暗号資産、NFT、EDI、グループウェア、CMS
+```
+
+## 章末チェック
+
+最後に、この章で学んだ知識をアウトプットして定着させましょう。全問に答えたら「答え合わせ」を押してください。
+
+<ChapterQuiz client:load questions={questions} examId="ip" mode="chapter" chapterOrder={2} />
+
+## この章のまとめ
+
+この章では、SWOT分析やバランススコアカードといった経営戦略のフレームワーク、STP分析などビジネスモデルを組み立てる考え方、そしてERP・CRMなど戦略を実行に移すデジタルツールを整理しました。
+
+次章では、2027年シラバスで新設された<strong>DXとビジネス変革の考え方</strong>を学びます。経営戦略を実際の変革につなげるための新しい視点です。→ [第3章 DXとビジネス変革の考え方](/course/ip/03-dx-transformation/)

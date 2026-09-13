@@ -1,0 +1,40 @@
+---
+import { getCollection } from 'astro:content';
+import PageLayout from '~/layouts/PageLayout.astro';
+import { getPermalink } from '~/utils/permalinks';
+import type { MetaData } from '~/types';
+
+export const prerender = true;
+
+const indexEntries = (await getCollection('course', ({ data }) => data.kind === 'index' && !data.draft)).sort(
+  (a, b) => a.data.title.localeCompare(b.data.title)
+);
+
+const metadata: MetaData = {
+  title: '20時間学習コース一覧',
+  description: '生成AI時代の資格学習法「20時間学習コース」。診断テストで現在地を測り、体系立てた章立てで知識の全体像を20時間でつかみます。',
+};
+---
+
+<PageLayout metadata={metadata}>
+  <section class="py-12 sm:py-16 mx-auto max-w-4xl px-4 sm:px-6">
+    <h1 class="text-3xl md:text-4xl font-bold font-heading mb-4">20時間学習コース</h1>
+    <p class="text-muted dark:text-slate-400 mb-10">
+      分厚いシラバスを、生成AI時代の学び方で20時間分に再構築した無料コースです。診断テストで現在地を測り、章立てに沿って知識の全体像をつかみます。
+    </p>
+
+    <div class="grid gap-6 sm:grid-cols-2">
+      {
+        indexEntries.map((entry) => (
+          <a
+            href={getPermalink(`/course/${entry.data.examId}`)}
+            class="block p-6 rounded-2xl border border-gray-200 dark:border-slate-700 hover:border-primary dark:hover:border-blue-400 transition"
+          >
+            <h2 class="text-xl font-bold font-heading mb-2">{entry.data.title}</h2>
+            {entry.data.totalHours && <p class="text-sm text-muted dark:text-slate-400">目安 {entry.data.totalHours}時間・{entry.data.chapters}章</p>}
+          </a>
+        ))
+      }
+    </div>
+  </section>
+</PageLayout>
