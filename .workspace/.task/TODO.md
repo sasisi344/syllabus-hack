@@ -11,35 +11,26 @@
 
 > **正本（詳細タスク・背景思想はすべてこちら）**: [`.workspace/.new-contentplan/new-content-plan.md`](../.new-contentplan/new-content-plan.md)
 > 本セクションは進捗の要約のみ。着手・更新は必ず正本側のWeekファイルを編集すること。
+> **中長期ロードマップ（未来タスク）**: ITパスポート完成後、`course`（20時間学習法）は「資格から探す」の全資格へ順次展開する方針（2026-09-09決定、IPAデジタルスキル関連資格を優先・ITP→SGの順）。詳細は [`course-rollout-roadmap.md`](../.new-contentplan/course-rollout-roadmap.md)
 
 **今月のゴール**: ITパスポートを題材にした20時間学習法パイロット（Tier1・無料8章）を、2027年シラバスベースで制作し、サイト新構成 `course` コレクションとして公開する。Tier2（有料note・合格テキスト26章フル版）は来月に延期。CBT型（既存資産）は維持しKPIを崩さない。
 
 | Week | 期間 | 状態 | 内容 |
 |---|---|---|---|
-| Week1 | 9/6〜9/12 | **完了** | テンプレート仕様確定・2027年シラバスJSON化（IP/SC/DM/PD-M/PD-S）・KaTeX PoC・`scaffold-course.cjs` の2027データ対応改修が完了（詳細は `archive/completed-2026-09-09.md`） |
-| Week2 | 9/13〜9/19 | **完了（前倒し）** | 用語精選・8章本文執筆・診断テスト・カリキュラムマップ修正・章末チェック問題（全8章31問）まで完了 |
-| Week3 | 9/20〜9/26 | 未着手 | 実装・Web公開（下記チェックリスト） |
+| Week1 | 9/6〜9/12 | **完了** | テンプレート仕様確定・2027年シラバスJSON化（IP/SC/DM/PD-M/PD-S）・KaTeX PoC・`scaffold-course.cjs` の2027データ対応改修・SNS(Threads)/noteアカウント開設まで完了（詳細は `archive/completed-2026-09-09.md`） |
+| Week2 | 9/13〜9/19 | **完了（前倒し）** | 用語精選・8章本文執筆・診断テスト・カリキュラムマップ修正・章末チェック問題（全8章31問）まで完了（詳細は `archive/completed-2026-09-09.md`） |
+| Week3 | 9/20〜9/26 | **前倒し実装済み** | courseコレクション実装・章末チェックUI・Tier1公開・導線付け替えまで完了（下記チェックリスト） |
 | Week4 | 9/27〜10/3 | 未着手 | 計測・振り返り・次月準備（下記チェックリスト） |
-
-### Week2（9/13〜9/19）: パイロットカリキュラム制作
-
-> 正本: [`week2-task.md`](../.new-contentplan/week2-task.md)。ゴール: Tier1（無料20h・8章）の中身一式（診断テスト・カリキュラムマップ・本文・章末チェック）をWeb実装前のコンテンツとして作り切る。Tier2（有料note）は今Weekのスコープ外
-
-- [x] Tier1各章の用語精選（[`ip-course-curriculum.md`](../.new-contentplan/ip-course/ip-course-curriculum.md) §3-3の基準）: 各章の元語数（155/144/70/29/110/64/90/157語）から高価値な用語を約4割に絞り込む → **2026-09-09完了**。`.workspace/draft/course/ip/0{1-8}-*.md`に反映済み（合計約210語に精選）
-- [x] ITパスポート診断テスト（10問前後）を作成 → **2026-09-09完了**。`index.md`に8章から1〜2問ずつの4択10問（選択肢・正解付き）を作成
-- [x] カリキュラムマップの文言修正（同ファイル §3-4） → **2026-09-09完了**
-- [x] 8章の本文執筆 → **2026-09-09完了**。全8章、要約＋精選後用語リスト＋既存記事へのリンク61本（実在確認済み）＋AIプロンプトまで作成。あわせて旧v6.5設計の重複ドラフトファイル8本を削除しディレクトリを整理
-- [x] 章末理解度チェック問題（選択式3〜4問×章）を作成 → **2026-09-09完了（方針変更）**。既存334問バンクからの流用ではなく、各章で説明した内容だけを復習する固定出題（ランダム化なし・4択・全問回答後に一括採点して○✕表示）に変更（[`ip-course-curriculum.md`](../.new-contentplan/ip-course/ip-course-curriculum.md) §3-5）。全8章・計31問を作成済み
 
 ### Week3（9/20〜9/26）: 実装・Web公開
 
 > 正本: [`week3-task.md`](../.new-contentplan/week3-task.md)。ゴール: Tier1を実際にWeb公開し、既存itp-hub・CBTコンテンツとの回遊導線をつなぐ。有料note・メールゲートは来月スコープ
 
-- [ ] Astro新テンプレート実装: TOP（学習カテゴリ）→ 章一覧（サブカテゴリ）→ 章ページの2階層（`course`コレクション、[`structure-migration-plan.md`](../.new-contentplan/structure-migration-plan.md) §4-2）。読了目安時間の表示、Week1のKaTeX PoC結果を反映
-- [ ] 章末チェック用の新規UIコンポーネント実装: 全問回答後に「答え合わせ」ボタンで一括採点し○✕表示する方式（既存`it-passport-quiz`系の1問ずつ即時正誤表示とは別挙動。仕様は[`ip-course-curriculum.md`](../.new-contentplan/ip-course/ip-course-curriculum.md) §3-5）
-- [ ] ITパスポート20hoursパイロット（Tier1・8章）を無料公開。`method/itp-hub`および既存クイズアプリ（`it-passport-quiz`等）と相互リンクし回遊導線を作る
-- [ ] このタイミングでサイト構成見直しの実コード変更（ナビ・トップページの`course`導線設計、`cert-hubs.ts`への`courseHref?`追加）を同時実施 → 設計内容は `archive/completed-2026-09-09.md` 旧§1参照
-- [ ] 新規コンテンツ（course系）が既存記事の内部リンク・クロール予算を圧迫していないか確認（本ファイル §1の保留事項と同一）
+- [x] Astro新テンプレート実装: TOP（学習カテゴリ）→ 章一覧（サブカテゴリ）→ 章ページの2階層（`course`コレクション、[`structure-migration-plan.md`](../.new-contentplan/structure-migration-plan.md) §4-2）。読了目安時間の表示、Week1のKaTeX PoC結果を反映 → **2026-09-09前倒し完了**
+- [x] 章末チェック用の新規UIコンポーネント実装: 全問回答後に「答え合わせ」ボタンで一括採点し○✕表示する方式（既存`it-passport-quiz`系の1問ずつ即時正誤表示とは別挙動。仕様は[`ip-course-curriculum.md`](../.new-contentplan/ip-course/ip-course-curriculum.md) §3-5） → **2026-09-09前倒し完了**。ブラウザ操作で採点・localStorage保存・診断の弱点章リンクまで動作確認済み
+- [x] ITパスポート20hoursパイロット（Tier1・8章）を無料公開。`method/itp-hub`および既存クイズアプリ（`it-passport-quiz`等）と相互リンクし回遊導線を作る → **2026-09-09前倒し完了**
+- [x] このタイミングでサイト構成見直しの実コード変更（ナビ・トップページの`course`導線設計、`cert-hubs.ts`への`courseHref?`追加）を同時実施 → **2026-09-09前倒し完了**。ナビに「学習コース」追加、Hero第1CTAを「20時間コースで学ぶ」に差し替え、`/certifications/`にバッジ表示。設計内容は `archive/completed-2026-09-09.md` 旧§1参照
+- [ ] 新規コンテンツ（course系）が既存記事の内部リンク・クロール予算を圧迫していないか確認（本ファイル §1の保留事項と同一）→ Astro実装が完了したため評価可能になった。実データ（GA4/GSC）が溜まってからWeek4で確認
 - [ ] （メールゲート・noteマガジン公開は来月に延期。本Weekは対象外）
 
 ### Week4（9/27〜10/3）: 計測・振り返り・次月準備
@@ -47,7 +38,7 @@
 > 正本: [`week4-task.md`](../.new-contentplan/week4-task.md)。ゴール: 今月の施策（Tier1公開・サイト新構成）の反応を計測し、来月（Tier2着手・比重配分）の判断材料を揃える
 
 - [ ] GA4/GSCで新セクション（`/course/`）のPV・回遊率の計測を開始
-- [ ] 2本目パイロットテーマの候補選定（生成AIパスポート or データアナリスト/統計学を想定。Week1のKaTeX検証結果を踏まえて判断）
+- [ ] 2本目パイロットテーマの着手準備: **情報セキュリティマネジメント（SG）に確定**（2026-09-09決定）。全資格展開ロードマップは [`course-rollout-roadmap.md`](../.new-contentplan/course-rollout-roadmap.md) 参照
 - [ ] 今月の振り返り: CBT型と20hours型の制作比重をどう調整するか判断材料をまとめる
 - [ ] trend記事「IPA 2027年試験制度改訂」の公開状況を確認・未着手なら来月に繰越（`new-content-plan.md` §2参照）
 - [ ] 来月着手するTier2（有料note・合格テキスト）の準備確認: noteアカウント開設・価格帯・巻数設計（[`ip-course-curriculum.md`](../.new-contentplan/ip-course/ip-course-curriculum.md) §4）の検討再開、メールゲート実装方式の確定
@@ -57,7 +48,7 @@
 ## 1. 既存記事の統廃合（GSC/GA4データドリブンの棚卸し）
 
 > 背景: courseコレクション等の新コンテンツが増える一方、既存記事（特にIPA CBT関連の重複トピック群）が回遊・評価の邪魔をしている懸念。旧TODOで「ユーザー判断待ち」だった IPA 2026年CBT記事8本の統廃合案は `archive/todo-pre-course-pivot-2026-09-07.md` §1 に判断根拠が残っているので、再検討時はそちらを参照。
-> **正本（本タスクの分析・進捗管理はすべてこちら）**: [`article-consolidation/`](article-consolidation/) フォルダ配下。最新: [`article-consolidation/ipa-cbt-2026-cluster-w36.md`](article-consolidation/ipa-cbt-2026-cluster-w36.md)（W36データ反映・2026-09-08）。完了項目は `archive/completed-2026-09-09.md` 参照
+> **正本（本タスクの分析・進捗管理はすべてこちら）**: [`archive/article-consolidation/`](archive/article-consolidation/) フォルダ配下。最新: [`archive/article-consolidation/ipa-cbt-2026-cluster-w36.md`](archive/article-consolidation/ipa-cbt-2026-cluster-w36.md)（W36データ反映・2026-09-08）。完了項目は `archive/completed-2026-09-09.md` 参照
 
 - [ ] 新規コンテンツ（course系）の内部リンク・クロール予算を圧迫していないか確認 → courseコレクションのAstro実装（§0 Week3）待ちのため評価不能。Week3完了後に再検証（Week3チェックリストにも転記済み）
 
@@ -68,6 +59,7 @@
 
 - [ ] §5の未確定事項（ラベル最終確定・`/materials/`という名称の是非・トップページでの3本柱セクション配置・trend/careerを副次化した際のSEO流入への影響）についてユーザー確認
 - [ ] 確認後、実装（`navigation.ts`・`/materials/`新設・トップページ再構成）をWeek3のタスクに統合
+- [ ] **（新規追加・2026-09-09）** `theory`（用語解説）・`method`（学習メソッド）の価値再評価: 次回日曜（2026-09-13）以降にユーザーが新しいGA4データを取得したタイミングで実施。単一期間（W36・2026-08-15〜09-05）のデータでは`method`は`trend`と同水準の効率（約1.0セッション/記事）、`theory`は記事数最多（106本）ながら最も効率が低い（約0.59セッション/記事）という傾向だったが、断定材料には不足。複数週分のデータが揃った時点で「コラムへ統合」「（アクセス数次第で）廃止」「現状維持」のいずれにするか判断する → 詳細・判断材料は [`site-structure-pillars.md`](site-structure-pillars.md) §6参照
 
 ---
 
@@ -80,7 +72,8 @@
 
 | ファイル/フォルダ | 内容 | 移動日 |
 |---|---|---|
-| `completed-2026-09-09.md` | 旧§0 Week1残タスク・旧§1（サイト構成見直し）・旧§2（画像生成スクリプト）・旧§3完了分（IPA CBT記事統廃合の実行）・旧§4（クイズアプリ省力化）の完了記録一式 | 2026-09-09 |
+| `completed-2026-09-09.md` | 旧§0 Week1残タスク・旧§1（サイト構成見直し）・旧§2（画像生成スクリプト）・旧§3完了分（IPA CBT記事統廃合の実行）・旧§4（クイズアプリ省力化）・Week2（パイロットカリキュラム制作）・SNS(Threads)/noteアカウント開設の完了記録一式 | 2026-09-09 |
+| `00-index.md` | archive/配下をタスク種類別に整理した索引（本テーブルの日付順に対する、種類別のもう一つの索引） | 2026-09-09 |
 | `todo-pre-course-pivot-2026-09-07.md` | 20時間学習法への戦略転換前（2026-07〜09初）の全タスク・判断待ち事項一式（週次PDCA・記事統廃合判断待ち・KWリサーチパイプライン等） | 2026-09-07 |
 | `w28-w29-completed-2026-07-14.md` | W28〜W29完了タスク一括アーカイブ | 2026-07-14 |
 | `site-check0710/` | 2026-07-10サイト改善作業書WP01〜07 | 2026-07-11 |
