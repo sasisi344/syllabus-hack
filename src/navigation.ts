@@ -11,6 +11,10 @@ export const headerData = {
       ],
     },
     {
+      text: '学習コース',
+      href: getPermalink('/course'),
+    },
+    {
       text: 'トレンド',
       href: getPermalink('trend', 'category'),
     },
@@ -40,6 +44,7 @@ export const footerData = {
       title: 'コンテンツ',
       links: [
         { text: '資格から探す', href: getPermalink('/certifications') },
+        { text: '学習コース', href: getPermalink('/course') },
         { text: 'トレンド', href: getPermalink('trend', 'category') },
         { text: '学習メソッド', href: getPermalink('method', 'category') },
         { text: 'キャリア戦略', href: getPermalink('career', 'category') },
