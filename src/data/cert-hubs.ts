@@ -11,12 +11,14 @@ export interface CertHub {
 
 export interface CertGroup {
   title: string;
+  slug: string;
   items: CertHub[];
 }
 
 export const certGroups: CertGroup[] = [
   {
     title: 'IPA 情報処理技術者試験',
+    slug: 'ipa',
     items: [
       {
         name: 'ITパスポート',
@@ -54,6 +56,7 @@ export const certGroups: CertGroup[] = [
   },
   {
     title: 'クラウド・ネットワーク',
+    slug: 'cloud-network',
     items: [
       {
         name: 'AWS認定',
@@ -69,6 +72,7 @@ export const certGroups: CertGroup[] = [
   },
   {
     title: 'AI・データ',
+    slug: 'ai-data',
     items: [
       {
         name: 'G検定',
@@ -84,6 +88,7 @@ export const certGroups: CertGroup[] = [
   },
   {
     title: 'ビジネス・事務',
+    slug: 'business',
     items: [
       {
         name: '日商簿記2・3級',
@@ -114,6 +119,7 @@ export const certGroups: CertGroup[] = [
   },
   {
     title: '設備・施工',
+    slug: 'facility',
     items: [
       {
         name: '電験三種',

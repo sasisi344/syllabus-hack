@@ -3,14 +3,48 @@ import Layout from '~/layouts/PageLayout.astro';
 import { getPermalink } from '~/utils/permalinks';
 
 import Hero from '~/components/widgets/Hero.astro';
-import Features2 from '~/components/widgets/Features2.astro';
 import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
 import Content from '~/components/widgets/Content.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
+import Headline from '~/components/ui/Headline.astro';
+import Button from '~/components/ui/Button.astro';
+import WidgetWrapper from '~/components/ui/WidgetWrapper.astro';
+import { certGroups } from '~/data/cert-hubs';
 
 const metadata = {
   title: 'Syllabus Hack — 生成AIで資格試験を攻略する',
   ignoreTitleTemplate: true,
+};
+
+const methodButtons = [
+  {
+    text: '20時間ロードマップで学ぶ',
+    href: getPermalink('/course'),
+    icon: 'tabler:clock-hour-8',
+  },
+  {
+    text: 'AI学習メソッドを読む',
+    href: getPermalink('method', 'category'),
+    icon: 'tabler:brain',
+  },
+  {
+    text: '問題演習アプリで鍛える',
+    href: getPermalink('app', 'category'),
+    icon: 'tabler:device-mobile',
+  },
+  {
+    text: '用語辞典で調べる',
+    href: getPermalink('theory', 'category'),
+    icon: 'tabler:book',
+  },
+];
+
+const genreIcons: Record<string, string> = {
+  ipa: 'tabler:device-desktop-analytics',
+  'cloud-network': 'tabler:cloud',
+  'ai-data': 'tabler:chart-dots',
+  business: 'tabler:briefcase',
+  facility: 'tabler:building-factory-2',
 };
 ---
 
@@ -35,43 +69,56 @@ const metadata = {
     </Fragment>
 
     <Fragment slot="subtitle">
-      試験合格のその先へ。最新のAI技術を活用して、IT資格試験の学習をよりスマートに、より確実に。
-      ITパスポートから応用情報まで、あなたの「学び」を加速させます。
+      武器は<strong>ChatGPTとClaude</strong>。IT資格に限らず、シラバスのある資格試験なら、ジャンルを問わず攻略ロードマップが作れます。
+      ここで学んだ方法は、あなたが次に挑む資格にもそのまま使えます。
     </Fragment>
   </Hero>
 
-  <!-- Features2 Widget (Core Concept) ************** -->
+  <!-- 学習メソッドの種類（ボタン） ************** -->
 
-  <Features2
-    title="2つのアプローチで最短合格へ"
-    subtitle="シラバスハックは、生成AIのパワーを「実践」と「効率」の2軸で提供します。"
-    items={[
+  <WidgetWrapper>
+    <Headline
+      tagline="How to Learn"
+      title="学び方は、4つ。目的に合わせて選べます"
+      subtitle="どの資格にも使える、ChatGPT・Claudeを活用した汎用の学習メソッドです。"
+    />
+    <div class="flex flex-wrap justify-center gap-3 max-w-3xl mx-auto">
       {
-        title: 'CBT設問アプリ',
-        description:
-          'ITパスポート・セキュマネ等の過去問・予想問題を、AIが最適化したインターフェースで提供。スマホでいつでも実践演習が可能です。',
-        icon: 'tabler:device-mobile',
-      },
+        methodButtons.map((item) => (
+          <Button variant="secondary" href={item.href} icon={item.icon} text={item.text} class="text-sm py-2.5 px-5" />
+        ))
+      }
+    </div>
+  </WidgetWrapper>
+
+  <!-- 対応する資格ジャンル（ボタン） ************** -->
+
+  <WidgetWrapper>
+    <Headline
+      tagline="Coverage"
+      title="IT資格だけじゃない。シラバスがあれば、ハックできる。"
+      subtitle="簿記、FP、宅建、電験三種、消防設備士——生成AIによる学習ロードマップの作り方は、資格ジャンルを問いません。"
+    />
+    <div class="flex flex-wrap justify-center gap-3 max-w-4xl mx-auto">
       {
-        title: 'AI学習メソッド',
-        description:
-          'GeminiやChatGPTを活用した暗記術、問題生成、複雑な概念の要約法など、AIを「家庭教師」にする方法を伝授します。',
-        icon: 'tabler:brain',
-      },
-      {
-        title: '最新トレンド情報',
-        description:
-          'IPAのシラバス改訂情報や、試験に役立つ最新AIツールの速報など、受験者に必要なニュースをいち早くお届けします。',
-        icon: 'tabler:news',
-      },
-      {
-        title: 'IT試験用語解説',
-        description:
-          'シラバスに登場する難解な用語を、図解・たとえ話・AI活用法で徹底解説。辞書代わりにも、一歩進んだ深い理解にも。',
-        icon: 'tabler:book',
-      },
-    ]}
-  />
+        certGroups.map((group) => (
+          <Button
+            variant="secondary"
+            href={`${getPermalink('/certifications')}#${group.slug}`}
+            icon={genreIcons[group.slug]}
+            text={group.title}
+            class="text-sm py-2.5 px-5"
+          />
+        ))
+      }
+      <Button
+        variant="primary"
+        href={getPermalink('/certifications')}
+        text="すべての資格を見る →"
+        class="text-sm py-2.5 px-5"
+      />
+    </div>
+  </WidgetWrapper>
 
   <!-- Content Widget (Polite Explanation) **************** -->
 
@@ -83,12 +130,12 @@ const metadata = {
       {
         title: 'パーソナライズされた学習体験',
         description:
-          'これまでの「一方通行な学習」から、AIとの「対話的な学習」へ。自分の苦手な部分をAIが察知し、解説を最適化します。',
+          'これまでの「一方通行な学習」から、ChatGPTやClaudeとの「対話的な学習」へ。自分の苦手な部分をAIが察知し、解説を最適化します。',
       },
       {
-        title: '膨大なシラバスを構造化',
+        title: '資格を問わず使える、シラバス構造化術',
         description:
-          '資格試験のシラバスは肥大化しています。AIを活用して情報を整理・要約することで、本質的な理解に集中できます。',
+          '資格試験のシラバスは、どの分野でも肥大化しています。AIを活用して情報を整理・要約する方法は一度覚えれば、次に挑む資格でもそのまま使えます。',
       },
     ]}
     image={{
