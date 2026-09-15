@@ -11,28 +11,20 @@ export const headerData = {
       ],
     },
     {
-      text: '学習コース',
-      href: getPermalink('/course'),
-    },
-    {
-      text: 'トレンド',
-      href: getPermalink('trend', 'category'),
-    },
-    {
       text: '学習メソッド',
-      href: getPermalink('method', 'category'),
+      links: [
+        { text: '学習メソッド', href: getPermalink('method', 'category') },
+        { text: '20時間学習', href: getPermalink('/course') },
+        { text: '用語解説', href: getPermalink('theory', 'category') },
+        { text: 'ウェブアプリ', href: getPermalink('app', 'category') },
+      ],
     },
     {
-      text: 'キャリア',
-      href: getPermalink('career', 'category'),
-    },
-    {
-      text: '用語解説',
-      href: getPermalink('theory', 'category'),
-    },
-    {
-      text: 'ウェブアプリ',
-      href: getPermalink('app', 'category'),
+      text: 'コラム',
+      links: [
+        { text: 'トレンド', href: getPermalink('trend', 'category') },
+        { text: 'キャリア', href: getPermalink('career', 'category') },
+      ],
     },
   ],
   actions: [{ text: 'お問い合わせ', href: getPermalink('/contact') }],
