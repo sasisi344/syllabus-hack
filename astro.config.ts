@@ -4,7 +4,7 @@ import { fileURLToPath } from 'url';
 
 import { defineConfig } from 'astro/config';
 
-import sitemap from '@astrojs/sitemap';
+import sitemap, { ChangeFreqEnum } from '@astrojs/sitemap';
 import tailwind from '@astrojs/tailwind';
 import mdx from '@astrojs/mdx';
 import preact from '@astrojs/preact';
@@ -211,20 +211,20 @@ export default defineConfig({
         if (coursePathMatch) {
           if (pathname === '/course/') {
             item.priority = 0.6;
-            item.changefreq = 'monthly';
+            item.changefreq = ChangeFreqEnum.MONTHLY;
           } else if (!coursePathMatch[2]) {
             // Course TOP (/course/{exam}/): hub-equivalent
             item.priority = 1.0;
-            item.changefreq = 'weekly';
+            item.changefreq = ChangeFreqEnum.WEEKLY;
           } else {
             // Chapter pages: guide-equivalent
             item.priority = 0.8;
-            item.changefreq = 'monthly';
+            item.changefreq = ChangeFreqEnum.MONTHLY;
           }
         } else if (slug.endsWith('-hub')) {
           // Hub pages: highest priority, weekly update
           item.priority = 1.0;
-          item.changefreq = 'weekly';
+          item.changefreq = ChangeFreqEnum.WEEKLY;
         } else if (
           slug.endsWith('-complete') ||
           slug.endsWith('-guide') ||
@@ -233,11 +233,11 @@ export default defineConfig({
         ) {
           // Consolidated complete guides: high priority
           item.priority = 0.8;
-          item.changefreq = 'monthly';
+          item.changefreq = ChangeFreqEnum.MONTHLY;
         } else {
           // Regular posts
           item.priority = 0.5;
-          item.changefreq = 'monthly';
+          item.changefreq = ChangeFreqEnum.MONTHLY;
         }
 
         return item;

@@ -43,3 +43,17 @@
 - **Correction**: 検出は `grep -r $'\xEF\xBF\xBD' --include="*.md" --include="*.mdx" src/data/post`。修復は前後の文脈から欠落文字を推定して復元（例: 業���で→業界で、���産性→生産性）。機械置換は不可能（欠落文字はファイルごとに異なる）
 - **Lesson**: (1) 記事の一括変換・移行スクリプトを書く際はエンコーディングを明示し、変換後に U+FFFD 検出を必ず実行する。(2) 新規記事の公開前チェック（/check-draft）にU+FFFD検出を含めるべき
 - **追記（2026-07-12）**: 全量修復完了。記事182ファイル・769箇所＋クイズJSON（`src/data/quiz/`）2ファイル・10箇所を文脈から復元。適用は抽出時の前後文脈と突合する検証スクリプト経由で実施し、ミスマッチ0。src・distともU+FFFD残ゼロを確認。検出コマンドは `--include` をJSONにも広げること（初回スキャンは.md/.mdxのみでクイズデータを見落とした）
+
+### [2026-09-15] `astro check` の sitemap `changefreq` 型エラー（修正済み）＋ 残存 hint の許容方針
+- **Context**: `astro check` で 6 errors が出ていた
+- **Failure**: `astro.config.ts` の sitemap `serialize()` 内で `item.changefreq = 'monthly'` のように文字列リテラルを代入していた
+- **Error**: `ts(2322): Type '"monthly"' is not assignable to type 'EnumChangefreq | undefined'`
+- **Cause**: `@astrojs/sitemap` の型定義が非対称。トップレベルオプション `changefreq` は文字列ユニオン型だが、`serialize(item)` の `item.changefreq` は内部依存 `sitemap` パッケージの TypeScript `enum EnumChangefreq` をそのまま参照する。TS の enum には同値の文字列リテラルでも代入不可（ランタイムは同じ `"monthly"` なので動作自体は問題なし）
+- **Correction**: `import sitemap, { ChangeFreqEnum } from '@astrojs/sitemap'` として `item.changefreq = ChangeFreqEnum.MONTHLY / WEEKLY` に置換。結果 0 errors / 0 warnings
+- **Lesson**: `serialize()` / `chunks` 内で changefreq を設定するときは必ず `ChangeFreqEnum` を使う
+- **許容する残存 hint（30件・非致命）**: 修正後も `astro check` は 30 hints を報告するが、ビルド・デプロイには影響しないため**毎回のチェックで許容する**（error / warning が 0 であれば合格とみなす）。内訳:
+  - `ts(6133)` 未使用の import / 変数（`src/apps/**`、`src/navigation.ts`、`scripts/extract-syllabus.js`）
+  - `ts(6385)` / `ts(6387)` 非推奨 API（`document.execCommand('copy')` 等。クリップボードのフォールバック用途で意図的に残している）
+  - `ts(6196)` / `ts(80007)` / `ts(7016)` 未使用型・不要な await・型定義なしモジュール（`scripts/*.js`）
+  - `astro(4000)` `<script type="application/ld+json" set:html>` に `is:inline` 明示を推奨するヒント（`SinglePost.astro` / `Layout.astro` / `CourseLayout.astro`。JSON-LD なので処理不要、挙動は正しい）
+  - これらを「エラーがある」と誤認して調査を始めないこと。hint 件数が増減した場合のみ差分を確認する
