@@ -184,6 +184,72 @@ export default defineConfig({
     '/trend/2026-cbt-transition-advanced-exam/': '/method/cbt-2026-syllabus-complete-guide/',
     '/trend/2026-cbt-ai-syllabus-strategy/': '/method/cbt-2026-syllabus-complete-guide/',
     '/trend/ipa-2026-cbt-strategy-ai/': '/method/cbt-2026-syllabus-complete-guide/',
+    // theoryジャンル別まとめ記事化 (2026-09-15, TODO.md §3): 1KW=1記事で分散していた
+    // プロジェクト・サービスマネジメント系5本を project-service-management-overview へ統合
+    '/theory/work-breakdown-structure/': '/theory/project-service-management-overview/',
+    '/theory/gantt-chart/': '/theory/project-service-management-overview/',
+    '/theory/critical-path/': '/theory/project-service-management-overview/',
+    '/theory/sla-slo-service-quality/': '/theory/project-service-management-overview/',
+    '/theory/ap-project-planning/': '/theory/project-service-management-overview/',
+    // theoryジャンル別まとめ記事化 第②弾 (2026-09-15): UI/UX/アクセシビリティ系3本を統合
+    '/theory/ui-ux-design-diff/': '/theory/ui-ux-accessibility-universal-design/',
+    '/theory/accessibility-usability-ui/': '/theory/ui-ux-accessibility-universal-design/',
+    '/theory/uiux-accessibility-user-centric-design/': '/theory/ui-ux-accessibility-universal-design/',
+    // theoryジャンル別まとめ記事化 第③弾 (2026-09-15): QC七つ道具系3本を統合
+    '/theory/abc-analysis-pareto-chart/': '/theory/qc-seven-tools-abc-fishbone-scatter/',
+    '/theory/characteristic-diagram-fishbone/': '/theory/qc-seven-tools-abc-fishbone-scatter/',
+    '/theory/quality-control-abc-fishbone-scatter/': '/theory/qc-seven-tools-abc-fishbone-scatter/',
+    // theoryジャンル別まとめ記事化 第④弾 (2026-09-15): 統計基礎系6本を統合
+    '/theory/mean-median-mode-stats/': '/theory/statistics-mean-variance-probability-sampling/',
+    '/theory/standard-deviation-variance/': '/theory/statistics-mean-variance-probability-sampling/',
+    '/theory/probability-bayes-basics/': '/theory/statistics-mean-variance-probability-sampling/',
+    '/theory/bias-and-precision-data/': '/theory/statistics-mean-variance-probability-sampling/',
+    '/theory/business-math-statistics-average-variance-bayes/': '/theory/statistics-mean-variance-probability-sampling/',
+    '/theory/sampling-methods-data/': '/theory/statistics-mean-variance-probability-sampling/',
+    // theoryジャンル別まとめ記事化 第⑤弾 (2026-09-15): データ活用基盤系4本を統合
+    '/theory/data-warehouse-basics/': '/theory/data-warehouse-mining-regression-basics/',
+    '/theory/data-mining-kdd/': '/theory/data-warehouse-mining-regression-basics/',
+    '/theory/regression-analysis-data/': '/theory/data-warehouse-mining-regression-basics/',
+    '/theory/data-profitability-dwh-mining-regression/': '/theory/data-warehouse-mining-regression-basics/',
+    // theoryジャンル別まとめ記事化 第⑥弾 (2026-09-15): 財務諸表系6本を統合
+    '/theory/profit-and-loss-statement-pl/': '/theory/corporate-finance-pl-bs-cf-roi-basics/',
+    '/theory/balance-sheet-bs/': '/theory/corporate-finance-pl-bs-cf-roi-basics/',
+    '/theory/cash-flow-statement-cf/': '/theory/corporate-finance-pl-bs-cf-roi-basics/',
+    '/theory/financial-statements-synergy-bs-pl-cf/': '/theory/corporate-finance-pl-bs-cf-roi-basics/',
+    '/theory/break-even-point/': '/theory/corporate-finance-pl-bs-cf-roi-basics/',
+    '/theory/return-on-investment/': '/theory/corporate-finance-pl-bs-cf-roi-basics/',
+    // theoryジャンル別まとめ記事化 第⑦弾 (2026-09-15): 法務系6本を統合
+    '/theory/intellectual-property-rights/': '/theory/it-legal-basics-ip-subcontract-contracts/',
+    '/theory/unfair-competition-prevention-act/': '/theory/it-legal-basics-ip-subcontract-contracts/',
+    '/theory/ai-intellectual-property-copyright-trade-secret/': '/theory/it-legal-basics-ip-subcontract-contracts/',
+    '/theory/it-legal-subcontract-copyright-labor/': '/theory/it-legal-basics-ip-subcontract-contracts/',
+    '/theory/subcontract-act-it-dev/': '/theory/it-legal-basics-ip-subcontract-contracts/',
+    '/theory/system-development-contracts-ses-outsourcing-risk/': '/theory/it-legal-basics-ip-subcontract-contracts/',
+    // theoryジャンル別まとめ記事化 第⑧弾 (2026-09-15): BPR/BPM系3本を統合
+    '/theory/bpr-process-reengineering/': '/theory/bpr-bpm-business-process-improvement-basics/',
+    '/theory/bpm-process-management/': '/theory/bpr-bpm-business-process-improvement-basics/',
+    '/theory/business-process-improvement-bpr-bpm-saas/': '/theory/bpr-bpm-business-process-improvement-basics/',
+    // theoryジャンル別まとめ記事化 第⑨弾 (2026-09-15): クラウド(SaaS/PaaS/IaaS)系2本を統合
+    '/theory/cloud-service-selection-saas-paas-iaas/': '/theory/cloud-saas-paas-iaas-basics/',
+    '/theory/saas-paas-iaas-cloud/': '/theory/cloud-saas-paas-iaas-basics/',
+    // theoryジャンル別まとめ記事化 第⑩弾 (2026-09-15, SGギャップ分析A): ネットワーク・DB系8本を統合
+    '/theory/tcp-ip-protocol-suite/': '/theory/network-database-fundamentals/',
+    '/theory/osi-reference-model/': '/theory/network-database-fundamentals/',
+    '/theory/dns-domain-name-system/': '/theory/network-database-fundamentals/',
+    '/theory/http-https-security/': '/theory/network-database-fundamentals/',
+    '/theory/cookie-privacy-web/': '/theory/network-database-fundamentals/',
+    '/theory/database-normalization/': '/theory/network-database-fundamentals/',
+    '/theory/exclusive-control/': '/theory/network-database-fundamentals/',
+    '/theory/transaction-acid/': '/theory/network-database-fundamentals/',
+    // theoryジャンル別まとめ記事化 第⑪弾 (2026-09-15, SGギャップ分析B): セキュリティ対策・暗号認証系6本を統合
+    '/theory/common-key-cryptography/': '/theory/security-controls-crypto-incident-basics/',
+    '/theory/public-key-cryptography/': '/theory/security-controls-crypto-incident-basics/',
+    '/theory/supply-chain-security-vulnerability-management-incident-response/': '/theory/security-controls-crypto-incident-basics/',
+    '/theory/byod-shadow-it-security/': '/theory/security-controls-crypto-incident-basics/',
+    '/theory/remote-work-security-byod-vpn/': '/theory/security-controls-crypto-incident-basics/',
+    '/theory/backup-methods/': '/theory/security-controls-crypto-incident-basics/',
+    // theoryジャンル別まとめ記事化 要検討3本の処理 (2026-09-15)
+    '/theory/telework-workation-style/': '/theory/security-controls-crypto-incident-basics/',
   },
   // Explicit so @astrojs/sitemap and prerender see canonical trailing URLs even if integrations order changes
   trailingSlash: 'always',

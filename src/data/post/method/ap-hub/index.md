@@ -283,4 +283,4 @@ A: 主な変化は①高度試験（SC・NW・PM等）の午前I免除②転職�
 
 まず今日、自分が得意な分野（プロジェクトマネジメント・ネットワーク・セキュリティ等）の午後過去問を1問解いて、AIに添削を依頼してください。最初のフィードバックが記述力向上の起点になります。
 
-セキュリティ分野のTLS・IPsec・認証プロトコルは[TLS・IPsec・認証プロトコルとは？セキュリティ詳解](/theory/ap-security-protocols/)、マネジメント系のWBS・見積り・リスク管理は[WBS・見積り・リスク管理とは？プロジェクト計画立案](/theory/ap-project-planning/)で仕組みから理解できる。
+セキュリティ分野のTLS・IPsec・認証プロトコルは[TLS・IPsec・認証プロトコルとは？セキュリティ詳解](/theory/ap-security-protocols/)、マネジメント系のWBS・見積り・リスク管理は[WBS・ガントチャート・クリティカルパス・SLA/SLOとは？プロジェクト管理5用語を1ページで解説](/theory/project-service-management-overview/)で仕組みから理解できる。
