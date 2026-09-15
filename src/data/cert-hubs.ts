@@ -28,6 +28,7 @@ export const certGroups: CertGroup[] = [
         name: '情報セキュリティマネジメント（SG）',
         href: '/method/sg-hub/',
         description: 'バックオフィス・非エンジニアのセキュリティ資格',
+        courseHref: '/course/sg/',
       },
       {
         name: '基本情報技術者（FE）',

@@ -1,0 +1,118 @@
+---
+title: '第5章 IT基礎知識（システム構成・DB・ネットワーク）'
+examId: 'sg'
+kind: 'chapter'
+order: 5
+genre: 'IT基礎'
+estimatedMinutes: 150
+field2027: 'technology'
+syllabusRefs: ['システム構成要素', 'データベース', 'ネットワーク']
+quizRef: 'course-ch5'
+relatedPosts:
+  - /theory/tcp-ip-protocol-suite/
+  - /theory/osi-reference-model/
+  - /theory/dns-domain-name-system/
+  - /theory/http-https-security/
+  - /theory/database-normalization/
+  - /theory/exclusive-control/
+  - /theory/cloud-service-selection-saas-paas-iaas/
+noteUrl: ''
+draft: false
+lastmod: 2026-09-15
+metadata:
+  description: '情報セキュリティマネジメント20時間コース第5章。システム構成・信頼性設計、データベース、ネットワークというセキュリティ対策の土台となるIT基礎知識を精選して押さえる。'
+---
+
+import ChapterQuiz from '~/apps/course-quiz/ChapterQuiz';
+import questions from '~/data/quiz/sg/course-ch5.json';
+
+## この章で学ぶこと
+
+これまでの章で扱った「守る技術」は、システムやネットワークの仕組みを理解していないと的確に使えません。この章では、システムの構成・信頼性設計、データベース、ネットワークという、セキュリティ対策の土台になるIT基礎知識を扱います。セキュリティ分野ほど深入りせず、試験で問われる範囲に絞って効率よく押さえます。
+
+## システム構成要素
+
+処理方式は、1台のコンピュータで処理する<strong>集中処理</strong>と、複数のコンピュータで分担する<strong>分散処理</strong>、即座に処理する<strong>リアルタイム処理</strong>とデータをためてまとめて処理する<strong>バッチ処理</strong>を対比で理解します。信頼性を高める構成としては、予備の機器を用意する<strong>冗長構成</strong>、処理を分散させる<strong>負荷分散</strong>、複数の機器を束ねて1つのシステムのように見せる<strong>クラスタ</strong>、要求を出す<strong>クライアント</strong>と処理する<strong>サーバ</strong>に役割を分ける<strong>クライアントサーバシステム</strong>が代表例です。
+
+クラウド活用の広がりを踏まえ、アプリを提供する<strong>SaaS</strong>・開発基盤を提供する<strong>PaaS</strong>・インフラを提供する<strong>IaaS</strong>という<strong>クラウドコンピューティング</strong>の3階層、データをクラウドに送らずその場で処理する<strong>エッジコンピューティング</strong>、1台の物理サーバに複数の環境を作る<strong>仮想化</strong>（<strong>VM</strong>）、デスクトップ環境ごと仮想化する<strong>VDI</strong>を押さえます。ストレージの冗長化技術である<strong>RAID</strong>、ファイル単位で共有する<strong>NAS</strong>、ストレージ専用のネットワークを構築する<strong>SAN</strong>の違いも頻出です。
+
+信頼性設計は、誤操作をしても危険が生じないようにする<strong>フールプルーフ</strong>と、故障時に安全側に動作する<strong>フェールセーフ</strong>の違いが重要です。評価指標としては、応答の速さを示す<strong>レスポンスタイム</strong>と処理能力を示す<strong>スループット</strong>、信頼性を示す<strong>MTBF（平均故障間隔）</strong>と<strong>MTTR（平均修理時間）</strong>、それらから求める<strong>稼働率</strong>をセットで理解します。
+
+**扱う用語（精選・25語）**
+
+- 集中処理／分散処理／リアルタイム処理／バッチ処理
+- 冗長構成／負荷分散／クラスタ／クライアントサーバシステム／シンクライアント
+- クラウドコンピューティング（SaaS，PaaS，IaaS）／エッジコンピューティング
+- 仮想化（VM）／VDI（デスクトップ仮想化）
+- RAID／NAS／SAN
+- フールプルーフ／フェールセーフ／フォールトトレラント
+- レスポンスタイム／スループット／MTBF／MTTR／稼働率
+- イニシャルコスト／ランニングコスト
+
+> 深掘り: [クラウド選定の基準：SaaS・PaaS・IaaSの使い分け](/theory/cloud-service-selection-saas-paas-iaas/)
+
+## データベース
+
+現実の情報を表形式で管理する<strong>関係データベース</strong>とそれを管理する<strong>データベース管理システム</strong>が土台です。データの重複や矛盾を排除するために表を整理する考え方（<strong>データ重複の排除</strong>）、データの意味や出所を記録する<strong>メタデータ</strong>、データベースを操作する言語である<strong>SQL</strong>を押さえます。
+
+複数の処理が同時にデータを更新しようとした際の競合を防ぐ<strong>同時実行制御（排他制御）</strong>、そして障害に備えたバックアップの方式である<strong>フルバックアップ・差分バックアップ・増分バックアップ</strong>による<strong>障害回復</strong>は、第3章で学んだバックアップの考え方とあわせて理解すると定着しやすくなります。大量のデータを分析用に整理して蓄積する<strong>データウェアハウス</strong>、量が膨大な<strong>ビッグデータ</strong>、複数のサーバにファイルを分散して保存する<strong>分散ファイルシステム</strong>も押さえておきます。
+
+**扱う用語（精選・10語）**
+
+- 関係データベース／データベース管理システム
+- データ重複の排除／メタデータ／SQL
+- 同時実行制御（排他制御）／障害回復（フルバックアップ，差分バックアップ，増分バックアップ）
+- データウェアハウス／ビッグデータ／分散ファイルシステム
+
+> 深掘り: [データベース正規化とは？](/theory/database-normalization/)／[排他制御とデッドロックの攻略法](/theory/exclusive-control/)
+
+## ネットワーク
+
+小規模な範囲をつなぐ<strong>LAN</strong>（有線・無線、識別名の<strong>SSID</strong>）と、それらを広域でつなぐ<strong>WAN</strong>、インターネットへの接続を提供する<strong>インターネットサービスプロバイダ（ISP）</strong>という規模の違いから理解します。通信の共通規約である<strong>TCP/IP</strong>のもと、世界に1つだけの<strong>グローバルIPアドレス</strong>と組織内だけで使う<strong>プライベートIPアドレス</strong>、ネットワークの範囲を区切る<strong>サブネットマスク</strong>、機器を識別する<strong>MACアドレス</strong>、32ビットの<strong>IPv4</strong>と128ビットの<strong>IPv6</strong>の違い、サービスの種類を示す<strong>ポート番号</strong>を押さえます。機器の役割は、異なるネットワーク同士をつなぐ<strong>ルータ</strong>、同一ネットワーク内で中継する<strong>スイッチングハブ</strong>で区別し、ドメイン名とIPアドレスを対応づける<strong>DNS</strong>は「インターネットの電話帳」とイメージすると理解しやすくなります。
+
+代表的なプロトコルとしては、Webの通信規約である<strong>HTTP</strong>、メール送受信で使う<strong>SMTP・POP3・IMAP</strong>の役割分担、機器にIPアドレスを自動割り当てする<strong>DHCP</strong>、無線LANの規格である<strong>Wi-Fi</strong>を押さえます。Webサイト訪問時の状態を保持する<strong>cookie</strong>、住所にあたる<strong>URL</strong>もあわせて理解しておきます。拠点間を安全につなぐ<strong>VPN</strong>（第3章の実装技術と対応）、電子商取引の<strong>EC</strong>、企業間でデータをやり取りする<strong>EDI</strong>、移動体通信の<strong>5G</strong>、音声通話を実現する<strong>VoIP</strong>も新しい通信サービスの用語として押さえておきます。
+
+**扱う用語（精選・23語）**
+
+- LAN（SSID）／WAN／インターネットサービスプロバイダ（ISP）
+- TCP/IP／グローバルIPアドレス／プライベートIPアドレス／サブネットマスク／MACアドレス／IPv4／IPv6／ポート番号
+- ルータ／スイッチングハブ／DNS
+- HTTP／SMTP／POP3／IMAP／DHCP／Wi-Fi
+- cookie／URL
+- VPN／EC（電子商取引）／EDI（電子データ交換）／5G／VoIP
+
+> 深掘り: [インターネットの主役！TCP/IPの4階層](/theory/tcp-ip-protocol-suite/)／[ネットワークの共通言語！OSI参照モデル](/theory/osi-reference-model/)／[住所録の管理人！DNSの仕組み](/theory/dns-domain-name-system/)／[Web閲覧の基本と安全！HTTPとHTTPSの違い](/theory/http-https-security/)
+
+### 仕組みを理解する: DNSは実際にどうやって名前を解決しているのか
+
+「DNSはインターネットの電話帳」という説明はイメージをつかむには便利ですが、実際には1冊の電話帳を引くのではなく、<strong>複数のサーバに段階的に問い合わせる</strong>仕組みで動いています。
+
+利用者のPCがWebサイトのドメイン名を入力すると、まずプロバイダなどが用意する窓口サーバである<strong>フルサービスリゾルバ</strong>に問い合わせが送られます。リゾルバは答えを知らなければ、まずインターネット全体の頂点にあたる<strong>ルートサーバ</strong>に尋ね、次にそのドメインの情報を管理する<strong>権威サーバ</strong>へと段階的に問い合わせを重ねて、最終的にIPアドレスにたどり着きます。一度調べた結果は一定時間<strong>キャッシュ</strong>され、同じ問い合わせを毎回繰り返さずに済むようになっています。
+
+この「段階的に問い合わせる」という仕組みを理解しておくと、第1章で学んだ<strong>DNSキャッシュポイズニング</strong>が「途中の問い合わせ結果を偽の情報にすり替える攻撃」だと直感的に理解できるようになります。
+
+## AIで学ぶ
+
+ここまでの用語は、ChatGPTやClaudeなどの生成AIに以下のプロンプトを投げかけると、比較表つきでさらに深く掘り下げて学習できます。コピーして使ってみましょう。
+
+```
+あなたは情報セキュリティマネジメント試験の講師です。「IT基礎知識（システム構成・DB・ネットワーク）」の範囲について、以下の用語を初学者向けに**関連づけながら**説明してください（単体の丸暗記より、用語同士のつながりを理解したほうが記憶に定着しやすく、試験本番で紛らわしい選択肢を見分ける力もつくためです）。用語同士の違いが分かる**比較表**を最後に付けてください。
+
+【システム構成要素】集中処理、分散処理、冗長構成、負荷分散、クラスタ、クライアントサーバシステム、SaaS／PaaS／IaaS、エッジコンピューティング、仮想化、VDI、RAID、NAS、SAN、フールプルーフ、フェールセーフ、MTBF、MTTR、稼働率
+【データベース】関係データベース、データベース管理システム、SQL、同時実行制御（排他制御）、障害回復（フル・差分・増分バックアップ）、データウェアハウス、ビッグデータ
+【ネットワーク】LAN／WAN、ISP、TCP/IP、グローバル／プライベートIPアドレス、サブネットマスク、MACアドレス、IPv4／IPv6、ルータ、DNS、HTTP、SMTP／POP3／IMAP、DHCP、Wi-Fi、cookie、VPN、5G
+```
+
+技術用語は、単体で覚えるより「何のためにあるか」という文脈とセットで理解したほうが定着します。このプロンプトが<strong>関連づけながら説明</strong>させ、最後に<strong>比較表</strong>を求めているのはそのためです。役割設定→関連づけ→出力形式という型を覚えておけば、ネットワークやデータベース以外の分野でも同じように応用できます。
+
+## 章末チェック
+
+最後に、この章で学んだ知識をアウトプットして定着させましょう。全問に答えたら「答え合わせ」を押してください。
+
+<ChapterQuiz client:load questions={questions} examId="sg" mode="chapter" chapterOrder={5} />
+
+## この章のまとめ
+
+この章では、システムの構成・信頼性設計、データベースの基本操作、ネットワークの仕組みという、セキュリティ対策を支えるIT基礎知識を学びました。
+
+次章では、プロジェクトやサービスをどう管理するかという<strong>マネジメント</strong>の知識を学びます。→ [第6章 マネジメント（プロジェクト・サービス・監査）](/course/sg/06-management/)

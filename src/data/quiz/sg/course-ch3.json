@@ -1,0 +1,46 @@
+[
+  {
+    "id": "sg-ch3-1",
+    "text": "インターネットなどの外部ネットワークと組織内部のLANとの中間に設け、外部に公開するサーバを内部LANから隔離するために設置する区域を何というか。",
+    "choices": [
+      { "label": "ア", "text": "DMZ（非武装地帯）" },
+      { "label": "イ", "text": "検疫ネットワーク" },
+      { "label": "ウ", "text": "VPN" },
+      { "label": "エ", "text": "SOC" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "sg-ch3-2",
+    "text": "マルウェア対策ソフトが、正常なファイルや通信を誤って「不正である」と判定してしまうことを何というか。",
+    "choices": [
+      { "label": "ア", "text": "フォールスポジティブ" },
+      { "label": "イ", "text": "フォールスネガティブ" },
+      { "label": "ウ", "text": "ゼロデイ攻撃" },
+      { "label": "エ", "text": "サンドボックス" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "sg-ch3-3",
+    "text": "PCやサーバ（エンドポイント）上の不審な挙動を検知し、感染後の被害拡大防止や調査を支援するセキュリティ製品はどれか。",
+    "choices": [
+      { "label": "ア", "text": "EDR" },
+      { "label": "イ", "text": "WAF" },
+      { "label": "ウ", "text": "IDS" },
+      { "label": "エ", "text": "DLP" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "sg-ch3-4",
+    "text": "共通鍵暗号方式を用いた無線LANのセキュリティ規格として、現在推奨されているものはどれか。",
+    "choices": [
+      { "label": "ア", "text": "WPA3" },
+      { "label": "イ", "text": "WEP" },
+      { "label": "ウ", "text": "SSID" },
+      { "label": "エ", "text": "MACアドレスフィルタリングのみ" }
+    ],
+    "correctLabel": "ア"
+  }
+]
