@@ -33,21 +33,15 @@ export const headerData = {
 export const footerData = {
   links: [
     {
-      title: 'コンテンツ',
+      title: 'カテゴリ',
       links: [
         { text: '資格から探す', href: getPermalink('/certifications') },
-        { text: '学習コース', href: getPermalink('/course') },
-        { text: 'トレンド', href: getPermalink('trend', 'category') },
         { text: '学習メソッド', href: getPermalink('method', 'category') },
-        { text: 'キャリア戦略', href: getPermalink('career', 'category') },
+        { text: '20時間学習', href: getPermalink('/course') },
         { text: '用語解説', href: getPermalink('theory', 'category') },
         { text: 'ウェブアプリ', href: getPermalink('app', 'category') },
-      ],
-    },
-    {
-      title: 'コミュニティ',
-      links: [
-        { text: 'Syllabus Hackについて', href: getPermalink('/about') },
+        { text: 'トレンド', href: getPermalink('trend', 'category') },
+        { text: 'キャリア', href: getPermalink('career', 'category') },
         { text: 'お問い合わせ', href: getPermalink('/contact') },
       ],
     },
