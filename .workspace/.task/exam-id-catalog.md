@@ -1,7 +1,7 @@
 # examId カタログ（記事フロントマター用）
 
 記事の `knowledge.examId` に設定できる値の一覧。  
-**正本**: `src/content/config.ts` の `z.enum([...])`（2026-06-15 時点）
+**正本**: `src/content/config.ts` の `z.enum([...])`（2026-09-17 時点）
 
 新規資格を追加するときは、記事作成前に `src/content/config.ts` へ kebab-case スラッグを追記すること。  
 追記しないと `pnpm build` / `pnpm dev` で `InvalidContentEntryDataError` になる。
@@ -34,6 +34,9 @@ knowledge:
 | `es` | エンベデッドシステムスペシャリスト試験 | — | |
 | `sm` | ITサービスマネージャ試験 | — | |
 | `au` | システム監査技術者試験 | — | |
+| `dm` | データマネジメント試験（新設・2027年度夏〜秋予定、2026年8月現在は仮称） | — | 2026-09-17登録。ITパスポートの次のステップ試験。中分類8（データマネジメント）が独自の深掘り分野 |
+| `pd-m` | プロフェッショナルデジタルスキル（マネジメント）試験（新設・2026年8月現在は仮称） | — | 2026-09-17登録。応用情報＋高度試験のマネジメント領域を統合再編 |
+| `pd-s` | プロフェッショナルデジタルスキル（システム）試験（新設・2026年8月現在は仮称） | — | 2026-09-17登録。応用情報＋高度試験のシステム領域を統合再編。AI駆動開発等の新規領域を含む |
 
 ### ベンダー・民間検定
 
@@ -73,7 +76,7 @@ knowledge:
 ## クイック参照（コピペ用）
 
 ```
-ip, sg, fe, ap, st, sa, pm, nw, db, es, sm, au, sc,
+ip, sg, fe, ap, st, sa, pm, nw, db, es, sm, au, sc, dm, pd-m, pd-s,
 common, g-kentei, ds-kentei, ccna,
 denken, boki, takken, mos, kiken-butsu, biru-kanri, doboku-sekou,
 chiteki-zaisan, boiler-refrigeration, shobo-setsubi, fp, aws, fintech-it, toeic
@@ -96,13 +99,7 @@ chiteki-zaisan, boiler-refrigeration, shobo-setsubi, fp, aws, fintech-it, toeic
 
 （2026-07-20時点で未登録・予定なし。fp/aws/boiler-refrigeration/toeicはすべて登録済み・上表参照）
 
-**2026-09-07追記**: 2027年IPA試験制度改訂に伴う新設試験3件が候補として浮上。記事化に着手する際にexamId登録すること（現時点では登録不要・シラバス案の構造化のみ完了）。詳細は `.workspace/.new-contentplan/2027-exams/` 配下のプロファイルレポート参照。
-
-| examId候補 | 資格名 | シラバス構造化データ | 備考 |
-| --- | --- | --- | --- |
-| `dm` | データマネジメント試験（新設・2027年度夏〜秋予定） | `src/data/master/syllabus-dm-2027.json` | ITパスポートの次のステップ試験。中分類8（データマネジメント）が独自の深掘り分野 |
-| `pd-m` | プロフェッショナルデジタルスキル（マネジメント）試験（新設・仮称） | `src/data/master/syllabus-pd-m-2027.json` | 応用情報＋高度試験のマネジメント領域を統合再編 |
-| `pd-s` | プロフェッショナルデジタルスキル（システム）試験（新設・仮称） | `src/data/master/syllabus-pd-s-2027.json` | 応用情報＋高度試験のシステム領域を統合再編。AI駆動開発等の新規領域を含む |
+**2026-09-17更新**: 2027年IPA試験制度改訂に伴う新設試験3件（`dm` / `pd-m` / `pd-s`）を `config.ts` enumに登録済み（上表「IPA 高度試験・国家試験」参照）。シラバス構造化データは `.workspace/.new-contentplan/2027-exams/` 配下のプロファイルレポートを参照。Hub記事・個別記事はまだ未作成。
 
 ---
 

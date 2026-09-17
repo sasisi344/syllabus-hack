@@ -38,7 +38,17 @@
 > 正本: [`week4-task.md`](../.new-contentplan/week4-task.md)。ゴール: 今月の施策（Tier1公開・サイト新構成）の反応を計測し、来月（Tier2着手・比重配分）の判断材料を揃える
 
 - [ ] GA4/GSCで新セクション（`/course/`）のPV・回遊率の計測を開始
-- [ ] 2本目パイロットテーマの着手準備: **情報セキュリティマネジメント（SG）に確定**（2026-09-09決定）。全資格展開ロードマップは [`course-rollout-roadmap.md`](../.new-contentplan/course-rollout-roadmap.md) 参照
+- [x] 2本目パイロットテーマ: **情報セキュリティマネジメント（SG）** → 2026-09-15公開完了
+- [x] 3本目パイロットテーマ: **データマネジメント試験（DM）に確定**（2026-09-17決定）。カリキュラム設計（章立て・用語マッピング）まで完了 → [`dm-course/dm-course-curriculum.md`](../.new-contentplan/dm-course/dm-course-curriculum.md)。8章＋診断＋総復習＝20時間、DM独自の深掘り分野（データガバナンス・品質管理）を第1〜2章に厚く配置、統計手法（第4章）はKaTeXで計算例題を多めに配置する方針
+- [x] `scaffold-course.cjs`に`dm`を追加し、章ドラフト骨組みを`.workspace/draft/course/dm/`に生成 → 2026-09-17完了（index+8章。語数37/30/41/27/26/14/12＋技能4大項目、カリキュラム設計と完全一致）
+- [ ] DMコース本文執筆フェーズ:
+  - [ ] 各章の用語精選（`dm-course-curriculum.md` §3の基準に沿って節ごとに確定）
+  - [ ] 第1〜8章の本文執筆（第1〜2章はDM独自の深掘り分野として書き下ろし比率が最も高い。第4章は統計計算例題つき）
+  - [ ] 第4章の計算例題を作問（標準偏差・相関係数・回帰係数、最低1問ずつ、KaTeXで表示）
+  - [ ] 第8章のケーススタディ主人公・架空企業設定を確定（業務部門側のデータ利用者という設定）
+  - [ ] 診断テスト・章末チェック・総復習の問題データ作成（DMは公開過去問が存在しないため、シラバス案から書き下ろし）
+  - [ ] `src/data/course/dm/`への本番配置・`method/itp-hub`からの導線接続・`cert-hubs.ts`への`courseHref`追加（IP/SGと同じ手順）
+  - 詳細・進捗管理は[`dm-course/dm-course-task.md`](../.new-contentplan/dm-course/dm-course-task.md) §2-1参照
 - [ ] 今月の振り返り: CBT型と20hours型の制作比重をどう調整するか判断材料をまとめる
 - [ ] trend記事「IPA 2027年試験制度改訂」の公開状況を確認・未着手なら来月に繰越（`new-content-plan.md` §2参照）
 - [ ] 来月着手するTier2（有料note・合格テキスト）の準備確認: noteアカウント開設・価格帯・巻数設計（[`ip-course-curriculum.md`](../.new-contentplan/ip-course/ip-course-curriculum.md) §4）の検討再開、メールゲート実装方式の確定
@@ -58,8 +68,6 @@
 > **正本**: [`site-structure-pillars.md`](site-structure-pillars.md)
 > ヘッダー・フッター・トップページの実装3点は2026-09-15に全完了。完了記録は [`archive/completed-2026-09-15.md`](archive/completed-2026-09-15.md) へ退避（詳細は[`site-structure-pillars.md`](site-structure-pillars.md) §7参照）
 
-- [ ] **（新規追加・2026-09-09）** `theory`（用語解説）・`method`（学習メソッド）の価値再評価: 次回日曜（2026-09-13）以降にユーザーが新しいGA4データを取得したタイミングで実施。単一期間（W36・2026-08-15〜09-05）のデータでは`method`は`trend`と同水準の効率（約1.0セッション/記事）、`theory`は記事数最多（106本）ながら最も効率が低い（約0.59セッション/記事）という傾向だったが、断定材料には不足。複数週分のデータが揃った時点で「コラムへ統合」「（アクセス数次第で）廃止」「現状維持」のいずれにするか判断する → 詳細・判断材料は [`site-structure-pillars.md`](site-structure-pillars.md) §6参照
-- [ ] **（新規追加・2026-09-15）** フッター広告枠（資格スクエア／A8.net）のテスト導入効果を次回アクセス解析で確認: 広告枠カラムに`id="footer-ad-column"`（内側に`data-ad-partner="a8-shikaku-square-test"`）を付与済み。A8.net管理画面のクリック実績、GA4の`scroll`イベント（90%到達＝フッター視認のプロキシ指標）を確認し、必要ならGTM導入・要素表示トリガーの追加を検討 → 詳細は[`site-structure-pillars.md`](site-structure-pillars.md) §7参照
 
 ## 3. 頻出KWのジャンル別「まとめ記事」化
 
