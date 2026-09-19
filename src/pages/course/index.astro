@@ -1,13 +1,19 @@
 ---
 import { getCollection } from 'astro:content';
 import PageLayout from '~/layouts/PageLayout.astro';
+import Image from '~/components/common/Image.astro';
 import { getPermalink } from '~/utils/permalinks';
+import { findImage } from '~/utils/images';
 import type { MetaData } from '~/types';
 
 export const prerender = true;
 
 const indexEntries = (await getCollection('course', ({ data }) => data.kind === 'index' && !data.draft)).sort(
   (a, b) => a.data.title.localeCompare(b.data.title)
+);
+
+const entriesWithImage = await Promise.all(
+  indexEntries.map(async (entry) => ({ entry, image: await findImage(entry.data.image) }))
 );
 
 const metadata: MetaData = {
@@ -25,16 +31,48 @@ const metadata: MetaData = {
 
     <div class="grid gap-6 sm:grid-cols-2">
       {
-        indexEntries.map((entry) => (
+        entriesWithImage.map(({ entry, image }) => (
           <a
             href={getPermalink(`/course/${entry.data.examId}`)}
-            class="block p-6 rounded-2xl border border-gray-200 dark:border-slate-700 hover:border-primary dark:hover:border-blue-400 transition"
+            class="block rounded-2xl border border-gray-200 dark:border-slate-700 hover:border-primary dark:hover:border-blue-400 transition overflow-hidden"
           >
-            <h2 class="text-xl font-bold font-heading mb-2">{entry.data.title}</h2>
-            {entry.data.totalHours && <p class="text-sm text-muted dark:text-slate-400">目安 {entry.data.totalHours}時間・{entry.data.chapters}章</p>}
+            {image && (
+              <Image
+                src={image}
+                class="w-full"
+                widths={[400, 900]}
+                width={400}
+                sizes="(max-width: 900px) 400px, 900px"
+                alt={entry.data.title}
+                aspectRatio="16:9"
+                layout="cover"
+                loading="lazy"
+                decoding="async"
+              />
+            )}
+            <div class="p-6">
+              <h2 class="text-xl font-bold font-heading mb-2">{entry.data.title}</h2>
+              {entry.data.totalHours && <p class="text-sm text-muted dark:text-slate-400">目安 {entry.data.totalHours}時間・{entry.data.chapters}章</p>}
+            </div>
           </a>
         ))
       }
+    </div>
+
+    <div class="mt-16 p-6 sm:p-8 rounded-2xl border border-gray-200 dark:border-slate-700">
+      <h2 class="text-xl md:text-2xl font-bold font-heading mb-4">この作り方は、あなたのシラバスにも応用できます</h2>
+      <p class="text-muted dark:text-slate-400 mb-6">
+        このコースは、公式シラバスのキーワードリストを出発点に、生成AIとの対話で章立て・本文・問題を作成しています。生成AIで自分の学習コンテンツを作ってみたい方に向けて、実際に使っている手順を簡単に紹介します。
+      </p>
+      <ol class="list-decimal list-inside space-y-2 text-muted dark:text-slate-400 mb-6">
+        <li>シラバスから頻出語・重要語を抽出し、優先度をつけて章立てを設計する</li>
+        <li>各章の用語を「なぜ重要か」「試験でどう出るか」という切り口でAIに深掘りさせながら本文を作る</li>
+        <li>章末チェック・診断テスト・総復習の問題をシラバスの用語から書き下ろす</li>
+        <li>通して読み直し、前の章とのつながりを補強する</li>
+      </ol>
+      <p class="text-muted dark:text-slate-400">
+        各章末の「AIで学ぶ」プロンプトは、実際にこのコースを作る際にも使っている考え方（用語同士を関連づけて説明させる、比較表を作らせる、など）です。そのままコピーして、自分が学びたい別のシラバスに読み替えて使ってみてください。
+      </p>
     </div>
   </section>
 </PageLayout>

@@ -5,3 +5,14 @@
  */
 import 'katex/dist/katex.min.css';
 ---
+
+<style is:global>
+  /* スマホ幅で長いブロック数式がページ全体を横スクロールさせないよう、
+     数式ブロック自体だけを横スクロール可能にする（2026-09-19 DMコース最終確認で発見） */
+  .katex-display {
+    overflow-x: auto;
+    overflow-y: hidden;
+    max-width: 100%;
+    padding-bottom: 0.25em;
+  }
+</style>

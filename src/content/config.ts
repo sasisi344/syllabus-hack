@@ -138,6 +138,7 @@ const courseCollection = defineCollection({
   }),
   schema: z.object({
     title: z.string(),
+    image: z.string().optional(),
     examId: z.enum([
       'ip',
       'sg',

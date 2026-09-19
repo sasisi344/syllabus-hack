@@ -69,6 +69,24 @@ const breadcrumbJsonLd = {
       <slot />
     </article>
 
+    <style is:global>
+      /* コース本文の「AIで学ぶ」プロンプト等、コードブロックが折り返さず横長になる問題の対策
+         （blog記事側のSinglePost.astroと同じ対策をコースレイアウトにも適用。2026-09-19） */
+      .prose pre {
+        white-space: pre-wrap !important;
+        word-break: break-all !important;
+      }
+
+      .prose pre code {
+        white-space: pre-wrap !important;
+      }
+
+      .dark .prose pre {
+        background-color: #0f172a !important;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+      }
+    </style>
+
     {
       (prevChapter || nextChapter) && (
         <div class="mt-10 flex justify-between gap-4 border-t dark:border-slate-700 pt-6">
