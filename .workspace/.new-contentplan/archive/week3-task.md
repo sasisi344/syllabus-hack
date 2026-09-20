@@ -9,7 +9,7 @@ tags:
 
 # Week3タスク（9/20〜9/26）: 実装・Web公開
 
-> 全体像は [`new-content-plan.md`](./new-content-plan.md) を参照。前提: Week2で作成したTier1コンテンツ一式（[`week2-task.md`](./week2-task.md)）を実装に流し込む。
+> 全体像は [`new-content-plan.md`](../new-content-plan.md) を参照。前提: Week2で作成したTier1コンテンツ一式（[`week2-task.md`](./week2-task.md)）を実装に流し込む。
 >
 > **2026-09-07更新**: 有料コンテンツ（Tier2・note）関連の作業は来月に延期。本Weekのスコープは「Tier1（無料20hコンテンツ）の実装・公開」と「サイト新構成（`course`コレクション）の実装」に純化した。
 
@@ -19,7 +19,7 @@ ITパスポート20hoursパイロット（Tier1）を実際にWeb公開し、既
 
 ## タスク
 
-- [x] Astro新テンプレート実装: TOP（学習カテゴリ）→ 章一覧（サブカテゴリ）→ 章ページ（サブページ）の2階層（`course`コレクション、[`structure-migration-plan.md`](./structure-migration-plan.md) §4-2） → **2026-09-09完了**。`src/content/config.ts`に`course`コレクション追加、`src/pages/course/index.astro`・`[exam]/index.astro`・`[exam]/[chapter].astro`・`src/layouts/CourseLayout.astro`を新規実装
+- [x] Astro新テンプレート実装: TOP（学習カテゴリ）→ 章一覧（サブカテゴリ）→ 章ページ（サブページ）の2階層（`course`コレクション、[`structure-migration-plan.md`](../structure-migration-plan.md) §4-2） → **2026-09-09完了**。`src/content/config.ts`に`course`コレクション追加、`src/pages/course/index.astro`・`[exam]/index.astro`・`[exam]/[chapter].astro`・`src/layouts/CourseLayout.astro`を新規実装
   - 読了目安時間の表示 → 実装済み（既存remarkプラグイン`readingTime`を流用、`CourseLayout`で章の目安分数と併記）
   - Week1のKaTeX PoCの結果を反映 → ITパスポートでは数式未使用のためKatexStylesは今回未import（章ページ単位でスコープする既存方針どおり、必要な章がでてきたら個別importする）
 - [x] 章末チェック用の新規UIコンポーネントを実装（[`ip-course/ip-course-curriculum.md`](./ip-course/ip-course-curriculum.md) §3-5） → **2026-09-09完了**。`src/apps/course-quiz/ChapterQuiz.tsx`（全問回答後「答え合わせ」で一括採点・○✕表示、診断モードは不正解章へのリンク表示）・`progress.ts`（`sh_course_{examId}`）を新規実装。ブラウザで実際に4問チェック・10問診断の両方を操作し、採点・localStorage保存・弱点章リンクの動作を確認済み

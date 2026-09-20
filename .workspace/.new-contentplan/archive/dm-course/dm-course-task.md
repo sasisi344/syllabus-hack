@@ -10,13 +10,13 @@ tags:
 
 # DM（データマネジメント試験）20時間コース タスク
 
-> 全体ロードマップ: [`../course-rollout-roadmap.md`](../course-rollout-roadmap.md)。IP→SGに続く3本目として2026-09-17にユーザーが着手方針を決定。試験プロファイル分析は[`../2027-exams/dm-2027-profile-report.md`](../2027-exams/dm-2027-profile-report.md)を参照。本ファイルはDM着手にあたって固めた方針と、20時間コース実装の進捗管理。
+> 全体ロードマップ: [`../course-rollout-roadmap.md`](../../course-rollout-roadmap.md)。IP→SGに続く3本目として2026-09-17にユーザーが着手方針を決定。試験プロファイル分析は[`../2027-exams/dm-2027-profile-report.md`](../../2027-exams/dm-2027-profile-report.md)を参照。本ファイルはDM着手にあたって固めた方針と、20時間コース実装の進捗管理。
 
 ## 0. 決定事項（2026-09-17）
 
 1. **20時間コースの型をそのまま適用する**（IP/SGと統一）。DMのシラバス案は187語とIP（819語）の1/4以下だが、章立て・ページ構成をIP/SGと揃え、サイト内の一貫性を優先する。ボリューム不足は下記2で補う
 2. **DM独自の深掘り分野（中分類8：データガバナンス・組織体制・データ品質管理・メタデータ管理、IPでは13語→DMでは103語に拡張）の章を重点的に厚く書く**。既存theory記事が0本の完全新規領域のため（`dm-2027-profile-report.md` §5-3）、この章がボリューム・独自性の両方を担う中核章になる
-3. **`examId: 'dm'` は登録済み**（2026-09-17、`src/content/config.ts`・`exam-id-catalog.md`）。Hub記事側の「近日公開予定」スタブも[`method/advanced-ipa-hub`](../../../src/data/post/method/advanced-ipa-hub/index.md)に設置済み
+3. **`examId: 'dm'` は登録済み**（2026-09-17、`src/content/config.ts`・`exam-id-catalog.md`）。Hub記事側の「近日公開予定」スタブも[`method/advanced-ipa-hub`](../../../../src/data/post/method/advanced-ipa-hub/index.md)に設置済み
 4. **シラバスは2027年案（`syllabus-dm-2027.json`）をそのまま使う**。DMは完全新設試験のため新旧差分の概念がなく、IP/SGのような「現行シラバス先行 or 新シラバス待ち」の判断は不要
 5. **科目B（技能・4グループ16項目84技能例）はSG第8章と同じ「ケーススタディ」形式で独立章にする**。DMも知識のみのIPと異なり技能を問う試験のため、SGの実装パターン（架空企業を舞台にした一貫した物語形式）を踏襲する
 6. **統計手法（中分類9・データ分析）の章は例題（計算問題）を多めに配置する**（2026-09-17追加決定）。理由: DMはIPの次に受ける資格のためIPより語数が少なく見えるが、実際はデータマイニング寄りの統計分野（確率分布・代表値・標準偏差・回帰分析・相関分析・仮説検定）が絡み、**用語や概念を体感的に理解していても実際の数式・算出でつまづくケースが多いと想定される**。用語暗記だけでは対応できないため、他章より計算過程を示す例題の比率を上げる。既存theory記事（`business-math-statistics-average-variance-bayes`・`regression-analysis-data`・`sampling-methods-data`・`standard-deviation-variance`等）は概念解説が中心のため、コース本文側で計算例を補強する役割分担にする

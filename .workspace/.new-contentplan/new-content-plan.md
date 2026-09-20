@@ -15,7 +15,7 @@ tags:
 
 「20時間学習法」を新フォーマットとしてシラバスハックに導入する。**今月はTier1（無料・ITパスポート）のコンテンツ制作とサイト新構成（`course`コレクション）の実装を最優先とし、Tier2（有料note・合格テキスト）は来月に回す**（2026-09-07決定）。
 
-> ⚠️ **全コース共通の注意点**: 20時間コースは**基礎知識を身につけるための学習教材**であり、**合格を保証するものではない**。この位置づけはコースTOP・各章・完走画面に必ず明記する（詳細は [`ip-course/ip-course-curriculum.md`](./ip-course/ip-course-curriculum.md) 冒頭の注意書き、実装ルールは [`20hours-course-template.md`](./20hours-course-template.md) 参照）。
+> ⚠️ **全コース共通の注意点**: 20時間コースは**基礎知識を身につけるための学習教材**であり、**合格を保証するものではない**。この位置づけはコースTOP・各章・完走画面に必ず明記する（詳細は [`ip-course/ip-course-curriculum.md`](./archive/ip-course/ip-course-curriculum.md) 冒頭の注意書き、実装ルールは [`20hours-course-template.md`](./20hours-course-template.md) 参照）。
 
 ## 参照ファイル一覧
 
@@ -24,15 +24,15 @@ tags:
 | 基本理念（コラム） | [`20hours学習法の基本理念.md`](./20hours学習法の基本理念.md) | なぜITパスポート/SGから始めるか、生成AIパスポートの扱い、有料noteの位置づけ等、方針の土台となる考え方。「カウフマンのウクレレ理論」に基づく二層構成（無料入口テキスト／有料合格テキスト）の結論を追記済み |
 | 方針転換の詳細検討メモ（正本） | [`コンテンツ戦略の方針転換－20hours学習法への移行.md`](./コンテンツ戦略の方針転換－20hours学習法への移行.md) | CBTからの方針転換の経緯・型・技術要件・収益モデル比較 |
 | 構造移行プラン | [`structure-migration-plan.md`](./structure-migration-plan.md) | 現行サイト構造の実測分析（443記事・334問・技術構成）と、新コレクション `course` による `/course/{examId}/` 移行手法。フェーズ別の具体タスク |
-| ITパスポート カリキュラム（確定版・二層構成） | [`ip-course/ip-course-curriculum.md`](./ip-course/ip-course-curriculum.md) | **2027年シラバスベースに刷新（2026-09-07）**。Tier1（無料20h・入口テキスト・8章精選）とTier2（有料note・合格テキスト・26章フル網羅）の二層構成。旧v6.5単一コース設計はAppendix Aにアーカイブ |
+| ITパスポート カリキュラム（確定版・二層構成） | [`ip-course/ip-course-curriculum.md`](./archive/ip-course/ip-course-curriculum.md) | **2027年シラバスベースに刷新（2026-09-07）**。Tier1（無料20h・入口テキスト・8章精選）とTier2（有料note・合格テキスト・26章フル網羅）の二層構成。旧v6.5単一コース設計はAppendix Aにアーカイブ |
 | 20時間コース 共通テンプレート | [`20hours-course-template.md`](./20hours-course-template.md) | コースTOP／章ページの構成、執筆ルール、問題データ規約、フロントマター、他資格への展開手順 |
 | 章ドラフト骨組み（要2027対応更新） | `.workspace/draft/course/ip/`（`node .workspace/scripts/scaffold-course.cjs ip` で生成、現状v6.5データ前提） | index.md＋8章。2027年ベースの二層構成決定に伴い、スクリプトの章定義を`syllabus-ip-2027.json`対応に改修する必要あり |
-| 2027年新シラバス（案）との差分分析（決定済み） | [`ip-course/2027-syllabus-diff.md`](./ip-course/2027-syllabus-diff.md) | IPA公開のシラバス案Ver.0.1（`syllabus-ip-2027.json`）を現行8章と対応づけ、受け皿のない新規5分野を特定。**最終的にA/B/Cいずれでもない「二層構成＋2027年ベース」で決着**（分析ログとして保持） |
+| 2027年新シラバス（案）との差分分析（決定済み） | [`ip-course/2027-syllabus-diff.md`](./archive/ip-course/2027-syllabus-diff.md) | IPA公開のシラバス案Ver.0.1（`syllabus-ip-2027.json`）を現行8章と対応づけ、受け皿のない新規5分野を特定。**最終的にA/B/Cいずれでもない「二層構成＋2027年ベース」で決着**（分析ログとして保持） |
 | 2027年4試験 総合レポート | [`2027-exams/2027-exams-master-report.md`](./2027-exams/2027-exams-master-report.md) | IP・SC・DM（新設）・PD-M/PD-S（新設）の2027年シラバス案を構造化・分析。生成AI関連テーマが4試験すべてで新設・深掘りされていることを確認。examId未登録3件（dm/pd-m/pd-s）・未取得データ・来月以降のコンテンツ優先順位を整理 |
-| Week1タスク | [`week1-task.md`](./week1-task.md) | 型の設計とシラバス整理（9/6〜9/12） |
-| Week2タスク | [`week2-task.md`](./week2-task.md) | パイロットカリキュラム制作（9/13〜9/19） |
-| Week3タスク | [`week3-task.md`](./week3-task.md) | 実装・Web公開（9/20〜9/26） |
-| Week4タスク | [`week4-task.md`](./week4-task.md) | 計測・振り返り・次月準備（9/27〜10/3） |
+| Week1タスク | [`week1-task.md`](./archive/week1-task.md) | 型の設計とシラバス整理（9/6〜9/12） |
+| Week2タスク | [`week2-task.md`](./archive/week2-task.md) | パイロットカリキュラム制作（9/13〜9/19） |
+| Week3タスク | [`week3-task.md`](./archive/week3-task.md) | 実装・Web公開（9/20〜9/26） |
+| Week4タスク | [`week4-task.md`](./archive/week4-task.md) | 計測・振り返り・次月準備（9/27〜10/3） |
 | 2027年IPA改訂の一次情報 | `.workspace/_inbox/IPA資格試験の再編と新体制について.md` | 新試験制度の詳細（出典: IPA/経産省） |
 | サイト全体の方向性 | `.workspace/_inbox/site-direction-genai-cert-hack-report.md` | シラバスハックの理念・カテゴリ・対象試験の全体像 |
 | examIdカタログ | `.workspace/.task/exam-id-catalog.md` | 新設試験を記事化する際はここに登録 |
@@ -42,7 +42,7 @@ tags:
 
 ## 今月のゴール（要点）
 
-1. **「20時間学習法」フォーマット（Tier1）を確立し、パイロット1本を無料公開する** — ITパスポートを題材に、診断→カリキュラム→章立て→理解度チェックの型をシラバスハック上で実際に動かす。2027年シラバスベース・全819語のうち高価値な用語を精選する8章構成（[`ip-course/ip-course-curriculum.md`](./ip-course/ip-course-curriculum.md) §3）
+1. **「20時間学習法」フォーマット（Tier1）を確立し、パイロット1本を無料公開する** — ITパスポートを題材に、診断→カリキュラム→章立て→理解度チェックの型をシラバスハック上で実際に動かす。2027年シラバスベース・全819語のうち高価値な用語を精選する8章構成（[`ip-course/ip-course-curriculum.md`](./archive/ip-course/ip-course-curriculum.md) §3）
 2. **サイトの新構成（`course`コレクション）を実装する** — TOP→章一覧→章ページの2階層をAstroに実装し、Tier1コンテンツをホストする土台を作る（[`structure-migration-plan.md`](./structure-migration-plan.md) §4）
 3. **2027年IPA試験制度改訂を新カリキュラムの設計に反映する** — 当初「新シラバス区分に沿った章立てにする」だった目標を、実データ分析の結果「土台のシラバス自体を2027年版に切り替える」まで前倒しした（2026-09-07決定）
 4. **CBT形式（既存資産）は維持し、KPIを崩さない** — 新フォーマットは並走。既存記事・アプリの改修やリライト作業は今月のスコープに含めない
@@ -62,17 +62,17 @@ tags:
 - 2027年度夏〜秋には **データマネジメント試験（新設）**・**プロフェッショナルデジタルスキル試験（新設・3区分）** が始動し、応用情報技術者試験＋既存高度試験を大括り再編する形になる
 - 2027年版のシラバスが登場したので、最新版に内容をアップデートする
 
-具体的な実行タスク（新旧シラバス対応表の作成・trend記事企画・`ExamField`型の技術負債記録）は [`week1-task.md`](./week1-task.md) / [`week4-task.md`](./week4-task.md) を参照。
+具体的な実行タスク（新旧シラバス対応表の作成・trend記事企画・`ExamField`型の技術負債記録）は [`week1-task.md`](./archive/week1-task.md) / [`week4-task.md`](./archive/week4-task.md) を参照。
 
 ---
 
 ## 判断待ち・リスク
 
-- [x] ~~「合格テキスト」と「20時間学習」の切り分け~~ → **解決（2026-09-07）**: カウフマンの20時間学習法の正しい適用に基づき、Tier1（無料・精選版20h）とTier2（有料・26章フル網羅）に分離する二層構成で決着（[`20hours学習法の基本理念.md`](./20hours学習法の基本理念.md)、[`ip-course/ip-course-curriculum.md`](./ip-course/ip-course-curriculum.md)）
+- [x] ~~「合格テキスト」と「20時間学習」の切り分け~~ → **解決（2026-09-07）**: カウフマンの20時間学習法の正しい適用に基づき、Tier1（無料・精選版20h）とTier2（有料・26章フル網羅）に分離する二層構成で決着（[`20hours学習法の基本理念.md`](./20hours学習法の基本理念.md)、[`ip-course/ip-course-curriculum.md`](./archive/ip-course/ip-course-curriculum.md)）
 - [x] ~~Tier2（有料note・合格テキスト）の制作着手タイミング~~ → **解決（2026-09-07）**: **来月に延期**。今月はTier1（無料20hコンテンツ）とサイト新構成（`course`コレクション）の実装を優先する。メールゲート実装・26章本文制作・マガジン設計は来月（`week1-task.md`・`week3-task.md`・`week4-task.md`に反映済み）。**ただしnoteアカウントのハンドル確保のみ、ブランド名の先行押さえとして今月中に実施**（2026-09-07追記）
 - [x] ~~SNS運用体制~~ → **解決（2026-09-07）**: 既存の個人ブランドアカウント（`@sasisi344`）とは切り離し、20hoursコース／シラバスハック専用の新規SNSアカウントを作成する方針で決定。運用の型は既存 [`sns-strategy.md`](../.task/SNS-post-schedule/sns-strategy.md) を踏襲しつつ専用アカウント向けに再設計（`week1-task.md`に反映済み）
 - [ ] **今月のスコープ増加への対応**: 当初「現行v6.5ベースの単一コース」を前提にしていたロードマップが、「2027年ベース・二層構成」に変わったことで作業ボリュームが増えている（Tier1の用語精選作業、scaffoldスクリプトの2027対応改修が新規に発生）。Tier2を来月に切り出したことである程度相殺されている想定だが、Week2〜3の進捗を見て再調整する
-- [ ] **noteマガジンの価格・巻数設計**: 部（大分類）単位か全26章一括か。来月Tier2着手時に判断（[`ip-course/ip-course-curriculum.md`](./ip-course/ip-course-curriculum.md) §4-3）
+- [ ] **noteマガジンの価格・巻数設計**: 部（大分類）単位か全26章一括か。来月Tier2着手時に判断（[`ip-course/ip-course-curriculum.md`](./archive/ip-course/ip-course-curriculum.md) §4-3）
 - [ ] **メールゲートの実装方式**: フォーム送信先（自前DB／外部フォームサービス／note連携）は来月Tier2着手時に確定
 - [ ] **ExamField型の2027対応タイミング**: 今月は現状維持と決めたが、他の判断待ちタスク（`.workspace/.task/TODO.md` 内の既存判断待ち事項）と優先度がぶつかった場合の調整が必要
 - [ ] 既存CBT型コンテンツとの内部リンク導線設計（20hoursパイロットとの回遊性）は、公開後の実データを見て追加調整する前提

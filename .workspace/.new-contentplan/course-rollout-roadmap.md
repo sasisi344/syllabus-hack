@@ -32,7 +32,7 @@ tags:
 | 基本情報技術者（`fe`） | 移行（2027年春〜新制度） | **未取得**。`syllabus-fe.json`（v6.5相当）のみ存在 | SGと同様の調査が必要 |
 | 応用情報技術者（`ap`） | 2027年夏〜秋、高度試験と合わせて大括り再編 | `syllabus-ap.json`（v6.5相当）のみ存在 | 再編時期がSG/FEより遅く、再編内容も未確定な部分が多いため優先度は下がる |
 | 高度試験各区分（SC・NW・PM・DB・ES・SA・ST・SM・AU） | 2027年夏〜秋、DM/PD新設と合わせて大括り再編 | SCのみ`syllabus-sc-2027.json`取得済み。他（NW/PM/DB/ES/SA/ST/SM/AU）は`syllabus-{examId}.json`（v6.5相当）のみ | 高度試験は受験者層・分量的にTier1（20h）との相性を個別に検討する必要あり（現行v6.5どおりで良いか、大括り再編を待つか） |
-| データマネジメント試験（`dm`、新設） | 2027年夏〜秋、新設 | `syllabus-dm-2027.json`取得・構造化済み | **2026-09-17着手決定・examId登録済み**。20時間コース化の方針は[`dm-course/dm-course-task.md`](./dm-course/dm-course-task.md)参照 |
+| データマネジメント試験（`dm`、新設） | 2027年夏〜秋、新設 | `syllabus-dm-2027.json`取得・構造化済み | **2026-09-17着手決定・examId登録済み**。20時間コース化の方針は[`dm-course/dm-course-task.md`](./archive/dm-course/dm-course-task.md)参照 |
 | プロフェッショナルデジタルスキル試験（`pd-m`/`pd-s`、新設・3区分） | 2027年夏〜秋、新設 | `syllabus-pd-m-2027.json`・`syllabus-pd-s-2027.json`取得・構造化済み | **2026-09-19着手決定・examId登録済み**。20時間コース化の方針は[`pd-course/pd-course-task.md`](./pd-course/pd-course-task.md)参照 |
 
 ## 3. 次の一歩（SG着手時にやること）

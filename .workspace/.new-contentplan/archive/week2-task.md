@@ -9,7 +9,7 @@ tags:
 
 # Week2タスク（9/13〜9/19）: パイロットカリキュラム制作
 
-> 全体像は [`new-content-plan.md`](./new-content-plan.md) を参照。前提: Week1で確定した「Tier1/Tier2二層カリキュラム（[`ip-course/ip-course-curriculum.md`](./ip-course/ip-course-curriculum.md)）」「`syllabus-ip-2027.json`」を使用する（[`week1-task.md`](./week1-task.md)）。
+> 全体像は [`new-content-plan.md`](../new-content-plan.md) を参照。前提: Week1で確定した「Tier1/Tier2二層カリキュラム（[`ip-course/ip-course-curriculum.md`](./ip-course/ip-course-curriculum.md)）」「`syllabus-ip-2027.json`」を使用する（[`week1-task.md`](./week1-task.md)）。
 >
 > **2026-09-07更新**: 「全819語を20hでアウトプットするのは非現実的」という考察の結果、Tier1（無料20h・精選版）の章立ては8章に確定済み（[`ip-course-curriculum.md`](./ip-course/ip-course-curriculum.md) §3-2）。本Weekのタスクは「章立てを決める」から「決まった8章に用語を精選して流し込む」に変わった。
 

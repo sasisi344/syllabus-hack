@@ -4,13 +4,13 @@ TODO.mdから退避。詳細・背景は各正本ファイル参照。
 
 ## 1. §0 Week3（courseコレクション実装・Web公開）— 完全完了
 
-正本: [`week3-task.md`](../../.new-contentplan/week3-task.md)
+正本: [`week3-task.md`](../../.new-contentplan/archive/week3-task.md)
 
 - [x] Astro新テンプレート実装（TOP→章一覧→章ページの2階層） → 2026-09-09前倒し完了
 - [x] 章末チェック用UIコンポーネント実装（一括採点方式） → 2026-09-09前倒し完了
 - [x] ITパスポート20hoursパイロット（Tier1・8章）無料公開・相互リンク → 2026-09-09前倒し完了
 - [x] サイト構成見直し（ナビ・トップページの`course`導線設計、`cert-hubs.ts`への`courseHref?`追加） → 2026-09-09前倒し完了
-- [x] 新規コンテンツ（course系）が既存記事の内部リンク・クロール予算を圧迫していないか確認 → **2026-09-19完了**。DMコースの内部リンク19件を静的検証しリンク切れ・カニバリなしを確認（詳細は[`dm-course/dm-course-task.md`](../../.new-contentplan/dm-course/dm-course-task.md) §4）。§1の同一項目もあわせてクローズ
+- [x] 新規コンテンツ（course系）が既存記事の内部リンク・クロール予算を圧迫していないか確認 → **2026-09-19完了**。DMコースの内部リンク19件を静的検証しリンク切れ・カニバリなしを確認（詳細は[`dm-course/dm-course-task.md`](../../.new-contentplan/archive/dm-course/dm-course-task.md) §4）。§1の同一項目もあわせてクローズ
 
 ## 2. §1 既存記事の統廃合 — 該当項目クローズ
 
@@ -18,7 +18,7 @@ TODO.mdから退避。詳細・背景は各正本ファイル参照。
 
 ## 3. DMコース公開前の最終調整（§4） — 完全完了
 
-正本: [`dm-course/dm-course-task.md`](../../.new-contentplan/dm-course/dm-course-task.md) §4
+正本: [`dm-course/dm-course-task.md`](../../.new-contentplan/archive/dm-course/dm-course-task.md) §4
 
 - [x] 全8章＋indexの誤字・表現チェック → 問題なし
 - [x] 他記事からの誤リンク・カニバリ確認 → 問題なし（DM言及の既存4記事は`/course/dm/`への導線が未接続なだけで、内部リンク強化の追加候補として記録）

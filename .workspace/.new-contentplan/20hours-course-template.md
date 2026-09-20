@@ -9,7 +9,7 @@ tags:
 
 # 20時間コース 共通テンプレート
 
-> 20hours学習法をどの資格にも同じ型で展開するための共通仕様。第1号の適用例は [`ip-course/ip-course-curriculum.md`](./ip-course/ip-course-curriculum.md)。実装スキーマは [`structure-migration-plan.md`](./structure-migration-plan.md) §4-1。
+> 20hours学習法をどの資格にも同じ型で展開するための共通仕様。第1号の適用例は [`ip-course/ip-course-curriculum.md`](./archive/ip-course/ip-course-curriculum.md)。実装スキーマは [`structure-migration-plan.md`](./structure-migration-plan.md) §4-1。
 
 ---
 
@@ -31,7 +31,7 @@ tags:
 
 - Tier1（本テンプレートの対象）: シラバス全体を網羅しない。ジャンルごとに高価値な用語を精選し、20時間に収める
 - Tier2（有料note・合格テキスト）: シラバスの中分類を1:1でフルカバーする別コンテンツ。本テンプレートの対象外（章立て原理が異なるため、Tier2用のテンプレートは別途必要になった場合に新設する）
-- 新しい資格へ展開する際は、**Tier1だけを作るのか、Tier2も並行して企画するのか**を最初に決める（§7 手順1に追加）。詳細な二層設計の実例は [`ip-course/ip-course-curriculum.md`](./ip-course/ip-course-curriculum.md) を参照
+- 新しい資格へ展開する際は、**Tier1だけを作るのか、Tier2も並行して企画するのか**を最初に決める（§7 手順1に追加）。詳細な二層設計の実例は [`ip-course/ip-course-curriculum.md`](./archive/ip-course/ip-course-curriculum.md) を参照
 
 ---
 
@@ -111,7 +111,7 @@ tags:
 - 用語リストはシラバスのキーワードを**原文どおり**に載せる（表記ゆれを作らない）
 - 1段落1〜2文。bold（本番は `<strong>`）は1段落1〜2個まで
 - 数式が必要な資格は KaTeX（`$...$`インライン／`$$...$$`ブロック）。ITパスポートでは原則使わない
-  - **導入済み（2026-09-07 PoC完了）**: `astro.config.ts` に `remark-math`/`rehype-katex` を追加済み。数式を使う章ページでは `import KatexStyles from '~/components/common/KatexStyles.astro'` を追加し `<KatexStyles />` を配置するだけでよい（CSSは該当ページにのみスコープされ、他ページへの影響はゼロ。検証結果は [`week1-task.md`](./week1-task.md) 参照）
+  - **導入済み（2026-09-07 PoC完了）**: `astro.config.ts` に `remark-math`/`rehype-katex` を追加済み。数式を使う章ページでは `import KatexStyles from '~/components/common/KatexStyles.astro'` を追加し `<KatexStyles />` を配置するだけでよい（CSSは該当ページにのみスコープされ、他ページへの影響はゼロ。検証結果は [`week1-task.md`](./archive/week1-task.md) 参照）
 - 既存記事へのリンクはルート相対（`/theory/xxx/`）
 
 ## 4. 問題データの規約
@@ -165,11 +165,11 @@ metadata:
 
 ## 7. 新しい資格へ展開する手順
 
-1. **Tier1のみか、Tier2（有料note）も並行企画するかを決める**（§0-1）。Tier1のみなら以下の手順2〜9をそのまま実行、Tier2も作る場合はシラバスの中分類をそのまま章立てに使う設計を別途行う（[`ip-course/ip-course-curriculum.md`](./ip-course/ip-course-curriculum.md) §4を参考にする）
+1. **Tier1のみか、Tier2（有料note）も並行企画するかを決める**（§0-1）。Tier1のみなら以下の手順2〜9をそのまま実行、Tier2も作る場合はシラバスの中分類をそのまま章立てに使う設計を別途行う（[`ip-course/ip-course-curriculum.md`](./archive/ip-course/ip-course-curriculum.md) §4を参考にする）
 2. `syllabus-{examId}.json` の中分類とキーワード数を実測する（`node -e` で集計）
 3. ジャンル別に6〜8章へ再編し、章⇔中分類の対応表を作る
 4. 出題比率から時間配分を決め、合計20hに揃える
-5. **Tier1は精選が前提**。全キーワードを章に割り当てるのではなく、高価値な用語（既存theory記事の有無・出題実績・トレンド性を基準に）を4〜5割程度に絞り込む（[`ip-course/ip-course-curriculum.md`](./ip-course/ip-course-curriculum.md) §3-3の基準を流用可）
+5. **Tier1は精選が前提**。全キーワードを章に割り当てるのではなく、高価値な用語（既存theory記事の有無・出題実績・トレンド性を基準に）を4〜5割程度に絞り込む（[`ip-course/ip-course-curriculum.md`](./archive/ip-course/ip-course-curriculum.md) §3-3の基準を流用可）
 6. 既存記事（theory中心）を章に割り当て、新規要約が必要な節を洗い出す
 7. `ip-course/ip-course-curriculum.md` と同じ構成で `{examId}-course/{examId}-course-curriculum.md` を書く（コースごとにフォルダを分ける）
 8. 章ドラフト骨組みを生成（`.workspace/scripts/scaffold-course.cjs {examId}` — ITパスポート版を汎用化して使う）。生成時に §0 の注意書き（フル文言・圧縮版）を各ファイルへ自動挿入する。§3-1の定型文（AIで学ぶ・章末チェックの冒頭1文、この章のまとめ）は内容が章ごとに固有なため自動挿入せず、次の本文執筆ステップで手動で書く

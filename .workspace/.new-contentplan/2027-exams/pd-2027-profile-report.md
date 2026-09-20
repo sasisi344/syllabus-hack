@@ -10,7 +10,7 @@ tags:
 
 # プロフェッショナルデジタルスキル試験（PD-M／PD-S）2027年新設シラバス プロファイル分析
 
-> ITパスポート2027年シラバス分析（[`../ip-course/2027-syllabus-diff.md`](../ip-course/2027-syllabus-diff.md)）と同じ手法を、完全新設の「プロフェッショナルデジタルスキル（マネジメント）試験（仮称）」（PD-M）と「プロフェッショナルデジタルスキル（システム）試験（仮称）」（PD-S）に適用したもの。両試験とも旧シラバスが存在しないため、本レポートは「差分」ではなく「新設試験のプロファイル分析」＋「PD-M/PD-S間の比較」で構成する。
+> ITパスポート2027年シラバス分析（[`../ip-course/2027-syllabus-diff.md`](../archive/ip-course/2027-syllabus-diff.md)）と同じ手法を、完全新設の「プロフェッショナルデジタルスキル（マネジメント）試験（仮称）」（PD-M）と「プロフェッショナルデジタルスキル（システム）試験（仮称）」（PD-S）に適用したもの。両試験とも旧シラバスが存在しないため、本レポートは「差分」ではなく「新設試験のプロファイル分析」＋「PD-M/PD-S間の比較」で構成する。
 >
 > 正本データ: `src/data/master/syllabus-pd-m-2027.json`、`src/data/master/syllabus-pd-s-2027.json`
 > 元PDF: `.workspace/syllabus-data-pdf/PD-M/`、`.workspace/syllabus-data-pdf/PD-S/`（Ver.0.2、いずれも「変更する可能性がある」旨の注記あり）

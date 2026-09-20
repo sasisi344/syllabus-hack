@@ -42,7 +42,7 @@ DM同様、以下の手順で着手時にカリキュラムを設計する（`20
 
 ## 2-1. 次のアクション（未着手・実装フェーズ）
 
-DMコース（[`../dm-course/dm-course-task.md`](../dm-course/dm-course-task.md)）と同じ手順で、PD-M→PD-Sの順に実施する。
+DMコース（[`../dm-course/dm-course-task.md`](../archive/dm-course/dm-course-task.md)）と同じ手順で、PD-M→PD-Sの順に実施する。
 
 - [ ] PD-Mカリキュラム設計（§2）
 - [ ] `scaffold-course.cjs`の`COURSES`に`pd-m`を追加し、章ドラフト骨組みを生成

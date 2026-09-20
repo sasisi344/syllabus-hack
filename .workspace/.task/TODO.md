@@ -20,27 +20,27 @@
 | Week1 | 9/6〜9/12 | **完了** | テンプレート仕様確定・2027年シラバスJSON化（IP/SC/DM/PD-M/PD-S）・KaTeX PoC・`scaffold-course.cjs` の2027データ対応改修・SNS(Threads)/noteアカウント開設まで完了（詳細は `archive/completed-2026-09-09.md`） |
 | Week2 | 9/13〜9/19 | **完了（前倒し）** | 用語精選・8章本文執筆・診断テスト・カリキュラムマップ修正・章末チェック問題（全8章31問）まで完了（詳細は `archive/completed-2026-09-09.md`） |
 | Week3 | 9/20〜9/26 | **完了** | courseコレクション実装・章末チェックUI・Tier1公開・導線付け替え・内部リンク確認まで全完了（詳細は `archive/completed-2026-09-19.md`） |
-| Week4 | 9/27〜10/3 | 進行中 | 計測・振り返り・次月準備（下記チェックリスト） |
+| Week4 | 9/27〜10/3 | **完了** | 計測・振り返り・次月準備（下記チェックリスト。IP/SG/DMコース実装完了に伴い2026-09-20アーカイブ） |
 
 ### Week3（9/20〜9/26）: 実装・Web公開 — 完了
 
-> 正本: [`week3-task.md`](../.new-contentplan/week3-task.md)。全項目完了、詳細は `archive/completed-2026-09-19.md` 参照（メールゲート・noteマガジンは来月スコープのため対象外）
+> 正本: [`archive/week3-task.md`](../.new-contentplan/archive/week3-task.md)。全項目完了、詳細は `archive/completed-2026-09-19.md` 参照（メールゲート・noteマガジンは来月スコープのため対象外）
 
-### Week4（9/27〜10/3）: 計測・振り返り・次月準備
+### Week4（9/27〜10/3）: 計測・振り返り・次月準備 — 完了
 
-> 正本: [`week4-task.md`](../.new-contentplan/week4-task.md)。ゴール: 今月の施策（Tier1公開・サイト新構成）の反応を計測し、来月（Tier2着手・比重配分）の判断材料を揃える
+> 正本: [`archive/week4-task.md`](../.new-contentplan/archive/week4-task.md)。IP/SG/DMコース実装完了に伴い、week1〜4タスクファイルおよびip-course/sg-course/dm-course関連ファイルは2026-09-20付で`.workspace/.new-contentplan/archive/`へ移動済み
 
-- [ ] **GA4/GSCで新セクション（`/course/`）のPV・回遊率の計測を開始（効果測定 第1段階）**: IP/SG/DMの3コースが2026-09-19に出揃って本番公開済み。**次回の週次PDCA（`/weekly-report`、来週実行分）のDo/Checkに必ず含めること**。見るべき指標: `/course/`配下（`/course/ip/`・`/course/sg/`・`/course/dm/`）のGSC表示回数・クリック数・掲載順位、GA4のセッション数・エンゲージメント率。公開直後のため絶対数は小さい想定（母数の小ささを断定材料にしない）。既存`itp-hub`・`advanced-ipa-hub`からの導線経由の遷移も確認する
+- [x] **GA4/GSCで新セクション（`/course/`）のPV・回遊率の計測を開始（効果測定 第1段階）**: w39週報（[`.task/w39-weekly-task.md`](w39-weekly-task.md)）で計測開始。DMコースの章送りがGA4上で同一ランディングURLに集約され回遊率を正確に計測できない問題を発見（実装確認が必要、詳細は同週報Act参照）
 - [x] 4本目・5本目パイロットテーマ: **プロフェッショナルデジタルスキル（マネジメント/システム）試験（PD-M/PD-S）に確定**（2026-09-19決定）。DMに続きIPAグループを優先完走させる方針で、着手順はPD-M→PD-S。要件提議を作成 → [`pd-course/pd-course-task.md`](../.new-contentplan/pd-course/pd-course-task.md)。カリキュラム設計・実装は未着手（次のアクションは同ファイル§2-1参照）
 - [x] 2本目パイロットテーマ: **情報セキュリティマネジメント（SG）** → 2026-09-15公開完了
-- [x] 3本目パイロットテーマ: **データマネジメント試験（DM）に確定**（2026-09-17決定）。カリキュラム設計（章立て・用語マッピング）まで完了 → [`dm-course/dm-course-curriculum.md`](../.new-contentplan/dm-course/dm-course-curriculum.md)。8章＋診断＋総復習＝20時間、DM独自の深掘り分野（データガバナンス・品質管理）を第1〜2章に厚く配置、統計手法（第4章）はKaTeXで計算例題を多めに配置する方針
+- [x] 3本目パイロットテーマ: **データマネジメント試験（DM）に確定**（2026-09-17決定）。カリキュラム設計（章立て・用語マッピング）まで完了 → [`archive/dm-course/dm-course-curriculum.md`](../.new-contentplan/archive/dm-course/dm-course-curriculum.md)。8章＋診断＋総復習＝20時間、DM独自の深掘り分野（データガバナンス・品質管理）を第1〜2章に厚く配置、統計手法（第4章）はKaTeXで計算例題を多めに配置する方針
 - [x] `scaffold-course.cjs`に`dm`を追加し、章ドラフト骨組みを`.workspace/draft/course/dm/`に生成 → 2026-09-17完了（index+8章。語数37/30/41/27/26/14/12＋技能4大項目、カリキュラム設計と完全一致）
 - [x] DMコース本文執筆フェーズ → 2026-09-18完了。全8章＋index＋診断テスト（10問）＋総復習（20問）を`src/data/course/dm/`・`src/data/quiz/dm/`に本番配置（`draft: false`で公開済み）。第1〜2章はDM独自の深掘り分野として書き下ろし比率を最も高くし、第4章は標準偏差・相関係数・回帰係数の計算例題をKaTeXで実装。第8章は新卒1年目「高橋さん」×トレーナー役「佐藤さん」のケーススタディ（食品通販会社「サンプルフーズ株式会社」）で技能4グループ16項目を網羅。`method/itp-hub`・`method/advanced-ipa-hub`からの導線接続も完了。`cert-hubs.ts`への`courseHref`追加は、DM専用Hub記事が未整備のため見送り（単独Hub化の判断とあわせて実施）
   - [x] 公開前の最終調整（誤字チェック・内部リンク検証・本番ビルド確認・スマホ幅レイアウト確認等）→ **2026-09-19完了**。KaTeX数式のスマホ横スクロールバグとコース全体（IP/SG/DM）の「AIで学ぶ」プロンプト折り返しバグを発見・修正、コース共通サムネイル新規実装、`/course/`に制作手順紹介セクションを追加。詳細は `archive/completed-2026-09-19.md` §3参照
-  - 詳細・進捗管理は[`dm-course/dm-course-task.md`](../.new-contentplan/dm-course/dm-course-task.md) §2-1参照
-- [ ] 今月の振り返り: CBT型と20hours型の制作比重をどう調整するか判断材料をまとめる
-- [ ] trend記事「IPA 2027年試験制度改訂」の公開状況を確認・未着手なら来月に繰越（`new-content-plan.md` §2参照）
-- [ ] 来月着手するTier2（有料note・合格テキスト）の準備確認: noteアカウント開設・価格帯・巻数設計（[`ip-course-curriculum.md`](../.new-contentplan/ip-course/ip-course-curriculum.md) §4）の検討再開、メールゲート実装方式の確定
+  - 詳細・進捗管理は[`archive/dm-course/dm-course-task.md`](../.new-contentplan/archive/dm-course/dm-course-task.md) §2-1参照
+- [x] 今月の振り返り: CBT型と20hours型の制作比重をどう調整するか判断材料をまとめる（2026-09-20、w39データより）。コースは公開直後でGoogle上ほぼ未露出、既存CBT型アプリは既にオーガニック流入ありのため、比重の最終判断は最低1ヶ月の蓄積を待って再検討する方針（詳細: `archive/week4-task.md`）
+- [x] trend記事「IPA 2027年試験制度改訂」の公開状況を確認 → `ipa-2027-restructuring`として公開済み（2026-04-11）を確認、繰越不要
+- [ ] 来月着手するTier2（有料note・合格テキスト）の準備確認: noteアカウント開設・価格帯・巻数設計（[`ip-course-curriculum.md`](../.new-contentplan/archive/ip-course/ip-course-curriculum.md) §4）の検討再開、メールゲート実装方式の確定
 
 ---
 

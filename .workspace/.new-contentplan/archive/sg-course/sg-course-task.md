@@ -10,7 +10,7 @@ tags:
 
 # SG（情報セキュリティマネジメント）20時間コース タスク
 
-> 全体ロードマップ: [`../course-rollout-roadmap.md`](../course-rollout-roadmap.md)（2026-09-09、ITパスポート→SGの順で着手が確定）。ITパスポートの実装詳細は[`../ip-course/ip-course-curriculum.md`](../ip-course/ip-course-curriculum.md)を参照。本ファイルはSG着手にあたって2026-09-15に固めた方針と、20時間コース実装の進捗管理。
+> 全体ロードマップ: [`../course-rollout-roadmap.md`](../../course-rollout-roadmap.md)（2026-09-09、ITパスポート→SGの順で着手が確定）。ITパスポートの実装詳細は[`../ip-course/ip-course-curriculum.md`](../ip-course/ip-course-curriculum.md)を参照。本ファイルはSG着手にあたって2026-09-15に固めた方針と、20時間コース実装の進捗管理。
 
 ## 0. 決定事項（2026-09-15）
 

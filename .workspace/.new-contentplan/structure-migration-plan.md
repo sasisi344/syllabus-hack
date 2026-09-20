@@ -182,7 +182,7 @@ const courseCollection = defineCollection({
 | 0-1 | 2027年案シラバス（ITパスポート）を取得し構造化 | `src/data/master/syllabus-ip-2027.json`、`.workspace/data-set/ip-syllabus-2027-mapping.md`（旧9大分類→新3区分の対応表） | **G8の解消が最優先**。未公開部分は `_inbox` メモの区分説明で暫定マッピング |
 | 0-2 | 章立て確定（§3-3 を叩き台に6章） | 章⇔既存theory記事の対応表 | 章本文は「要約＋theoryへのリンク」で、theory とのカニバリを構造的に回避する |
 | 0-3 | `course` コレクションのスキーマ確定 | `config.ts` 差分案 | §4-1 |
-| 0-4 | KaTeX PoC | ~~`remark-math` + `rehype-katex` を `astro.config.ts` の `markdown` に追加、`katex.min.css` は CourseLayout でのみ読み込み~~ → **完了（2026-09-07）**。`src/components/common/KatexStyles.astro` を新設し、CourseLayout実装前でも個別ページからimportしてスコープCSSを検証できる形にした | ビルド時間+1.66s（誤差範囲）、全ページ共通CSSはバイト単位で不変を確認。詳細は [`week1-task.md`](./week1-task.md) |
+| 0-4 | KaTeX PoC | ~~`remark-math` + `rehype-katex` を `astro.config.ts` の `markdown` に追加、`katex.min.css` は CourseLayout でのみ読み込み~~ → **完了（2026-09-07）**。`src/components/common/KatexStyles.astro` を新設し、CourseLayout実装前でも個別ページからimportしてスコープCSSを検証できる形にした | ビルド時間+1.66s（誤差範囲）、全ページ共通CSSはバイト単位で不変を確認。詳細は [`week1-task.md`](./archive/week1-task.md) |
 | 0-5 | メールゲート方式の決定 | 判断メモ | 静的サイトのため候補は (a) Google Forms＋localStorage フラグ（最小・リストはスプレッドシート）(b) 外部フォームSaaS（Formspree等）(c) 自前API（不可: サーバレス無し）。**推奨 (a) で開始** |
 
 ### Phase 1 — コンテンツ制作（Week2）

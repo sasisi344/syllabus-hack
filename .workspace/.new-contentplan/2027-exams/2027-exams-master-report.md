@@ -15,7 +15,7 @@ tags:
 
 | 試験 | 構造化データ | 分析レポート |
 | --- | --- | --- |
-| IP（ITパスポート） | `src/data/master/syllabus-ip-2027.json` | [`../ip-course/2027-syllabus-diff.md`](../ip-course/2027-syllabus-diff.md) |
+| IP（ITパスポート） | `src/data/master/syllabus-ip-2027.json` | [`../ip-course/2027-syllabus-diff.md`](../archive/ip-course/2027-syllabus-diff.md) |
 | SC（情報処理安全確保支援士） | `src/data/master/syllabus-sc-2027.json` | [`sc-2027-diff-report.md`](./sc-2027-diff-report.md) |
 | DM（データマネジメント・新設） | `src/data/master/syllabus-dm-2027.json` | [`dm-2027-profile-report.md`](./dm-2027-profile-report.md) |
 | PD-M/PD-S（プロフェッショナルデジタルスキル・新設） | `src/data/master/syllabus-pd-m-2027.json` / `-pd-s-2027.json` | [`pd-2027-profile-report.md`](./pd-2027-profile-report.md) |
@@ -95,7 +95,7 @@ PD-M/PD-Sは応用情報技術者試験＋既存高度試験区分（NW/DB/PM/ST
 
 | 優先度 | 施策 | 理由 |
 | --- | --- | --- |
-| **今月中（trend記事レベル）** | 「IPA 2027年試験制度改訂」trend記事1本（既存タスク、[`week4-task.md`](../week4-task.md)） | 制度変更の告知は早いほど検索優位。IP・SC・DM・PD全体を俯瞰する記事にできる |
+| **今月中（trend記事レベル）** | 「IPA 2027年試験制度改訂」trend記事1本（既存タスク、[`week4-task.md`](../archive/week4-task.md)） | 制度変更の告知は早いほど検索優位。IP・SC・DM・PD全体を俯瞰する記事にできる |
 | 来月以降・優先度高 | SC関連method記事: 「生成AI時代のセキュリティ脅威」系（プロンプトインジェクション等） | 競合が薄い最新技術領域。`method/advanced-ipa-hub`からの導線あり |
 | 来月以降・優先度中 | DM「データマネジメント試験とは」trend記事＋`itp-hub`からの導線 | 新設試験の早期認知獲得。ITパスポート合格者の次のステップとして自然 |
 | 来月以降・優先度中 | PD-S「AI駆動開発」method記事（バイブコーディング等） | 現行試験に存在しない独自領域。生成AI軸との親和性が高い |

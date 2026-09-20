@@ -43,7 +43,7 @@
 
 ## 旧§0 Week2: パイロットカリキュラム制作 — 全項目完了
 
-> 正本（詳細・背景思想）: [`../../.new-contentplan/week2-task.md`](../../.new-contentplan/week2-task.md)。前提となる二層カリキュラム設計は [`../../.new-contentplan/ip-course/ip-course-curriculum.md`](../../.new-contentplan/ip-course/ip-course-curriculum.md)。
+> 正本（詳細・背景思想）: [`../../.new-contentplan/week2-task.md`](../../.new-contentplan/archive/week2-task.md)。前提となる二層カリキュラム設計は [`../../.new-contentplan/ip-course/ip-course-curriculum.md`](../../.new-contentplan/archive/ip-course/ip-course-curriculum.md)。
 
 - [x] Tier1各章の用語精選（元語数155/144/70/29/110/64/90/157語 → 約4割に絞り込み） → **2026-09-09完了**。`.workspace/draft/course/ip/0{1-8}-*.md`に反映（合計約210語）。第3章（DX変革）のみ既存theory記事の受け皿が無く全語新規判断
 - [x] ITパスポート診断テスト（10問前後）を作成 → **2026-09-09完了**。8章から1〜2問ずつの4択10問（選択肢・正解付き）
@@ -55,7 +55,7 @@
 
 ## 旧§Week1派生: SNS（Threads）・noteアカウント開設
 
-> 正本: [`../../.new-contentplan/week1-task.md`](../../.new-contentplan/week1-task.md)（該当タスク）
+> 正本: [`../../.new-contentplan/week1-task.md`](../../.new-contentplan/archive/week1-task.md)（該当タスク）
 
 - [x] noteアカウントのハンドル確保 → **2026-09-09完了**。ハンドル`syllabushack`で開設。事前にnote/X/Threadsの候補ハンドル全件の空き状況を確認済み
 - [x] 20hoursコース／シラバスハック専用のSNSアカウントを新規作成（既存個人ブランド`@sasisi344`とは分離） → **2026-09-09完了**。Threadsアカウントを開設
