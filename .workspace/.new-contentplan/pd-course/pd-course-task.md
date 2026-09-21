@@ -30,26 +30,43 @@ tags:
 - PD-S: 大分類4・中分類9・キーワード817語・技能グループ4／技能項目15
 - 詳細な構造比較・テーマ整理は[`pd-2027-profile-report.md`](../2027-exams/pd-2027-profile-report.md) §2〜3参照
 
-## 2. 20時間コース設計（未着手）
+## 2. 20時間コース設計
 
-DM同様、以下の手順で着手時にカリキュラムを設計する（`20hours-course-template.md` §7 手順2〜7準拠）。
+DM同様の手順でカリキュラムを設計する（`20hours-course-template.md` §7 手順2〜7準拠）。
 
-- [ ] PD-Mの中分類8個・599語を8章（またはそれ以下、統合可）に再編し、章⇔中分類の対応表を作る
+- [x] PD-Mの中分類8個・599語を8章に再編し、章⇔中分類の対応表を作成 → 2026-09-22完了。中分類12（ガバナンス・監査）と28（ビジネス関連法規）を1章に統合し、技能（科目B）専用のケーススタディ章を第8章として確保する方針で確定。詳細は[`pd-m-course-curriculum.md`](./pd-m-course-curriculum.md)
 - [ ] PD-Sの中分類9個・817語を8章に再編し、章⇔中分類の対応表を作る（中分類9個のため1つは統合が必要）
-- [ ] それぞれ既存theory記事との接続を確認する（DMの第1〜2章のように接続先がない領域があれば、書き下ろし比率を上げる）
-- [ ] `pd-m-course-curriculum.md`・`pd-s-course-curriculum.md`を作成
+- [x] PD-Mの既存theory記事との接続を確認 → 2026-09-22完了。経営戦略・DX戦略（第2章）は既存記事群との接続が厚い一方、ビジネス変革の方法論（第1章）・ガバナンス監査＋法規（第6章）は接続先がなく書き下ろし比率を上げる方針（`pd-m-course-curriculum.md` §4参照）
+- [ ] PD-Sの既存theory記事との接続を確認する（接続先がない領域があれば、書き下ろし比率を上げる）
+- [x] `pd-m-course-curriculum.md`を作成 → 2026-09-22完了
+- [ ] `pd-s-course-curriculum.md`を作成
 - [ ] Tier1のみで着手するか、Tier2（有料note）も並行企画するかを正式決定する（DM・SG同様「単層で様子見」を踏襲する想定だが、カリキュラム設計時に正式決定する）
 
-## 2-1. 次のアクション（未着手・実装フェーズ）
+## 2-1. 次のアクション（実装フェーズ）
 
 DMコース（[`../dm-course/dm-course-task.md`](../archive/dm-course/dm-course-task.md)）と同じ手順で、PD-M→PD-Sの順に実施する。
 
-- [ ] PD-Mカリキュラム設計（§2）
-- [ ] `scaffold-course.cjs`の`COURSES`に`pd-m`を追加し、章ドラフト骨組みを生成
-- [ ] PD-M全8章＋index本文執筆・本番配置
-- [ ] PD-M診断・章末チェック・総復習の問題作成（DM同様、公開過去問が存在しないためシラバス案からの書き下ろし）
-- [ ] `method/advanced-ipa-hub`のPD-Mスタブ（「対策記事は近日公開予定です」）をコースへのリンクに更新
-- [ ] PD-M公開前の最終調整（誤字・内部リンク・本番ビルド・スマホ幅レイアウト確認。DMの`dm-course-task.md` §4と同じチェックリストを流用）
+- [x] PD-Mカリキュラム設計（§2）→ 2026-09-22完了、詳細は[`pd-m-course-curriculum.md`](./pd-m-course-curriculum.md)
+- [x] `scaffold-course.cjs`の`COURSES`に`pd-m`を追加し、章ドラフト骨組みを生成 → 2026-09-22完了。`.workspace/draft/course/pd-m/`にindex+8章を生成（語数64/81/47/100/129/105/73＋技能4大項目、カリキュラム設計と一致）。あわせてスクリプト側の互換性バグ2件を修正: (1) pd-m/pd-sのJSONは`major_categories`ではなく`knowledge_major_categories`を使うため両対応に修正、(2) pd-m/pd-sの技能`items`は`{id,name,...}`オブジェクトではなく`"1-1.見出し文"`形式の文字列のため、正規化関数に文字列パース処理を追加（PD-S着手時にも必要な修正のため恒久対応済み）
+- [x] PD-M全8章＋index本文執筆・本番配置 → 2026-09-22完了
+  - [x] 第1章「ビジネス変革とイノベーションマネジメント」→ 2026-09-22執筆完了。`src/data/course/pd-m/01-business-transformation-innovation.mdx`（4節・全64語をほぼ網羅、レビン/コッター/ADKARの視点比較コラム付き）＋章末チェック5問（`src/data/quiz/pd-m/course-ch1.json`）。`pnpm astro check`でスキーマエラーなしを確認。他章・indexが未完成のため`draft: true`のまま（DM同様、8章＋index＋診断＋総復習が揃った時点で一括`draft: false`に切り替える方針）
+  - [x] 第2章「経営戦略とDX戦略」→ 2026-09-22執筆完了。`src/data/course/pd-m/02-strategy-dx.mdx`（5節・全81語を網羅。既存theory記事4本（SWOT分析・バリューチェーン分析・成長マトリクス・PPM）へのリンクで基礎フレームワークの再解説を回避し、DX経営・IT投資マネジメント・要件定義調達・エンタープライズアーキテクチャは書き下ろし。「システム戦略」と「システム企画」の階層関係を整理するコラム付き）＋章末チェック5問（`src/data/quiz/pd-m/course-ch2.json`）。`pnpm astro check`でスキーマエラーなしを確認。`draft: true`のまま
+  - [x] 第3章「ビジネスモデル設計とマーケティング戦略」→ 2026-09-22執筆完了。`src/data/course/pd-m/03-business-model-marketing.mdx`（5節・全47語を網羅。既存theory記事2本（BPR・BPM基礎、プロダクトライフサイクル、CRM・SCM）へのリンクで再解説を回避）＋章末チェック5問（`src/data/quiz/pd-m/course-ch3.json`）。`pnpm astro check`でスキーマエラーなしを確認。`draft: true`のまま
+  - [x] 第4章「ITサービスマネジメント」→ 2026-09-22執筆完了。`src/data/course/pd-m/04-service-management.mdx`（7節・全100語を網羅。既存theory記事「プロジェクト・サービスマネジメント概論」を導入部でリンクし、JIS Q 20000ベースで実務レベルまで深掘り。「変更管理」と「構成管理」の役割分担を整理するコラム付き）＋章末チェック5問（`src/data/quiz/pd-m/course-ch4.json`）。`pnpm astro check`でスキーマエラーなしを確認。`draft: true`のまま
+  - [x] 第5章「プロジェクトマネジメント」→ 2026-09-22執筆完了。`src/data/course/pd-m/05-project-management.mdx`（8節・全129語を網羅、シラバス中最大の章。既存theory記事「プロジェクト・サービスマネジメント概論」を導入部でリンク。「14のマネジメント対象×5フェーズの掛け算で用語が生まれる」という構造整理コラム付き）＋章末チェック5問（`src/data/quiz/pd-m/course-ch5.json`）。`pnpm astro check`でスキーマエラーなしを確認。`draft: true`のまま
+  - [x] 第6章「コーポレートガバナンスと監査・関連法規」→ 2026-09-22執筆完了。`src/data/course/pd-m/06-governance-audit-legal.mdx`（6節・全105語（ガバナンス監査54語＋ビジネス関連法規51語）を網羅。既存theory記事5本（コーポレートガバナンス・コンプライアンス・IT法務基礎・労働基準法36協定・労働者派遣法SES）にリンク。「内部統制」と「システム監査」の役割分担を整理するコラム付き）＋章末チェック5問
+  - [x] 第7章「情報セキュリティマネジメント（マネジメント層の要点）」→ 2026-09-22執筆完了。`src/data/course/pd-m/07-security-management.mdx`（5節・全73語を網羅しつつSGコースへのリンク誘導で重複を回避、マネジメント層の判断軸に絞った構成）＋章末チェック5問
+  - [x] 第8章「マネジメント実務ケーススタディ（技能）」→ 2026-09-22執筆完了。`src/data/course/pd-m/08-practice-casestudy.mdx`（技能4グループ15項目を、中堅製造業「サンプル製造株式会社」のDX推進室長・中村さんを主人公にしたケーススタディで網羅）＋章末チェック5問（ケーススタディ形式）
+  - [x] index.mdx・診断テスト（10問）・総復習（20問）を作成 → 2026-09-22完了。`src/data/course/pd-m/index.mdx`＋`src/data/quiz/pd-m/course-diagnosis.json`（10問）・`course-review.json`（20問）。SG/DMコースへの相互内部リンク、科目A-1非対象の明記、SG重複領域の棲み分け説明を含むFAQ付き
+  - [x] 全ファイルの`pnpm build`確認 → 2026-09-22完了。`draft: true`のまま1373ページでビルド成功を確認後、全8章＋indexを一括で`draft: false`に切り替えて再ビルド、1382ページ（+9＝8章＋index）でエラーなくビルド成功。`dist/course/pd-m/`に全ページ出力を確認済み。**PD-Mコース本文執筆フェーズ完了・本番公開済み**
+- [x] PD-M診断・章末チェック・総復習の問題作成 → 2026-09-22完了（章末チェック8章分×5問、診断10問、総復習20問。すべてシラバス案のキーワード・技能例からの書き下ろし）
+- [x] `method/advanced-ipa-hub`のPD-Mスタブ（「対策記事は近日公開予定です」）をコースへのリンクに更新 → 2026-09-22完了。DM同様の記載パターンで、本文中の解説段落と§末尾リストの2箇所を`/course/pd-m/`へのリンクに更新、`lastmod`を当日日付に更新。`pnpm astro check`でエラーなしを確認
+- [x] PD-M公開前の最終調整 → 2026-09-22完了。DM同様の`dm-course-task.md` §4チェックリストを流用し全項目実施
+  - [x] 全8章＋indexの誤字・プレースホルダー残骸チェック → `undefined`・`TODO`・スキャフォールドの雛形文言の残存なし、章間ナビ・chapterOrder・quizRefの整合性も1〜8で一致を確認
+  - [x] 本文中の内部リンク17件（theory記事14件・course記事3件）をすべて実ファイル存在チェック → リンク切れなし
+  - [x] 他記事からのカニバリ確認 → PD言及記事4本（`career/ipa-new-exam-target-guide`・`method/new-ipa-exam-study-strategy`・`trend/ipa-2027-restructuring`・`trend/syllabus-ai-knowledge-introduction`）は一般的な「PD試験」言及のみで`/course/pd-m/`への導線が未接続なだけ、カニバリは無し（DM同様、内部リンク強化の追加候補として記録のみ）
+  - [x] `pnpm build`（本番ビルド）→ 1382ページ生成・0エラー（前回完了分の再確認）
+  - [x] スマホ幅（375px）でのレイアウト確認 → `astro preview`でindex・第5章（用語数最大）・第6章（用語数2番目に多い）・第8章（ケーススタディ＋章末チェック）を実機幅で確認。横スクロール発生なし（`scrollWidth - clientWidth = 0`）、DM対応済みのKaTeX/コードブロック折り返し修正（`CourseLayout.astro`）がPD-Mにも正しく適用されていることを確認。章末チェック・診断テストのクイズ島も正常にハイドレート・クリック操作可能なことを確認
 - [ ] （PD-M完了後）PD-Sカリキュラム設計〜公開まで同じ手順を繰り返す
 
 ## 3. 保留・要判断事項

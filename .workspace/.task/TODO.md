@@ -31,7 +31,7 @@
 > 正本: [`archive/week4-task.md`](../.new-contentplan/archive/week4-task.md)。IP/SG/DMコース実装完了に伴い、week1〜4タスクファイルおよびip-course/sg-course/dm-course関連ファイルは2026-09-20付で`.workspace/.new-contentplan/archive/`へ移動済み
 
 - [x] **GA4/GSCで新セクション（`/course/`）のPV・回遊率の計測を開始（効果測定 第1段階）**: w39週報（[`.task/w39-weekly-task.md`](w39-weekly-task.md)）で計測開始。DMコースの章送りがGA4上で同一ランディングURLに集約され回遊率を正確に計測できない問題を発見（実装確認が必要、詳細は同週報Act参照）
-- [x] 4本目・5本目パイロットテーマ: **プロフェッショナルデジタルスキル（マネジメント/システム）試験（PD-M/PD-S）に確定**（2026-09-19決定）。DMに続きIPAグループを優先完走させる方針で、着手順はPD-M→PD-S。要件提議を作成 → [`pd-course/pd-course-task.md`](../.new-contentplan/pd-course/pd-course-task.md)。カリキュラム設計・実装は未着手（次のアクションは同ファイル§2-1参照）
+- [x] 4本目・5本目パイロットテーマ: **プロフェッショナルデジタルスキル（マネジメント/システム）試験（PD-M/PD-S）に確定**（2026-09-19決定）。DMに続きIPAグループを優先完走させる方針で、着手順はPD-M→PD-S。要件提議を作成 → [`pd-course/pd-course-task.md`](../.new-contentplan/pd-course/pd-course-task.md)。PD-Mコース（Tier1）は2026-09-22に本文執筆・本番公開まで完了。カリキュラム設計 → [`pd-course/pd-m-course-curriculum.md`](../.new-contentplan/pd-course/pd-m-course-curriculum.md)。全8章＋index＋診断テスト（10問）＋章末チェック（各5問）＋総復習（20問）を`src/data/course/pd-m/`・`src/data/quiz/pd-m/`に本番配置（`draft: false`）、`pnpm build`で1382ページのビルド成功を確認済み。残タスクは`method/advanced-ipa-hub`のPD-Mスタブ更新・誤字/内部リンク/スマホ幅の最終調整（詳細は`pd-course-task.md` §2-1参照）。次はPD-S（システム）のカリキュラム設計に着手
 - [x] 2本目パイロットテーマ: **情報セキュリティマネジメント（SG）** → 2026-09-15公開完了
 - [x] 3本目パイロットテーマ: **データマネジメント試験（DM）に確定**（2026-09-17決定）。カリキュラム設計（章立て・用語マッピング）まで完了 → [`archive/dm-course/dm-course-curriculum.md`](../.new-contentplan/archive/dm-course/dm-course-curriculum.md)。8章＋診断＋総復習＝20時間、DM独自の深掘り分野（データガバナンス・品質管理）を第1〜2章に厚く配置、統計手法（第4章）はKaTeXで計算例題を多めに配置する方針
 - [x] `scaffold-course.cjs`に`dm`を追加し、章ドラフト骨組みを`.workspace/draft/course/dm/`に生成 → 2026-09-17完了（index+8章。語数37/30/41/27/26/14/12＋技能4大項目、カリキュラム設計と完全一致）
