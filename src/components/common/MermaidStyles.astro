@@ -1,0 +1,60 @@
+---
+/**
+ * Mermaid図解のスタイルを読み込む。図解を使うページ（20hoursコースの技術系テーマ等）でのみ
+ * import し、CSSバンドルへの影響を該当ページに限定する。全ページ共通のLayoutには含めない。
+ * KatexStyles.astro と同じ方針（.workspace/scripts/scaffold-course.cjs / DMコースの数式実装を参照）。
+ */
+---
+
+<style is:global>
+  .mermaid-diagram {
+    margin: 1.5rem 0;
+    padding: 1rem;
+    border: 1px solid #e5e7eb;
+    border-radius: 0.75rem;
+    background: #ffffff;
+    /* スマホ幅で横長の図がページ全体を横スクロールさせないよう、図自体だけを横スクロール可能にする */
+    overflow-x: auto;
+  }
+
+  html.dark .mermaid-diagram {
+    border-color: #374151;
+    background: #1e293b;
+  }
+
+  .mermaid-diagram-canvas {
+    display: flex;
+    justify-content: center;
+    min-width: fit-content;
+  }
+
+  .mermaid-diagram-canvas svg {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .mermaid-diagram-caption {
+    margin-top: 0.75rem;
+    text-align: center;
+    font-size: 0.875rem;
+    color: #4b5563;
+  }
+
+  html.dark .mermaid-diagram-caption {
+    color: #9ca3af;
+  }
+
+  .mermaid-diagram-error {
+    padding: 1rem;
+    border: 1px solid #fca5a5;
+    border-radius: 0.5rem;
+    color: #b91c1c;
+    background: #fef2f2;
+  }
+
+  html.dark .mermaid-diagram-error {
+    border-color: #7f1d1d;
+    color: #fca5a5;
+    background: #1e293b;
+  }
+</style>

@@ -1,0 +1,242 @@
+[
+  {
+    "id": "review-1",
+    "chapterOrder": 1,
+    "text": "PD-MコースとPD-Sコースの「経営戦略・デジタル戦略」の扱いの違いを説明したものとして、最も適切なものはどれか。",
+    "choices": [
+      { "label": "ア", "text": "PD-Mは戦略選定そのもの、PD-Sはその戦略をシステム要件へ翻訳する実装視点を扱う" },
+      { "label": "イ", "text": "PD-MとPD-Sは全く同じ内容を扱う重複科目である" },
+      { "label": "ウ", "text": "PD-Sが戦略選定、PD-Mが要件定義・調達契約を扱う" },
+      { "label": "エ", "text": "PD-Mは技術者向け、PD-Sは経営層向けの試験である" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "review-2",
+    "chapterOrder": 1,
+    "text": "必要なものを必要なときに必要な分だけ作る生産方式の考え方はどれか。",
+    "choices": [
+      { "label": "ア", "text": "JIT（ジャストインタイム）" },
+      { "label": "イ", "text": "資材所要量計画（MRP）" },
+      { "label": "ウ", "text": "フレキシブル生産システム（FMS）" },
+      { "label": "エ", "text": "MES（Manufacturing Execution System）" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "review-3",
+    "chapterOrder": 2,
+    "text": "各ノードが専用のリソース（メモリ・ストレージ）を持ち、他ノードと共有しない分散システムの設計方針はどれか。",
+    "choices": [
+      { "label": "ア", "text": "シェアードナッシング" },
+      { "label": "イ", "text": "シェアードエブリシング" },
+      { "label": "ウ", "text": "集中制御方式" },
+      { "label": "エ", "text": "水平機能分散システム" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "review-4",
+    "chapterOrder": 2,
+    "text": "クラウドの財務管理を専門領域として扱い、タグベースのコスト配分やコストの可視化を通じて継続的に最適化する考え方はどれか。",
+    "choices": [
+      { "label": "ア", "text": "FinOps" },
+      { "label": "イ", "text": "IaC（Infrastructure as Code）" },
+      { "label": "ウ", "text": "Policy as Code（PaC）" },
+      { "label": "エ", "text": "共有責任モデル" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "review-5",
+    "chapterOrder": 3,
+    "text": "既存のLTE網を流用しながら5Gサービスを提供する展開方式はどれか。",
+    "choices": [
+      { "label": "ア", "text": "NSA（Non-Stand Alone）方式" },
+      { "label": "イ", "text": "SA（Stand Alone）方式" },
+      { "label": "ウ", "text": "フェムトセル" },
+      { "label": "エ", "text": "ネットワークスライシング" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "review-6",
+    "chapterOrder": 3,
+    "text": "1つの物理的なネットワーク基盤を、用途や要件に応じて複数の論理的なネットワークに分割して提供する技術はどれか。",
+    "choices": [
+      { "label": "ア", "text": "ネットワークスライシング" },
+      { "label": "イ", "text": "リンクアグリゲーション" },
+      { "label": "ウ", "text": "マルチホーミング" },
+      { "label": "エ", "text": "VXLAN" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "review-7",
+    "chapterOrder": 4,
+    "text": "2相ロッキングプロトコルにおける「成長期」と「縮退期」の説明として、最も適切なものはどれか。",
+    "choices": [
+      { "label": "ア", "text": "成長期はロックを獲得し続ける段階、縮退期はロックを解放していく段階である" },
+      { "label": "イ", "text": "成長期はロックを解放していく段階、縮退期はロックを獲得し続ける段階である" },
+      { "label": "ウ", "text": "両者は同じ段階を指す別名である" },
+      { "label": "エ", "text": "成長期・縮退期はデッドロックの検知手法を指す" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "review-8",
+    "chapterOrder": 4,
+    "text": "外部サービスに自分のパスワードなどの認証情報を渡すことなく、必要な権限だけを付与する仕組みはどれか。",
+    "choices": [
+      { "label": "ア", "text": "OAuth" },
+      { "label": "イ", "text": "IPsec" },
+      { "label": "ウ", "text": "DNSSEC" },
+      { "label": "エ", "text": "HSTS" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "review-9",
+    "chapterOrder": 5,
+    "text": "システムライフサイクルプロセス（JIS X 0170）とソフトウェアライフサイクルプロセス（JIS X 0160・SLCP）の関係を説明したものとして、最も適切なものはどれか。",
+    "choices": [
+      { "label": "ア", "text": "JIS X 0170はシステム全体を対象とし、JIS X 0160はそのうちソフトウェアの工程を体系化したものである" },
+      { "label": "イ", "text": "両者は同じ規格の別名であり、実務上の違いはない" },
+      { "label": "ウ", "text": "JIS X 0160が上位規格で、JIS X 0170はその一部である" },
+      { "label": "エ", "text": "両者はいずれもハードウェアの工程のみを対象とする" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "review-10",
+    "chapterOrder": 5,
+    "text": "複数の条件式の組み合わせパターンを網羅的に確認するテストの網羅基準はどれか。",
+    "choices": [
+      { "label": "ア", "text": "複数条件網羅" },
+      { "label": "イ", "text": "判定条件網羅" },
+      { "label": "ウ", "text": "経路組合せ網羅" },
+      { "label": "エ", "text": "ミューテーションテスト" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "review-11",
+    "chapterOrder": 5,
+    "text": "進行役（モデレーター）を立てて形式的に行うレビュー技法はどれか。",
+    "choices": [
+      { "label": "ア", "text": "インスペクション" },
+      { "label": "イ", "text": "ピアレビュー" },
+      { "label": "ウ", "text": "共同レビュー" },
+      { "label": "エ", "text": "デザインレビュー" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "review-12",
+    "chapterOrder": 6,
+    "text": "許容できる障害の割合をあらかじめ数値で定め、その範囲内であれば新機能のリリースを優先するSREの考え方はどれか。",
+    "choices": [
+      { "label": "ア", "text": "エラーバジェット" },
+      { "label": "イ", "text": "ランブック（Runbook）" },
+      { "label": "ウ", "text": "ポストモーテム" },
+      { "label": "エ", "text": "シフトレフト" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "review-13",
+    "chapterOrder": 6,
+    "text": "操作対象（オブジェクト）を起点に画面を設計する考え方はどれか。",
+    "choices": [
+      { "label": "ア", "text": "オブジェクト指向UI（OOUI）" },
+      { "label": "イ", "text": "タスク指向UI" },
+      { "label": "ウ", "text": "レスポンシブWebデザイン" },
+      { "label": "エ", "text": "モバイルファースト" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "review-14",
+    "chapterOrder": 6,
+    "text": "業務の複雑さそのものをモデルの中心に据え、開発者と業務担当者が共通の言葉（ユビキタス言語）で会話することを重視する設計手法はどれか。",
+    "choices": [
+      { "label": "ア", "text": "ドメイン駆動設計（DDD）" },
+      { "label": "イ", "text": "クリーンアーキテクチャ" },
+      { "label": "ウ", "text": "CQRS" },
+      { "label": "エ", "text": "レイヤードアーキテクチャ" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "review-15",
+    "chapterOrder": 7,
+    "text": "「バイブコーディング」「エージェンティックコーディング」「仕様駆動開発（SDD）」の違いを説明したものとして、最も適切なものはどれか。",
+    "choices": [
+      { "label": "ア", "text": "バイブコーディングはAIとの対話で直感的に生成し、エージェンティックコーディングはAIエージェントが自律的に進め、仕様駆動開発は仕様を先に厳密に固めてから実装させる" },
+      { "label": "イ", "text": "3つはすべて同じ開発スタイルを指す別名であり、実務上の違いはない" },
+      { "label": "ウ", "text": "仕様駆動開発は仕様を作らずに開発を進める手法である" },
+      { "label": "エ", "text": "エージェンティックコーディングは人間が一切関与しない開発を指す" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "review-16",
+    "chapterOrder": 7,
+    "text": "視覚・言語・行動を統合し、ロボットの動作生成に用いられる基盤モデルの略称はどれか。",
+    "choices": [
+      { "label": "ア", "text": "VLA（vision-language-action）" },
+      { "label": "イ", "text": "DSP（Digital Signal Processor）" },
+      { "label": "ウ", "text": "MPUアーキテクチャ" },
+      { "label": "エ", "text": "ASIC" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "review-17",
+    "chapterOrder": 7,
+    "text": "AIモデルの構成要素（学習データ・アルゴリズム・依存ライブラリ など）を一覧管理する仕組みで、SBOMのAI版に相当するものはどれか。",
+    "choices": [
+      { "label": "ア", "text": "AIBOM（AI Bill of Materials）" },
+      { "label": "イ", "text": "MLOps" },
+      { "label": "ウ", "text": "LLMOps" },
+      { "label": "エ", "text": "CRISP-DM" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "review-18",
+    "chapterOrder": 8,
+    "text": "既存のオンプレミス設備の一部は維持し、新規のデータ処理基盤はクラウド前提で作り直すという判断は、クラウド移行の5Rのうちどの組み合わせに該当するか。",
+    "choices": [
+      { "label": "ア", "text": "Retain（維持）とRefactor（作り直す）" },
+      { "label": "イ", "text": "Rehost（そのまま移す）とRetire（廃止する）" },
+      { "label": "ウ", "text": "Replatform（一部改修）のみ" },
+      { "label": "エ", "text": "Retire（廃止する）とRetain（維持）" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "review-19",
+    "chapterOrder": 8,
+    "text": "工場の高温多湿環境で使用するセンサーデバイスを選定する際、システムアーキテクトとして最も適切な確認事項はどれか。",
+    "choices": [
+      { "label": "ア", "text": "候補デバイスの動作保証温度と環境要件への適合性を確認する" },
+      { "label": "イ", "text": "価格が最も安いデバイスを環境条件の確認なしに選定する" },
+      { "label": "ウ", "text": "デバイスの選定は現場担当者に一任し、要件の確認は行わない" },
+      { "label": "エ", "text": "動作保証温度の確認は開発が完了してから行う" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "review-20",
+    "chapterOrder": 8,
+    "text": "AIエージェントに実装を進めさせる仕様駆動開発を導入する際、システムアーキテクトとして最も適切な運用方針はどれか。",
+    "choices": [
+      { "label": "ア", "text": "AIエージェントが生成したコードは必ずLintチェックと人間のレビューを通すルールを徹底する" },
+      { "label": "イ", "text": "AIが生成したコードはレビューを省略し、そのまま本番環境にリリースする" },
+      { "label": "ウ", "text": "仕様書を作らず、AIエージェントの判断のみに実装を委ねる" },
+      { "label": "エ", "text": "仕様駆動開発は品質が保証されないため、一切導入しない" }
+    ],
+    "correctLabel": "ア"
+  }
+]

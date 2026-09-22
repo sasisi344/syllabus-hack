@@ -112,6 +112,10 @@ tags:
 - 1段落1〜2文。bold（本番は `<strong>`）は1段落1〜2個まで
 - 数式が必要な資格は KaTeX（`$...$`インライン／`$$...$$`ブロック）。ITパスポートでは原則使わない
   - **導入済み（2026-09-07 PoC完了）**: `astro.config.ts` に `remark-math`/`rehype-katex` を追加済み。数式を使う章ページでは `import KatexStyles from '~/components/common/KatexStyles.astro'` を追加し `<KatexStyles />` を配置するだけでよい（CSSは該当ページにのみスコープされ、他ページへの影響はゼロ。検証結果は [`week1-task.md`](./archive/week1-task.md) 参照）
+- **構造・関係性を持つ内容は Mermaid 図解を使う（2026-09-22 PD-Sコースで導入）**。20時間コースは知識体系を俯瞰して学ぶ設計思想のため、用語を並べるだけでなく「要素同士がどう関係しているか」を視覚化できる箇所には積極的に図を挟む。判断基準は次のとおり:
+  - **使うべき内容**: 階層・包含関係（例: リージョン⊃AZ、EAの4層構造）、プロセス・手順の流れ（例: システムライフサイクル、インシデント対応フロー）、トレードオフ・スペクトラム（例: クラウド移行5Rの改修コスト×恩恵）、対比構造（例: ガバナンスとマネジメントの役割分担）
+  - **使わなくてよい内容**: 単なる用語の列挙、フラットな分類（親子関係のない並列語）、章に1つあれば足りるため入れすぎない（目安: 1章あたり0〜2個）
+  - **実装方法**: `import MermaidDiagram from '~/apps/mermaid-diagram/MermaidDiagram'` と `import MermaidStyles from '~/components/common/MermaidStyles.astro'` を追加し、章冒頭付近に `<MermaidStyles />` を1回配置。図は `<MermaidDiagram client:load chart={`flowchart TB ...`} caption="図のタイトル" />` の形で該当する解説パラグラフの直後に置く（KaTeXと同じ「使うページにだけimportする」方針。CSSはスマホ幅の横スクロール対応込みで`MermaidStyles.astro`に分離済み、ダークモード切り替えにも自動追従する）
 - 既存記事へのリンクはルート相対（`/theory/xxx/`）
 
 ## 4. 問題データの規約

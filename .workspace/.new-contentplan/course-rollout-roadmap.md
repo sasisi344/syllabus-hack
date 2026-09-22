@@ -13,13 +13,15 @@ tags:
 
 **2026-09-19更新**: IP・SG・DMの3本が本番公開済み。ユーザー指示により「IPAグループを先に完走させる」方針を再確認し、次の着手順を PD-M（マネジメント）→ PD-S（システム）に決定。要件提議は[`pd-course/pd-course-task.md`](./pd-course/pd-course-task.md)参照。
 
+**2026-09-20更新**: 実装着手順（PD-M→PD-S完走後にG検定）は変更しないまま、G検定のシラバス分析・20hours土台のみ先行実施を決定。JDLA公式シラバス（v1.4）を`src/data/master/syllabus-g-kentei.json`に構造化済み。データマネジメント試験（`dm`）とG検定は「データ収集・加工・分析」「AIに必要な数理・統計知識」の2点で重なる領域があり、着手時に相互内部リンクを設計する方針。詳細は[`g-kentei-course/g-kentei-course-task.md`](./g-kentei-course/g-kentei-course-task.md)参照。
+
 ---
 
 ## 1. 優先順位の方針
 
 1. **IPA情報処理技術者試験グループを最優先**（`cert-hubs.ts`の「IPA 情報処理技術者試験」グループ＝デジタルスキル関連資格）。理由: シラバスが`src/data/master/syllabus-{examId}.json`として構造化データ済みのものが多く、着手コストが低い
 2. IPAグループを終えてから、クラウド・ネットワーク（AWS・CCNA）→ AI・データ（G検定・DS検定）→ ビジネス・事務（簿記・FP・MOS・宅建・知財検定）→ 設備・施工（電験三種・危険物・ビル管理・ボイラー・消防設備士・土木施工管理）の順で展開を検討する（`cert-hubs.ts`のグループ順に準拠。優先順位の詳細は着手時に別途判断）
-3. **確定した着手順（ユーザー指示・2026-09-09、2026-09-17更新、2026-09-19更新）**: ITパスポート（`ip`、公開済み）→ 情報セキュリティマネジメント（`sg`、公開済み）→ データマネジメント試験（`dm`、公開済み）→ **プロフェッショナルデジタルスキル（マネジメント）試験（`pd-m`）→ プロフェッショナルデジタルスキル（システム）試験（`pd-s`）**。PD-M/PD-S着手の方針詳細は[`pd-course/pd-course-task.md`](./pd-course/pd-course-task.md)参照
+3. **確定した着手順（ユーザー指示・2026-09-09、2026-09-17更新、2026-09-19更新、2026-09-20再確認、2026-09-22更新）**: ITパスポート（`ip`、公開済み）→ 情報セキュリティマネジメント（`sg`、公開済み）→ データマネジメント試験（`dm`、公開済み）→ **プロフェッショナルデジタルスキル（マネジメント）試験（`pd-m`、公開済み）→ プロフェッショナルデジタルスキル（システム）試験（`pd-s`、公開済み）** → ディープラーニングG検定（`g-kentei`）。これでIPAグループ（ip/sg/dm/pd-m/pd-s）が全て公開完了。PD-M/PD-Sの実装詳細は[`pd-course/pd-course-task.md`](./pd-course/pd-course-task.md)、G検定はシラバス分析・土台のみ先行済みで次の着手対象（[`g-kentei-course/g-kentei-course-task.md`](./g-kentei-course/g-kentei-course-task.md)参照）
 
 ## 2. IPA情報処理技術者試験グループの着手前提（読み合わせ）
 
@@ -33,7 +35,7 @@ tags:
 | 応用情報技術者（`ap`） | 2027年夏〜秋、高度試験と合わせて大括り再編 | `syllabus-ap.json`（v6.5相当）のみ存在 | 再編時期がSG/FEより遅く、再編内容も未確定な部分が多いため優先度は下がる |
 | 高度試験各区分（SC・NW・PM・DB・ES・SA・ST・SM・AU） | 2027年夏〜秋、DM/PD新設と合わせて大括り再編 | SCのみ`syllabus-sc-2027.json`取得済み。他（NW/PM/DB/ES/SA/ST/SM/AU）は`syllabus-{examId}.json`（v6.5相当）のみ | 高度試験は受験者層・分量的にTier1（20h）との相性を個別に検討する必要あり（現行v6.5どおりで良いか、大括り再編を待つか） |
 | データマネジメント試験（`dm`、新設） | 2027年夏〜秋、新設 | `syllabus-dm-2027.json`取得・構造化済み | **2026-09-17着手決定・examId登録済み**。20時間コース化の方針は[`dm-course/dm-course-task.md`](./archive/dm-course/dm-course-task.md)参照 |
-| プロフェッショナルデジタルスキル試験（`pd-m`/`pd-s`、新設・3区分） | 2027年夏〜秋、新設 | `syllabus-pd-m-2027.json`・`syllabus-pd-s-2027.json`取得・構造化済み | **2026-09-19着手決定・examId登録済み**。20時間コース化の方針は[`pd-course/pd-course-task.md`](./pd-course/pd-course-task.md)参照 |
+| プロフェッショナルデジタルスキル試験（`pd-m`/`pd-s`、新設・3区分） | 2027年夏〜秋、新設 | `syllabus-pd-m-2027.json`・`syllabus-pd-s-2027.json`取得・構造化済み | **2026-09-22、両コースとも本文執筆・本番公開完了**。詳細は[`pd-course/pd-course-task.md`](./pd-course/pd-course-task.md)参照 |
 
 ## 3. 次の一歩（SG着手時にやること）
 

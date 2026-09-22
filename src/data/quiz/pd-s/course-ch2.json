@@ -1,0 +1,57 @@
+[
+  {
+    "id": "pd-s-ch2-1",
+    "text": "現実の設備や製品の状態をリアルタイムにデジタル空間へ再現する技術はどれか。",
+    "choices": [
+      { "label": "ア", "text": "デジタルツイン" },
+      { "label": "イ", "text": "エッジコンピューティング" },
+      { "label": "ウ", "text": "バーチャルパワープラント（VPP）" },
+      { "label": "エ", "text": "SLAM" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "pd-s-ch2-2",
+    "text": "命令とデータをそれぞれ別々のメモリ空間で扱うコンピュータアーキテクチャはどれか。",
+    "choices": [
+      { "label": "ア", "text": "ハーバードアーキテクチャ" },
+      { "label": "イ", "text": "プリンストンアーキテクチャ" },
+      { "label": "ウ", "text": "対称型マルチプロセッシング（SMP）" },
+      { "label": "エ", "text": "ヘテロジニアスマルチコア" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "pd-s-ch2-3",
+    "text": "各ノードが専用のリソース（メモリ・ストレージ）を持ち、他ノードと共有しない分散システムの設計方針はどれか。",
+    "choices": [
+      { "label": "ア", "text": "シェアードナッシング" },
+      { "label": "イ", "text": "シェアードエブリシング" },
+      { "label": "ウ", "text": "集中制御方式" },
+      { "label": "エ", "text": "水平機能分散システム" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "pd-s-ch2-4",
+    "text": "クラウド移行の戦略的なアプローチ（5R）のうち、クラウド前提でアプリケーションを作り直すものはどれか。",
+    "choices": [
+      { "label": "ア", "text": "Refactor" },
+      { "label": "イ", "text": "Rehost" },
+      { "label": "ウ", "text": "Retain" },
+      { "label": "エ", "text": "Retire" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "pd-s-ch2-5",
+    "text": "クラウドの財務管理を専門領域として扱い、タグベースのコスト配分やコストの可視化を通じて継続的に最適化する考え方はどれか。",
+    "choices": [
+      { "label": "ア", "text": "FinOps" },
+      { "label": "イ", "text": "IaC（Infrastructure as Code）" },
+      { "label": "ウ", "text": "Policy as Code（PaC）" },
+      { "label": "エ", "text": "共有責任モデル" }
+    ],
+    "correctLabel": "ア"
+  }
+]

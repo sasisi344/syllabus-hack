@@ -1,0 +1,148 @@
+---
+title: '第3章 ネットワーク'
+examId: 'pd-s'
+kind: 'chapter'
+order: 3
+genre: 'ネットワーク'
+estimatedMinutes: 120
+syllabusRefs: ['ネットワーク']
+field2027: 'technology'
+quizRef: 'course-ch3'
+relatedPosts: []
+noteUrl: ''
+draft: false
+lastmod: 2026-09-22
+metadata:
+  description: 'プロフェッショナルデジタルスキル（システム）試験20時間コース第3章。OSI基本参照モデルからIPアドレッシング・ルーティング、トランスポート/アプリケーション層プロトコル、有線・無線規格、モバイル通信、ネットワーク運用管理までを精選して押さえる。'
+---
+
+import ChapterQuiz from '~/apps/course-quiz/ChapterQuiz';
+import MermaidDiagram from '~/apps/mermaid-diagram/MermaidDiagram';
+import MermaidStyles from '~/components/common/MermaidStyles.astro';
+import questions from '~/data/quiz/pd-s/course-ch3.json';
+
+<MermaidStyles />
+
+## この章で学ぶこと
+
+この章が扱う中分類「ネットワーク」は約87語で、[CCNAルーティングプロトコル](/theory/ccna-routing-protocols/)・[CCNA VLAN・STP](/theory/ccna-vlan-stp/)・[FEネットワーク基礎](/theory/fe-network-basics/)で扱った基礎知識を土台に、有線・無線LANからモバイル通信・運用管理まで一段実務的な用語まで押さえます。用語数は多いものの、OSI基本参照モデルの階層（物理層〜アプリケーション層）に沿って「どの層の話か」を意識すると、暗記負担が大きく下がります。
+
+## 有線・無線LANの基礎とOSI参照モデル
+
+ネットワークの全体像を階層構造で整理する枠組みが<strong>OSI基本参照モデル</strong>です。通信機能を物理層からアプリケーション層までの7層に分けることで、各層の技術が独立して交換可能になります。
+
+<MermaidDiagram
+  client:load
+  caption="OSI基本参照モデルの7階層"
+  chart={`flowchart TB
+  L7["第7層 アプリケーション層<br/>（HTTP・DNS・SMTP など）"]
+  L6["第6層 プレゼンテーション層<br/>（データ形式の変換）"]
+  L5["第5層 セッション層<br/>（通信の開始・終了管理）"]
+  L4["第4層 トランスポート層<br/>（TCP・QUIC）"]
+  L3["第3層 ネットワーク層<br/>（IP・ルーティング）"]
+  L2["第2層 データリンク層<br/>（L2スイッチ・MACアドレス）"]
+  L1["第1層 物理層<br/>（有線LAN・無線LAN）"]
+  L7 --- L6 --- L5 --- L4 --- L3 --- L2 --- L1
+`}
+/>
+
+センサーが自律的に通信する<strong>センサーネットワーク</strong>、<strong>有線LAN</strong>と<strong>無線LAN</strong>、機器の接続形態を表す<strong>ネットワークトポロジ</strong>を土台に、複数の周波数を束ねて伝送する<strong>波長分割多重（WDM）</strong>、時間・符号・周波数で多重化する<strong>TDMA</strong>・<strong>CDMA</strong>・<strong>OFDMA</strong>、複数回線を束ねて帯域を拡張する<strong>リンクアグリゲーション</strong>、データリンク層の代表的な手順である<strong>HDLC</strong>とその複数回線版<strong>マルチリンク手順</strong>を押さえます。
+
+第2層で動作しMACアドレスで転送する<strong>レイヤー2スイッチ（L2スイッチ）</strong>と、第3層で動作しIPアドレスでルーティングする<strong>レイヤー3スイッチ（L3スイッチ）</strong>を区別し、ケーブルの結線を自動判別する<strong>Automatic MDI/MDI-X</strong>、ルータを冗長化する<strong>VRRP</strong>、無線LANの衝突回避方式である<strong>CSMA/CA</strong>、トークンを持つ端末だけが送信できる<strong>トークンパッシング</strong>という通信制御方式を押さえます。
+
+**扱う用語（精選・18語）**
+
+- センサーネットワーク／有線LAN／無線LAN／ネットワークトポロジ／OSI基本参照モデル
+- 波長分割多重（WDM）／TDMA／CDMA／OFDMA
+- リンクアグリゲーション／HDLC／マルチリンク手順
+- レイヤー2スイッチ（L2スイッチ）／レイヤー3スイッチ（L3スイッチ）／Automatic MDI/MDI-X／VRRP
+- CSMA/CA／トークンパッシング
+
+## IPアドレッシングとルーティング
+
+OSI第3層（ネットワーク層）では、機器のIPアドレスとMACアドレスを対応付ける<strong>ARP</strong>とその代理応答である<strong>プロキシARP</strong>、PPPoEを使わずイーサネット上でIPを直接使う<strong>IPoE</strong>、VLANのタグ付け規格である<strong>IEEE 802.1Q</strong>が土台になります。通信の基本となる<strong>IP</strong>に加え、エラー通知や疎通確認を行う<strong>ICMP</strong>とそのIPv6版<strong>ICMPv6</strong>、IPv6で近隣探索を行う<strong>NDP</strong>、マルチキャストの参加を管理する<strong>IGMP</strong>が制御プロトコルとして動作します。
+
+経路を選択する<strong>ルーティング</strong>では、同じアドレス宛の通信を最寄りの拠点に届ける<strong>エニーキャスト</strong>、IPv4とIPv6を共存させる<strong>IPv4/IPv6共存技術</strong>（トランスレーション・デュアルスタック）という設計判断が必要です。動的ルーティングプロトコルとしては、リンク状態を交換し合う<strong>OSPF</strong>と、経路数（ホップ数）を基準にする<strong>RIP</strong>があります。
+
+**扱う用語（精選・14語）**
+
+- ARP／IPoE／IEEE 802.1Q／プロキシARP
+- IP／ICMP／ICMPv6／NDP／IGMP
+- ルーティング／エニーキャスト／IPv4/IPv6共存技術（トランスレーション・デュアルスタック）
+- OSPF／RIP
+
+## トランスポート層・アプリケーション層プロトコル
+
+OSI第4層（トランスポート層）を担う<strong>TCP</strong>は、通信先を識別する<strong>ポート番号</strong>、送達を確認しながら送るペースを調整する<strong>ウィンドウ制御</strong>、届いたことを知らせる<strong>確認応答</strong>という仕組みで信頼性を確保します。近年は、TCPより高速な接続確立と暗号化を標準装備した<strong>QUIC</strong>の採用も進んでいます。
+
+アプリケーション層では、Webの通信を担う<strong>HTTP</strong>、ドメイン名をIPアドレスに変換する<strong>DNS</strong>、IPアドレスを自動割り当てする<strong>DHCP</strong>、メール送信の<strong>SMTP</strong>、メール受信の<strong>POP3</strong>・<strong>IMAP4</strong>があります。Webアプリケーション開発の実務知識としては、ブラウザに保存する小さなデータである<strong>cookie</strong>、その送信範囲を制御する<strong>SameSite</strong>属性、異なるオリジン間のリソース共有を許可する<strong>CORS（オリジン間リソース共有）</strong>、リソース指向のAPI設計思想である<strong>REST</strong>、必要なデータだけを問い合わせできる<strong>GraphQL</strong>を押さえます。音声通話をIP化する構内交換機として<strong>IP-PBX</strong>も出題対象です。
+
+**扱う用語（精選・17語）**
+
+- TCP／QUIC／ポート番号／ウィンドウ制御／確認応答
+- HTTP／DNS／DHCP／SMTP／POP3／IMAP4
+- cookie／SameSite／CORS（オリジン間リソース共有）／REST／GraphQL
+- IP-PBX
+
+## 有線LAN規格とWi-Fi
+
+物理層・データリンク層の実装規格として、有線・無線を統一的に扱う標準が<strong>イーサネット</strong>と<strong>Wi-Fi</strong>です。イーサネットの伝送速度別規格には、10Mbpsの<strong>10BASE-T</strong>、100Mbpsの<strong>100BASE-TX</strong>、1Gbpsの<strong>1000BASE-T</strong>、10Gbpsの<strong>10GBASE-T</strong>があり、末尾の数字が速度、"BASE"の前の部分が伝送速度の世代を表します。複数のアクセスポイントを協調動作させ広いエリアを1つのネットワークとして扱う<strong>メッシュWi-Fi</strong>も実務で普及が進んでいます。
+
+**扱う用語（精選・7語）**
+
+- イーサネット／Wi-Fi
+- 10BASE-T／100BASE-TX／1000BASE-T／10GBASE-T
+- メッシュWi-Fi
+
+## 通信サービスとモバイル通信
+
+企業間の広域通信では、人工衛星を介する<strong>衛星通信サービス</strong>、海外拠点をつなぐ<strong>国際通信サービス</strong>、事業者網を使った<strong>広域Ethernet</strong>、専用線に近い閉域網の<strong>IP-VPN</strong>、インターネット経由で暗号化する<strong>インターネットVPN</strong>を用途に応じて選択し、複数回線に接続して可用性を高める<strong>マルチホーミング</strong>を設計します。
+
+モバイル通信では、通信サービスを提供する<strong>移動体通信事業者（MNO）</strong>が展開する<strong>LTE</strong>を土台に、1つの物理網を用途別に論理分割する<strong>ネットワークスライシング</strong>、契約情報を組み込んだ<strong>eSIM（embedded SIM）</strong>、端末を識別する<strong>IMEI</strong>があります。免許不要で使える<strong>ISMバンド</strong>や1GHz未満の<strong>サブGHz帯</strong>という周波数帯、コア網に依存する<strong>SA（Stand Alone）方式</strong>と既存のLTE網を流用する<strong>NSA（Non-Stand Alone）方式</strong>という5Gの展開方式、狭いエリアをカバーする<strong>フェムトセル</strong>、基地局とコア網を結ぶ<strong>無線アクセスネットワーク（RAN）</strong>も押さえます。バッテリー消費を抑える間欠受信・eDRX・ビームフォーミングといった<strong>モバイル通信の省電力化技術</strong>のもと、広域・省電力のIoT通信規格である<strong>LPWA</strong>（LTE-M・NB-IoT・Wi-SUN・LoRaWAN）、その代表格である<strong>NB-IoT</strong>、初期のIoT向け規格である<strong>LTEカテゴリ0（Cat.0）</strong>とその後継<strong>カテゴリM（LTE-M・Cat-M1）</strong>があります。
+
+**扱う用語（精選・22語）**
+
+- 衛星通信サービス／国際通信サービス／広域Ethernet／IP-VPN／インターネットVPN／マルチホーミング
+- 移動体通信事業者（MNO）／LTE／ネットワークスライシング／eSIM（embedded SIM）／IMEI
+- ISMバンド／サブGHz帯／SA（Stand Alone）方式／NSA（Non-Stand Alone）方式／フェムトセル／無線アクセスネットワーク（RAN）
+- モバイル通信の省電力化技術（間欠受信・eDRX・ビームフォーミング）
+- LPWA（LTE-M・NB-IoT・Wi-SUN・LoRaWAN）／NB-IoT（Narrow Band-IoT）／LTEカテゴリ0（Cat.0）／カテゴリM（LTE-M・Cat-M1）
+
+## ネットワーク運用管理
+
+ネットワークを安定稼働させる運用管理は、機器構成を正確に把握する<strong>ネットワークの構成管理</strong>、障害を検知・対応する<strong>ネットワークの障害管理</strong>、性能を監視する<strong>ネットワークの性能管理</strong>の3本柱で構成されます。トラフィックを複数経路に分散する<strong>負荷分散</strong>（DNSラウンドロビン など）、データセンター間を仮想ネットワークで拡張する<strong>VXLAN</strong>を設計し、稼働状況はログを一元収集する<strong>syslog</strong>、通信フロー情報を収集する<strong>IPFIX</strong>、通信内容を詳細に解析する<strong>パケットアナライザー</strong>、機器を遠隔監視・制御する<strong>SNMP（管理情報ベース（MIB））</strong>で継続的に把握します。
+
+**扱う用語（精選・9語）**
+
+- ネットワークの構成管理／ネットワークの障害管理／ネットワークの性能管理
+- 負荷分散（DNSラウンドロビン など）／VXLAN
+- syslog／IPFIX／パケットアナライザー／SNMP（管理情報ベース（MIB））
+
+## AIで学ぶ
+
+ここまでの用語は、ChatGPTやClaudeなどの生成AIに以下のプロンプトを投げかけると、比較表つきでさらに深く掘り下げて学習できます。コピーして使ってみましょう。
+
+```
+あなたはプロフェッショナルデジタルスキル（システム）試験の講師です。「ネットワーク」の範囲について、以下の用語を初学者向けに**関連づけながら**説明してください（単体の丸暗記より、用語同士のつながりを理解したほうが記憶に定着しやすく、試験本番で紛らわしい選択肢を見分ける力もつくためです）。用語同士の違いが分かる**比較表**を最後に付けてください。
+
+【LANの基礎とOSI参照モデル】OSI基本参照モデル、ネットワークトポロジ、リンクアグリゲーション、レイヤー2スイッチ（L2スイッチ）、レイヤー3スイッチ（L3スイッチ）、VRRP、CSMA/CA
+【IPアドレッシングとルーティング】ARP、IP、ICMP、ICMPv6、NDP、IGMP、ルーティング、エニーキャスト、IPv4/IPv6共存技術、OSPF、RIP
+【トランスポート層・アプリケーション層】TCP、QUIC、ポート番号、ウィンドウ制御、HTTP、DNS、DHCP、cookie、SameSite、CORS、REST、GraphQL
+【有線LAN規格とWi-Fi】イーサネット、Wi-Fi、10BASE-T、100BASE-TX、1000BASE-T、10GBASE-T、メッシュWi-Fi
+【モバイル通信】移動体通信事業者（MNO）、LTE、ネットワークスライシング、eSIM、SA方式、NSA方式、LPWA、NB-IoT
+【ネットワーク運用管理】ネットワークの構成管理、ネットワークの障害管理、ネットワークの性能管理、負荷分散、syslog、SNMP
+```
+
+AIに用語リストだけを渡すと、辞書をそのまま読み上げるような無機質な説明が返ってくることがあります。このプロンプトが<strong>役割</strong>（試験の講師）・<strong>関連づけの指示</strong>・<strong>出力形式（比較表）</strong>の3つを指定しているのはそれを避けるためです。特にこの章は略語が非常に多いため、OSI参照モデルの階層ごとに整理させると理解が進みます。
+
+## 章末チェック
+
+最後に、この章で学んだ知識をアウトプットして定着させましょう。全問に答えたら「答え合わせ」を押してください。
+
+<ChapterQuiz client:load questions={questions} examId="pd-s" mode="chapter" chapterOrder={3} />
+
+## この章のまとめ
+
+この章では、OSI基本参照モデルの階層構造を土台に、IPアドレッシング・ルーティング、トランスポート層・アプリケーション層プロトコル、有線LAN規格とWi-Fi、モバイル通信、ネットワーク運用管理までを学びました。ここで学んだプロトコルの階層構造は、次章で扱うデータベースとセキュリティ実装技術（TLS・OAuthなどネットワーク上で動くセキュリティプロトコル）を理解する土台にもなります。
+
+次章では、データモデルや同時実行制御といったデータベースの基礎技術と、TLS・OAuthなどの実装レベルのセキュリティ技術を学びます。→ [第4章 データベースとセキュリティ実装技術](/course/pd-s/04-database-security-implementation/)

@@ -1,6 +1,6 @@
 ---
 created: 2026-09-19
-updated: 2026-09-19
+updated: 2026-09-22
 tags:
   - シラバスハック
   - 20hours
@@ -35,11 +35,11 @@ tags:
 DM同様の手順でカリキュラムを設計する（`20hours-course-template.md` §7 手順2〜7準拠）。
 
 - [x] PD-Mの中分類8個・599語を8章に再編し、章⇔中分類の対応表を作成 → 2026-09-22完了。中分類12（ガバナンス・監査）と28（ビジネス関連法規）を1章に統合し、技能（科目B）専用のケーススタディ章を第8章として確保する方針で確定。詳細は[`pd-m-course-curriculum.md`](./pd-m-course-curriculum.md)
-- [ ] PD-Sの中分類9個・817語を8章に再編し、章⇔中分類の対応表を作る（中分類9個のため1つは統合が必要）
+- [x] PD-Sの中分類9個・817語を8章に再編し、章⇔中分類の対応表を作成 → 2026-09-22完了。PD-Mと異なり中分類数が多く語数の偏りも極端（32〜230語）なため、小さい中分類同士の統合（3組）と、最大の中分類21「開発・運用の方法論」（230語）の分割（決定事項7のAI駆動開発・フィジカルAIを独立章として切り出し）を組み合わせて7知識章＋技能ケーススタディ章の8章構成に再編。詳細は[`pd-s-course-curriculum.md`](./pd-s-course-curriculum.md)
 - [x] PD-Mの既存theory記事との接続を確認 → 2026-09-22完了。経営戦略・DX戦略（第2章）は既存記事群との接続が厚い一方、ビジネス変革の方法論（第1章）・ガバナンス監査＋法規（第6章）は接続先がなく書き下ろし比率を上げる方針（`pd-m-course-curriculum.md` §4参照）
-- [ ] PD-Sの既存theory記事との接続を確認する（接続先がない領域があれば、書き下ろし比率を上げる）
+- [x] PD-Sの既存theory記事との接続を確認する → 2026-09-22完了。ネットワーク・クラウド・DB・アジャイル関連は既存theory記事群と接続できる一方、第1章（PD-M重複回避のためPD-M固有領域を除外）と第7章（AI駆動開発とフィジカルAI）は接続先がなく書き下ろし比率を上げる方針（`pd-s-course-curriculum.md` §5参照）
 - [x] `pd-m-course-curriculum.md`を作成 → 2026-09-22完了
-- [ ] `pd-s-course-curriculum.md`を作成
+- [x] `pd-s-course-curriculum.md`を作成 → 2026-09-22完了
 - [ ] Tier1のみで着手するか、Tier2（有料note）も並行企画するかを正式決定する（DM・SG同様「単層で様子見」を踏襲する想定だが、カリキュラム設計時に正式決定する）
 
 ## 2-1. 次のアクション（実装フェーズ）
@@ -67,7 +67,23 @@ DMコース（[`../dm-course/dm-course-task.md`](../archive/dm-course/dm-course-
   - [x] 他記事からのカニバリ確認 → PD言及記事4本（`career/ipa-new-exam-target-guide`・`method/new-ipa-exam-study-strategy`・`trend/ipa-2027-restructuring`・`trend/syllabus-ai-knowledge-introduction`）は一般的な「PD試験」言及のみで`/course/pd-m/`への導線が未接続なだけ、カニバリは無し（DM同様、内部リンク強化の追加候補として記録のみ）
   - [x] `pnpm build`（本番ビルド）→ 1382ページ生成・0エラー（前回完了分の再確認）
   - [x] スマホ幅（375px）でのレイアウト確認 → `astro preview`でindex・第5章（用語数最大）・第6章（用語数2番目に多い）・第8章（ケーススタディ＋章末チェック）を実機幅で確認。横スクロール発生なし（`scrollWidth - clientWidth = 0`）、DM対応済みのKaTeX/コードブロック折り返し修正（`CourseLayout.astro`）がPD-Mにも正しく適用されていることを確認。章末チェック・診断テストのクイズ島も正常にハイドレート・クリック操作可能なことを確認
-- [ ] （PD-M完了後）PD-Sカリキュラム設計〜公開まで同じ手順を繰り返す
+- [x] PD-Sカリキュラム設計 → 2026-09-22完了、詳細は[`pd-s-course-curriculum.md`](./pd-s-course-curriculum.md)
+- [x] `scaffold-course.cjs`の`COURSES`に`pd-s`を追加し、章ドラフト骨組みを生成 → 2026-09-22完了。`.workspace/draft/course/pd-s/`にindex+8章を生成（語数87/108/87/108/197/167/63＋技能4大項目、カリキュラム設計と一致）。第1・2・4章は中分類統合（middlesに複数指定）、第6・7章は中分類21「開発・運用の方法論」をDM同様の`filter`関数（`PD_S_AI_PHYSICAL_KEYWORDS`配列、62種・シラバス原文の重複語「MLOps」を含め実質63語）で分割して実装。シラバスJSON側に「MLOps」の重複記載を発見（データ品質メモとして記録、対応不要）。`pnpm astro check`でスキーマエラーなしを確認
+- [ ] PD-S全8章＋index本文執筆・本番配置（進捗）
+  - [x] 第1章「ビジネス・デジタル戦略とデジタルツール活用」→ 2026-09-22執筆完了。`src/data/course/pd-s/01-strategy-digital-tools.mdx`（6節・全87語を網羅。PD-Mコース第2章と同名中分類のため、「同じ中分類名でも扱う中身が違う理由」を整理するコラムを追加し重複回避を明示）＋章末チェック5問（`src/data/quiz/pd-s/course-ch1.json`）。Mermaid図解ポリシー策定後にエンタープライズアーキテクチャ4層構造の図解を追記。`pnpm astro check`でスキーマエラーなしを確認。他章・indexが未完成のため`draft: true`のまま
+  - [x] 第2章「システム基盤とクラウド」→ 2026-09-22執筆完了。`src/data/course/pd-s/02-system-architecture-cloud.mdx`（4節・全108語を網羅。既存theory記事「クラウドの基礎」を導入部でリンク。クラウド移行の5R（Rehost/Replatform/Refactor/Retain/Retire）のトレードオフを整理するコラム付き）＋章末チェック5問（`src/data/quiz/pd-s/course-ch2.json`）。`pnpm astro check`でスキーマエラーなしを確認。`draft: true`のまま
+  - [x] **Mermaid図解インフラを新規実装**（ユーザー指示、2026-09-22）→ クラウド・ネットワーク等の技術内容を図解するため、`mermaid`パッケージを追加し、クライアント側描画のPreact islandコンポーネント`src/apps/mermaid-diagram/MermaidDiagram.tsx`を新規作成（ChapterQuizと同じislandパターン。`MutationObserver`で`html.dark`トグルを検知し自動的にダークモード再描画）。スタイルは`KatexStyles.astro`と同じ方針で`src/components/common/MermaidStyles.astro`に分離（スマホ幅での横スクロール対応込み）。第2章に検証を兼ねて2つの図解を試験導入: ①リージョン・AZ・マルチリージョン構成の関係図、②クラウド移行5Rのトレードオフ図。`astro dev`でドラフトを一時的に`draft: false`にして実機確認（デスクトップ・375px幅とも横スクロールなし、ダークモード切替で再描画も正常動作）した後、`draft: true`に戻し済み。以降、ネットワーク・システムライフサイクル等の技術色が強い章で必要に応じて追加していく方針
+  - [x] 第3章「ネットワーク」→ 2026-09-22執筆完了。`src/data/course/pd-s/03-network.mdx`（6節・全87語を網羅。既存theory記事3本（CCNAルーティング・CCNA VLAN/STP・FEネットワーク基礎）を導入部でリンク。OSI基本参照モデル7階層のMermaid図解付き）＋章末チェック5問（`src/data/quiz/pd-s/course-ch3.json`）。`pnpm astro check`でスキーマエラーなしを確認。`draft: true`のまま
+  - [x] 第4章「データベースとセキュリティ実装技術」→ 2026-09-22執筆完了。`src/data/course/pd-s/04-database-security-implementation.mdx`（7節・全108語を網羅。既存theory記事3本を導入部でリンク。2相ロッキングプロトコルの成長期/縮退期、CAP定理の三すくみ関係の2つのMermaid図解付き）＋章末チェック5問（`src/data/quiz/pd-s/course-ch4.json`）。`pnpm astro check`でスキーマエラーなしを確認。`draft: true`のまま
+  - [x] 第5章「システムライフサイクルプロセス」→ 2026-09-22執筆完了。`src/data/course/pd-s/05-system-lifecycle-process.mdx`（10節・全197語を網羅、シラバス中最大の章。既存theory記事3本を導入部でリンク。全工程の流れを俯瞰するMermaid図解を章冒頭に配置、レビュー技法の分類コラム付き）＋章末チェック5問（`src/data/quiz/pd-s/course-ch5.json`）。`pnpm astro check`でスキーマエラーなしを確認。`draft: true`のまま
+  - [x] 第6章「開発方法論とDevOps実践」→ 2026-09-22執筆完了。`src/data/course/pd-s/06-development-methodology-devops.mdx`（8節・全167語を網羅。既存theory記事「アジャイル・スクラムの基礎」を導入部でリンク。スクラムのスプリントサイクル、CI/CD/継続的デプロイのパイプラインの2つのMermaid図解付き）＋章末チェック5問（`src/data/quiz/pd-s/course-ch6.json`）。`pnpm astro check`でスキーマエラーなしを確認。`draft: true`のまま
+  - [x] 第7章「AI駆動開発とフィジカルAI」→ 2026-09-22執筆完了。`src/data/course/pd-s/07-ai-driven-development-physical-ai.mdx`（4節・全63語（原文重複語「MLOps」含む）を網羅、決定事項7の核となる章。既存記事の接続先がなく全編書き下ろし。仕様駆動開発を軸にしたAI駆動開発フロー、フィジカルAIの学習〜実機投入フローの2つのMermaid図解付き）＋章末チェック5問（`src/data/quiz/pd-s/course-ch7.json`）。`pnpm astro check`でスキーマエラーなしを確認。`draft: true`のまま
+  - [x] 第8章「システム開発実務ケーススタディ（技能）」→ 2026-09-22執筆完了。`src/data/course/pd-s/08-practice-casestudy.mdx`（技能4グループ15項目を、産業用IoTセンサーメーカー「サンプルIoT株式会社」のシステムアーキテクト・木村さんを主人公にしたケーススタディで網羅。第4-3ではAI駆動開発（仕様駆動開発）の実務適用を扱う）＋章末チェック5問（`src/data/quiz/pd-s/course-ch8.json`、ケーススタディ形式）。`pnpm astro check`でスキーマエラーなしを確認。**PD-S全8章の本文執筆完了**
+  - [x] index.mdx・診断テスト（10問）・総復習（20問）を作成 → 2026-09-22完了。`src/data/course/pd-s/index.mdx`＋`src/data/quiz/pd-s/course-diagnosis.json`（10問）・`course-review.json`（20問）。PD-M/DMコースへの相互内部リンク、科目A-1非対象の明記、PD-M重複領域の棲み分け説明を含むFAQ付き
+  - [x] 内部リンク検証・`pnpm build`確認・公開 → 2026-09-22完了。theory記事11本・course記事3本の全リンク存在確認、章間ナビ1〜8の整合性確認、他記事からのカニバリなし確認（PD言及記事4本は導線未接続なだけ、PD-M同様の扱い）。`draft: true`のまま1382ページでビルド成功後、全8章＋indexを一括`draft: false`に切り替えて再ビルド、1391ページ（+9＝8章＋index）でエラーなくビルド成功。`astro preview`でモバイル幅（375px）を実機確認: index／第5〜8章（Mermaid図解を含む章すべて）で横スクロールなし、全Mermaid図解が正常にSVG描画されることを確認。`/course/`一覧ページにIP/SG/DM/PD-M/PD-Sの5コースが正しく表示されることも確認。**PD-Sコース本文執筆フェーズ完了・本番公開済み**
+- [x] PD-S診断・章末チェック・総復習の問題作成 → 2026-09-22完了（章末チェック8章分×5問、診断10問、総復習20問。すべてシラバス案のキーワード・技能例からの書き下ろし）
+- [x] `method/advanced-ipa-hub`のPD-Sスタブ（「対策記事は近日公開予定です」）をコースへのリンクに更新 → 2026-09-22完了。PD-M同様の記載パターンで、本文中の解説段落と§末尾リストの2箇所を`/course/pd-s/`へのリンクに更新。`pnpm astro check`でエラーなしを確認
+- [x] PD-S公開前の最終調整（誤字・内部リンク・本番ビルド・スマホ幅レイアウト確認）→ 2026-09-22完了。詳細は§2-1「index.mdx・診断テスト...」の項目を参照
 
 ## 3. 保留・要判断事項
 

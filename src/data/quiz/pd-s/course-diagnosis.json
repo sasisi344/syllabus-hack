@@ -1,0 +1,122 @@
+[
+  {
+    "id": "diag-1",
+    "chapterOrder": 1,
+    "text": "エンタープライズアーキテクチャの4層のうち、扱うデータの構造を表す層はどれか。",
+    "choices": [
+      { "label": "ア", "text": "データアーキテクチャ" },
+      { "label": "イ", "text": "ビジネスアーキテクチャ" },
+      { "label": "ウ", "text": "アプリケーションアーキテクチャ" },
+      { "label": "エ", "text": "テクノロジアーキテクチャ" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "diag-2",
+    "chapterOrder": 2,
+    "text": "クラウド移行の戦略的なアプローチ（5R）のうち、クラウド前提でアプリケーションを作り直すものはどれか。",
+    "choices": [
+      { "label": "ア", "text": "Refactor" },
+      { "label": "イ", "text": "Rehost" },
+      { "label": "ウ", "text": "Retain" },
+      { "label": "エ", "text": "Retire" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "diag-3",
+    "chapterOrder": 3,
+    "text": "OSI基本参照モデルにおいて、TCPが動作する層はどれか。",
+    "choices": [
+      { "label": "ア", "text": "トランスポート層" },
+      { "label": "イ", "text": "ネットワーク層" },
+      { "label": "ウ", "text": "データリンク層" },
+      { "label": "エ", "text": "アプリケーション層" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "diag-4",
+    "chapterOrder": 4,
+    "text": "一貫性・可用性・分断耐性の3つを同時にすべて満たすことはできないという分散システムの定理はどれか。",
+    "choices": [
+      { "label": "ア", "text": "CAP定理" },
+      { "label": "イ", "text": "ACID特性" },
+      { "label": "ウ", "text": "BASE特性" },
+      { "label": "エ", "text": "2相ロッキングプロトコル" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "diag-5",
+    "chapterOrder": 5,
+    "text": "新環境に少量のトラフィックだけを流して安全性を確認しながら切り替えるリリース手法はどれか。",
+    "choices": [
+      { "label": "ア", "text": "カナリアリリース" },
+      { "label": "イ", "text": "一斉移行" },
+      { "label": "ウ", "text": "ブルーグリーンデプロイメント" },
+      { "label": "エ", "text": "段階移行" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "diag-6",
+    "chapterOrder": 5,
+    "text": "環境の変化に対応するために行う保守の種類はどれか。",
+    "choices": [
+      { "label": "ア", "text": "適応保守" },
+      { "label": "イ", "text": "是正保守" },
+      { "label": "ウ", "text": "予防保守" },
+      { "label": "エ", "text": "完全化保守" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "diag-7",
+    "chapterOrder": 6,
+    "text": "ビジネスロジックを外部技術から独立させ、依存の方向を内側に向ける設計思想を持つアーキテクチャパターンはどれか。",
+    "choices": [
+      { "label": "ア", "text": "クリーンアーキテクチャ" },
+      { "label": "イ", "text": "MVC" },
+      { "label": "ウ", "text": "マイクロカーネルアーキテクチャ" },
+      { "label": "エ", "text": "スペースベースアーキテクチャ" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "diag-8",
+    "chapterOrder": 6,
+    "text": "OSにおいて、特権的な処理を実行できるモードはどれか。",
+    "choices": [
+      { "label": "ア", "text": "カーネルモード（スーパーバイザーモード）" },
+      { "label": "イ", "text": "ユーザーモード" },
+      { "label": "ウ", "text": "プリエンプティブ方式" },
+      { "label": "エ", "text": "イベントドリブン方式" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "diag-9",
+    "chapterOrder": 7,
+    "text": "シミュレーション環境で学習したロボットを実機に投入する際、仮想と現実の違いから生じる性能低下を指す用語はどれか。",
+    "choices": [
+      { "label": "ア", "text": "Sim to Real Gap" },
+      { "label": "イ", "text": "サンプル効率" },
+      { "label": "ウ", "text": "アクティブ推論" },
+      { "label": "エ", "text": "ティーチングプレイバック" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "diag-10",
+    "chapterOrder": 8,
+    "text": "SRE（サイト信頼性エンジニアリング）の考え方に基づき、新機能リリースと安定性のバランスを管理するために設定する指標はどれか。",
+    "choices": [
+      { "label": "ア", "text": "エラーバジェット" },
+      { "label": "イ", "text": "テストの網羅度" },
+      { "label": "ウ", "text": "欠陥密度" },
+      { "label": "エ", "text": "サンプル効率" }
+    ],
+    "correctLabel": "ア"
+  }
+]
