@@ -30,16 +30,7 @@
 
 > 正本: [`archive/week4-task.md`](../.new-contentplan/archive/week4-task.md)。IP/SG/DMコース実装完了に伴い、week1〜4タスクファイルおよびip-course/sg-course/dm-course関連ファイルは2026-09-20付で`.workspace/.new-contentplan/archive/`へ移動済み
 
-- [x] **GA4/GSCで新セクション（`/course/`）のPV・回遊率の計測を開始（効果測定 第1段階）**: w39週報（[`.task/w39-weekly-task.md`](w39-weekly-task.md)）で計測開始。DMコースの章送りがGA4上で同一ランディングURLに集約され回遊率を正確に計測できない問題を発見（実装確認が必要、詳細は同週報Act参照）
-- [x] 4本目・5本目パイロットテーマ: **プロフェッショナルデジタルスキル（マネジメント/システム）試験（PD-M/PD-S）に確定**（2026-09-19決定）。DMに続きIPAグループを優先完走させる方針で、着手順はPD-M→PD-S。要件提議を作成 → [`pd-course/pd-course-task.md`](../.new-contentplan/pd-course/pd-course-task.md)。PD-Mコース（Tier1）は2026-09-22に本文執筆・本番公開まで完了。カリキュラム設計 → [`pd-course/pd-m-course-curriculum.md`](../.new-contentplan/pd-course/pd-m-course-curriculum.md)。全8章＋index＋診断テスト（10問）＋章末チェック（各5問）＋総復習（20問）を`src/data/course/pd-m/`・`src/data/quiz/pd-m/`に本番配置（`draft: false`）、`pnpm build`で1382ページのビルド成功を確認済み。`method/advanced-ipa-hub`のPD-Mスタブ更新・誤字/内部リンク/スマホ幅の最終調整も完了（2026-09-22）。PD-Sコース（Tier1）も2026-09-22に本文執筆・本番公開まで完了。カリキュラム設計 → [`pd-course/pd-s-course-curriculum.md`](../.new-contentplan/pd-course/pd-s-course-curriculum.md)。中分類9個・817語（シラバス中最大）を、統合3組＋最大中分類の分割（決定事項7のAI駆動開発・フィジカルAIを独立章化）で7知識章＋技能ケーススタディ章の8章に再編し、全8章＋index＋診断テスト（10問）＋章末チェック（各5問）＋総復習（20問）を`src/data/course/pd-s/`・`src/data/quiz/pd-s/`に本番配置（`draft: false`）、`pnpm build`で1391ページのビルド成功を確認済み。`method/advanced-ipa-hub`のPD-Sスタブ更新も完了。第2〜7章にはMermaid図解（新規導入したクライアント側描画コンポーネント、`20hours-course-template.md`にルール追記済み）を追加し、EA4層構造・OSI参照モデル・CAP定理・CI/CDパイプライン・AI駆動開発フロー等を可視化。これでPD-M/PD-Sとも完走、IPAグループのIP→SG→DM→PD-M→PD-Sが全て完了。次はG検定（`g-kentei-course-task.md`参照）に着手予定
-- [x] 2本目パイロットテーマ: **情報セキュリティマネジメント（SG）** → 2026-09-15公開完了
-- [x] 3本目パイロットテーマ: **データマネジメント試験（DM）に確定**（2026-09-17決定）。カリキュラム設計（章立て・用語マッピング）まで完了 → [`archive/dm-course/dm-course-curriculum.md`](../.new-contentplan/archive/dm-course/dm-course-curriculum.md)。8章＋診断＋総復習＝20時間、DM独自の深掘り分野（データガバナンス・品質管理）を第1〜2章に厚く配置、統計手法（第4章）はKaTeXで計算例題を多めに配置する方針
-- [x] `scaffold-course.cjs`に`dm`を追加し、章ドラフト骨組みを`.workspace/draft/course/dm/`に生成 → 2026-09-17完了（index+8章。語数37/30/41/27/26/14/12＋技能4大項目、カリキュラム設計と完全一致）
-- [x] DMコース本文執筆フェーズ → 2026-09-18完了。全8章＋index＋診断テスト（10問）＋総復習（20問）を`src/data/course/dm/`・`src/data/quiz/dm/`に本番配置（`draft: false`で公開済み）。第1〜2章はDM独自の深掘り分野として書き下ろし比率を最も高くし、第4章は標準偏差・相関係数・回帰係数の計算例題をKaTeXで実装。第8章は新卒1年目「高橋さん」×トレーナー役「佐藤さん」のケーススタディ（食品通販会社「サンプルフーズ株式会社」）で技能4グループ16項目を網羅。`method/itp-hub`・`method/advanced-ipa-hub`からの導線接続も完了。`cert-hubs.ts`への`courseHref`追加は、DM専用Hub記事が未整備のため見送り（単独Hub化の判断とあわせて実施）
-  - [x] 公開前の最終調整（誤字チェック・内部リンク検証・本番ビルド確認・スマホ幅レイアウト確認等）→ **2026-09-19完了**。KaTeX数式のスマホ横スクロールバグとコース全体（IP/SG/DM）の「AIで学ぶ」プロンプト折り返しバグを発見・修正、コース共通サムネイル新規実装、`/course/`に制作手順紹介セクションを追加。詳細は `archive/completed-2026-09-19.md` §3参照
-  - 詳細・進捗管理は[`archive/dm-course/dm-course-task.md`](../.new-contentplan/archive/dm-course/dm-course-task.md) §2-1参照
-- [x] 今月の振り返り: CBT型と20hours型の制作比重をどう調整するか判断材料をまとめる（2026-09-20、w39データより）。コースは公開直後でGoogle上ほぼ未露出、既存CBT型アプリは既にオーガニック流入ありのため、比重の最終判断は最低1ヶ月の蓄積を待って再検討する方針（詳細: `archive/week4-task.md`）
-- [x] trend記事「IPA 2027年試験制度改訂」の公開状況を確認 → `ipa-2027-restructuring`として公開済み（2026-04-11）を確認、繰越不要
+- [x] Week4完了タスク一式（GA4/GSC計測開始、SG/DM/PD-M/PD-S各パイロットの公開完了、今月の振り返り、trend記事確認）→ 2026-09-22アーカイブ。**IPAグループ（`ip`→`sg`→`dm`→`pd-m`→`pd-s`）の20時間コース展開が全て完了**。詳細は[`archive/completed-2026-09-22.md`](archive/completed-2026-09-22.md)、PD-M/PD-S実装の正本は[`../.new-contentplan/archive/pd-course/pd-course-task.md`](../.new-contentplan/archive/pd-course/pd-course-task.md)参照。次の着手対象はG検定（[`../.new-contentplan/g-kentei-course/g-kentei-course-task.md`](../.new-contentplan/g-kentei-course/g-kentei-course-task.md)参照）
 - [ ] 来月着手するTier2（有料note・合格テキスト）の準備確認: noteアカウント開設・価格帯・巻数設計（[`ip-course-curriculum.md`](../.new-contentplan/archive/ip-course/ip-course-curriculum.md) §4）の検討再開、メールゲート実装方式の確定
 
 ---
@@ -98,6 +89,7 @@
 
 | ファイル/フォルダ | 内容 | 移動日 |
 |---|---|---|
+| `completed-2026-09-22.md` | Week4完了タスク一式: GA4/GSC計測開始・PD-M/PD-Sコース公開完了（Mermaid図解インフラ新規実装を含む）・SG/DM完了の参照・今月の振り返り・trend記事確認。IPAグループ（ip→sg→dm→pd-m→pd-s）の20時間コース展開が全て完了。PD-M/PD-S実装の正本は`.new-contentplan/archive/pd-course/`へ移動済み | 2026-09-22 |
 | `completed-2026-09-19.md` | §0 Week3全完了（courseコレクション内部リンク確認含む）・§1該当項目クローズ・DMコース公開前最終調整（§4、KaTeXスマホバグ修正・プロンプト折り返しバグ修正・コース共通サムネイル実装・制作手順紹介セクション追加を含む）・trend用語解説バッチ内部リンク改善の実装フェーズ完了分 | 2026-09-19 |
 | `theory-genre-consolidation-2026-09-15.md` | 旧§3（theoryジャンル別まとめ記事化）完了分一式: パイロット・IP軸全数カテゴライズ・①〜⑤統合・SGギャップ分析A/B・要検討3本の個別対応（リライト/再設計/統合）。theory記事102本→65本、統合ハブ11本、301リダイレクト39件 | 2026-09-15 |
 | `completed-2026-09-15.md` | 旧§2（コンテンツ3本柱への再編）完了分: ヘッダーナビ再編・フッター3カラム再編・トップページ実装・フッター広告枠テスト導入（資格スクエア／A8.net） | 2026-09-15 |

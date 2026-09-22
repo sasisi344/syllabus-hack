@@ -10,7 +10,8 @@ tags:
 
 # PD-M・PD-S（プロフェッショナルデジタルスキル試験）20時間コース 要件提議
 
-> 全体ロードマップ: [`../course-rollout-roadmap.md`](../course-rollout-roadmap.md)。IP→SG→DMに続く4本目・5本目として2026-09-19にユーザーが着手方針を決定。試験プロファイル分析は[`../2027-exams/pd-2027-profile-report.md`](../2027-exams/pd-2027-profile-report.md)を参照。本ファイルはPD-M・PD-S着手にあたって固めた方針の要件提議。実装フェーズの進捗管理はDM同様、本ファイルに追記していく。
+> **2026-09-22アーカイブ**: PD-M・PD-Sとも本文執筆・本番公開まで完了したため、`pd-course/`から`archive/pd-course/`へ移動。
+> 全体ロードマップ: [`../../course-rollout-roadmap.md`](../../course-rollout-roadmap.md)。IP→SG→DMに続く4本目・5本目として2026-09-19にユーザーが着手方針を決定。試験プロファイル分析は[`../../2027-exams/pd-2027-profile-report.md`](../../2027-exams/pd-2027-profile-report.md)を参照。本ファイルはPD-M・PD-S着手にあたって固めた方針の要件提議。実装フェーズの進捗管理はDM同様、本ファイルに追記していく。
 
 ## 0. 決定事項（2026-09-19）
 
@@ -28,7 +29,7 @@ tags:
 - `src/data/master/syllabus-pd-m-2027.json`・`syllabus-pd-s-2027.json` は取得・構造化済み（Week1で完了）。追加のPDF再抽出作業は不要
 - PD-M: 大分類4・中分類8・キーワード599語・技能グループ4／技能項目15
 - PD-S: 大分類4・中分類9・キーワード817語・技能グループ4／技能項目15
-- 詳細な構造比較・テーマ整理は[`pd-2027-profile-report.md`](../2027-exams/pd-2027-profile-report.md) §2〜3参照
+- 詳細な構造比較・テーマ整理は[`pd-2027-profile-report.md`](../../2027-exams/pd-2027-profile-report.md) §2〜3参照
 
 ## 2. 20時間コース設計
 
@@ -44,7 +45,7 @@ DM同様の手順でカリキュラムを設計する（`20hours-course-template
 
 ## 2-1. 次のアクション（実装フェーズ）
 
-DMコース（[`../dm-course/dm-course-task.md`](../archive/dm-course/dm-course-task.md)）と同じ手順で、PD-M→PD-Sの順に実施する。
+DMコース（[`../dm-course/dm-course-task.md`](../dm-course/dm-course-task.md)）と同じ手順で、PD-M→PD-Sの順に実施する。
 
 - [x] PD-Mカリキュラム設計（§2）→ 2026-09-22完了、詳細は[`pd-m-course-curriculum.md`](./pd-m-course-curriculum.md)
 - [x] `scaffold-course.cjs`の`COURSES`に`pd-m`を追加し、章ドラフト骨組みを生成 → 2026-09-22完了。`.workspace/draft/course/pd-m/`にindex+8章を生成（語数64/81/47/100/129/105/73＋技能4大項目、カリキュラム設計と一致）。あわせてスクリプト側の互換性バグ2件を修正: (1) pd-m/pd-sのJSONは`major_categories`ではなく`knowledge_major_categories`を使うため両対応に修正、(2) pd-m/pd-sの技能`items`は`{id,name,...}`オブジェクトではなく`"1-1.見出し文"`形式の文字列のため、正規化関数に文字列パース処理を追加（PD-S着手時にも必要な修正のため恒久対応済み）
@@ -69,7 +70,7 @@ DMコース（[`../dm-course/dm-course-task.md`](../archive/dm-course/dm-course-
   - [x] スマホ幅（375px）でのレイアウト確認 → `astro preview`でindex・第5章（用語数最大）・第6章（用語数2番目に多い）・第8章（ケーススタディ＋章末チェック）を実機幅で確認。横スクロール発生なし（`scrollWidth - clientWidth = 0`）、DM対応済みのKaTeX/コードブロック折り返し修正（`CourseLayout.astro`）がPD-Mにも正しく適用されていることを確認。章末チェック・診断テストのクイズ島も正常にハイドレート・クリック操作可能なことを確認
 - [x] PD-Sカリキュラム設計 → 2026-09-22完了、詳細は[`pd-s-course-curriculum.md`](./pd-s-course-curriculum.md)
 - [x] `scaffold-course.cjs`の`COURSES`に`pd-s`を追加し、章ドラフト骨組みを生成 → 2026-09-22完了。`.workspace/draft/course/pd-s/`にindex+8章を生成（語数87/108/87/108/197/167/63＋技能4大項目、カリキュラム設計と一致）。第1・2・4章は中分類統合（middlesに複数指定）、第6・7章は中分類21「開発・運用の方法論」をDM同様の`filter`関数（`PD_S_AI_PHYSICAL_KEYWORDS`配列、62種・シラバス原文の重複語「MLOps」を含め実質63語）で分割して実装。シラバスJSON側に「MLOps」の重複記載を発見（データ品質メモとして記録、対応不要）。`pnpm astro check`でスキーマエラーなしを確認
-- [ ] PD-S全8章＋index本文執筆・本番配置（進捗）
+- [x] PD-S全8章＋index本文執筆・本番配置 → 2026-09-22完了
   - [x] 第1章「ビジネス・デジタル戦略とデジタルツール活用」→ 2026-09-22執筆完了。`src/data/course/pd-s/01-strategy-digital-tools.mdx`（6節・全87語を網羅。PD-Mコース第2章と同名中分類のため、「同じ中分類名でも扱う中身が違う理由」を整理するコラムを追加し重複回避を明示）＋章末チェック5問（`src/data/quiz/pd-s/course-ch1.json`）。Mermaid図解ポリシー策定後にエンタープライズアーキテクチャ4層構造の図解を追記。`pnpm astro check`でスキーマエラーなしを確認。他章・indexが未完成のため`draft: true`のまま
   - [x] 第2章「システム基盤とクラウド」→ 2026-09-22執筆完了。`src/data/course/pd-s/02-system-architecture-cloud.mdx`（4節・全108語を網羅。既存theory記事「クラウドの基礎」を導入部でリンク。クラウド移行の5R（Rehost/Replatform/Refactor/Retain/Retire）のトレードオフを整理するコラム付き）＋章末チェック5問（`src/data/quiz/pd-s/course-ch2.json`）。`pnpm astro check`でスキーマエラーなしを確認。`draft: true`のまま
   - [x] **Mermaid図解インフラを新規実装**（ユーザー指示、2026-09-22）→ クラウド・ネットワーク等の技術内容を図解するため、`mermaid`パッケージを追加し、クライアント側描画のPreact islandコンポーネント`src/apps/mermaid-diagram/MermaidDiagram.tsx`を新規作成（ChapterQuizと同じislandパターン。`MutationObserver`で`html.dark`トグルを検知し自動的にダークモード再描画）。スタイルは`KatexStyles.astro`と同じ方針で`src/components/common/MermaidStyles.astro`に分離（スマホ幅での横スクロール対応込み）。第2章に検証を兼ねて2つの図解を試験導入: ①リージョン・AZ・マルチリージョン構成の関係図、②クラウド移行5Rのトレードオフ図。`astro dev`でドラフトを一時的に`draft: false`にして実機確認（デスクトップ・375px幅とも横スクロールなし、ダークモード切替で再描画も正常動作）した後、`draft: true`に戻し済み。以降、ネットワーク・システムライフサイクル等の技術色が強い章で必要に応じて追加していく方針
