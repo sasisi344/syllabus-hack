@@ -44,12 +44,12 @@ tags:
 ## 3. 保留・要判断事項
 
 - [x] 55項目の学習時間試算 → `g-kentei-course-curriculum.md` §2で完了（8章合計18.0h＋診断0.5h＋総復習1.5h＝20.0h）
-- [ ] 既存`questions-g-kentei.json`・`method/g-kentei-hub`・`trend/g-kentei-2026-syllabus-trend`とv1.4シラバスの齟齬有無の実チェックは未実施
+- [x] 既存`questions-g-kentei.json`・`method/g-kentei-hub`・`trend/g-kentei-2026-syllabus-trend`とv1.4シラバスの齟齬チェック（2026-09-24完了）。`questions-g-kentei.json`はv1.4で削除・変更された用語（ChatGPT/GPT-n・破壊的忘却）への言及なく問題なし。`g-kentei-hub`・`g-kentei-mock-exam`記事に「問題数約200問」「191問を120分」という旧シラバス（〜G2024#5）の出題数が残存していたため、JDLA公式サイトを確認し「約160問・100分（オンライン）/120分（会場）」（G2024#6以降）に修正
 - [x] 法律・倫理分野18項目の扱い → 独立章にする方針を採用（第8章、5節に統合。`g-kentei-course-curriculum.md` §2「第8章について」）
 
 ## 4. 次のアクション（本文執筆完了後・2026-09-24時点）
 
-- [ ] `draft: true`を`false`に切り替えて公開するかの最終判断（用語精選の再確認・実機プレビューでの表示確認が先）
-- [ ] DMコース側（第1〜3章末・第4章末）へG検定コースへの逆方向リンクを追記（`g-kentei-course-curriculum.md` §5）
-- [ ] 既存`method/g-kentei-hub`・`trend/g-kentei-2026-syllabus-trend`からコースへの導線設置
-- [ ] `method/advanced-ipa-hub`等の資格横断ハブへのコース掲載要否を確認
+- [x] 公開済み（2026-09-24、`draft: false`に切り替え・`pnpm run build`1400ページ成功を確認しコミット・push）
+- [x] DMコース側へG検定コースへの逆方向リンクを追記（第4章「統計分析」・第5章「AI利活用」・index.mdxの3箇所。IPよりDMとの親和性が高いというユーザー判断に基づく方針転換。2026-09-24完了）
+- [x] 既存`method/g-kentei-hub`・`method/g-kentei-math-statistics-hack`・`trend/g-kentei-2026-syllabus-trend`・`app/g-kentei-mock-exam`からコースへの導線設置（2026-09-24完了。あわせて出題数・試験時間の齟齬修正も実施）
+- [x] `method/advanced-ipa-hub`への掲載要否を確認 → 対象外と判断（同記事はIPA高度試験（SC・NW・PM・DB・ST・SA）専門のハブで、JDLA主催のG検定とは主催団体・試験体系が異なるため掲載しない。2026-09-24確認）
