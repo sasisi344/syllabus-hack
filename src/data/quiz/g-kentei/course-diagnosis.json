@@ -1,0 +1,122 @@
+[
+  {
+    "id": "g-kentei-diag-1",
+    "chapterOrder": 1,
+    "text": "1956年に開催され、「人工知能」という言葉が初めて使われた会議はどれか。",
+    "choices": [
+      { "label": "ア", "text": "ダートマス会議" },
+      { "label": "イ", "text": "エルジンボロ会議" },
+      { "label": "ウ", "text": "パシフィコ横浜会議" },
+      { "label": "エ", "text": "ジュネーブ会議" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "g-kentei-diag-2",
+    "chapterOrder": 1,
+    "text": "AIが実用化されて当たり前になった技術は「もはやAIではない」と呼ばれなくなる現象を何と呼ぶか。",
+    "choices": [
+      { "label": "ア", "text": "AI効果" },
+      { "label": "イ", "text": "シンギュラリティ" },
+      { "label": "ウ", "text": "フレーム問題" },
+      { "label": "エ", "text": "知識獲得のボトルネック" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "g-kentei-diag-3",
+    "chapterOrder": 2,
+    "text": "正解ラベルが付与されたデータを用いて、入力と出力の関係を学習する手法はどれか。",
+    "choices": [
+      { "label": "ア", "text": "教師あり学習" },
+      { "label": "イ", "text": "教師なし学習" },
+      { "label": "ウ", "text": "強化学習" },
+      { "label": "エ", "text": "半教師あり学習" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "g-kentei-diag-4",
+    "chapterOrder": 2,
+    "text": "交差検証（クロスバリデーション）を行う主な目的として最も適切なものはどれか。",
+    "choices": [
+      { "label": "ア", "text": "モデルの汎化性能を安定して評価するため" },
+      { "label": "イ", "text": "学習速度を上げるため" },
+      { "label": "ウ", "text": "データを暗号化するため" },
+      { "label": "エ", "text": "ハイパーパラメータを自動生成するため" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "g-kentei-diag-5",
+    "chapterOrder": 3,
+    "text": "ニューラルネットワークにおいて、入力の重み付き和を非線形な出力に変換する関数を何と呼ぶか。",
+    "choices": [
+      { "label": "ア", "text": "活性化関数" },
+      { "label": "イ", "text": "誤差関数" },
+      { "label": "ウ", "text": "正則化" },
+      { "label": "エ", "text": "最適化関数" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "g-kentei-diag-6",
+    "chapterOrder": 4,
+    "text": "画像データの局所的な特徴を検出するフィルタを用いる、画像認識に強いニューラルネットワークの種類はどれか。",
+    "choices": [
+      { "label": "ア", "text": "畳み込みニューラルネットワーク(CNN)" },
+      { "label": "イ", "text": "リカレントニューラルネットワーク(RNN)" },
+      { "label": "ウ", "text": "オートエンコーダ" },
+      { "label": "エ", "text": "決定木" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "g-kentei-diag-7",
+    "chapterOrder": 5,
+    "text": "単語や文章を、意味的な関係性を保ったまま数値ベクトルに変換する技術を何と呼ぶか。",
+    "choices": [
+      { "label": "ア", "text": "単語埋め込み（分散表現）" },
+      { "label": "イ", "text": "ワンホットベクトル" },
+      { "label": "ウ", "text": "形態素解析" },
+      { "label": "エ", "text": "構文解析" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "g-kentei-diag-8",
+    "chapterOrder": 6,
+    "text": "生成器（Generator）と識別器（Discriminator）を競わせながら学習させ、本物らしいデータを生成する手法はどれか。",
+    "choices": [
+      { "label": "ア", "text": "敵対的生成ネットワーク(GAN)" },
+      { "label": "イ", "text": "サポートベクターマシン(SVM)" },
+      { "label": "ウ", "text": "決定木" },
+      { "label": "エ", "text": "ランダムフォレスト" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "g-kentei-diag-9",
+    "chapterOrder": 7,
+    "text": "ビジネス理解→データ理解→データ準備→モデリング→評価→展開という6段階を繰り返す、機械学習プロジェクト特有の進め方の型はどれか。",
+    "choices": [
+      { "label": "ア", "text": "CRISP-DM" },
+      { "label": "イ", "text": "ウォーターフォール" },
+      { "label": "ウ", "text": "BPR" },
+      { "label": "エ", "text": "MLOps" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "g-kentei-diag-10",
+    "chapterOrder": 8,
+    "text": "AIの学習データに社会的な偏りが含まれることで、予測・判断結果にも偏りが生じてしまう問題を何と呼ぶか。",
+    "choices": [
+      { "label": "ア", "text": "アルゴリズムバイアス" },
+      { "label": "イ", "text": "過学習" },
+      { "label": "ウ", "text": "勾配消失" },
+      { "label": "エ", "text": "次元の呪い" }
+    ],
+    "correctLabel": "ア"
+  }
+]

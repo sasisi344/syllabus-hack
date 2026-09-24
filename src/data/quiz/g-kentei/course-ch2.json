@@ -1,0 +1,90 @@
+[
+  {
+    "id": "g-kentei-course-ch2-1",
+    "text": "正解ラベルが付与されたデータを用いて、入力と出力の関係を学習する手法はどれか。",
+    "choices": [
+      { "label": "ア", "text": "教師あり学習" },
+      { "label": "イ", "text": "教師なし学習" },
+      { "label": "ウ", "text": "強化学習" },
+      { "label": "エ", "text": "半教師あり学習" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "g-kentei-course-ch2-2",
+    "text": "正解ラベルのないデータから、データ内に潜む構造やグループを見つけ出す学習手法はどれか。",
+    "choices": [
+      { "label": "ア", "text": "教師なし学習" },
+      { "label": "イ", "text": "教師あり学習" },
+      { "label": "ウ", "text": "強化学習" },
+      { "label": "エ", "text": "転移学習" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "g-kentei-course-ch2-3",
+    "text": "境界線（超平面）とデータ点との距離であるマージンを最大化するように分類境界を求める教師あり学習の手法はどれか。",
+    "choices": [
+      { "label": "ア", "text": "サポートベクターマシン(SVM)" },
+      { "label": "イ", "text": "k-means法" },
+      { "label": "ウ", "text": "主成分分析(PCA)" },
+      { "label": "エ", "text": "Q学習" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "g-kentei-course-ch2-4",
+    "text": "ブートストラップサンプリングで作った複数のデータセットからモデルを並列に学習し、多数決や平均を取るアンサンブル学習の手法はどれか。",
+    "choices": [
+      { "label": "ア", "text": "バギング" },
+      { "label": "イ", "text": "ブースティング" },
+      { "label": "ウ", "text": "転移学習" },
+      { "label": "エ", "text": "ファインチューニング" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "g-kentei-course-ch2-5",
+    "text": "エージェントが環境と相互作用しながら、報酬を最大化する行動方針を学習する手法はどれか。",
+    "choices": [
+      { "label": "ア", "text": "強化学習" },
+      { "label": "イ", "text": "教師あり学習" },
+      { "label": "ウ", "text": "教師なし学習" },
+      { "label": "エ", "text": "アンサンブル学習" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "g-kentei-course-ch2-6",
+    "text": "学習データに対して精度が高い一方、未知のデータ（テストデータ）に対する精度が著しく低下する現象を何と呼ぶか。",
+    "choices": [
+      { "label": "ア", "text": "過学習（オーバーフィッティング）" },
+      { "label": "イ", "text": "未学習（アンダーフィッティング）" },
+      { "label": "ウ", "text": "勾配消失" },
+      { "label": "エ", "text": "次元の呪い" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "g-kentei-course-ch2-7",
+    "text": "分類問題の評価指標のうち、正解と予測した中で実際に正解だった割合を示す指標はどれか。",
+    "choices": [
+      { "label": "ア", "text": "適合率（Precision）" },
+      { "label": "イ", "text": "再現率（Recall）" },
+      { "label": "ウ", "text": "正解率（Accuracy）" },
+      { "label": "エ", "text": "分散" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "g-kentei-course-ch2-8",
+    "text": "手元のデータを複数のグループに分割し、それぞれを順番にテストデータとして使うことでモデルの汎化性能を評価する手法はどれか。",
+    "choices": [
+      { "label": "ア", "text": "交差検証（クロスバリデーション）" },
+      { "label": "イ", "text": "アンサンブル学習" },
+      { "label": "ウ", "text": "転移学習" },
+      { "label": "エ", "text": "ファインチューニング" }
+    ],
+    "correctLabel": "ア"
+  }
+]

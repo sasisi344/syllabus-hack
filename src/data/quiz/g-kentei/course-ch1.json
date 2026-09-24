@@ -1,0 +1,68 @@
+[
+  {
+    "id": "g-kentei-course-ch1-1",
+    "text": "1956年に開催され、「人工知能（Artificial Intelligence）」という言葉が初めて使われた会議はどれか。",
+    "choices": [
+      { "label": "ア", "text": "ダートマス会議" },
+      { "label": "イ", "text": "エルジンボロ会議" },
+      { "label": "ウ", "text": "パシフィコ横浜会議" },
+      { "label": "エ", "text": "ジュネーブ会議" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "g-kentei-course-ch1-2",
+    "text": "第1次AIブームが冬の時代を迎えた最大の要因として適切なものはどれか。",
+    "choices": [
+      { "label": "ア", "text": "迷路やパズルのような「トイ・プロブレム」しか解けず、現実の複雑な問題に対応できなかったこと" },
+      { "label": "イ", "text": "計算資源が過剰であったこと" },
+      { "label": "ウ", "text": "インターネットが普及しすぎたこと" },
+      { "label": "エ", "text": "ディープラーニングが登場したこと" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "g-kentei-course-ch1-3",
+    "text": "第2次AIブーム（1980年代）を牽引した、専門家の知識をルールとしてコンピュータに与える手法の名称はどれか。",
+    "choices": [
+      { "label": "ア", "text": "エキスパートシステム" },
+      { "label": "イ", "text": "強化学習" },
+      { "label": "ウ", "text": "畳み込みニューラルネットワーク" },
+      { "label": "エ", "text": "遺伝的アルゴリズム" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "g-kentei-course-ch1-4",
+    "text": "「強いAI」と「弱いAI」の区別、および「中国語の部屋」という思考実験を提唱した哲学者はどれか。",
+    "choices": [
+      { "label": "ア", "text": "ジョン・サール" },
+      { "label": "イ", "text": "アラン・チューリング" },
+      { "label": "ウ", "text": "ノーバート・ウィーナー" },
+      { "label": "エ", "text": "マーヴィン・ミンスキー" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "g-kentei-course-ch1-5",
+    "text": "2012年の画像認識コンペティション（ILSVRC）で圧倒的な精度で優勝し、第3次AIブームの契機となったモデルはどれか。",
+    "choices": [
+      { "label": "ア", "text": "AlexNet" },
+      { "label": "イ", "text": "ENIAC" },
+      { "label": "ウ", "text": "ELIZA" },
+      { "label": "エ", "text": "Perceptron" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "g-kentei-course-ch1-6",
+    "text": "会話の受け答えだけで相手が人間かAIかを判定できなければ、その機械は知能を持つとみなしてよいとする思考実験はどれか。",
+    "choices": [
+      { "label": "ア", "text": "チューリングテスト" },
+      { "label": "イ", "text": "中国語の部屋" },
+      { "label": "ウ", "text": "トロッコ問題" },
+      { "label": "エ", "text": "シンボルグラウンディング問題" }
+    ],
+    "correctLabel": "ア"
+  }
+]

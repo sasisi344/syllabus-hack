@@ -1,0 +1,90 @@
+[
+  {
+    "id": "g-kentei-course-ch3-1",
+    "text": "ニューラルネットワークにおいて、入力の重み付き和を非線形な出力に変換する関数を何と呼ぶか。",
+    "choices": [
+      { "label": "ア", "text": "活性化関数" },
+      { "label": "イ", "text": "誤差関数" },
+      { "label": "ウ", "text": "正則化" },
+      { "label": "エ", "text": "最適化関数" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "g-kentei-course-ch3-2",
+    "text": "現在のディープラーニングで最も広く使われている活性化関数で、入力が0以下なら0、0より大きければそのまま出力する関数はどれか。",
+    "choices": [
+      { "label": "ア", "text": "ReLU関数" },
+      { "label": "イ", "text": "シグモイド関数" },
+      { "label": "ウ", "text": "ソフトマックス関数" },
+      { "label": "エ", "text": "tanh関数" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "g-kentei-course-ch3-3",
+    "text": "ニューラルネットワークの学習において、出力層の誤差を入力層に向かって伝播させ、各層の重みを更新する手法はどれか。",
+    "choices": [
+      { "label": "ア", "text": "誤差逆伝播法" },
+      { "label": "イ", "text": "勾配降下法" },
+      { "label": "ウ", "text": "交差検証" },
+      { "label": "エ", "text": "ドロップアウト" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "g-kentei-course-ch3-4",
+    "text": "層が深くなるにつれて、逆伝播の際に勾配が極端に小さくなり、学習が進まなくなる問題を何と呼ぶか。",
+    "choices": [
+      { "label": "ア", "text": "勾配消失問題" },
+      { "label": "イ", "text": "勾配爆発問題" },
+      { "label": "ウ", "text": "次元の呪い" },
+      { "label": "エ", "text": "信用割当問題" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "g-kentei-course-ch3-5",
+    "text": "学習中にランダムに一部のニューロンを無効化することで過学習を抑制する正則化の手法はどれか。",
+    "choices": [
+      { "label": "ア", "text": "ドロップアウト" },
+      { "label": "イ", "text": "L2正則化" },
+      { "label": "ウ", "text": "アンサンブル学習" },
+      { "label": "エ", "text": "早期終了" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "g-kentei-course-ch3-6",
+    "text": "モーメンタムと学習率の自動調整を組み合わせた最適化手法で、現在最も広く使われている標準的な手法はどれか。",
+    "choices": [
+      { "label": "ア", "text": "Adam" },
+      { "label": "イ", "text": "AdaGrad" },
+      { "label": "ウ", "text": "確率的勾配降下法(SGD)" },
+      { "label": "エ", "text": "グリッドサーチ" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "g-kentei-course-ch3-7",
+    "text": "重みの絶対値の合計にペナルティを課し、一部の重みを完全に0にすることで不要な特徴量を自動的に削る効果がある正則化はどれか。",
+    "choices": [
+      { "label": "ア", "text": "L1正則化" },
+      { "label": "イ", "text": "L2正則化" },
+      { "label": "ウ", "text": "ドロップアウト" },
+      { "label": "エ", "text": "早期終了" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "g-kentei-course-ch3-8",
+    "text": "分類問題において、予測した確率分布と正解の確率分布のズレを測る誤差関数として最も一般的に使われるものはどれか。",
+    "choices": [
+      { "label": "ア", "text": "交差エントロピー" },
+      { "label": "イ", "text": "平均二乗誤差関数" },
+      { "label": "ウ", "text": "Contrastive Loss" },
+      { "label": "エ", "text": "Triplet Loss" }
+    ],
+    "correctLabel": "ア"
+  }
+]

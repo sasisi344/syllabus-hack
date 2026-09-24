@@ -1,0 +1,242 @@
+[
+  {
+    "id": "g-kentei-review-1",
+    "chapterOrder": 1,
+    "text": "第2次AIブーム（1980年代）を牽引した、専門家の知識をルールとしてコンピュータに与える手法の名称はどれか。",
+    "choices": [
+      { "label": "ア", "text": "エキスパートシステム" },
+      { "label": "イ", "text": "強化学習" },
+      { "label": "ウ", "text": "畳み込みニューラルネットワーク" },
+      { "label": "エ", "text": "遺伝的アルゴリズム" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "g-kentei-review-2",
+    "chapterOrder": 1,
+    "text": "会話の受け答えだけで相手が人間かAIかを判定できなければ、その機械は知能を持つとみなしてよいとする思考実験はどれか。",
+    "choices": [
+      { "label": "ア", "text": "チューリングテスト" },
+      { "label": "イ", "text": "中国語の部屋" },
+      { "label": "ウ", "text": "トロッコ問題" },
+      { "label": "エ", "text": "シンボルグラウンディング問題" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "g-kentei-review-3",
+    "chapterOrder": 2,
+    "text": "境界線（超平面）とデータ点との距離であるマージンを最大化するように分類境界を求める教師あり学習の手法はどれか。",
+    "choices": [
+      { "label": "ア", "text": "サポートベクターマシン(SVM)" },
+      { "label": "イ", "text": "k-means法" },
+      { "label": "ウ", "text": "主成分分析(PCA)" },
+      { "label": "エ", "text": "Q学習" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "g-kentei-review-4",
+    "chapterOrder": 2,
+    "text": "エージェントが環境と相互作用しながら、報酬を最大化する行動方針を学習する手法はどれか。",
+    "choices": [
+      { "label": "ア", "text": "強化学習" },
+      { "label": "イ", "text": "教師あり学習" },
+      { "label": "ウ", "text": "教師なし学習" },
+      { "label": "エ", "text": "アンサンブル学習" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "g-kentei-review-5",
+    "chapterOrder": 2,
+    "text": "分類問題の評価指標のうち、正解と予測した中で実際に正解だった割合を示す指標はどれか。",
+    "choices": [
+      { "label": "ア", "text": "適合率（Precision）" },
+      { "label": "イ", "text": "再現率（Recall）" },
+      { "label": "ウ", "text": "正解率（Accuracy）" },
+      { "label": "エ", "text": "分散" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "g-kentei-review-6",
+    "chapterOrder": 3,
+    "text": "モーメンタムと学習率の自動調整を組み合わせた最適化手法で、現在最も広く使われている標準的な手法はどれか。",
+    "choices": [
+      { "label": "ア", "text": "Adam" },
+      { "label": "イ", "text": "AdaGrad" },
+      { "label": "ウ", "text": "確率的勾配降下法(SGD)" },
+      { "label": "エ", "text": "グリッドサーチ" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "g-kentei-review-7",
+    "chapterOrder": 3,
+    "text": "学習中にランダムに一部のニューロンを無効化することで過学習を抑制する正則化の手法はどれか。",
+    "choices": [
+      { "label": "ア", "text": "ドロップアウト" },
+      { "label": "イ", "text": "L2正則化" },
+      { "label": "ウ", "text": "アンサンブル学習" },
+      { "label": "エ", "text": "早期終了" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "g-kentei-review-8",
+    "chapterOrder": 4,
+    "text": "ある層の入力を、その先の層の出力に直接足し合わせることで勾配の逆伝播の近道を作り、非常に深いネットワークの学習を可能にした仕組みを採用したモデルはどれか。",
+    "choices": [
+      { "label": "ア", "text": "ResNet" },
+      { "label": "イ", "text": "LeNet" },
+      { "label": "ウ", "text": "VGG" },
+      { "label": "エ", "text": "AlexNet" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "g-kentei-review-9",
+    "chapterOrder": 4,
+    "text": "「Attention（注意機構）」を全面的に採用し、現在の大規模言語モデル（GPT等）の基盤となっているアーキテクチャはどれか。",
+    "choices": [
+      { "label": "ア", "text": "Transformer" },
+      { "label": "イ", "text": "LSTM" },
+      { "label": "ウ", "text": "ResNet" },
+      { "label": "エ", "text": "オートエンコーダ" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "g-kentei-review-10",
+    "chapterOrder": 4,
+    "text": "RNNの勾配消失問題を解決するため、情報を「覚える・忘れる」を制御するゲート機構を導入した改良モデルはどれか。",
+    "choices": [
+      { "label": "ア", "text": "LSTM" },
+      { "label": "イ", "text": "単純パーセプトロン" },
+      { "label": "ウ", "text": "オートエンコーダ" },
+      { "label": "エ", "text": "決定木" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "g-kentei-review-11",
+    "chapterOrder": 5,
+    "text": "画像全体を一度に処理して高速に物体検出を行う1段階方式の代表的なモデルはどれか。",
+    "choices": [
+      { "label": "ア", "text": "YOLO" },
+      { "label": "イ", "text": "Faster R-CNN" },
+      { "label": "ウ", "text": "Mask R-CNN" },
+      { "label": "エ", "text": "UNet" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "g-kentei-review-12",
+    "chapterOrder": 5,
+    "text": "Transformerを応用し、文章の前後両方向の文脈を同時に読み込んで単語の意味を捉える代表的な自然言語処理モデルはどれか。",
+    "choices": [
+      { "label": "ア", "text": "BERT" },
+      { "label": "イ", "text": "word2vec" },
+      { "label": "ウ", "text": "TF-IDF" },
+      { "label": "エ", "text": "n-gram" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "g-kentei-review-13",
+    "chapterOrder": 5,
+    "text": "音声データを文字列に変換する技術の名称はどれか。",
+    "choices": [
+      { "label": "ア", "text": "音声認識" },
+      { "label": "イ", "text": "音声合成" },
+      { "label": "ウ", "text": "話者識別" },
+      { "label": "エ", "text": "感情分析" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "g-kentei-review-14",
+    "chapterOrder": 6,
+    "text": "大規模言語モデルを人間にとって望ましい出力に調整するため、人間のフィードバックを報酬として利用する強化学習の手法はどれか。",
+    "choices": [
+      { "label": "ア", "text": "RLHF" },
+      { "label": "イ", "text": "BPTT" },
+      { "label": "ウ", "text": "CTC" },
+      { "label": "エ", "text": "NAS" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "g-kentei-review-15",
+    "chapterOrder": 6,
+    "text": "既に大規模データで学習済みのモデルを、少量の目的タスク用データで再調整して特定タスクに適応させる手法はどれか。",
+    "choices": [
+      { "label": "ア", "text": "ファインチューニング" },
+      { "label": "イ", "text": "アンサンブル学習" },
+      { "label": "ウ", "text": "正則化" },
+      { "label": "エ", "text": "ドロップアウト" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "g-kentei-review-16",
+    "chapterOrder": 7,
+    "text": "本来モデルが学習時に知りえない未来の情報などが誤って学習データに混入し、学習時の評価は高精度に見えても実運用では性能が出なくなる現象を何と呼ぶか。",
+    "choices": [
+      { "label": "ア", "text": "データリーケージ" },
+      { "label": "イ", "text": "過学習" },
+      { "label": "ウ", "text": "次元の呪い" },
+      { "label": "エ", "text": "勾配消失問題" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "g-kentei-review-17",
+    "chapterOrder": 7,
+    "text": "自然現象や測定誤差など、多くのデータが従う釣鐘型の確率分布はどれか。",
+    "choices": [
+      { "label": "ア", "text": "正規分布" },
+      { "label": "イ", "text": "二項分布" },
+      { "label": "ウ", "text": "ポアソン分布" },
+      { "label": "エ", "text": "ベルヌーイ分布" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "g-kentei-review-18",
+    "chapterOrder": 8,
+    "text": "EU域内の個人データを扱う場合に適用される可能性がある、日本の個人情報保護法より厳格な規則はどれか。",
+    "choices": [
+      { "label": "ア", "text": "GDPR" },
+      { "label": "イ", "text": "GLUE" },
+      { "label": "ウ", "text": "CRISP-DM" },
+      { "label": "エ", "text": "SaaS" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "g-kentei-review-19",
+    "chapterOrder": 8,
+    "text": "実在しない映像・音声を精巧に合成し、悪用されると社会に混乱を招く技術を何と呼ぶか。",
+    "choices": [
+      { "label": "ア", "text": "ディープフェイク" },
+      { "label": "イ", "text": "データ拡張" },
+      { "label": "ウ", "text": "データ汚染" },
+      { "label": "エ", "text": "蒸留" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "g-kentei-review-20",
+    "chapterOrder": 8,
+    "text": "AIガバナンスにおいて、問題が起きた際にその原因まで遡って追跡できるようにする実務上の要点を何と呼ぶか。",
+    "choices": [
+      { "label": "ア", "text": "トレーサビリティ" },
+      { "label": "イ", "text": "ダイバーシティ" },
+      { "label": "ウ", "text": "リスクベースアプローチ" },
+      { "label": "エ", "text": "プライバシー・バイ・デザイン" }
+    ],
+    "correctLabel": "ア"
+  }
+]

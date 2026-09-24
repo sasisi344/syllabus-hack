@@ -1,0 +1,90 @@
+[
+  {
+    "id": "g-kentei-course-ch8-1",
+    "text": "日本の著作権法において、AI開発のための機械学習を目的としたデータ利用（情報解析）に関する規定が置かれている条文はどれか。",
+    "choices": [
+      { "label": "ア", "text": "著作権法第30条の4" },
+      { "label": "イ", "text": "個人情報保護法第20条" },
+      { "label": "ウ", "text": "不正競争防止法第2条" },
+      { "label": "エ", "text": "特許法第29条" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "g-kentei-course-ch8-2",
+    "text": "EU域内の個人データを扱う場合に適用される可能性がある、日本の個人情報保護法より厳格な規則はどれか。",
+    "choices": [
+      { "label": "ア", "text": "GDPR" },
+      { "label": "イ", "text": "GLUE" },
+      { "label": "ウ", "text": "CRISP-DM" },
+      { "label": "エ", "text": "SaaS" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "g-kentei-course-ch8-3",
+    "text": "AI開発は完成責任を事前に約束しづらい不確実性が高い性質を持つため、請負契約より適することが多いとされる契約形態はどれか。",
+    "choices": [
+      { "label": "ア", "text": "準委任契約" },
+      { "label": "イ", "text": "SaaS型契約" },
+      { "label": "ウ", "text": "秘密保持契約(NDA)のみ" },
+      { "label": "エ", "text": "限定提供データ契約" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "g-kentei-course-ch8-4",
+    "text": "AIの学習データに社会的な偏りが含まれることで、予測・判断結果にも偏りが生じてしまう問題を何と呼ぶか。",
+    "choices": [
+      { "label": "ア", "text": "アルゴリズムバイアス" },
+      { "label": "イ", "text": "過学習" },
+      { "label": "ウ", "text": "勾配消失" },
+      { "label": "エ", "text": "次元の呪い" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "g-kentei-course-ch8-5",
+    "text": "経済産業省・総務省が公表している、AI開発者・提供者・利用者それぞれの立場で留意すべき事項をまとめた指針はどれか。",
+    "choices": [
+      { "label": "ア", "text": "AI事業者ガイドライン" },
+      { "label": "イ", "text": "個人情報保護法" },
+      { "label": "ウ", "text": "不正アクセス禁止法" },
+      { "label": "エ", "text": "特定商取引法" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "g-kentei-course-ch8-6",
+    "text": "実在しない映像・音声を精巧に合成し、悪用されると社会に混乱を招く技術を何と呼ぶか。",
+    "choices": [
+      { "label": "ア", "text": "ディープフェイク" },
+      { "label": "イ", "text": "データ拡張" },
+      { "label": "ウ", "text": "データ汚染" },
+      { "label": "エ", "text": "蒸留" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "g-kentei-course-ch8-7",
+    "text": "AIの判断根拠を人間が理解できる形で説明可能にする技術・概念を何と呼ぶか。",
+    "choices": [
+      { "label": "ア", "text": "説明可能なAI（XAI）" },
+      { "label": "イ", "text": "強いAI" },
+      { "label": "ウ", "text": "エッジAI" },
+      { "label": "エ", "text": "生成AI" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "g-kentei-course-ch8-8",
+    "text": "AIガバナンスにおいて、問題が起きた際にその原因まで遡って追跡できるようにする実務上の要点を何と呼ぶか。",
+    "choices": [
+      { "label": "ア", "text": "トレーサビリティ" },
+      { "label": "イ", "text": "ダイバーシティ" },
+      { "label": "ウ", "text": "リスクベースアプローチ" },
+      { "label": "エ", "text": "プライバシー・バイ・デザイン" }
+    ],
+    "correctLabel": "ア"
+  }
+]

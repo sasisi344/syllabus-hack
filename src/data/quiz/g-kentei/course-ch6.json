@@ -1,0 +1,90 @@
+[
+  {
+    "id": "g-kentei-course-ch6-1",
+    "text": "行動価値関数（Q値）をニューラルネットワークで近似する、深層強化学習の代表的な出発点となった手法はどれか。",
+    "choices": [
+      { "label": "ア", "text": "DQN" },
+      { "label": "イ", "text": "決定木" },
+      { "label": "ウ", "text": "ランダムフォレスト" },
+      { "label": "エ", "text": "k-means法" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "g-kentei-course-ch6-2",
+    "text": "大規模言語モデルを人間にとって望ましい出力に調整するため、人間のフィードバックを報酬として利用する強化学習の手法はどれか。",
+    "choices": [
+      { "label": "ア", "text": "RLHF" },
+      { "label": "イ", "text": "BPTT" },
+      { "label": "ウ", "text": "CTC" },
+      { "label": "エ", "text": "NAS" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "g-kentei-course-ch6-3",
+    "text": "生成器（Generator）と識別器（Discriminator）を競わせながら学習させ、本物らしいデータを生成する手法はどれか。",
+    "choices": [
+      { "label": "ア", "text": "敵対的生成ネットワーク(GAN)" },
+      { "label": "イ", "text": "変分オートエンコーダ(VAE)" },
+      { "label": "ウ", "text": "サポートベクターマシン(SVM)" },
+      { "label": "エ", "text": "決定木" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "g-kentei-course-ch6-4",
+    "text": "元の画像に少しずつノイズを加える過程を学習し、その逆の過程を再現することで新しい画像を生成する、近年主流の生成モデルはどれか。",
+    "choices": [
+      { "label": "ア", "text": "Diffusion Model" },
+      { "label": "イ", "text": "DCGAN" },
+      { "label": "ウ", "text": "ResNet" },
+      { "label": "エ", "text": "LSTM" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "g-kentei-course-ch6-5",
+    "text": "既に大規模データで学習済みのモデルを、少量の目的タスク用データで再調整して特定タスクに適応させる手法はどれか。",
+    "choices": [
+      { "label": "ア", "text": "ファインチューニング" },
+      { "label": "イ", "text": "アンサンブル学習" },
+      { "label": "ウ", "text": "正則化" },
+      { "label": "エ", "text": "ドロップアウト" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "g-kentei-course-ch6-6",
+    "text": "転移学習・ファインチューニングにおいて、新しいタスクに適応させる過程で元のタスクで学習した知識を忘れてしまう現象を何と呼ぶか。",
+    "choices": [
+      { "label": "ア", "text": "破滅的忘却" },
+      { "label": "イ", "text": "勾配消失問題" },
+      { "label": "ウ", "text": "過学習" },
+      { "label": "エ", "text": "次元の呪い" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "g-kentei-course-ch6-7",
+    "text": "画像分類において、モデルがどの領域に着目して判断したかをヒートマップで可視化する、説明可能AI(XAI)の代表的な手法はどれか。",
+    "choices": [
+      { "label": "ア", "text": "Grad-CAM" },
+      { "label": "イ", "text": "ドロップアウト" },
+      { "label": "ウ", "text": "k-分割交差検証" },
+      { "label": "エ", "text": "早期終了" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "g-kentei-course-ch6-8",
+    "text": "大きな学習済みモデル（教師モデル）の知識を、小さなモデル（生徒モデル）に転移させるモデル軽量化の手法はどれか。",
+    "choices": [
+      { "label": "ア", "text": "蒸留" },
+      { "label": "イ", "text": "プルーニング" },
+      { "label": "ウ", "text": "量子化" },
+      { "label": "エ", "text": "正則化" }
+    ],
+    "correctLabel": "ア"
+  }
+]

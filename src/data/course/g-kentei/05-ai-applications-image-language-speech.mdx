@@ -1,0 +1,92 @@
+---
+title: '第5章 画像・言語・音声のAI応用'
+examId: 'g-kentei'
+kind: 'chapter'
+order: 5
+genre: 'AI応用'
+estimatedMinutes: 150
+syllabusRefs: ['画像認識', '自然言語処理', '音声処理']
+field2027: 'technology'
+quizRef: 'course-ch5'
+relatedPosts: ['theory/text-mining-nlp']
+noteUrl: ''
+draft: false
+lastmod: 2026-09-24
+metadata:
+  description: 'G検定20時間コース第5章。画像認識（物体検出・セグメンテーション）、自然言語処理（単語埋め込み・BERT等）、音声処理（音声認識・音声合成）という3つのAI応用分野の代表モデル・タスクを精選して押さえる。'
+---
+
+import ChapterQuiz from '~/apps/course-quiz/ChapterQuiz';
+import questions from '~/data/quiz/g-kentei/course-ch5.json';
+
+## この章で学ぶこと
+
+第4章で学んだ畳み込み層・回帰結合層・Attentionといった部品が、実際にどんなタスクで使われているかを見る章です。<strong>画像認識</strong>・<strong>自然言語処理</strong>・<strong>音声処理</strong>という3つの応用分野は、それぞれ扱うデータの性質が異なるため、使われる代表モデルも異なります。固有名詞のモデルが数多く登場しますが、「どのタスクを解くために、なぜそのモデルが必要になったか」という文脈を押さえることを優先し、個々のモデルの内部構造の丸暗記は避けましょう。既存theory記事「[テキストマイニング・自然言語処理の基礎](/theory/text-mining-nlp/)」もあわせて参照してください。
+
+## 画像認識
+
+画像認識には複数のタスクがあります。画像全体が何であるかを判定する<strong>一般物体認識</strong>、画像内の物体の種類と位置を矩形（バウンディングボックス）で特定する<strong>物体検出</strong>、物体の種類だけを特定する<strong>物体識別</strong>です。さらに細かく、画像を画素単位でカテゴリ分けする<strong>セマンティックセグメンテーション</strong>、同じカテゴリでも個体ごとに領域を分ける<strong>インスタンスセグメンテーション</strong>、両者を統合し背景も含めて画素単位で分類する<strong>パノプティックセグメンテーション</strong>、人物の関節位置を推定する<strong>姿勢推定</strong>もあります。
+
+画像分類の代表モデルは、層を深くして精度を上げた<strong>VGG</strong>、複数サイズのフィルタを並列に使う<strong>GoogLeNet</strong>、第4章で学んだスキップ結合を導入した<strong>ResNet</strong>（さらに幅を広げた<strong>Wide ResNet</strong>）、層同士を密に結合する<strong>DenseNet</strong>、チャンネルごとの重要度を学習する<strong>SENet</strong>という順に発展してきました。モデルの構造そのものを自動探索する<strong>NAS(Neural Architecture Search)</strong>によって設計された<strong>MnasNet</strong>、スマートフォンなど計算資源が限られた環境向けに軽量化された<strong>MobileNet</strong>、精度と計算量のバランスを体系的に最適化した<strong>EfficientNet</strong>は、第4章のDepthwise Separable Convolutionのような軽量化技術の集大成です。近年は、第4章で学んだTransformerを画像分類に応用した<strong>Vision Transformer</strong>も広く使われています。
+
+物体検出では、候補領域を提案してから分類する2段階方式の<strong>Fast R-CNN</strong>・<strong>Faster R-CNN</strong>、異なる解像度の特徴マップを組み合わせて小さな物体も検出しやすくする<strong>FPN</strong>、画像全体を一度に処理して高速に検出する1段階方式の<strong>YOLO</strong>・<strong>SSD</strong>が代表的です（精度重視の2段階方式、速度重視の1段階方式という対比で覚えると整理しやすくなります）。セグメンテーションでは、全結合層を使わず畳み込み層だけで画素単位の出力を得る<strong>FCN(Fully Convolutional Network)</strong>、それを発展させエンコーダ・デコーダ構造にした<strong>UNet</strong>・<strong>SegNet</strong>、広い範囲の文脈情報を取り込む<strong>PSPNet</strong>・<strong>DeepLab</strong>、物体検出とセグメンテーションを組み合わせインスタンスセグメンテーションを実現する<strong>Mask R-CNN</strong>があります。姿勢推定の代表モデルが<strong>Open Pose</strong>です。
+
+**扱う用語（精選・24語）**
+
+- 一般物体認識／物体検出／物体識別／セマンティックセグメンテーション／インスタンスセグメンテーション／パノプティックセグメンテーション／姿勢推定
+- VGG／GoogLeNet／ResNet／Wide ResNet／DenseNet／SENet／NAS(Neural Architecture Search)／MnasNet／MobileNet／EfficientNet／Vision Transformer
+- Fast R-CNN・Faster R-CNN／FPN／YOLO／SSD
+- FCN(Fully Convolutional Network)／UNet・SegNet／PSPNet・DeepLab／Mask R-CNN／Open Pose
+
+## 自然言語処理
+
+自然言語処理には、文章の感情を判定する<strong>感情分析</strong>、ある言語から別の言語に変換する<strong>機械翻訳</strong>、文を単語に分割し品詞を判定する<strong>形態素解析</strong>、文の構造（係り受け）を解析する<strong>構文解析</strong>、質問に対して回答を返す<strong>質問応答</strong>、文書から必要な情報を検索する<strong>情報検索</strong>、長い文章を短くまとめる<strong>文書要約</strong>といったタスクがあります。
+
+単語をコンピュータが扱える数値ベクトルに変換する技術を<strong>単語埋め込み</strong>（<strong>分散表現</strong>とも呼ぶ）と呼びます。最も単純な表現は、対象の単語だけ1、それ以外は0にする<strong>ワンホットベクトル</strong>ですが、単語同士の意味的な近さを表現できないという弱点があります。これを解決したのが、周辺の単語から対象の単語を予測する過程で意味の近い単語を近いベクトルに学習する<strong>word2vec</strong>で、周辺単語から対象単語を予測する<strong>CBOW</strong>と、対象単語から周辺単語を予測する<strong>スキップグラム</strong>という2つの学習方式があります。単語の出現頻度をもとに文書の特徴を数値化する古典的な手法が<strong>BoW(Bag-of-Words)</strong>・<strong>TF-IDF</strong>、単語の並び（n個の連続する単語）に着目する<strong>n-gram</strong>、word2vecをさらに拡張し単語の一部（部分文字列）の情報も使う<strong>fastText</strong>も押さえておきましょう。
+
+第4章で学んだ回帰結合層・Attentionは、自然言語処理の発展を強力に後押ししました。回帰結合層の記憶セルを表す<strong>CEC</strong>（LSTMの内部構造の一部）、文脈によって単語の意味（ベクトル）を変化させる<strong>ELMo</strong>、そしてTransformerを応用した<strong>BERT</strong>は、文章の前後両方向の文脈を同時に読み込んで単語の意味を捉える代表的なモデルです。さらに大規模化したモデルの総称が<strong>大規模言語モデル(LLM)</strong>で、Googleが開発した<strong>PaLM</strong>のような大規模モデルが代表例として挙げられます。自然言語処理タスクの標準的な性能評価用ベンチマークとして<strong>GLUE</strong>が使われます。なお、第1章で学んだ<strong>統計的機械翻訳</strong>は、現在主流のニューラル機械翻訳（Seq2Seq・Transformerベース）が登場する以前の手法として歴史的に押さえておきましょう。
+
+**扱う用語（精選・20語）**
+
+- 感情分析／機械翻訳／形態素解析／構文解析／質問応答／情報検索／文書要約
+- 単語埋め込み・分散表現／ワンホットベクトル／word2vec／CBOW／スキップグラム／BoW(Bag-of-Words)・TF-IDF／n-gram／fastText
+- CEC／ELMo／BERT／大規模言語モデル(LLM)／PaLM／GLUE
+
+## 音声処理
+
+音声はもともとアナログの連続的な波形であるため、コンピュータで扱うには数値データへの変換が必要です。一定間隔で波形をサンプリングし数値化する<strong>A-D変換</strong>、その結果をデジタルデータとして符号化する<strong>パルス符号変調器(PCM)</strong>が入り口の処理です。音の波形を周波数成分に分解する<strong>高速フーリエ変換(FFT)</strong>により、声の高さや音色に関わる情報を取り出せます。声道の共鳴特性を表す<strong>スペクトル包絡</strong>や、母音の特徴を決める周波数のピークである<strong>フォルマント</strong>（その周波数を<strong>フォルマント周波数</strong>と呼ぶ）は、人間の聴覚特性に基づく<strong>メル尺度</strong>で調整した<strong>メル周波数ケプストラム係数(MFCC)</strong>という形で特徴量化され、音声認識モデルへの入力に使われます。
+
+音声を文字に変換するタスクが<strong>音声認識</strong>、逆に文字や記号列から音声を合成するタスクが<strong>音声合成</strong>です。言語の意味を区別する音の最小単位を<strong>音素</strong>、実際に発音される音の物理的な単位を<strong>音韻</strong>と呼びます。音声認識では、音の並びを確率的にモデル化する古典的な手法として<strong>隠れマルコフモデル</strong>が使われてきました。入力と出力の長さ（フレーム数と文字数）が一致しない音声認識特有の課題に対応する学習手法が<strong>CTC</strong>です。ディープラーニングを用いた音声合成の代表モデルが<strong>WaveNet</strong>で、波形そのものを1サンプルずつ直接生成する手法として音質の大幅な向上をもたらしました。声の特徴から発話者を特定するタスクを<strong>話者識別</strong>、音声からの<strong>感情分析</strong>も応用例として挙げられます。
+
+**扱う用語（精選・16語）**
+
+- A-D変換／パルス符号変調器(PCM)／高速フーリエ変換(FFT)
+- スペクトル包絡／フォルマント・フォルマント周波数／メル尺度／メル周波数ケプストラム係数(MFCC)
+- 音声認識／音声合成／音素／音韻／隠れマルコフモデル／CTC
+- WaveNet／話者識別／感情分析
+
+## AIで学ぶ
+
+ここまでの用語は、ChatGPTやClaudeなどの生成AIに以下のプロンプトを投げかけると、比較表つきでさらに深く掘り下げて学習できます。コピーして使ってみましょう。
+
+```
+あなたはG検定（ジェネラリスト検定）の講師です。「画像・言語・音声のAI応用」の範囲について、以下の用語を初学者向けに**関連づけながら**説明してください（単体の丸暗記より、用語同士のつながりを理解したほうが記憶に定着しやすく、試験本番で紛らわしい選択肢を見分ける力もつくためです）。それぞれのモデルが「どのタスクを解くために」「どんな課題を解決するために」登場したのかを軸に整理し、用語同士の違いが分かる**比較表**を最後に付けてください。
+
+【画像認識】一般物体認識、物体検出、物体識別、セマンティックセグメンテーション、インスタンスセグメンテーション、パノプティックセグメンテーション、姿勢推定、VGG、GoogLeNet、ResNet、DenseNet、SENet、NAS、MobileNet、EfficientNet、Vision Transformer、Fast R-CNN、Faster R-CNN、FPN、YOLO、SSD、FCN、UNet、SegNet、PSPNet、DeepLab、Mask R-CNN、Open Pose
+【自然言語処理】感情分析、機械翻訳、形態素解析、構文解析、質問応答、情報検索、文書要約、単語埋め込み、分散表現、ワンホットベクトル、word2vec、CBOW、スキップグラム、BoW、TF-IDF、n-gram、fastText、CEC、ELMo、BERT、大規模言語モデル(LLM)、PaLM、GLUE
+【音声処理】A-D変換、パルス符号変調器(PCM)、高速フーリエ変換(FFT)、スペクトル包絡、フォルマント、メル尺度、メル周波数ケプストラム係数(MFCC)、音声認識、音声合成、音素、音韻、隠れマルコフモデル、CTC、WaveNet、話者識別
+```
+
+このプロンプトが「どのタスクを解くために登場したか」という<strong>文脈での整理</strong>を指示しているのは、この章に固有名詞のモデルが特に多く、単純な暗記では試験本番で似た名前のモデルを混同しやすいためです。タスクの系譜（例: R-CNN系は2段階方式が精度重視、YOLO/SSDは1段階方式が速度重視）で理解すると、初見のモデル名が出ても消去法で対応しやすくなります。
+
+## 章末チェック
+
+最後に、この章で学んだ知識をアウトプットして定着させましょう。全問に答えたら「答え合わせ」を押してください。
+
+<ChapterQuiz client:load questions={questions} examId="g-kentei" mode="chapter" chapterOrder={5} />
+
+## この章のまとめ
+
+この章では、画像認識（物体検出・セグメンテーション等のタスクと代表モデル）、自然言語処理（単語埋め込みからBERT・LLMまでの発展）、音声処理（音声認識・音声合成の仕組み）という3つの応用分野を学びました。固有名詞は多いものの、「どのタスクのために、どんな課題を解決して登場したか」という文脈で整理すれば初見の選択肢にも対応できます。
+
+次章では、AlphaGoで注目された<strong>深層強化学習</strong>と、画像・文章を新たに生み出す<strong>データ生成（GAN・拡散モデル等）</strong>という、応用分野のもう一つの柱を学びます。→ [第6章 強化学習と生成・汎化技術](/course/g-kentei/06-reinforcement-generation-generalization/)

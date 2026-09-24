@@ -30,7 +30,7 @@
 
 > 正本: [`archive/week4-task.md`](../.new-contentplan/archive/week4-task.md)。IP/SG/DMコース実装完了に伴い、week1〜4タスクファイルおよびip-course/sg-course/dm-course関連ファイルは2026-09-20付で`.workspace/.new-contentplan/archive/`へ移動済み
 
-- [x] Week4完了タスク一式（GA4/GSC計測開始、SG/DM/PD-M/PD-S各パイロットの公開完了、今月の振り返り、trend記事確認）→ 2026-09-22アーカイブ。**IPAグループ（`ip`→`sg`→`dm`→`pd-m`→`pd-s`）の20時間コース展開が全て完了**。詳細は[`archive/completed-2026-09-22.md`](archive/completed-2026-09-22.md)、PD-M/PD-S実装の正本は[`../.new-contentplan/archive/pd-course/pd-course-task.md`](../.new-contentplan/archive/pd-course/pd-course-task.md)参照。次の着手対象はG検定（[`../.new-contentplan/g-kentei-course/g-kentei-course-task.md`](../.new-contentplan/g-kentei-course/g-kentei-course-task.md)参照）
+- [x] Week4完了タスク一式（GA4/GSC計測開始、SG/DM/PD-M/PD-S各パイロットの公開完了、今月の振り返り、trend記事確認）→ 2026-09-22アーカイブ。**IPAグループ（`ip`→`sg`→`dm`→`pd-m`→`pd-s`）の20時間コース展開が全て完了**。詳細は[`archive/completed-2026-09-22.md`](archive/completed-2026-09-22.md)、PD-M/PD-S実装の正本は[`../.new-contentplan/archive/pd-course/pd-course-task.md`](../.new-contentplan/archive/pd-course/pd-course-task.md)参照。**G検定コースは2026-09-24着手・同日に本文執筆まで完了**。全8章＋index・章末チェック/診断/総復習の問題データ（計92問）を実装、`pnpm astro check`で0エラーを確認済み（`draft: true`のため未公開）。公開判断・DMコースへの逆方向リンク追記・既存記事からの導線設置が残タスク（[`../.new-contentplan/g-kentei-course/g-kentei-course-task.md`](../.new-contentplan/g-kentei-course/g-kentei-course-task.md) §4 / [`g-kentei-course-curriculum.md`](../.new-contentplan/g-kentei-course/g-kentei-course-curriculum.md)参照）
 - [ ] 来月着手するTier2（有料note・合格テキスト）の準備確認: noteアカウント開設・価格帯・巻数設計（[`ip-course-curriculum.md`](../.new-contentplan/archive/ip-course/ip-course-curriculum.md) §4）の検討再開、メールゲート実装方式の確定
 
 ---

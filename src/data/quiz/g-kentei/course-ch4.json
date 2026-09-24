@@ -1,0 +1,90 @@
+[
+  {
+    "id": "g-kentei-course-ch4-1",
+    "text": "画像データの局所的な特徴（エッジや模様など）を検出するフィルタを用いる、画像認識に強いニューラルネットワークの種類はどれか。",
+    "choices": [
+      { "label": "ア", "text": "畳み込みニューラルネットワーク(CNN)" },
+      { "label": "イ", "text": "リカレントニューラルネットワーク(RNN)" },
+      { "label": "ウ", "text": "オートエンコーダ" },
+      { "label": "エ", "text": "Transformer" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "g-kentei-course-ch4-2",
+    "text": "ある層の入力を、その先の層の出力に直接足し合わせることで勾配の逆伝播の近道を作り、非常に深いネットワークの学習を可能にした仕組みを採用したモデルはどれか。",
+    "choices": [
+      { "label": "ア", "text": "ResNet" },
+      { "label": "イ", "text": "LeNet" },
+      { "label": "ウ", "text": "VGG" },
+      { "label": "エ", "text": "AlexNet" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "g-kentei-course-ch4-3",
+    "text": "時系列データや自然言語のような、順序を持つデータの処理に適したニューラルネットワークの種類はどれか。",
+    "choices": [
+      { "label": "ア", "text": "リカレントニューラルネットワーク(RNN)" },
+      { "label": "イ", "text": "畳み込みニューラルネットワーク(CNN)" },
+      { "label": "ウ", "text": "サポートベクターマシン(SVM)" },
+      { "label": "エ", "text": "ランダムフォレスト" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "g-kentei-course-ch4-4",
+    "text": "RNNの勾配消失問題を解決するため、情報を「覚える・忘れる」を制御するゲート機構を導入した改良モデルはどれか。",
+    "choices": [
+      { "label": "ア", "text": "LSTM" },
+      { "label": "イ", "text": "単純パーセプトロン" },
+      { "label": "ウ", "text": "オートエンコーダ" },
+      { "label": "エ", "text": "決定木" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "g-kentei-course-ch4-5",
+    "text": "「Attention（注意機構）」を全面的に採用し、現在の大規模言語モデル（GPT等）の基盤となっているアーキテクチャはどれか。",
+    "choices": [
+      { "label": "ア", "text": "Transformer" },
+      { "label": "イ", "text": "LSTM" },
+      { "label": "ウ", "text": "ResNet" },
+      { "label": "エ", "text": "オートエンコーダ" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "g-kentei-course-ch4-6",
+    "text": "Attentionの計算において、「何を探しているか」を表す要素と「何を持っているか」を表す要素の組み合わせとして正しいものはどれか。",
+    "choices": [
+      { "label": "ア", "text": "クエリとキー" },
+      { "label": "イ", "text": "バリューとキー" },
+      { "label": "ウ", "text": "クエリとバリュー" },
+      { "label": "エ", "text": "エンコーダとデコーダ" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "g-kentei-course-ch4-7",
+    "text": "入力データを一度小さな次元（潜在変数）に圧縮し、元のデータを復元するように学習するニューラルネットワークで、潜在変数を確率分布として扱い新しいデータを生成できるようにしたものはどれか。",
+    "choices": [
+      { "label": "ア", "text": "変分オートエンコーダ(VAE)" },
+      { "label": "イ", "text": "畳み込みニューラルネットワーク(CNN)" },
+      { "label": "ウ", "text": "ランダムフォレスト" },
+      { "label": "エ", "text": "主成分分析(PCA)" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "g-kentei-course-ch4-8",
+    "text": "手元の画像データを回転・反転・切り抜きなどで加工し、疑似的にデータ量を増やす手法を何と呼ぶか。",
+    "choices": [
+      { "label": "ア", "text": "データ拡張" },
+      { "label": "イ", "text": "データ拡散" },
+      { "label": "ウ", "text": "正則化" },
+      { "label": "エ", "text": "転移学習" }
+    ],
+    "correctLabel": "ア"
+  }
+]
