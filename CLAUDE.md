@@ -267,6 +267,12 @@ Read(.workspace/data-set/kw-pattern-library.md)
 
 ---
 
+## タスク管理（GitHub Project 統合、2026-09-25〜）
+
+ブログ横断の中期〜長期タスクは GitHub Project で一元管理: https://github.com/users/sasisi344/projects/1 （「ブログ運営タスク」）。カンバン列は `Backlog → Todo → In Progress → Done`。短期〜中期の目標タスクは Start date / End date を設定し、ロードマップビューで期間の進捗を管理する。新規タスクは `gh issue create --repo sasisi344/syllabus-hack` でIssue化 → `gh project item-add 1 --owner sasisi344 --url <issue-url>` でボードに追加。詳細は `344ob/07_workspace/.agents/blog-registry.md` 参照。`.workspace/.task/TODO.md` は引き続き本リポジトリの全タスクの正本であり、GitHub Projectとは二重管理しない。
+
+---
+
 ## エラー・失敗フィードバックループ
 
 ### ユーザーから「違う」「失敗した」「動かない」等の指摘を受けたとき
