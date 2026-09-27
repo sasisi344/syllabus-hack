@@ -30,8 +30,17 @@
 
 > 正本: [`archive/week4-task.md`](../.new-contentplan/archive/week4-task.md)。IP/SG/DMコース実装完了に伴い、week1〜4タスクファイルおよびip-course/sg-course/dm-course関連ファイルは2026-09-20付で`.workspace/.new-contentplan/archive/`へ移動済み
 
-- [x] Week4完了タスク一式（GA4/GSC計測開始、SG/DM/PD-M/PD-S各パイロットの公開完了、今月の振り返り、trend記事確認）→ 2026-09-22アーカイブ。**IPAグループ（`ip`→`sg`→`dm`→`pd-m`→`pd-s`）の20時間コース展開が全て完了**。詳細は[`archive/completed-2026-09-22.md`](archive/completed-2026-09-22.md)、PD-M/PD-S実装の正本は[`../.new-contentplan/archive/pd-course/pd-course-task.md`](../.new-contentplan/archive/pd-course/pd-course-task.md)参照。**G検定コースは2026-09-24着手・同日に本文執筆まで完了**。全8章＋index・章末チェック/診断/総復習の問題データ（計92問）を実装、`pnpm astro check`で0エラーを確認済み（`draft: true`のため未公開）。公開判断・DMコースへの逆方向リンク追記・既存記事からの導線設置が残タスク（[`../.new-contentplan/g-kentei-course/g-kentei-course-task.md`](../.new-contentplan/g-kentei-course/g-kentei-course-task.md) §4 / [`g-kentei-course-curriculum.md`](../.new-contentplan/g-kentei-course/g-kentei-course-curriculum.md)参照）
+- [x] Week4完了タスク一式（GA4/GSC計測開始、SG/DM/PD-M/PD-S各パイロットの公開完了、今月の振り返り、trend記事確認）→ 2026-09-22アーカイブ。**IPAグループ（`ip`→`sg`→`dm`→`pd-m`→`pd-s`）の20時間コース展開が全て完了**。詳細は[`archive/completed-2026-09-22.md`](archive/completed-2026-09-22.md)、PD-M/PD-S実装の正本は[`../.new-contentplan/archive/pd-course/pd-course-task.md`](../.new-contentplan/archive/pd-course/pd-course-task.md)参照。**G検定コースは2026-09-24着手・同日に本文執筆まで完了、2026-09-24公開済み**（既存記事からの導線設置・DMコースとの相互リンクも完了）。詳細は[`../.new-contentplan/g-kentei-course/g-kentei-course-task.md`](../.new-contentplan/g-kentei-course/g-kentei-course-task.md)参照。**次はSC（情報処理安全確保支援士）に着手（2026-09-26）**。最難関試験のため「章単位20時間配分＋得意/苦手診断によるパーソナライズ」という適応型モデルを新規採用（フラットな20時間総和モデルではない）。シラバス構造化・差分分析は既存資産（2026-09-07〜09-25作業分）を流用、章立て設計（8章）まで完了。詳細は[`../.new-contentplan/sc-course/sc-course-task.md`](../.new-contentplan/sc-course/sc-course-task.md) / [`sc-course-curriculum.md`](../.new-contentplan/sc-course/sc-course-curriculum.md)参照
 - [ ] 来月着手するTier2（有料note・合格テキスト）の準備確認: noteアカウント開設・価格帯・巻数設計（[`ip-course-curriculum.md`](../.new-contentplan/archive/ip-course/ip-course-curriculum.md) §4）の検討再開、メールゲート実装方式の確定
+
+### コース検索流入モニタリング（週次・恒常化フェーズへ移行、2026-09-27更新）
+
+> `week4-task.md` 時点（2026-09-20）では「20時間コースは検索経由の効果測定に最低1ヶ月（w40〜w43程度）の蓄積期間が必要」と保留判断していたが、IP/SG/DM/PD-M/PD-Sがいずれも2026-09-13〜09-22の近接した時期に公開・インデックス済みとなったため、判断保留フェーズは終了。以降は「初回効果測定」ではなく**コース別・週次の検索流入（GSCクエリ・表示回数・クリック・掲載順位）とPV（GA4）の定点観測**を毎週の`/weekly-report`実施項目として恒常化する。
+
+- [x] モニタリング方法をREADME（[`access-data/README.md`](access-data/README.md)「コース別モニタリング用GA4設定」節）に記録（2026-09-27）。GA4のContent Group設定・Search Console連携確認・Page path基準の探索レポート作成が必要な旨を含む
+- [x] **コース別探索レポート作成完了（2026-09-27）**: `w40-ga4-course-syllabus.csv` として取得済み。ディメンション（ページパスとスクリーンクラス）・フィルタ（/course/）・値（表示回数/セッション/エンゲージメント率/平均エンゲージメント時間）・セグメント列（すべてのユーザー/ウェブ/オーガニック/モバイル）の構成を標準テンプレートとして確定し、READMEに反映済み。**このw40分は公開日（8/30）〜取得日（9/26）の累積ベースラインとして扱う**（今後は単一週で取得）
+- [ ] **要ユーザー作業（GA4管理画面、任意）**: Search Console連携の確認/設定、コンテンツグループ設定（`course-ip`/`course-sg`/`course-dm`/`course-pd-m`/`course-pd-s`、SC公開後は`course-sc`も追加）は未実施。手動でのURLプレフィックス絞り込みで当面は運用可能なため優先度は中〜低
+- [x] **重要な訂正（2026-09-27）**: w39・w40週報で「DM/PD-Mコースの章送りナビゲーションがpage_view未発火」と報告した件は、実装バグではなくGA4探索レポートの「ランディングページ」ディメンション（セッションスコープ）の見え方によるものと判明。コース側の実装修正は不要（詳細はREADME参照）。従来のAct項目「`/course/dm/`・`/course/pd-m/`の章送りナビゲーション実装確認」はクローズし、上記のコース別探索レポート導入に差し替える
 
 ---
 
@@ -53,6 +62,12 @@
 > 背景: 「20時間学習」「生成AIと学ぶ」「資格試験の教材」を新たな3本柱に、「最新情報のフォロー」「コラム」を副次コンテンツに据えるサイト構成の設計依頼（2026-09-09）。既存5カテゴリ・URLには手を入れず、ナビ・トップページの見せ方だけを再編する案。
 > **正本**: [`site-structure-pillars.md`](site-structure-pillars.md)
 > ヘッダー・フッター・トップページの実装3点は2026-09-15に全完了。完了記録は [`archive/completed-2026-09-15.md`](archive/completed-2026-09-15.md) へ退避（詳細は[`site-structure-pillars.md`](site-structure-pillars.md) §7参照）
+> 2026-09-27: theory/method価値再評価とフッター広告枠検証を実施 → [`site-structure-pillars.md`](site-structure-pillars.md) §8
+
+- [ ] **要ユーザー判断**: theory/method の扱い（§8-1推奨案: 両方現状維持。theoryは統合後1記事効率0.83でトップ、廃止・コラム統合はしない）で確定してよいか
+- [ ] **（ユーザー判断後）** theory内の資格制度系4記事（`shikaku-teate-kazei`・`shikaku-kamoku-menjo-ichiran`・`shiken-dentaku-mochikomi-kitei`・`shiken-jyuken-hairyo-shinsei`、theoryセッションの約4割）とcareer/trend（コラム）間の相互導線を追加。URL移設（リダイレクト込み）は任意
+- [ ] **要ユーザー作業（A8.net/GA4管理画面）**: フッター広告枠の実績確認。①A8管理画面のクリック・発生数（2026-09-15〜）②GA4探索でイベント`click`×`link_domain=px.a8.net`（拡張計測の離脱クリック。GTM不要で広告クリックを直接計測できる）③参考値として`scroll`（90%）件数。数値を`site-structure-pillars.md` §8-2に追記。母数が小さいため判定は3か月（〜2026-12中旬）を目安に
+- [ ] **2026-10下旬**: theory/methodの1記事あたり効率を§8-1の表と同じ方法で再集計（統合後6週分）。theoryが0.5/記事を割っていないか、Google経由流入が増えているかを確認
 
 
 ## 3. 頻出KWのジャンル別「まとめ記事」化

@@ -34,6 +34,7 @@
 | `shobo-setsubi` | 消防設備士（乙6・乙4中心） | [shobo-setsubi-kw-db.md](./shobo-setsubi-kw-db.md) | `method/shobo-setsubi-hub` | Hub公開済み・スポーク未着手（2026-07-12） |
 | `nw` | ネットワークスペシャリスト | [nw-kw-db.md](./nw-kw-db.md) | 親ハブ `method/advanced-ipa-hub`（NW単独Hubなし） | エース記事 nw-mermaid-hack＋スポーク nw-kakomon-ai-hack 公開済み（2026-07-12新設） |
 | `fintech-it`（予定） | 金融IT検定 | [fintech-it-kw-db.md](./fintech-it-kw-db.md) | **未作成**（段階戦略: trend記事→反応見てクラスター化） | KW-DB＋リサーチ完了（2026-07-12。materials: `data-set/fintech-it-research.md`） |
+| `dm` | データマネジメント試験（2027年新設・仮称） | [dm-kw-db.md](./dm-kw-db.md) | `course/dm/`（20時間コース、Hub記事は独立trendなし） | コース公開済み・週次流入が低迷したためKWリサーチ実施（2026-09-27）。PassDojo等の新興専門サイトが先行しクラスター構築済みと判明、サンプル問題記事が最優先候補 |
 
 ※ examId の正本は [exam-id-catalog.md](../../.task/exam-id-catalog.md) と `src/content/config.ts` の enum。
 
