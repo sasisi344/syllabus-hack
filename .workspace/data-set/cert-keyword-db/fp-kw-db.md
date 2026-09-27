@@ -52,6 +52,14 @@
 | FP2級 相続 税金 | 分野別 | theory / method | B | × | 用語解説＋AI対話 | - |
 | 簿記2級 FP2級 比較 | 優先順位 | method | B | × | restructure-plan案 | - |
 
+### P10（資格名×AI）実査 2026-09-27
+
+> 横断リサーチの正本: [p10-ai-query-research-2026-09.md](./p10-ai-query-research-2026-09.md)
+
+| KW | 検索意図 | 記事タイプ | 優先度 | 状態 | 方向性パターン | 競合占拠度 | 差別化角度 | 既存記事 slug |
+| --- | --- | --- | --- | --- | :---: | :---: | --- | --- |
+| FP3級 NotebookLM | テキストを入れて要点整理・問題演習したい | method | A | × | P10 | 低〜中 | 税・社会保険の計算問題の類題生成＋自分専用テキスト | fp-ai-simulator-hack / fp-tax-planning-calc-hack（リンク） |
+
 ---
 
 ## 既存スポーク記事

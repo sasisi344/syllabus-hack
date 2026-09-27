@@ -63,6 +63,14 @@
 | CCNA 独学 | ネットワーク基礎 | method | A | ○ | ccna-hubスポーク | ccna-hub配下 |
 | LPIC AWS | Linux前提 | method | B | × | Step1の説明 | - |
 
+### P10（資格名×AI）実査 2026-09-27
+
+> 横断リサーチの正本: [p10-ai-query-research-2026-09.md](./p10-ai-query-research-2026-09.md)
+
+| KW | 検索意図 | 記事タイプ | 優先度 | 状態 | 方向性パターン | 競合占拠度 | 差別化角度 | 既存記事 slug |
+| --- | --- | --- | --- | --- | :---: | :---: | --- | --- |
+| NotebookLM AWS SAA | 公式ドキュメントから問題を作りたい | method | A | × | P10 | 低 | AWS公式ドキュメント・Well-Architectedをソースにしたシナリオ問題の生成 | aws-personalized-roadmap-hack（リンク） |
+
 ---
 
 ## 既存スポーク・関連記事

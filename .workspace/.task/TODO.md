@@ -64,8 +64,18 @@
 > ヘッダー・フッター・トップページの実装3点は2026-09-15に全完了。完了記録は [`archive/completed-2026-09-15.md`](archive/completed-2026-09-15.md) へ退避（詳細は[`site-structure-pillars.md`](site-structure-pillars.md) §7参照）
 > 2026-09-27: theory/method価値再評価とフッター広告枠検証を実施 → [`site-structure-pillars.md`](site-structure-pillars.md) §8
 
-- [ ] **要ユーザー判断**: theory/method の扱い（§8-1推奨案: 両方現状維持。theoryは統合後1記事効率0.83でトップ、廃止・コラム統合はしない）で確定してよいか
-- [ ] **（ユーザー判断後）** theory内の資格制度系4記事（`shikaku-teate-kazei`・`shikaku-kamoku-menjo-ichiran`・`shiken-dentaku-mochikomi-kitei`・`shiken-jyuken-hairyo-shinsei`、theoryセッションの約4割）とcareer/trend（コラム）間の相互導線を追加。URL移設（リダイレクト込み）は任意
+- [x] theory/method の扱い → **2026-09-27 ユーザー判断で現状維持に確定**（§8-3）
+- [ ] **【今後の主戦】「資格名＋AI」クエリ攻略**（§8-3）: 非IPA 15資格それぞれで「AIで出題させる」「AIと学習テキストを作る」記事を展開
+  - [x] `kw-pattern-library.md` にP10「資格名×AI学習」パターンを追加（2026-09-27）
+  - [x] P10で15資格＋IPAを実査 → 正本 `.workspace/data-set/cert-keyword-db/p10-ai-query-research-2026-09.md`、boki/takken/aws/fp/denkenのDBにP10行を追記（2026-09-27）
+  - [ ] **要ユーザー判断（次回作業時）**: 次の着手を「簿記のP10記事執筆」と「IPコース第1章での『AIに出題させる』ブロック試作」のどちらから進めるか
+  - [ ] **【最優先・IPA／要ユーザー判断】** 「ITパスポート NotebookLM」の勝ち記事を復活（`notebooklm-ip-study-hack` は2026-07-11に汎用の `notebooklm-features-guide` へリダイレクトされ流入が消失）。リダイレクトを解除して復活させるか、新規slugで作り直すかをユーザー判断
+  - [ ] 簿記で「AI出題編」（`簿記3級 NotebookLM`）を執筆し、P10記事の型を確立 → 宅建（`宅建 NotebookLM`＋未来問の紹介）→ AWS SAA → FP の順に横展開
+  - [ ] Tier C資格（電験・危険物・消防・ボイラー・ビル管理・知財・DS・MOS・CCNA・土木）のHub記事に「AIに出題させる／テキストを作る」節を追記
+  - [ ] **IPAの新しい形**（`site-structure-pillars.md` §8-4）: コース章末に「AIに出題させる」ブロックを追加する型を1章で試作（IPコース第1章を想定）→ 全コースへ展開
+  - [ ] 応用情報の `ap-pm-descriptive-ai-prompts` と `ap-afternoon-ai-coaching` の役割を整理し、どちらかを「午後 ChatGPT 採点」の意図に寄せる
+  - [ ] G検定×ChatGPTの扱い: サジェスト需要の大半が受験中の不正利用の意図。書く場合はJDLAの受験規約を一次情報で確認してから判断
+- [x] ~~theory内の資格制度系4記事のコラム側への移設・導線追加~~ → theory現状維持の確定により見送り（2026-09-27）
 - [ ] **要ユーザー作業（A8.net/GA4管理画面）**: フッター広告枠の実績確認。①A8管理画面のクリック・発生数（2026-09-15〜）②GA4探索でイベント`click`×`link_domain=px.a8.net`（拡張計測の離脱クリック。GTM不要で広告クリックを直接計測できる）③参考値として`scroll`（90%）件数。数値を`site-structure-pillars.md` §8-2に追記。母数が小さいため判定は3か月（〜2026-12中旬）を目安に
 - [ ] **2026-10下旬**: theory/methodの1記事あたり効率を§8-1の表と同じ方法で再集計（統合後6週分）。theoryが0.5/記事を割っていないか、Google経由流入が増えているかを確認
 
