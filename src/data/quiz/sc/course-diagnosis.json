@@ -1,0 +1,302 @@
+[
+  {
+    "id": "sc-diag-1",
+    "chapterOrder": 1,
+    "text": "取引先や上司を装い、偽の送金依頼メールを送りつけて金銭をだまし取る攻撃手法はどれか。",
+    "choices": [
+      { "label": "ア", "text": "ビジネスメール詐欺(BEC)" },
+      { "label": "イ", "text": "ソーシャルエンジニアリング" },
+      { "label": "ウ", "text": "SEOポイズニング" },
+      { "label": "エ", "text": "タイポスクワッティング" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "sc-diag-2",
+    "chapterOrder": 1,
+    "text": "Webアプリケーションの代表的な脆弱性を分類・整理した、業界標準として広く参照されるリストはどれか。",
+    "choices": [
+      { "label": "ア", "text": "OWASP Top 10" },
+      { "label": "イ", "text": "MITRE ATT&CK" },
+      { "label": "ウ", "text": "情報セキュリティ10大脅威" },
+      { "label": "エ", "text": "STRIDE" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "sc-diag-3",
+    "chapterOrder": 2,
+    "text": "攻撃者の行動を「偵察→初期侵入→権限昇格→永続化→ラテラルムーブメント→C2→持ち出し」という時系列で捉える代表的なモデルはどれか。",
+    "choices": [
+      { "label": "ア", "text": "サイバーキルチェーン" },
+      { "label": "イ", "text": "STRIDE" },
+      { "label": "ウ", "text": "不正のトライアングル" },
+      { "label": "エ", "text": "OWASP Top 10" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "sc-diag-4",
+    "chapterOrder": 2,
+    "text": "AIモデルへの入力に悪意ある指示を紛れ込ませ、開発者の意図しない出力をさせる、生成AI特有の攻撃手法はどれか。",
+    "choices": [
+      { "label": "ア", "text": "プロンプトインジェクション" },
+      { "label": "イ", "text": "モデル窃取（Model Extraction）" },
+      { "label": "ウ", "text": "データポイズニング" },
+      { "label": "エ", "text": "敵対的サンプル（Adversarial Examples）" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "sc-diag-5",
+    "chapterOrder": 3,
+    "text": "情報セキュリティの伝統的な3要素（CIA）に該当しないものはどれか。",
+    "choices": [
+      { "label": "ア", "text": "責任追跡性" },
+      { "label": "イ", "text": "機密性" },
+      { "label": "ウ", "text": "完全性" },
+      { "label": "エ", "text": "可用性" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "sc-diag-6",
+    "chapterOrder": 3,
+    "text": "単一損失予想額（SLE）が100万円、年間発生率（ARO）が0.5（2年に1回発生）のとき、年間予想損失額（ALE）はどれか。",
+    "choices": [
+      { "label": "ア", "text": "50万円" },
+      { "label": "イ", "text": "100万円" },
+      { "label": "ウ", "text": "150万円" },
+      { "label": "エ", "text": "200万円" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "sc-diag-7",
+    "chapterOrder": 4,
+    "text": "日本国内のインシデント対応の調整を担う組織はどれか。",
+    "choices": [
+      { "label": "ア", "text": "JPCERTコーディネーションセンター" },
+      { "label": "イ", "text": "国家サイバー統括室（NCO）" },
+      { "label": "ウ", "text": "CRYPTREC" },
+      { "label": "エ", "text": "サイバーセキュリティ戦略本部" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "sc-diag-8",
+    "chapterOrder": 4,
+    "text": "2027年シラバスで新たに明記された、AIを組織的に管理するための国際規格はどれか。",
+    "choices": [
+      { "label": "ア", "text": "ISO/IEC 42001（AIマネジメントシステム）" },
+      { "label": "イ", "text": "ISO/IEC 27005" },
+      { "label": "ウ", "text": "ISO/IEC 29147" },
+      { "label": "エ", "text": "JIS Q 27701" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "sc-diag-9",
+    "chapterOrder": 5,
+    "text": "ISMS認証の根拠となる要求事項を定めた国際規格はどれか。",
+    "choices": [
+      { "label": "ア", "text": "JIS Q 27001（ISO/IEC 27001）" },
+      { "label": "イ", "text": "JIS Q 27002（ISO/IEC 27002）" },
+      { "label": "ウ", "text": "JIS Q 27017（ISO/IEC 27017）" },
+      { "label": "エ", "text": "JIS Q 27701（ISO/IEC 27701）" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "sc-diag-10",
+    "chapterOrder": 5,
+    "text": "1人の担当者に権限が集中しないよう、業務のプロセスを複数人・複数部門に分担させる管理策はどれか。",
+    "choices": [
+      { "label": "ア", "text": "職務の分離" },
+      { "label": "イ", "text": "管理層の責任" },
+      { "label": "ウ", "text": "アクセス制御" },
+      { "label": "エ", "text": "特権的アクセス権" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "sc-diag-11",
+    "chapterOrder": 6,
+    "text": "役職・役割に応じてアクセス権限を割り当てるアクセス制御モデルはどれか。",
+    "choices": [
+      { "label": "ア", "text": "ロールベースアクセス制御（RBAC）" },
+      { "label": "イ", "text": "強制アクセス制御（MAC）" },
+      { "label": "ウ", "text": "任意アクセス制御（DAC）" },
+      { "label": "エ", "text": "属性ベースアクセス制御（ABAC）" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "sc-diag-12",
+    "chapterOrder": 6,
+    "text": "端末（エンドポイント）の異常を検知し、対応（隔離・調査）まで行うセキュリティ製品はどれか。",
+    "choices": [
+      { "label": "ア", "text": "EDR（Endpoint Detection and Response）" },
+      { "label": "イ", "text": "SIEM（Security Information and Event Management）" },
+      { "label": "ウ", "text": "SOAR（Security Orchestration, Automation and Response）" },
+      { "label": "エ", "text": "WAF（Web Application Firewall）" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "sc-diag-13",
+    "chapterOrder": 7,
+    "text": "生体認証において、本人であるにもかかわらず誤って拒否してしまう確率を示す指標はどれか。",
+    "choices": [
+      { "label": "ア", "text": "本人拒否率（FRR）" },
+      { "label": "イ", "text": "他人受入率（FAR）" },
+      { "label": "ウ", "text": "等価誤り率（EER）" },
+      { "label": "エ", "text": "ライブネス検知" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "sc-diag-14",
+    "chapterOrder": 7,
+    "text": "将来の量子コンピュータによる解読にも耐えられるよう設計された暗号技術はどれか。",
+    "choices": [
+      { "label": "ア", "text": "耐量子計算機暗号（PQC）" },
+      { "label": "イ", "text": "楕円曲線暗号" },
+      { "label": "ウ", "text": "ハイブリッド暗号" },
+      { "label": "エ", "text": "軽量暗号" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "sc-diag-15",
+    "chapterOrder": 8,
+    "text": "AIモデルへの指示と外部から渡されるデータを分離し、プロンプトインジェクションを防ぐ対策はどれか。",
+    "choices": [
+      { "label": "ア", "text": "プロンプト分離" },
+      { "label": "イ", "text": "セキュアブート" },
+      { "label": "ウ", "text": "要塞化（ハードニング）" },
+      { "label": "エ", "text": "コンテナオーケストレーションのアクセス制御" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "sc-diag-16",
+    "chapterOrder": 8,
+    "text": "個々の脆弱性を一意に識別するための共通識別子はどれか。",
+    "choices": [
+      { "label": "ア", "text": "CVE" },
+      { "label": "イ", "text": "CVSS" },
+      { "label": "ウ", "text": "CWE" },
+      { "label": "エ", "text": "SCAP" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "sc-diag-17",
+    "chapterOrder": 9,
+    "text": "TCPに代わり低遅延な通信を実現する、HTTP/3の基盤にもなっているプロトコルはどれか。",
+    "choices": [
+      { "label": "ア", "text": "QUIC" },
+      { "label": "イ", "text": "MPLS" },
+      { "label": "ウ", "text": "OSPF" },
+      { "label": "エ", "text": "BGP" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "sc-diag-18",
+    "chapterOrder": 9,
+    "text": "5Gにおいて、用途に応じてネットワークを仮想的に分割し、それぞれに適した性能を割り当てる技術はどれか。",
+    "choices": [
+      { "label": "ア", "text": "ネットワークスライシング" },
+      { "label": "イ", "text": "マルチホーミング" },
+      { "label": "ウ", "text": "LPWA" },
+      { "label": "エ", "text": "IP-VPN" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "sc-diag-19",
+    "chapterOrder": 10,
+    "text": "サービス提供者と顧客の間で合意する、サービス水準の具体的な取り決め文書はどれか。",
+    "choices": [
+      { "label": "ア", "text": "サービスレベル合意書（SLA）" },
+      { "label": "イ", "text": "サービスポートフォリオ" },
+      { "label": "ウ", "text": "サービスカタログ" },
+      { "label": "エ", "text": "構成ベースライン" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "sc-diag-20",
+    "chapterOrder": 10,
+    "text": "上場企業に財務報告に係る内部統制の整備・運用を義務付ける、日本の制度はどれか。",
+    "choices": [
+      { "label": "ア", "text": "内部統制報告制度（J-SOX）" },
+      { "label": "イ", "text": "統制自己評価（CSA）" },
+      { "label": "ウ", "text": "システム監査基準" },
+      { "label": "エ", "text": "情報セキュリティ監査制度" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "sc-diag-21",
+    "chapterOrder": 11,
+    "text": "トランザクションが満たすべき原子性・一貫性・独立性・永続性という4つの性質の総称はどれか。",
+    "choices": [
+      { "label": "ア", "text": "ACID特性" },
+      { "label": "イ", "text": "CIA（機密性・完全性・可用性）" },
+      { "label": "ウ", "text": "SOLID" },
+      { "label": "エ", "text": "結果整合性" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "sc-diag-22",
+    "chapterOrder": 11,
+    "text": "システム開発の共通フレームにおいて、機能を独立したサービスに分割し、それぞれを個別にデプロイできるようにするアーキテクチャはどれか。",
+    "choices": [
+      { "label": "ア", "text": "マイクロサービスアーキテクチャ" },
+      { "label": "イ", "text": "レイヤードアーキテクチャ" },
+      { "label": "ウ", "text": "MVC" },
+      { "label": "エ", "text": "クリーンアーキテクチャ" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "sc-diag-23",
+    "chapterOrder": 12,
+    "text": "取引先の1社でセキュリティインシデントが発生したとの報道を受け、自社の委託先管理を見直したいと相談された。支援士として最も適切な対応はどれか。",
+    "choices": [
+      { "label": "ア", "text": "契約へのセキュリティ要求事項の追加と、既存委託先の対応状況の評価を支援する" },
+      { "label": "イ", "text": "自社には関係ないため様子見を助言する" },
+      { "label": "ウ", "text": "直ちに全ての委託先との契約を打ち切るよう助言する" },
+      { "label": "エ", "text": "報道内容の真偽を独自に調査してから判断すると回答を保留する" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "sc-diag-24",
+    "chapterOrder": 12,
+    "text": "フィッシングメールによる不正アクセスの疑いが発覚した直後、担当者から「まず何をすべきか」と相談された。支援士として最も適切な助言はどれか。",
+    "choices": [
+      { "label": "ア", "text": "インシデント対応プロセスに沿って初動対応を行い、事実関係を確認したうえで本当にインシデントかを評価する" },
+      { "label": "イ", "text": "まず犯人捜しから始めるよう指示する" },
+      { "label": "ウ", "text": "様子を見て、被害が拡大してから対応を検討するよう伝える" },
+      { "label": "エ", "text": "経営層への報告は最終的な原因が判明してから行うよう伝える" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "sc-diag-25",
+    "chapterOrder": 12,
+    "text": "退職者・異動者のアカウントが放置されているケースが複数見つかった。支援士として最も適切な対応はどれか。",
+    "choices": [
+      { "label": "ア", "text": "特権アクセス管理（PAM）の観点からアクセス制御方針を見直し、アカウント棚卸しの仕組み化を助言する" },
+      { "label": "イ", "text": "見つかったアカウントだけをその場で削除し、原因究明はしない" },
+      { "label": "ウ", "text": "今後も同様の事態が起きた場合のみ対応すればよいと伝える" },
+      { "label": "エ", "text": "人事部門の問題であり情報システム部門は関与すべきではないと伝える" }
+    ],
+    "correctLabel": "ア"
+  }
+]

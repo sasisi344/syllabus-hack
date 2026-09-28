@@ -1,0 +1,90 @@
+[
+  {
+    "id": "sc-course-ch9-1",
+    "text": "1つのグローバルIPアドレスを、ポート番号まで含めて変換することで複数の端末が共有できるようにする技術はどれか。",
+    "choices": [
+      { "label": "ア", "text": "NAPT" },
+      { "label": "イ", "text": "NAT" },
+      { "label": "ウ", "text": "VRRP" },
+      { "label": "エ", "text": "リンクアグリゲーション" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "sc-course-ch9-2",
+    "text": "IPアドレスから対応する物理的なMACアドレスを調べるためのプロトコルはどれか。",
+    "choices": [
+      { "label": "ア", "text": "ARP" },
+      { "label": "イ", "text": "ICMP" },
+      { "label": "ウ", "text": "NDP" },
+      { "label": "エ", "text": "IGMP" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "sc-course-ch9-3",
+    "text": "同一の宛先アドレスに対して、複数の候補の中から最も近いサーバーに通信を届ける仕組みはどれか。",
+    "choices": [
+      { "label": "ア", "text": "エニーキャスト" },
+      { "label": "イ", "text": "マルチホーミング" },
+      { "label": "ウ", "text": "負荷分散（DNSラウンドロビン）" },
+      { "label": "エ", "text": "ネットワークスライシング" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "sc-course-ch9-4",
+    "text": "TCPに代わり低遅延な通信を実現する、HTTP/3の基盤にもなっているプロトコルはどれか。",
+    "choices": [
+      { "label": "ア", "text": "QUIC" },
+      { "label": "イ", "text": "MPLS" },
+      { "label": "ウ", "text": "OSPF" },
+      { "label": "エ", "text": "BGP" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "sc-course-ch9-5",
+    "text": "インターネット全体の経路情報を、自律システム間で交換するために使われるルーティングプロトコルはどれか。",
+    "choices": [
+      { "label": "ア", "text": "BGP" },
+      { "label": "イ", "text": "OSPF" },
+      { "label": "ウ", "text": "ARP" },
+      { "label": "エ", "text": "DHCP" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "sc-course-ch9-6",
+    "text": "サーバー上にメールを残したまま、複数の端末で同じ受信箱の状態を同期できるメール受信プロトコルはどれか。",
+    "choices": [
+      { "label": "ア", "text": "IMAP4" },
+      { "label": "イ", "text": "POP3" },
+      { "label": "ウ", "text": "SMTP" },
+      { "label": "エ", "text": "REST" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "sc-course-ch9-7",
+    "text": "5Gにおいて、用途に応じてネットワークを仮想的に分割し、それぞれに適した性能を割り当てる技術はどれか。",
+    "choices": [
+      { "label": "ア", "text": "ネットワークスライシング" },
+      { "label": "イ", "text": "マルチホーミング" },
+      { "label": "ウ", "text": "LPWA" },
+      { "label": "エ", "text": "IP-VPN" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "sc-course-ch9-8",
+    "text": "ネットワーク機器の稼働状況を監視・制御するために使われる、管理情報ベース（MIB）を用いたプロトコルはどれか。",
+    "choices": [
+      { "label": "ア", "text": "SNMP" },
+      { "label": "イ", "text": "syslog" },
+      { "label": "ウ", "text": "パケットアナライザー" },
+      { "label": "エ", "text": "SCAP" }
+    ],
+    "correctLabel": "ア"
+  }
+]

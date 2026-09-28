@@ -1,0 +1,57 @@
+[
+  {
+    "id": "sc-course-ch1-1",
+    "text": "取引先や上司を装い、偽の送金依頼メールを送りつけて金銭をだまし取る攻撃手法はどれか。",
+    "choices": [
+      { "label": "ア", "text": "ビジネスメール詐欺(BEC)" },
+      { "label": "イ", "text": "ソーシャルエンジニアリング" },
+      { "label": "ウ", "text": "SEOポイズニング" },
+      { "label": "エ", "text": "タイポスクワッティング" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "sc-course-ch1-2",
+    "text": "なりすまし・改ざん・否認・情報漏えい・サービス妨害・権限昇格という6つの観点から脅威を体系的に洗い出す手法はどれか。",
+    "choices": [
+      { "label": "ア", "text": "脅威モデリング(STRIDE)" },
+      { "label": "イ", "text": "サイバーキルチェーン" },
+      { "label": "ウ", "text": "MITRE ATT&CK" },
+      { "label": "エ", "text": "不正のトライアングル" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "sc-course-ch1-3",
+    "text": "ディスクにファイルを残さず、メモリ上だけで動作することで検知を逃れようとするマルウェアの手口はどれか。",
+    "choices": [
+      { "label": "ア", "text": "ファイルレスマルウェア" },
+      { "label": "イ", "text": "リバースシェル" },
+      { "label": "ウ", "text": "ランサムウェア" },
+      { "label": "エ", "text": "エクスプロイトコード" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "sc-course-ch1-4",
+    "text": "Webアプリケーションの代表的な脆弱性を分類・整理した、業界標準として広く参照されるリストはどれか。",
+    "choices": [
+      { "label": "ア", "text": "OWASP Top 10" },
+      { "label": "イ", "text": "MITRE ATT&CK" },
+      { "label": "ウ", "text": "情報セキュリティ10大脅威" },
+      { "label": "エ", "text": "STRIDE" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "sc-course-ch1-5",
+    "text": "会社が把握・許可していない機器やクラウドサービスを従業員が業務で勝手に利用してしまう状態を何と呼ぶか。",
+    "choices": [
+      { "label": "ア", "text": "シャドーIT" },
+      { "label": "イ", "text": "踏み台" },
+      { "label": "ウ", "text": "攻撃対象領域（アタックサーフェス）" },
+      { "label": "エ", "text": "内部統制の不備" }
+    ],
+    "correctLabel": "ア"
+  }
+]

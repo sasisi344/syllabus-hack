@@ -1,0 +1,125 @@
+---
+title: '第6章 インシデント対応・物理/人的セキュリティと検知・ネットワーク防御'
+examId: 'sc'
+kind: 'chapter'
+order: 6
+genre: '対策（運用・防御）'
+estimatedMinutes: 240
+syllabusRefs: ['情報セキュリティ対策']
+field2027: 'security-ethics'
+quizRef: 'course-ch6'
+relatedPosts: []
+noteUrl: ''
+draft: false
+lastmod: 2026-09-28
+metadata:
+  description: '情報処理安全確保支援士（SC）学習コース第6章。脅威インテリジェンスとインシデント対応プロセス、内部不正対策とアクセス制御モデル、マルウェア検知とデータ保護、SIEM/EDR等の検知技術、ネットワーク境界防御・通信プロトコルまで、シラバス2027年案の該当109語を精選して押さえる。'
+---
+
+import ChapterQuiz from '~/apps/course-quiz/ChapterQuiz';
+import questions from '~/data/quiz/sc/course-ch6.json';
+
+## この章で学ぶこと
+
+第5章では、ISMSという組織的な管理の枠組みを学びました。この章からは「情報セキュリティ対策」のうち、より実務・技術に近い領域に入ります。インシデントが起きたときにどう対応するか（<strong>脅威インテリジェンスとインシデント対応プロセス</strong>）、内部の人間による不正やアクセス権をどう管理するか（<strong>内部不正対策とアクセス制御モデル</strong>）、マルウェアやデータ漏えいをどう防ぐか（<strong>マルウェア検知とデータ保護・ログ管理</strong>）、異常をどう見つけるか（<strong>検知・監視とネットワーク境界防御</strong>）、そして安全な通信をどう実現するか（<strong>通信プロトコルのセキュリティと統合防御プラットフォーム</strong>）という順に学びます。109語とこの章もボリュームがありますが、次章「認証技術と暗号・PKI」とセットで、SCの技術対策の核を形成します。
+
+## 脅威インテリジェンスとインシデント対応プロセス
+
+第2章で触れた脅威インテリジェンスを実務で扱う際は、SNSやニュースなど誰でも入手できる情報を活用する<strong>OSINT(公開情報)の利用</strong>、侵害の痕跡を示す具体的な指標である<strong>IoC(Indicator of Compromise)</strong>、脅威情報を機械可読な形式で記述する<strong>脅威情報構造化記述形式(STIX)</strong>、それを組織間で自動的にやり取りする<strong>検知指標情報自動交換手順(TAXII)</strong>、共有範囲を色で示す<strong>TLP(Traffic Light Protocol)</strong>が使われます。攻撃者を継続的に探す能動的な活動が<strong>脅威ハンティング(Threat Hunting)</strong>、悪用されているインフラを停止させる<strong>テイクダウン</strong>です。
+
+インシデントが実際に発生した際の実務が<strong>インシデントハンドリング</strong>で、シラバスでは準備・検知/分析・封じ込め/根絶/復旧・事後対応という4段階の<strong>インシデント対応プロセス</strong>として整理されています。多数のインシデント候補から優先度をつける<strong>トリアージ</strong>、事前に定めておく<strong>インシデントレスポンス計画(IRP)</strong>、第4章で学んだCSIRTを実際に立ち上げ運用するための<strong>CSIRTの構築・運用(CSIRTマテリアル)</strong>も実務の要です。
+
+インシデント後の対応としては、個人情報保護法などに基づく<strong>法令に基づく報告及び本人への通知</strong>、監督官庁などへの<strong>関係機関への届出</strong>、被害の内容をどこまで公表するかという<strong>公表の判断及び広報対応</strong>、損害を金銭的に補償する<strong>サイバー保険</strong>、対応後に振り返る<strong>事後レビュー</strong>があります。事業継続の観点では、復旧手順が実際に機能するかを確かめる<strong>バックアップからの復旧手順の検証</strong>、どれだけの時間・データ損失まで許容するかを定める<strong>復旧目標(RTO・RPO)に基づく復旧設計</strong>、被災時にすぐ使える<strong>代替サイト(ホットサイト・コールドサイト)</strong>の準備も欠かせません。
+
+**扱う用語（精選・20語）**
+
+- OSINT(公開情報)の利用／IoC(Indicator of Compromise)／脅威情報構造化記述形式(STIX)／検知指標情報自動交換手順(TAXII)／TLP(Traffic Light Protocol)／脅威ハンティング(Threat Hunting)／テイクダウン
+- インシデントハンドリング／インシデント対応プロセス／トリアージ／インシデントレスポンス計画(IRP)／CSIRTの構築・運用
+- 法令に基づく報告及び本人への通知／関係機関への届出／公表の判断及び広報対応／サイバー保険／事後レビュー
+- バックアップからの復旧手順の検証／復旧目標(RTO・RPO)に基づく復旧設計／代替サイト(ホットサイト・コールドサイト)
+
+## 内部不正対策とアクセス制御モデル
+
+外部からの攻撃だけでなく、内部の人間による不正も重大なリスクです。組織における内部不正を防ぐための<strong>組織における内部不正防止ガイドライン</strong>を土台に、標的型メール訓練やレッドチーム演習・机上演習といった<strong>情報セキュリティ訓練</strong>で組織全体の対応力を高めます。従業員の行動パターンから異常を検知する<strong>UEBA(User and Entity Behavior Analytics)</strong>、重要な役職に就く人物の身元を厳格に確認する<strong>セキュリティクリアランス</strong>、第5章で学んだ守秘義務を具体化する<strong>秘密保持契約・誓約書</strong>もあわせて運用します。
+
+物理的な区画管理としては、重要度に応じてエリアを区分する<strong>セキュリティゾーニング</strong>、ICカードなどで管理する<strong>入退管理システム</strong>、1人分のカードで複数人が入退室する「共連れ」を防ぐ<strong>アンチパスバック</strong>があります。ノートPC・スマートフォンなどの<strong>モバイル機器のセキュリティ</strong>を一元管理する<strong>MDM(Mobile Device Management)</strong>、電源・空調・給水といった<strong>サポートユーティリティの保守</strong>も物理的な運用管理策です。
+
+アクセス制御の実装方式には複数のモデルがあります。管理者が一元的にルールを定める<strong>強制アクセス制御(MAC)</strong>、所有者が自由に権限を設定できる<strong>任意アクセス制御(DAC)</strong>、役職・役割に応じて権限を割り当てる<strong>ロールベースアクセス制御(RBAC)</strong>、利用者や環境の属性に応じて動的に判断する<strong>属性ベースアクセス制御(ABAC)</strong>です。これらの実装はいずれも第5章で学んだ<strong>最小特権</strong>の原則に基づき、特に強い権限を持つアカウントを厳格に管理する<strong>特権アクセス管理(PAM)</strong>、OS自体の堅牢性を高める<strong>セキュアOS</strong>もあわせて重要です。
+
+**扱う用語（精選・18語）**
+
+- 組織における内部不正防止ガイドライン／情報セキュリティ訓練／UEBA／セキュリティクリアランス／秘密保持契約・誓約書
+- セキュリティゾーニング／入退管理システム／アンチパスバック／モバイル機器のセキュリティ／MDM／サポートユーティリティの保守
+- 強制アクセス制御(MAC)／任意アクセス制御(DAC)／ロールベースアクセス制御(RBAC)／属性ベースアクセス制御(ABAC)／最小特権／特権アクセス管理(PAM)／セキュアOS
+
+## マルウェア検知とデータ保護・ログ管理
+
+マルウェアを検知する手法には、プログラムの挙動から判定する<strong>ビヘイビア法(振る舞い検知)</strong>、経験則に基づいて疑わしさを判定する<strong>ヒューリスティック法</strong>があり、これらを組み合わせて<strong>未知マルウェア検出手法</strong>を実現します。プログラムを実際に動かして観察する<strong>動的解析</strong>、コードを実行せずに調べる<strong>静的解析</strong>も基本的な分析手法です。
+
+バックアップは、ランサムウェアの標的にならないよう本番環境と切り離す<strong>バックアップ分離</strong>が重要で、3つのコピーを2種類の媒体に保存し1つは遠隔地に置く<strong>3-2-1ルール</strong>、一度書き込んだら変更できない<strong>WORM(Write Once Read Many)機能</strong>、それをクラウド上で実現する<strong>イミュータブルバックアップ</strong>、不正アクセスを検知するための「おとり」ファイルである<strong>カナリアファイル</strong>、ランサムウェア特有の暗号化動作を検知する<strong>暗号化挙動検知</strong>があります。
+
+日々の運用管理としては、新たな脆弱性情報を収集し自組織への影響を判断する<strong>脆弱性情報の収集と適用判断</strong>、修正パッチを計画的に適用する<strong>パッチ管理</strong>、自組織が保有する資産を継続的に把握する<strong>資産インベントリの継続的把握</strong>、外部から見える攻撃対象領域を可視化する<strong>ASM／EASM(外部攻撃対象領域管理)</strong>、機密情報の外部流出を検知・防止する<strong>DLP(Data Loss Prevention)</strong>、危険なコンテンツを隔離環境で開く<strong>Web分離(Webアイソレーション)</strong>、不要データの<strong>情報の削除及びデータマスキングの実装</strong>も重要です。
+
+ログについては、何をどれだけの期間残すかという<strong>ログ設計(取得範囲・保存期間・改ざん防止・時刻同期とタイムスタンプ)</strong>を定め、複数のログを突き合わせて分析する<strong>ログの相関分析</strong>を行います。検知ルールには、既知のパターンと照合する<strong>シグネチャ型</strong>、通常と異なる挙動を検知する<strong>アノマリ型</strong>があり、正常なのに異常と誤判定する<strong>偽陽性(フォールスポジティブ)</strong>、逆に異常を見逃す<strong>偽陰性(フォールスネガティブ)</strong>という2種類の誤判定が、どちらの検知方式でも課題になります。
+
+**扱う用語（精選・24語）**
+
+- ビヘイビア法／ヒューリスティック法／未知マルウェア検出手法／動的解析／静的解析
+- バックアップ分離／3-2-1ルール／WORM機能／イミュータブルバックアップ／カナリアファイル／暗号化挙動検知
+- 脆弱性情報の収集と適用判断／パッチ管理／資産インベントリの継続的把握／ASM／EASM／DLP(Data Loss Prevention)／Web分離(Webアイソレーション)／情報の削除及びデータマスキングの実装
+- ログ設計／ログの相関分析／シグネチャ型／アノマリ型／偽陽性(フォールスポジティブ)／偽陰性(フォールスネガティブ)
+
+## 検知・監視とネットワーク境界防御
+
+第1〜2章で学んだ攻撃を実際に検知するための統合的な仕組みが、ログを一元的に集約・分析する<strong>SIEM(Security Information and Event Management)</strong>、端末の異常を検知・対応する<strong>EDR(Endpoint Detection and Response)</strong>、ネットワーク上の異常を検知する<strong>NDR(Network Detection and Response)</strong>、複数のログ源を統合して検知範囲を広げる<strong>XDR(Extended Detection and Response)</strong>、検知後の対応を自動化する<strong>SOAR(Security Orchestration, Automation and Response)</strong>です。これらを24時間体制で運用するのが第4章で学んだSOCで、アラートの優先順位づけと誤検知の低減を行う<strong>SOCの運用</strong>、自社運用が難しい場合に外部委託する<strong>MSS(Managed Security Service)</strong>・<strong>MDR(Managed Detection and Response)</strong>もあわせて押さえておきましょう。
+
+ネットワークの境界を守る考え方としては、内と外を明確に区切る従来型の<strong>境界防御</strong>に対し、社内外を問わずすべての通信を都度検証する<strong>ゼロトラストの実装技術(マイクロセグメンテーション・ZTNA・継続的な検証)</strong>が主流になりつつあります。通信を制御する<strong>ファイアウォール(パケットフィルタリング型・ステートフルインスペクション型・アプリケーションゲートウェイ型)</strong>、不正な通信を検知・遮断する<strong>IDS／IPS(NIDS・HIDS)</strong>、拠点間や リモートアクセスを暗号化する<strong>VPN(リバースプロキシ方式・ポートフォワーディング方式・L2フォワーディング方式)</strong>、感染端末を隔離する<strong>検疫ネットワーク</strong>、端末の健全性を確認してから接続を許可する<strong>端末健全性検証によるネットワークアクセス制御(NAC・TNC)</strong>、特定の機器だけを許可する<strong>MACアドレスフィルタリング</strong>、不正なDHCPサーバーを検知する<strong>DHCPスヌーピング</strong>、通信を中継しつつ保護する<strong>リバースプロキシ</strong>があります。大量アクセスへの対策としては<strong>DDoS対策(CDN・スクラビングセンター・Anycast・レート制限)</strong>、自動プログラムによる不正アクセスを防ぐ<strong>Bot対策(CAPTCHA・レート制限)</strong>、通常時の通信パターンから異常を見つける<strong>ネットワークトラフィック分析</strong>、システムの弱点を能動的に確認する<strong>ネットワーク脆弱性検査</strong>・<strong>ポートスキャンによる検査</strong>もあわせて実施します。
+
+**扱う用語（精選・23語）**
+
+- SIEM／EDR／NDR／XDR／SOAR／SOCの運用／MSS／MDR
+- 境界防御／ゼロトラストの実装技術／ファイアウォール／IDS／IPS／VPN／検疫ネットワーク／NAC・TNC／MACアドレスフィルタリング／DHCPスヌーピング／リバースプロキシ
+- DDoS対策／Bot対策／ネットワークトラフィック分析／ネットワーク脆弱性検査／ポートスキャンによる検査
+
+## 通信プロトコルのセキュリティと統合防御プラットフォーム
+
+安全な通信を実現するプロトコルとしては、Web通信を暗号化する<strong>TLS(TLS 1.2・TLS 1.3・暗号スイート、SSL及びTLS 1.0／1.1の廃止)</strong>、メール送信時に暗号化を開始する<strong>STARTTLS</strong>・<strong>SMTP over TLS</strong>、拠点間通信を暗号化する<strong>IPsec(ESP・AH・IKE)</strong>、低遅延な次世代プロトコル<strong>QUIC</strong>、DNS問い合わせを暗号化する<strong>DoH</strong>・<strong>DoT</strong>があります。有線LANの認証には<strong>IEEE 802.1X</strong>とその認証サーバーである<strong>RADIUS</strong>、認証方式の枠組みである<strong>EAP(Extensible Authentication Protocol)</strong>とその一種<strong>EAP-TLS</strong>、無線LANでは事前共有した鍵を使う<strong>PSK(Pre-Shared Key)</strong>、現行の暗号規格<strong>WPA3(Personal・Enterprise・Enhanced Open)</strong>が使われます。
+
+メールの安全性を高める仕組みとしては、認証付きメール送信を行う<strong>SMTP-AUTH</strong>、迷惑メール対策としてISPが実施する<strong>OP25B</strong>、送信元のなりすましを防ぐ<strong>送信ドメイン認証(SPF・DKIM・DMARC)</strong>、メール自体を暗号化・署名する<strong>S/MIME(Secure MIME)</strong>、悪意ある添付ファイルを無害化する<strong>添付ファイルの無害化(サニタイズ)</strong>があります。
+
+これら個別の対策を統合的に提供する製品・サービスとして、複数の防御機能を1台にまとめた<strong>統合脅威管理(UTM)</strong>、Webアプリケーションを守る<strong>WAF(Web Application Firewall)</strong>、クラウドサービスの利用を可視化・制御する<strong>CASB(Cloud Access Security Broker)</strong>、クラウドの設定不備を検知する<strong>CSPM(Cloud Security Posture Management)</strong>、クラウド上のワークロードを保護する<strong>CWPP(Cloud Workload Protection Platform)</strong>、これらを統合しゼロトラストの考え方で提供する<strong>SASE(Secure Access Service Edge)</strong>があります。
+
+**扱う用語（精選・24語）**
+
+- TLS／STARTTLS／SMTP over TLS／IPsec／QUIC／DoH／DoT
+- IEEE 802.1X／RADIUS／EAP／EAP-TLS／PSK／WPA3
+- SMTP-AUTH／OP25B／送信ドメイン認証(SPF・DKIM・DMARC)／S/MIME／添付ファイルの無害化
+- 統合脅威管理(UTM)／WAF／CASB／CSPM／CWPP／SASE
+
+## AIで学ぶ
+
+ここまでの用語は、ChatGPTやClaudeなどの生成AIに以下のプロンプトを投げかけると、比較表つきでさらに深く掘り下げて学習できます。コピーして使ってみましょう。
+
+```
+あなたは情報処理安全確保支援士（SC）試験の講師です。「インシデント対応・物理/人的セキュリティと検知・ネットワーク防御」の範囲について、以下の用語を初学者向けに**関連づけながら**説明してください（単体の丸暗記より、「検知」「防御」「対応」のどの役割を担う技術かを理解したほうが記憶に定着しやすいためです）。特にSIEM・EDR・NDR・XDR・SOARのような似た略語群は、守備範囲の違いが分かる**比較表**を作ってください。
+
+【脅威インテリジェンスとインシデント対応】OSINT、IoC、STIX、TAXII、TLP、脅威ハンティング、インシデントハンドリング、インシデント対応プロセス、トリアージ、IRP、CSIRTの構築・運用、法令に基づく報告及び本人への通知、関係機関への届出、サイバー保険、復旧目標(RTO・RPO)、代替サイト
+【内部不正対策とアクセス制御】組織における内部不正防止ガイドライン、UEBA、セキュリティクリアランス、セキュリティゾーニング、入退管理システム、アンチパスバック、MDM、強制アクセス制御(MAC)、任意アクセス制御(DAC)、ロールベースアクセス制御(RBAC)、属性ベースアクセス制御(ABAC)、特権アクセス管理(PAM)
+【マルウェア検知とデータ保護】ビヘイビア法、ヒューリスティック法、動的解析、静的解析、バックアップ分離、3-2-1ルール、イミュータブルバックアップ、パッチ管理、DLP、ログの相関分析、シグネチャ型、アノマリ型、偽陽性、偽陰性
+【検知・監視とネットワーク境界防御】SIEM、EDR、NDR、XDR、SOAR、境界防御、ゼロトラストの実装技術、ファイアウォール、IDS／IPS、VPN、検疫ネットワーク、NAC、DDoS対策
+【通信プロトコルと統合防御】TLS、IPsec、802.1X、RADIUS、EAP、WPA3、送信ドメイン認証(SPF・DKIM・DMARC)、S/MIME、UTM、WAF、CASB、CSPM、CWPP、SASE
+```
+
+このプロンプトが「検知・防御・対応のどの役割か」という整理軸を指示しているのは、この章に略語（SIEM・EDR・XDR・CASB・SASEなど）が非常に多く、単純な暗記では混同しやすいためです。「何を」「どう守る・見つける」技術かという役割で整理すると、初見の略語にも対応しやすくなります。
+
+## 章末チェック
+
+最後に、この章で学んだ知識をアウトプットして定着させましょう。全問に答えたら「答え合わせ」を押してください。
+
+<ChapterQuiz client:load questions={questions} examId="sc" mode="chapter" chapterOrder={6} />
+
+## この章のまとめ
+
+この章では、脅威インテリジェンスとインシデント対応プロセス、内部不正対策とアクセス制御モデル、マルウェア検知とデータ保護・ログ管理、SIEM・EDRなどの検知技術とゼロトラストを含むネットワーク境界防御、そして安全な通信プロトコルと統合防御プラットフォームを学びました。ここで学んだ「検知・防御・対応」の技術は、次章で学ぶ暗号・認証技術と組み合わさって、実際のシステムを守る仕組みになります。
+
+次章では、こうした対策の基盤となる<strong>認証技術</strong>と<strong>暗号・PKI</strong>を学びます。→ [第7章 認証技術と暗号・PKI](/course/sc/07-authentication-cryptography-pki/)

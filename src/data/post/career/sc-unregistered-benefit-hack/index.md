@@ -1,7 +1,7 @@
 ---
 draft: false
 publishDate: 2026-04-11T00:00:00Z
-lastmod: 2026-07-12
+lastmod: 2026-09-28
 title: 支援士を「登録しない」勇気｜維持費の罠を回避して、実力者として転職する履歴書の戦略
 persona: 情報処理安全確保支援士の試験に合格したが、高額な登録・維持費に躊躇している人
 category: career
@@ -58,4 +58,4 @@ metadata:
 
 ---
 
-> この記事は [高度情報処理技術者試験 完全攻略ガイド](/method/advanced-ipa-hub/) の一部です。
+> この記事は [情報処理安全確保支援士（SC）完全攻略ガイド](/method/sc-hub/) と [高度情報処理技術者試験 完全攻略ガイド](/method/advanced-ipa-hub/) の一部です。

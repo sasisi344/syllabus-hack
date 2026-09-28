@@ -1,0 +1,114 @@
+---
+title: '第9章 ネットワークの構成技術とプロトコル・広域/移動体通信'
+examId: 'sc'
+kind: 'chapter'
+order: 9
+genre: 'ネットワーク'
+estimatedMinutes: 150
+syllabusRefs: ['ネットワーク']
+field2027: 'technology'
+quizRef: 'course-ch9'
+relatedPosts: ['course/pd-s/03-network']
+noteUrl: ''
+draft: false
+lastmod: 2026-09-28
+metadata:
+  description: '情報処理安全確保支援士（SC）学習コース第9章。ネットワークの構成技術、アドレス解決とルーティング、トランスポート/アプリケーション層プロトコル、有線・無線メディア、広域・移動体通信サービスまで、シラバス2027年案の該当65語を精選して押さえる。'
+---
+
+import ChapterQuiz from '~/apps/course-quiz/ChapterQuiz';
+import questions from '~/data/quiz/sc/course-ch9.json';
+
+## この章で学ぶこと
+
+第1〜8章では脅威・マネジメント・対策・実装評価というセキュリティ専門知識を学びました。この章はSCの専門知識としては最後の中分類で、セキュリティ対策の前提となる<strong>ネットワークの基礎技術</strong>を扱います。第6〜7章で学んだファイアウォールやVPN、TLSといった対策技術は、この章で学ぶネットワークの仕組みの上に成り立っています。65語を、①構成技術→②アドレス解決とルーティング→③トランスポート/アプリケーション層プロトコル→④有線・無線メディア→⑤広域・移動体通信という順に積み上げます。
+
+## ネットワークの構成技術の基礎
+
+IoT機器などをつなぐ<strong>センサーネットワーク</strong>、ケーブルでつなぐ<strong>有線LAN</strong>、電波でつなぐ<strong>無線LAN</strong>（複数端末が互いを検知できない<strong>隠れ端末問題</strong>、逆に不要な相手まで検知してしまう<strong>さらし端末問題</strong>、ネットワーク識別名である<strong>SSID</strong>）が基本的な接続形態です。プライベートIPアドレスをグローバルIPアドレスに変換する<strong>NAT</strong>、ポート番号まで含めて変換し複数端末で1つのグローバルIPを共有する<strong>NAPT</strong>、既存の物理網の上に論理的なネットワークを構築する<strong>オーバーレイネットワーク</strong>、ドメイン名の最上位部分である<strong>TLD</strong>もあわせて基礎用語として押さえます。
+
+通信を高速化する技術としては、複数の光の波長を束ねて伝送量を増やす<strong>波長分割多重(WDM)</strong>、無線で複数ユーザーに同時に周波数を割り当てる<strong>OFDMA</strong>、複数の物理回線を束ねて1本の高速回線のように扱う<strong>リンクアグリゲーション</strong>があります。機器としては、MACアドレスで転送先を判断する<strong>レイヤー2スイッチ(L2スイッチ)</strong>、IPアドレスで判断する<strong>レイヤー3スイッチ(L3スイッチ)</strong>、複数サーバーに通信を振り分ける<strong>ロードバランサー</strong>、ルーターを冗長化し1台が故障しても通信を継続する<strong>VRRP</strong>があります。
+
+**扱う用語（精選・14語）**
+
+- センサーネットワーク／有線LAN／無線LAN(隠れ端末問題・さらし端末問題・SSID)
+- NAT／NAPT／オーバーレイネットワーク／TLD
+- 波長分割多重(WDM)／OFDMA／リンクアグリゲーション
+- レイヤー2スイッチ(L2スイッチ)／レイヤー3スイッチ(L3スイッチ)／ロードバランサー／VRRP
+
+## アドレス解決とルーティングの基礎
+
+無線LANで複数端末が同時に送信して衝突するのを避ける制御方式が<strong>CSMA/CA</strong>です。IPアドレスから物理的なMACアドレスを調べる<strong>ARP</strong>、PPPoEを使わずイーサネット上でそのままIP通信を行う<strong>IPoE</strong>、VLANを識別するための規格<strong>IEEE 802.1Q</strong>があります。
+
+インターネットの基本プロトコルである<strong>IP</strong>を土台に、通信の疎通確認やエラー通知を行う<strong>ICMP</strong>とそのIPv6版<strong>ICMPv6</strong>、IPv6でアドレス解決を担う<strong>NDP</strong>、複数の相手に同時配信するマルチキャストを管理する<strong>IGMP</strong>があります。宛先までの経路を決める<strong>ルーティング</strong>、同一の宛先アドレスに対して最も近い相手に届ける<strong>エニーキャスト</strong>も基礎的な概念です。
+
+**扱う用語（精選・11語）**
+
+- CSMA/CA／ARP／IPoE／IEEE 802.1Q
+- IP／ICMP／ICMPv6／NDP／IGMP／ルーティング／エニーキャスト
+
+## トランスポート層・アプリケーション層とルーティングプロトコル
+
+IPv4アドレスの枯渇に対応するため、両者を変換する<strong>IPv4/IPv6トランスレーション</strong>、両方を並行して使う<strong>IPv4/IPv6デュアルスタック</strong>という<strong>IPv4/IPv6共存技術</strong>があります。信頼性の高い通信を実現する<strong>TCP</strong>と、これに代わる低遅延な<strong>QUIC</strong>（第6章でも登場しました）、通信先のアプリケーションを識別する<strong>ポート番号</strong>、送信量を調整する<strong>ウィンドウ制御</strong>、データが届いたことを知らせる<strong>確認応答</strong>がTCPの基本動作です。
+
+アプリケーション層では、Webページを取得する<strong>HTTP</strong>、ドメイン名をIPアドレスに変換する<strong>DNS</strong>、IPアドレスを自動的に割り当てる<strong>DHCP</strong>が代表的です。組織内のルーティングに使われる<strong>OSPF</strong>、インターネット全体の経路情報を交換する<strong>BGP</strong>、ラベルによる高速な経路制御を実現する<strong>MPLS</strong>は、通信事業者ネットワークで重要なルーティングプロトコルです。
+
+**扱う用語（精選・12語）**
+
+- IPv4/IPv6共存技術(トランスレーション・デュアルスタック)
+- TCP／QUIC／ポート番号／ウィンドウ制御／確認応答
+- HTTP／DNS／DHCP／OSPF／BGP／MPLS
+
+## 有線・無線メディアとメール/Web関連プロトコル
+
+物理的な伝送媒体としては、有線LANの標準規格<strong>イーサネット</strong>、無線LANの規格群<strong>Wi-Fi</strong>、銅線で1Gbpsを実現する<strong>1000BASE-T</strong>、10Gbpsを実現する<strong>10GBASE-T</strong>、複数のアクセスポイントが自律的に電波の網を形成する<strong>メッシュWi-Fi</strong>があります。
+
+メールに関するプロトコルとしては、送信を担う<strong>SMTP</strong>、受信したメールをサーバーからダウンロードする<strong>POP3</strong>、サーバー上にメールを残したまま同期する<strong>IMAP4</strong>があります。Web関連では、サイトを横断してログイン状態などを保持する<strong>cookie</strong>、シンプルな設計原則でWeb APIを構築する<strong>REST</strong>、必要なデータだけを柔軟に取得できるAPI設計技術<strong>GraphQL</strong>も、現代のWebアプリケーションを支えるプロトコルです。
+
+**扱う用語（精選・11語）**
+
+- イーサネット／Wi-Fi／1000BASE-T／10GBASE-T／メッシュWi-Fi
+- SMTP／POP3／IMAP4
+- cookie／REST／GraphQL
+
+## 広域・移動体通信サービスと運用管理技術
+
+拠点間を結ぶ広域通信サービスとしては、人工衛星を経由する<strong>衛星通信サービス</strong>、海外拠点と結ぶ<strong>国際通信サービス</strong>、通信事業者のイーサネット網をそのまま拠点間接続に使う<strong>広域Ethernet</strong>、MPLSなどで構築される<strong>IP-VPN</strong>、公衆インターネット経由で暗号化して結ぶ<strong>インターネットVPN</strong>、複数の回線を同時に使い可用性を高める<strong>マルチホーミング</strong>があります。
+
+移動体通信では、通信サービスを提供する<strong>移動体通信事業者(MNO)</strong>、広く普及した通信規格<strong>LTE</strong>、5Gで用途に応じてネットワークを仮想的に分割する<strong>ネットワークスライシング</strong>、端末を一意に識別する<strong>IMEI</strong>、5G単独で通信を完結する<strong>SA(Stand Alone)方式</strong>、既存の4G設備を活用する<strong>NSA(Non-Stand Alone)方式</strong>、省電力・広範囲通信を実現するIoT向け規格群<strong>LPWA(LTE-M・NB-IoT・Wi-SUN・LoRaWAN)</strong>が2027年シラバスで具体化されています。
+
+運用管理の面では、DNSの応答先を巡回させて負荷を分散する<strong>負荷分散(DNSラウンドロビンなど)</strong>、機器のログを一元的に集約する<strong>syslog</strong>（第6章のログ設計とも対応します）、通信内容をキャプチャして解析する<strong>パケットアナライザー</strong>、ネットワーク機器の状態を監視・制御する<strong>SNMP(管理情報ベース(MIB))</strong>があります。
+
+**扱う用語（精選・17語）**
+
+- 衛星通信サービス／国際通信サービス／広域Ethernet／IP-VPN／インターネットVPN／マルチホーミング
+- 移動体通信事業者(MNO)／LTE／ネットワークスライシング／IMEI／SA方式／NSA方式／LPWA
+- 負荷分散(DNSラウンドロビンなど)／syslog／パケットアナライザー／SNMP
+
+## AIで学ぶ
+
+ここまでの用語は、ChatGPTやClaudeなどの生成AIに以下のプロンプトを投げかけると、比較表つきでさらに深く掘り下げて学習できます。コピーして使ってみましょう。
+
+```
+あなたは情報処理安全確保支援士（SC）試験の講師です。「ネットワーク」の範囲について、以下の用語を初学者向けに**関連づけながら**説明してください（単体の丸暗記より、OSI参照モデルのどの層に対応する技術かを軸に理解したほうが記憶に定着しやすいためです）。「物理層・データリンク層」「ネットワーク層」「トランスポート層」「アプリケーション層」のどこに位置する用語かを整理し、比較表を最後に付けてください。
+
+【ネットワーク構成技術】センサーネットワーク、有線LAN、無線LAN、NAT、NAPT、オーバーレイネットワーク、L2スイッチ、L3スイッチ、ロードバランサー、VRRP
+【アドレス解決とルーティング】CSMA/CA、ARP、IPoE、IEEE 802.1Q、IP、ICMP、ICMPv6、NDP、IGMP、ルーティング、エニーキャスト
+【トランスポート/アプリケーション層】IPv4/IPv6共存技術、TCP、QUIC、ポート番号、ウィンドウ制御、HTTP、DNS、DHCP、OSPF、BGP、MPLS
+【有線・無線メディアとメール/Web】イーサネット、Wi-Fi、1000BASE-T、メッシュWi-Fi、SMTP、POP3、IMAP4、cookie、REST、GraphQL
+【広域・移動体通信サービス】衛星通信サービス、広域Ethernet、IP-VPN、インターネットVPN、マルチホーミング、MNO、LTE、ネットワークスライシング、SA方式、NSA方式、LPWA、syslog、SNMP
+```
+
+このプロンプトが「OSI参照モデルのどの層か」という整理軸を指示しているのは、この章の用語がネットワークの階層構造に沿って積み重なっているためです。層を意識すると、「TCPとQUICはどちらもトランスポート層だが何が違うか」のような比較が自然にできるようになります。
+
+## 章末チェック
+
+最後に、この章で学んだ知識をアウトプットして定着させましょう。全問に答えたら「答え合わせ」を押してください。
+
+<ChapterQuiz client:load questions={questions} examId="sc" mode="chapter" chapterOrder={9} />
+
+## この章のまとめ
+
+この章では、ネットワークの構成技術、アドレス解決とルーティングの基礎、トランスポート/アプリケーション層プロトコル、有線・無線メディア、そして広域・移動体通信サービスまでを学びました。第1〜9章で、SCの専門知識（脅威・マネジメント・対策・実装評価・ネットワーク）をすべてカバーしたことになります。
+
+次章からは、他資格とも重複する「その他知識」を扱います。まず<strong>ガバナンス・監査</strong>と<strong>サービスマネジメント</strong>を学びます。→ [第10章 ガバナンス・監査とサービスマネジメント](/course/sc/10-governance-service-management/)

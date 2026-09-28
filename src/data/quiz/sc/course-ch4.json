@@ -1,0 +1,68 @@
+[
+  {
+    "id": "sc-course-ch4-1",
+    "text": "組織がセキュリティにどう取り組むかを明文化した最上位の文書はどれか。",
+    "choices": [
+      { "label": "ア", "text": "情報セキュリティ方針（情報セキュリティポリシー）" },
+      { "label": "イ", "text": "情報セキュリティインシデント対応規程" },
+      { "label": "ウ", "text": "プライバシーポリシー" },
+      { "label": "エ", "text": "リスク対応計画" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "sc-course-ch4-2",
+    "text": "自組織のインシデント対応を専門に担う組織はどれか。",
+    "choices": [
+      { "label": "ア", "text": "CSIRT" },
+      { "label": "イ", "text": "PSIRT" },
+      { "label": "ウ", "text": "ISAC" },
+      { "label": "エ", "text": "FIRST" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "sc-course-ch4-3",
+    "text": "日本国内のインシデント対応の調整を担う組織はどれか。",
+    "choices": [
+      { "label": "ア", "text": "JPCERTコーディネーションセンター" },
+      { "label": "イ", "text": "国家サイバー統括室（NCO）" },
+      { "label": "ウ", "text": "CRYPTREC" },
+      { "label": "エ", "text": "サイバーセキュリティ戦略本部" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "sc-course-ch4-4",
+    "text": "政府が利用するクラウドサービスのセキュリティを評価する制度はどれか。",
+    "choices": [
+      { "label": "ア", "text": "ISMAP" },
+      { "label": "イ", "text": "SCS評価制度" },
+      { "label": "ウ", "text": "情報セキュリティサービス基準" },
+      { "label": "エ", "text": "JIS Q 27701" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "sc-course-ch4-5",
+    "text": "経営者がセキュリティにどう関与すべきかを示す、経営層向けのガイドラインはどれか。",
+    "choices": [
+      { "label": "ア", "text": "サイバーセキュリティ経営ガイドライン" },
+      { "label": "イ", "text": "中小企業の情報セキュリティ対策ガイドライン" },
+      { "label": "ウ", "text": "AI事業者ガイドライン" },
+      { "label": "エ", "text": "つながる世界の開発指針" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "sc-course-ch4-6",
+    "text": "2027年シラバスで新たに明記された、AIを組織的に管理するための国際規格はどれか。",
+    "choices": [
+      { "label": "ア", "text": "ISO/IEC 42001（AIマネジメントシステム）" },
+      { "label": "イ", "text": "ISO/IEC 27005" },
+      { "label": "ウ", "text": "ISO/IEC 29147" },
+      { "label": "エ", "text": "JIS Q 27701" }
+    ],
+    "correctLabel": "ア"
+  }
+]

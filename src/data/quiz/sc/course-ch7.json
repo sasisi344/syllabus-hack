@@ -1,0 +1,90 @@
+[
+  {
+    "id": "sc-course-ch7-1",
+    "text": "共有鍵を使ってメッセージが改ざんされていないことを検証する技術はどれか。",
+    "choices": [
+      { "label": "ア", "text": "メッセージ認証符号（MAC）" },
+      { "label": "イ", "text": "デジタル署名" },
+      { "label": "ウ", "text": "コードサイニング" },
+      { "label": "エ", "text": "DNSSEC" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "sc-course-ch7-2",
+    "text": "OAuth 2.0の認可コードフローにおいて、認可コードの横取り攻撃を防ぐために追加される保護技術はどれか。",
+    "choices": [
+      { "label": "ア", "text": "PKCE" },
+      { "label": "イ", "text": "JWT" },
+      { "label": "ウ", "text": "SSO" },
+      { "label": "エ", "text": "IDaaS" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "sc-course-ch7-3",
+    "text": "生体認証において、本人であるにもかかわらず誤って拒否してしまう確率を示す指標はどれか。",
+    "choices": [
+      { "label": "ア", "text": "本人拒否率（FRR）" },
+      { "label": "イ", "text": "他人受入率（FAR）" },
+      { "label": "ウ", "text": "等価誤り率（EER）" },
+      { "label": "エ", "text": "ライブネス検知" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "sc-course-ch7-4",
+    "text": "パスワードを使わない認証の標準規格で、WebAuthnやパスキーの基盤となっているものはどれか。",
+    "choices": [
+      { "label": "ア", "text": "FIDO2" },
+      { "label": "イ", "text": "Kerberos方式" },
+      { "label": "ウ", "text": "LDAP" },
+      { "label": "エ", "text": "多段階認証" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "sc-course-ch7-5",
+    "text": "過去の通信内容が、将来その時点の秘密鍵が漏えいしても解読されないという性質を何と呼ぶか。",
+    "choices": [
+      { "label": "ア", "text": "前方秘匿性（PFS）" },
+      { "label": "イ", "text": "暗号強度（ビットセキュリティ）" },
+      { "label": "ウ", "text": "危殆化" },
+      { "label": "エ", "text": "暗号アジリティ" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "sc-course-ch7-6",
+    "text": "かつて広く使われたが、脆弱性の発見により安全でなくなったハッシュ関数の組み合わせはどれか。",
+    "choices": [
+      { "label": "ア", "text": "MD5及びSHA-1" },
+      { "label": "イ", "text": "SHA-2及びSHA-3" },
+      { "label": "ウ", "text": "AES及びKCipher-2" },
+      { "label": "エ", "text": "RSA及びECDSA" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "sc-course-ch7-7",
+    "text": "証明書が失効しているかどうかを、その場でオンラインに照会して確認する仕組みはどれか。",
+    "choices": [
+      { "label": "ア", "text": "OCSP" },
+      { "label": "イ", "text": "CRL" },
+      { "label": "ウ", "text": "ACME" },
+      { "label": "エ", "text": "CAA" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "sc-course-ch7-8",
+    "text": "将来の量子コンピュータによる解読にも耐えられるよう設計された暗号技術はどれか。",
+    "choices": [
+      { "label": "ア", "text": "耐量子計算機暗号（PQC）" },
+      { "label": "イ", "text": "楕円曲線暗号" },
+      { "label": "ウ", "text": "ハイブリッド暗号" },
+      { "label": "エ", "text": "軽量暗号" }
+    ],
+    "correctLabel": "ア"
+  }
+]

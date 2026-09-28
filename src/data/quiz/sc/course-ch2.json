@@ -1,0 +1,90 @@
+[
+  {
+    "id": "sc-course-ch2-1",
+    "text": "データを暗号化するだけでなく、支払いに応じなければ漏えいさせると脅す、近年主流のランサムウェア攻撃の手口はどれか。",
+    "choices": [
+      { "label": "ア", "text": "二重恐喝（多重恐喝）" },
+      { "label": "イ", "text": "イニシャルアクセスブローカー" },
+      { "label": "ウ", "text": "ハクティビズム" },
+      { "label": "エ", "text": "RaaS（Ransomware as a Service）" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "sc-course-ch2-2",
+    "text": "攻撃者の行動を「偵察→初期侵入→権限昇格→永続化→ラテラルムーブメント→C2→持ち出し」という時系列で捉える代表的なモデルはどれか。",
+    "choices": [
+      { "label": "ア", "text": "サイバーキルチェーン" },
+      { "label": "イ", "text": "STRIDE" },
+      { "label": "ウ", "text": "不正のトライアングル" },
+      { "label": "エ", "text": "OWASP Top 10" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "sc-course-ch2-3",
+    "text": "侵入後、社内ネットワークの他の端末へ横方向に移動しながら侵害範囲を広げていく段階を何と呼ぶか。",
+    "choices": [
+      { "label": "ア", "text": "ラテラルムーブメント" },
+      { "label": "イ", "text": "初期侵入" },
+      { "label": "ウ", "text": "偵察" },
+      { "label": "エ", "text": "持ち出し（Exfiltration）" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "sc-course-ch2-4",
+    "text": "他サービスから流出したID・パスワードの組み合わせを使い回して不正ログインを試みる攻撃はどれか。",
+    "choices": [
+      { "label": "ア", "text": "クレデンシャルスタッフィング" },
+      { "label": "イ", "text": "レインボーテーブル攻撃" },
+      { "label": "ウ", "text": "リバースブルートフォース攻撃" },
+      { "label": "エ", "text": "セッション固定化攻撃" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "sc-course-ch2-5",
+    "text": "Webアプリケーションにおいて、データベースへの命令文を不正に注入し、想定外の操作を行わせる攻撃はどれか。",
+    "choices": [
+      { "label": "ア", "text": "SQLインジェクション" },
+      { "label": "イ", "text": "クロスサイトスクリプティング" },
+      { "label": "ウ", "text": "ディレクトリトラバーサル" },
+      { "label": "エ", "text": "クリックジャッキング" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "sc-course-ch2-6",
+    "text": "AIモデルへの入力に悪意ある指示を紛れ込ませ、開発者の意図しない出力をさせる、生成AI特有の攻撃手法はどれか。",
+    "choices": [
+      { "label": "ア", "text": "プロンプトインジェクション" },
+      { "label": "イ", "text": "モデル窃取（Model Extraction）" },
+      { "label": "ウ", "text": "データポイズニング" },
+      { "label": "エ", "text": "敵対的サンプル（Adversarial Examples）" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "sc-course-ch2-7",
+    "text": "正規のライブラリ名に酷似した偽パッケージを公開リポジトリに送り込み、開発者に誤ってインストールさせる攻撃はどれか。",
+    "choices": [
+      { "label": "ア", "text": "依存関係混同（Dependency Confusion）" },
+      { "label": "イ", "text": "サイドチャネル攻撃" },
+      { "label": "ウ", "text": "ダウングレード攻撃" },
+      { "label": "エ", "text": "エアギャップに対する攻撃" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "sc-course-ch2-8",
+    "text": "処理時間や消費電力のわずかな違いを観測することで、暗号鍵などの内部情報を推定しようとする攻撃はどれか。",
+    "choices": [
+      { "label": "ア", "text": "サイドチャネル攻撃" },
+      { "label": "イ", "text": "リプレイ攻撃" },
+      { "label": "ウ", "text": "セッションハイジャック" },
+      { "label": "エ", "text": "IPスプーフィング" }
+    ],
+    "correctLabel": "ア"
+  }
+]

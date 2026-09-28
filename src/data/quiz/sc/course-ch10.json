@@ -1,0 +1,79 @@
+[
+  {
+    "id": "sc-course-ch10-1",
+    "text": "サービス提供者と顧客の間で合意する、サービス水準の具体的な取り決め文書はどれか。",
+    "choices": [
+      { "label": "ア", "text": "サービスレベル合意書（SLA）" },
+      { "label": "イ", "text": "サービスポートフォリオ" },
+      { "label": "ウ", "text": "サービスカタログ" },
+      { "label": "エ", "text": "構成ベースライン" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "sc-course-ch10-2",
+    "text": "障害対応など、通常の審査プロセスを経ずに急いで実施する必要がある変更のカテゴリーはどれか。",
+    "choices": [
+      { "label": "ア", "text": "緊急変更" },
+      { "label": "イ", "text": "標準変更" },
+      { "label": "ウ", "text": "通常の変更" },
+      { "label": "エ", "text": "プロジェクト変更" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "sc-course-ch10-3",
+    "text": "根本原因は判明しているが、恒久的な対策がまだ実施されていない状態を何と呼ぶか。",
+    "choices": [
+      { "label": "ア", "text": "既知の誤り" },
+      { "label": "イ", "text": "重大なインシデント" },
+      { "label": "ウ", "text": "問題" },
+      { "label": "エ", "text": "傾向分析" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "sc-course-ch10-4",
+    "text": "システムが故障してから復旧するまでの平均時間を示す指標はどれか。",
+    "choices": [
+      { "label": "ア", "text": "MTTR" },
+      { "label": "イ", "text": "MTBF" },
+      { "label": "ウ", "text": "SLO" },
+      { "label": "エ", "text": "SLI" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "sc-course-ch10-5",
+    "text": "上場企業に財務報告に係る内部統制の整備・運用を義務付ける、日本の制度はどれか。",
+    "choices": [
+      { "label": "ア", "text": "内部統制報告制度（J-SOX）" },
+      { "label": "イ", "text": "統制自己評価（CSA）" },
+      { "label": "ウ", "text": "システム監査基準" },
+      { "label": "エ", "text": "情報セキュリティ監査制度" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "sc-course-ch10-6",
+    "text": "問題点を指摘するだけでなく、改善のための助言も行う監査の型はどれか。",
+    "choices": [
+      { "label": "ア", "text": "助言型監査" },
+      { "label": "イ", "text": "保証型監査" },
+      { "label": "ウ", "text": "コンプライアンス監査" },
+      { "label": "エ", "text": "マネジメントシステム監査" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "sc-course-ch10-7",
+    "text": "システム監査の一連のプロセスにおいて、本調査の前に行う調査を何と呼ぶか。",
+    "choices": [
+      { "label": "ア", "text": "予備調査" },
+      { "label": "イ", "text": "改善提案のフォローアップ" },
+      { "label": "ウ", "text": "監査手続書の作成" },
+      { "label": "エ", "text": "監査証拠の入手と評価" }
+    ],
+    "correctLabel": "ア"
+  }
+]

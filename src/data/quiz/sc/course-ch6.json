@@ -1,0 +1,101 @@
+[
+  {
+    "id": "sc-course-ch6-1",
+    "text": "脅威情報を組織間で機械可読な形式で自動的にやり取りするための代表的な手順はどれか。",
+    "choices": [
+      { "label": "ア", "text": "TAXII" },
+      { "label": "イ", "text": "OSINT" },
+      { "label": "ウ", "text": "IoC" },
+      { "label": "エ", "text": "TLP" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "sc-course-ch6-2",
+    "text": "どれだけの時間・どれだけのデータ損失まで許容するかを定め、復旧設計の基準とする指標の組み合わせはどれか。",
+    "choices": [
+      { "label": "ア", "text": "RTO・RPO" },
+      { "label": "イ", "text": "ALE・SLE" },
+      { "label": "ウ", "text": "FRR・FAR" },
+      { "label": "エ", "text": "MTTR・MTBF" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "sc-course-ch6-3",
+    "text": "役職・役割に応じてアクセス権限を割り当てるアクセス制御モデルはどれか。",
+    "choices": [
+      { "label": "ア", "text": "ロールベースアクセス制御（RBAC）" },
+      { "label": "イ", "text": "強制アクセス制御（MAC）" },
+      { "label": "ウ", "text": "任意アクセス制御（DAC）" },
+      { "label": "エ", "text": "属性ベースアクセス制御（ABAC）" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "sc-course-ch6-4",
+    "text": "3つのデータコピーを2種類の媒体に保存し、うち1つを遠隔地に保管するバックアップの基本原則はどれか。",
+    "choices": [
+      { "label": "ア", "text": "3-2-1ルール" },
+      { "label": "イ", "text": "WORM機能" },
+      { "label": "ウ", "text": "カナリアファイル" },
+      { "label": "エ", "text": "暗号化挙動検知" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "sc-course-ch6-5",
+    "text": "正常な通信・挙動を誤って異常と判定してしまう誤判定を何と呼ぶか。",
+    "choices": [
+      { "label": "ア", "text": "偽陽性（フォールスポジティブ）" },
+      { "label": "イ", "text": "偽陰性（フォールスネガティブ）" },
+      { "label": "ウ", "text": "シグネチャ型" },
+      { "label": "エ", "text": "アノマリ型" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "sc-course-ch6-6",
+    "text": "端末（エンドポイント）の異常を検知し、対応（隔離・調査）まで行うセキュリティ製品はどれか。",
+    "choices": [
+      { "label": "ア", "text": "EDR（Endpoint Detection and Response）" },
+      { "label": "イ", "text": "SIEM（Security Information and Event Management）" },
+      { "label": "ウ", "text": "SOAR（Security Orchestration, Automation and Response）" },
+      { "label": "エ", "text": "WAF（Web Application Firewall）" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "sc-course-ch6-7",
+    "text": "社内外を問わず、すべての通信を都度検証することを前提にした、境界防御に代わるネットワークセキュリティの考え方はどれか。",
+    "choices": [
+      { "label": "ア", "text": "ゼロトラストの実装技術" },
+      { "label": "イ", "text": "検疫ネットワーク" },
+      { "label": "ウ", "text": "MACアドレスフィルタリング" },
+      { "label": "エ", "text": "DHCPスヌーピング" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "sc-course-ch6-8",
+    "text": "送信元メールアドレスのなりすましを防ぐための送信ドメイン認証の技術に該当しないものはどれか。",
+    "choices": [
+      { "label": "ア", "text": "S/MIME" },
+      { "label": "イ", "text": "SPF" },
+      { "label": "ウ", "text": "DKIM" },
+      { "label": "エ", "text": "DMARC" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "sc-course-ch6-9",
+    "text": "クラウドサービスの利用状況を可視化し、シャドーITの検出やアクセス制御を行う仕組みはどれか。",
+    "choices": [
+      { "label": "ア", "text": "CASB（Cloud Access Security Broker）" },
+      { "label": "イ", "text": "CSPM（Cloud Security Posture Management）" },
+      { "label": "ウ", "text": "CWPP（Cloud Workload Protection Platform）" },
+      { "label": "エ", "text": "SASE（Secure Access Service Edge）" }
+    ],
+    "correctLabel": "ア"
+  }
+]

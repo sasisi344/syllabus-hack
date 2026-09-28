@@ -1,0 +1,242 @@
+[
+  {
+    "id": "sc-review-1",
+    "chapterOrder": 1,
+    "text": "ディスクにファイルを残さず、メモリ上だけで動作することで検知を逃れようとするマルウェアの手口はどれか。",
+    "choices": [
+      { "label": "ア", "text": "ファイルレスマルウェア" },
+      { "label": "イ", "text": "リバースシェル" },
+      { "label": "ウ", "text": "ランサムウェア" },
+      { "label": "エ", "text": "エクスプロイトコード" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "sc-review-2",
+    "chapterOrder": 1,
+    "text": "会社が把握・許可していない機器やクラウドサービスを従業員が業務で勝手に利用してしまう状態を何と呼ぶか。",
+    "choices": [
+      { "label": "ア", "text": "シャドーIT" },
+      { "label": "イ", "text": "踏み台" },
+      { "label": "ウ", "text": "攻撃対象領域（アタックサーフェス）" },
+      { "label": "エ", "text": "内部統制の不備" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "sc-review-3",
+    "chapterOrder": 2,
+    "text": "データを暗号化するだけでなく、支払いに応じなければ漏えいさせると脅す、近年主流のランサムウェア攻撃の手口はどれか。",
+    "choices": [
+      { "label": "ア", "text": "二重恐喝（多重恐喝）" },
+      { "label": "イ", "text": "イニシャルアクセスブローカー" },
+      { "label": "ウ", "text": "ハクティビズム" },
+      { "label": "エ", "text": "RaaS（Ransomware as a Service）" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "sc-review-4",
+    "chapterOrder": 2,
+    "text": "正規のライブラリ名に酷似した偽パッケージを公開リポジトリに送り込み、開発者に誤ってインストールさせる攻撃はどれか。",
+    "choices": [
+      { "label": "ア", "text": "依存関係混同（Dependency Confusion）" },
+      { "label": "イ", "text": "サイドチャネル攻撃" },
+      { "label": "ウ", "text": "ダウングレード攻撃" },
+      { "label": "エ", "text": "エアギャップに対する攻撃" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "sc-review-5",
+    "chapterOrder": 3,
+    "text": "クラウドサービスの利用において、どこまでを事業者が守り、どこからを利用者が守るのかを明確にする考え方はどれか。",
+    "choices": [
+      { "label": "ア", "text": "クラウドサービスの責任共有モデル" },
+      { "label": "イ", "text": "利用者アクセス権の管理" },
+      { "label": "ウ", "text": "情報資産台帳" },
+      { "label": "エ", "text": "リスクマネジメント（JIS Q 31000）" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "sc-review-6",
+    "chapterOrder": 3,
+    "text": "対策コストが見合わないと判断し、リスクをそのまま受け入れるリスク対応の選択肢はどれか。",
+    "choices": [
+      { "label": "ア", "text": "リスク保有（受容）" },
+      { "label": "イ", "text": "リスク回避" },
+      { "label": "ウ", "text": "リスク低減（軽減）" },
+      { "label": "エ", "text": "リスク移転（共有）" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "sc-review-7",
+    "chapterOrder": 4,
+    "text": "政府が利用するクラウドサービスのセキュリティを評価する制度はどれか。",
+    "choices": [
+      { "label": "ア", "text": "ISMAP" },
+      { "label": "イ", "text": "SCS評価制度" },
+      { "label": "ウ", "text": "情報セキュリティサービス基準" },
+      { "label": "エ", "text": "JIS Q 27701" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "sc-review-8",
+    "chapterOrder": 5,
+    "text": "委託先や取引先との契約段階からセキュリティ要件を盛り込む考え方に最も関連が深い管理策はどれか。",
+    "choices": [
+      { "label": "ア", "text": "供給者との合意における情報セキュリティの取扱い" },
+      { "label": "イ", "text": "職務の分離" },
+      { "label": "ウ", "text": "情報の分類" },
+      { "label": "エ", "text": "資産の返却" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "sc-review-9",
+    "chapterOrder": 5,
+    "text": "企画から廃棄まで一貫してセキュリティを組み込む、システム開発における管理策はどれか。",
+    "choices": [
+      { "label": "ア", "text": "セキュリティに配慮した開発のライフサイクル" },
+      { "label": "イ", "text": "変更管理" },
+      { "label": "ウ", "text": "テスト用情報" },
+      { "label": "エ", "text": "外部委託による開発" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "sc-review-10",
+    "chapterOrder": 6,
+    "text": "3つのデータコピーを2種類の媒体に保存し、うち1つを遠隔地に保管するバックアップの基本原則はどれか。",
+    "choices": [
+      { "label": "ア", "text": "3-2-1ルール" },
+      { "label": "イ", "text": "WORM機能" },
+      { "label": "ウ", "text": "カナリアファイル" },
+      { "label": "エ", "text": "暗号化挙動検知" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "sc-review-11",
+    "chapterOrder": 6,
+    "text": "クラウドサービスの利用状況を可視化し、シャドーITの検出やアクセス制御を行う仕組みはどれか。",
+    "choices": [
+      { "label": "ア", "text": "CASB（Cloud Access Security Broker）" },
+      { "label": "イ", "text": "CSPM（Cloud Security Posture Management）" },
+      { "label": "ウ", "text": "CWPP（Cloud Workload Protection Platform）" },
+      { "label": "エ", "text": "SASE（Secure Access Service Edge）" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "sc-review-12",
+    "chapterOrder": 7,
+    "text": "OAuth 2.0の認可コードフローにおいて、認可コードの横取り攻撃を防ぐために追加される保護技術はどれか。",
+    "choices": [
+      { "label": "ア", "text": "PKCE" },
+      { "label": "イ", "text": "JWT" },
+      { "label": "ウ", "text": "SSO" },
+      { "label": "エ", "text": "IDaaS" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "sc-review-13",
+    "chapterOrder": 7,
+    "text": "証明書が失効しているかどうかを、その場でオンラインに照会して確認する仕組みはどれか。",
+    "choices": [
+      { "label": "ア", "text": "OCSP" },
+      { "label": "イ", "text": "CRL" },
+      { "label": "ウ", "text": "ACME" },
+      { "label": "エ", "text": "CAA" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "sc-review-14",
+    "chapterOrder": 8,
+    "text": "情報系（IT）と制御系（OT）のネットワークを分離するために設ける中間領域はどれか。",
+    "choices": [
+      { "label": "ア", "text": "IT／OT境界のDMZ" },
+      { "label": "イ", "text": "Purdueモデル" },
+      { "label": "ウ", "text": "一方向ゲートウェイ" },
+      { "label": "エ", "text": "検疫ネットワーク" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "sc-review-15",
+    "chapterOrder": 8,
+    "text": "IT製品の安全性を第三者が評価する国際的な枠組みで、コモンクライテリア（CC）の根拠となる規格はどれか。",
+    "choices": [
+      { "label": "ア", "text": "ISO/IEC 15408" },
+      { "label": "イ", "text": "ISO/IEC 27001" },
+      { "label": "ウ", "text": "ISO/IEC 29147" },
+      { "label": "エ", "text": "ISO/IEC 42001" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "sc-review-16",
+    "chapterOrder": 9,
+    "text": "ネットワーク機器の稼働状況を監視・制御するために使われる、管理情報ベース（MIB）を用いたプロトコルはどれか。",
+    "choices": [
+      { "label": "ア", "text": "SNMP" },
+      { "label": "イ", "text": "syslog" },
+      { "label": "ウ", "text": "パケットアナライザー" },
+      { "label": "エ", "text": "SCAP" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "sc-review-17",
+    "chapterOrder": 10,
+    "text": "システム監査の一連のプロセスにおいて、本調査の前に行う調査を何と呼ぶか。",
+    "choices": [
+      { "label": "ア", "text": "予備調査" },
+      { "label": "イ", "text": "改善提案のフォローアップ" },
+      { "label": "ウ", "text": "監査手続書の作成" },
+      { "label": "エ", "text": "監査証拠の入手と評価" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "sc-review-18",
+    "chapterOrder": 11,
+    "text": "プログラムの内部構造（ロジック）に着目してテストケースを設計する手法はどれか。",
+    "choices": [
+      { "label": "ア", "text": "ホワイトボックステスト" },
+      { "label": "イ", "text": "ブラックボックステスト" },
+      { "label": "ウ", "text": "トップダウンテスト" },
+      { "label": "エ", "text": "ボトムアップテスト" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "sc-review-19",
+    "chapterOrder": 12,
+    "text": "新システムの企画段階で、担当者から「セキュリティは実装フェーズで考えればよいのでは」と相談された。支援士として最も適切な助言はどれか。",
+    "choices": [
+      { "label": "ア", "text": "脅威分析の結果を踏まえたセキュリティ要件を、企画・要件定義の段階から組み込むべきだと助言する" },
+      { "label": "イ", "text": "その通りなので、実装フェーズまで対応を待つよう伝える" },
+      { "label": "ウ", "text": "セキュリティはテスト工程だけで十分だと伝える" },
+      { "label": "エ", "text": "リリース後の運用段階で考えれば問題ないと伝える" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "sc-review-20",
+    "chapterOrder": 12,
+    "text": "インシデント対応の中で、法的手続きに備えた証拠保全が必要になった。支援士として最も適切な対応はどれか。",
+    "choices": [
+      { "label": "ア", "text": "Chain of Custodyの手順に沿って証拠を保全しつつ、専門的な解析が必要な部分は外部のデジタルフォレンジック専門家への依頼を手配する" },
+      { "label": "イ", "text": "証拠となりうる機器をすぐに初期化し、通常業務に復帰させる" },
+      { "label": "ウ", "text": "証拠の保全は法務部門の仕事であり、支援士は一切関与しない" },
+      { "label": "エ", "text": "口頭での聞き取りだけで十分であり、ログや機器の保全は不要と判断する" }
+    ],
+    "correctLabel": "ア"
+  }
+]

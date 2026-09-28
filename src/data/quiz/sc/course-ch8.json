@@ -1,0 +1,101 @@
+[
+  {
+    "id": "sc-course-ch8-1",
+    "text": "ゼロトラストアーキテクチャにおいて、アクセスを許可するかどうかを実際に判断する要素はどれか。",
+    "choices": [
+      { "label": "ア", "text": "ポリシー決定ポイント（PDP）" },
+      { "label": "イ", "text": "ポリシー実施ポイント（PEP）" },
+      { "label": "ウ", "text": "IdP（Identity Provider）" },
+      { "label": "エ", "text": "CASB" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "sc-course-ch8-2",
+    "text": "AIモデルへの指示と外部から渡されるデータを分離し、プロンプトインジェクションを防ぐ対策はどれか。",
+    "choices": [
+      { "label": "ア", "text": "プロンプト分離" },
+      { "label": "イ", "text": "セキュアブート" },
+      { "label": "ウ", "text": "要塞化（ハードニング）" },
+      { "label": "エ", "text": "コンテナオーケストレーションのアクセス制御" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "sc-course-ch8-3",
+    "text": "ソースコードを実行せずに解析して脆弱性を発見する検査手法はどれか。",
+    "choices": [
+      { "label": "ア", "text": "SAST（静的検査）" },
+      { "label": "イ", "text": "DAST（動的検査）" },
+      { "label": "ウ", "text": "ファジング" },
+      { "label": "エ", "text": "ペネトレーションテスト" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "sc-course-ch8-4",
+    "text": "ソフトウェアの部品構成を一覧化し、サプライチェーン全体の脆弱性を管理するための部品表はどれか。",
+    "choices": [
+      { "label": "ア", "text": "SBOM" },
+      { "label": "イ", "text": "SLSA" },
+      { "label": "ウ", "text": "IaC" },
+      { "label": "エ", "text": "CWE" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "sc-course-ch8-5",
+    "text": "起動プロセスの正当性を検証し、不正なOSやブートローダーの実行を防ぐ仕組みはどれか。",
+    "choices": [
+      { "label": "ア", "text": "セキュアブート（UEFI）" },
+      { "label": "イ", "text": "TPM" },
+      { "label": "ウ", "text": "耐タンパ性" },
+      { "label": "エ", "text": "セキュアエレメント" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "sc-course-ch8-6",
+    "text": "情報系（IT）と制御系（OT）のネットワークを分離するために設ける中間領域はどれか。",
+    "choices": [
+      { "label": "ア", "text": "IT／OT境界のDMZ" },
+      { "label": "イ", "text": "Purdueモデル" },
+      { "label": "ウ", "text": "一方向ゲートウェイ" },
+      { "label": "エ", "text": "検疫ネットワーク" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "sc-course-ch8-7",
+    "text": "誰がいつどのように証拠を取り扱ったかを記録し続け、証拠の信頼性を法的に担保する考え方はどれか。",
+    "choices": [
+      { "label": "ア", "text": "Chain of Custody（証拠保全の連鎖）" },
+      { "label": "イ", "text": "タイムライン分析" },
+      { "label": "ウ", "text": "メモリフォレンジック" },
+      { "label": "エ", "text": "ハッシュ値による同一性の証明" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "sc-course-ch8-8",
+    "text": "個々の脆弱性を一意に識別するための共通識別子はどれか。",
+    "choices": [
+      { "label": "ア", "text": "CVE" },
+      { "label": "イ", "text": "CVSS" },
+      { "label": "ウ", "text": "CWE" },
+      { "label": "エ", "text": "SCAP" }
+    ],
+    "correctLabel": "ア"
+  },
+  {
+    "id": "sc-course-ch8-9",
+    "text": "IT製品の安全性を第三者が評価する国際的な枠組みで、コモンクライテリア（CC）の根拠となる規格はどれか。",
+    "choices": [
+      { "label": "ア", "text": "ISO/IEC 15408" },
+      { "label": "イ", "text": "ISO/IEC 27001" },
+      { "label": "ウ", "text": "ISO/IEC 29147" },
+      { "label": "エ", "text": "ISO/IEC 42001" }
+    ],
+    "correctLabel": "ア"
+  }
+]
