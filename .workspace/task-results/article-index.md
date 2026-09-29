@@ -1,9 +1,14 @@
 # Syllabus Hack Article Index
 
-Generated on: 2026/9/19 22:24:23
+Generated on: 2026/9/29 20:06:59
 
 | Publish Date | Category | Title | Tags | Path |
 | :--- | :--- | :--- | :--- | :--- |
+| 2026-09-28 | method | SC科目B（記述式）をS.E.L.Fループで攻略する｜AIに「添削者」として再現答案を鍛えてもらう方法 | 情報処理安全確保支援士, 記述式, S.E.L.Fループ, プロンプト, 生成AI | `src/data/post/method/sc-descriptive-self-loop-hack/index.md` |
+| 2026-09-28 | method | 情報処理安全確保支援士（SC）完全攻略ガイド｜知識861語・技能31項目を「苦手章だけ20時間」で埋める | 情報処理安全確保支援士, 高度試験, 記述式, ロードマップ, 生成AI | `src/data/post/method/sc-hub/index.md` |
+| 2026-09-27 | method | 【プロンプト配布】データマネジメント試験「無限想定問題」生成メソッド｜過去問ゼロで演習量を確保する | 生成AI, Claude, データマネジメント試験, プロンプト配布, 想定問題 | `src/data/post/method/dm-kakomon-nashi-ai-mondai-hack/index.md` |
+| 2026-09-26 | method | ダン・マーテルの「S.E.L.F.ループ」で自己学習を設計する｜AIとの対話で「何を学ぶべきか」を見つける方法 | 自己学習, 生成AI, S.E.L.Fループ, プロンプト, キャリア | `src/data/post/method/self-loop-ai-learning/index.md` |
+| 2026-09-25 | method | なぜシラバスハックは「20時間学習法」を採用しているのか | 20時間学習法, シラバスハック, 生成AI, 学習メソッド, 独学 | `src/data/post/method/20hours-method-reason/index.md` |
 | 2026-09-15 | theory | BPR・BPMとは？改革と改善の違いを1ページで整理 | BPR, BPM, 業務改善, ITパスポート, DX | `src/data/post/theory/bpr-bpm-business-process-improvement-basics/index.md` |
 | 2026-09-15 | theory | SaaS・PaaS・IaaSとは？クラウド3大サービスと選び方を1ページで整理 | クラウド, SaaS, PaaS, IaaS, ITパスポート | `src/data/post/theory/cloud-saas-paas-iaas-basics/index.md` |
 | 2026-09-15 | theory | P/L・B/S・C/F・損益分岐点・ROIとは？会計・財務の基礎を1ページで整理 | 財務諸表, 損益計算書, 貸借対照表, キャッシュフロー, ITパスポート | `src/data/post/theory/corporate-finance-pl-bs-cf-roi-basics/index.md` |

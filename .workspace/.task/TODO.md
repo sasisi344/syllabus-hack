@@ -7,6 +7,21 @@
 
 ---
 
+## 予定日つきタスク（日付順の早見）
+
+> 日付が決まっている未来のタスクの一覧。詳細は、各リンク先の節・ファイルを参照。実行したら、リンク先の項目を完了にして、この表から行を消す。
+
+| 予定日 | タスク | 詳細 |
+| --- | --- | --- |
+| **2026-10-01** | 生成AI実務練習コースの公開告知のSNS投稿（Threads）。公開（push）が先 | 下記 §0.6 |
+| 2026-10-18 | trend用語解説23記事の効果検証 | §5 |
+| 2026-10下旬 | theory/methodの1記事あたり効率の再集計（統合後6週分） | §2 |
+| **2026-10-25〜27頃（W44）** | 生成AI実務練習コースの公開後の効果測定（集計期間 10/18〜10/24） | 下記 §0.6 |
+| **2026-11-17（以降）** | GeminiのGem→スキル統合に伴う、コラムの更新とKWの再実査 | [`task-2026-11-17-gemini-gem-to-skills.md`](task-2026-11-17-gemini-gem-to-skills.md) |
+| 2027-03頃 | 生成AI実務練習コースの主軸KW（生成AI 練習問題 業務）の再実査。同月、GeminiのWorkspaceアカウントのGem→スキル移行（コラムの注記の見直し） | [KW記録 §5](../data-set/ai-work-course-kw-research-2026-09.md) |
+
+---
+
 ## 0. 【最優先】2027年IPAシラバス改訂対応 — 20時間学習法コンテンツ制作
 
 > **正本（詳細タスク・背景思想はすべてこちら）**: [`.workspace/.new-contentplan/new-content-plan.md`](../.new-contentplan/new-content-plan.md)
@@ -47,6 +62,27 @@
 ## 0.5 コラム記事「S.E.L.Fループ」公開（2026-09-26完了）
 
 - [x] `method/self-loop-ai-learning/`として公開完了。カバー生成→本番配置→`pnpm astro check`＋`pnpm run build`（0エラー）を確認しコミット・push済み
+
+---
+
+## 0.6 生成AI実務練習コース — 制作完了（アーカイブ済み）／公開・SNS・効果測定（2026-09-29）
+
+> 制作と本番ビルド（1,441ページ）まで完了。完了記録: [`archive/completed-2026-09-29.md`](archive/completed-2026-09-29.md)（設計の正本 `archive/requirement-ai-practice-usecases.md`、進捗管理 [`../.new-contentplan/archive/ai-work-course/ai-work-course-task.md`](../.new-contentplan/archive/ai-work-course/ai-work-course-task.md)）。コース: `/course/ai-work/`（`src/data/course/ai-work/`）、コラム: `/method/ai-skill-rules-setup/`・`/method/ai-programming-prep/`。
+
+- [ ] **【ユーザー判断】コミットとpush（本番公開）**: **10/1のSNS投稿より前に完了させる**。変更は `src/content/config.ts` の1行＋新規 `src/data/` 配下（course/ai-work、quiz/ai-work、post/method のコラム2本）＋ `.workspace` の記録。ワークスペースには別作業の未コミット変更（`site-structure-pillars.md`、作文検定の資料の移動など）があるため、コミット対象を選ぶ。pushは本番の自動デプロイをトリガーするため、変更の要約を確認してから実行（CLAUDE.md）
+- [ ] **2026-10-01 SNS投稿（Threads）**: コース公開の告知。`/sns-post` スキルで作成。公開（push・デプロイ）が済み、`/course/ai-work/` が開けることを確認してから投稿する。切り口の候補: 章のワナ（例: 議事録でAIが担当者を勝手に補う）、サンプルファイル・答え合わせつきであること
+- [ ] **W44頃（2026-10-25〜27頃）効果測定**: サイトの週番号の規則（w40＝9/19〜9/26の集計、w41＝9/27〜10/3）に沿うと、w44の集計期間は10/18〜10/24。`/weekly-report w44` に組み込む。見る指標:
+  - GA4（コース別探索レポートの標準テンプレート。[`access-data/README.md`](access-data/README.md)）: `/course/ai-work/` の表示回数・セッション・エンゲージメント率・平均エンゲージメント時間。TOP→第1章→…→第8章の、どこで離脱するか（完走率）
+  - サンプルZIPのダウンロード数: GA4の `file_download` イベント（拡張計測の「ファイルのダウンロード」が有効か、事前に確認）
+  - GSC: 狙ったKW（`.workspace/data-set/ai-work-course-kw-research-2026-09.md`：生成AI 練習問題 業務／実務 練習 など）の表示回数・クリック・掲載順位、コラム2本の流入
+  - SNS（10/1）からの流入（Threadsのリファラ）
+  - 判定: 継続／タイトル・descriptionの調整／章別の衛星記事に着手（候補: 第7章＝低〜中占拠、第5・6章のGAS、第8章の日報→週報）
+  - 事前準備（W44の前まで）: GA4のコース別モニタリングに `/course/ai-work/` を追加（URLプレフィックスで絞り込み、またはコンテンツグループ）
+- [ ] コラム2本の個別カバー画像（現在は `method/common-cover.png` を暫定使用。生成は指示後）
+- [ ] 公開後に確認: ChatGPTの手順（公式ヘルプを取得できず、二次情報とOpenAI Academyでの確認）を実機で／事前準備編のmacOSでの動作／ZDNET記事リンクの疎通
+- [ ] `/course/` 一覧ページの文言が資格学習向け（「資格学習法」「診断テスト」）のため、非資格コースが並ぶと違和感が出る。文言の調整は別タスク
+- [ ] **【実行日 2026-11-17（以降）】GeminiのGem→スキル統合に伴う、コラムの更新**: 「生成AIにルールを覚えさせるスキル設定」の「今のGem」の記述を、スキルの手順に書き換える（第2章の1文も）。KWの再実査つき。**この日になるまでは実行しない**。詳細（更新する12行・確認手順・完了条件）: [`task-2026-11-17-gemini-gem-to-skills.md`](task-2026-11-17-gemini-gem-to-skills.md)
+- [ ] 各章の通し検証（人が実際にAIで解く）は、公開後も継続。特に第5章のExcel数式（実Excel未実行）と第6章のGAS・HTML（未実行）
 
 ---
 
@@ -120,6 +156,7 @@
 
 | ファイル/フォルダ | 内容 | 移動日 |
 |---|---|---|
+| `completed-2026-09-29.md` | 生成AI実務練習コース（非資格。全8章・サンプルZIP3本・コラム2本）の制作〜本番ビルド完了記録: 本番配置、KW調査、サンプル配布方式の検証、出力検査28項目。設計の正本 `requirement-ai-practice-usecases.md`・元メモ `AIツールの活用には具体的なユースケースが必要（ZDNET Japan）.md` も同フォルダ。進捗管理は `.new-contentplan/archive/ai-work-course/` | 2026-09-29 |
 | `completed-2026-09-22.md` | Week4完了タスク一式: GA4/GSC計測開始・PD-M/PD-Sコース公開完了（Mermaid図解インフラ新規実装を含む）・SG/DM完了の参照・今月の振り返り・trend記事確認。IPAグループ（ip→sg→dm→pd-m→pd-s）の20時間コース展開が全て完了。PD-M/PD-S実装の正本は`.new-contentplan/archive/pd-course/`へ移動済み | 2026-09-22 |
 | `completed-2026-09-19.md` | §0 Week3全完了（courseコレクション内部リンク確認含む）・§1該当項目クローズ・DMコース公開前最終調整（§4、KaTeXスマホバグ修正・プロンプト折り返しバグ修正・コース共通サムネイル実装・制作手順紹介セクション追加を含む）・trend用語解説バッチ内部リンク改善の実装フェーズ完了分 | 2026-09-19 |
 | `theory-genre-consolidation-2026-09-15.md` | 旧§3（theoryジャンル別まとめ記事化）完了分一式: パイロット・IP軸全数カテゴライズ・①〜⑤統合・SGギャップ分析A/B・要検討3本の個別対応（リライト/再設計/統合）。theory記事102本→65本、統合ハブ11本、301リダイレクト39件 | 2026-09-15 |

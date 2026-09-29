@@ -1,0 +1,10 @@
+---
+import { getCollection, render } from 'astro:content';
+export const getStaticPaths = async () => {
+  const entries = await getCollection('course', ({ data }) => !data.draft);
+  return entries.map((entry) => ({ params: { chapter: entry.id }, props: { entry } }));
+};
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+---
+<html><body><h1>{entry.data.title}</h1><Content /></body></html>

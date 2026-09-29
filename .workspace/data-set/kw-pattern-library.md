@@ -53,6 +53,8 @@
 転職・キャリアメディア系: careerpark-agent、レバテックルーキー、Midworks、type、doda、マイナビ
 資格特化メディア系: infla-lab.com（インフラ系資格）、theport
 
+AI研修・ベンダー・AI専門メディア系（生成AI×業務のKWで横断的に出現。2026-09-29追加）: AI総研（metaversesouken.com）、JAPAN AIラボ、AI経営総合研究所（SHIFT AI）、WEEL、スキルアップAI、exawizards（AI新聞）、Uravation、Smart at、cloudpack、リコー、Taskhub、GMO天秤AI、チャプロAI、excelcamp、note・Zenn・Qiita（個人。中〜低占拠の受け皿になりやすい）
+
 > 上記は `research-kw-non-ipa.md` で実際に確認された占拠プレイヤーの一部。資格ジャンルが変わると占拠プレイヤーも変わるため、新規資格では必ずWebSearchで個別に確認すること。
 
 ---
@@ -67,6 +69,12 @@ P1・P8・P9 は占拠度が高い前提のため、新規スポーク記事の�
 
 ---
 
+## 非資格コンテンツへの読み替え（2026-09-29追加）
+
+資格名を主軸にしない記事・コース（例: 生成AI×業務のユースケース）は、`{C}` を `{U}`（ユースケース名）に置き換えて、P4/P6/P7/P10 を当てはめる。ただし「生成AI 研修／活用事例／ユースケース」系は大手・研修会社の占拠度が高い。空いているのは「素材と答え合わせの基準がついた練習」という形式の軸。実例: `ai-work-course-kw-research-2026-09.md`。
+
+---
+
 **Status**: Active
-**Last Updated**: 2026-09-27（P10追加。横断リサーチ結果: `cert-keyword-db/p10-ai-query-research-2026-09.md`）
+**Last Updated**: 2026-09-29（非資格コンテンツへの読み替え・AI研修系の競合プレイヤーを追記。リサーチ結果: `ai-work-course-kw-research-2026-09.md`）
 **連動スキル**: `.agents/kw_pattern_research.md`

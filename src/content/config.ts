@@ -157,6 +157,7 @@ const courseCollection = defineCollection({
       'pd-m',
       'pd-s',
       'common',
+      'ai-work',
       'g-kentei',
       'ds-kentei',
       'ccna',

@@ -14,6 +14,7 @@ ITパスポートを題材にした20時間学習法パイロット（Tier1・�
 |---|---|
 | [`completed-2026-09-09.md`](./completed-2026-09-09.md) 旧§0 | Week1残タスク: `scaffold-course.cjs`の2027年シラバスJSON対応改修、examId未登録3件の扱い確認 |
 | [`completed-2026-09-09.md`](./completed-2026-09-09.md) 旧§0 Week2 | Week2: Tier1全8章の用語精選（819語→約210語）・診断テスト10問・カリキュラムマップ修正・8章本文執筆（既存記事リンク61本）・章末チェック問題31問を作成 |
+| [`completed-2026-09-29.md`](./completed-2026-09-29.md) | 生成AI実務練習コース（非資格。全8章・サンプルZIP3本・コラム2本）の制作〜本番ビルド完了。設計の正本（`requirement-ai-practice-usecases.md`）・元メモ（ZDNET Japan）も同フォルダ |
 
 ## 2. サイト構成再編（courseコレクション・3本柱）
 

@@ -70,6 +70,7 @@ knowledge:
 | examId | 用途 | Hub記事 | 備考 |
 | --- | --- | --- | --- |
 | `common` | 資格横断・複数資格・非特定 | `method/level4-strategy-hub` 等 | IPA全体・AI学習法・キャリア横断記事向け。FP/AWS単独記事は`fp`/`aws`へ移行済み（2026-07-11）。両方に跨る記事（例: `career/next-step-aws-vs-fp-strategy`）は`common`のまま維持 |
+| `ai-work` | 生成AI実務練習コース（資格ではない。courseコレクション専用） | `course/ai-work`（コースTOP） | 2026-09-29追加。`src/content/config.ts` の course の examId enum のみに追加（post には未追加。関連記事は `common`）。tagは付けない |
 
 ---
 
@@ -77,7 +78,7 @@ knowledge:
 
 ```
 ip, sg, fe, ap, st, sa, pm, nw, db, es, sm, au, sc, dm, pd-m, pd-s,
-common, g-kentei, ds-kentei, ccna,
+common, ai-work, g-kentei, ds-kentei, ccna,
 denken, boki, takken, mos, kiken-butsu, biru-kanri, doboku-sekou,
 chiteki-zaisan, boiler-refrigeration, shobo-setsubi, fp, aws, fintech-it, toeic
 ```
