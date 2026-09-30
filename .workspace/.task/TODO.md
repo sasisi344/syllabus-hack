@@ -69,7 +69,7 @@
 
 > 制作と本番ビルド（1,441ページ）まで完了。完了記録: [`archive/completed-2026-09-29.md`](archive/completed-2026-09-29.md)（設計の正本 `archive/requirement-ai-practice-usecases.md`、進捗管理 [`../.new-contentplan/archive/ai-work-course/ai-work-course-task.md`](../.new-contentplan/archive/ai-work-course/ai-work-course-task.md)）。コース: `/course/ai-work/`（`src/data/course/ai-work/`）、コラム: `/method/ai-skill-rules-setup/`・`/method/ai-programming-prep/`。
 
-- [ ] **【ユーザー判断】コミットとpush（本番公開）**: **10/1のSNS投稿より前に完了させる**。変更は `src/content/config.ts` の1行＋新規 `src/data/` 配下（course/ai-work、quiz/ai-work、post/method のコラム2本）＋ `.workspace` の記録。ワークスペースには別作業の未コミット変更（`site-structure-pillars.md`、作文検定の資料の移動など）があるため、コミット対象を選ぶ。pushは本番の自動デプロイをトリガーするため、変更の要約を確認してから実行（CLAUDE.md）
+- [x] **【完了 2026-09-29 commit 6ed05a5、公開URL 200確認 2026-09-30】コミットとpush（本番公開）**: **10/1のSNS投稿より前に完了させる**。変更は `src/content/config.ts` の1行＋新規 `src/data/` 配下（course/ai-work、quiz/ai-work、post/method のコラム2本）＋ `.workspace` の記録。ワークスペースには別作業の未コミット変更（`site-structure-pillars.md`、作文検定の資料の移動など）があるため、コミット対象を選ぶ。pushは本番の自動デプロイをトリガーするため、変更の要約を確認してから実行（CLAUDE.md）
 - [ ] **2026-10-01 SNS投稿（Threads）**: コース公開の告知。`/sns-post` スキルで作成。公開（push・デプロイ）が済み、`/course/ai-work/` が開けることを確認してから投稿する。切り口の候補: 章のワナ（例: 議事録でAIが担当者を勝手に補う）、サンプルファイル・答え合わせつきであること
 - [ ] **W44頃（2026-10-25〜27頃）効果測定**: サイトの週番号の規則（w40＝9/19〜9/26の集計、w41＝9/27〜10/3）に沿うと、w44の集計期間は10/18〜10/24。`/weekly-report w44` に組み込む。見る指標:
   - GA4（コース別探索レポートの標準テンプレート。[`access-data/README.md`](access-data/README.md)）: `/course/ai-work/` の表示回数・セッション・エンゲージメント率・平均エンゲージメント時間。TOP→第1章→…→第8章の、どこで離脱するか（完走率）

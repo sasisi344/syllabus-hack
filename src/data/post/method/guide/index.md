@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-02-10T00:00:00Z
-lastmod: 2026-07-10
+lastmod: 2026-09-30
 title: シラバスハック学習メソッド：生成AIで資格試験を攻略する
 image: ~/data/post/method/common-cover.png
 excerpt: 当サイトが推奨する「生成AI×シラバス」を活用した学習メソッドの総まとめです。ITパスポートから基本情報技術者まで、効率的な合格戦略を解説します。
@@ -42,7 +42,7 @@ ITパスポートの手順を1本にまとめた柱は <strong>[ChatGPTでITパ�
 ### 【Method】最新のAI学習法を極める
 シラバス（試験範囲）をNotebookLMなどのAIに読み込ませ、あなた専用の <strong>「24時間使い放題の家庭教師」</strong> を作り出す独自手法です。
 - <strong>[【保存版】NotebookLM×シラバス学習ハック完全ガイド](/method/notebooklm-ai-workflow-guide/)</strong>
-- <strong>音声学習</strong>: [公式資料を「ポッドキャスト」に変えて隙間時間をハック](/method/notebooklm-features-guide/)
+- <strong>音声学習</strong>: [公式資料を「ポッドキャスト」に変えて隙間時間をハック](/method/notebooklm-features-guide/)（学生・社会人別の使い方つき。2026年7月にGemini Notebookへ改称）
 - <strong>演習ツール</strong>: [AIを使って「自分専用のドリル」を自動生成する](/method/notebooklm-features-guide/)
 
 ### 【Strategy】試験別・最短攻略ロードマップ
