@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-05-31T00:00:00Z
-lastmod: 2026-09-30
+lastmod: 2026-10-03
 title: 'NotebookLM（Gemini Notebook）資格試験活用ガイド｜2026年版・機能別の使い倒し方'
 excerpt: '2026年7月にGemini Notebookへ改称されたNotebookLM。フラッシュカード・クイズ・音声・マインドマップ・動画・スライドなどの機能を、資格試験学習に使う具体手順を最新仕様で解説。用語の自分事化とオリジナルドリル生成の応用も収録。'
 image: '~/data/post/method/notebooklm-features-guide/cover.jpg'
@@ -20,6 +20,8 @@ metadata:
 「NotebookLMって何から始めればいいか分からない」
 
 結論から言うと、<strong>NotebookLMは「資料集め→問題作成→暗記→音声学習→図解」までを、ひとつの無料AIサービスで完結できる自己学習ツール</strong>です。
+
+ITパスポートに絞った手順は[ITパスポート NotebookLM勉強法](/method/notebooklm-ip-study-hack/)にまとめています。
 
 当サイトが記事で紹介している「[AIで資格試験のシラバスをハックする](/method/guide/)」作業のほとんどを、NotebookLMだけで再現できます。参考書を買わなくても、公式のシラバスや過去問を土台に、自分専用の教材と講師を作れます。
 

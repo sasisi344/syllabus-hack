@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-05-31T00:00:00Z
-lastmod: 2026-09-09
+lastmod: 2026-10-03
 title: 'ITパスポート完全攻略ガイド｜AI時代に最初の一手としてこれを選ぶ理由'
 excerpt: 'リスキリング・企業の最低限IT資格化・生成AI時代の入口として注目されるITパスポート。なぜ今この資格なのかという背景から合格手順・関連記事インデックスまで網羅したハブガイドです。'
 image: '~/data/post/method/itp-hub/cover.jpg'
@@ -150,7 +150,8 @@ ITパスポートの「プロジェクトマネジメント」を学び始めま
 - [独学・AI学習・通信講座の合格ルート比較](/method/it-passport-study-route-comparison/) — タイプ別の最短ルート診断
 - [スマホだけで合格する完全ガイド](/method/smartphone-study-guide/) — PCなし・スキマ時間での学習設計
 - [「全力捨て問」戦略](/method/ip-discard-strategy/) — 社会人が1週間で受かるための取捨選択の技法
-- [NotebookLMで用語を自分事化する学習法](/method/notebooklm-features-guide/) — 用語暗記をゼロにする対話学習の具体手順
+- [ITパスポート NotebookLM勉強法](/method/notebooklm-ip-study-hack/) — シラバスと過去問で用語の自分事化から分野別の出題まで回す手順
+- [NotebookLM資格試験活用ガイド](/method/notebooklm-features-guide/) — 音声・マインドマップなど機能全体の使い方
 - [ストラテジ系をAIの「たとえ話」で攻略する技術](/method/ip-strategy-ai-hack/) — 経済学ゼロからでも解ける解説法
 - [CBT試験の操作感を制する極意](/method/cbt-exam-tactics/) — 本番のインターフェースで失点しないための事前対策
 

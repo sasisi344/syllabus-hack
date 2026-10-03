@@ -111,8 +111,6 @@ export default defineConfig({
     '/final-checkpoint-100-plus/': '/method/itp-10-days-panic-hack/',
     '/method/final-checkpoint-100-plus/': '/method/itp-10-days-panic-hack/',
     // グループB: NotebookLM統合 (2026-05-30) — 旧redirect先も新ガイドへ転送
-    '/notebooklm-ip-study-hack/': '/method/notebooklm-features-guide/',
-    '/method/notebooklm-ip-study-hack/': '/method/notebooklm-features-guide/',
     '/notebooklm-it-passport-drill/': '/method/notebooklm-features-guide/',
     '/method/notebooklm-it-passport-drill/': '/method/notebooklm-features-guide/',
     '/notebooklm-flashcard/': '/method/notebooklm-features-guide/',

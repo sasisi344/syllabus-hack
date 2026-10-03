@@ -105,7 +105,11 @@
   - [x] `kw-pattern-library.md` にP10「資格名×AI学習」パターンを追加（2026-09-27）
   - [x] P10で15資格＋IPAを実査 → 正本 `.workspace/data-set/cert-keyword-db/p10-ai-query-research-2026-09.md`、boki/takken/aws/fp/denkenのDBにP10行を追記（2026-09-27）
   - [ ] **要ユーザー判断（次回作業時）**: 次の着手を「簿記のP10記事執筆」と「IPコース第1章での『AIに出題させる』ブロック試作」のどちらから進めるか
-  - [ ] **【最優先・IPA／要ユーザー判断】** 「ITパスポート NotebookLM」の勝ち記事を復活（`notebooklm-ip-study-hack` は2026-07-11に汎用の `notebooklm-features-guide` へリダイレクトされ流入が消失）。リダイレクトを解除して復活させるか、新規slugで作り直すかをユーザー判断
+  - [x] **IPA「ITパスポート NotebookLM」記事の扱い → 2026-10-03 方針確定**: **同一URL `/method/notebooklm-ip-study-hack/` を復活させ、内容は全面的に書き直して厚くする**（旧記事の再公開はしない）
+    - 根拠: w40比較期間で表示43・クリック4・平均5.9位の実績があり、リダイレクト解除で同URLの履歴を取り戻せる。新slugだと実績ゼロから。受け皿の `notebooklm-features-guide`（examId: common）にはITパスポートの記述がなく、意図が合っていない
+    - 2026-06-18の統合計画（ページ復活ではなく1本に統合）は「薄い記事を増やさない」が趣旨。旧記事は `notebooklm-it-passport-drill` のサブセットで薄いので、旧本文の復活は不可。IP特化の厚い1本として再構築するなら趣旨に反しない
+    - 書き直しの中身: 自分事化（CRM例）＋50問ドリル生成＋「AIに出題させる」プロンプト（コピー用コードフェンスは `**太字**`）＋ハルシネーション対策（出典確認）。`features-guide` は汎用の機能ガイドとして残し、相互リンクで役割分担
+    - [x] 実行（2026-10-03）: ①`astro.config.ts` のリダイレクト2行を削除 ②`src/data/post/method/notebooklm-ip-study-hack/index.md` を新規作成（examId: ip、カバー生成済み） ③`features-guide`・`itp-hub`・IPコース第1章から内部リンク ④`pnpm build` 成功。**残り: コミット・push（ユーザー確認後）、公開後にGSCでURLの再インデックスと順位を確認（W44で）**
   - [ ] 簿記で「AI出題編」（`簿記3級 NotebookLM`）を執筆し、P10記事の型を確立 → 宅建（`宅建 NotebookLM`＋未来問の紹介）→ AWS SAA → FP の順に横展開
   - [ ] Tier C資格（電験・危険物・消防・ボイラー・ビル管理・知財・DS・MOS・CCNA・土木）のHub記事に「AIに出題させる／テキストを作る」節を追記
   - [ ] **IPAの新しい形**（`site-structure-pillars.md` §8-4）: コース章末に「AIに出題させる」ブロックを追加する型を1章で試作（IPコース第1章を想定）→ 全コースへ展開
