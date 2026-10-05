@@ -69,6 +69,26 @@ const { language, textDirection } = I18N;
     <ApplyColorMode />
     <Metadata {...metadata} />
     <SiteVerification />
+    {/* GA4: /course/{examId}/ 配下で course_id / content_group を付与。config の page_view より前に set する必要がある */}
+    <script is:inline>
+      (function () {
+        if (window.__courseGaInit) return;
+        window.__courseGaInit = true;
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+          window.dataLayer.push(arguments);
+        }
+        function applyCourseParams() {
+          var m = location.pathname.match(/^\/course\/([^/]+)/);
+          gtag('set', {
+            course_id: m ? m[1] : undefined,
+            content_group: m ? 'course-' + m[1] : undefined,
+          });
+        }
+        applyCourseParams();
+        document.addEventListener('astro:page-load', applyCourseParams);
+      })();
+    </script>
     <Analytics />
     <script type="application/ld+json" set:html={JSON.stringify(websiteJsonLd)} />
 
