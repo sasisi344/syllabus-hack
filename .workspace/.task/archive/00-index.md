@@ -15,6 +15,8 @@ ITパスポートを題材にした20時間学習法パイロット（Tier1・�
 | [`completed-2026-09-09.md`](./completed-2026-09-09.md) 旧§0 | Week1残タスク: `scaffold-course.cjs`の2027年シラバスJSON対応改修、examId未登録3件の扱い確認 |
 | [`completed-2026-09-09.md`](./completed-2026-09-09.md) 旧§0 Week2 | Week2: Tier1全8章の用語精選（819語→約210語）・診断テスト10問・カリキュラムマップ修正・8章本文執筆（既存記事リンク61本）・章末チェック問題31問を作成 |
 | [`completed-2026-09-29.md`](./completed-2026-09-29.md) | 生成AI実務練習コース（非資格。全8章・サンプルZIP3本・コラム2本）の制作〜本番ビルド完了。設計の正本（`requirement-ai-practice-usecases.md`）・元メモ（ZDNET Japan）も同フォルダ |
+| [`completed-2026-10-06.md`](./completed-2026-10-06.md) | Week進捗表・Week3/Week4・コース検索流入モニタリングの完了項目・S.E.L.Fループ公開・旧§1・旧§2の完了項目（P10追加・実査、`notebooklm-ip-study-hack` 復活）・w40週報のAct完了項目・2026-10-06の作業記録（4記事の改善・KW DB・SNS台帳） |
+| [`task-2026-11-17-gemini-gem-to-skills.md`](./task-2026-11-17-gemini-gem-to-skills.md) | Gem→スキル統合に伴うコラム更新タスクの原本。内容は `../schedule-task.md` §8 に統合済み |
 
 ## 2. サイト構成再編（courseコレクション・3本柱）
 
