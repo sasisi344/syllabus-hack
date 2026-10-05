@@ -323,3 +323,4 @@ Read(.workspace/data-set/kw-pattern-library.md)
 | コマンド               | 用途                                                                    |
 | ---------------------- | ----------------------------------------------------------------------- |
 | `/weekly-report {wNN}` | GA4/GSC週次データを分析しPPDCA週報を `w{NN}-weekly-task.md` に書き出す |
+| `/sns-post {wNN}` | Threads週3投稿（連投形式・1件目は結論を出さない）を `.workspace/sns-post-work/post-task.md` に作成。ルールの正本は `.workspace/draft/sns/posting-strategy.md` |

@@ -18,3 +18,6 @@
 | trend/it-passport-shame-debate | C | 2026-10-02 | 投稿済み |
 | career/shikaku-teate-soba-ichiran | D | 2026-10-03 | 投稿済み |
 | （なし・週の振り返り） | E | 2026-10-04 | 投稿済み |
+| （なし・サイト紹介。元記事はトップページ。コース個別の告知は別の機会） | E | 2026-10-06 | 予定 |
+| method/notebooklm-ip-study-hack | B | 2026-10-08 | 予定 |
+| career/shuukatsu-shikaku-imi-nai | C | 2026-10-10 | 予定 |

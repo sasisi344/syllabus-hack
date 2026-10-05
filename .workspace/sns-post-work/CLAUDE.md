@@ -26,8 +26,8 @@ sns-post-work/
 1. **週の初めに `post-task.md` を新規作成**する（前週分はすでに archive 済みである前提。残っていれば先にアーカイブ処理を終わらせる）
 2. **[`sns-tone-parameter/weekly-rotation-template.md`](sns-tone-parameter/weekly-rotation-template.md) の手順に従う**: 「誰に届けたいか（ペルソナ）」を先に決め、そこから型・元記事を逆算する。カテゴリや型から先に決めない
 3. `used-topics.md` を確認し、**直近8週間以内に使った元記事・テーマは避ける**（重複防止。テーマそのものの角度を変えるのはOKだが、同一記事の使い回しは間隔を空ける）
-4. [`../draft/sns/posting-strategy.md`](../draft/sns/posting-strategy.md) の配分ルール（型A〜G、週内で同カテゴリ・同ペルソナ2連投しない）とPREP構成・フック絵文字ランダム性ルールに沿って作成する
-5. 各投稿には日付・時間・型・元記事（フルURL。あれば）・投稿本文をセットで記載する
+4. [`../draft/sns/posting-strategy.md`](../draft/sns/posting-strategy.md) の配分ルール（週3投稿・型A〜G、週内で同カテゴリ・同ペルソナ2連投しない）・**スレッドごとの役割と大衆性のルール（1件目は結論を出さず興味づけに徹する）・スレッド形式（全投稿を連投にする）**・フック絵文字ランダム性ルールに沿って作成する
+5. 各投稿には日付・時間・型・元記事（フルURL。あれば）・連投の目印の方式・各スレッドの本文をセットで記載する。本文は**インデントなしの ```` ```post ```` コードブロック**にスレッドごとに入れる（書式の詳細は `posting-strategy.md`「スレッド形式」と `.claude/commands/sns-post.md` 手順4）
 6. **本文・ハッシュタグに「IPA」を単独略称で使わない**（写真コンテスト「International Photography Awards」とKWが競合するため。必ずITパスポート・基本情報技術者試験などの正式名称を使う。詳細は [`posting-strategy.md`](../draft/sns/posting-strategy.md) の「用語表記ルール」参照）
 7. `post-task.md` 作成と同時に、使用した記事を `used-topics.md` に「予定」ステータスで追記する
 

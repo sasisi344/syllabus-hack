@@ -18,10 +18,11 @@
 
 ## 使うタイミング
 
-`.workspace/sns-post-work/CLAUDE.md` の週次ワークフロー手順3（`posting-strategy.md`の配分ルールに沿って7日分を作成する）の**直前**に、このフォルダの内容を確認する。具体的な手順は [`weekly-rotation-template.md`](weekly-rotation-template.md) のチェックリストに従うこと。
+`.workspace/sns-post-work/CLAUDE.md` の週次ワークフロー手順3（`posting-strategy.md`の配分ルールに沿って週3本を作成する）の**直前**に、このフォルダの内容を確認する。具体的な手順は [`weekly-rotation-template.md`](weekly-rotation-template.md) のチェックリストに従うこと。
 
 ## 関連ドキュメント
 
 - 型の定義そのもの（A〜G）は [`../../draft/sns/posting-strategy.md`](../../draft/sns/posting-strategy.md) の「投稿タイプ」表が正本。このフォルダはその**選び方のロジック**を補完する位置づけで、型定義を重複して持たない
 - フック・CTAの絵文字/疑問形ルールも `posting-strategy.md`「フック・CTAのランダム性」節が正本
+- スレッドごとの役割（結論を出さないフック〜答え〜行動）・大衆性のルール・連投の目印・URLの位置・`post-task.md` の書式（`post` コードブロック）は `posting-strategy.md`「スレッド形式」節が正本。週次作成の実行手順は `.claude/commands/sns-post.md`
 - 重複防止台帳は引き続き [`../used-topics.md`](../used-topics.md) が唯一の正本
