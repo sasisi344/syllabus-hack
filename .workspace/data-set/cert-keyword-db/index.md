@@ -80,5 +80,5 @@
 
 ---
 
-**最終更新**: 2026-09-27（P10「資格名×AI」横断リサーチ → [p10-ai-query-research-2026-09.md](./p10-ai-query-research-2026-09.md)。boki/takken/aws/fp/denkenのDBにP10行を追記）  
+**最終更新**: 2026-10-06（aws-kw-db に P3/P2/P4 実査行を追記）／2026-09-27（P10「資格名×AI」横断リサーチ → [p10-ai-query-research-2026-09.md](./p10-ai-query-research-2026-09.md)。boki/takken/aws/fp/denkenのDBにP10行を追記）  
 **次回リサーチ候補**: 消防設備士スポーク2本（鑑別×AI／落ちた原因）、金融IT検定 第1弾trend記事、TOEIC Hub 新設（ユーザー判断待ち）、GSCクエリCSVとの突合

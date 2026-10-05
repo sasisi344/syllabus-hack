@@ -13,6 +13,8 @@
 
 | 予定日 | タスク | 詳細 |
 | --- | --- | --- |
+| **次のデプロイ後（日付未定・最優先）** | コース用GA4カスタムイベントを含む変更のコミット→push（前回デプロイ完了後に実施）。反映後にGA4管理画面で `chapter_complete` / `course_complete` をキーイベントにマークし、リアルタイムでイベント到達を確認 | 下記「コース検索流入モニタリング」 |
+| **w41データ受領時（次回エクスポート）** | データ取得プロセスの確認: GA4・GSCが「過去7日間」（GSCは前の7日間との比較）で取得されているか、フォルダ構成が規約どおりか | 下記「コース検索流入モニタリング」 |
 | **2026-10-01** | 生成AI実務練習コースの公開告知のSNS投稿（Threads）。公開（push）が先 | 下記 §0.6 |
 | 2026-10-18 | trend用語解説23記事の効果検証 | §5 |
 | 2026-10下旬 | theory/methodの1記事あたり効率の再集計（統合後6週分） | §2 |
@@ -22,7 +24,7 @@
 
 ---
 
-## 0. 【最優先】2027年IPAシラバス改訂対応 — 20時間学習法コンテンツ制作
+## 0. 2027年IPAシラバス改訂対応 — 20時間学習法コンテンツ制作（Tier1は全て完了。残りはTier2の検討のみ）
 
 > **正本（詳細タスク・背景思想はすべてこちら）**: [`.workspace/.new-contentplan/new-content-plan.md`](../.new-contentplan/new-content-plan.md)
 > 本セクションは進捗の要約のみ。着手・更新は必ず正本側のWeekファイルを編集すること。
@@ -46,7 +48,7 @@
 > 正本: [`archive/week4-task.md`](../.new-contentplan/archive/week4-task.md)。IP/SG/DMコース実装完了に伴い、week1〜4タスクファイルおよびip-course/sg-course/dm-course関連ファイルは2026-09-20付で`.workspace/.new-contentplan/archive/`へ移動済み
 
 - [x] Week4完了タスク一式（GA4/GSC計測開始、SG/DM/PD-M/PD-S各パイロットの公開完了、今月の振り返り、trend記事確認）→ 2026-09-22アーカイブ。**IPAグループ（`ip`→`sg`→`dm`→`pd-m`→`pd-s`）の20時間コース展開が全て完了**。詳細は[`archive/completed-2026-09-22.md`](archive/completed-2026-09-22.md)、PD-M/PD-S実装の正本は[`../.new-contentplan/archive/pd-course/pd-course-task.md`](../.new-contentplan/archive/pd-course/pd-course-task.md)参照。**G検定コースは2026-09-24着手・同日に本文執筆まで完了、2026-09-24公開済み**（既存記事からの導線設置・DMコースとの相互リンクも完了）。詳細は[`../.new-contentplan/g-kentei-course/g-kentei-course-task.md`](../.new-contentplan/g-kentei-course/g-kentei-course-task.md)参照。**SC（情報処理安全確保支援士）コースは2026-09-26着手・2026-09-28に全12章＋ターミナル×サテライト構成まで完了・本番公開済み**。最難関試験のため「章単位20時間配分＋得意/苦手診断によるパーソナライズ」という適応型モデルを新規採用。全12章＋index（`draft: false`、`pnpm build`1427ページで確認）に加え、起点ハブ記事[`method/sc-hub`](/method/sc-hub/)・記述式対策記事[`method/sc-descriptive-self-loop-hack`](/method/sc-descriptive-self-loop-hack/)を新規公開。診断アプリは`.agents/quiz_app_rules.md`の新規スタンドアロンアプリ凍結方針に従い新設せず、既存のコースTOP診断（`ChapterQuiz` mode="diagnosis"）で代替。詳細は[`../.new-contentplan/archive/sc-course/sc-course-task.md`](../.new-contentplan/archive/sc-course/sc-course-task.md) / [`sc-course-curriculum.md`](../.new-contentplan/archive/sc-course/sc-course-curriculum.md)参照。**次点候補は`course-rollout-roadmap.md`の優先順位方針に基づきクラウド・ネットワーク（AWS・CCNA）だが、着手はユーザー判断待ち**
-- [ ] 来月着手するTier2（有料note・合格テキスト）の準備確認: noteアカウント開設・価格帯・巻数設計（[`ip-course-curriculum.md`](../.new-contentplan/archive/ip-course/ip-course-curriculum.md) §4）の検討再開、メールゲート実装方式の確定
+- [ ] **Tier2（有料note・合格テキスト）: 検討開始（2026-10-06）**。Tier1（無料の20時間コース）は2027年改訂シラバスで全て制作済みのため、優先タスクは完了扱い。**未確定: noteに入れる価値のある内容は何か**（Tier1との差別化）。これを決めてから、価格帯・巻数設計（[`ip-course-curriculum.md`](../.new-contentplan/archive/ip-course/ip-course-curriculum.md) §4）、メールゲート実装方式に進む（noteアカウントは開設済み）
 
 ### コース検索流入モニタリング（週次・恒常化フェーズへ移行、2026-09-27更新）
 
@@ -54,7 +56,17 @@
 
 - [x] モニタリング方法をREADME（[`access-data/README.md`](access-data/README.md)「コース別モニタリング用GA4設定」節）に記録（2026-09-27）。GA4のContent Group設定・Search Console連携確認・Page path基準の探索レポート作成が必要な旨を含む
 - [x] **コース別探索レポート作成完了（2026-09-27）**: `w40-ga4-course-syllabus.csv` として取得済み。ディメンション（ページパスとスクリーンクラス）・フィルタ（/course/）・値（表示回数/セッション/エンゲージメント率/平均エンゲージメント時間）・セグメント列（すべてのユーザー/ウェブ/オーガニック/モバイル）の構成を標準テンプレートとして確定し、READMEに反映済み。**このw40分は公開日（8/30）〜取得日（9/26）の累積ベースラインとして扱う**（今後は単一週で取得）
-- [ ] **要ユーザー作業（GA4管理画面、任意）**: Search Console連携の確認/設定、コンテンツグループ設定（`course-ip`/`course-sg`/`course-dm`/`course-pd-m`/`course-pd-s`/`course-g-kentei`/`course-sc`）は未実施。手動でのURLプレフィックス絞り込みで当面は運用可能なため優先度は中〜低
+- [x] **要ユーザー作業（GA4管理画面）完了（2026-10-06）**: GA4とSearch Consoleの連携リンクは設定済み。`/course/`配下の識別子（`course_id`／`content_group`）のカスタムディメンションも作成済み。**残り: `src/layouts/Layout.astro` のGA4パラメータ送信（`course_id` と `content_group = course-{examId}`）が未コミット。push（本番反映）するまでデータは入らない**。反映後、GA4のリアルタイムで `/course/ip/` を開き、パラメータが届くことを確認する（ディメンション名・スコープがLayout.astroの送信パラメータ名と一致しているかも確認）
+- [ ] **【次のデプロイ後・最優先】コース用GA4カスタムイベントの本番反映と管理画面設定（実装・ビルド確認済み 2026-10-06、未コミット・未push）**: 前回デプロイの完了を待ってから、変更内容（`src/utils/ga.ts`・`ChapterQuiz.tsx`・`CourseLayout.astro`・`[chapter].astro`）をコミット→push（pushはユーザー確認のうえ実行）。反映後の作業は下記。手順・イベント仕様は [`access-data/README.md`](access-data/README.md) §2.5
+  - [ ] GA4リアルタイムで、コースの章ページでクイズを操作し `quiz_start` / `quiz_complete` / `chapter_complete` / `course_nav_click` が届くことを確認（`course_id` パラメータも合わせて確認）
+  - [ ] GA4管理画面（管理 → イベント）で `chapter_complete` / `course_complete` を「キーイベントとしてマーク」（w39 Actの「キーイベント0件」切り分けの解消。`course_complete` は全章完了後にしか出ないため、イベント一覧に現れるまで時間がかかる場合は後日に回す）
+  - [ ] `course_id` のカスタムディメンションは作成済み（上記）。追加で `quiz_mode` / `chapter_order` / `direction` が探索で必要になったら同様に登録
+  - [ ] 反映後、週報（w39 Act「GA4キーイベント設定の確認」）をクローズし、コース別探索にイベント名フィルタを加える
+- [ ] **【w41データ受領時】週次データ取得プロセスの確認（w39・w40週報のActから移管、2026-10-06）**: 全ブログでGA4・GSCとも「過去7日間」で取得する運用に調整済み（ユーザー申告）で、w41分から適用される。w40までは「過去3か月 vs 前の3か月」のフラット構成だったため、実データで次を確認してからクローズする
+  - [ ] GSC CSVのヘッダーが「過去 7 日間 vs 前の 7 日間」の比較になっている（`hikaku-gsc/`）
+  - [ ] 28日間トレンド用のCSVが `gsc-28days/` に分けて置かれている（規約の構成。運用を変える場合はREADMEを更新）
+  - [ ] GA4のヘッダー期間が前週土曜〜金曜の7日間になっている
+  - [ ] 上記が揃えば、前週比・追い風テーマの抽出が可能になる。揃わない場合は取得手順を再確認
 - [x] **重要な訂正（2026-09-27）**: w39・w40週報で「DM/PD-Mコースの章送りナビゲーションがpage_view未発火」と報告した件は、実装バグではなくGA4探索レポートの「ランディングページ」ディメンション（セッションスコープ）の見え方によるものと判明。コース側の実装修正は不要（詳細はREADME参照）。従来のAct項目「`/course/dm/`・`/course/pd-m/`の章送りナビゲーション実装確認」はクローズし、上記のコース別探索レポート導入に差し替える
 
 ---
@@ -139,6 +151,17 @@
 - [ ] 候補ジャンルの目次骨格・優先順位確定（統計学＝実績あり／SNS戦略＝構成案完成済み／マーケティング・MBA＝リサーチ済み・骨格未確定／秘書検定＝ネタ案のみ）
 - [ ] やりたくなったタイミングで上記正本ファイルを再読し、着手ジャンルを選定
 - [ ] （2026-09-18リサーチ済み）非IPA系で「学び直したい」意欲が強いジャンルの追加候補: 話し方・伝え方（プレゼン/コミュニケーション）、会計・財務の基礎。詳細・出典は正本ファイル参照
+
+---
+
+## 4.5 【検討段階】CCNA・AWS SAAの20時間コース導入（2026-10-06追加）
+
+> 背景: `trend/ccna-vs-aws-saa` の改善（2026-10-06）時に、コースがあれば記事から直接リンクでき、内部リンクが強くなるという狙いで追加。**まだ導入するかどうかも未確定の検討段階**。IPAグループ（§0）とは別件で管理する。
+> 参考: 展開方針は [`course-rollout-roadmap.md`](../.new-contentplan/course-rollout-roadmap.md)、KW・競合調査は `.workspace/data-set/cert-keyword-db/aws-kw-db.md`（2026-10-06実査行）
+
+- [ ] 導入可否を判断（CCNA単独 / AWS SAA単独 / 両方。CCNAは範囲が広く20時間に収まるか、SAAは範囲選別が必要か）
+- [ ] 導入する場合の設計: 章立ての骨格（`ccna-vs-aws-saa` の「AWS SAAのためにCCNAのどこまで学ぶか」の優先度表が叩き台になる）、既存の `ccna-hub` / `aws-hub` との役割分担
+- [ ] 導入する場合のリンク設計: `ccna-vs-aws-saa` / `lpic-ccna-aws-order` / `ccna-hub` / `aws-hub` からコースへ内部リンク。SAAコースからCCNAコースへの導線も検討
 
 ---
 

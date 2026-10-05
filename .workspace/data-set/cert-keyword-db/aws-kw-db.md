@@ -71,6 +71,18 @@
 | --- | --- | --- | --- | --- | :---: | :---: | --- | --- |
 | NotebookLM AWS SAA | 公式ドキュメントから問題を作りたい | method | A | × | P10 | 低 | AWS公式ドキュメント・Well-Architectedをソースにしたシナリオ問題の生成 | aws-personalized-roadmap-hack（リンク） |
 
+### P3/P2/P4 実査 2026-10-06（ccna-vs-aws-saa 改善時）
+
+> 実査方法: WebSearch 11クエリ。上位は infla-lab（転職エージェント）・tenshoku-antennanavi（転職メディア）・awaisora/codexcode（スクール）で、当サイトは5〜7位。GSC上のクエリは母数が小さい（`ccna aws` 6imp、`awsとccna` 4imp等）。
+
+| KW | 検索意図 | 記事タイプ | 優先度 | 状態 | 方向性パターン | 競合占拠度 | 差別化角度 | 既存記事 slug |
+| --- | --- | --- | --- | --- | :---: | :---: | --- | --- |
+| CCNA AWS どっち / 先 / 順番 | 取得順序 | trend | S | ◎ | P3 | 高（上位に転職・スクール系3〜4件） | VPC対応表・AI確認プロンプト・CCNA部分学習範囲 | ccna-vs-aws-saa |
+| CCNA AWS 難易度 比較 | 難易度差 | trend | B | △ | P3 | 高 | 合格率は非公表と明記し「実機操作の有無・範囲」で比較 | ccna-vs-aws-saa（試験概要比較表） |
+| CCNA 取らずに AWS SAA VPC 挫折 | 先にAWSへ進んだ場合の不安 | method | A | △ | P2/P7 | 中（個人Zenn/Qiitaが中心） | CCNAの必要範囲だけ補強する部分学習 | ccna-vs-aws-saa（部分学習セクション） |
+| CCNA AWS ダブル取得 期間 | 両方取る場合の計画 | trend | B | ○ | P6 | 中 | 週10時間換算のスケジュール | ccna-vs-aws-saa（スケジュール目安） |
+| CCNA AWS CLF 挟む | CLFの位置づけ | trend | B | ○ | P3 | 中 | FAQで回答。単独記事化は不要 | ccna-vs-aws-saa（FAQ） |
+
 ---
 
 ## 既存スポーク・関連記事
