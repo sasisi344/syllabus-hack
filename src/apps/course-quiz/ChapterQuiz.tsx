@@ -1,6 +1,7 @@
 import { useState, useMemo } from 'preact/hooks';
 import type { CourseQuestion, ChapterLink } from './types';
-import { markChapterComplete, saveDiagnosisResult } from './progress';
+import { loadCourseProgress, markChapterComplete, saveDiagnosisResult } from './progress';
+import { trackEvent } from '~/utils/ga';
 
 export interface ChapterQuizProps {
   questions: CourseQuestion[];
@@ -13,6 +14,7 @@ export interface ChapterQuizProps {
 export default function ChapterQuiz({ questions, examId, mode, chapterOrder, chapterLinks }: ChapterQuizProps) {
   const [answers, setAnswers] = useState<Record<string, string>>({});
   const [graded, setGraded] = useState(false);
+  const [started, setStarted] = useState(false);
 
   const allAnswered = questions.every((q) => answers[q.id]);
 
@@ -32,6 +34,10 @@ export default function ChapterQuiz({ questions, examId, mode, chapterOrder, cha
 
   const handleSelect = (questionId: string, label: string) => {
     if (graded) return;
+    if (!started) {
+      setStarted(true);
+      trackEvent('quiz_start', { course_id: examId, quiz_mode: mode, chapter_order: chapterOrder });
+    }
     setAnswers((prev) => ({ ...prev, [questionId]: label }));
   };
 
@@ -41,8 +47,25 @@ export default function ChapterQuiz({ questions, examId, mode, chapterOrder, cha
 
     const correctCount = questions.filter((q) => answers[q.id] === q.correctLabel).length;
 
+    trackEvent('quiz_complete', {
+      course_id: examId,
+      quiz_mode: mode,
+      chapter_order: chapterOrder,
+      correct_count: correctCount,
+      total_count: questions.length,
+    });
+
     if (mode === 'chapter' && chapterOrder) {
-      markChapterComplete(examId, chapterOrder);
+      const wasDone = loadCourseProgress(examId).completedChapters.includes(chapterOrder);
+      const progress = markChapterComplete(examId, chapterOrder);
+      if (!wasDone) {
+        trackEvent('chapter_complete', { course_id: examId, chapter_order: chapterOrder });
+        // 総章数は CourseLayout が data-course-total-chapters で埋め込む（MDX側のprops追加を避けるため）
+        const total = Number(document.querySelector('[data-course-total-chapters]')?.getAttribute('data-course-total-chapters'));
+        if (total > 0 && progress.completedChapters.length >= total) {
+          trackEvent('course_complete', { course_id: examId, total_chapters: total });
+        }
+      }
     }
     if (mode === 'diagnosis') {
       const weak = new Set<number>();

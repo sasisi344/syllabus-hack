@@ -12,9 +12,10 @@ export interface Props {
   readingTime?: number;
   prevChapter?: { title: string; href: string };
   nextChapter?: { title: string; href: string };
+  totalChapters?: number;
 }
 
-const { metadata, examName, examId, chapterTitle, estimatedMinutes, readingTime, prevChapter, nextChapter } = Astro.props;
+const { metadata, examName, examId, chapterTitle, estimatedMinutes, readingTime, prevChapter, nextChapter, totalChapters } = Astro.props;
 
 const breadcrumbJsonLd = {
   '@context': 'https://schema.org',
@@ -65,7 +66,7 @@ const breadcrumbJsonLd = {
       )
     }
 
-    <article class="prose prose-md lg:prose-lg dark:prose-invert prose-headings:font-heading prose-a:text-primary dark:prose-a:text-blue-400 max-w-none">
+    <article data-course-total-chapters={totalChapters} class="prose prose-md lg:prose-lg dark:prose-invert prose-headings:font-heading prose-a:text-primary dark:prose-a:text-blue-400 max-w-none">
       <slot />
     </article>
 
@@ -92,14 +93,14 @@ const breadcrumbJsonLd = {
         <div class="mt-10 flex justify-between gap-4 border-t dark:border-slate-700 pt-6">
           <div>
             {prevChapter && (
-              <a href={prevChapter.href} class="text-primary dark:text-blue-400 hover:underline">
+              <a href={prevChapter.href} data-ga-event="course_nav_click" data-ga-direction="prev" data-ga-course-id={examId} class="text-primary dark:text-blue-400 hover:underline">
                 ← {prevChapter.title}
               </a>
             )}
           </div>
           <div class="text-right">
             {nextChapter && (
-              <a href={nextChapter.href} class="text-primary dark:text-blue-400 hover:underline">
+              <a href={nextChapter.href} data-ga-event="course_nav_click" data-ga-direction="next" data-ga-course-id={examId} class="text-primary dark:text-blue-400 hover:underline">
                 {nextChapter.title} →
               </a>
             )}
@@ -109,3 +110,17 @@ const breadcrumbJsonLd = {
     }
   </section>
 </PageLayout>
+
+<script>
+  import { trackEvent } from '~/utils/ga';
+
+  // data-ga-event 属性付きリンクのクリック計測（ClientRouter遷移後も document 委譲で有効）
+  document.addEventListener('click', (e) => {
+    const el = (e.target as Element | null)?.closest<HTMLElement>('[data-ga-event]');
+    if (!el) return;
+    trackEvent(el.dataset.gaEvent!, {
+      course_id: el.dataset.gaCourseId,
+      direction: el.dataset.gaDirection,
+    });
+  });
+</script>

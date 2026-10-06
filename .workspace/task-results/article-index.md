@@ -1,9 +1,12 @@
 # Syllabus Hack Article Index
 
-Generated on: 2026/9/29 20:06:59
+Generated on: 2026/10/5 23:32:06
 
 | Publish Date | Category | Title | Tags | Path |
 | :--- | :--- | :--- | :--- | :--- |
+| 2026-10-03 | method | ITパスポート NotebookLM勉強法｜シラバスと過去問で自分専用の問題集を作る | ITパスポート, 生成AI, NotebookLM, 独学, ドリル | `src/data/post/method/notebooklm-ip-study-hack/index.md` |
+| 2026-09-29 | method | 生成AIでプログラミングをするための事前準備｜初心者がPythonでTODOアプリを動かすまで | 生成AI, Claude, ChatGPT, Python, プログラミング | `src/data/post/method/ai-programming-prep/index.md` |
+| 2026-09-29 | method | 生成AIにルールを覚えさせるスキル設定｜ChatGPT・Claude・Gemini【2026年版】 | 生成AI, ChatGPT, Claude, プロンプト, 業務効率化 | `src/data/post/method/ai-skill-rules-setup/index.md` |
 | 2026-09-28 | method | SC科目B（記述式）をS.E.L.Fループで攻略する｜AIに「添削者」として再現答案を鍛えてもらう方法 | 情報処理安全確保支援士, 記述式, S.E.L.Fループ, プロンプト, 生成AI | `src/data/post/method/sc-descriptive-self-loop-hack/index.md` |
 | 2026-09-28 | method | 情報処理安全確保支援士（SC）完全攻略ガイド｜知識861語・技能31項目を「苦手章だけ20時間」で埋める | 情報処理安全確保支援士, 高度試験, 記述式, ロードマップ, 生成AI | `src/data/post/method/sc-hub/index.md` |
 | 2026-09-27 | method | 【プロンプト配布】データマネジメント試験「無限想定問題」生成メソッド｜過去問ゼロで演習量を確保する | 生成AI, Claude, データマネジメント試験, プロンプト配布, 想定問題 | `src/data/post/method/dm-kakomon-nashi-ai-mondai-hack/index.md` |
@@ -142,7 +145,7 @@ Generated on: 2026/9/29 20:06:59
 | 2026-05-31 | method | ITパスポート完全攻略ガイド｜AI時代に最初の一手としてこれを選ぶ理由 | ITパスポート, リスキリング, 生成AI, 独学, ロードマップ | `src/data/post/method/itp-hub/index.md` |
 | 2026-05-31 | method | MOS Excel エキスパートは独学で難しすぎる——つまずく理由とAI対話で突破する手順 | MOS, Excel, エキスパート, 独学, AI活用 | `src/data/post/method/mos-excel-expert-difficulty/index.md` |
 | 2026-05-31 | method | NotebookLM × 生成AI 資格試験ワークフローガイド｜ChatGPT・Gemini・Claudeと組み合わせる方法 | 生成AI, NotebookLM, 資格試験, ワークフロー, プロンプト | `src/data/post/method/notebooklm-ai-workflow-guide/index.md` |
-| 2026-05-31 | method | NotebookLM 資格試験完全活用ガイド｜5つの機能を試験勉強に使い倒す手順 | 生成AI, NotebookLM, 資格試験, 学習法, ドリル | `src/data/post/method/notebooklm-features-guide/index.md` |
+| 2026-05-31 | method | NotebookLM（Gemini Notebook）資格試験活用ガイド｜2026年版・機能別の使い倒し方 | 生成AI, NotebookLM, 資格試験, 学習法, ドリル | `src/data/post/method/notebooklm-features-guide/index.md` |
 | 2026-05-31 | trend | CCNAとAWS SAA、どちらを先に取るべきか——学習効率から見た正解 | CCNA, AWS, AWS SAA, 資格戦略, ネットワーク | `src/data/post/trend/ccna-vs-aws-saa/index.md` |
 | 2026-05-31 | trend | FP2級の実技試験、きんざいと日本FP協会どちらが受かりやすいか | FP2級, きんざい, 日本FP協会, 実技試験, 資格戦略 | `src/data/post/trend/fp2-jitsuki-comparison/index.md` |
 | 2026-05-31 | trend | LPIC・CCNA・AWSを取る順番——インフラエンジニアが最短で市場価値を上げるロードマップ | CCNA, AWS, LPIC, インフラ, ロードマップ | `src/data/post/trend/lpic-ccna-aws-order/index.md` |

@@ -51,6 +51,31 @@
 
 ---
 
+## 0.7 生成AIパスポート2027年新シラバス対応（2026-10-06追加）
+
+> **正本・全タスク**: [`genai-pass-task.md`](genai-pass-task.md)（本ファイルには詳細を重複して書かない。日付は `schedule-task.md` §12）。2026-10-01にGUGAが公開した新シラバス（2027年2月試験から適用）に対応する。新シラバスPDFは `.workspace/syllabus-data-pdf/GenAI-Pass/` に格納済み。
+> 内訳: A 前提確認 → B シラバス構造化 → C 変更点記事・資格更新テスト記事・KW実査・既存記事の改訂 → D リスク事例コラム（実在事例のリサーチ）→ E AI倫理・ガバナンスの用語解説 → F 20時間コース → G クイズJSONの最新化＋コース連携 → H 導線・公開 → I 公式テキスト照合（11/24〜）→ J SNS・効果測定
+
+- [ ] 上記タスク（`genai-pass-task.md` §3 のA〜J）を順に進める。着手時は、まずタスクA（前提情報の確認）
+
+---
+
+## 0.8 コラム「今さら聞けない情報漏えい対策」の公開（2026-10-07追加）
+
+> 背景: 2026年9〜10月に大規模な情報漏えいが相次いでいる（デジタル庁・佐川急便・第一ライフ・焼肉きんぐほか）ことと、デル・テクノロジーズの生成AIセキュリティ調査（ビジネス＋IT 2026-09-30）を題材にした、時事性のあるコラム。ニュースが旬のうちに公開する。
+> **ドラフト**: [`../draft/trend-security-incident-prevention-basics.md`](../draft/trend-security-incident-prevention-basics.md)（`trend` / QUEST / examId `sg`。公開先 `src/data/post/trend/security-incident-prevention-basics/index.md`）。元記事: `344ob/02_webclip/「情報漏えい」最多…約8割がAI関連インシデント経験…（ビジネス＋IT）.md`
+
+- [ ] **【公開前・必須】デジタル庁大臣の発言の一次情報を確認する**: ドラフトの節「自分のデータは自分で守るは正しいのか」にHTMLコメントで印あり。発言日・発言者・趣旨を会見録か報道で確認できたら出典つきで書く。確認できなければ、冒頭の1文を削除して一般論に書き直す（2026-10-07時点では未確認）
+- [ ] 事案の数字を公式発表で再確認（デジタル庁24.6万件・第一ライフ約12万人・物語コーポレーション1078万8963件・佐川急便の公表日）。続報で件数が変わっていないか
+- [ ] デル調査の数値（95.7% / 78.5% / 20.2% / 25.8% / 24.3% / 17.5% / 7.1%）を元記事と突き合わせる（ドラフト作成時に照合済み。公開前の再確認のみ）
+- [ ] `/check-draft trend-security-incident-prevention-basics` → `/publish-post`（本文の `**bold**` は `<strong>` に変換済み。コードフェンス内の `**` は残す）
+- [ ] カバー画像: 指示後に生成（ドラフト末尾の IMAGE_PROMPT。生成するまでは `trend/common-cover.png` 等の暫定を確認）
+- [ ] 内部リンク6本の疎通確認（`/trend/multi-factor-authentication/` `/method/sg-hub/` `/method/sg-beginner-roadmap/` `/theory/security-controls-crypto-incident-basics/` `/trend/zero-trust-architecture/` `/trend/ransomware-security/`）。あわせて既存のSG・MFA記事から本コラムへ逆リンクを足す
+- [ ] 公開後: `pnpm build` → 内容要約を確認のうえ commit・push（pushは本番デプロイのトリガー）、SNS告知（`/sns-post`。結論を出さない連投形式）
+- [ ] 公開の約2週間後に、GSCで「情報漏えい 対策」「今さら聞けない」系KWの表示・順位を確認（`/weekly-report` に組み込む）
+
+---
+
 ## 2. コンテンツ3本柱への再編（設計提案・ユーザー確認待ち）
 
 > 背景: 「20時間学習」「生成AIと学ぶ」「資格試験の教材」を新たな3本柱に、「最新情報のフォロー」「コラム」を副次コンテンツに据えるサイト構成の設計依頼（2026-09-09）。既存5カテゴリ・URLには手を入れず、ナビ・トップページの見せ方だけを再編する案。

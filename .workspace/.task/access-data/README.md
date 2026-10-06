@@ -67,6 +67,26 @@ GA4 Admin（管理）→ プロパティ列 → 「Product Links」（プロダ�
 - 設定後は今後発生するデータにのみ適用される（過去データには遡及しない）ため、設定は早めに行うこと
 - 設定後は探索レポートのディメンションに「コンテンツグループ」を追加するだけで、コース別のPV・セッションが自動で仕分けられる
 
+### 2.5 コース用カスタムイベント（2026-10-06実装、GA4管理画面の設定が必要）
+
+実装: `src/utils/ga.ts`（`trackEvent`）、`src/apps/course-quiz/ChapterQuiz.tsx`、`src/layouts/CourseLayout.astro`。
+
+| イベント名 | 発火タイミング | 主なパラメータ |
+| --- | --- | --- |
+| `quiz_start` | クイズの最初の選択肢をクリック | course_id, quiz_mode(chapter/diagnosis), chapter_order |
+| `quiz_complete` | 答え合わせ | 上記 + correct_count, total_count |
+| `chapter_complete` | 章末クイズの初回答え合わせ（同じ章の再回答では発火しない） | course_id, chapter_order |
+| `course_complete` | 全章の `chapter_complete` が揃った時（localStorage基準、同一ブラウザ） | course_id, total_chapters |
+| `course_nav_click` | 章末の前章/次章リンクのクリック | course_id, direction(prev/next) |
+
+GA4管理画面でやること（デプロイ後。イベントは送信されてから管理画面に現れる）:
+
+1. **キーイベント登録**: 管理 → イベント → `chapter_complete` / `course_complete` の「キーイベントとしてマークを付ける」をオン（現状のキーイベント0件はここが未設定のため）。`quiz_complete` と `course_nav_click` は回遊分析用なのでマーク不要。
+2. **カスタムディメンション登録**: 管理 → カスタム定義 → カスタムディメンションを作成。スコープ=イベント、ディメンション名=`コースID`、イベントパラメータ=`course_id`。ほかに必要なら `quiz_mode` / `chapter_order` / `direction` も同様に登録（登録前のデータには遡及しない）。
+3. 探索レポートに「コースID」ディメンションと、イベント名フィルタ（`quiz_start` 等）を追加すると、コース別のクイズ開始・章完了数が見られる。
+
+注意: `chapter_complete` は「答え合わせをした」ことを指し、正答率は問わない。`course_complete` は端末のlocalStorageを使うため、別端末・別ブラウザでの進捗は合算されない。
+
 ### 3. GSC側のコース別フィルタ方法
 
 GSCエクスポート自体はサイト全体で一括取得したままでよい（現状の`クエリ.csv`/`ページ.csv`運用を継続）。分析時に「上位のページ」のURLを examId ごとのプレフィックス（`/course/ip/`, `/course/sg/`, `/course/dm/`, `/course/pd-m/`, `/course/pd-s/`）で絞り込み、コースごとの表示回数・クリック・掲載順位を集計する。件数が少ないうちはこの後処理で十分だが、対象コースが増えて手間が大きくなった場合は、Search Console UI側で「ページ」フィルタ（URLに `/course/{examId}/` を含む）をコースごとに設定してから個別にエクスポートする方式に切り替えてもよい。

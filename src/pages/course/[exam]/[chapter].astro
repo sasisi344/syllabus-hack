@@ -26,6 +26,7 @@ export const getStaticPaths = (async () => {
       props: {
         entry,
         examName,
+        totalChapters: siblings.length,
         prevChapter: prev ? { title: prev.data.title, href: getPermalink(`/course/${entry.data.examId}/${prev.id.split('/').pop()}`) } : undefined,
         nextChapter: next ? { title: next.data.title, href: getPermalink(`/course/${entry.data.examId}/${next.id.split('/').pop()}`) } : undefined,
       },
@@ -33,7 +34,7 @@ export const getStaticPaths = (async () => {
   });
 }) satisfies GetStaticPaths;
 
-const { entry, examName, prevChapter, nextChapter } = Astro.props;
+const { entry, examName, totalChapters, prevChapter, nextChapter } = Astro.props;
 const { Content, remarkPluginFrontmatter } = await render(entry);
 
 const metadata: MetaData = {
@@ -51,6 +52,7 @@ const metadata: MetaData = {
   readingTime={remarkPluginFrontmatter?.readingTime}
   prevChapter={prevChapter}
   nextChapter={nextChapter}
+  totalChapters={totalChapters}
 >
   <Content />
 </CourseLayout>
