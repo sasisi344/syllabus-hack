@@ -19,6 +19,10 @@ tags:
 | SC（情報処理安全確保支援士） | `src/data/master/syllabus-sc-2027.json` | [`sc-2027-diff-report.md`](./sc-2027-diff-report.md) |
 | DM（データマネジメント・新設） | `src/data/master/syllabus-dm-2027.json` | [`dm-2027-profile-report.md`](./dm-2027-profile-report.md) |
 | PD-M/PD-S（プロフェッショナルデジタルスキル・新設） | `src/data/master/syllabus-pd-m-2027.json` / `-pd-s-2027.json` | [`pd-2027-profile-report.md`](./pd-2027-profile-report.md) |
+| SG（情報セキュリティマネジメント・移行）〔2026-10-14追加〕 | `src/data/master/syllabus-sg-2027.json`（差分: `-sg-2027-diff.json`） | [`sg-2027-diff-report.md`](./sg-2027-diff-report.md) |
+| FE（基本情報技術者・移行）〔2026-10-14追加〕 | `src/data/master/syllabus-fe-2027.json`（差分: `-fe-2027-diff.json`） | [`fe-2027-diff-report.md`](./fe-2027-diff-report.md) |
+| PD／SC 科目A-1（共通知識）〔2026-10-14追加〕 | `src/data/master/syllabus-pd-a1-2027.json` | [`pd-a1-2027-profile-report.md`](./pd-a1-2027-profile-report.md) |
+| 試験区分×中分類マトリクス・旧→新対応表（公式）〔2026-10-14追加〕 | `src/data/master/exam-scope-matrix-2027.json` | 上記3レポートで使用 |
 
 元PDFはすべて `.workspace/syllabus-data-pdf/{IP,SC,DM,PD-M,PD-S}/` に配置済み（既存の旧シラバスPDFは維持したまま追加）。
 
@@ -84,8 +88,8 @@ PD-M/PD-Sは応用情報技術者試験＋既存高度試験区分（NW/DB/PM/ST
 ## 4. 未取得データ（ユーザー判断が必要）
 
 1. **PD試験「データ・AI領域」（PD-D相当）のシラバス**: 今回取得できたのはマネジメント・システムの2区分のみ。3区分目が別途公開されている場合は追加取得が望ましい
-2. **「プロフェッショナルデジタルスキル試験（仮称）及び情報処理安全確保支援士試験 共通知識シラバス（案）」**: SC・PD-M・PD-S全試験に影響する科目A-1相当の共通部分。今回のPDFにはいずれも参照のみで本文が含まれていない
-3. **IP以外（SG・FE）の2027年シラバス案**: 「移行」対象である新SG・新FEのシラバス案がまだ手元にない。IPと同様の処理を行う価値があるかは、まず新SG・新FEのシラバス案PDFの有無を確認する必要がある
+2. ~~**「プロフェッショナルデジタルスキル試験（仮称）及び情報処理安全確保支援士試験 共通知識シラバス（案）」**~~ → **2026-10-14取得済み**（Ver.0.1・2026-09-30公開）。[`pd-a1-2027-profile-report.md`](./pd-a1-2027-profile-report.md)
+3. ~~**IP以外（SG・FE）の2027年シラバス案**~~ → **2026-10-14取得済み**（Ver.0.1・2026-09-30公開）。[`sg-2027-diff-report.md`](./sg-2027-diff-report.md) / [`fe-2027-diff-report.md`](./fe-2027-diff-report.md)
 
 ---
 
@@ -106,6 +110,6 @@ PD-M/PD-Sは応用情報技術者試験＋既存高度試験区分（NW/DB/PM/ST
 ## 6. 次のアクション
 
 - [ ] 上記§5の優先順位でユーザーと合意し、`new-content-plan.md`または来月のロードマップに反映
-- [ ] §4の未取得データの要否をユーザーに確認（特に共通知識シラバスは影響範囲が広いため優先度が高い）
-- [ ] 新SG・新FEのシラバス案PDFの有無を確認し、あれば同様に処理する
+- [x] §4の未取得データ: 共通知識シラバス（科目A-1）・新SG・新FEは2026-10-14に取得・構造化済み。残りは **PD-D（データ・AI）の科目A-2シラバス** のみ
+- [x] 新SG・新FEのシラバス案PDFを同様に処理（差分レポート作成済み）
 - [ ] `.agents/kw_pattern_research.md`に従い、DM・PD-M・PD-Sの新設試験としての検索需要（現時点ではまだ立ち上がっていない可能性が高い）を今後モニタリングする運用を検討

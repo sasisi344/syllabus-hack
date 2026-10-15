@@ -136,4 +136,4 @@ IPAの再編方針（応用情報技術者試験＋既存高度試験をPD試験
 - [x] examId登録 → 2026-09-17登録済み
 - [x] PD-M/PD-SをいつHub化・記事化するか → **2026-09-19決定**: 20時間コース（`course`コレクション）としてIP→SG→DMに続きPD-M→PD-Sの順で着手。**2026-09-22、両コースとも本文執筆・本番公開まで完了**。要件提議は[`../archive/pd-course/pd-course-task.md`](../archive/pd-course/pd-course-task.md)参照
 - [ ] PD試験（データ・AI領域）シラバスの追加取得要否
-- [ ] 「共通知識シラバス（科目A-1）」の取得要否（SC・PD-M・PD-S全試験に影響する共通部分のため、優先度は比較的高いと考えられる）
+- [x] 「共通知識シラバス（科目A-1）」の取得 → **2026-10-14取得・構造化済み**: `syllabus-pd-a1-2027.json` / [`pd-a1-2027-profile-report.md`](./pd-a1-2027-profile-report.md)

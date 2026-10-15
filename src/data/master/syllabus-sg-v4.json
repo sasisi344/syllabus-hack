@@ -2,7 +2,7 @@
   "examId": "sg",
   "version": "4.1",
   "effectiveFrom": "2026年度まで（現行制度・最終実施）",
-  "note": "現行v4.1シラバスをPDF（.workspace/syllabus-data-pdf/SG/syllabus_sg_ver4_1.pdf）からpdf-parseで再抽出し、大分類・中分類・小分類単位で再構造化したもの。旧 src/data/master/syllabus-sg.json はPDF抽出時の文断片が『企業活動』に誤って504件集中し、他の中分類がほぼ空という致命的なデータ品質問題があったため、本ファイルを20時間コース制作の正データとする（旧ファイルは参照実績が無いため削除せず維持）。2027年新シラバス案はIPA未公開（2026-09-15時点、https://www.ipa.go.jp/shiken/syllabus/henkou/2026/20260630.html で「準備中」）。",
+  "note": "現行v4.1シラバスをPDF（.workspace/syllabus-data-pdf/SG/syllabus_sg_ver4_1.pdf）からpdf-parseで再抽出し、大分類・中分類・小分類単位で再構造化したもの。旧 src/data/master/syllabus-sg.json はPDF抽出時の文断片が『企業活動』に誤って504件集中し、他の中分類がほぼ空という致命的なデータ品質問題があったため、本ファイルを20時間コース制作の正データとする（旧ファイルは参照実績が無いため削除せず維持）。2027年新シラバス案はIPA未公開（2026-09-15時点、https://www.ipa.go.jp/shiken/syllabus/henkou/2026/20260630.html で「準備中」）。→ 2026-09-30にVer.0.1が公開された（2026-10-14反映）: 新版は syllabus-sg-2027.json、差分は syllabus-sg-2027-diff.json。",
   "sourceFile": ".workspace/syllabus-data-pdf/SG/syllabus_sg_ver4_1.pdf",
   "stats": {
     "majorCategories": 8,

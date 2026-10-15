@@ -63,15 +63,15 @@
 ## 0.8 コラム「今さら聞けない情報漏えい対策」の公開（2026-10-07追加）
 
 > 背景: 2026年9〜10月に大規模な情報漏えいが相次いでいる（デジタル庁・佐川急便・第一ライフ・焼肉きんぐほか）ことと、デル・テクノロジーズの生成AIセキュリティ調査（ビジネス＋IT 2026-09-30）を題材にした、時事性のあるコラム。ニュースが旬のうちに公開する。
-> **ドラフト**: [`../draft/trend-security-incident-prevention-basics.md`](../draft/trend-security-incident-prevention-basics.md)（`trend` / QUEST / examId `sg`。公開先 `src/data/post/trend/security-incident-prevention-basics/index.md`）。元記事: `344ob/02_webclip/「情報漏えい」最多…約8割がAI関連インシデント経験…（ビジネス＋IT）.md`
+> **ドラフト（本番配置済み・削除）**: `trend-security-incident-prevention-basics.md`（`trend` / QUEST / examId `sg`。公開先 `src/data/post/trend/security-incident-prevention-basics/index.md`）。元記事: `344ob/02_webclip/「情報漏えい」最多…約8割がAI関連インシデント経験…（ビジネス＋IT）.md`
 
-- [ ] **【公開前・必須】デジタル庁大臣の発言の一次情報を確認する**: ドラフトの節「自分のデータは自分で守るは正しいのか」にHTMLコメントで印あり。発言日・発言者・趣旨を会見録か報道で確認できたら出典つきで書く。確認できなければ、冒頭の1文を削除して一般論に書き直す（2026-10-07時点では未確認）
-- [ ] 事案の数字を公式発表で再確認（デジタル庁24.6万件・第一ライフ約12万人・物語コーポレーション1078万8963件・佐川急便の公表日）。続報で件数が変わっていないか
+- [x] **【公開前・必須】デジタル庁大臣の発言の一次情報を確認する**（2026-10-15完了: デジタル庁の会見録（令和8年10月6日・古川大臣）で確認し、本文に反映）: ドラフトの節「自分のデータは自分で守るは正しいのか」にHTMLコメントで印あり。発言日・発言者・趣旨を会見録か報道で確認できたら出典つきで書く。確認できなければ、冒頭の1文を削除して一般論に書き直す（2026-10-07時点では未確認）
+- [x] 事案の数字を報道で再確認（2026-10-15: 焼肉きんぐ1078万8963件・第一ライフ約12万人（従業員等）・佐川急便9/30を確認。公式発表そのものでの再確認は未実施）（デジタル庁24.6万件・第一ライフ約12万人・物語コーポレーション1078万8963件・佐川急便の公表日）。続報で件数が変わっていないか
 - [ ] デル調査の数値（95.7% / 78.5% / 20.2% / 25.8% / 24.3% / 17.5% / 7.1%）を元記事と突き合わせる（ドラフト作成時に照合済み。公開前の再確認のみ）
-- [ ] `/check-draft trend-security-incident-prevention-basics` → `/publish-post`（本文の `**bold**` は `<strong>` に変換済み。コードフェンス内の `**` は残す）
-- [ ] カバー画像: 指示後に生成（ドラフト末尾の IMAGE_PROMPT。生成するまでは `trend/common-cover.png` 等の暫定を確認）
+- [x] 最終チェック → 本番配置（2026-10-15: `src/data/post/trend/security-incident-prevention-basics/index.md`。`pnpm build` 成功）（本文の `**bold**` は `<strong>` に変換済み。コードフェンス内の `**` は残す）
+- [x] カバー画像: 生成・配置済み（2026-10-15）（ドラフト末尾の IMAGE_PROMPT。生成するまでは `trend/common-cover.png` 等の暫定を確認）
 - [ ] 内部リンク6本の疎通確認（`/trend/multi-factor-authentication/` `/method/sg-hub/` `/method/sg-beginner-roadmap/` `/theory/security-controls-crypto-incident-basics/` `/trend/zero-trust-architecture/` `/trend/ransomware-security/`）。あわせて既存のSG・MFA記事から本コラムへ逆リンクを足す
-- [ ] 公開後: `pnpm build` → 内容要約を確認のうえ commit・push（pushは本番デプロイのトリガー）、SNS告知（`/sns-post`。結論を出さない連投形式）
+- [ ] 公開後: commit・push（`pnpm build` は2026-10-15成功済み。pushは本番デプロイのトリガー）、SNS告知（`/sns-post`。結論を出さない連投形式）
 - [ ] 公開の約2週間後に、GSCで「情報漏えい 対策」「今さら聞けない」系KWの表示・順位を確認（`/weekly-report` に組み込む）
 
 ---

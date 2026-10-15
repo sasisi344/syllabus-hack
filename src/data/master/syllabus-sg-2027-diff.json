@@ -1,0 +1,7128 @@
+{
+  "examId": "sg",
+  "generatedAt": "2026-10-14",
+  "method": "用語例の比較キー(NFKC・小文字・空白/中黒/ハイフン/長音除去、末尾の『など/ほか』除去)で比較。same=キー完全一致 / modified=括弧前の主用語が同じ、または互いの主用語が相手の補足語に含まれる（注釈・表記の変更） / restructured=旧で括弧内の補足語だった語が新で独立用語になった(splitOut)、またはその逆(absorbed) / added・removed=どれにも該当しない。同一用語は初出のみカウント。機械判定のため、表記ゆれ・同義語の言い換えは added+removed に分かれることがある。",
+  "old": {
+    "version": "4.1",
+    "source": "syllabus-data-pdf/SG/syllabus_sg_ver4_1.pdf",
+    "scheme": "大分類1〜8・中分類1〜11（SG専用体系）",
+    "skillsSource": "src/data/master/syllabus-sg-v4.json (skills.major_items)"
+  },
+  "new": {
+    "version": "0.1-draft",
+    "source": "syllabus_sg_ver0_1.pdf",
+    "scheme": "全試験区分共通の大分類1〜7・中分類1〜30のうち15中分類"
+  },
+  "structure": {
+    "old": {
+      "majorCategories": 8,
+      "middleCategories": 11,
+      "subCategories": 50,
+      "items": 123,
+      "termsTotal": 829,
+      "keywords": 825,
+      "emphasis": {
+        "重点分野": 2,
+        "その他の分野": 9
+      },
+      "keywordsByEmphasis": {
+        "重点分野": 434,
+        "その他の分野": 391
+      }
+    },
+    "new": {
+      "majorCategories": 6,
+      "middleCategories": 15,
+      "subCategories": 46,
+      "items": 97,
+      "termsTotal": 572,
+      "keywords": 572,
+      "emphasis": {
+        "その他の分野": 10,
+        "重点分野": 5
+      },
+      "keywordsByEmphasis": {
+        "その他の分野": 239,
+        "重点分野": 333
+      }
+    }
+  },
+  "summary": {
+    "oldTerms": 813,
+    "newTerms": 567,
+    "same": 314,
+    "modified": 46,
+    "restructured": 68,
+    "splitOut": 45,
+    "absorbed": 23,
+    "added": 162,
+    "removed": 430,
+    "carriedOverOfOld": 0.471,
+    "carriedOverOfNew": 0.714,
+    "removedRateOfOld": 0.529,
+    "addedRateOfNew": 0.286
+  },
+  "newCategories": [
+    {
+      "id": 4,
+      "name": "サービスマネジメント",
+      "emphasis": "その他の分野",
+      "terms": 36,
+      "same": 27,
+      "modified": 2,
+      "restructured": 5,
+      "added": 2,
+      "inheritedFrom": [
+        {
+          "id": 7,
+          "name": "サービスマネジメント",
+          "count": 34
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "データ分析・データ利活用",
+      "emphasis": "その他の分野",
+      "terms": 15,
+      "same": 8,
+      "modified": 0,
+      "restructured": 1,
+      "added": 6,
+      "inheritedFrom": [
+        {
+          "id": 11,
+          "name": "企業活動",
+          "count": 8
+        },
+        {
+          "id": 4,
+          "name": "データベース",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "AI利活用",
+      "emphasis": "その他の分野",
+      "terms": 10,
+      "same": 0,
+      "modified": 0,
+      "restructured": 0,
+      "added": 10,
+      "inheritedFrom": []
+    },
+    {
+      "id": 11,
+      "name": "経営・組織論",
+      "emphasis": "その他の分野",
+      "terms": 30,
+      "same": 14,
+      "modified": 6,
+      "restructured": 6,
+      "added": 4,
+      "inheritedFrom": [
+        {
+          "id": 11,
+          "name": "企業活動",
+          "count": 26
+        },
+        {
+          "id": 10,
+          "name": "システム企画",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "ガバナンス・監査",
+      "emphasis": "その他の分野",
+      "terms": 27,
+      "same": 12,
+      "modified": 1,
+      "restructured": 1,
+      "added": 13,
+      "inheritedFrom": [
+        {
+          "id": 8,
+          "name": "システム監査",
+          "count": 12
+        },
+        {
+          "id": 2,
+          "name": "法務",
+          "count": 1
+        },
+        {
+          "id": 1,
+          "name": "セキュリティ",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "クラウド",
+      "emphasis": "その他の分野",
+      "terms": 9,
+      "same": 3,
+      "modified": 2,
+      "restructured": 0,
+      "added": 4,
+      "inheritedFrom": [
+        {
+          "id": 3,
+          "name": "システム構成要素",
+          "count": 6
+        },
+        {
+          "id": 9,
+          "name": "システム戦略",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "ネットワーク",
+      "emphasis": "その他の分野",
+      "terms": 45,
+      "same": 37,
+      "modified": 2,
+      "restructured": 4,
+      "added": 2,
+      "inheritedFrom": [
+        {
+          "id": 5,
+          "name": "ネットワーク",
+          "count": 42
+        },
+        {
+          "id": 1,
+          "name": "セキュリティ",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "name": "情報セキュリティの脅威",
+      "emphasis": "重点分野",
+      "terms": 83,
+      "same": 64,
+      "modified": 7,
+      "restructured": 3,
+      "added": 9,
+      "inheritedFrom": [
+        {
+          "id": 1,
+          "name": "セキュリティ",
+          "count": 74
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "name": "情報セキュリティマネジメント",
+      "emphasis": "重点分野",
+      "terms": 127,
+      "same": 66,
+      "modified": 12,
+      "restructured": 1,
+      "added": 48,
+      "inheritedFrom": [
+        {
+          "id": 1,
+          "name": "セキュリティ",
+          "count": 85
+        },
+        {
+          "id": 7,
+          "name": "サービスマネジメント",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "name": "情報セキュリティ対策",
+      "emphasis": "重点分野",
+      "terms": 77,
+      "same": 37,
+      "modified": 9,
+      "restructured": 11,
+      "added": 20,
+      "inheritedFrom": [
+        {
+          "id": 1,
+          "name": "セキュリティ",
+          "count": 58
+        },
+        {
+          "id": 5,
+          "name": "ネットワーク",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "name": "セキュリティ実装技術・評価",
+      "emphasis": "その他の分野",
+      "terms": 16,
+      "same": 9,
+      "modified": 1,
+      "restructured": 0,
+      "added": 6,
+      "inheritedFrom": [
+        {
+          "id": 1,
+          "name": "セキュリティ",
+          "count": 10
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "name": "情報倫理・AI倫理",
+      "emphasis": "その他の分野",
+      "terms": 23,
+      "same": 1,
+      "modified": 0,
+      "restructured": 4,
+      "added": 18,
+      "inheritedFrom": [
+        {
+          "id": 2,
+          "name": "法務",
+          "count": 4
+        },
+        {
+          "id": 5,
+          "name": "ネットワーク",
+          "count": 3
+        },
+        {
+          "id": 1,
+          "name": "セキュリティ",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "name": "ビジネス関連法規",
+      "emphasis": "その他の分野",
+      "terms": 28,
+      "same": 8,
+      "modified": 4,
+      "restructured": 6,
+      "added": 10,
+      "inheritedFrom": [
+        {
+          "id": 2,
+          "name": "法務",
+          "count": 21
+        },
+        {
+          "id": 10,
+          "name": "システム企画",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "name": "プライバシー関連法規",
+      "emphasis": "重点分野",
+      "terms": 26,
+      "same": 16,
+      "modified": 0,
+      "restructured": 3,
+      "added": 7,
+      "inheritedFrom": [
+        {
+          "id": 2,
+          "name": "法務",
+          "count": 14
+        },
+        {
+          "id": 1,
+          "name": "セキュリティ",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "name": "セキュリティ関連法規",
+      "emphasis": "重点分野",
+      "terms": 15,
+      "same": 12,
+      "modified": 0,
+      "restructured": 0,
+      "added": 3,
+      "inheritedFrom": [
+        {
+          "id": 2,
+          "name": "法務",
+          "count": 12
+        }
+      ]
+    }
+  ],
+  "oldCategories": [
+    {
+      "id": 1,
+      "name": "セキュリティ",
+      "terms": 376,
+      "same": 178,
+      "modified": 29,
+      "restructured": 10,
+      "removed": 159,
+      "movedTo": [
+        {
+          "id": 24,
+          "name": "情報セキュリティマネジメント",
+          "count": 85
+        },
+        {
+          "id": 23,
+          "name": "情報セキュリティの脅威",
+          "count": 74
+        },
+        {
+          "id": 25,
+          "name": "情報セキュリティ対策",
+          "count": 58
+        },
+        {
+          "id": 26,
+          "name": "セキュリティ実装技術・評価",
+          "count": 10
+        },
+        {
+          "id": 29,
+          "name": "プライバシー関連法規",
+          "count": 5
+        },
+        {
+          "id": 16,
+          "name": "ネットワーク",
+          "count": 2
+        },
+        {
+          "id": 27,
+          "name": "情報倫理・AI倫理",
+          "count": 1
+        },
+        {
+          "id": 12,
+          "name": "ガバナンス・監査",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "法務",
+      "terms": 58,
+      "same": 33,
+      "modified": 4,
+      "restructured": 5,
+      "removed": 16,
+      "movedTo": [
+        {
+          "id": 28,
+          "name": "ビジネス関連法規",
+          "count": 21
+        },
+        {
+          "id": 29,
+          "name": "プライバシー関連法規",
+          "count": 14
+        },
+        {
+          "id": 30,
+          "name": "セキュリティ関連法規",
+          "count": 12
+        },
+        {
+          "id": 27,
+          "name": "情報倫理・AI倫理",
+          "count": 4
+        },
+        {
+          "id": 12,
+          "name": "ガバナンス・監査",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "システム構成要素",
+      "terms": 35,
+      "same": 2,
+      "modified": 1,
+      "restructured": 3,
+      "removed": 29,
+      "movedTo": [
+        {
+          "id": 15,
+          "name": "クラウド",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "データベース",
+      "terms": 11,
+      "same": 1,
+      "modified": 0,
+      "restructured": 0,
+      "removed": 10,
+      "movedTo": [
+        {
+          "id": 9,
+          "name": "データ分析・データ利活用",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "ネットワーク",
+      "terms": 93,
+      "same": 36,
+      "modified": 2,
+      "restructured": 4,
+      "removed": 51,
+      "movedTo": [
+        {
+          "id": 16,
+          "name": "ネットワーク",
+          "count": 42
+        },
+        {
+          "id": 27,
+          "name": "情報倫理・AI倫理",
+          "count": 3
+        },
+        {
+          "id": 25,
+          "name": "情報セキュリティ対策",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "プロジェクトマネジメント",
+      "terms": 31,
+      "same": 0,
+      "modified": 0,
+      "restructured": 0,
+      "removed": 31,
+      "movedTo": []
+    },
+    {
+      "id": 7,
+      "name": "サービスマネジメント",
+      "terms": 74,
+      "same": 29,
+      "modified": 2,
+      "restructured": 0,
+      "removed": 43,
+      "movedTo": [
+        {
+          "id": 4,
+          "name": "サービスマネジメント",
+          "count": 34
+        },
+        {
+          "id": 24,
+          "name": "情報セキュリティマネジメント",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "システム監査",
+      "terms": 26,
+      "same": 11,
+      "modified": 1,
+      "restructured": 0,
+      "removed": 14,
+      "movedTo": [
+        {
+          "id": 12,
+          "name": "ガバナンス・監査",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "システム戦略",
+      "terms": 25,
+      "same": 1,
+      "modified": 1,
+      "restructured": 0,
+      "removed": 23,
+      "movedTo": [
+        {
+          "id": 15,
+          "name": "クラウド",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "システム企画",
+      "terms": 38,
+      "same": 3,
+      "modified": 0,
+      "restructured": 0,
+      "removed": 35,
+      "movedTo": [
+        {
+          "id": 28,
+          "name": "ビジネス関連法規",
+          "count": 2
+        },
+        {
+          "id": 11,
+          "name": "経営・組織論",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "企業活動",
+      "terms": 46,
+      "same": 20,
+      "modified": 6,
+      "restructured": 1,
+      "removed": 19,
+      "movedTo": [
+        {
+          "id": 11,
+          "name": "経営・組織論",
+          "count": 26
+        },
+        {
+          "id": 9,
+          "name": "データ分析・データ利活用",
+          "count": 8
+        }
+      ]
+    }
+  ],
+  "added": [
+    {
+      "term": "サービス",
+      "categoryId": 4,
+      "category": "サービスマネジメント",
+      "subcategory": "サービスマネジメント",
+      "item": "サービスマネジメントの目的と考え方"
+    },
+    {
+      "term": "サービスマネジメント",
+      "categoryId": 4,
+      "category": "サービスマネジメント",
+      "subcategory": "サービスマネジメント",
+      "item": "サービスマネジメントの目的と考え方"
+    },
+    {
+      "term": "1次データ",
+      "categoryId": 9,
+      "category": "データ分析・データ利活用",
+      "subcategory": "データ分析・データ利活用",
+      "item": "データの種類と特徴"
+    },
+    {
+      "term": "2次データ",
+      "categoryId": 9,
+      "category": "データ分析・データ利活用",
+      "subcategory": "データ分析・データ利活用",
+      "item": "データの種類と特徴"
+    },
+    {
+      "term": "オープンデータ",
+      "categoryId": 9,
+      "category": "データ分析・データ利活用",
+      "subcategory": "データ分析・データ利活用",
+      "item": "データの種類と特徴"
+    },
+    {
+      "term": "パーソナルデータ",
+      "categoryId": 9,
+      "category": "データ分析・データ利活用",
+      "subcategory": "データ分析・データ利活用",
+      "item": "データの種類と特徴"
+    },
+    {
+      "term": "データマイニング",
+      "categoryId": 9,
+      "category": "データ分析・データ利活用",
+      "subcategory": "データ分析・データ利活用",
+      "item": "データの加工・分析"
+    },
+    {
+      "term": "テキストマイニング",
+      "categoryId": 9,
+      "category": "データ分析・データ利活用",
+      "subcategory": "データ分析・データ利活用",
+      "item": "データの加工・分析"
+    },
+    {
+      "term": "教師あり学習による予測",
+      "categoryId": 10,
+      "category": "AI利活用",
+      "subcategory": "識別AI利活用",
+      "item": "識別AIの活用領域及び活用目的"
+    },
+    {
+      "term": "教師なし学習によるグルーピング",
+      "categoryId": 10,
+      "category": "AI利活用",
+      "subcategory": "識別AI利活用",
+      "item": "識別AIの活用領域及び活用目的"
+    },
+    {
+      "term": "強化学習による支援",
+      "categoryId": 10,
+      "category": "AI利活用",
+      "subcategory": "識別AI利活用",
+      "item": "識別AIの活用領域及び活用目的"
+    },
+    {
+      "term": "マルチモーダルAI",
+      "categoryId": 10,
+      "category": "AI利活用",
+      "subcategory": "生成AI利活用",
+      "item": "生成AIの活用領域及び活用目的"
+    },
+    {
+      "term": "ランダム性の制御",
+      "categoryId": 10,
+      "category": "AI利活用",
+      "subcategory": "生成AI利活用",
+      "item": "生成AIの活用領域及び活用目的"
+    },
+    {
+      "term": "RAGによる知識連携",
+      "categoryId": 10,
+      "category": "AI利活用",
+      "subcategory": "生成AI利活用",
+      "item": "生成AIの活用領域及び活用目的"
+    },
+    {
+      "term": "プロンプトエンジニアリング",
+      "categoryId": 10,
+      "category": "AI利活用",
+      "subcategory": "生成AI利活用",
+      "item": "生成AIの活用領域及び活用目的"
+    },
+    {
+      "term": "AIエージェント",
+      "categoryId": 10,
+      "category": "AI利活用",
+      "subcategory": "AIエージェント利活用",
+      "item": "AIエージェントの活用領域及び活用目的"
+    },
+    {
+      "term": "自律性と人間の関与（最終承認，例外処理など）",
+      "categoryId": 10,
+      "category": "AI利活用",
+      "subcategory": "AIエージェント利活用",
+      "item": "AIエージェントの活用領域及び活用目的"
+    },
+    {
+      "term": "ガードレール（安全性への配慮，倫理的配慮，法令順守など）",
+      "categoryId": 10,
+      "category": "AI利活用",
+      "subcategory": "AIエージェント利活用",
+      "item": "AIエージェントの活用領域及び活用目的"
+    },
+    {
+      "term": "最高プライバシー責任者（CPO）",
+      "categoryId": 11,
+      "category": "経営・組織論",
+      "subcategory": "経営管理",
+      "item": "経営管理・経営組織"
+    },
+    {
+      "term": "損益計算書",
+      "categoryId": 11,
+      "category": "経営・組織論",
+      "subcategory": "会計・財務",
+      "item": "財務諸表"
+    },
+    {
+      "term": "有形固定資産",
+      "categoryId": 11,
+      "category": "経営・組織論",
+      "subcategory": "会計・財務",
+      "item": "財務諸表"
+    },
+    {
+      "term": "無形固定資産",
+      "categoryId": 11,
+      "category": "経営・組織論",
+      "subcategory": "会計・財務",
+      "item": "財務諸表"
+    },
+    {
+      "term": "コーポレートガバナンス",
+      "categoryId": 12,
+      "category": "ガバナンス・監査",
+      "subcategory": "コーポレートガバナンス",
+      "item": "コーポレートガバナンス"
+    },
+    {
+      "term": "ITへの対応",
+      "categoryId": 12,
+      "category": "ガバナンス・監査",
+      "subcategory": "内部統制・デジタルガバナンス",
+      "item": "内部統制・デジタルガバナンス"
+    },
+    {
+      "term": "システム監査",
+      "categoryId": 12,
+      "category": "ガバナンス・監査",
+      "subcategory": "監査",
+      "item": "情報システムに関係する監査"
+    },
+    {
+      "term": "情報セキュリティ監査",
+      "categoryId": 12,
+      "category": "ガバナンス・監査",
+      "subcategory": "監査",
+      "item": "情報システムに関係する監査"
+    },
+    {
+      "term": "個人情報保護監査",
+      "categoryId": 12,
+      "category": "ガバナンス・監査",
+      "subcategory": "監査",
+      "item": "情報システムに関係する監査"
+    },
+    {
+      "term": "コンプライアンス監査",
+      "categoryId": 12,
+      "category": "ガバナンス・監査",
+      "subcategory": "監査",
+      "item": "情報システムに関係する監査"
+    },
+    {
+      "term": "システム監査人の権限と責任等",
+      "categoryId": 12,
+      "category": "ガバナンス・監査",
+      "subcategory": "監査",
+      "item": "システム監査の目的"
+    },
+    {
+      "term": "システム監査基準",
+      "categoryId": 12,
+      "category": "ガバナンス・監査",
+      "subcategory": "監査",
+      "item": "システム監査の目的"
+    },
+    {
+      "term": "システム管理基準",
+      "categoryId": 12,
+      "category": "ガバナンス・監査",
+      "subcategory": "監査",
+      "item": "システム監査の目的"
+    },
+    {
+      "term": "監査プロセス（予備調査，本調査，結論）",
+      "categoryId": 12,
+      "category": "ガバナンス・監査",
+      "subcategory": "監査",
+      "item": "システム監査の実施"
+    },
+    {
+      "term": "監査証拠の提供",
+      "categoryId": 12,
+      "category": "ガバナンス・監査",
+      "subcategory": "監査",
+      "item": "システム監査の実施"
+    },
+    {
+      "term": "監査報告書",
+      "categoryId": 12,
+      "category": "ガバナンス・監査",
+      "subcategory": "監査",
+      "item": "システム監査の実施"
+    },
+    {
+      "term": "改善提案のフォローアップ",
+      "categoryId": 12,
+      "category": "ガバナンス・監査",
+      "subcategory": "監査",
+      "item": "システム監査の実施"
+    },
+    {
+      "term": "クラウドサービスの提供形態（パブリッククラウド，プライベートクラウド，ハイブリッドクラウド，マルチクラウドなど）",
+      "categoryId": 15,
+      "category": "クラウド",
+      "subcategory": "クラウドサービス",
+      "item": "クラウドサービスの特徴"
+    },
+    {
+      "term": "オンプレミスとクラウドとの違い",
+      "categoryId": 15,
+      "category": "クラウド",
+      "subcategory": "クラウドサービス",
+      "item": "クラウドサービスの特徴"
+    },
+    {
+      "term": "データ保持の方法",
+      "categoryId": 15,
+      "category": "クラウド",
+      "subcategory": "クラウドサービス",
+      "item": "クラウドサービスの特徴"
+    },
+    {
+      "term": "リージョン",
+      "categoryId": 15,
+      "category": "クラウド",
+      "subcategory": "クラウドサービス",
+      "item": "クラウドサービスの特徴"
+    },
+    {
+      "term": "イーサネット",
+      "categoryId": 16,
+      "category": "ネットワーク",
+      "subcategory": "通信プロトコル",
+      "item": "インタフェースの種類と特徴"
+    },
+    {
+      "term": "Wi-Fi",
+      "categoryId": 16,
+      "category": "ネットワーク",
+      "subcategory": "通信プロトコル",
+      "item": "インタフェースの種類と特徴"
+    },
+    {
+      "term": "情報セキュリティ10大脅威",
+      "categoryId": 23,
+      "category": "情報セキュリティの脅威",
+      "subcategory": "脅威と脆弱性",
+      "item": "脅威の種類と動向"
+    },
+    {
+      "term": "二重恐喝（多重恐喝）",
+      "categoryId": 23,
+      "category": "情報セキュリティの脅威",
+      "subcategory": "脅威と脆弱性",
+      "item": "不正の動機・メカニズム"
+    },
+    {
+      "term": "偵察（フットプリンティング，ポートスキャンなど）",
+      "categoryId": 23,
+      "category": "情報セキュリティの脅威",
+      "subcategory": "攻撃手法",
+      "item": "攻撃のライフサイクルとフレームワーク"
+    },
+    {
+      "term": "マルウェア亜種の自動生成",
+      "categoryId": 23,
+      "category": "情報セキュリティの脅威",
+      "subcategory": "攻撃手法",
+      "item": "AIを悪用した攻撃"
+    },
+    {
+      "term": "フィッシング文面の巧妙化",
+      "categoryId": 23,
+      "category": "情報セキュリティの脅威",
+      "subcategory": "攻撃手法",
+      "item": "AIを悪用した攻撃"
+    },
+    {
+      "term": "ディープフェイク・音声クローンによるなりすまし",
+      "categoryId": 23,
+      "category": "情報セキュリティの脅威",
+      "subcategory": "攻撃手法",
+      "item": "AIを悪用した攻撃"
+    },
+    {
+      "term": "ジェイルブレイク",
+      "categoryId": 23,
+      "category": "情報セキュリティの脅威",
+      "subcategory": "攻撃手法",
+      "item": "AIシステムに対する攻撃"
+    },
+    {
+      "term": "データポイズニング",
+      "categoryId": 23,
+      "category": "情報セキュリティの脅威",
+      "subcategory": "攻撃手法",
+      "item": "AIシステムに対する攻撃"
+    },
+    {
+      "term": "ソフトウェアサプライチェーン攻撃",
+      "categoryId": 23,
+      "category": "情報セキュリティの脅威",
+      "subcategory": "攻撃手法",
+      "item": "サプライチェーンを狙った攻撃"
+    },
+    {
+      "term": "ゼロトラスト",
+      "categoryId": 24,
+      "category": "情報セキュリティマネジメント",
+      "subcategory": "情報セキュリティの考え方",
+      "item": "情報セキュリティの考え方"
+    },
+    {
+      "term": "外部委託やクラウドサービス・生成AIサービスの利用時における情報セキュリティ",
+      "categoryId": 24,
+      "category": "情報セキュリティマネジメント",
+      "subcategory": "情報セキュリティの考え方",
+      "item": "情報セキュリティマネジメントの考え方"
+    },
+    {
+      "term": "情報資産を取り巻く脅威",
+      "categoryId": 24,
+      "category": "情報セキュリティマネジメント",
+      "subcategory": "リスクマネジメント",
+      "item": "情報資産とリスク"
+    },
+    {
+      "term": "リスクの種類（オペレーショナルリスク，サプライチェーンリスク，外部サービス利用のリスク，SNSによる情報発信のリスク，地政学的リスクなど）",
+      "categoryId": 24,
+      "category": "情報セキュリティマネジメント",
+      "subcategory": "リスクマネジメント",
+      "item": "情報資産とリスク"
+    },
+    {
+      "term": "リスク態度（リスク選好，リスク回避的態度）",
+      "categoryId": 24,
+      "category": "情報セキュリティマネジメント",
+      "subcategory": "リスクマネジメント",
+      "item": "情報セキュリティリスクアセスメント"
+    },
+    {
+      "term": "リスク対応の選択肢（リスク回避，リスク低減（軽減），リスク移転（共有），リスク保有（受容））",
+      "categoryId": 24,
+      "category": "情報セキュリティマネジメント",
+      "subcategory": "リスクマネジメント",
+      "item": "情報セキュリティリスク対応"
+    },
+    {
+      "term": "国家サイバー統括室（NCO）",
+      "categoryId": 24,
+      "category": "情報セキュリティマネジメント",
+      "subcategory": "情報セキュリティ関連組織・関連制度",
+      "item": "情報セキュリティに関する組織・機関"
+    },
+    {
+      "term": "FIRST（Forum of Incident Response and Security Teams）",
+      "categoryId": 24,
+      "category": "情報セキュリティマネジメント",
+      "subcategory": "情報セキュリティ関連組織・関連制度",
+      "item": "情報セキュリティに関する組織・機関"
+    },
+    {
+      "term": "米国国立標準技術研究所（NIST）",
+      "categoryId": 24,
+      "category": "情報セキュリティマネジメント",
+      "subcategory": "情報セキュリティ関連組織・関連制度",
+      "item": "情報セキュリティに関する組織・機関"
+    },
+    {
+      "term": "MITRE",
+      "categoryId": 24,
+      "category": "情報セキュリティマネジメント",
+      "subcategory": "情報セキュリティ関連組織・関連制度",
+      "item": "情報セキュリティに関する組織・機関"
+    },
+    {
+      "term": "NISTサイバーセキュリティフレームワーク（CSF）",
+      "categoryId": 24,
+      "category": "情報セキュリティマネジメント",
+      "subcategory": "情報セキュリティ関連組織・関連制度",
+      "item": "情報セキュリティに関する制度・基準"
+    },
+    {
+      "term": "JIS Q 27017（ISO/IEC 27017）",
+      "categoryId": 24,
+      "category": "情報セキュリティマネジメント",
+      "subcategory": "情報セキュリティマネジメントシステム",
+      "item": "情報セキュリティマネジメントシステム"
+    },
+    {
+      "term": "情報セキュリティのための方針群",
+      "categoryId": 24,
+      "category": "情報セキュリティマネジメント",
+      "subcategory": "情報セキュリティ管理策",
+      "item": "組織的管理策"
+    },
+    {
+      "term": "情報セキュリティの役割及び責任",
+      "categoryId": 24,
+      "category": "情報セキュリティマネジメント",
+      "subcategory": "情報セキュリティ管理策",
+      "item": "組織的管理策"
+    },
+    {
+      "term": "職務の分離",
+      "categoryId": 24,
+      "category": "情報セキュリティマネジメント",
+      "subcategory": "情報セキュリティ管理策",
+      "item": "組織的管理策"
+    },
+    {
+      "term": "脅威インテリジェンス",
+      "categoryId": 24,
+      "category": "情報セキュリティマネジメント",
+      "subcategory": "情報セキュリティ管理策",
+      "item": "組織的管理策"
+    },
+    {
+      "term": "情報及びその他の関連資産の目録",
+      "categoryId": 24,
+      "category": "情報セキュリティマネジメント",
+      "subcategory": "情報セキュリティ管理策",
+      "item": "組織的管理策"
+    },
+    {
+      "term": "情報及びその他の関連資産の許容される利用",
+      "categoryId": 24,
+      "category": "情報セキュリティマネジメント",
+      "subcategory": "情報セキュリティ管理策",
+      "item": "組織的管理策"
+    },
+    {
+      "term": "情報の分類",
+      "categoryId": 24,
+      "category": "情報セキュリティマネジメント",
+      "subcategory": "情報セキュリティ管理策",
+      "item": "組織的管理策"
+    },
+    {
+      "term": "情報のラベル付け",
+      "categoryId": 24,
+      "category": "情報セキュリティマネジメント",
+      "subcategory": "情報セキュリティ管理策",
+      "item": "組織的管理策"
+    },
+    {
+      "term": "情報の転送",
+      "categoryId": 24,
+      "category": "情報セキュリティマネジメント",
+      "subcategory": "情報セキュリティ管理策",
+      "item": "組織的管理策"
+    },
+    {
+      "term": "認証情報",
+      "categoryId": 24,
+      "category": "情報セキュリティマネジメント",
+      "subcategory": "情報セキュリティ管理策",
+      "item": "組織的管理策"
+    },
+    {
+      "term": "アクセス権",
+      "categoryId": 24,
+      "category": "情報セキュリティマネジメント",
+      "subcategory": "情報セキュリティ管理策",
+      "item": "組織的管理策"
+    },
+    {
+      "term": "供給者関係における情報セキュリティ",
+      "categoryId": 24,
+      "category": "情報セキュリティマネジメント",
+      "subcategory": "情報セキュリティ管理策",
+      "item": "組織的管理策"
+    },
+    {
+      "term": "供給者との合意における情報セキュリティの取扱い",
+      "categoryId": 24,
+      "category": "情報セキュリティマネジメント",
+      "subcategory": "情報セキュリティ管理策",
+      "item": "組織的管理策"
+    },
+    {
+      "term": "情報セキュリティインシデントへの対応",
+      "categoryId": 24,
+      "category": "情報セキュリティマネジメント",
+      "subcategory": "情報セキュリティ管理策",
+      "item": "組織的管理策"
+    },
+    {
+      "term": "証拠の収集",
+      "categoryId": 24,
+      "category": "情報セキュリティマネジメント",
+      "subcategory": "情報セキュリティ管理策",
+      "item": "組織的管理策"
+    },
+    {
+      "term": "事業継続のためのICTの備え",
+      "categoryId": 24,
+      "category": "情報セキュリティマネジメント",
+      "subcategory": "情報セキュリティ管理策",
+      "item": "組織的管理策"
+    },
+    {
+      "term": "法令・規制・契約上の要求事項",
+      "categoryId": 24,
+      "category": "情報セキュリティマネジメント",
+      "subcategory": "情報セキュリティ管理策",
+      "item": "組織的管理策"
+    },
+    {
+      "term": "プライバシー及びPIIの保護",
+      "categoryId": 24,
+      "category": "情報セキュリティマネジメント",
+      "subcategory": "情報セキュリティ管理策",
+      "item": "組織的管理策"
+    },
+    {
+      "term": "選考",
+      "categoryId": 24,
+      "category": "情報セキュリティマネジメント",
+      "subcategory": "情報セキュリティ管理策",
+      "item": "人的管理策"
+    },
+    {
+      "term": "雇用条件",
+      "categoryId": 24,
+      "category": "情報セキュリティマネジメント",
+      "subcategory": "情報セキュリティ管理策",
+      "item": "人的管理策"
+    },
+    {
+      "term": "情報セキュリティの意識向上・教育・訓練",
+      "categoryId": 24,
+      "category": "情報セキュリティマネジメント",
+      "subcategory": "情報セキュリティ管理策",
+      "item": "人的管理策"
+    },
+    {
+      "term": "懲戒手続",
+      "categoryId": 24,
+      "category": "情報セキュリティマネジメント",
+      "subcategory": "情報セキュリティ管理策",
+      "item": "人的管理策"
+    },
+    {
+      "term": "雇用の終了又は変更後の責任",
+      "categoryId": 24,
+      "category": "情報セキュリティマネジメント",
+      "subcategory": "情報セキュリティ管理策",
+      "item": "人的管理策"
+    },
+    {
+      "term": "秘密保持契約又は守秘義務契約",
+      "categoryId": 24,
+      "category": "情報セキュリティマネジメント",
+      "subcategory": "情報セキュリティ管理策",
+      "item": "人的管理策"
+    },
+    {
+      "term": "リモートワーク",
+      "categoryId": 24,
+      "category": "情報セキュリティマネジメント",
+      "subcategory": "情報セキュリティ管理策",
+      "item": "人的管理策"
+    },
+    {
+      "term": "情報セキュリティ事象の報告",
+      "categoryId": 24,
+      "category": "情報セキュリティマネジメント",
+      "subcategory": "情報セキュリティ管理策",
+      "item": "人的管理策"
+    },
+    {
+      "term": "物理的セキュリティ境界",
+      "categoryId": 24,
+      "category": "情報セキュリティマネジメント",
+      "subcategory": "情報セキュリティ管理策",
+      "item": "物理的管理策"
+    },
+    {
+      "term": "物理的入退",
+      "categoryId": 24,
+      "category": "情報セキュリティマネジメント",
+      "subcategory": "情報セキュリティ管理策",
+      "item": "物理的管理策"
+    },
+    {
+      "term": "利用者エンドポイント機器",
+      "categoryId": 24,
+      "category": "情報セキュリティマネジメント",
+      "subcategory": "情報セキュリティ管理策",
+      "item": "技術的管理策"
+    },
+    {
+      "term": "特権的アクセス権",
+      "categoryId": 24,
+      "category": "情報セキュリティマネジメント",
+      "subcategory": "情報セキュリティ管理策",
+      "item": "技術的管理策"
+    },
+    {
+      "term": "情報へのアクセス制限",
+      "categoryId": 24,
+      "category": "情報セキュリティマネジメント",
+      "subcategory": "情報セキュリティ管理策",
+      "item": "技術的管理策"
+    },
+    {
+      "term": "マルウェアに対する保護",
+      "categoryId": 24,
+      "category": "情報セキュリティマネジメント",
+      "subcategory": "情報セキュリティ管理策",
+      "item": "技術的管理策"
+    },
+    {
+      "term": "情報の削除",
+      "categoryId": 24,
+      "category": "情報セキュリティマネジメント",
+      "subcategory": "情報セキュリティ管理策",
+      "item": "技術的管理策"
+    },
+    {
+      "term": "データ漏えい防止",
+      "categoryId": 24,
+      "category": "情報セキュリティマネジメント",
+      "subcategory": "情報セキュリティ管理策",
+      "item": "技術的管理策"
+    },
+    {
+      "term": "情報のバックアップ",
+      "categoryId": 24,
+      "category": "情報セキュリティマネジメント",
+      "subcategory": "情報セキュリティ管理策",
+      "item": "技術的管理策"
+    },
+    {
+      "term": "ログ取得",
+      "categoryId": 24,
+      "category": "情報セキュリティマネジメント",
+      "subcategory": "情報セキュリティ管理策",
+      "item": "技術的管理策"
+    },
+    {
+      "term": "OSINT（公開情報）の利用",
+      "categoryId": 25,
+      "category": "情報セキュリティ対策",
+      "subcategory": "組織的管理策に関する技術・手法",
+      "item": "脅威インテリジェンス"
+    },
+    {
+      "term": "法令に基づく報告及び本人への通知",
+      "categoryId": 25,
+      "category": "情報セキュリティ対策",
+      "subcategory": "組織的管理策に関する技術・手法",
+      "item": "インシデント管理"
+    },
+    {
+      "term": "関係機関への届出",
+      "categoryId": 25,
+      "category": "情報セキュリティ対策",
+      "subcategory": "組織的管理策に関する技術・手法",
+      "item": "インシデント管理"
+    },
+    {
+      "term": "入退管理システム",
+      "categoryId": 25,
+      "category": "情報セキュリティ対策",
+      "subcategory": "物理的管理策に関する技術・手法",
+      "item": "物理的領域の管理"
+    },
+    {
+      "term": "アンチパスバック",
+      "categoryId": 25,
+      "category": "情報セキュリティ対策",
+      "subcategory": "物理的管理策に関する技術・手法",
+      "item": "物理的領域の管理"
+    },
+    {
+      "term": "モバイル機器（ノートPC，スマートフォン，タブレット端末など）のセキュリティ",
+      "categoryId": 25,
+      "category": "情報セキュリティ対策",
+      "subcategory": "物理的管理策に関する技術・手法",
+      "item": "装置の管理"
+    },
+    {
+      "term": "最小特権",
+      "categoryId": 25,
+      "category": "情報セキュリティ対策",
+      "subcategory": "技術的管理策に関する技術・手法（情報アクセスの管理）",
+      "item": "情報へのアクセス制限"
+    },
+    {
+      "term": "パスキー",
+      "categoryId": 25,
+      "category": "情報セキュリティ対策",
+      "subcategory": "技術的管理策に関する技術・手法（情報アクセスの管理）",
+      "item": "パスワードレス認証"
+    },
+    {
+      "term": "ワンタイムコード",
+      "categoryId": 25,
+      "category": "情報セキュリティ対策",
+      "subcategory": "技術的管理策に関する技術・手法（情報アクセスの管理）",
+      "item": "パスワードレス認証"
+    },
+    {
+      "term": "イミュータブルバックアップ",
+      "categoryId": 25,
+      "category": "情報セキュリティ対策",
+      "subcategory": "技術的管理策に関する技術・手法（情報資産運用に関する管理）",
+      "item": "マルウェアに対する保護"
+    },
+    {
+      "term": "脆弱性情報の収集",
+      "categoryId": 25,
+      "category": "情報セキュリティ対策",
+      "subcategory": "技術的管理策に関する技術・手法（情報資産運用に関する管理）",
+      "item": "脆弱性管理・データ保護"
+    },
+    {
+      "term": "取得範囲",
+      "categoryId": 25,
+      "category": "情報セキュリティ対策",
+      "subcategory": "技術的管理策に関する技術・手法（情報資産運用に関する管理）",
+      "item": "ログ管理・監視・検知及び対応"
+    },
+    {
+      "term": "保存期間",
+      "categoryId": 25,
+      "category": "情報セキュリティ対策",
+      "subcategory": "技術的管理策に関する技術・手法（情報資産運用に関する管理）",
+      "item": "ログ管理・監視・検知及び対応"
+    },
+    {
+      "term": "時刻同期（NTP）とタイムスタンプ",
+      "categoryId": 25,
+      "category": "情報セキュリティ対策",
+      "subcategory": "技術的管理策に関する技術・手法（情報資産運用に関する管理）",
+      "item": "ログ管理・監視・検知及び対応"
+    },
+    {
+      "term": "境界防御",
+      "categoryId": 25,
+      "category": "情報セキュリティ対策",
+      "subcategory": "技術的管理策に関する技術・手法（情報システムの適正利用の管理）",
+      "item": "ネットワークセキュリティの方式・制御"
+    },
+    {
+      "term": "IDS（侵入検知システム）／IPS（侵入防止システム）",
+      "categoryId": 25,
+      "category": "情報セキュリティ対策",
+      "subcategory": "技術的管理策に関する技術・手法（情報システムの適正利用の管理）",
+      "item": "ネットワークセキュリティの方式・制御"
+    },
+    {
+      "term": "送信ドメイン認証（SPF，DKIM）",
+      "categoryId": 25,
+      "category": "情報セキュリティ対策",
+      "subcategory": "技術的管理策に関する技術・手法（情報システムの適正利用の管理）",
+      "item": "ネットワークセキュリティの技術規格・プロトコル"
+    },
+    {
+      "term": "SHA-2（SHA-256など）",
+      "categoryId": 25,
+      "category": "情報セキュリティ対策",
+      "subcategory": "暗号技術（技術的管理策のうち「暗号の利用」に対応）",
+      "item": "ハッシュ関数"
+    },
+    {
+      "term": "MD5及びSHA-1の危殆化",
+      "categoryId": 25,
+      "category": "情報セキュリティ対策",
+      "subcategory": "暗号技術（技術的管理策のうち「暗号の利用」に対応）",
+      "item": "ハッシュ関数"
+    },
+    {
+      "term": "ブロック暗号（AES（Advanced Encryption Standard）など）",
+      "categoryId": 25,
+      "category": "情報セキュリティ対策",
+      "subcategory": "暗号技術（技術的管理策のうち「暗号の利用」に対応）",
+      "item": "共通鍵暗号"
+    },
+    {
+      "term": "プロンプトインジェクション対策",
+      "categoryId": 26,
+      "category": "セキュリティ実装技術・評価",
+      "subcategory": "セキュア開発・実装",
+      "item": "AIシステムを守るための対策（Security for AI）"
+    },
+    {
+      "term": "RAG用のデータ及びデータストアへのアクセス制御",
+      "categoryId": 26,
+      "category": "セキュリティ実装技術・評価",
+      "subcategory": "セキュア開発・実装",
+      "item": "AIシステムを守るための対策（Security for AI）"
+    },
+    {
+      "term": "安全なウェブサイトの作り方",
+      "categoryId": 26,
+      "category": "セキュリティ実装技術・評価",
+      "subcategory": "セキュア開発・実装",
+      "item": "アプリケーション開発のセキュリティ"
+    },
+    {
+      "term": "JC-STAR（セキュリティ要件適合評価及びラベリング制度）",
+      "categoryId": 26,
+      "category": "セキュリティ実装技術・評価",
+      "subcategory": "セキュア開発・実装",
+      "item": "IoT・制御システムのセキュリティ"
+    },
+    {
+      "term": "共通脆弱性識別子（CVE）",
+      "categoryId": 26,
+      "category": "セキュリティ実装技術・評価",
+      "subcategory": "セキュリティ評価",
+      "item": "脆弱性評価"
+    },
+    {
+      "term": "共通脆弱性タイプ一覧（CWE）",
+      "categoryId": 26,
+      "category": "セキュリティ実装技術・評価",
+      "subcategory": "セキュリティ評価",
+      "item": "脆弱性評価"
+    },
+    {
+      "term": "倫理的・法的・社会的な課題（ELSI：Ethical, Legal and Social Issues）",
+      "categoryId": 27,
+      "category": "情報倫理・AI倫理",
+      "subcategory": "情報倫理・情報モラル",
+      "item": "情報倫理・情報モラル"
+    },
+    {
+      "term": "同報メールの適切な利用（TO，CC，BCC，メーリングリスト）",
+      "categoryId": 27,
+      "category": "情報倫理・AI倫理",
+      "subcategory": "情報倫理・情報モラル",
+      "item": "情報倫理・情報モラル"
+    },
+    {
+      "term": "メール誤送信",
+      "categoryId": 27,
+      "category": "情報倫理・AI倫理",
+      "subcategory": "情報倫理・情報モラル",
+      "item": "情報倫理・情報モラル"
+    },
+    {
+      "term": "エコーチェンバー",
+      "categoryId": 27,
+      "category": "情報倫理・AI倫理",
+      "subcategory": "情報倫理・情報モラル",
+      "item": "情報倫理・情報モラル"
+    },
+    {
+      "term": "フィルターバブル",
+      "categoryId": 27,
+      "category": "情報倫理・AI倫理",
+      "subcategory": "情報倫理・情報モラル",
+      "item": "情報倫理・情報モラル"
+    },
+    {
+      "term": "悪意ある情報（マルインフォメーション）",
+      "categoryId": 27,
+      "category": "情報倫理・AI倫理",
+      "subcategory": "情報倫理・情報モラル",
+      "item": "情報倫理・情報モラル"
+    },
+    {
+      "term": "偽情報（ディスインフォメーション）",
+      "categoryId": 27,
+      "category": "情報倫理・AI倫理",
+      "subcategory": "情報倫理・情報モラル",
+      "item": "情報倫理・情報モラル"
+    },
+    {
+      "term": "誤情報（ミスインフォメーション）",
+      "categoryId": 27,
+      "category": "情報倫理・AI倫理",
+      "subcategory": "情報倫理・情報モラル",
+      "item": "情報倫理・情報モラル"
+    },
+    {
+      "term": "説明可能なAI（XAI：Explainable AI）",
+      "categoryId": 27,
+      "category": "情報倫理・AI倫理",
+      "subcategory": "AI倫理・AIガバナンス",
+      "item": "AI倫理・AIガバナンス"
+    },
+    {
+      "term": "ヒューマンインザループ（HITL）",
+      "categoryId": 27,
+      "category": "情報倫理・AI倫理",
+      "subcategory": "AI倫理・AIガバナンス",
+      "item": "AI倫理・AIガバナンス"
+    },
+    {
+      "term": "AIサービスのオプトアウトポリシー",
+      "categoryId": 27,
+      "category": "情報倫理・AI倫理",
+      "subcategory": "AI倫理・AIガバナンス",
+      "item": "AI倫理・AIガバナンス"
+    },
+    {
+      "term": "AI倫理アセスメント",
+      "categoryId": 27,
+      "category": "情報倫理・AI倫理",
+      "subcategory": "AI倫理・AIガバナンス",
+      "item": "AI倫理・AIガバナンス"
+    },
+    {
+      "term": "AIガバナンス",
+      "categoryId": 27,
+      "category": "情報倫理・AI倫理",
+      "subcategory": "AI倫理・AIガバナンス",
+      "item": "AI倫理・AIガバナンス"
+    },
+    {
+      "term": "AI利用ポリシー",
+      "categoryId": 27,
+      "category": "情報倫理・AI倫理",
+      "subcategory": "AI倫理・AIガバナンス",
+      "item": "AI倫理・AIガバナンス"
+    },
+    {
+      "term": "セキュリティ・プライバシーへの懸念（生成AIへの機密情報・個人情報の入力）",
+      "categoryId": 27,
+      "category": "情報倫理・AI倫理",
+      "subcategory": "AI倫理・AIガバナンス",
+      "item": "AIのリスク・脅威"
+    },
+    {
+      "term": "フロンティアAIによるリスクと脅威",
+      "categoryId": 27,
+      "category": "情報倫理・AI倫理",
+      "subcategory": "AI倫理・AIガバナンス",
+      "item": "AIのリスク・脅威"
+    },
+    {
+      "term": "ハルシネーション",
+      "categoryId": 27,
+      "category": "情報倫理・AI倫理",
+      "subcategory": "AI倫理・AIガバナンス",
+      "item": "AIのリスク・脅威"
+    },
+    {
+      "term": "シャドーAI",
+      "categoryId": 27,
+      "category": "情報倫理・AI倫理",
+      "subcategory": "AI倫理・AIガバナンス",
+      "item": "AIのリスク・脅威"
+    },
+    {
+      "term": "引用",
+      "categoryId": 28,
+      "category": "ビジネス関連法規",
+      "subcategory": "知的財産権",
+      "item": "著作権法"
+    },
+    {
+      "term": "労働基準法",
+      "categoryId": 28,
+      "category": "ビジネス関連法規",
+      "subcategory": "労働関連法規",
+      "item": "労働関連法規"
+    },
+    {
+      "term": "労働者派遣法（雇用契約，派遣契約，指揮命令，偽装請負）",
+      "categoryId": 28,
+      "category": "ビジネス関連法規",
+      "subcategory": "労働関連法規",
+      "item": "労働関連法規"
+    },
+    {
+      "term": "公益通報者保護法",
+      "categoryId": 28,
+      "category": "ビジネス関連法規",
+      "subcategory": "労働関連法規",
+      "item": "労働関連法規"
+    },
+    {
+      "term": "営業秘密の3要件（秘密管理性，有用性，非公知性）",
+      "categoryId": 28,
+      "category": "ビジネス関連法規",
+      "subcategory": "取引関連法規",
+      "item": "不正競争防止法"
+    },
+    {
+      "term": "限定提供データ",
+      "categoryId": 28,
+      "category": "ビジネス関連法規",
+      "subcategory": "取引関連法規",
+      "item": "不正競争防止法"
+    },
+    {
+      "term": "民法（準委任契約，請負契約）",
+      "categoryId": 28,
+      "category": "ビジネス関連法規",
+      "subcategory": "取引関連法規",
+      "item": "取引関連法規"
+    },
+    {
+      "term": "中小受託取引適正化法（取適法）",
+      "categoryId": 28,
+      "category": "ビジネス関連法規",
+      "subcategory": "取引関連法規",
+      "item": "取引関連法規"
+    },
+    {
+      "term": "外部委託契約",
+      "categoryId": 28,
+      "category": "ビジネス関連法規",
+      "subcategory": "取引関連法規",
+      "item": "企業間の取引に関わる契約"
+    },
+    {
+      "term": "人工知能関連技術の研究開発及び活用の推進に関する法律（AI基本法）",
+      "categoryId": 28,
+      "category": "ビジネス関連法規",
+      "subcategory": "その他デジタル関連法規・ガイドライン",
+      "item": "その他デジタル関連法規"
+    },
+    {
+      "term": "個人情報保護法",
+      "categoryId": 29,
+      "category": "プライバシー関連法規",
+      "subcategory": "プライバシー保護に関する法規・ガイドライン",
+      "item": "個人情報保護・プライバシー保護に関する法規・ガイドライン"
+    },
+    {
+      "term": "個人情報",
+      "categoryId": 29,
+      "category": "プライバシー関連法規",
+      "subcategory": "プライバシー保護に関する法規・ガイドライン",
+      "item": "個人情報保護・プライバシー保護に関する法規・ガイドライン"
+    },
+    {
+      "term": "個人データ",
+      "categoryId": 29,
+      "category": "プライバシー関連法規",
+      "subcategory": "プライバシー保護に関する法規・ガイドライン",
+      "item": "個人情報保護・プライバシー保護に関する法規・ガイドライン"
+    },
+    {
+      "term": "保有個人データ",
+      "categoryId": 29,
+      "category": "プライバシー関連法規",
+      "subcategory": "プライバシー保護に関する法規・ガイドライン",
+      "item": "個人情報保護・プライバシー保護に関する法規・ガイドライン"
+    },
+    {
+      "term": "個人識別符号",
+      "categoryId": 29,
+      "category": "プライバシー関連法規",
+      "subcategory": "プライバシー保護に関する法規・ガイドライン",
+      "item": "個人情報保護・プライバシー保護に関する法規・ガイドライン"
+    },
+    {
+      "term": "個人情報データベース等",
+      "categoryId": 29,
+      "category": "プライバシー関連法規",
+      "subcategory": "プライバシー保護に関する法規・ガイドライン",
+      "item": "個人情報保護・プライバシー保護に関する法規・ガイドライン"
+    },
+    {
+      "term": "プライバシー影響評価（PIA）",
+      "categoryId": 29,
+      "category": "プライバシー関連法規",
+      "subcategory": "プライバシー保護に関する手法・技法",
+      "item": "個人情報保護・プライバシー保護に関する手法・技法"
+    },
+    {
+      "term": "サイバーセキュリティ",
+      "categoryId": 30,
+      "category": "セキュリティ関連法規",
+      "subcategory": "その他セキュリティ関連法規",
+      "item": "その他のセキュリティ関連法規"
+    },
+    {
+      "term": "サイバー対処能力強化法（能動的サイバー防御）",
+      "categoryId": 30,
+      "category": "セキュリティ関連法規",
+      "subcategory": "その他セキュリティ関連法規",
+      "item": "その他のセキュリティ関連法規"
+    },
+    {
+      "term": "重要経済安保情報保護法",
+      "categoryId": 30,
+      "category": "セキュリティ関連法規",
+      "subcategory": "その他セキュリティ関連法規",
+      "item": "その他のセキュリティ関連法規"
+    }
+  ],
+  "removed": [
+    {
+      "term": "情報セキュリティの概念",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ",
+      "item": "情報セキュリティの目的と考え方"
+    },
+    {
+      "term": "信頼性（Reliability）",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ",
+      "item": "情報セキュリティの目的と考え方"
+    },
+    {
+      "term": "情報セキュリティの水準の高さによる企業評価の向上",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ",
+      "item": "情報セキュリティの重要性"
+    },
+    {
+      "term": "情報システム関連の事故がもたらす事業存続への脅威",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ",
+      "item": "情報セキュリティの重要性"
+    },
+    {
+      "term": "脅威",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ",
+      "item": "情報セキュリティの重要性"
+    },
+    {
+      "term": "脆弱性",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ",
+      "item": "情報セキュリティの重要性"
+    },
+    {
+      "term": "サイバー攻撃",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ",
+      "item": "情報セキュリティの重要性"
+    },
+    {
+      "term": "誤操作",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ",
+      "item": "脅威"
+    },
+    {
+      "term": "故意",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ",
+      "item": "脅威"
+    },
+    {
+      "term": "過失",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ",
+      "item": "脅威"
+    },
+    {
+      "term": "誤謬",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ",
+      "item": "脅威"
+    },
+    {
+      "term": "妨害行為",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ",
+      "item": "脅威"
+    },
+    {
+      "term": "SNSの悪用",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ",
+      "item": "脅威"
+    },
+    {
+      "term": "迷惑メール（スパム）",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ",
+      "item": "脅威"
+    },
+    {
+      "term": "AIに対する脅威",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ",
+      "item": "脅威"
+    },
+    {
+      "term": "ワーム",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ",
+      "item": "脅威"
+    },
+    {
+      "term": "バグ",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ",
+      "item": "脆弱性"
+    },
+    {
+      "term": "防犯環境設計",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ",
+      "item": "不正のメカニズム"
+    },
+    {
+      "term": "スクリプトキディ",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ",
+      "item": "攻撃者の種類"
+    },
+    {
+      "term": "ボットハーダー",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ",
+      "item": "攻撃者の種類"
+    },
+    {
+      "term": "内部犯",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ",
+      "item": "攻撃者の種類"
+    },
+    {
+      "term": "愉快犯",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ",
+      "item": "攻撃者の種類"
+    },
+    {
+      "term": "詐欺犯",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ",
+      "item": "攻撃者の種類"
+    },
+    {
+      "term": "故意犯",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ",
+      "item": "攻撃者の種類"
+    },
+    {
+      "term": "二重脅迫（ダブルエクストーション）",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ",
+      "item": "攻撃者の種類"
+    },
+    {
+      "term": "金銭奪取",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ",
+      "item": "攻撃の動機"
+    },
+    {
+      "term": "パスワードリスト攻撃（クレデンシャルスタッフィング）",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ",
+      "item": "サイバー攻撃手法"
+    },
+    {
+      "term": "MITB（Man-in-the-browser）攻撃",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ",
+      "item": "サイバー攻撃手法"
+    },
+    {
+      "term": "AIを悪用した攻撃（標的型攻撃・フィッシング・なりすましの巧妙化，マルウェア（バリアント（亜種））の生成，システムの脆弱性発見の効率化ほか）",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ",
+      "item": "サイバー攻撃手法"
+    },
+    {
+      "term": "敵対的サンプル（Adversarial Examples）",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ",
+      "item": "サイバー攻撃手法"
+    },
+    {
+      "term": "攻撃の準備（フットプリンティング，ポートスキャンほか）",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ",
+      "item": "サイバー攻撃手法"
+    },
+    {
+      "term": "CRYPTREC暗号リスト",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ",
+      "item": "情報セキュリティ技術（暗号技術）"
+    },
+    {
+      "term": "暗号方式（暗号化（暗号鍵），復号（復号鍵），共通鍵暗号方式（共通鍵），公開鍵暗号方式（公開鍵，秘密鍵））",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ",
+      "item": "情報セキュリティ技術（暗号技術）"
+    },
+    {
+      "term": "ハッシュ関数（SHA-256（SHA-2）ほか）",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ",
+      "item": "情報セキュリティ技術（暗号技術）"
+    },
+    {
+      "term": "タイムスタンプ（時刻認証）",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ",
+      "item": "情報セキュリティ技術（認証技術）"
+    },
+    {
+      "term": "MAC（Message Authentication Code：メッセージ認証符号）",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ",
+      "item": "情報セキュリティ技術（認証技術）"
+    },
+    {
+      "term": "チャレンジレスポンス認証",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ",
+      "item": "情報セキュリティ技術（認証技術）"
+    },
+    {
+      "term": "ICカード",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ",
+      "item": "情報セキュリティ技術（利用者認証）"
+    },
+    {
+      "term": "パスワードレス認証（FIDOほか）",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ",
+      "item": "情報セキュリティ技術（利用者認証）"
+    },
+    {
+      "term": "セキュリティトークン",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ",
+      "item": "情報セキュリティ技術（利用者認証）"
+    },
+    {
+      "term": "パスワードリマインダ",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ",
+      "item": "情報セキュリティ技術（利用者認証）"
+    },
+    {
+      "term": "PKI（Public Key Infrastructure：公開鍵基盤）",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ",
+      "item": "情報セキュリティ技術（公開鍵基盤）"
+    },
+    {
+      "term": "デジタル証明書（公開鍵証明書）",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ",
+      "item": "情報セキュリティ技術（公開鍵基盤）"
+    },
+    {
+      "term": "ルート証明書",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ",
+      "item": "情報セキュリティ技術（公開鍵基盤）"
+    },
+    {
+      "term": "トラストアンカー（信頼の基点）",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ",
+      "item": "情報セキュリティ技術（公開鍵基盤）"
+    },
+    {
+      "term": "中間CA証明書",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ",
+      "item": "情報セキュリティ技術（公開鍵基盤）"
+    },
+    {
+      "term": "サーバ証明書",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ",
+      "item": "情報セキュリティ技術（公開鍵基盤）"
+    },
+    {
+      "term": "クライアント証明書",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ",
+      "item": "情報セキュリティ技術（公開鍵基盤）"
+    },
+    {
+      "term": "CRL（Certificate Revocation List：証明書失効リスト）",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ",
+      "item": "情報セキュリティ技術（公開鍵基盤）"
+    },
+    {
+      "term": "情報セキュリティポリシーに基づく情報の管理",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ管理",
+      "item": "情報セキュリティ管理"
+    },
+    {
+      "term": "リスクマネジメント（JIS Q 31000）",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ管理",
+      "item": "情報セキュリティ管理"
+    },
+    {
+      "term": "監視",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ管理",
+      "item": "情報セキュリティ管理"
+    },
+    {
+      "term": "アカウント管理",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ管理",
+      "item": "情報セキュリティ管理"
+    },
+    {
+      "term": "外部委託やクラウドサービスの利用時における情報セキュリティ",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ管理",
+      "item": "情報セキュリティ管理"
+    },
+    {
+      "term": "サイバーハイジーン",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ管理",
+      "item": "情報セキュリティ管理"
+    },
+    {
+      "term": "情報資産の調査",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ管理",
+      "item": "リスク分析と評価（情報資産の調査・分類）"
+    },
+    {
+      "term": "情報資産の重要性による分類と管理",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ管理",
+      "item": "リスク分析と評価（情報資産の調査・分類）"
+    },
+    {
+      "term": "財産損失",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ管理",
+      "item": "リスク分析と評価（リスクの種類）"
+    },
+    {
+      "term": "責任損失",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ管理",
+      "item": "リスク分析と評価（リスクの種類）"
+    },
+    {
+      "term": "純収益の喪失",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ管理",
+      "item": "リスク分析と評価（リスクの種類）"
+    },
+    {
+      "term": "人的損失",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ管理",
+      "item": "リスク分析と評価（リスクの種類）"
+    },
+    {
+      "term": "モラルハザード",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ管理",
+      "item": "リスク分析と評価（リスクの種類）"
+    },
+    {
+      "term": "年間予想損失額",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ管理",
+      "item": "リスク分析と評価（リスクの種類）"
+    },
+    {
+      "term": "得点法",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ管理",
+      "item": "リスク分析と評価（リスクの種類）"
+    },
+    {
+      "term": "コスト要因",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ管理",
+      "item": "リスク分析と評価（リスクの種類）"
+    },
+    {
+      "term": "リスク忌避",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ管理",
+      "item": "リスク分析と評価（情報セキュリティリスクアセスメント）"
+    },
+    {
+      "term": "リスク共有（リスク移転，リスク分散）",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ管理",
+      "item": "リスク分析と評価（情報セキュリティリスク対応）"
+    },
+    {
+      "term": "リスク集約",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ管理",
+      "item": "リスク分析と評価（情報セキュリティリスク対応）"
+    },
+    {
+      "term": "リスク登録簿",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ管理",
+      "item": "リスク分析と評価（情報セキュリティリスク対応）"
+    },
+    {
+      "term": "緊急事態の区分",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ管理",
+      "item": "情報セキュリティ継続"
+    },
+    {
+      "term": "緊急時対応計画（コンティンジェンシー計画）",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ管理",
+      "item": "情報セキュリティ継続"
+    },
+    {
+      "term": "復旧計画",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ管理",
+      "item": "情報セキュリティ継続"
+    },
+    {
+      "term": "災害復旧",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ管理",
+      "item": "情報セキュリティ継続"
+    },
+    {
+      "term": "障害復旧",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ管理",
+      "item": "情報セキュリティ継続"
+    },
+    {
+      "term": "バックアップによる対策",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ管理",
+      "item": "情報セキュリティ継続"
+    },
+    {
+      "term": "被害状況の調査手法",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ管理",
+      "item": "情報セキュリティ継続"
+    },
+    {
+      "term": "情報セキュリティポリシーに従った組織運営",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ管理",
+      "item": "情報セキュリティ諸規程（情報セキュリティポリシーを含む組織内規程）"
+    },
+    {
+      "term": "リーダーシップ",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ管理",
+      "item": "情報セキュリティマネジメントシステム（ISMS）"
+    },
+    {
+      "term": "計画",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ管理",
+      "item": "情報セキュリティマネジメントシステム（ISMS）"
+    },
+    {
+      "term": "改善（不適合及び是正処置，継続的改善）",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ管理",
+      "item": "情報セキュリティマネジメントシステム（ISMS）"
+    },
+    {
+      "term": "管理目的",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ管理",
+      "item": "情報セキュリティマネジメントシステム（ISMS）"
+    },
+    {
+      "term": "有効性",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ管理",
+      "item": "情報セキュリティマネジメントシステム（ISMS）"
+    },
+    {
+      "term": "内閣サイバーセキュリティセンター（NISC）",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ管理",
+      "item": "情報セキュリティ組織・機関"
+    },
+    {
+      "term": "IPAセキュリティセンター",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ管理",
+      "item": "情報セキュリティ組織・機関"
+    },
+    {
+      "term": "J-CSIP（サイバー情報共有イニシアティブ）",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ管理",
+      "item": "情報セキュリティ組織・機関"
+    },
+    {
+      "term": "Trusted Web推進協議会",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ管理",
+      "item": "情報セキュリティ組織・機関"
+    },
+    {
+      "term": "情報セキュリティサービス審査登録制度",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ管理",
+      "item": "情報セキュリティ組織・機関"
+    },
+    {
+      "term": "情報セキュリティサービス基準適合サービスリスト",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ管理",
+      "item": "情報セキュリティ組織・機関"
+    },
+    {
+      "term": "情報セキュリティ早期警戒パートナーシップ",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ管理",
+      "item": "情報セキュリティ組織・機関"
+    },
+    {
+      "term": "NOTICE",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ管理",
+      "item": "情報セキュリティ組織・機関"
+    },
+    {
+      "term": "ISAC（Information Sharing and Analysis Center：セキュリティ情報共有組織）",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ管理",
+      "item": "情報セキュリティ組織・機関"
+    },
+    {
+      "term": "再発防止のための提言",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ管理",
+      "item": "情報セキュリティ組織・機関"
+    },
+    {
+      "term": "情報セキュリティに関する啓発活動",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ管理",
+      "item": "情報セキュリティ組織・機関"
+    },
+    {
+      "term": "ソフトウエア製品等の脆弱性関連情報に関する取扱規程",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ管理",
+      "item": "情報セキュリティに関する基準"
+    },
+    {
+      "term": "政府機関等の情報セキュリティ対策のための統一基準群",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ管理",
+      "item": "情報セキュリティに関する基準"
+    },
+    {
+      "term": "IoTセキュリティガイドライン",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ管理",
+      "item": "情報セキュリティに関する基準"
+    },
+    {
+      "term": "サイバー・フィジカル・セキュリティ対策フレームワーク",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ管理",
+      "item": "情報セキュリティに関する基準"
+    },
+    {
+      "term": "金融機関等コンピュータシステムの安全対策基準・解説書",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ管理",
+      "item": "情報セキュリティに関する基準"
+    },
+    {
+      "term": "サイバーセキュリティフレームワーク（CSF）",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ管理",
+      "item": "情報セキュリティに関する基準"
+    },
+    {
+      "term": "情報セキュリティ啓発（教育，資料配付，メディア活用）",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ対策",
+      "item": "人的セキュリティ対策"
+    },
+    {
+      "term": "認証情報の割当て及び管理",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ対策",
+      "item": "人的セキュリティ対策"
+    },
+    {
+      "term": "クラッキング対策",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ対策",
+      "item": "技術的セキュリティ対策"
+    },
+    {
+      "term": "不正アクセス対策",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ対策",
+      "item": "技術的セキュリティ対策"
+    },
+    {
+      "term": "マルウェア・不正プログラム対策（マルウェア対策ソフトの導入，マルウェア定義ファイルの更新ほか）",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ対策",
+      "item": "技術的セキュリティ対策"
+    },
+    {
+      "term": "ランサムウェア対策（データのバックアップ，3-2-1ルール，WORM（Write Once Read Many）機能）",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ対策",
+      "item": "技術的セキュリティ対策"
+    },
+    {
+      "term": "秘匿化",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ対策",
+      "item": "技術的セキュリティ対策"
+    },
+    {
+      "term": "匿名化の手法（項目削除／レコード削除／セル削除，トップ（ボトム）コーディングなどの一般的な手法のほか，k-匿名化などの高度な手法を含む）",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ対策",
+      "item": "技術的セキュリティ対策"
+    },
+    {
+      "term": "アクセス制御",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ対策",
+      "item": "技術的セキュリティ対策"
+    },
+    {
+      "term": "特権的アクセス権の管理",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ対策",
+      "item": "技術的セキュリティ対策"
+    },
+    {
+      "term": "ログ管理",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ対策",
+      "item": "技術的セキュリティ対策"
+    },
+    {
+      "term": "ネットワーク監視",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ対策",
+      "item": "技術的セキュリティ対策"
+    },
+    {
+      "term": "アクセス権の設定",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ対策",
+      "item": "技術的セキュリティ対策"
+    },
+    {
+      "term": "侵入検知",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ対策",
+      "item": "技術的セキュリティ対策"
+    },
+    {
+      "term": "侵入防止",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ対策",
+      "item": "技術的セキュリティ対策"
+    },
+    {
+      "term": "DMZ（非武装地帯）",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ対策",
+      "item": "技術的セキュリティ対策"
+    },
+    {
+      "term": "電子メール・Webのセキュリティ（URLフィルタリング（Webフィルタリング），コンテンツフィルタリング）",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ対策",
+      "item": "技術的セキュリティ対策"
+    },
+    {
+      "term": "携帯端末（携帯電話，スマートフォン，タブレット端末ほか）のセキュリティ",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ対策",
+      "item": "技術的セキュリティ対策"
+    },
+    {
+      "term": "暗号化消去（CE：Cryptographic Erase）",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ対策",
+      "item": "技術的セキュリティ対策"
+    },
+    {
+      "term": "クラウドサービスのセキュリティ",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ対策",
+      "item": "技術的セキュリティ対策"
+    },
+    {
+      "term": "デジタルフォレンジックス（証拠保全ほか）",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ対策",
+      "item": "技術的セキュリティ対策"
+    },
+    {
+      "term": "AIそのものを守るセキュリティ技術（Security for AI）",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ対策",
+      "item": "技術的セキュリティ対策"
+    },
+    {
+      "term": "マルウェア対策ソフト",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ対策",
+      "item": "技術的セキュリティ対策"
+    },
+    {
+      "term": "DLP（Data Loss Prevention）",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ対策",
+      "item": "技術的セキュリティ対策"
+    },
+    {
+      "term": "IDS（Intrusion Detection System：侵入検知システム）",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ対策",
+      "item": "技術的セキュリティ対策"
+    },
+    {
+      "term": "IPS（Intrusion Prevention System：侵入防止システム）",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ対策",
+      "item": "技術的セキュリティ対策"
+    },
+    {
+      "term": "UTM（Unified Threat Management：統合脅威管理）",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ対策",
+      "item": "技術的セキュリティ対策"
+    },
+    {
+      "term": "フォールスネガティブ",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ対策",
+      "item": "技術的セキュリティ対策"
+    },
+    {
+      "term": "フォールスポジティブ",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ対策",
+      "item": "技術的セキュリティ対策"
+    },
+    {
+      "term": "SSL/TLSアクセラレーター",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ対策",
+      "item": "技術的セキュリティ対策"
+    },
+    {
+      "term": "Webアイソレーション",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ対策",
+      "item": "技術的セキュリティ対策"
+    },
+    {
+      "term": "RASIS（Reliability，Availability，Serviceability，Integrity，Security）",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ対策",
+      "item": "物理的セキュリティ対策"
+    },
+    {
+      "term": "RAS技術",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ対策",
+      "item": "物理的セキュリティ対策"
+    },
+    {
+      "term": "耐震耐火設備",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ対策",
+      "item": "物理的セキュリティ対策"
+    },
+    {
+      "term": "UPS",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ対策",
+      "item": "物理的セキュリティ対策"
+    },
+    {
+      "term": "多重化技術",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ対策",
+      "item": "物理的セキュリティ対策"
+    },
+    {
+      "term": "ストレージのミラーリング",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ対策",
+      "item": "物理的セキュリティ対策"
+    },
+    {
+      "term": "監視カメラ",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ対策",
+      "item": "物理的セキュリティ対策"
+    },
+    {
+      "term": "インターロック",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ対策",
+      "item": "物理的セキュリティ対策"
+    },
+    {
+      "term": "施錠管理",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ対策",
+      "item": "物理的セキュリティ対策"
+    },
+    {
+      "term": "入退室管理",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ対策",
+      "item": "物理的セキュリティ対策"
+    },
+    {
+      "term": "遠隔バックアップ",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ対策",
+      "item": "物理的セキュリティ対策"
+    },
+    {
+      "term": "USBキー",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ対策",
+      "item": "物理的セキュリティ対策"
+    },
+    {
+      "term": "セキュリティケーブル",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ対策",
+      "item": "物理的セキュリティ対策"
+    },
+    {
+      "term": "記憶媒体の管理",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ対策",
+      "item": "物理的セキュリティ対策"
+    },
+    {
+      "term": "装置のセキュリティを保った処分又は再利用",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "情報セキュリティ対策",
+      "item": "物理的セキュリティ対策"
+    },
+    {
+      "term": "SSL/TLS",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "セキュリティ実装技術",
+      "item": "セキュアプロトコル"
+    },
+    {
+      "term": "SSH",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "セキュリティ実装技術",
+      "item": "セキュアプロトコル"
+    },
+    {
+      "term": "WPA2",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "セキュリティ実装技術",
+      "item": "セキュアプロトコル"
+    },
+    {
+      "term": "スパム対策（ベイジアンフィルタリング，送信元ドメイン認証，SPF，DKIM，DMARC，SMTP-AUTH，OP25B，PGP（Pretty Good Privacy），S/MIME（Secure MIME）ほか）",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "セキュリティ実装技術",
+      "item": "認証技術"
+    },
+    {
+      "term": "パケットフィルタリング",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "セキュリティ実装技術",
+      "item": "ネットワークセキュリティ"
+    },
+    {
+      "term": "MACアドレス（Media Access Control address）フィルタリング",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "セキュリティ実装技術",
+      "item": "ネットワークセキュリティ"
+    },
+    {
+      "term": "認証サーバ",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "セキュリティ実装技術",
+      "item": "ネットワークセキュリティ"
+    },
+    {
+      "term": "認証VLAN",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "セキュリティ実装技術",
+      "item": "ネットワークセキュリティ"
+    },
+    {
+      "term": "VPN（Virtual Private Network：仮想私設網）",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "セキュリティ実装技術",
+      "item": "ネットワークセキュリティ"
+    },
+    {
+      "term": "ハニーポット",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "セキュリティ実装技術",
+      "item": "ネットワークセキュリティ"
+    },
+    {
+      "term": "データベースアクセス制御",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "セキュリティ実装技術",
+      "item": "データベースセキュリティ"
+    },
+    {
+      "term": "データベースバックアップ",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "セキュリティ実装技術",
+      "item": "データベースセキュリティ"
+    },
+    {
+      "term": "ログの取得",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "セキュリティ実装技術",
+      "item": "データベースセキュリティ"
+    },
+    {
+      "term": "Webシステムのセキュリティ対策",
+      "categoryId": 1,
+      "category": "セキュリティ",
+      "subcategory": "セキュリティ実装技術",
+      "item": "アプリケーションセキュリティ"
+    },
+    {
+      "term": "個人情報保護に関するガイドライン",
+      "categoryId": 2,
+      "category": "法務",
+      "subcategory": "セキュリティ関連法規",
+      "item": "個人情報保護法"
+    },
+    {
+      "term": "プライバシーマーク",
+      "categoryId": 2,
+      "category": "法務",
+      "subcategory": "セキュリティ関連法規",
+      "item": "個人情報保護法"
+    },
+    {
+      "term": "OECDプライバシーガイドライン（プライバシー保護と個人データの国際流通についてのガイドラインに関する理事会勧告）",
+      "categoryId": 2,
+      "category": "法務",
+      "subcategory": "セキュリティ関連法規",
+      "item": "個人情報保護法"
+    },
+    {
+      "term": "プライバシー影響アセスメント（PIA）",
+      "categoryId": 2,
+      "category": "法務",
+      "subcategory": "セキュリティ関連法規",
+      "item": "個人情報保護法"
+    },
+    {
+      "term": "電子署名及び認証業務等に関する法律（認定認証事業者，電子証明書）",
+      "categoryId": 2,
+      "category": "法務",
+      "subcategory": "セキュリティ関連法規",
+      "item": "その他のセキュリティ関連法規"
+    },
+    {
+      "term": "就業規則",
+      "categoryId": 2,
+      "category": "法務",
+      "subcategory": "労働関連・取引関連法規",
+      "item": "労働関連の法規（労働基準法）"
+    },
+    {
+      "term": "労働者",
+      "categoryId": 2,
+      "category": "法務",
+      "subcategory": "労働関連・取引関連法規",
+      "item": "労働関連の法規（労働者派遣法）"
+    },
+    {
+      "term": "派遣先",
+      "categoryId": 2,
+      "category": "法務",
+      "subcategory": "労働関連・取引関連法規",
+      "item": "労働関連の法規（労働者派遣法）"
+    },
+    {
+      "term": "派遣元",
+      "categoryId": 2,
+      "category": "法務",
+      "subcategory": "労働関連・取引関連法規",
+      "item": "労働関連の法規（労働者派遣法）"
+    },
+    {
+      "term": "その他の法律（デジタル社会形成基本法，官民データ活用推進基本法，e-文書法（電磁的記録），電子帳簿保存法）",
+      "categoryId": 2,
+      "category": "法務",
+      "subcategory": "その他の法律・ガイドライン・技術者倫理",
+      "item": "その他の法律・ガイドライン・技術者倫理"
+    },
+    {
+      "term": "情報倫理・技術者倫理（フェイクニュース，マルインフォメーション，ディスインフォメーション，ミスインフォメーション，デジタルタトゥー，ファクトチェック）",
+      "categoryId": 2,
+      "category": "法務",
+      "subcategory": "その他の法律・ガイドライン・技術者倫理",
+      "item": "その他の法律・ガイドライン・技術者倫理"
+    },
+    {
+      "term": "有害サイトアクセス制限（フィルタリング，ペアレンタルコントロールほか）",
+      "categoryId": 2,
+      "category": "法務",
+      "subcategory": "その他の法律・ガイドライン・技術者倫理",
+      "item": "その他の法律・ガイドライン・技術者倫理"
+    },
+    {
+      "term": "JIS（Japanese Industrial Standards：日本産業規格）",
+      "categoryId": 2,
+      "category": "法務",
+      "subcategory": "標準化関連",
+      "item": "標準・規格と標準化団体"
+    },
+    {
+      "term": "IS（International Standards：国際規格）",
+      "categoryId": 2,
+      "category": "法務",
+      "subcategory": "標準化関連",
+      "item": "標準・規格と標準化団体"
+    },
+    {
+      "term": "ISO（International Organization for Standardization：国際標準化機構）",
+      "categoryId": 2,
+      "category": "法務",
+      "subcategory": "標準化関連",
+      "item": "標準・規格と標準化団体"
+    },
+    {
+      "term": "IEEEなどの関連機構の役割",
+      "categoryId": 2,
+      "category": "法務",
+      "subcategory": "標準化関連",
+      "item": "標準・規格と標準化団体"
+    },
+    {
+      "term": "集中処理",
+      "categoryId": 3,
+      "category": "システム構成要素",
+      "subcategory": "システムの構成",
+      "item": "システムの処理形態・利用形態"
+    },
+    {
+      "term": "分散処理",
+      "categoryId": 3,
+      "category": "システム構成要素",
+      "subcategory": "システムの構成",
+      "item": "システムの処理形態・利用形態"
+    },
+    {
+      "term": "対話型処理",
+      "categoryId": 3,
+      "category": "システム構成要素",
+      "subcategory": "システムの構成",
+      "item": "システムの処理形態・利用形態"
+    },
+    {
+      "term": "利用形態（バッチ処理，リアルタイム処理）",
+      "categoryId": 3,
+      "category": "システム構成要素",
+      "subcategory": "システムの構成",
+      "item": "システムの処理形態・利用形態"
+    },
+    {
+      "term": "機能配分",
+      "categoryId": 3,
+      "category": "システム構成要素",
+      "subcategory": "システムの構成",
+      "item": "システム構成"
+    },
+    {
+      "term": "冗長構成",
+      "categoryId": 3,
+      "category": "システム構成要素",
+      "subcategory": "システムの構成",
+      "item": "システム構成"
+    },
+    {
+      "term": "負荷分散",
+      "categoryId": 3,
+      "category": "システム構成要素",
+      "subcategory": "システムの構成",
+      "item": "システム構成"
+    },
+    {
+      "term": "デュアルシステム",
+      "categoryId": 3,
+      "category": "システム構成要素",
+      "subcategory": "システムの構成",
+      "item": "システム構成"
+    },
+    {
+      "term": "デュプレックスシステム",
+      "categoryId": 3,
+      "category": "システム構成要素",
+      "subcategory": "システムの構成",
+      "item": "システム構成"
+    },
+    {
+      "term": "主系（現用系）",
+      "categoryId": 3,
+      "category": "システム構成要素",
+      "subcategory": "システムの構成",
+      "item": "システム構成"
+    },
+    {
+      "term": "従系（待機系）",
+      "categoryId": 3,
+      "category": "システム構成要素",
+      "subcategory": "システムの構成",
+      "item": "システム構成"
+    },
+    {
+      "term": "クライアントサーバシステム（クライアント，サーバ）",
+      "categoryId": 3,
+      "category": "システム構成要素",
+      "subcategory": "システムの構成",
+      "item": "システム構成"
+    },
+    {
+      "term": "VM（Virtual Machine：仮想マシン）",
+      "categoryId": 3,
+      "category": "システム構成要素",
+      "subcategory": "システムの構成",
+      "item": "システム構成"
+    },
+    {
+      "term": "VDI（Virtual Desktop Infrastructure：デスクトップ仮想化）",
+      "categoryId": 3,
+      "category": "システム構成要素",
+      "subcategory": "システムの構成",
+      "item": "システム構成"
+    },
+    {
+      "term": "Webシステム（Webブラウザ，Webサーバ）",
+      "categoryId": 3,
+      "category": "システム構成要素",
+      "subcategory": "システムの構成",
+      "item": "システム構成"
+    },
+    {
+      "term": "ピアツーピア",
+      "categoryId": 3,
+      "category": "システム構成要素",
+      "subcategory": "システムの構成",
+      "item": "システム構成"
+    },
+    {
+      "term": "クラウドコンピューティング",
+      "categoryId": 3,
+      "category": "システム構成要素",
+      "subcategory": "システムの構成",
+      "item": "システム構成"
+    },
+    {
+      "term": "エッジコンピューティング",
+      "categoryId": 3,
+      "category": "システム構成要素",
+      "subcategory": "システムの構成",
+      "item": "システム構成"
+    },
+    {
+      "term": "RAID",
+      "categoryId": 3,
+      "category": "システム構成要素",
+      "subcategory": "システムの構成",
+      "item": "ストレージの構成"
+    },
+    {
+      "term": "NAS",
+      "categoryId": 3,
+      "category": "システム構成要素",
+      "subcategory": "システムの構成",
+      "item": "ストレージの構成"
+    },
+    {
+      "term": "SAN",
+      "categoryId": 3,
+      "category": "システム構成要素",
+      "subcategory": "システムの構成",
+      "item": "ストレージの構成"
+    },
+    {
+      "term": "フォールトトレラント",
+      "categoryId": 3,
+      "category": "システム構成要素",
+      "subcategory": "システムの構成",
+      "item": "信頼性設計"
+    },
+    {
+      "term": "フェールセーフ",
+      "categoryId": 3,
+      "category": "システム構成要素",
+      "subcategory": "システムの構成",
+      "item": "信頼性設計"
+    },
+    {
+      "term": "フールプルーフ",
+      "categoryId": 3,
+      "category": "システム構成要素",
+      "subcategory": "システムの構成",
+      "item": "信頼性設計"
+    },
+    {
+      "term": "ヒューマンエラー",
+      "categoryId": 3,
+      "category": "システム構成要素",
+      "subcategory": "システムの構成",
+      "item": "信頼性設計"
+    },
+    {
+      "term": "システムの性能指標（レスポンスタイム（応答時間），スループット）",
+      "categoryId": 3,
+      "category": "システム構成要素",
+      "subcategory": "システムの評価指標",
+      "item": "システムの性能特性と評価"
+    },
+    {
+      "term": "信頼性指標と信頼性計算（MTBF，MTTR，稼働率）",
+      "categoryId": 3,
+      "category": "システム構成要素",
+      "subcategory": "システムの評価指標",
+      "item": "システムの信頼性特性と評価"
+    },
+    {
+      "term": "初期コスト（イニシャルコスト）",
+      "categoryId": 3,
+      "category": "システム構成要素",
+      "subcategory": "システムの評価指標",
+      "item": "システムの経済性の評価"
+    },
+    {
+      "term": "運用コスト（ランニングコスト）",
+      "categoryId": 3,
+      "category": "システム構成要素",
+      "subcategory": "システムの評価指標",
+      "item": "システムの経済性の評価"
+    },
+    {
+      "term": "データベースの種類と特徴（関係データベース）",
+      "categoryId": 4,
+      "category": "データベース",
+      "subcategory": "データベース方式",
+      "item": "データベース"
+    },
+    {
+      "term": "データベース管理システム及びその機能（保全機能，データ機密保護機能）",
+      "categoryId": 4,
+      "category": "データベース",
+      "subcategory": "データベース方式",
+      "item": "データベース管理システム"
+    },
+    {
+      "term": "データ重複の排除",
+      "categoryId": 4,
+      "category": "データベース",
+      "subcategory": "データベース設計",
+      "item": "データ分析"
+    },
+    {
+      "term": "メタデータ",
+      "categoryId": 4,
+      "category": "データベース",
+      "subcategory": "データベース設計",
+      "item": "データ分析"
+    },
+    {
+      "term": "データディクショナリ",
+      "categoryId": 4,
+      "category": "データベース",
+      "subcategory": "データベース設計",
+      "item": "データ分析"
+    },
+    {
+      "term": "データベース言語（SQL）",
+      "categoryId": 4,
+      "category": "データベース",
+      "subcategory": "データ操作",
+      "item": "データ操作"
+    },
+    {
+      "term": "同時実行制御（排他制御）",
+      "categoryId": 4,
+      "category": "データベース",
+      "subcategory": "トランザクション処理",
+      "item": "トランザクション処理"
+    },
+    {
+      "term": "障害回復（障害に備えたバックアップの方式，世代管理，フルバックアップ，差分バックアップ，増分バックアップ）",
+      "categoryId": 4,
+      "category": "データベース",
+      "subcategory": "トランザクション処理",
+      "item": "トランザクション処理"
+    },
+    {
+      "term": "データウェアハウス",
+      "categoryId": 4,
+      "category": "データベース",
+      "subcategory": "データベース応用",
+      "item": "データベースの応用"
+    },
+    {
+      "term": "分散ファイルシステム",
+      "categoryId": 4,
+      "category": "データベース",
+      "subcategory": "データベース応用",
+      "item": "データベースの応用"
+    },
+    {
+      "term": "ネットワーク社会",
+      "categoryId": 5,
+      "category": "ネットワーク",
+      "subcategory": "ネットワーク方式",
+      "item": "通信ネットワークの役割"
+    },
+    {
+      "term": "情報社会",
+      "categoryId": 5,
+      "category": "ネットワーク",
+      "subcategory": "ネットワーク方式",
+      "item": "通信ネットワークの役割"
+    },
+    {
+      "term": "ICT（Information and Communication Technology：情報通信技術）",
+      "categoryId": 5,
+      "category": "ネットワーク",
+      "subcategory": "ネットワーク方式",
+      "item": "通信ネットワークの役割"
+    },
+    {
+      "term": "電気通信事業者が提供するサービス",
+      "categoryId": 5,
+      "category": "ネットワーク",
+      "subcategory": "ネットワーク方式",
+      "item": "ネットワークの種類と特徴"
+    },
+    {
+      "term": "インターネット接続サービス",
+      "categoryId": 5,
+      "category": "ネットワーク",
+      "subcategory": "ネットワーク方式",
+      "item": "ネットワークの種類と特徴"
+    },
+    {
+      "term": "TCP/IP",
+      "categoryId": 5,
+      "category": "ネットワーク",
+      "subcategory": "ネットワーク方式",
+      "item": "インターネット技術"
+    },
+    {
+      "term": "サーバ",
+      "categoryId": 5,
+      "category": "ネットワーク",
+      "subcategory": "ネットワーク方式",
+      "item": "インターネット技術"
+    },
+    {
+      "term": "クライアント",
+      "categoryId": 5,
+      "category": "ネットワーク",
+      "subcategory": "ネットワーク方式",
+      "item": "インターネット技術"
+    },
+    {
+      "term": "パケット交換",
+      "categoryId": 5,
+      "category": "ネットワーク",
+      "subcategory": "データ通信と制御",
+      "item": "伝送方式と回線"
+    },
+    {
+      "term": "公衆回線",
+      "categoryId": 5,
+      "category": "ネットワーク",
+      "subcategory": "データ通信と制御",
+      "item": "伝送方式と回線"
+    },
+    {
+      "term": "専用線",
+      "categoryId": 5,
+      "category": "ネットワーク",
+      "subcategory": "データ通信と制御",
+      "item": "伝送方式と回線"
+    },
+    {
+      "term": "FTTH",
+      "categoryId": 5,
+      "category": "ネットワーク",
+      "subcategory": "データ通信と制御",
+      "item": "伝送方式と回線"
+    },
+    {
+      "term": "LAN内接続",
+      "categoryId": 5,
+      "category": "ネットワーク",
+      "subcategory": "データ通信と制御",
+      "item": "ネットワーク接続"
+    },
+    {
+      "term": "LAN間接続",
+      "categoryId": 5,
+      "category": "ネットワーク",
+      "subcategory": "データ通信と制御",
+      "item": "ネットワーク接続"
+    },
+    {
+      "term": "LAN-WAN接続",
+      "categoryId": 5,
+      "category": "ネットワーク",
+      "subcategory": "データ通信と制御",
+      "item": "ネットワーク接続"
+    },
+    {
+      "term": "レイヤー2（L2）スイッチ",
+      "categoryId": 5,
+      "category": "ネットワーク",
+      "subcategory": "データ通信と制御",
+      "item": "ネットワーク接続"
+    },
+    {
+      "term": "レイヤー3（L3）スイッチ",
+      "categoryId": 5,
+      "category": "ネットワーク",
+      "subcategory": "データ通信と制御",
+      "item": "ネットワーク接続"
+    },
+    {
+      "term": "ブリッジ",
+      "categoryId": 5,
+      "category": "ネットワーク",
+      "subcategory": "データ通信と制御",
+      "item": "ネットワーク接続"
+    },
+    {
+      "term": "MACアドレス",
+      "categoryId": 5,
+      "category": "ネットワーク",
+      "subcategory": "通信プロトコル",
+      "item": "プロトコルとインタフェース（ネットワーク層，トランスポート層）"
+    },
+    {
+      "term": "Ethernet",
+      "categoryId": 5,
+      "category": "ネットワーク",
+      "subcategory": "通信プロトコル",
+      "item": "プロトコルとインタフェース（LANとWAN）"
+    },
+    {
+      "term": "IEEE 802.11a/b/g/n/ac/ax",
+      "categoryId": 5,
+      "category": "ネットワーク",
+      "subcategory": "通信プロトコル",
+      "item": "プロトコルとインタフェース（LANとWAN）"
+    },
+    {
+      "term": "Wi-Fi 4/5/6/6E",
+      "categoryId": 5,
+      "category": "ネットワーク",
+      "subcategory": "通信プロトコル",
+      "item": "プロトコルとインタフェース（LANとWAN）"
+    },
+    {
+      "term": "稼働統計",
+      "categoryId": 5,
+      "category": "ネットワーク",
+      "subcategory": "ネットワーク管理",
+      "item": "ネットワーク運用管理（障害管理）"
+    },
+    {
+      "term": "メールサーバ",
+      "categoryId": 5,
+      "category": "ネットワーク",
+      "subcategory": "ネットワーク応用",
+      "item": "インターネット（電子メール）"
+    },
+    {
+      "term": "メールクライアント（メールソフト）",
+      "categoryId": 5,
+      "category": "ネットワーク",
+      "subcategory": "ネットワーク応用",
+      "item": "インターネット（電子メール）"
+    },
+    {
+      "term": "リレー方式",
+      "categoryId": 5,
+      "category": "ネットワーク",
+      "subcategory": "ネットワーク応用",
+      "item": "インターネット（電子メール）"
+    },
+    {
+      "term": "同報メール",
+      "categoryId": 5,
+      "category": "ネットワーク",
+      "subcategory": "ネットワーク応用",
+      "item": "インターネット（電子メール）"
+    },
+    {
+      "term": "メールボックス",
+      "categoryId": 5,
+      "category": "ネットワーク",
+      "subcategory": "ネットワーク応用",
+      "item": "インターネット（電子メール）"
+    },
+    {
+      "term": "Webブラウザ",
+      "categoryId": 5,
+      "category": "ネットワーク",
+      "subcategory": "ネットワーク応用",
+      "item": "インターネット（Web）"
+    },
+    {
+      "term": "マークアップ言語（HTML，XML）",
+      "categoryId": 5,
+      "category": "ネットワーク",
+      "subcategory": "ネットワーク応用",
+      "item": "インターネット（Web）"
+    },
+    {
+      "term": "ハイパーリンク",
+      "categoryId": 5,
+      "category": "ネットワーク",
+      "subcategory": "ネットワーク応用",
+      "item": "インターネット（Web）"
+    },
+    {
+      "term": "Webアプリケーションソフトウェア",
+      "categoryId": 5,
+      "category": "ネットワーク",
+      "subcategory": "ネットワーク応用",
+      "item": "インターネット（Web）"
+    },
+    {
+      "term": "ドメイン名",
+      "categoryId": 5,
+      "category": "ネットワーク",
+      "subcategory": "ネットワーク応用",
+      "item": "インターネット（Web）"
+    },
+    {
+      "term": "FTPサーバ",
+      "categoryId": 5,
+      "category": "ネットワーク",
+      "subcategory": "ネットワーク応用",
+      "item": "インターネット（ファイル転送）"
+    },
+    {
+      "term": "FTPクライアント",
+      "categoryId": 5,
+      "category": "ネットワーク",
+      "subcategory": "ネットワーク応用",
+      "item": "インターネット（ファイル転送）"
+    },
+    {
+      "term": "アップロード",
+      "categoryId": 5,
+      "category": "ネットワーク",
+      "subcategory": "ネットワーク応用",
+      "item": "インターネット（ファイル転送）"
+    },
+    {
+      "term": "ダウンロード",
+      "categoryId": 5,
+      "category": "ネットワーク",
+      "subcategory": "ネットワーク応用",
+      "item": "インターネット（ファイル転送）"
+    },
+    {
+      "term": "オンラインストレージ",
+      "categoryId": 5,
+      "category": "ネットワーク",
+      "subcategory": "ネットワーク応用",
+      "item": "インターネット（ファイル転送）"
+    },
+    {
+      "term": "クラウドストレージ",
+      "categoryId": 5,
+      "category": "ネットワーク",
+      "subcategory": "ネットワーク応用",
+      "item": "インターネット（ファイル転送）"
+    },
+    {
+      "term": "EC（Electronic Commerce：電子商取引）",
+      "categoryId": 5,
+      "category": "ネットワーク",
+      "subcategory": "ネットワーク応用",
+      "item": "イントラネット・エクストラネット"
+    },
+    {
+      "term": "EDI（Electronic Data Interchange：電子データ交換）",
+      "categoryId": 5,
+      "category": "ネットワーク",
+      "subcategory": "ネットワーク応用",
+      "item": "イントラネット・エクストラネット"
+    },
+    {
+      "term": "専用線サービス",
+      "categoryId": 5,
+      "category": "ネットワーク",
+      "subcategory": "ネットワーク応用",
+      "item": "通信サービス"
+    },
+    {
+      "term": "回線交換サービス",
+      "categoryId": 5,
+      "category": "ネットワーク",
+      "subcategory": "ネットワーク応用",
+      "item": "通信サービス"
+    },
+    {
+      "term": "パケット交換サービス",
+      "categoryId": 5,
+      "category": "ネットワーク",
+      "subcategory": "ネットワーク応用",
+      "item": "通信サービス"
+    },
+    {
+      "term": "インターネットサービス",
+      "categoryId": 5,
+      "category": "ネットワーク",
+      "subcategory": "ネットワーク応用",
+      "item": "通信サービス"
+    },
+    {
+      "term": "IP電話",
+      "categoryId": 5,
+      "category": "ネットワーク",
+      "subcategory": "ネットワーク応用",
+      "item": "通信サービス"
+    },
+    {
+      "term": "モバイル通信",
+      "categoryId": 5,
+      "category": "ネットワーク",
+      "subcategory": "ネットワーク応用",
+      "item": "通信サービス"
+    },
+    {
+      "term": "移動体通信規格（LTE，5G（第5世代移動通信システム）など）",
+      "categoryId": 5,
+      "category": "ネットワーク",
+      "subcategory": "ネットワーク応用",
+      "item": "通信サービス"
+    },
+    {
+      "term": "広域Ethernet",
+      "categoryId": 5,
+      "category": "ネットワーク",
+      "subcategory": "ネットワーク応用",
+      "item": "通信サービス"
+    },
+    {
+      "term": "VoIP（Voice over Internet Protocol）",
+      "categoryId": 5,
+      "category": "ネットワーク",
+      "subcategory": "ネットワーク応用",
+      "item": "通信サービス"
+    },
+    {
+      "term": "ベストエフォート",
+      "categoryId": 5,
+      "category": "ネットワーク",
+      "subcategory": "ネットワーク応用",
+      "item": "通信サービス"
+    },
+    {
+      "term": "プロジェクト",
+      "categoryId": 6,
+      "category": "プロジェクトマネジメント",
+      "subcategory": "プロジェクトマネジメント",
+      "item": "プロジェクトマネジメント"
+    },
+    {
+      "term": "プロジェクトマネジメント",
+      "categoryId": 6,
+      "category": "プロジェクトマネジメント",
+      "subcategory": "プロジェクトマネジメント",
+      "item": "プロジェクトマネジメント"
+    },
+    {
+      "term": "プロジェクトの環境",
+      "categoryId": 6,
+      "category": "プロジェクトマネジメント",
+      "subcategory": "プロジェクトマネジメント",
+      "item": "プロジェクトマネジメント"
+    },
+    {
+      "term": "プロジェクトガバナンス",
+      "categoryId": 6,
+      "category": "プロジェクトマネジメント",
+      "subcategory": "プロジェクトマネジメント",
+      "item": "プロジェクトマネジメント"
+    },
+    {
+      "term": "プロジェクトライフサイクル",
+      "categoryId": 6,
+      "category": "プロジェクトマネジメント",
+      "subcategory": "プロジェクトマネジメント",
+      "item": "プロジェクトマネジメント"
+    },
+    {
+      "term": "プロジェクトの体制",
+      "categoryId": 6,
+      "category": "プロジェクトマネジメント",
+      "subcategory": "プロジェクトマネジメント",
+      "item": "プロジェクトマネジメント"
+    },
+    {
+      "term": "プロジェクトの自己管理（変更管理，問題発見，問題報告，対策立案，文書化）",
+      "categoryId": 6,
+      "category": "プロジェクトマネジメント",
+      "subcategory": "プロジェクトマネジメント",
+      "item": "プロジェクトマネジメント"
+    },
+    {
+      "term": "プロジェクト憲章の作成",
+      "categoryId": 6,
+      "category": "プロジェクトマネジメント",
+      "subcategory": "プロジェクトの統合",
+      "item": "プロジェクトの統合"
+    },
+    {
+      "term": "プロジェクト作業の管理",
+      "categoryId": 6,
+      "category": "プロジェクトマネジメント",
+      "subcategory": "プロジェクトの統合",
+      "item": "プロジェクトの統合"
+    },
+    {
+      "term": "プロジェクトフェーズ又はプロジェクトの終結",
+      "categoryId": 6,
+      "category": "プロジェクトマネジメント",
+      "subcategory": "プロジェクトの統合",
+      "item": "プロジェクトの統合"
+    },
+    {
+      "term": "得た教訓の収集",
+      "categoryId": 6,
+      "category": "プロジェクトマネジメント",
+      "subcategory": "プロジェクトの統合",
+      "item": "プロジェクトの統合"
+    },
+    {
+      "term": "ベースライン",
+      "categoryId": 6,
+      "category": "プロジェクトマネジメント",
+      "subcategory": "プロジェクトの統合",
+      "item": "プロジェクトの統合"
+    },
+    {
+      "term": "ステークホルダの特定",
+      "categoryId": 6,
+      "category": "プロジェクトマネジメント",
+      "subcategory": "プロジェクトのステークホルダ",
+      "item": "プロジェクトのステークホルダ"
+    },
+    {
+      "term": "ステークホルダのマネジメント",
+      "categoryId": 6,
+      "category": "プロジェクトマネジメント",
+      "subcategory": "プロジェクトのステークホルダ",
+      "item": "プロジェクトのステークホルダ"
+    },
+    {
+      "term": "スコープの定義",
+      "categoryId": 6,
+      "category": "プロジェクトマネジメント",
+      "subcategory": "プロジェクトのスコープ",
+      "item": "プロジェクトのスコープ"
+    },
+    {
+      "term": "WBSの作成",
+      "categoryId": 6,
+      "category": "プロジェクトマネジメント",
+      "subcategory": "プロジェクトのスコープ",
+      "item": "プロジェクトのスコープ"
+    },
+    {
+      "term": "活動の定義",
+      "categoryId": 6,
+      "category": "プロジェクトマネジメント",
+      "subcategory": "プロジェクトのスコープ",
+      "item": "プロジェクトのスコープ"
+    },
+    {
+      "term": "スコープの管理",
+      "categoryId": 6,
+      "category": "プロジェクトマネジメント",
+      "subcategory": "プロジェクトのスコープ",
+      "item": "プロジェクトのスコープ"
+    },
+    {
+      "term": "資源の対象群が含むプロセス（資源の見積り，プロジェクトチームのマネジメント）",
+      "categoryId": 6,
+      "category": "プロジェクトマネジメント",
+      "subcategory": "プロジェクトの資源",
+      "item": "プロジェクトの資源"
+    },
+    {
+      "term": "時間の対象群が含むプロセス（活動の順序付け，活動期間の見積り，スケジュールの作成）",
+      "categoryId": 6,
+      "category": "プロジェクトマネジメント",
+      "subcategory": "プロジェクトの時間",
+      "item": "プロジェクトの時間"
+    },
+    {
+      "term": "活動リスト",
+      "categoryId": 6,
+      "category": "プロジェクトマネジメント",
+      "subcategory": "プロジェクトの時間",
+      "item": "プロジェクトの時間"
+    },
+    {
+      "term": "PERT",
+      "categoryId": 6,
+      "category": "プロジェクトマネジメント",
+      "subcategory": "プロジェクトの時間",
+      "item": "プロジェクトの時間"
+    },
+    {
+      "term": "コストの管理",
+      "categoryId": 6,
+      "category": "プロジェクトマネジメント",
+      "subcategory": "プロジェクトのコスト",
+      "item": "プロジェクトのコスト"
+    },
+    {
+      "term": "コストベースライン",
+      "categoryId": 6,
+      "category": "プロジェクトマネジメント",
+      "subcategory": "プロジェクトのコスト",
+      "item": "プロジェクトのコスト"
+    },
+    {
+      "term": "プロジェクトの全体リスクと個別リスク",
+      "categoryId": 6,
+      "category": "プロジェクトマネジメント",
+      "subcategory": "プロジェクトのリスク",
+      "item": "プロジェクトのリスク"
+    },
+    {
+      "term": "リスクの対象群が含むプロセス（リスクの特定，リスクの評価，リスクへの対応，リスクの管理）",
+      "categoryId": 6,
+      "category": "プロジェクトマネジメント",
+      "subcategory": "プロジェクトのリスク",
+      "item": "プロジェクトのリスク"
+    },
+    {
+      "term": "品質管理の遂行",
+      "categoryId": 6,
+      "category": "プロジェクトマネジメント",
+      "subcategory": "プロジェクトの品質",
+      "item": "プロジェクトの品質"
+    },
+    {
+      "term": "検査報告書",
+      "categoryId": 6,
+      "category": "プロジェクトマネジメント",
+      "subcategory": "プロジェクトの品質",
+      "item": "プロジェクトの品質"
+    },
+    {
+      "term": "調達の対象群が含むプロセス（調達の計画，供給者の選定，調達の運営管理）",
+      "categoryId": 6,
+      "category": "プロジェクトマネジメント",
+      "subcategory": "プロジェクトの調達",
+      "item": "プロジェクトの調達"
+    },
+    {
+      "term": "コミュニケーションのマネジメント",
+      "categoryId": 6,
+      "category": "プロジェクトマネジメント",
+      "subcategory": "プロジェクトのコミュニケーション",
+      "item": "プロジェクトのコミュニケーション"
+    },
+    {
+      "term": "代表的な情報配布の方法（双方向コミュニケーション，プッシュ型コミュニケーション，プル型コミュニケーション，電子メール，ボイスメール，テレビ会議，紙面）",
+      "categoryId": 6,
+      "category": "プロジェクトマネジメント",
+      "subcategory": "プロジェクトのコミュニケーション",
+      "item": "プロジェクトのコミュニケーション"
+    },
+    {
+      "term": "サービスレベル合意書（SLA）",
+      "categoryId": 7,
+      "category": "サービスマネジメント",
+      "subcategory": "サービスマネジメント",
+      "item": "SLA"
+    },
+    {
+      "term": "サービス時間",
+      "categoryId": 7,
+      "category": "サービスマネジメント",
+      "subcategory": "サービスマネジメント",
+      "item": "SLA"
+    },
+    {
+      "term": "応答時間",
+      "categoryId": 7,
+      "category": "サービスマネジメント",
+      "subcategory": "サービスマネジメント",
+      "item": "SLA"
+    },
+    {
+      "term": "サービス及びサービスマネジメントシステムのパフォーマンス",
+      "categoryId": 7,
+      "category": "サービスマネジメント",
+      "subcategory": "サービスマネジメント",
+      "item": "SLA"
+    },
+    {
+      "term": "サービスマネジメントシステム",
+      "categoryId": 7,
+      "category": "サービスマネジメント",
+      "subcategory": "サービスマネジメント",
+      "item": "SLA"
+    },
+    {
+      "term": "サービスカタログ",
+      "categoryId": 7,
+      "category": "サービスマネジメント",
+      "subcategory": "サービスマネジメントシステムの計画及び運用",
+      "item": "サービスカタログ管理"
+    },
+    {
+      "term": "ライセンスマネジメント",
+      "categoryId": 7,
+      "category": "サービスマネジメント",
+      "subcategory": "サービスマネジメントシステムの計画及び運用",
+      "item": "資産管理，構成管理"
+    },
+    {
+      "term": "サービスレベル目標",
+      "categoryId": 7,
+      "category": "サービスマネジメント",
+      "subcategory": "サービスマネジメントシステムの計画及び運用",
+      "item": "事業関係管理，サービスレベル管理，供給者管理"
+    },
+    {
+      "term": "外部供給者",
+      "categoryId": 7,
+      "category": "サービスマネジメント",
+      "subcategory": "サービスマネジメントシステムの計画及び運用",
+      "item": "事業関係管理，サービスレベル管理，供給者管理"
+    },
+    {
+      "term": "契約",
+      "categoryId": 7,
+      "category": "サービスマネジメント",
+      "subcategory": "サービスマネジメントシステムの計画及び運用",
+      "item": "事業関係管理，サービスレベル管理，供給者管理"
+    },
+    {
+      "term": "内部供給者",
+      "categoryId": 7,
+      "category": "サービスマネジメント",
+      "subcategory": "サービスマネジメントシステムの計画及び運用",
+      "item": "事業関係管理，サービスレベル管理，供給者管理"
+    },
+    {
+      "term": "容量・能力（キャパシティ）管理",
+      "categoryId": 7,
+      "category": "サービスマネジメント",
+      "subcategory": "サービスマネジメントシステムの計画及び運用",
+      "item": "需要管理，容量・能力管理"
+    },
+    {
+      "term": "管理指標（CPU使用率，メモリ使用率，ディスク使用率，ネットワーク利用率）",
+      "categoryId": 7,
+      "category": "サービスマネジメント",
+      "subcategory": "サービスマネジメントシステムの計画及び運用",
+      "item": "需要管理，容量・能力管理"
+    },
+    {
+      "term": "しきい（閾）値",
+      "categoryId": 7,
+      "category": "サービスマネジメント",
+      "subcategory": "サービスマネジメントシステムの計画及び運用",
+      "item": "需要管理，容量・能力管理"
+    },
+    {
+      "term": "変更によるサービスへの影響",
+      "categoryId": 7,
+      "category": "サービスマネジメント",
+      "subcategory": "サービスマネジメントシステムの計画及び運用",
+      "item": "変更管理，サービスの設計及び移行，リリース及び展開管理"
+    },
+    {
+      "term": "サービス設計書",
+      "categoryId": 7,
+      "category": "サービスマネジメント",
+      "subcategory": "サービスマネジメントシステムの計画及び運用",
+      "item": "変更管理，サービスの設計及び移行，リリース及び展開管理"
+    },
+    {
+      "term": "非機能要件",
+      "categoryId": 7,
+      "category": "サービスマネジメント",
+      "subcategory": "サービスマネジメントシステムの計画及び運用",
+      "item": "変更管理，サービスの設計及び移行，リリース及び展開管理"
+    },
+    {
+      "term": "運用サービス基準",
+      "categoryId": 7,
+      "category": "サービスマネジメント",
+      "subcategory": "サービスマネジメントシステムの計画及び運用",
+      "item": "変更管理，サービスの設計及び移行，リリース及び展開管理"
+    },
+    {
+      "term": "業務及びシステムの移行",
+      "categoryId": 7,
+      "category": "サービスマネジメント",
+      "subcategory": "サービスマネジメントシステムの計画及び運用",
+      "item": "変更管理，サービスの設計及び移行，リリース及び展開管理"
+    },
+    {
+      "term": "移行計画",
+      "categoryId": 7,
+      "category": "サービスマネジメント",
+      "subcategory": "サービスマネジメントシステムの計画及び運用",
+      "item": "変更管理，サービスの設計及び移行，リリース及び展開管理"
+    },
+    {
+      "term": "移行リハーサル",
+      "categoryId": 7,
+      "category": "サービスマネジメント",
+      "subcategory": "サービスマネジメントシステムの計画及び運用",
+      "item": "変更管理，サービスの設計及び移行，リリース及び展開管理"
+    },
+    {
+      "term": "移行判断",
+      "categoryId": 7,
+      "category": "サービスマネジメント",
+      "subcategory": "サービスマネジメントシステムの計画及び運用",
+      "item": "変更管理，サービスの設計及び移行，リリース及び展開管理"
+    },
+    {
+      "term": "移行の通知",
+      "categoryId": 7,
+      "category": "サービスマネジメント",
+      "subcategory": "サービスマネジメントシステムの計画及び運用",
+      "item": "変更管理，サービスの設計及び移行，リリース及び展開管理"
+    },
+    {
+      "term": "移行評価",
+      "categoryId": 7,
+      "category": "サービスマネジメント",
+      "subcategory": "サービスマネジメントシステムの計画及び運用",
+      "item": "変更管理，サービスの設計及び移行，リリース及び展開管理"
+    },
+    {
+      "term": "運用テスト",
+      "categoryId": 7,
+      "category": "サービスマネジメント",
+      "subcategory": "サービスマネジメントシステムの計画及び運用",
+      "item": "変更管理，サービスの設計及び移行，リリース及び展開管理"
+    },
+    {
+      "term": "受入れテスト",
+      "categoryId": 7,
+      "category": "サービスマネジメント",
+      "subcategory": "サービスマネジメントシステムの計画及び運用",
+      "item": "変更管理，サービスの設計及び移行，リリース及び展開管理"
+    },
+    {
+      "term": "影響",
+      "categoryId": 7,
+      "category": "サービスマネジメント",
+      "subcategory": "サービスマネジメントシステムの計画及び運用",
+      "item": "インシデント管理，サービス要求管理，問題管理"
+    },
+    {
+      "term": "回避策",
+      "categoryId": 7,
+      "category": "サービスマネジメント",
+      "subcategory": "サービスマネジメントシステムの計画及び運用",
+      "item": "インシデント管理，サービス要求管理，問題管理"
+    },
+    {
+      "term": "ヒヤリハット",
+      "categoryId": 7,
+      "category": "サービスマネジメント",
+      "subcategory": "サービスマネジメントシステムの計画及び運用",
+      "item": "インシデント管理，サービス要求管理，問題管理"
+    },
+    {
+      "term": "RTO",
+      "categoryId": 7,
+      "category": "サービスマネジメント",
+      "subcategory": "サービスマネジメントシステムの計画及び運用",
+      "item": "サービス可用性管理，サービス継続管理"
+    },
+    {
+      "term": "RPO",
+      "categoryId": 7,
+      "category": "サービスマネジメント",
+      "subcategory": "サービスマネジメントシステムの計画及び運用",
+      "item": "サービス可用性管理，サービス継続管理"
+    },
+    {
+      "term": "RLO",
+      "categoryId": 7,
+      "category": "サービスマネジメント",
+      "subcategory": "サービスマネジメントシステムの計画及び運用",
+      "item": "サービス可用性管理，サービス継続管理"
+    },
+    {
+      "term": "復旧（障害復旧，災害復旧）",
+      "categoryId": 7,
+      "category": "サービスマネジメント",
+      "subcategory": "サービスマネジメントシステムの計画及び運用",
+      "item": "サービス可用性管理，サービス継続管理"
+    },
+    {
+      "term": "サービス可用性",
+      "categoryId": 7,
+      "category": "サービスマネジメント",
+      "subcategory": "サービスマネジメントシステムの計画及び運用",
+      "item": "サービス可用性管理，サービス継続管理"
+    },
+    {
+      "term": "保守性",
+      "categoryId": 7,
+      "category": "サービスマネジメント",
+      "subcategory": "サービスマネジメントシステムの計画及び運用",
+      "item": "サービス可用性管理，サービス継続管理"
+    },
+    {
+      "term": "パフォーマンス評価",
+      "categoryId": 7,
+      "category": "サービスマネジメント",
+      "subcategory": "パフォーマンス評価及び改善",
+      "item": "パフォーマンス評価"
+    },
+    {
+      "term": "（サービスレベル目標に対する）パフォーマンス",
+      "categoryId": 7,
+      "category": "サービスマネジメント",
+      "subcategory": "パフォーマンス評価及び改善",
+      "item": "パフォーマンス評価"
+    },
+    {
+      "term": "傾向情報",
+      "categoryId": 7,
+      "category": "サービスマネジメント",
+      "subcategory": "パフォーマンス評価及び改善",
+      "item": "パフォーマンス評価"
+    },
+    {
+      "term": "システム運用管理",
+      "categoryId": 7,
+      "category": "サービスマネジメント",
+      "subcategory": "サービスの運用",
+      "item": "サービスの運用"
+    },
+    {
+      "term": "運用オペレーション（システムの監視・操作・状況連絡，作業指示書，操作ログ）",
+      "categoryId": 7,
+      "category": "サービスマネジメント",
+      "subcategory": "サービスの運用",
+      "item": "サービスの運用"
+    },
+    {
+      "term": "ファシリティマネジメント",
+      "categoryId": 7,
+      "category": "サービスマネジメント",
+      "subcategory": "ファシリティマネジメント",
+      "item": "ファシリティマネジメント"
+    },
+    {
+      "term": "施設管理",
+      "categoryId": 7,
+      "category": "サービスマネジメント",
+      "subcategory": "ファシリティマネジメント",
+      "item": "ファシリティマネジメント"
+    },
+    {
+      "term": "設備管理（電気設備・空調設備ほか）",
+      "categoryId": 7,
+      "category": "サービスマネジメント",
+      "subcategory": "ファシリティマネジメント",
+      "item": "ファシリティマネジメント"
+    },
+    {
+      "term": "システム監査の体制整備",
+      "categoryId": 8,
+      "category": "システム監査",
+      "subcategory": "システム監査",
+      "item": "システム監査の目的と手順"
+    },
+    {
+      "term": "監査の能力及び正当な注意と秘密の保持",
+      "categoryId": 8,
+      "category": "システム監査",
+      "subcategory": "システム監査",
+      "item": "システム監査の目的と手順"
+    },
+    {
+      "term": "システム監査の計画・実施（監査証拠の入手と評価ほか）・報告・フォローアップ",
+      "categoryId": 8,
+      "category": "システム監査",
+      "subcategory": "システム監査",
+      "item": "システム監査の目的と手順"
+    },
+    {
+      "term": "情報セキュリティ監査基準",
+      "categoryId": 8,
+      "category": "システム監査",
+      "subcategory": "システム監査",
+      "item": "情報セキュリティ監査"
+    },
+    {
+      "term": "情報セキュリティ管理基準",
+      "categoryId": 8,
+      "category": "システム監査",
+      "subcategory": "システム監査",
+      "item": "情報セキュリティ監査"
+    },
+    {
+      "term": "行動指針",
+      "categoryId": 8,
+      "category": "システム監査",
+      "subcategory": "システム監査",
+      "item": "コンプライアンス監査"
+    },
+    {
+      "term": "倫理",
+      "categoryId": 8,
+      "category": "システム監査",
+      "subcategory": "システム監査",
+      "item": "コンプライアンス監査"
+    },
+    {
+      "term": "透明性",
+      "categoryId": 8,
+      "category": "システム監査",
+      "subcategory": "システム監査",
+      "item": "コンプライアンス監査"
+    },
+    {
+      "term": "権利侵害行為への指摘",
+      "categoryId": 8,
+      "category": "システム監査",
+      "subcategory": "システム監査",
+      "item": "コンプライアンス監査"
+    },
+    {
+      "term": "労働環境における問題点への指摘",
+      "categoryId": 8,
+      "category": "システム監査",
+      "subcategory": "システム監査",
+      "item": "コンプライアンス監査"
+    },
+    {
+      "term": "ITが内部統制に果たす役割",
+      "categoryId": 8,
+      "category": "システム監査",
+      "subcategory": "内部統制",
+      "item": "内部統制"
+    },
+    {
+      "term": "基準・自社内外の行動規範の順守状況の継続的な評価",
+      "categoryId": 8,
+      "category": "システム監査",
+      "subcategory": "内部統制",
+      "item": "法令順守状況の評価・改善"
+    },
+    {
+      "term": "内部統制の整備",
+      "categoryId": 8,
+      "category": "システム監査",
+      "subcategory": "内部統制",
+      "item": "法令順守状況の評価・改善"
+    },
+    {
+      "term": "CSA（Control Self Assessment：統制自己評価）",
+      "categoryId": 8,
+      "category": "システム監査",
+      "subcategory": "内部統制",
+      "item": "法令順守状況の評価・改善"
+    },
+    {
+      "term": "情報システム戦略委員会",
+      "categoryId": 9,
+      "category": "システム戦略",
+      "subcategory": "情報システム戦略",
+      "item": "情報システム戦略の策定"
+    },
+    {
+      "term": "情報システム戦略遂行のための組織体制",
+      "categoryId": 9,
+      "category": "システム戦略",
+      "subcategory": "情報システム戦略",
+      "item": "情報システム戦略の策定"
+    },
+    {
+      "term": "ワークフローシステム",
+      "categoryId": 9,
+      "category": "システム戦略",
+      "subcategory": "業務プロセス",
+      "item": "業務プロセスの改善と問題解決"
+    },
+    {
+      "term": "BPR（Business Process Reengineering）",
+      "categoryId": 9,
+      "category": "システム戦略",
+      "subcategory": "業務プロセス",
+      "item": "業務プロセスの改善と問題解決"
+    },
+    {
+      "term": "プロセス視点",
+      "categoryId": 9,
+      "category": "システム戦略",
+      "subcategory": "業務プロセス",
+      "item": "業務プロセスの改善と問題解決"
+    },
+    {
+      "term": "システム化による業務効率化",
+      "categoryId": 9,
+      "category": "システム戦略",
+      "subcategory": "業務プロセス",
+      "item": "業務プロセスの改善と問題解決"
+    },
+    {
+      "term": "コミュニケーションのためのシステム利用",
+      "categoryId": 9,
+      "category": "システム戦略",
+      "subcategory": "業務プロセス",
+      "item": "業務プロセスの改善と問題解決"
+    },
+    {
+      "term": "業務における電子メールの利用",
+      "categoryId": 9,
+      "category": "システム戦略",
+      "subcategory": "業務プロセス",
+      "item": "業務プロセスの改善と問題解決"
+    },
+    {
+      "term": "RPA（Robotic Process Automation）",
+      "categoryId": 9,
+      "category": "システム戦略",
+      "subcategory": "業務プロセス",
+      "item": "業務プロセスの改善と問題解決"
+    },
+    {
+      "term": "ASP",
+      "categoryId": 9,
+      "category": "システム戦略",
+      "subcategory": "ソリューションビジネス",
+      "item": "ソリューションサービスの種類"
+    },
+    {
+      "term": "デジタルリテラシー",
+      "categoryId": 9,
+      "category": "システム戦略",
+      "subcategory": "システム活用促進・評価",
+      "item": "情報システム活用の促進"
+    },
+    {
+      "term": "デジタル技術の有効活用（IoT，ビッグデータ，AI（生成AIほか）などを含む）",
+      "categoryId": 9,
+      "category": "システム戦略",
+      "subcategory": "システム活用促進・評価",
+      "item": "情報システム活用の促進"
+    },
+    {
+      "term": "BYOD（Bring Your Own Device）",
+      "categoryId": 9,
+      "category": "システム戦略",
+      "subcategory": "システム活用促進・評価",
+      "item": "情報システム活用の促進"
+    },
+    {
+      "term": "チャットボット",
+      "categoryId": 9,
+      "category": "システム戦略",
+      "subcategory": "システム活用促進・評価",
+      "item": "情報システム活用の促進"
+    },
+    {
+      "term": "普及啓発",
+      "categoryId": 9,
+      "category": "システム戦略",
+      "subcategory": "システム活用促進・評価",
+      "item": "情報システム活用の促進"
+    },
+    {
+      "term": "情報システムの投資対効果分析",
+      "categoryId": 9,
+      "category": "システム戦略",
+      "subcategory": "システム活用促進・評価",
+      "item": "情報システム利用実態の評価・検証"
+    },
+    {
+      "term": "システム利用実態の調査及び評価",
+      "categoryId": 9,
+      "category": "システム戦略",
+      "subcategory": "システム活用促進・評価",
+      "item": "情報システム利用実態の評価・検証"
+    },
+    {
+      "term": "業務内容や業務フローの変更の有無の把握",
+      "categoryId": 9,
+      "category": "システム戦略",
+      "subcategory": "システム活用促進・評価",
+      "item": "情報システム利用実態の評価・検証"
+    },
+    {
+      "term": "情報システムの運用状況の把握及び評価",
+      "categoryId": 9,
+      "category": "システム戦略",
+      "subcategory": "システム活用促進・評価",
+      "item": "情報システム利用実態の評価・検証"
+    },
+    {
+      "term": "情報システムの改修",
+      "categoryId": 9,
+      "category": "システム戦略",
+      "subcategory": "システム活用促進・評価",
+      "item": "情報システム利用実態の評価・検証"
+    },
+    {
+      "term": "システムライフサイクル",
+      "categoryId": 9,
+      "category": "システム戦略",
+      "subcategory": "システム活用促進・評価",
+      "item": "情報システム廃棄"
+    },
+    {
+      "term": "データの消去",
+      "categoryId": 9,
+      "category": "システム戦略",
+      "subcategory": "システム活用促進・評価",
+      "item": "情報システム廃棄"
+    },
+    {
+      "term": "情報機器の廃棄",
+      "categoryId": 9,
+      "category": "システム戦略",
+      "subcategory": "システム活用促進・評価",
+      "item": "情報システム廃棄"
+    },
+    {
+      "term": "リスク分析の対象",
+      "categoryId": 10,
+      "category": "システム企画",
+      "subcategory": "システム化計画",
+      "item": "システム化計画の立案における検討項目（情報システム導入リスク分析）"
+    },
+    {
+      "term": "リスクの発生頻度・影響・範囲",
+      "categoryId": 10,
+      "category": "システム企画",
+      "subcategory": "システム化計画",
+      "item": "システム化計画の立案における検討項目（情報システム導入リスク分析）"
+    },
+    {
+      "term": "リスクの種類に応じた損害内容と損害額",
+      "categoryId": 10,
+      "category": "システム企画",
+      "subcategory": "システム化計画",
+      "item": "システム化計画の立案における検討項目（情報システム導入リスク分析）"
+    },
+    {
+      "term": "リスク対応（リスク回避，損失予防，損失軽減，リスク移転，リスク保有など）",
+      "categoryId": 10,
+      "category": "システム企画",
+      "subcategory": "システム化計画",
+      "item": "システム化計画の立案における検討項目（情報システム導入リスク分析）"
+    },
+    {
+      "term": "純収益損失",
+      "categoryId": 10,
+      "category": "システム企画",
+      "subcategory": "システム化計画",
+      "item": "システム化計画の立案における検討項目（情報システム導入リスク分析）"
+    },
+    {
+      "term": "リスク測定",
+      "categoryId": 10,
+      "category": "システム企画",
+      "subcategory": "システム化計画",
+      "item": "システム化計画の立案における検討項目（情報システム導入リスク分析）"
+    },
+    {
+      "term": "要求項目の洗出し",
+      "categoryId": 10,
+      "category": "システム企画",
+      "subcategory": "要件定義",
+      "item": "要求分析"
+    },
+    {
+      "term": "要求項目の分析",
+      "categoryId": 10,
+      "category": "システム企画",
+      "subcategory": "要件定義",
+      "item": "要求分析"
+    },
+    {
+      "term": "要求分析の手順（ユーザーニーズ調査，調査内容の分析，現状分析，課題定義，要求仕様書）",
+      "categoryId": 10,
+      "category": "システム企画",
+      "subcategory": "要件定義",
+      "item": "要求分析"
+    },
+    {
+      "term": "要件定義の目的",
+      "categoryId": 10,
+      "category": "システム企画",
+      "subcategory": "要件定義",
+      "item": "要件定義"
+    },
+    {
+      "term": "要件の定義（業務要件定義，業務処理手順，機能要件定義，非機能要件定義，セキュリティ要件，情報・データ要件）",
+      "categoryId": 10,
+      "category": "システム企画",
+      "subcategory": "要件定義",
+      "item": "要件定義"
+    },
+    {
+      "term": "外部資源の利用（システムインテグレータ，SI事業者，アウトソーシング）",
+      "categoryId": 10,
+      "category": "システム企画",
+      "subcategory": "調達計画・実施",
+      "item": "調達と調達計画"
+    },
+    {
+      "term": "システム資産及びソフトウェア資産の管理（ライセンス管理，構成管理）",
+      "categoryId": 10,
+      "category": "システム企画",
+      "subcategory": "調達計画・実施",
+      "item": "調達と調達計画"
+    },
+    {
+      "term": "調達の代表的な方法",
+      "categoryId": 10,
+      "category": "システム企画",
+      "subcategory": "調達計画・実施",
+      "item": "調達の実施（調達の方法）"
+    },
+    {
+      "term": "RFI（Request For Information：情報提供依頼書）",
+      "categoryId": 10,
+      "category": "システム企画",
+      "subcategory": "調達計画・実施",
+      "item": "調達の実施（調達の方法）"
+    },
+    {
+      "term": "RFP（Request For Proposal：提案依頼書）",
+      "categoryId": 10,
+      "category": "システム企画",
+      "subcategory": "調達計画・実施",
+      "item": "調達の実施（提案依頼書）"
+    },
+    {
+      "term": "RFQ（Request For Quotation：見積依頼書）",
+      "categoryId": 10,
+      "category": "システム企画",
+      "subcategory": "調達計画・実施",
+      "item": "調達の実施（提案依頼書）"
+    },
+    {
+      "term": "対象範囲",
+      "categoryId": 10,
+      "category": "システム企画",
+      "subcategory": "調達計画・実施",
+      "item": "調達の実施（提案依頼書）"
+    },
+    {
+      "term": "システムモデル",
+      "categoryId": 10,
+      "category": "システム企画",
+      "subcategory": "調達計画・実施",
+      "item": "調達の実施（提案依頼書）"
+    },
+    {
+      "term": "サービス要件",
+      "categoryId": 10,
+      "category": "システム企画",
+      "subcategory": "調達計画・実施",
+      "item": "調達の実施（提案依頼書）"
+    },
+    {
+      "term": "目標スケジュール",
+      "categoryId": 10,
+      "category": "システム企画",
+      "subcategory": "調達計画・実施",
+      "item": "調達の実施（提案依頼書）"
+    },
+    {
+      "term": "契約条件",
+      "categoryId": 10,
+      "category": "システム企画",
+      "subcategory": "調達計画・実施",
+      "item": "調達の実施（提案依頼書）"
+    },
+    {
+      "term": "ベンダーの経営要件",
+      "categoryId": 10,
+      "category": "システム企画",
+      "subcategory": "調達計画・実施",
+      "item": "調達の実施（提案依頼書）"
+    },
+    {
+      "term": "ベンダーのプロジェクト体制要件",
+      "categoryId": 10,
+      "category": "システム企画",
+      "subcategory": "調達計画・実施",
+      "item": "調達の実施（提案依頼書）"
+    },
+    {
+      "term": "ベンダーの技術及び実績評価",
+      "categoryId": 10,
+      "category": "システム企画",
+      "subcategory": "調達計画・実施",
+      "item": "調達の実施（提案依頼書）"
+    },
+    {
+      "term": "提案書・見積書",
+      "categoryId": 10,
+      "category": "システム企画",
+      "subcategory": "調達計画・実施",
+      "item": "調達の実施（提案依頼書）"
+    },
+    {
+      "term": "提案評価基準",
+      "categoryId": 10,
+      "category": "システム企画",
+      "subcategory": "調達計画・実施",
+      "item": "調達の実施（調達選定）"
+    },
+    {
+      "term": "要求事項適合度",
+      "categoryId": 10,
+      "category": "システム企画",
+      "subcategory": "調達計画・実施",
+      "item": "調達の実施（調達選定）"
+    },
+    {
+      "term": "費用内訳",
+      "categoryId": 10,
+      "category": "システム企画",
+      "subcategory": "調達計画・実施",
+      "item": "調達の実施（調達選定）"
+    },
+    {
+      "term": "工程別スケジュール",
+      "categoryId": 10,
+      "category": "システム企画",
+      "subcategory": "調達計画・実施",
+      "item": "調達の実施（調達選定）"
+    },
+    {
+      "term": "最終納期",
+      "categoryId": 10,
+      "category": "システム企画",
+      "subcategory": "調達計画・実施",
+      "item": "調達の実施（調達選定）"
+    },
+    {
+      "term": "受入システム",
+      "categoryId": 10,
+      "category": "システム企画",
+      "subcategory": "調達計画・実施",
+      "item": "調達の実施（契約締結）"
+    },
+    {
+      "term": "受入時期",
+      "categoryId": 10,
+      "category": "システム企画",
+      "subcategory": "調達計画・実施",
+      "item": "調達の実施（契約締結）"
+    },
+    {
+      "term": "発注元とベンダー企業の役割分担",
+      "categoryId": 10,
+      "category": "システム企画",
+      "subcategory": "調達計画・実施",
+      "item": "調達の実施（契約締結）"
+    },
+    {
+      "term": "知的財産権利用許諾契約",
+      "categoryId": 10,
+      "category": "システム企画",
+      "subcategory": "調達計画・実施",
+      "item": "調達の実施（契約締結）"
+    },
+    {
+      "term": "eラーニング",
+      "categoryId": 11,
+      "category": "企業活動",
+      "subcategory": "経営・組織論",
+      "item": "経営管理（ヒューマンリソースマネジメント・行動科学）"
+    },
+    {
+      "term": "コミュニケーション",
+      "categoryId": 11,
+      "category": "企業活動",
+      "subcategory": "経営・組織論",
+      "item": "経営管理（ヒューマンリソースマネジメント・行動科学）"
+    },
+    {
+      "term": "Society5.0",
+      "categoryId": 11,
+      "category": "企業活動",
+      "subcategory": "経営・組織論",
+      "item": "社会におけるIT利活用の動向"
+    },
+    {
+      "term": "データ駆動型社会",
+      "categoryId": 11,
+      "category": "企業活動",
+      "subcategory": "経営・組織論",
+      "item": "社会におけるIT利活用の動向"
+    },
+    {
+      "term": "デジタルトランスフォーメーション（DX）",
+      "categoryId": 11,
+      "category": "企業活動",
+      "subcategory": "経営・組織論",
+      "item": "社会におけるIT利活用の動向"
+    },
+    {
+      "term": "サンプリング",
+      "categoryId": 11,
+      "category": "企業活動",
+      "subcategory": "業務分析・データ利活用",
+      "item": "OR・IE（検査手法・品質管理手法，業務分析・業務計画）"
+    },
+    {
+      "term": "デシジョンツリー",
+      "categoryId": 11,
+      "category": "企業活動",
+      "subcategory": "業務分析・データ利活用",
+      "item": "OR・IE（検査手法・品質管理手法，業務分析・業務計画）"
+    },
+    {
+      "term": "データの収集（Webクローリング，スクレイピング）",
+      "categoryId": 11,
+      "category": "企業活動",
+      "subcategory": "業務分析・データ利活用",
+      "item": "データ利活用"
+    },
+    {
+      "term": "データの加工・分析",
+      "categoryId": 11,
+      "category": "企業活動",
+      "subcategory": "業務分析・データ利活用",
+      "item": "データ利活用"
+    },
+    {
+      "term": "データの可視化",
+      "categoryId": 11,
+      "category": "企業活動",
+      "subcategory": "業務分析・データ利活用",
+      "item": "データ利活用"
+    },
+    {
+      "term": "データサイエンス",
+      "categoryId": 11,
+      "category": "企業活動",
+      "subcategory": "業務分析・データ利活用",
+      "item": "データ利活用"
+    },
+    {
+      "term": "精度と偏り",
+      "categoryId": 11,
+      "category": "企業活動",
+      "subcategory": "業務分析・データ利活用",
+      "item": "データ利活用"
+    },
+    {
+      "term": "変動費率",
+      "categoryId": 11,
+      "category": "企業活動",
+      "subcategory": "会計・財務",
+      "item": "企業活動と会計"
+    },
+    {
+      "term": "減価償却",
+      "categoryId": 11,
+      "category": "企業活動",
+      "subcategory": "会計・財務",
+      "item": "企業活動と会計"
+    },
+    {
+      "term": "リース",
+      "categoryId": 11,
+      "category": "企業活動",
+      "subcategory": "会計・財務",
+      "item": "企業活動と会計"
+    },
+    {
+      "term": "レンタル",
+      "categoryId": 11,
+      "category": "企業活動",
+      "subcategory": "会計・財務",
+      "item": "企業活動と会計"
+    },
+    {
+      "term": "資産（純資産，流動資産，固定資産，繰延資産，有形資産，無形資産）",
+      "categoryId": 11,
+      "category": "企業活動",
+      "subcategory": "会計・財務",
+      "item": "財務諸表"
+    },
+    {
+      "term": "負債（流動負債，固定負債）",
+      "categoryId": 11,
+      "category": "企業活動",
+      "subcategory": "会計・財務",
+      "item": "財務諸表"
+    },
+    {
+      "term": "流動比率",
+      "categoryId": 11,
+      "category": "企業活動",
+      "subcategory": "会計・財務",
+      "item": "財務諸表"
+    }
+  ],
+  "modified": [
+    {
+      "old": "サービスデスク（利用者からの問合せ）",
+      "new": "サービスデスク",
+      "oldLocation": {
+        "categoryId": 7,
+        "category": "サービスマネジメント",
+        "subcategory": "サービスの運用",
+        "item": "サービスの運用"
+      },
+      "newLocation": {
+        "categoryId": 4,
+        "category": "サービスマネジメント",
+        "subcategory": "サービスマネジメントの活動",
+        "item": "サービス要求の実現"
+      }
+    },
+    {
+      "old": "問題管理（問題，既知の誤り，根本原因，予防処置，傾向分析）",
+      "new": "問題管理",
+      "oldLocation": {
+        "categoryId": 7,
+        "category": "サービスマネジメント",
+        "subcategory": "サービスマネジメントシステムの計画及び運用",
+        "item": "インシデント管理，サービス要求管理，問題管理"
+      },
+      "newLocation": {
+        "categoryId": 4,
+        "category": "サービスマネジメント",
+        "subcategory": "サービスマネジメントの活動",
+        "item": "サービス要求の実現"
+      }
+    },
+    {
+      "old": "CEO（Chief Executive Officer：最高経営責任者）",
+      "new": "最高経営責任者（CEO）",
+      "oldLocation": {
+        "categoryId": 11,
+        "category": "企業活動",
+        "subcategory": "経営・組織論",
+        "item": "経営管理（経営管理・経営組織）"
+      },
+      "newLocation": {
+        "categoryId": 11,
+        "category": "経営・組織論",
+        "subcategory": "経営管理",
+        "item": "経営管理・経営組織"
+      }
+    },
+    {
+      "old": "CDO（Chief Digital Officer：最高デジタル責任者）",
+      "new": "最高デジタル責任者（CDO）",
+      "oldLocation": {
+        "categoryId": 11,
+        "category": "企業活動",
+        "subcategory": "経営・組織論",
+        "item": "経営管理（経営管理・経営組織）"
+      },
+      "newLocation": {
+        "categoryId": 11,
+        "category": "経営・組織論",
+        "subcategory": "経営管理",
+        "item": "経営管理・経営組織"
+      }
+    },
+    {
+      "old": "CISO（Chief Information Security Officer：最高情報セキュリティ責任者）",
+      "new": "最高情報セキュリティ責任者（CISO）",
+      "oldLocation": {
+        "categoryId": 11,
+        "category": "企業活動",
+        "subcategory": "経営・組織論",
+        "item": "経営管理（経営管理・経営組織）"
+      },
+      "newLocation": {
+        "categoryId": 11,
+        "category": "経営・組織論",
+        "subcategory": "経営管理",
+        "item": "経営管理・経営組織"
+      }
+    },
+    {
+      "old": "CIO（Chief Information Officer：最高情報責任者）",
+      "new": "最高情報責任者（CIO）",
+      "oldLocation": {
+        "categoryId": 11,
+        "category": "企業活動",
+        "subcategory": "経営・組織論",
+        "item": "経営管理（経営管理・経営組織）"
+      },
+      "newLocation": {
+        "categoryId": 11,
+        "category": "経営・組織論",
+        "subcategory": "経営管理",
+        "item": "経営管理・経営組織"
+      }
+    },
+    {
+      "old": "BCP（Business Continuity Plan：事業継続計画）",
+      "new": "事業継続計画（BCP）",
+      "oldLocation": {
+        "categoryId": 11,
+        "category": "企業活動",
+        "subcategory": "経営・組織論",
+        "item": "経営管理（リスクマネジメント）"
+      },
+      "newLocation": {
+        "categoryId": 11,
+        "category": "経営・組織論",
+        "subcategory": "経営管理",
+        "item": "事業継続計画"
+      }
+    },
+    {
+      "old": "BCM（Business Continuity Management：事業継続マネジメント）",
+      "new": "事業継続マネジメント（BCM）",
+      "oldLocation": {
+        "categoryId": 11,
+        "category": "企業活動",
+        "subcategory": "経営・組織論",
+        "item": "経営管理（リスクマネジメント）"
+      },
+      "newLocation": {
+        "categoryId": 11,
+        "category": "経営・組織論",
+        "subcategory": "経営管理",
+        "item": "事業継続計画"
+      }
+    },
+    {
+      "old": "内部統制の限界",
+      "new": "内部統制の限界（合理的保証・デジタル／AIリスク考慮）",
+      "oldLocation": {
+        "categoryId": 8,
+        "category": "システム監査",
+        "subcategory": "内部統制",
+        "item": "内部統制"
+      },
+      "newLocation": {
+        "categoryId": 12,
+        "category": "ガバナンス・監査",
+        "subcategory": "内部統制・デジタルガバナンス",
+        "item": "内部統制・デジタルガバナンス"
+      }
+    },
+    {
+      "old": "クラウドサービス",
+      "new": "クラウドサービス（SaaS，PaaS，IaaSなど）",
+      "oldLocation": {
+        "categoryId": 9,
+        "category": "システム戦略",
+        "subcategory": "ソリューションビジネス",
+        "item": "ソリューションサービスの種類"
+      },
+      "newLocation": {
+        "categoryId": 15,
+        "category": "クラウド",
+        "subcategory": "クラウドサービス",
+        "item": "クラウドサービスの特徴"
+      }
+    },
+    {
+      "old": "仮想化",
+      "new": "仮想化（ホスト型，ハイパーバイザー型，コンテナ型）",
+      "oldLocation": {
+        "categoryId": 3,
+        "category": "システム構成要素",
+        "subcategory": "システムの構成",
+        "item": "システム構成"
+      },
+      "newLocation": {
+        "categoryId": 15,
+        "category": "クラウド",
+        "subcategory": "基盤技術",
+        "item": "クラウド・仮想化基盤技術"
+      }
+    },
+    {
+      "old": "LAN（有線LAN，無線LAN，SSID）",
+      "new": "LAN",
+      "oldLocation": {
+        "categoryId": 5,
+        "category": "ネットワーク",
+        "subcategory": "ネットワーク方式",
+        "item": "ネットワークの種類と特徴"
+      },
+      "newLocation": {
+        "categoryId": 16,
+        "category": "ネットワーク",
+        "subcategory": "ネットワーク方式",
+        "item": "ネットワークの種類と特徴"
+      }
+    },
+    {
+      "old": "HTMLメール（MHTML）",
+      "new": "HTMLメール",
+      "oldLocation": {
+        "categoryId": 5,
+        "category": "ネットワーク",
+        "subcategory": "ネットワーク応用",
+        "item": "インターネット（電子メール）"
+      },
+      "newLocation": {
+        "categoryId": 16,
+        "category": "ネットワーク",
+        "subcategory": "ネットワーク応用",
+        "item": "インターネットサービスの種類と特徴"
+      }
+    },
+    {
+      "old": "ボット（ボットネット，遠隔操作型ウイルス（RAT：Remote Access Trojan），C&Cサーバ）",
+      "new": "ボット",
+      "oldLocation": {
+        "categoryId": 1,
+        "category": "セキュリティ",
+        "subcategory": "情報セキュリティ",
+        "item": "脅威"
+      },
+      "newLocation": {
+        "categoryId": 23,
+        "category": "情報セキュリティの脅威",
+        "subcategory": "脅威と脆弱性",
+        "item": "マルウェア・不正プログラム"
+      }
+    },
+    {
+      "old": "不正のトライアングル（機会，動機，正当化）",
+      "new": "不正のトライアングル",
+      "oldLocation": {
+        "categoryId": 1,
+        "category": "セキュリティ",
+        "subcategory": "情報セキュリティ",
+        "item": "不正のメカニズム"
+      },
+      "newLocation": {
+        "categoryId": 23,
+        "category": "情報セキュリティの脅威",
+        "subcategory": "脅威と脆弱性",
+        "item": "不正の動機・メカニズム"
+      }
+    },
+    {
+      "old": "総当たり（ブルートフォース）攻撃",
+      "new": "総当たり攻撃（ブルートフォース攻撃）",
+      "oldLocation": {
+        "categoryId": 1,
+        "category": "セキュリティ",
+        "subcategory": "情報セキュリティ",
+        "item": "サイバー攻撃手法"
+      },
+      "newLocation": {
+        "categoryId": 23,
+        "category": "情報セキュリティの脅威",
+        "subcategory": "攻撃手法",
+        "item": "資格情報・セッション管理の不備を狙った攻撃"
+      }
+    },
+    {
+      "old": "クロスサイトリクエストフォージェリ",
+      "new": "クロスサイトリクエストフォージェリ（CSRF）",
+      "oldLocation": {
+        "categoryId": 1,
+        "category": "セキュリティ",
+        "subcategory": "情報セキュリティ",
+        "item": "サイバー攻撃手法"
+      },
+      "newLocation": {
+        "categoryId": 23,
+        "category": "情報セキュリティの脅威",
+        "subcategory": "攻撃手法",
+        "item": "アプリケーションの不備を狙った攻撃"
+      }
+    },
+    {
+      "old": "フィッシング（スミッシングほか）",
+      "new": "フィッシング",
+      "oldLocation": {
+        "categoryId": 1,
+        "category": "セキュリティ",
+        "subcategory": "情報セキュリティ",
+        "item": "サイバー攻撃手法"
+      },
+      "newLocation": {
+        "categoryId": 23,
+        "category": "情報セキュリティの脅威",
+        "subcategory": "攻撃手法",
+        "item": "信頼を悪用した攻撃"
+      }
+    },
+    {
+      "old": "標的型攻撃（APT（Advanced Persistent Threats），水飲み場型攻撃ほか）",
+      "new": "標的型攻撃",
+      "oldLocation": {
+        "categoryId": 1,
+        "category": "セキュリティ",
+        "subcategory": "情報セキュリティ",
+        "item": "サイバー攻撃手法"
+      },
+      "newLocation": {
+        "categoryId": 23,
+        "category": "情報セキュリティの脅威",
+        "subcategory": "攻撃手法",
+        "item": "信頼を悪用した攻撃"
+      }
+    },
+    {
+      "old": "プロンプトインジェクション",
+      "new": "プロンプトインジェクション（直接，間接）",
+      "oldLocation": {
+        "categoryId": 1,
+        "category": "セキュリティ",
+        "subcategory": "情報セキュリティ",
+        "item": "サイバー攻撃手法"
+      },
+      "newLocation": {
+        "categoryId": 23,
+        "category": "情報セキュリティの脅威",
+        "subcategory": "攻撃手法",
+        "item": "AIシステムに対する攻撃"
+      }
+    },
+    {
+      "old": "機密性（Confidentiality）",
+      "new": "機密性",
+      "oldLocation": {
+        "categoryId": 1,
+        "category": "セキュリティ",
+        "subcategory": "情報セキュリティ",
+        "item": "情報セキュリティの目的と考え方"
+      },
+      "newLocation": {
+        "categoryId": 24,
+        "category": "情報セキュリティマネジメント",
+        "subcategory": "情報セキュリティの考え方",
+        "item": "情報セキュリティの考え方"
+      }
+    },
+    {
+      "old": "完全性（Integrity）",
+      "new": "完全性",
+      "oldLocation": {
+        "categoryId": 1,
+        "category": "セキュリティ",
+        "subcategory": "情報セキュリティ",
+        "item": "情報セキュリティの目的と考え方"
+      },
+      "newLocation": {
+        "categoryId": 24,
+        "category": "情報セキュリティマネジメント",
+        "subcategory": "情報セキュリティの考え方",
+        "item": "情報セキュリティの考え方"
+      }
+    },
+    {
+      "old": "可用性（Availability）",
+      "new": "可用性",
+      "oldLocation": {
+        "categoryId": 1,
+        "category": "セキュリティ",
+        "subcategory": "情報セキュリティ",
+        "item": "情報セキュリティの目的と考え方"
+      },
+      "newLocation": {
+        "categoryId": 24,
+        "category": "情報セキュリティマネジメント",
+        "subcategory": "情報セキュリティの考え方",
+        "item": "情報セキュリティの考え方"
+      }
+    },
+    {
+      "old": "真正性（Authenticity）",
+      "new": "真正性",
+      "oldLocation": {
+        "categoryId": 1,
+        "category": "セキュリティ",
+        "subcategory": "情報セキュリティ",
+        "item": "情報セキュリティの目的と考え方"
+      },
+      "newLocation": {
+        "categoryId": 24,
+        "category": "情報セキュリティマネジメント",
+        "subcategory": "情報セキュリティの考え方",
+        "item": "情報セキュリティの考え方"
+      }
+    },
+    {
+      "old": "責任追跡性（Accountability）",
+      "new": "責任追跡性",
+      "oldLocation": {
+        "categoryId": 1,
+        "category": "セキュリティ",
+        "subcategory": "情報セキュリティ",
+        "item": "情報セキュリティの目的と考え方"
+      },
+      "newLocation": {
+        "categoryId": 24,
+        "category": "情報セキュリティマネジメント",
+        "subcategory": "情報セキュリティの考え方",
+        "item": "情報セキュリティの考え方"
+      }
+    },
+    {
+      "old": "否認防止（Non-Repudiation）",
+      "new": "否認防止",
+      "oldLocation": {
+        "categoryId": 1,
+        "category": "セキュリティ",
+        "subcategory": "情報セキュリティ",
+        "item": "情報セキュリティの目的と考え方"
+      },
+      "newLocation": {
+        "categoryId": 24,
+        "category": "情報セキュリティマネジメント",
+        "subcategory": "情報セキュリティの考え方",
+        "item": "情報セキュリティの考え方"
+      }
+    },
+    {
+      "old": "多層防御",
+      "new": "多層防御（Defense in Depth）",
+      "oldLocation": {
+        "categoryId": 1,
+        "category": "セキュリティ",
+        "subcategory": "情報セキュリティ",
+        "item": "情報セキュリティの目的と考え方"
+      },
+      "newLocation": {
+        "categoryId": 24,
+        "category": "情報セキュリティマネジメント",
+        "subcategory": "情報セキュリティの考え方",
+        "item": "情報セキュリティの考え方"
+      }
+    },
+    {
+      "old": "セキュリティバイデザイン（セキュアバイデザイン）",
+      "new": "セキュリティバイデザイン",
+      "oldLocation": {
+        "categoryId": 1,
+        "category": "セキュリティ",
+        "subcategory": "情報セキュリティ",
+        "item": "情報セキュリティの目的と考え方"
+      },
+      "newLocation": {
+        "categoryId": 24,
+        "category": "情報セキュリティマネジメント",
+        "subcategory": "情報セキュリティの考え方",
+        "item": "情報セキュリティの考え方"
+      }
+    },
+    {
+      "old": "利用者アクセス権の管理（need-to-know（最小権限）の原則ほか）",
+      "new": "利用者アクセス権の管理（need-to-knowの原則など）",
+      "oldLocation": {
+        "categoryId": 1,
+        "category": "セキュリティ",
+        "subcategory": "情報セキュリティ管理",
+        "item": "情報セキュリティ管理"
+      },
+      "newLocation": {
+        "categoryId": 24,
+        "category": "情報セキュリティマネジメント",
+        "subcategory": "情報セキュリティの考え方",
+        "item": "情報セキュリティマネジメントの考え方"
+      }
+    },
+    {
+      "old": "情報セキュリティ方針",
+      "new": "情報セキュリティ方針（情報セキュリティポリシー）",
+      "oldLocation": {
+        "categoryId": 1,
+        "category": "セキュリティ",
+        "subcategory": "情報セキュリティ管理",
+        "item": "情報セキュリティ諸規程（情報セキュリティポリシーを含む組織内規程）"
+      },
+      "newLocation": {
+        "categoryId": 24,
+        "category": "情報セキュリティマネジメント",
+        "subcategory": "情報セキュリティ諸規程",
+        "item": "情報セキュリティポリシーを含む組織内規程"
+      }
+    },
+    {
+      "old": "情報セキュリティインシデント対応規程（マルウェア感染時の対応ほか）",
+      "new": "情報セキュリティインシデント対応規程",
+      "oldLocation": {
+        "categoryId": 1,
+        "category": "セキュリティ",
+        "subcategory": "情報セキュリティ管理",
+        "item": "情報セキュリティ諸規程（情報セキュリティポリシーを含む組織内規程）"
+      },
+      "newLocation": {
+        "categoryId": 24,
+        "category": "情報セキュリティマネジメント",
+        "subcategory": "情報セキュリティ諸規程",
+        "item": "情報セキュリティポリシーを含む組織内規程"
+      }
+    },
+    {
+      "old": "サイバーセキュリティ概念（識別，防御，検知，対応，復旧）",
+      "new": "サイバーセキュリティ概念（識別，防御）",
+      "oldLocation": {
+        "categoryId": 1,
+        "category": "セキュリティ",
+        "subcategory": "情報セキュリティ管理",
+        "item": "情報セキュリティマネジメントシステム（ISMS）"
+      },
+      "newLocation": {
+        "categoryId": 24,
+        "category": "情報セキュリティマネジメント",
+        "subcategory": "情報セキュリティマネジメントシステム",
+        "item": "情報セキュリティマネジメントシステム"
+      }
+    },
+    {
+      "old": "インシデントハンドリング（検知／連絡受付，トリアージ，インシデントレスポンス（対応），報告／情報公開）",
+      "new": "インシデントハンドリング",
+      "oldLocation": {
+        "categoryId": 1,
+        "category": "セキュリティ",
+        "subcategory": "情報セキュリティ管理",
+        "item": "情報セキュリティ管理におけるインシデント管理"
+      },
+      "newLocation": {
+        "categoryId": 25,
+        "category": "情報セキュリティ対策",
+        "subcategory": "組織的管理策に関する技術・手法",
+        "item": "インシデント管理"
+      }
+    },
+    {
+      "old": "情報セキュリティ訓練（標的型メールに関する訓練，レッドチーム演習ほか）",
+      "new": "情報セキュリティ訓練（標的型メールに関する訓練，机上演習など）",
+      "oldLocation": {
+        "categoryId": 1,
+        "category": "セキュリティ",
+        "subcategory": "情報セキュリティ対策",
+        "item": "人的セキュリティ対策"
+      },
+      "newLocation": {
+        "categoryId": 25,
+        "category": "情報セキュリティ対策",
+        "subcategory": "人的管理策に関する技術・手法",
+        "item": "人的管理"
+      }
+    },
+    {
+      "old": "多要素認証（記憶，所有，生体）",
+      "new": "多要素認証",
+      "oldLocation": {
+        "categoryId": 1,
+        "category": "セキュリティ",
+        "subcategory": "情報セキュリティ",
+        "item": "情報セキュリティ技術（利用者認証）"
+      },
+      "newLocation": {
+        "categoryId": 25,
+        "category": "情報セキュリティ対策",
+        "subcategory": "技術的管理策に関する技術・手法（情報アクセスの管理）",
+        "item": "利用者の認証・認可・ID連携"
+      }
+    },
+    {
+      "old": "eKYC（electronic Know Your Customer）",
+      "new": "eKYC",
+      "oldLocation": {
+        "categoryId": 1,
+        "category": "セキュリティ",
+        "subcategory": "情報セキュリティ",
+        "item": "情報セキュリティ技術（利用者認証）"
+      },
+      "newLocation": {
+        "categoryId": 25,
+        "category": "情報セキュリティ対策",
+        "subcategory": "技術的管理策に関する技術・手法（情報アクセスの管理）",
+        "item": "利用者の認証・認可・ID連携"
+      }
+    },
+    {
+      "old": "身体的特徴（静脈パターン認証，虹彩認証，顔認証，網膜認証ほか）",
+      "new": "身体的特徴（静脈パターン認証，虹彩認証，顔認証など）",
+      "oldLocation": {
+        "categoryId": 1,
+        "category": "セキュリティ",
+        "subcategory": "情報セキュリティ",
+        "item": "情報セキュリティ技術（生体認証技術）"
+      },
+      "newLocation": {
+        "categoryId": 25,
+        "category": "情報セキュリティ対策",
+        "subcategory": "技術的管理策に関する技術・手法（情報アクセスの管理）",
+        "item": "生体認証"
+      }
+    },
+    {
+      "old": "行動的特徴（声紋認証，署名認証ほか）",
+      "new": "行動的特徴",
+      "oldLocation": {
+        "categoryId": 1,
+        "category": "セキュリティ",
+        "subcategory": "情報セキュリティ",
+        "item": "情報セキュリティ技術（生体認証技術）"
+      },
+      "newLocation": {
+        "categoryId": 25,
+        "category": "情報セキュリティ対策",
+        "subcategory": "技術的管理策に関する技術・手法（情報アクセスの管理）",
+        "item": "生体認証"
+      }
+    },
+    {
+      "old": "マルウェア検出手法（パターンマッチング法，ビヘイビア法（振る舞い検知），ヒューリスティック法，未知マルウェア検出手法ほか）",
+      "new": "マルウェア検出手法（パターンマッチング法，ビヘイビア法（振る舞い検知），ヒューリスティック法）",
+      "oldLocation": {
+        "categoryId": 1,
+        "category": "セキュリティ",
+        "subcategory": "情報セキュリティ対策",
+        "item": "技術的セキュリティ対策"
+      },
+      "newLocation": {
+        "categoryId": 25,
+        "category": "情報セキュリティ対策",
+        "subcategory": "技術的管理策に関する技術・手法（情報資産運用に関する管理）",
+        "item": "マルウェアに対する保護"
+      }
+    },
+    {
+      "old": "脆弱性管理（OSアップデート，脆弱性修正プログラム（セキュリティパッチ）の適用，SBOM（Software Bill of Materials）を利用した脆弱性管理ほか）",
+      "new": "脆弱性管理（OSアップデート，脆弱性修正プログラム（セキュリティパッチ）の適用）",
+      "oldLocation": {
+        "categoryId": 1,
+        "category": "セキュリティ",
+        "subcategory": "情報セキュリティ対策",
+        "item": "技術的セキュリティ対策"
+      },
+      "newLocation": {
+        "categoryId": 25,
+        "category": "情報セキュリティ対策",
+        "subcategory": "技術的管理策に関する技術・手法（情報資産運用に関する管理）",
+        "item": "脆弱性管理・データ保護"
+      }
+    },
+    {
+      "old": "許可リスト（パスリスト）",
+      "new": "許可リスト（アローリスト／パスリスト）",
+      "oldLocation": {
+        "categoryId": 1,
+        "category": "セキュリティ",
+        "subcategory": "情報セキュリティ対策",
+        "item": "技術的セキュリティ対策"
+      },
+      "newLocation": {
+        "categoryId": 25,
+        "category": "情報セキュリティ対策",
+        "subcategory": "技術的管理策に関する技術・手法（情報システムの適正利用の管理）",
+        "item": "ネットワークセキュリティの製品・サービス"
+      }
+    },
+    {
+      "old": "CVSS（Common Vulnerability Scoring System：共通脆弱性評価システム）",
+      "new": "共通脆弱性評価システム（CVSS）",
+      "oldLocation": {
+        "categoryId": 1,
+        "category": "セキュリティ",
+        "subcategory": "セキュリティ技術評価",
+        "item": "セキュリティ評価"
+      },
+      "newLocation": {
+        "categoryId": 26,
+        "category": "セキュリティ実装技術・評価",
+        "subcategory": "セキュリティ評価",
+        "item": "脆弱性評価"
+      }
+    },
+    {
+      "old": "著作権法（著作権，権利侵害，保護対象）",
+      "new": "著作権法",
+      "oldLocation": {
+        "categoryId": 2,
+        "category": "法務",
+        "subcategory": "知的財産権",
+        "item": "知的財産権"
+      },
+      "newLocation": {
+        "categoryId": 28,
+        "category": "ビジネス関連法規",
+        "subcategory": "知的財産権",
+        "item": "著作権法"
+      }
+    },
+    {
+      "old": "守秘契約",
+      "new": "守秘契約（NDA）",
+      "oldLocation": {
+        "categoryId": 2,
+        "category": "法務",
+        "subcategory": "労働関連・取引関連法規",
+        "item": "企業間の取引に関わる契約"
+      },
+      "newLocation": {
+        "categoryId": 28,
+        "category": "ビジネス関連法規",
+        "subcategory": "取引関連法規",
+        "item": "企業間の取引に関わる契約"
+      }
+    },
+    {
+      "old": "ソフトウェア使用許諾契約（ボリュームライセンス契約，コピーレフト（Copyleft））",
+      "new": "ソフトウェア使用許諾契約（ライセンス契約）",
+      "oldLocation": {
+        "categoryId": 2,
+        "category": "法務",
+        "subcategory": "労働関連・取引関連法規",
+        "item": "企業間の取引に関わる契約"
+      },
+      "newLocation": {
+        "categoryId": 28,
+        "category": "ビジネス関連法規",
+        "subcategory": "取引関連法規",
+        "item": "企業間の取引に関わる契約"
+      }
+    },
+    {
+      "old": "ソフトウェア開発契約（ソフトウェア開発委託モデル契約，情報システム・モデル取引・契約書）",
+      "new": "ソフトウェア開発契約",
+      "oldLocation": {
+        "categoryId": 2,
+        "category": "法務",
+        "subcategory": "労働関連・取引関連法規",
+        "item": "企業間の取引に関わる契約"
+      },
+      "newLocation": {
+        "categoryId": 28,
+        "category": "ビジネス関連法規",
+        "subcategory": "取引関連法規",
+        "item": "企業間の取引に関わる契約"
+      }
+    }
+  ],
+  "splitOut": [
+    {
+      "term": "SLA",
+      "wasInside": "サービスレベル合意書（SLA）",
+      "oldLocation": {
+        "categoryId": 7,
+        "category": "サービスマネジメント",
+        "subcategory": "サービスマネジメント",
+        "item": "SLA"
+      },
+      "newLocation": {
+        "categoryId": 4,
+        "category": "サービスマネジメント",
+        "subcategory": "サービスマネジメント",
+        "item": "サービスマネジメントの目的と考え方"
+      }
+    },
+    {
+      "term": "既知の誤り",
+      "wasInside": "問題管理（問題，既知の誤り，根本原因，予防処置，傾向分析）",
+      "oldLocation": {
+        "categoryId": 7,
+        "category": "サービスマネジメント",
+        "subcategory": "サービスマネジメントシステムの計画及び運用",
+        "item": "インシデント管理，サービス要求管理，問題管理"
+      },
+      "newLocation": {
+        "categoryId": 4,
+        "category": "サービスマネジメント",
+        "subcategory": "サービスマネジメントの活動",
+        "item": "サービス要求の実現"
+      }
+    },
+    {
+      "term": "傾向分析",
+      "wasInside": "問題管理（問題，既知の誤り，根本原因，予防処置，傾向分析）",
+      "oldLocation": {
+        "categoryId": 7,
+        "category": "サービスマネジメント",
+        "subcategory": "サービスマネジメントシステムの計画及び運用",
+        "item": "インシデント管理，サービス要求管理，問題管理"
+      },
+      "newLocation": {
+        "categoryId": 4,
+        "category": "サービスマネジメント",
+        "subcategory": "サービスマネジメントの活動",
+        "item": "サービス要求の実現"
+      }
+    },
+    {
+      "term": "根本原因",
+      "wasInside": "問題管理（問題，既知の誤り，根本原因，予防処置，傾向分析）",
+      "oldLocation": {
+        "categoryId": 7,
+        "category": "サービスマネジメント",
+        "subcategory": "サービスマネジメントシステムの計画及び運用",
+        "item": "インシデント管理，サービス要求管理，問題管理"
+      },
+      "newLocation": {
+        "categoryId": 4,
+        "category": "サービスマネジメント",
+        "subcategory": "サービスマネジメントの活動",
+        "item": "サービス要求の実現"
+      }
+    },
+    {
+      "term": "予防処置",
+      "wasInside": "問題管理（問題，既知の誤り，根本原因，予防処置，傾向分析）",
+      "oldLocation": {
+        "categoryId": 7,
+        "category": "サービスマネジメント",
+        "subcategory": "サービスマネジメントシステムの計画及び運用",
+        "item": "インシデント管理，サービス要求管理，問題管理"
+      },
+      "newLocation": {
+        "categoryId": 4,
+        "category": "サービスマネジメント",
+        "subcategory": "サービスマネジメントの活動",
+        "item": "サービス要求の実現"
+      }
+    },
+    {
+      "term": "スクレイピング",
+      "wasInside": "データの収集（Webクローリング，スクレイピング）",
+      "oldLocation": {
+        "categoryId": 11,
+        "category": "企業活動",
+        "subcategory": "業務分析・データ利活用",
+        "item": "データ利活用"
+      },
+      "newLocation": {
+        "categoryId": 9,
+        "category": "データ分析・データ利活用",
+        "subcategory": "データ分析・データ利活用",
+        "item": "データの加工・分析"
+      }
+    },
+    {
+      "term": "流動資産",
+      "wasInside": "資産（純資産，流動資産，固定資産，繰延資産，有形資産，無形資産）",
+      "oldLocation": {
+        "categoryId": 11,
+        "category": "企業活動",
+        "subcategory": "会計・財務",
+        "item": "財務諸表"
+      },
+      "newLocation": {
+        "categoryId": 11,
+        "category": "経営・組織論",
+        "subcategory": "会計・財務",
+        "item": "財務諸表"
+      }
+    },
+    {
+      "term": "固定資産",
+      "wasInside": "資産（純資産，流動資産，固定資産，繰延資産，有形資産，無形資産）",
+      "oldLocation": {
+        "categoryId": 11,
+        "category": "企業活動",
+        "subcategory": "会計・財務",
+        "item": "財務諸表"
+      },
+      "newLocation": {
+        "categoryId": 11,
+        "category": "経営・組織論",
+        "subcategory": "会計・財務",
+        "item": "財務諸表"
+      }
+    },
+    {
+      "term": "繰延資産",
+      "wasInside": "資産（純資産，流動資産，固定資産，繰延資産，有形資産，無形資産）",
+      "oldLocation": {
+        "categoryId": 11,
+        "category": "企業活動",
+        "subcategory": "会計・財務",
+        "item": "財務諸表"
+      },
+      "newLocation": {
+        "categoryId": 11,
+        "category": "経営・組織論",
+        "subcategory": "会計・財務",
+        "item": "財務諸表"
+      }
+    },
+    {
+      "term": "流動負債",
+      "wasInside": "負債（流動負債，固定負債）",
+      "oldLocation": {
+        "categoryId": 11,
+        "category": "企業活動",
+        "subcategory": "会計・財務",
+        "item": "財務諸表"
+      },
+      "newLocation": {
+        "categoryId": 11,
+        "category": "経営・組織論",
+        "subcategory": "会計・財務",
+        "item": "財務諸表"
+      }
+    },
+    {
+      "term": "固定負債",
+      "wasInside": "負債（流動負債，固定負債）",
+      "oldLocation": {
+        "categoryId": 11,
+        "category": "企業活動",
+        "subcategory": "会計・財務",
+        "item": "財務諸表"
+      },
+      "newLocation": {
+        "categoryId": 11,
+        "category": "経営・組織論",
+        "subcategory": "会計・財務",
+        "item": "財務諸表"
+      }
+    },
+    {
+      "term": "純資産",
+      "wasInside": "資産（純資産，流動資産，固定資産，繰延資産，有形資産，無形資産）",
+      "oldLocation": {
+        "categoryId": 11,
+        "category": "企業活動",
+        "subcategory": "会計・財務",
+        "item": "財務諸表"
+      },
+      "newLocation": {
+        "categoryId": 11,
+        "category": "経営・組織論",
+        "subcategory": "会計・財務",
+        "item": "財務諸表"
+      }
+    },
+    {
+      "term": "内部監査",
+      "wasInside": "パフォーマンス評価（内部監査，マネジメントレビューほか）",
+      "oldLocation": {
+        "categoryId": 1,
+        "category": "セキュリティ",
+        "subcategory": "情報セキュリティ管理",
+        "item": "情報セキュリティマネジメントシステム（ISMS）"
+      },
+      "newLocation": {
+        "categoryId": 12,
+        "category": "ガバナンス・監査",
+        "subcategory": "監査",
+        "item": "情報システムに関係する監査"
+      }
+    },
+    {
+      "term": "有線LAN",
+      "wasInside": "LAN（有線LAN，無線LAN，SSID）",
+      "oldLocation": {
+        "categoryId": 5,
+        "category": "ネットワーク",
+        "subcategory": "ネットワーク方式",
+        "item": "ネットワークの種類と特徴"
+      },
+      "newLocation": {
+        "categoryId": 16,
+        "category": "ネットワーク",
+        "subcategory": "ネットワーク方式",
+        "item": "ネットワークの種類と特徴"
+      }
+    },
+    {
+      "term": "無線LAN（無線LANアクセスポイント，SSIDなど）",
+      "wasInside": "LAN（有線LAN，無線LAN，SSID）",
+      "oldLocation": {
+        "categoryId": 5,
+        "category": "ネットワーク",
+        "subcategory": "ネットワーク方式",
+        "item": "ネットワークの種類と特徴"
+      },
+      "newLocation": {
+        "categoryId": 16,
+        "category": "ネットワーク",
+        "subcategory": "ネットワーク方式",
+        "item": "ネットワークの種類と特徴"
+      }
+    },
+    {
+      "term": "LTE",
+      "wasInside": "移動体通信規格（LTE，5G（第5世代移動通信システム）など）",
+      "oldLocation": {
+        "categoryId": 5,
+        "category": "ネットワーク",
+        "subcategory": "ネットワーク応用",
+        "item": "通信サービス"
+      },
+      "newLocation": {
+        "categoryId": 16,
+        "category": "ネットワーク",
+        "subcategory": "ネットワーク応用",
+        "item": "モバイル通信・IoT通信の特徴"
+      }
+    },
+    {
+      "term": "5G（第5世代移動通信システム）",
+      "wasInside": "移動体通信規格（LTE，5G（第5世代移動通信システム）など）",
+      "oldLocation": {
+        "categoryId": 5,
+        "category": "ネットワーク",
+        "subcategory": "ネットワーク応用",
+        "item": "通信サービス"
+      },
+      "newLocation": {
+        "categoryId": 16,
+        "category": "ネットワーク",
+        "subcategory": "ネットワーク応用",
+        "item": "モバイル通信・IoT通信の特徴"
+      }
+    },
+    {
+      "term": "ボットネット",
+      "wasInside": "ボット（ボットネット，遠隔操作型ウイルス（RAT：Remote Access Trojan），C&Cサーバ）",
+      "oldLocation": {
+        "categoryId": 1,
+        "category": "セキュリティ",
+        "subcategory": "情報セキュリティ",
+        "item": "脅威"
+      },
+      "newLocation": {
+        "categoryId": 23,
+        "category": "情報セキュリティの脅威",
+        "subcategory": "脅威と脆弱性",
+        "item": "マルウェア・不正プログラム"
+      }
+    },
+    {
+      "term": "クレデンシャルスタッフィング",
+      "wasInside": "パスワードリスト攻撃（クレデンシャルスタッフィング）",
+      "oldLocation": {
+        "categoryId": 1,
+        "category": "セキュリティ",
+        "subcategory": "情報セキュリティ",
+        "item": "サイバー攻撃手法"
+      },
+      "newLocation": {
+        "categoryId": 23,
+        "category": "情報セキュリティの脅威",
+        "subcategory": "攻撃手法",
+        "item": "資格情報・セッション管理の不備を狙った攻撃"
+      }
+    },
+    {
+      "term": "水飲み場型攻撃",
+      "wasInside": "標的型攻撃（APT（Advanced Persistent Threats），水飲み場型攻撃ほか）",
+      "oldLocation": {
+        "categoryId": 1,
+        "category": "セキュリティ",
+        "subcategory": "情報セキュリティ",
+        "item": "サイバー攻撃手法"
+      },
+      "newLocation": {
+        "categoryId": 23,
+        "category": "情報セキュリティの脅威",
+        "subcategory": "攻撃手法",
+        "item": "信頼を悪用した攻撃"
+      }
+    },
+    {
+      "term": "マルウェア感染時の対応",
+      "wasInside": "情報セキュリティインシデント対応規程（マルウェア感染時の対応ほか）",
+      "oldLocation": {
+        "categoryId": 1,
+        "category": "セキュリティ",
+        "subcategory": "情報セキュリティ管理",
+        "item": "情報セキュリティ諸規程（情報セキュリティポリシーを含む組織内規程）"
+      },
+      "newLocation": {
+        "categoryId": 24,
+        "category": "情報セキュリティマネジメント",
+        "subcategory": "情報セキュリティ諸規程",
+        "item": "情報セキュリティポリシーを含む組織内規程"
+      }
+    },
+    {
+      "term": "トリアージ",
+      "wasInside": "インシデントハンドリング（検知／連絡受付，トリアージ，インシデントレスポンス（対応），報告／情報公開）",
+      "oldLocation": {
+        "categoryId": 1,
+        "category": "セキュリティ",
+        "subcategory": "情報セキュリティ管理",
+        "item": "情報セキュリティ管理におけるインシデント管理"
+      },
+      "newLocation": {
+        "categoryId": 25,
+        "category": "情報セキュリティ対策",
+        "subcategory": "組織的管理策に関する技術・手法",
+        "item": "インシデント管理"
+      }
+    },
+    {
+      "term": "マルウェア対策ソフトの導入",
+      "wasInside": "マルウェア・不正プログラム対策（マルウェア対策ソフトの導入，マルウェア定義ファイルの更新ほか）",
+      "oldLocation": {
+        "categoryId": 1,
+        "category": "セキュリティ",
+        "subcategory": "情報セキュリティ対策",
+        "item": "技術的セキュリティ対策"
+      },
+      "newLocation": {
+        "categoryId": 25,
+        "category": "情報セキュリティ対策",
+        "subcategory": "技術的管理策に関する技術・手法（情報資産運用に関する管理）",
+        "item": "マルウェアに対する保護"
+      }
+    },
+    {
+      "term": "マルウェア定義ファイルの更新",
+      "wasInside": "マルウェア・不正プログラム対策（マルウェア対策ソフトの導入，マルウェア定義ファイルの更新ほか）",
+      "oldLocation": {
+        "categoryId": 1,
+        "category": "セキュリティ",
+        "subcategory": "情報セキュリティ対策",
+        "item": "技術的セキュリティ対策"
+      },
+      "newLocation": {
+        "categoryId": 25,
+        "category": "情報セキュリティ対策",
+        "subcategory": "技術的管理策に関する技術・手法（情報資産運用に関する管理）",
+        "item": "マルウェアに対する保護"
+      }
+    },
+    {
+      "term": "未知マルウェア検出手法",
+      "wasInside": "マルウェア検出手法（パターンマッチング法，ビヘイビア法（振る舞い検知），ヒューリスティック法，未知マルウェア検出手法ほか）",
+      "oldLocation": {
+        "categoryId": 1,
+        "category": "セキュリティ",
+        "subcategory": "情報セキュリティ対策",
+        "item": "技術的セキュリティ対策"
+      },
+      "newLocation": {
+        "categoryId": 25,
+        "category": "情報セキュリティ対策",
+        "subcategory": "技術的管理策に関する技術・手法（情報資産運用に関する管理）",
+        "item": "マルウェアに対する保護"
+      }
+    },
+    {
+      "term": "データのバックアップ",
+      "wasInside": "ランサムウェア対策（データのバックアップ，3-2-1ルール，WORM（Write Once Read Many）機能）",
+      "oldLocation": {
+        "categoryId": 1,
+        "category": "セキュリティ",
+        "subcategory": "情報セキュリティ対策",
+        "item": "技術的セキュリティ対策"
+      },
+      "newLocation": {
+        "categoryId": 25,
+        "category": "情報セキュリティ対策",
+        "subcategory": "技術的管理策に関する技術・手法（情報資産運用に関する管理）",
+        "item": "マルウェアに対する保護"
+      }
+    },
+    {
+      "term": "3-2-1ルール",
+      "wasInside": "ランサムウェア対策（データのバックアップ，3-2-1ルール，WORM（Write Once Read Many）機能）",
+      "oldLocation": {
+        "categoryId": 1,
+        "category": "セキュリティ",
+        "subcategory": "情報セキュリティ対策",
+        "item": "技術的セキュリティ対策"
+      },
+      "newLocation": {
+        "categoryId": 25,
+        "category": "情報セキュリティ対策",
+        "subcategory": "技術的管理策に関する技術・手法（情報資産運用に関する管理）",
+        "item": "マルウェアに対する保護"
+      }
+    },
+    {
+      "term": "SMTP-AUTH",
+      "wasInside": "スパム対策（ベイジアンフィルタリング，送信元ドメイン認証，SPF，DKIM，DMARC，SMTP-AUTH，OP25B，PGP（Pretty Good Privacy），S/MIME（Secure MIME）ほか）",
+      "oldLocation": {
+        "categoryId": 1,
+        "category": "セキュリティ",
+        "subcategory": "セキュリティ実装技術",
+        "item": "認証技術"
+      },
+      "newLocation": {
+        "categoryId": 25,
+        "category": "情報セキュリティ対策",
+        "subcategory": "技術的管理策に関する技術・手法（情報システムの適正利用の管理）",
+        "item": "ネットワークセキュリティの技術規格・プロトコル"
+      }
+    },
+    {
+      "term": "OP25B",
+      "wasInside": "スパム対策（ベイジアンフィルタリング，送信元ドメイン認証，SPF，DKIM，DMARC，SMTP-AUTH，OP25B，PGP（Pretty Good Privacy），S/MIME（Secure MIME）ほか）",
+      "oldLocation": {
+        "categoryId": 1,
+        "category": "セキュリティ",
+        "subcategory": "セキュリティ実装技術",
+        "item": "認証技術"
+      },
+      "newLocation": {
+        "categoryId": 25,
+        "category": "情報セキュリティ対策",
+        "subcategory": "技術的管理策に関する技術・手法（情報システムの適正利用の管理）",
+        "item": "ネットワークセキュリティの技術規格・プロトコル"
+      }
+    },
+    {
+      "term": "URLフィルタリング（Webフィルタリング）",
+      "wasInside": "電子メール・Webのセキュリティ（URLフィルタリング（Webフィルタリング），コンテンツフィルタリング）",
+      "oldLocation": {
+        "categoryId": 1,
+        "category": "セキュリティ",
+        "subcategory": "情報セキュリティ対策",
+        "item": "技術的セキュリティ対策"
+      },
+      "newLocation": {
+        "categoryId": 25,
+        "category": "情報セキュリティ対策",
+        "subcategory": "技術的管理策に関する技術・手法（情報システムの適正利用の管理）",
+        "item": "ネットワークセキュリティの製品・サービス"
+      }
+    },
+    {
+      "term": "共通鍵暗号方式",
+      "wasInside": "暗号方式（暗号化（暗号鍵），復号（復号鍵），共通鍵暗号方式（共通鍵），公開鍵暗号方式（公開鍵，秘密鍵））",
+      "oldLocation": {
+        "categoryId": 1,
+        "category": "セキュリティ",
+        "subcategory": "情報セキュリティ",
+        "item": "情報セキュリティ技術（暗号技術）"
+      },
+      "newLocation": {
+        "categoryId": 25,
+        "category": "情報セキュリティ対策",
+        "subcategory": "暗号技術（技術的管理策のうち「暗号の利用」に対応）",
+        "item": "暗号方式の種類・鍵管理"
+      }
+    },
+    {
+      "term": "公開鍵暗号方式（RSA暗号など）",
+      "wasInside": "暗号方式（暗号化（暗号鍵），復号（復号鍵），共通鍵暗号方式（共通鍵），公開鍵暗号方式（公開鍵，秘密鍵））",
+      "oldLocation": {
+        "categoryId": 1,
+        "category": "セキュリティ",
+        "subcategory": "情報セキュリティ",
+        "item": "情報セキュリティ技術（暗号技術）"
+      },
+      "newLocation": {
+        "categoryId": 25,
+        "category": "情報セキュリティ対策",
+        "subcategory": "暗号技術（技術的管理策のうち「暗号の利用」に対応）",
+        "item": "暗号方式の種類・鍵管理"
+      }
+    },
+    {
+      "term": "デジタルタトゥー",
+      "wasInside": "情報倫理・技術者倫理（フェイクニュース，マルインフォメーション，ディスインフォメーション，ミスインフォメーション，デジタルタトゥー，ファクトチェック）",
+      "oldLocation": {
+        "categoryId": 2,
+        "category": "法務",
+        "subcategory": "その他の法律・ガイドライン・技術者倫理",
+        "item": "その他の法律・ガイドライン・技術者倫理"
+      },
+      "newLocation": {
+        "categoryId": 27,
+        "category": "情報倫理・AI倫理",
+        "subcategory": "情報倫理・情報モラル",
+        "item": "情報倫理・情報モラル"
+      }
+    },
+    {
+      "term": "フェイクニュース",
+      "wasInside": "情報倫理・技術者倫理（フェイクニュース，マルインフォメーション，ディスインフォメーション，ミスインフォメーション，デジタルタトゥー，ファクトチェック）",
+      "oldLocation": {
+        "categoryId": 2,
+        "category": "法務",
+        "subcategory": "その他の法律・ガイドライン・技術者倫理",
+        "item": "その他の法律・ガイドライン・技術者倫理"
+      },
+      "newLocation": {
+        "categoryId": 27,
+        "category": "情報倫理・AI倫理",
+        "subcategory": "情報倫理・情報モラル",
+        "item": "情報倫理・情報モラル"
+      }
+    },
+    {
+      "term": "ファクトチェック",
+      "wasInside": "情報倫理・技術者倫理（フェイクニュース，マルインフォメーション，ディスインフォメーション，ミスインフォメーション，デジタルタトゥー，ファクトチェック）",
+      "oldLocation": {
+        "categoryId": 2,
+        "category": "法務",
+        "subcategory": "その他の法律・ガイドライン・技術者倫理",
+        "item": "その他の法律・ガイドライン・技術者倫理"
+      },
+      "newLocation": {
+        "categoryId": 27,
+        "category": "情報倫理・AI倫理",
+        "subcategory": "情報倫理・情報モラル",
+        "item": "情報倫理・情報モラル"
+      }
+    },
+    {
+      "term": "フィルタリング",
+      "wasInside": "有害サイトアクセス制限（フィルタリング，ペアレンタルコントロールほか）",
+      "oldLocation": {
+        "categoryId": 2,
+        "category": "法務",
+        "subcategory": "その他の法律・ガイドライン・技術者倫理",
+        "item": "その他の法律・ガイドライン・技術者倫理"
+      },
+      "newLocation": {
+        "categoryId": 27,
+        "category": "情報倫理・AI倫理",
+        "subcategory": "情報倫理・情報モラル",
+        "item": "情報倫理・情報モラル"
+      }
+    },
+    {
+      "term": "著作権",
+      "wasInside": "著作権法（著作権，権利侵害，保護対象）",
+      "oldLocation": {
+        "categoryId": 2,
+        "category": "法務",
+        "subcategory": "知的財産権",
+        "item": "知的財産権"
+      },
+      "newLocation": {
+        "categoryId": 28,
+        "category": "ビジネス関連法規",
+        "subcategory": "知的財産権",
+        "item": "著作権法"
+      }
+    },
+    {
+      "term": "ボリュームライセンス契約",
+      "wasInside": "ソフトウェア使用許諾契約（ボリュームライセンス契約，コピーレフト（Copyleft））",
+      "oldLocation": {
+        "categoryId": 2,
+        "category": "法務",
+        "subcategory": "労働関連・取引関連法規",
+        "item": "企業間の取引に関わる契約"
+      },
+      "newLocation": {
+        "categoryId": 28,
+        "category": "ビジネス関連法規",
+        "subcategory": "取引関連法規",
+        "item": "企業間の取引に関わる契約"
+      }
+    },
+    {
+      "term": "デジタル社会形成基本法",
+      "wasInside": "その他の法律（デジタル社会形成基本法，官民データ活用推進基本法，e-文書法（電磁的記録），電子帳簿保存法）",
+      "oldLocation": {
+        "categoryId": 2,
+        "category": "法務",
+        "subcategory": "その他の法律・ガイドライン・技術者倫理",
+        "item": "その他の法律・ガイドライン・技術者倫理"
+      },
+      "newLocation": {
+        "categoryId": 28,
+        "category": "ビジネス関連法規",
+        "subcategory": "その他デジタル関連法規・ガイドライン",
+        "item": "その他デジタル関連法規"
+      }
+    },
+    {
+      "term": "官民データ活用推進基本法",
+      "wasInside": "その他の法律（デジタル社会形成基本法，官民データ活用推進基本法，e-文書法（電磁的記録），電子帳簿保存法）",
+      "oldLocation": {
+        "categoryId": 2,
+        "category": "法務",
+        "subcategory": "その他の法律・ガイドライン・技術者倫理",
+        "item": "その他の法律・ガイドライン・技術者倫理"
+      },
+      "newLocation": {
+        "categoryId": 28,
+        "category": "ビジネス関連法規",
+        "subcategory": "その他デジタル関連法規・ガイドライン",
+        "item": "その他デジタル関連法規"
+      }
+    },
+    {
+      "term": "e-文書法",
+      "wasInside": "その他の法律（デジタル社会形成基本法，官民データ活用推進基本法，e-文書法（電磁的記録），電子帳簿保存法）",
+      "oldLocation": {
+        "categoryId": 2,
+        "category": "法務",
+        "subcategory": "その他の法律・ガイドライン・技術者倫理",
+        "item": "その他の法律・ガイドライン・技術者倫理"
+      },
+      "newLocation": {
+        "categoryId": 28,
+        "category": "ビジネス関連法規",
+        "subcategory": "その他デジタル関連法規・ガイドライン",
+        "item": "その他デジタル関連法規"
+      }
+    },
+    {
+      "term": "電子帳簿保存法",
+      "wasInside": "その他の法律（デジタル社会形成基本法，官民データ活用推進基本法，e-文書法（電磁的記録），電子帳簿保存法）",
+      "oldLocation": {
+        "categoryId": 2,
+        "category": "法務",
+        "subcategory": "その他の法律・ガイドライン・技術者倫理",
+        "item": "その他の法律・ガイドライン・技術者倫理"
+      },
+      "newLocation": {
+        "categoryId": 28,
+        "category": "ビジネス関連法規",
+        "subcategory": "その他デジタル関連法規・ガイドライン",
+        "item": "その他デジタル関連法規"
+      }
+    },
+    {
+      "term": "項目削除／レコード削除／セル削除",
+      "wasInside": "匿名化の手法（項目削除／レコード削除／セル削除，トップ（ボトム）コーディングなどの一般的な手法のほか，k-匿名化などの高度な手法を含む）",
+      "oldLocation": {
+        "categoryId": 1,
+        "category": "セキュリティ",
+        "subcategory": "情報セキュリティ対策",
+        "item": "技術的セキュリティ対策"
+      },
+      "newLocation": {
+        "categoryId": 29,
+        "category": "プライバシー関連法規",
+        "subcategory": "プライバシー保護に関する手法・技法",
+        "item": "個人情報保護・プライバシー保護に関する手法・技法"
+      }
+    },
+    {
+      "term": "トップ（ボトム）コーディングなどの一般的な手法のほか",
+      "wasInside": "匿名化の手法（項目削除／レコード削除／セル削除，トップ（ボトム）コーディングなどの一般的な手法のほか，k-匿名化などの高度な手法を含む）",
+      "oldLocation": {
+        "categoryId": 1,
+        "category": "セキュリティ",
+        "subcategory": "情報セキュリティ対策",
+        "item": "技術的セキュリティ対策"
+      },
+      "newLocation": {
+        "categoryId": 29,
+        "category": "プライバシー関連法規",
+        "subcategory": "プライバシー保護に関する手法・技法",
+        "item": "個人情報保護・プライバシー保護に関する手法・技法"
+      }
+    },
+    {
+      "term": "k-匿名化などの高度な手法を含む",
+      "wasInside": "匿名化の手法（項目削除／レコード削除／セル削除，トップ（ボトム）コーディングなどの一般的な手法のほか，k-匿名化などの高度な手法を含む）",
+      "oldLocation": {
+        "categoryId": 1,
+        "category": "セキュリティ",
+        "subcategory": "情報セキュリティ対策",
+        "item": "技術的セキュリティ対策"
+      },
+      "newLocation": {
+        "categoryId": 29,
+        "category": "プライバシー関連法規",
+        "subcategory": "プライバシー保護に関する手法・技法",
+        "item": "個人情報保護・プライバシー保護に関する手法・技法"
+      }
+    }
+  ],
+  "absorbed": [
+    {
+      "term": "AES（Advanced Encryption Standard）",
+      "nowInside": "ブロック暗号（AES（Advanced Encryption Standard）など）",
+      "oldLocation": {
+        "categoryId": 1,
+        "category": "セキュリティ",
+        "subcategory": "情報セキュリティ",
+        "item": "情報セキュリティ技術（暗号技術）"
+      },
+      "newLocation": {
+        "categoryId": 25,
+        "category": "情報セキュリティ対策",
+        "subcategory": "暗号技術（技術的管理策のうち「暗号の利用」に対応）",
+        "item": "共通鍵暗号"
+      }
+    },
+    {
+      "term": "RSA暗号",
+      "nowInside": "公開鍵暗号方式（RSA暗号など）",
+      "oldLocation": {
+        "categoryId": 1,
+        "category": "セキュリティ",
+        "subcategory": "情報セキュリティ",
+        "item": "情報セキュリティ技術（暗号技術）"
+      },
+      "newLocation": {
+        "categoryId": 25,
+        "category": "情報セキュリティ対策",
+        "subcategory": "暗号技術（技術的管理策のうち「暗号の利用」に対応）",
+        "item": "暗号方式の種類・鍵管理"
+      }
+    },
+    {
+      "term": "オペレーショナルリスク",
+      "nowInside": "リスクの種類（オペレーショナルリスク，サプライチェーンリスク，外部サービス利用のリスク，SNSによる情報発信のリスク，地政学的リスクなど）",
+      "oldLocation": {
+        "categoryId": 1,
+        "category": "セキュリティ",
+        "subcategory": "情報セキュリティ管理",
+        "item": "リスク分析と評価（リスクの種類）"
+      },
+      "newLocation": {
+        "categoryId": 24,
+        "category": "情報セキュリティマネジメント",
+        "subcategory": "リスクマネジメント",
+        "item": "情報資産とリスク"
+      }
+    },
+    {
+      "term": "サプライチェーンリスク",
+      "nowInside": "リスクの種類（オペレーショナルリスク，サプライチェーンリスク，外部サービス利用のリスク，SNSによる情報発信のリスク，地政学的リスクなど）",
+      "oldLocation": {
+        "categoryId": 1,
+        "category": "セキュリティ",
+        "subcategory": "情報セキュリティ管理",
+        "item": "リスク分析と評価（リスクの種類）"
+      },
+      "newLocation": {
+        "categoryId": 24,
+        "category": "情報セキュリティマネジメント",
+        "subcategory": "リスクマネジメント",
+        "item": "情報資産とリスク"
+      }
+    },
+    {
+      "term": "外部サービス利用のリスク",
+      "nowInside": "リスクの種類（オペレーショナルリスク，サプライチェーンリスク，外部サービス利用のリスク，SNSによる情報発信のリスク，地政学的リスクなど）",
+      "oldLocation": {
+        "categoryId": 1,
+        "category": "セキュリティ",
+        "subcategory": "情報セキュリティ管理",
+        "item": "リスク分析と評価（リスクの種類）"
+      },
+      "newLocation": {
+        "categoryId": 24,
+        "category": "情報セキュリティマネジメント",
+        "subcategory": "リスクマネジメント",
+        "item": "情報資産とリスク"
+      }
+    },
+    {
+      "term": "SNSによる情報発信のリスク",
+      "nowInside": "リスクの種類（オペレーショナルリスク，サプライチェーンリスク，外部サービス利用のリスク，SNSによる情報発信のリスク，地政学的リスクなど）",
+      "oldLocation": {
+        "categoryId": 1,
+        "category": "セキュリティ",
+        "subcategory": "情報セキュリティ管理",
+        "item": "リスク分析と評価（リスクの種類）"
+      },
+      "newLocation": {
+        "categoryId": 24,
+        "category": "情報セキュリティマネジメント",
+        "subcategory": "リスクマネジメント",
+        "item": "情報資産とリスク"
+      }
+    },
+    {
+      "term": "地政学的リスク",
+      "nowInside": "リスクの種類（オペレーショナルリスク，サプライチェーンリスク，外部サービス利用のリスク，SNSによる情報発信のリスク，地政学的リスクなど）",
+      "oldLocation": {
+        "categoryId": 1,
+        "category": "セキュリティ",
+        "subcategory": "情報セキュリティ管理",
+        "item": "リスク分析と評価（リスクの種類）"
+      },
+      "newLocation": {
+        "categoryId": 24,
+        "category": "情報セキュリティマネジメント",
+        "subcategory": "リスクマネジメント",
+        "item": "情報資産とリスク"
+      }
+    },
+    {
+      "term": "リスク選好",
+      "nowInside": "リスク態度（リスク選好，リスク回避的態度）",
+      "oldLocation": {
+        "categoryId": 1,
+        "category": "セキュリティ",
+        "subcategory": "情報セキュリティ管理",
+        "item": "リスク分析と評価（情報セキュリティリスクアセスメント）"
+      },
+      "newLocation": {
+        "categoryId": 24,
+        "category": "情報セキュリティマネジメント",
+        "subcategory": "リスクマネジメント",
+        "item": "情報セキュリティリスクアセスメント"
+      }
+    },
+    {
+      "term": "リスク回避",
+      "nowInside": "リスク対応の選択肢（リスク回避，リスク低減（軽減），リスク移転（共有），リスク保有（受容））",
+      "oldLocation": {
+        "categoryId": 1,
+        "category": "セキュリティ",
+        "subcategory": "情報セキュリティ管理",
+        "item": "リスク分析と評価（情報セキュリティリスク対応）"
+      },
+      "newLocation": {
+        "categoryId": 24,
+        "category": "情報セキュリティマネジメント",
+        "subcategory": "リスクマネジメント",
+        "item": "情報セキュリティリスク対応"
+      }
+    },
+    {
+      "term": "リスク保有",
+      "nowInside": "リスク対応の選択肢（リスク回避，リスク低減（軽減），リスク移転（共有），リスク保有（受容））",
+      "oldLocation": {
+        "categoryId": 1,
+        "category": "セキュリティ",
+        "subcategory": "情報セキュリティ管理",
+        "item": "リスク分析と評価（情報セキュリティリスク対応）"
+      },
+      "newLocation": {
+        "categoryId": 24,
+        "category": "情報セキュリティマネジメント",
+        "subcategory": "リスクマネジメント",
+        "item": "情報セキュリティリスク対応"
+      }
+    },
+    {
+      "term": "派遣契約",
+      "nowInside": "労働者派遣法（雇用契約，派遣契約，指揮命令，偽装請負）",
+      "oldLocation": {
+        "categoryId": 2,
+        "category": "法務",
+        "subcategory": "労働関連・取引関連法規",
+        "item": "労働関連の法規（労働者派遣法）"
+      },
+      "newLocation": {
+        "categoryId": 28,
+        "category": "ビジネス関連法規",
+        "subcategory": "労働関連法規",
+        "item": "労働関連法規"
+      }
+    },
+    {
+      "term": "雇用契約",
+      "nowInside": "労働者派遣法（雇用契約，派遣契約，指揮命令，偽装請負）",
+      "oldLocation": {
+        "categoryId": 2,
+        "category": "法務",
+        "subcategory": "労働関連・取引関連法規",
+        "item": "労働関連の法規（労働者派遣法）"
+      },
+      "newLocation": {
+        "categoryId": 28,
+        "category": "ビジネス関連法規",
+        "subcategory": "労働関連法規",
+        "item": "労働関連法規"
+      }
+    },
+    {
+      "term": "指揮命令",
+      "nowInside": "労働者派遣法（雇用契約，派遣契約，指揮命令，偽装請負）",
+      "oldLocation": {
+        "categoryId": 2,
+        "category": "法務",
+        "subcategory": "労働関連・取引関連法規",
+        "item": "労働関連の法規（労働者派遣法）"
+      },
+      "newLocation": {
+        "categoryId": 28,
+        "category": "ビジネス関連法規",
+        "subcategory": "労働関連法規",
+        "item": "労働関連法規"
+      }
+    },
+    {
+      "term": "準委任契約",
+      "nowInside": "民法（準委任契約，請負契約）",
+      "oldLocation": {
+        "categoryId": 2,
+        "category": "法務",
+        "subcategory": "労働関連・取引関連法規",
+        "item": "企業間の取引に関わる契約"
+      },
+      "newLocation": {
+        "categoryId": 28,
+        "category": "ビジネス関連法規",
+        "subcategory": "取引関連法規",
+        "item": "取引関連法規"
+      }
+    },
+    {
+      "term": "請負契約",
+      "nowInside": "民法（準委任契約，請負契約）",
+      "oldLocation": {
+        "categoryId": 2,
+        "category": "法務",
+        "subcategory": "労働関連・取引関連法規",
+        "item": "企業間の取引に関わる契約"
+      },
+      "newLocation": {
+        "categoryId": 28,
+        "category": "ビジネス関連法規",
+        "subcategory": "取引関連法規",
+        "item": "取引関連法規"
+      }
+    },
+    {
+      "term": "SaaS",
+      "nowInside": "クラウドサービス（SaaS，PaaS，IaaSなど）",
+      "oldLocation": {
+        "categoryId": 3,
+        "category": "システム構成要素",
+        "subcategory": "システムの構成",
+        "item": "システム構成"
+      },
+      "newLocation": {
+        "categoryId": 15,
+        "category": "クラウド",
+        "subcategory": "クラウドサービス",
+        "item": "クラウドサービスの特徴"
+      }
+    },
+    {
+      "term": "PaaS",
+      "nowInside": "クラウドサービス（SaaS，PaaS，IaaSなど）",
+      "oldLocation": {
+        "categoryId": 3,
+        "category": "システム構成要素",
+        "subcategory": "システムの構成",
+        "item": "システム構成"
+      },
+      "newLocation": {
+        "categoryId": 15,
+        "category": "クラウド",
+        "subcategory": "クラウドサービス",
+        "item": "クラウドサービスの特徴"
+      }
+    },
+    {
+      "term": "IaaS",
+      "nowInside": "クラウドサービス（SaaS，PaaS，IaaSなど）",
+      "oldLocation": {
+        "categoryId": 3,
+        "category": "システム構成要素",
+        "subcategory": "システムの構成",
+        "item": "システム構成"
+      },
+      "newLocation": {
+        "categoryId": 15,
+        "category": "クラウド",
+        "subcategory": "クラウドサービス",
+        "item": "クラウドサービスの特徴"
+      }
+    },
+    {
+      "term": "無線LANアクセスポイント",
+      "nowInside": "無線LAN（無線LANアクセスポイント，SSIDなど）",
+      "oldLocation": {
+        "categoryId": 5,
+        "category": "ネットワーク",
+        "subcategory": "データ通信と制御",
+        "item": "ネットワーク接続"
+      },
+      "newLocation": {
+        "categoryId": 16,
+        "category": "ネットワーク",
+        "subcategory": "ネットワーク方式",
+        "item": "ネットワークの種類と特徴"
+      }
+    },
+    {
+      "term": "メーリングリスト",
+      "nowInside": "同報メールの適切な利用（TO，CC，BCC，メーリングリスト）",
+      "oldLocation": {
+        "categoryId": 5,
+        "category": "ネットワーク",
+        "subcategory": "ネットワーク応用",
+        "item": "インターネット（電子メール）"
+      },
+      "newLocation": {
+        "categoryId": 27,
+        "category": "情報倫理・AI倫理",
+        "subcategory": "情報倫理・情報モラル",
+        "item": "情報倫理・情報モラル"
+      }
+    },
+    {
+      "term": "cc",
+      "nowInside": "同報メールの適切な利用（TO，CC，BCC，メーリングリスト）",
+      "oldLocation": {
+        "categoryId": 5,
+        "category": "ネットワーク",
+        "subcategory": "ネットワーク応用",
+        "item": "インターネット（電子メール）"
+      },
+      "newLocation": {
+        "categoryId": 27,
+        "category": "情報倫理・AI倫理",
+        "subcategory": "情報倫理・情報モラル",
+        "item": "情報倫理・情報モラル"
+      }
+    },
+    {
+      "term": "bcc",
+      "nowInside": "同報メールの適切な利用（TO，CC，BCC，メーリングリスト）",
+      "oldLocation": {
+        "categoryId": 5,
+        "category": "ネットワーク",
+        "subcategory": "ネットワーク応用",
+        "item": "インターネット（電子メール）"
+      },
+      "newLocation": {
+        "categoryId": 27,
+        "category": "情報倫理・AI倫理",
+        "subcategory": "情報倫理・情報モラル",
+        "item": "情報倫理・情報モラル"
+      }
+    },
+    {
+      "term": "CPO（Chief Privacy Officer）",
+      "nowInside": "最高プライバシー責任者（CPO）",
+      "oldLocation": {
+        "categoryId": 11,
+        "category": "企業活動",
+        "subcategory": "経営・組織論",
+        "item": "経営管理（経営管理・経営組織）"
+      },
+      "newLocation": {
+        "categoryId": 11,
+        "category": "経営・組織論",
+        "subcategory": "経営管理",
+        "item": "経営管理・経営組織"
+      }
+    }
+  ],
+  "skills": {
+    "note": "旧(v4.1)は syllabus-sg-v4.json の小項目名、新(0.1)は『目標とする技能』の小項目名で比較。名称の類似度で対応付け。",
+    "oldMajorItems": 12,
+    "newMajorItems": 12,
+    "oldMinorItems": 35,
+    "newMinorItems": 34,
+    "kept": [
+      {
+        "id": "1-1",
+        "name": "情報資産の特定及び価値の明確化",
+        "major": "情報資産管理の計画"
+      },
+      {
+        "id": "1-2",
+        "name": "管理責任及び利用の許容範囲の明確化",
+        "major": "情報資産管理の計画"
+      },
+      {
+        "id": "1-3",
+        "name": "情報資産台帳の作成",
+        "major": "情報資産管理の計画"
+      },
+      {
+        "id": "2-1",
+        "name": "リスクの特定・分析・評価",
+        "major": "情報セキュリティリスクアセスメント及びリスク対応"
+      },
+      {
+        "id": "2-2",
+        "name": "リスク対応策の検討",
+        "major": "情報セキュリティリスクアセスメント及びリスク対応"
+      },
+      {
+        "id": "2-3",
+        "name": "リスク対応計画の策定",
+        "major": "情報セキュリティリスクアセスメント及びリスク対応"
+      },
+      {
+        "id": "4-1",
+        "name": "情報セキュリティを継続的に確保するための情報セキュリティ要求事項の提示",
+        "major": "情報セキュリティを継続的に確保するための情報セキュリティ要求事項の提示"
+      },
+      {
+        "id": "5-1",
+        "name": "情報資産台帳の維持管理",
+        "major": "情報資産の管理"
+      },
+      {
+        "id": "5-2",
+        "name": "媒体の管理",
+        "major": "情報資産の管理"
+      },
+      {
+        "id": "5-3",
+        "name": "利用状況の記録",
+        "major": "情報資産の管理"
+      },
+      {
+        "id": "6-1",
+        "name": "マルウェアからの保護",
+        "major": "部門の情報システム利用時の情報セキュリティの確保"
+      },
+      {
+        "id": "6-2",
+        "name": "バックアップ",
+        "major": "部門の情報システム利用時の情報セキュリティの確保"
+      },
+      {
+        "id": "6-3",
+        "name": "ログ取得及び監視",
+        "major": "部門の情報システム利用時の情報セキュリティの確保"
+      },
+      {
+        "id": "6-4",
+        "name": "情報の転送における情報セキュリティの維持",
+        "major": "部門の情報システム利用時の情報セキュリティの確保"
+      },
+      {
+        "id": "6-5",
+        "name": "脆弱性管理",
+        "major": "部門の情報システム利用時の情報セキュリティの確保"
+      },
+      {
+        "id": "6-6",
+        "name": "利用者アクセスの管理",
+        "major": "部門の情報システム利用時の情報セキュリティの確保"
+      },
+      {
+        "id": "6-7",
+        "name": "運用状況の点検",
+        "major": "部門の情報システム利用時の情報セキュリティの確保"
+      },
+      {
+        "id": "7-1",
+        "name": "外部委託先の情報セキュリティの調査",
+        "major": "業務の外部委託における情報セキュリティの確保"
+      },
+      {
+        "id": "7-3",
+        "name": "外部委託の終了",
+        "major": "業務の外部委託における情報セキュリティの確保"
+      },
+      {
+        "id": "8-1",
+        "name": "発見",
+        "major": "情報セキュリティインシデントの管理"
+      },
+      {
+        "id": "8-2",
+        "name": "初動処理",
+        "major": "情報セキュリティインシデントの管理"
+      },
+      {
+        "id": "8-3",
+        "name": "分析及び復旧",
+        "major": "情報セキュリティインシデントの管理"
+      },
+      {
+        "id": "8-4",
+        "name": "再発防止策の提案・実施",
+        "major": "情報セキュリティインシデントの管理"
+      },
+      {
+        "id": "8-5",
+        "name": "証拠の収集",
+        "major": "情報セキュリティインシデントの管理"
+      },
+      {
+        "id": "9-1",
+        "name": "情報セキュリティの教育・訓練",
+        "major": "情報セキュリティの意識向上"
+      },
+      {
+        "id": "9-2",
+        "name": "情報セキュリティに関するアドバイス",
+        "major": "情報セキュリティの意識向上"
+      },
+      {
+        "id": "9-3",
+        "name": "内部不正による情報漏えいの防止",
+        "major": "情報セキュリティの意識向上"
+      },
+      {
+        "id": "10-1",
+        "name": "順守指導",
+        "major": "コンプライアンスの運用"
+      },
+      {
+        "id": "10-2",
+        "name": "順守状況の評価と改善",
+        "major": "コンプライアンスの運用"
+      },
+      {
+        "id": "11-1",
+        "name": "問題点整理と分析",
+        "major": "情報セキュリティマネジメントの継続的改善"
+      },
+      {
+        "id": "11-2",
+        "name": "情報セキュリティ諸規程の見直し",
+        "major": "情報セキュリティマネジメントの継続的改善"
+      },
+      {
+        "id": "12-1",
+        "name": "情報セキュリティに関する動向・事例情報の収集と評価",
+        "major": "情報セキュリティに関する動向・事例情報の収集と評価"
+      }
+    ],
+    "renamed": [
+      {
+        "id": "3-1",
+        "old": "部門の情報システムの調達・利用に関する技術的管理策及び組織的管理策",
+        "new": "部門の情報システムの調達・利用に関する組織的・人的・物理的・技術的な要求事項の提示",
+        "oldMajor": "情報資産に関する情報セキュリティ要求事項の提示",
+        "newMajor": "情報資産に関する情報セキュリティ要求事項の提示",
+        "similarity": 0.66
+      },
+      {
+        "id": "7-2",
+        "old": "外部委託先の情報セキュリティ管理の実施",
+        "new": "外部委託先の管理における情報セキュリティの確保",
+        "oldMajor": "業務の外部委託における情報セキュリティの確保",
+        "newMajor": "業務の外部委託における情報セキュリティの確保",
+        "similarity": 0.76
+      }
+    ],
+    "added": [],
+    "removed": [
+      {
+        "name": "物理的管理策",
+        "major": "情報資産に関する情報セキュリティ要求事項の提示"
+      }
+    ]
+  },
+  "officialMapping": {
+    "source": "IPA 科目Aの出題範囲体系案 新旧対応表（2026-03-31）。現行側は基本情報技術者・応用情報等と共通の23中分類体系。SG現行シラバスの中分類名と一致する行のみ抜粋",
+    "note": "SG現行(Ver.4.1)は11中分類（SG専用採番）。名称が一致する新旧対応表の行を抜粋しており、SG現行に含まれない小分類を含む行がある。",
+    "rows": [
+      {
+        "oldId": 17,
+        "oldName": "システム戦略",
+        "content": [
+          "小分類「情報システム戦略」、「システム活用促進・評価」の内容"
+        ],
+        "newId": 2,
+        "newName": "経営戦略・デジタル戦略"
+      },
+      {
+        "oldId": 18,
+        "oldName": "システム企画",
+        "content": [
+          "小分類「システム化計画」「調達計画・実施」の内容"
+        ],
+        "newId": 2,
+        "newName": "経営戦略・デジタル戦略"
+      },
+      {
+        "oldId": 17,
+        "oldName": "システム戦略",
+        "content": [
+          "小分類「業務プロセス」の内容"
+        ],
+        "newId": 3,
+        "newName": "ビジネスモデル・ビジネスプロセス"
+      },
+      {
+        "oldId": 18,
+        "oldName": "システム企画",
+        "content": [
+          "小分類「要件定義」の内容"
+        ],
+        "newId": 3,
+        "newName": "ビジネスモデル・ビジネスプロセス"
+      },
+      {
+        "oldId": 15,
+        "oldName": "サービスマネジメント",
+        "content": [
+          "小分類「サービスマネジメント」、「サービスマネジメントシステムの計画及び運用」、「パフォーマンス評価及び改善」の内容",
+          "小分類「サービスの運用」の<サービスデスク>に関する内容"
+        ],
+        "newId": 4,
+        "newName": "サービスマネジメント"
+      },
+      {
+        "oldId": 14,
+        "oldName": "プロジェクトマネジメント",
+        "content": [
+          "全ての内容"
+        ],
+        "newId": 5,
+        "newName": "プロジェクトマネジメント"
+      },
+      {
+        "oldId": 22,
+        "oldName": "企業活動",
+        "content": [
+          "小分類「業務分析・データ利活用」の内容"
+        ],
+        "newId": 9,
+        "newName": "データ分析・データ利活用"
+      },
+      {
+        "oldId": 22,
+        "oldName": "企業活動",
+        "content": [
+          "小分類「経営・組織論」、「会計・財務」の内容"
+        ],
+        "newId": 11,
+        "newName": "経営・組織論"
+      },
+      {
+        "oldId": 16,
+        "oldName": "システム監査",
+        "content": [
+          "全ての内容"
+        ],
+        "newId": 12,
+        "newName": "ガバナンス・監査"
+      },
+      {
+        "oldId": 4,
+        "oldName": "システム構成要素",
+        "content": [
+          "全ての内容"
+        ],
+        "newId": 14,
+        "newName": "システムの種類・構成"
+      },
+      {
+        "oldId": 4,
+        "oldName": "システム構成要素",
+        "content": [
+          "小分類「システムの構成（仮想化に関する知識のみ）」の内容"
+        ],
+        "newId": 15,
+        "newName": "クラウド"
+      },
+      {
+        "oldId": 17,
+        "oldName": "システム戦略",
+        "content": [
+          "小分類「ソリューションビジネス」の内容"
+        ],
+        "newId": 15,
+        "newName": "クラウド"
+      },
+      {
+        "oldId": 10,
+        "oldName": "ネットワーク",
+        "content": [
+          "全ての内容"
+        ],
+        "newId": 16,
+        "newName": "ネットワーク"
+      },
+      {
+        "oldId": 9,
+        "oldName": "データベース",
+        "content": [
+          "全ての内容"
+        ],
+        "newId": 17,
+        "newName": "データベース"
+      },
+      {
+        "oldId": 15,
+        "oldName": "サービスマネジメント",
+        "content": [
+          "小分類「サービス運用」の<システム運用管理>、<運用オペレーション>に関する内容"
+        ],
+        "newId": 20,
+        "newName": "システムライフサイクルプロセス"
+      },
+      {
+        "oldId": 15,
+        "oldName": "サービスマネジメント",
+        "content": [
+          "小分類「ファシリティマネジメント」の内容"
+        ],
+        "newId": 21,
+        "newName": "開発・運用の方法論"
+      },
+      {
+        "oldId": 11,
+        "oldName": "セキュリティ",
+        "content": [
+          "小分類「情報セキュリティ」の<脅威・脆弱性・攻撃手法>に関する内容"
+        ],
+        "newId": 23,
+        "newName": "情報セキュリティの脅威"
+      },
+      {
+        "oldId": 11,
+        "oldName": "セキュリティ",
+        "content": [
+          "小分類「情報セキュリティ管理」の内容"
+        ],
+        "newId": 24,
+        "newName": "情報セキュリティマネジメント"
+      },
+      {
+        "oldId": 11,
+        "oldName": "セキュリティ",
+        "content": [
+          "小分類「情報セキュリティ」の<脅威・脆弱性・攻撃手法>以外に関する内容"
+        ],
+        "newId": 25,
+        "newName": "情報セキュリティ対策"
+      },
+      {
+        "oldId": 11,
+        "oldName": "セキュリティ",
+        "content": [
+          "小分類「情報セキュリティ対策」の内容"
+        ],
+        "newId": 25,
+        "newName": "情報セキュリティ対策"
+      },
+      {
+        "oldId": 11,
+        "oldName": "セキュリティ",
+        "content": [
+          "小分類「セキュリティ技術評価」、「セキュリティ実装技術」の内容"
+        ],
+        "newId": 26,
+        "newName": "セキュリティ実装技術・評価"
+      },
+      {
+        "oldId": 23,
+        "oldName": "法務",
+        "content": [
+          "小分類「その他の法律・ガイドライン・技術者倫理」の<情報倫理・技術者倫理>に関する内容"
+        ],
+        "newId": 27,
+        "newName": "情報倫理・AI倫理"
+      },
+      {
+        "oldId": 23,
+        "oldName": "法務",
+        "content": [
+          "小分類「知的財産権」、「労働関連・取引関連法規」、「その他の法律・ガイドライン・技術者倫理」、「標準化関連」の内容",
+          "※小分類「その他の法律・ガイドライン・技術者倫理」の一部（情報倫理・技術者倫理）は除く"
+        ],
+        "newId": 28,
+        "newName": "ビジネス関連法規"
+      },
+      {
+        "oldId": 23,
+        "oldName": "法務",
+        "content": [
+          "小分類「セキュリティ関連法規」の<個人情報保護法、マイナンバー法>に関する内容"
+        ],
+        "newId": 29,
+        "newName": "プライバシー関連法規"
+      },
+      {
+        "oldId": 23,
+        "oldName": "法務",
+        "content": [
+          "小分類「セキュリティ関連法規」の<個人情報保護法、マイナンバー法>以外に関する内容"
+        ],
+        "newId": 30,
+        "newName": "セキュリティ関連法規"
+      }
+    ]
+  },
+  "officialScope": {
+    "note": "出題範囲等の改定案 Ver.1.0（2026-03-31）のSG科目A列。syllabus_sg_ver0_1 の重点/その他の記載との差異を含む。",
+    "categories": [
+      {
+        "id": 4,
+        "name": "サービスマネジメント",
+        "proposal": "○",
+        "syllabus": "その他の分野"
+      },
+      {
+        "id": 9,
+        "name": "データ分析・データ利活用",
+        "proposal": "○",
+        "syllabus": "その他の分野"
+      },
+      {
+        "id": 10,
+        "name": "AI利活用",
+        "proposal": "○",
+        "syllabus": "その他の分野"
+      },
+      {
+        "id": 11,
+        "name": "経営・組織論",
+        "proposal": "○",
+        "syllabus": "その他の分野"
+      },
+      {
+        "id": 12,
+        "name": "ガバナンス・監査",
+        "proposal": "○",
+        "syllabus": "その他の分野"
+      },
+      {
+        "id": 15,
+        "name": "クラウド",
+        "proposal": "○",
+        "syllabus": "その他の分野"
+      },
+      {
+        "id": 16,
+        "name": "ネットワーク",
+        "proposal": "○",
+        "syllabus": "その他の分野"
+      },
+      {
+        "id": 23,
+        "name": "情報セキュリティの脅威",
+        "proposal": "◎",
+        "syllabus": "重点分野"
+      },
+      {
+        "id": 24,
+        "name": "情報セキュリティマネジメント",
+        "proposal": "◎",
+        "syllabus": "重点分野"
+      },
+      {
+        "id": 25,
+        "name": "情報セキュリティ対策",
+        "proposal": "◎",
+        "syllabus": "重点分野"
+      },
+      {
+        "id": 26,
+        "name": "セキュリティ実装技術・評価",
+        "proposal": "○",
+        "syllabus": "その他の分野"
+      },
+      {
+        "id": 27,
+        "name": "情報倫理・AI倫理",
+        "proposal": "○",
+        "syllabus": "その他の分野"
+      },
+      {
+        "id": 28,
+        "name": "ビジネス関連法規",
+        "proposal": "○",
+        "syllabus": "その他の分野"
+      },
+      {
+        "id": 29,
+        "name": "プライバシー関連法規",
+        "proposal": "○",
+        "syllabus": "重点分野"
+      },
+      {
+        "id": 30,
+        "name": "セキュリティ関連法規",
+        "proposal": "○",
+        "syllabus": "重点分野"
+      }
+    ]
+  }
+}

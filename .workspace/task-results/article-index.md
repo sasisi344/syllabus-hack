@@ -1,9 +1,13 @@
 # Syllabus Hack Article Index
 
-Generated on: 2026/10/5 23:32:06
+Generated on: 2026/10/15 11:35:46
 
 | Publish Date | Category | Title | Tags | Path |
 | :--- | :--- | :--- | :--- | :--- |
+| 2026-10-15 | trend | 他社の事故は対岸の火事ではない｜AI攻撃時代に経営トップが決めるセキュリティ投資 | 情報セキュリティ, ランサムウェア, CISO, 情報セキュリティマネジメント, 生成AI | `src/data/post/trend/exec-security-investment-ai-era/index.md` |
+| 2026-10-11 | method | イーロン・マスク流「基礎だけ学ぶ」学習法と20時間学習法の共通点 | 学習メソッド, 20時間学習法, 第一原理思考, シラバスハック, 生成AI | `src/data/post/method/musk-semantic-tree-fundamentals/index.md` |
+| 2026-10-11 | trend | 申込から本番まで最長何か月？IPA試験・宅建・電験ほか資格別の早見表【2026年版】 | 試験日程, スケジュール, ITパスポート, 宅建, 電験三種 | `src/data/post/trend/exam-application-to-exam-period-table/index.md` |
+| 2026-10-07 | trend | 今さら聞けない情報漏えい対策｜相次ぐ流出から自分と会社を守る方法 | 情報セキュリティ, 情報漏えい, フィッシング, 情報セキュリティマネジメント, 生成AI | `src/data/post/trend/security-incident-prevention-basics/index.md` |
 | 2026-10-03 | method | ITパスポート NotebookLM勉強法｜シラバスと過去問で自分専用の問題集を作る | ITパスポート, 生成AI, NotebookLM, 独学, ドリル | `src/data/post/method/notebooklm-ip-study-hack/index.md` |
 | 2026-09-29 | method | 生成AIでプログラミングをするための事前準備｜初心者がPythonでTODOアプリを動かすまで | 生成AI, Claude, ChatGPT, Python, プログラミング | `src/data/post/method/ai-programming-prep/index.md` |
 | 2026-09-29 | method | 生成AIにルールを覚えさせるスキル設定｜ChatGPT・Claude・Gemini【2026年版】 | 生成AI, ChatGPT, Claude, プロンプト, 業務効率化 | `src/data/post/method/ai-skill-rules-setup/index.md` |
@@ -32,7 +36,7 @@ Generated on: 2026/10/5 23:32:06
 | 2026-07-18 | career | 衛生管理者の選任を断ることはできる？辞められない問題の実態 | 衛生管理者, 労働安全衛生法, キャリア, 人事労務, 働き方 | `src/data/post/career/eisei-kanrisha-sennin-kotowaru/index.md` |
 | 2026-07-18 | career | 建設業経理士は経審で加点される｜知名度は低いが実利がある検定 | 建設業経理士, 経営事項審査, 経審, 簿記, キャリア | `src/data/post/career/kensetsugyou-keirishi-keishin-katen/index.md` |
 | 2026-07-18 | career | 危険物乙4の資格手当はいくら？一時金型と月額型の違い | 危険物取扱者, 乙4, 資格手当, ガソリンスタンド, キャリア | `src/data/post/career/kikenbutsu-otsu4-teate/index.md` |
-| 2026-07-18 | career | 工業高校で取れる資格一覧｜電験三種など高卒就職で強い資格 | 工業高校, 電験三種, 危険物取扱者, 第二種電気工事士, 高卒就職 | `src/data/post/career/kougyou-koukou-shikaku-ichiran/index.md` |
+| 2026-07-18 | career | 工業高校で取れる資格一覧10選｜難易度・就職評価つき（電験三種ほか） | 工業高校, 電験三種, 危険物取扱者, 第二種電気工事士, 高卒就職 | `src/data/post/career/kougyou-koukou-shikaku-ichiran/index.md` |
 | 2026-07-18 | career | 教育訓練給付金は会社にバレる？対象講座の調べ方と離職中の受給条件 | 教育訓練給付金, キャリアアップ, 資格取得, ハローワーク, 離職 | `src/data/post/career/kyouiku-kunren-kyuufu-bareru/index.md` |
 | 2026-07-18 | career | 年金アドバイザー3級は銀行員の昇格要件？知名度より実務直結を狙う検定 | 年金アドバイザー3級, 銀行業務検定, 銀行員, キャリアアップ, 生成AI | `src/data/post/career/nenkin-advisor-3kyuu-ginkouin/index.md` |
 | 2026-07-18 | career | 資格の維持費一覧｜更新講習・登録更新でかかる金額まとめ | 資格維持費, 宅建士, 危険物取扱者, 電気工事士, キャリア戦略 | `src/data/post/career/shikaku-iji-hi-ichiran/index.md` |
@@ -47,7 +51,7 @@ Generated on: 2026/10/5 23:32:06
 | 2026-07-18 | method | 簿記2級の次に取るべき資格｜建設業経理士・税理士科目・FASSの進路整理 | 日商簿記, 簿記2級, 建設業経理士, 税理士, FASS検定 | `src/data/post/method/boki2kyuu-tsugi-shikaku/index.md` |
 | 2026-07-18 | method | インバスケット対策は独学でできるか｜アセスメント研修攻略法 | インバスケット, 独学, 管理職昇進試験, 生成AI, アセスメント研修 | `src/data/post/method/inbasket-taisaku-dokugaku/index.md` |
 | 2026-07-18 | method | 機械保全技能士は独学で取れるか｜製造→保全へのリスキリングルート | 機械保全技能士, 独学, リスキリング, 生成AI, 実技試験 | `src/data/post/method/kikai-hozen-ginoushi-dokugaku/index.md` |
-| 2026-07-18 | method | 第三種冷凍機械責任者はいらない？資格の需要と非IT現場リスキリングの現実 | 冷凍機械責任者, 高圧ガス製造保安責任者, ビルメン, リスキリング, 資格の需要 | `src/data/post/method/reitoukikai-3shu-iranai/index.md` |
+| 2026-07-18 | method | 第三種冷凍機械責任者は必要ない？いらないと言われる理由と取るべき人の条件 | 冷凍機械責任者, 高圧ガス製造保安責任者, ビルメン, リスキリング, 資格の需要 | `src/data/post/method/reitoukikai-3shu-iranai/index.md` |
 | 2026-07-18 | method | 資格の勉強を諦めるべきタイミング｜サンクコストと撤退基準 | 資格勉強, 独学, 挫折, モチベーション, 生成AI | `src/data/post/method/shikaku-benkyou-akirameru-timing/index.md` |
 | 2026-07-18 | method | 大学在学中に宅建はいつ受ける？学生×難関資格の両立体験 | 宅建, 宅地建物取引士, 大学生, 生成AI, 独学 | `src/data/post/method/zaigakuchuu-takken-itsu-ukeru/index.md` |
 | 2026-07-18 | theory | 電験三種の"選任手当"はなぜ高い？手当と選任手当の違い | 電験三種, 電気主任技術者, 選任, 資格手当, ビルメンテナンス | `src/data/post/theory/denken3-sennin-teate/index.md` |
@@ -146,7 +150,7 @@ Generated on: 2026/10/5 23:32:06
 | 2026-05-31 | method | MOS Excel エキスパートは独学で難しすぎる——つまずく理由とAI対話で突破する手順 | MOS, Excel, エキスパート, 独学, AI活用 | `src/data/post/method/mos-excel-expert-difficulty/index.md` |
 | 2026-05-31 | method | NotebookLM × 生成AI 資格試験ワークフローガイド｜ChatGPT・Gemini・Claudeと組み合わせる方法 | 生成AI, NotebookLM, 資格試験, ワークフロー, プロンプト | `src/data/post/method/notebooklm-ai-workflow-guide/index.md` |
 | 2026-05-31 | method | NotebookLM（Gemini Notebook）資格試験活用ガイド｜2026年版・機能別の使い倒し方 | 生成AI, NotebookLM, 資格試験, 学習法, ドリル | `src/data/post/method/notebooklm-features-guide/index.md` |
-| 2026-05-31 | trend | CCNAとAWS SAA、どちらを先に取るべきか——学習効率から見た正解 | CCNA, AWS, AWS SAA, 資格戦略, ネットワーク | `src/data/post/trend/ccna-vs-aws-saa/index.md` |
+| 2026-05-31 | trend | CCNAとAWS SAAはどっちが先？ネットワーク知識から見た取得順番の正解 | CCNA, AWS, AWS SAA, 資格戦略, ネットワーク | `src/data/post/trend/ccna-vs-aws-saa/index.md` |
 | 2026-05-31 | trend | FP2級の実技試験、きんざいと日本FP協会どちらが受かりやすいか | FP2級, きんざい, 日本FP協会, 実技試験, 資格戦略 | `src/data/post/trend/fp2-jitsuki-comparison/index.md` |
 | 2026-05-31 | trend | LPIC・CCNA・AWSを取る順番——インフラエンジニアが最短で市場価値を上げるロードマップ | CCNA, AWS, LPIC, インフラ, ロードマップ | `src/data/post/trend/lpic-ccna-aws-order/index.md` |
 | 2026-05-31 | trend | MOS vs ITパスポート——どちらが有利か問うより「両方取れるなら取ったほうがいい」理由 | MOS, ITパスポート, 就活, 転職, 資格比較 | `src/data/post/trend/mos-vs-itp-job-hunting/index.md` |
@@ -155,7 +159,7 @@ Generated on: 2026/10/5 23:32:06
 | 2026-05-30 | trend | FP2級に落ちた人が今すぐやるべきCBTリベンジ戦略 | FP2級, CBT, 独学, 資格戦略, 合格率 | `src/data/post/trend/fp2-cbt-strategy/index.md` |
 | 2026-05-06 | trend | DS検定とは何か。文系でも挑める「データ活用」の資格を解説 | DS検定, データサイエンス, G検定, 資格比較, 文系 | `src/data/post/trend/ds-kentei/index.md` |
 | 2026-05-06 | trend | E資格とは何か。合格率70%の裏側と23万円のコストを正直に解説 | E資格, ディープラーニング, JDLA, G検定, AIエンジニア | `src/data/post/trend/e-shikaku/index.md` |
-| 2026-04-29 | career | 外国人が日本の国家資格を取得するための条件と戦略 | 資格取得, ITパスポート, 外国人, 高度人材 | `src/data/post/career/foreigner-japan-national-qualification/index.md` |
+| 2026-04-29 | career | 外国人が日本の国家資格を取得する条件｜在留資格別に選ぶ、就職と永住につなげる資格戦略 | 資格取得, ITパスポート, 外国人, 高度人材 | `src/data/post/career/foreigner-japan-national-qualification/index.md` |
 | 2026-04-29 | career | 1日60分で合格できる資格はどれか — 人気5資格シミュレーション | 資格取得, 宅建, 簿記, 学習計画, キャリア | `src/data/post/career/qualification-60min-daily-simulation/index.md` |
 | 2026-04-29 | trend | 生成AI関連の資格は意味あるか — 認知度と活用場面から考える | 生成AI, 資格取得, ITパスポート, IT資格 | `src/data/post/trend/generative-ai-certification-worth/index.md` |
 | 2026-04-29 | trend | 政府が大学でリスキリング60万人を推進する計画の実態 | リスキリング, キャリア, 補助制度, 生成AI, DX | `src/data/post/trend/government-reskilling-university-60man/index.md` |
@@ -328,7 +332,7 @@ Generated on: 2026/10/5 23:32:06
 | 2026-03-08 | method | 【東京都版】シラバスハック：超高密度な交通網を「合格タイマー」に変える戦略 | 地域最適化, 東京都, CBT対策, 効率的学習, 山手線ハック | `src/data/post/method/region-hack-tokyo/index.md` |
 | 2026-03-08 | method | 【SG攻略】セキュリティ事故ニュースを「最強の教科書」に変えるスマホハック | 情報セキュリティマネジメント, 科目B, ChatGPT, Gemini, ニュース活用 | `src/data/post/method/sg-news-study-hack/index.md` |
 | 2026-03-08 | trend | ITパスポートは「恥ずかしい」資格なのか？2026年の市場価値と現実 | ITパスポート, 資格試験, キャリア, 就活, SyllabusHack | `src/data/post/trend/it-passport-shame-debate/index.md` |
-| 2026-03-07 | trend | 【2026年11月開始】情報処理技術者試験CBT日程・申込ガイド | IPA試験, CBT, 応用情報技術者, 高度試験, スケジュール | `src/data/post/trend/ipa-2026-cbt-schedule-guide/index.md` |
+| 2026-03-07 | trend | 【2026年10月6日受付開始】応用情報・高度試験CBTの申込日程と試験期間 | IPA試験, CBT, 応用情報技術者, 高度試験, スケジュール | `src/data/post/trend/ipa-2026-cbt-schedule-guide/index.md` |
 | 2026-03-04 | app | Syllabus Hack開発記：メンテナンス性を高めるファイル構成と実装戦略 | Astro, React, 個人開発, 設計, SyllabusHack | `src/data/post/app/dev-doc-structure-astro/index.md` |
 | 2026-03-03 | method | 生成AI問題の攻略：NotebookLMでITパスポートのシラバスをハックする | ITパスポート, NotebookLM, ChatGPT, Claude, 学習メソッド | `src/data/post/method/genai-problem-mastery-notebooklm/index.md` |
 | 2026-03-02 | career | IPA資格でキャリアを切り拓く：転職市場での価値と将来性 | キャリア開発, 転職, リスキリング, 履歴書, IT資格 | `src/data/post/career/ipa-career-value-job-change/index.md` |

@@ -22,3 +22,10 @@
 | career/kougyou-koukou-shikaku-ichiran | D | 2026-10-07 | 投稿済み |
 | method/notebooklm-ip-study-hack | B | 2026-10-08 | 投稿済み |
 | career/shuukatsu-shikaku-imi-nai | C | 2026-10-10 | 投稿済み |
+| method/ap-discard-strategy | A | 2026-10-13 | 投稿済み |
+| trend/cbt-exam-venue-booking-tips | C | 2026-10-15 | 投稿済み |
+| method/nw-mermaid-hack | B | 2026-10-17 | 投稿済み |
+| trend/security-incident-prevention-basics | E | 2026-10-16 | 予定 |
+| trend/exam-application-to-exam-period-table | D | 2026-10-19 | 予定 |
+| trend/exec-security-investment-ai-era | G | 2026-10-21 | 予定 |
+| method/musk-semantic-tree-fundamentals | C | 2026-10-23 | 予定 |
