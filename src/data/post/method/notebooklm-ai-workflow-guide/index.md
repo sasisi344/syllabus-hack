@@ -174,15 +174,19 @@ Claudeとの組み合わせは「記述式答案の添削」に最も向いて�
 ## よくある質問
 
 <strong>Q: どのAIから始めればいいですか？</strong>
+
 まずNotebookLMだけで[単独ワークフロー](/method/notebooklm-features-guide/)を1〜2週間試してください。「NotebookLMで確認できないことが出てきた」と感じた時が、他のAIを追加するタイミングです。
 
 <strong>Q: 全部のAIを毎日使う必要がありますか？</strong>
+
 不要です。<strong>NotebookLMを軸に、週1〜2回だけ他のAIで深掘りする</strong>のが現実的なペースです。毎日全ツールを使おうとすると管理コストで疲弊します。
 
 <strong>Q: 使っているモデルがGeminiだけの場合は？</strong>
+
 Gemini単独でも十分機能します。NotebookLM（Googleのツール）はGeminiとの相性が高いため、NotebookLMで知識ベースを構築しGeminiで深掘りする組み合わせはシームレスに連携します。
 
 <strong>Q: プロンプトを毎回考えるのが大変です</strong>
+
 [Gemini完全ガイド](/method/gemini-cert-complete/)や[ChatGPT完全ガイド](/method/chatgpt-cert-complete/)に試験別プロンプトテンプレートをまとめています。コピーして使ってください。
 
 ---
