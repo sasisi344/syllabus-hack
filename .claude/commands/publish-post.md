@@ -21,6 +21,7 @@
 - [ ] `lastmod` を今日の日付（YYYY-MM-DD）に更新
 - [ ] `publishDate` は **変更しない**（初回公開日は固定）
 - [ ] IMAGE_PROMPT コメントを削除（画像が配置済みの場合）または残す（未生成の場合）
+- [ ] TARGET_KW / READER / ANSWER / TAKEAWAY コメントを削除（主KWは KW DB の該当行に記録済みであることを確認）
 
 ### Step 3: 本番配置
 

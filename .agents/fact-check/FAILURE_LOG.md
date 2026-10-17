@@ -57,3 +57,17 @@
   - `ts(6196)` / `ts(80007)` / `ts(7016)` 未使用型・不要な await・型定義なしモジュール（`scripts/*.js`）
   - `astro(4000)` `<script type="application/ld+json" set:html>` に `is:inline` 明示を推奨するヒント（`SinglePost.astro` / `Layout.astro` / `CourseLayout.astro`。JSON-LD なので処理不要、挙動は正しい）
   - これらを「エラーがある」と誤認して調査を始めないこと。hint 件数が増減した場合のみ差分を確認する
+
+### [2026-10-17] 単一改行のみで書いた本文が描画時に1段落へ結合される
+- **Context**: 教員向けコラム `method-ai-test-creation-safe-workflow` のドラフト作成（新ルール適用の初回）
+- **Failure**: 「1〜2文で改行」ルールに従い、文ごとに単一の改行（空行なし）で折り返して本文を書いた
+- **Error**: このサイトは remark-breaks 未導入で、Markdownの単一改行は空白として扱われる。描画すると複数の文が1段落に結合され、文字が詰まって読みづらくなる（ユーザー指摘）
+- **Correction**: コードフェンス・表・リスト以外で連続する地の文の行の間に空行を挿入（61箇所）。CLAUDE.md の改行ルール、`post_writer.md` ルール11、`/check-draft` 3.5、`/new-post` 手順6に「改行は空行で入れる」を明記
+- **Lesson**: 「改行」は描画結果で考える。本文の折り返しは必ず空行（段落区切り）で入れる。既存の公開記事にも同じ書き方が残っている可能性がある
+
+### [2026-10-17] 改行コードの混在（CRLF/LF）がたびたび発生 → LF を正規に制定
+- **Context**: 公開記事161件の段落区切り一括修正の際、改行コードが混在したファイルでスクリプトが全行を CRLF にそろえてしまい、差分が全行に及んだ（いったん戻して行ごとの改行を保持して再適用）
+- **Failure**: リポジトリに `.gitattributes` がなく、追跡ファイルのうち CRLF 139件・混在 41件が存在していた。`.editorconfig` は `lf` 指定だったが強制力がない
+- **Cause**: Windows の Python はテキストモードで書き込むと `\n` を `\r\n` に変換する（例: `.workspace/scripts/add_lastmod.py`）。エディタや外部のAIツールで編集したファイルも CRLF になりやすい
+- **Correction**: 正規を LF に決定。`.gitattributes`（`* text=auto eol=lf`＋バイナリ指定）を追加し、CRLF/混在の追跡ファイル180件を LF に変換。`add_lastmod.py` に `newline='\n'` を追加。ルールを CLAUDE.md「改行コード」節に明記し、`/check-draft` に確認項目を追加
+- **Lesson**: ファイルを書くスクリプトでは改行コードを明示する（Python は `newline='\n'`）。一括加工の前に `git ls-files --eol` で対象の改行コードを確認する

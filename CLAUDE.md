@@ -48,6 +48,7 @@
 | タスク                                                 | 参照スキル                           |
 | ------------------------------------------------------ | ------------------------------------ |
 | 記事執筆・フレームワーク選定（BEAF/QUEST/PASONA）      | `.agents/post_writer.md`             |
+| 読者セグメント（年齢層×動機×学習段階）・流入チャネル    | `.agents/reader_segments.md`         |
 | 資格クエリ拡張施策（資格Hub記事の新規作成）            | `.agents/cert_hub_template.md`       |
 | 横展開資格のKW調査・記事企画（宅建・簿記・MOS等）      | `.agents/cert_keyword_db.md`         |
 | 新規資格のニッチKW抽出（資格名×パターン×競合占拠度実査） | `.agents/kw_pattern_research.md`     |
@@ -82,9 +83,12 @@
 1. 要件確認: .workspace/.task/ の該当TODOを Read
 2. スキルロード: post_writer.md + category_rules.md を Read（並列可）
 3. ナレッジ参照: .workspace/data-set/ から関連データを Read（横展開資格は cert-keyword-db/ を優先）
-4. 下書き作成: .workspace/draft/ に Write
-5. 本番移行: .agents/workflows/post-complete.md の手順を実行
+4. ターゲットKW・読者確定: post_writer.md「Step 0」と reader_segments.md に従い、ロングテールKWを1つ決め、TARGET_KW / READER / ANSWER / TAKEAWAY とタイトルを確定
+5. 下書き作成: .workspace/draft/ に Write
+6. 本番移行: .agents/workflows/post-complete.md の手順を実行
 ```
+
+> **記事方針（2026-10-17〜）**: メインKW（`{資格名} 勉強時間` 等）は大手に勝てないため、Hub以外の新規記事は「1記事＝1ロングテールKW」で書く。タイトルの前半に主KWを入れる。リードは結論を言い切らず「答えの方向性＋読後の約束」で興味をつなぎ、読者が最後まで読んで知識を得て納得できる構成にする。詳細は `.agents/post_writer.md` Step 0・`.agents/reader_segments.md`
 
 > **スラッシュコマンド**: `/new-post {トピック}` で手順1〜4を自動展開
 
@@ -150,13 +154,13 @@
 ---
 publishDate: 2026-01-01T00:00:00Z # 初回公開日（一度設定後、変更禁止）
 lastmod: 2026-01-01 # 最終更新日（編集のたびに当日の日付へ必ず更新）
-title: '記事タイトル（30〜40文字推奨）'
+title: '記事タイトル（30〜40文字推奨。前半に主KW）'
 excerpt: '概要（約100文字）'
 image: '~/data/post/{category}/{slug}/cover.jpg'
 category: 'method' # trend / method / career / app / theory のいずれか
 tags: ['タグ1', 'タグ2', 'タグ3'] # 3〜5個、tag_rules.md の正規タグ名を使用
 draft: false
-toc: true # 新規記事は必須。冒頭の結論先出しと合わせて読了率改善のため設定
+toc: true # 新規記事は必須。リードで興味をつなぎつつ、答えの節へ直接飛べるようにするため設定
 persona: 'IT初学者' # ターゲット読者（例: 30代未経験転職希望者）
 knowledge:
   examId: 'it-passport' # 試験ID（it-passport / sg / fe 等）
@@ -188,7 +192,7 @@ appId: '{app-slug}' # src/apps/ 下のディレクトリ名（必須）
   - **例外（2026-07-18追記）**: 見出し内で特定の語句・フレーズを引用・強調する目的（例: 世間で言われる言い回しの引用、A/Bの選択肢の提示）で部分的に `「」` を使うのは許可する。例: `## なぜ「冷凍機械責任者はいらない」と言われるのか`、`## 「必須」「歓迎」「優遇」を正しく読み解く3つの視点`。禁止されるのは見出し全体を丸ごと引用符で囲むケースのみ
   - なお `.agents/post_writer.md` ルール8の `### AI活用で専任講師を月額20ドルで雇う感覚` 見出しは固定フレーズのため、この例外に関わらず引き続き無括弧を厳守する
 - **bold密度**: 1段落あたり1〜2個が上限。同じキーワードを同記事内で重複してboldしない
-- **改行**: 1〜2文で改行。3行超えのブロックを作らない
+- **改行**: 1〜2文で改行。3行超えのブロックを作らない。**改行は必ず空行（段落区切り）で入れる**。このサイトは単一改行を `<br>` にしない（remark-breaks 未導入）ため、空行なしで行を続けると描画時に1段落へ結合され、文字が詰まって読みづらくなる（コードフェンス内・表・リストは対象外）
 - **水平線**: frontmatter直後と「まとめ」セクション直前のみ `---` を使用
 
 ### Page Bundle 構造（必須）
@@ -287,6 +291,14 @@ Read(.workspace/data-set/kw-pattern-library.md)
 `.agents/fact-check/FAILURE_LOG.md` と `REGEX_LIBRARY.md` を必ずレビューして既知の失敗パターンを回避すること。
 
 ---
+
+## 改行コード（2026-10-17制定）
+
+- **正規は LF**。対象はリポジトリ内のすべてのテキストファイル（md / mdx / json / ts / tsx / astro / css / csv 等）。CRLF・混在は禁止
+- 強制の仕組み: `.gitattributes`（`* text=auto eol=lf`）・`.editorconfig`（`end_of_line = lf`）・Prettier（既定の `endOfLine: "lf"`）
+- **スクリプトでファイルを書くとき**: Windows の Python はテキストモードで `\n` を `\r\n` に変換する。必ず `open(path, 'w', encoding='utf-8', newline='\n')` を指定する。Node.js は文字列に `\r\n` を入れない（`os.EOL` を使わない）
+- **既存ファイルを加工するとき**: 読み込みは改行を保持したまま扱い（Python は `newline=''`）、改行コードを勝手に変換しない
+- 確認コマンド: `git ls-files --eol | grep -E "w/(crlf|mixed)"`（何も出なければOK）
 
 ## 既知の落とし穴
 
