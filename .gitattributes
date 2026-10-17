@@ -1,0 +1,20 @@
+# Line endings: LF is canonical for every text file (2026-10-17)
+# Git stores and checks out text files as LF regardless of OS / core.autocrlf.
+* text=auto eol=lf
+
+# Binary files: never convert
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.avif binary
+*.ico binary
+*.pdf binary
+*.woff binary
+*.woff2 binary
+*.ttf binary
+*.otf binary
+*.mp3 binary
+*.mp4 binary
+*.zip binary
