@@ -118,6 +118,21 @@ tags:
   - **実装方法**: `import MermaidDiagram from '~/apps/mermaid-diagram/MermaidDiagram'` と `import MermaidStyles from '~/components/common/MermaidStyles.astro'` を追加し、章冒頭付近に `<MermaidStyles />` を1回配置。図は `<MermaidDiagram client:load chart={`flowchart TB ...`} caption="図のタイトル" />` の形で該当する解説パラグラフの直後に置く（KaTeXと同じ「使うページにだけimportする」方針。CSSはスマホ幅の横スクロール対応込みで`MermaidStyles.astro`に分離済み、ダークモード切り替えにも自動追従する）
 - 既存記事へのリンクはルート相対（`/theory/xxx/`）
 
+### 3-2. 隣の席コメント（筆者の callout）（2026-10-19追加）
+
+20時間で学びが完了するとは考えていない。だから筆者が章を実際に読み、わかりにくい所・間違えやすい所に「隣の席の人に『ここわかりにくいよね？』と話しかける」感覚のコメントを入れ、読者が一人で抱え込まずに読み進められるようにする。
+
+- **書き方**: 章のアウトラインや本文に Obsidian 形式の callout を書く（import不要。`learnerCalloutRemarkPlugin` が「筆者」の吹き出しに変換する）
+  - `> [!forAI]` AIへの指示（読者には表示されない。AIが本文に反映したら削除）
+  - `> [!exp]` 実際にやった感想（緑の吹き出し・「やってみて思ったこと」）
+  - `> [!question]` 出題に対する深掘りの問い（青の吹き出し・「この問題、ここが気になる」）。直後か次の節に答えへの道筋を置く
+  - `> [!think]` 疑問に思ったこと（黄の控えめなメモ・「ここ、引っかからない？」）
+  - exp / question は出題に対する筆者のリアクションが主体なので、目立つ吹き出しで表示する。章末チェックや該当問題・解説の直後に置く
+  - `> [!think] ラベル` のように同じ行に書いた文は、次の行に本文が続くときはラベル、1行だけなら本文になる
+- **中身は筆者の実体験のみ**。AIは exp/think/question を創作しない。AIの仕事は、その callout に合わせて周囲の解説を直すこと（`.agents/post_writer.md` Step 0-5）
+- **密度**: 1節（H2）につき最大1個。目安は1章2〜4個
+- **進捗**: [`../.task/course-seat-notes.md`](../.task/course-seat-notes.md) で章ごとに管理
+
 ## 4. 問題データの規約
 
 | 種別 | ファイル | 問数 | field |

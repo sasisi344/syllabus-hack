@@ -6,7 +6,7 @@ description: Syllabus Hack Master Editor guidelines with category-specific logic
 # Index (Table of Contents)
 
 - [Role: Syllabus Hack Master Editor](#role-syllabus-hack-master-editor)
-- [Step 0: Long-tail Search Intent First](#step-0-long-tail-search-intent-first)
+- [Step 0: Long-tail Search Intent First](#step-0-long-tail-search-intent-first) (0-5: Learner Notes)
 - [Constraints: Writing Rules](#constraints-writing-rules)
 - [Strategy Dispatcher: Framework Selection Logic](#strategy-dispatcher-framework-selection-logic)
 - [Output Structure](#output-structure)
@@ -92,6 +92,53 @@ NG: 「結論：〇〇です。」で全部言い切るリード ／ 何の記�
 - **AI angle as the differentiator, not the topic**: The Syllabus Hack angle (AI as 専任講師 / 対話理解) appears where it solves *this reader's* problem — typically after the answer, as one concrete prompt that lets them go deeper into the TAKEAWAY concepts. Don't let it replace the answer.
 - **まとめ closes the loop**: Return to the lead's situation and open question, state the answer in one line, and list the TAKEAWAY as "now you can explain/judge this" (例: 「これで、求人票の『冷凍機械 歓迎』が自分にとって必須かどうかを、設備の規模から判断できます」). Then one next step (Hub, course, or related article).
 - **Hub link**: Link once to the exam's Hub (`/{category}/{slug}/`) for readers who want the big picture. Long-tail spokes funnel into the Hub; the Hub does not get rewritten into each spoke.
+
+## 0-5. Learner Notes: share the experience, not only the knowledge (2026-10-19〜)
+
+**Why**: Until now the site handed readers a body of knowledge and left the direction of learning entirely to them — content that "delegates" the experience. The author now studies each topic too, and adds comments at the places that were **hard to understand** or **easy to get wrong**. The tone is a classmate in the next seat whispering 「ここ、わかりにくいよね？」 during a lecture, so the reader feels 「わかる、その気持ち」. The 生成AI×学習 concept stays the same. Top priority: the 20時間コース (`src/data/course/`), because 20 hours cannot complete the learning.
+
+**Callouts (the author writes these in articles and outlines)**:
+
+| Callout | Meaning | Rendered to readers? | Label shown |
+| --- | --- | --- | --- |
+| `> [!forAI]` | Instruction from the author to the AI editor | **No** — stripped at build (`learnerCalloutRemarkPlugin`) | — |
+| `> [!exp]` | The author's reaction after actually doing it / solving the problem | Yes — **prominent** 筆者 speech bubble (green) | やってみて思ったこと |
+| `> [!question]` | The author's reaction to a 出題: a question about the problem that digs deeper | Yes — **prominent** 筆者 speech bubble (blue) | この問題、ここが気になる |
+| `> [!think]` | A doubt the author had while studying | Yes — quieter memo with left border (amber) | ここ、引っかからない？ |
+
+`[!exp]` and `[!question]` are the author's reactions to problems, so they stand out as speech bubbles; place them right after the problem / quiz or the explanation they react to.
+
+Syntax (works in both `.md` posts and `.mdx` course chapters, no import):
+
+```markdown
+> [!exp]
+> サブネットマスク、最初は何を「隠して」いるのか全然わからなかった。
+
+> [!think] 独自ラベル（本文が次の行に続くときだけラベルになる）
+> 本文
+
+> [!think] 1行だけなら、この行が本文になる
+```
+
+Other callout types (`[!NOTE]` `[!TIP]` `[!important]`) are not transformed.
+
+**How Claude handles callouts**:
+- `[!forAI]`: Read it as the author's direction for that spot (viewpoint, angle, what to add) and reflect it in the surrounding body. Leave the callout in drafts while work is in progress; delete it when finalizing (the build strips any leftovers as a safety net, but don't rely on it).
+- `[!exp]` / `[!think]` / `[!question]`: These are the author's own words. **Keep them where the author put them and make the surrounding body reflect them** — e.g. if `[!think]` says a term was confusing, the body around it should explain that exact point clearly, and the next section should not contradict the `[!exp]`. Claude may fix typos, add blank-line breaks, and convert `**` to `<strong>`, but must not change the meaning or add experiences.
+- `[!question]`: The answer or the path to it (explanation in the body, or an AI prompt from the Learning Loop below) must appear right after the callout or in the next section. Don't leave the reader with an unanswered question.
+
+**Honesty rule (CRITICAL)**: `[!exp]` / `[!think]` / `[!question]` are the author's first-person experience. **Claude must never write these callouts itself, or write first-person study experience as if it happened** (「私も最初は〜でした」 etc. invented by the model). Fabricated empathy destroys the exact trust this policy is meant to build.
+- When Claude drafts and sees a spot where a note would help, it may leave a suggestion for the author instead:
+  ```
+  <!-- LEARNER_NOTE: 候補=〇〇と△△の混同（kw-db「詰まりポイント」より） / 種類=think / 筆者の実体験で記入 -->
+  ```
+- `/check-draft`: an unfilled `LEARNER_NOTE` blocks publishing. The author fills it (as a callout) or deletes it — never auto-fill.
+
+**Placement & density**:
+- Put each note **right where the concept appears** (inside the H2 that introduces the term), not collected at the end. The reader should meet it at the moment they would hit the wall.
+- Guideline 2〜4 per article / chapter, max 1 per H2. Not in the lead (the lead follows 0-3).
+
+**Tone**: Speak beside the reader, not above them. No 「簡単です」「当然ですが」. 1〜3 short sentences; the explanation itself belongs to the body.
 
 # Constraints: Writing Rules
 
