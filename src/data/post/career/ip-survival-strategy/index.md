@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-03-08T00:00:00Z
-lastmod: 2026-07-10
+lastmod: 2026-10-20
 title: ITパスポート「生存戦略」— 9割の社会人が知らない、ITを使いこなす技術
 excerpt: ITパスポートは「ただの暗記科目」ではありません。DX時代のビジネスにおいて、ITを「武器」に変えるための戦略的リテラシーの身につけ方を解説。
 persona: 非IT職のビジネスパーソン、就活・転職を控えた学生
@@ -71,7 +71,7 @@ ITパスポートの試験範囲は、大きく3つに分かれます。
 
 - [<strong>ITパスポートは「恥ずかしい」資格なのか？2026年の市場価値と現実</strong>](/trend/it-passport-shame-debate/)
 - [<strong>経済学ゼロからでも解ける！ストラテジ系をAIの「たとえ話」で攻略する技術</strong>](/method/ip-strategy-ai-hack/)
-- [<strong>スキマ時間だけで合格！スマホアプリをフル活用した最短ルート学習法</strong>](/method/smartphone-study-guide/)
+- [<strong>ITパスポートのスマホ勉強法｜スキマ時間の長さで変えるアプリとAIの使い方</strong>](/method/smartphone-study-guide/)
 - [<strong>NotebookLMで用語を自分事化する最強の学習法</strong>](/method/notebooklm-features-guide/)
 
 ---

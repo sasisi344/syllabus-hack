@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-05-31T00:00:00Z
-lastmod: 2026-10-03
+lastmod: 2026-10-20
 title: 'ITパスポート完全攻略ガイド｜AI時代に最初の一手としてこれを選ぶ理由'
 excerpt: 'リスキリング・企業の最低限IT資格化・生成AI時代の入口として注目されるITパスポート。なぜ今この資格なのかという背景から合格手順・関連記事インデックスまで網羅したハブガイドです。'
 image: '~/data/post/method/itp-hub/cover.jpg'
@@ -148,7 +148,7 @@ ITパスポートの「プロジェクトマネジメント」を学び始めま
 - [ChatGPT・生成AIで合格する全手順](/method/chatgpt-itpassport-ai-complete-guide/) — AI活用の具体的なプロンプトマップ
 - [直前10日の逆転合格術](/method/itp-10-days-panic-hack/) — 試験直前の集中プランと100個のキーワード即チェックリスト
 - [独学・AI学習・通信講座の合格ルート比較](/method/it-passport-study-route-comparison/) — タイプ別の最短ルート診断
-- [スマホだけで合格する完全ガイド](/method/smartphone-study-guide/) — PCなし・スキマ時間での学習設計
+- [ITパスポートのスマホ勉強法｜スキマ時間の長さで変えるアプリとAIの使い方](/method/smartphone-study-guide/) — スキマ時間の長さ別にアプリとAIを使い分ける
 - [「全力捨て問」戦略](/method/ip-discard-strategy/) — 社会人が1週間で受かるための取捨選択の技法
 - [ITパスポート NotebookLM勉強法](/method/notebooklm-ip-study-hack/) — シラバスと過去問で用語の自分事化から分野別の出題まで回す手順
 - [NotebookLM資格試験活用ガイド](/method/notebooklm-features-guide/) — 音声・マインドマップなど機能全体の使い方
@@ -299,7 +299,11 @@ A: 優先順位は①セキュリティ攻撃名10種②ストラテジ系頻出
 
 <strong>Q: スマートフォンのみでの学習は可能ですか？</strong>
 
-A: 可能。テキスト閲覧・AIとの対話・過去問アプリがすべてスマホ対応している。PCが必要なのは申し込み時のCBTS登録のみだ。[スマホだけで合格する完全ガイド](/method/smartphone-study-guide/)に詳細な学習設計を掲載している。
+A: 日々の勉強は、ほぼスマホで進められる。用語の確認・AIとの対話・過去問アプリは、どれもスマホに対応している。
+
+ただし、試験当日はPCで解くCBT方式だ。全体像をつかむ最初の段階と模擬試験だけはPCやタブレットを使うと、本番の画面にも慣れられる。
+
+スキマ時間の長さ別の進め方は、[ITパスポートのスマホ勉強法｜スキマ時間の長さで変えるアプリとAIの使い方](/method/smartphone-study-guide/)で紹介している。
 
 ---
 

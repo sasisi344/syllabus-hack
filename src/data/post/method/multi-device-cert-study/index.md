@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-04-26T00:00:00Z
-lastmod: 2026-07-12
+lastmod: 2026-10-20
 title: 'スマホ・タブレット・PCをどう使い分ける？IT資格学習の最適デバイス戦略'
 excerpt: '資格学習はデバイス選びで速度が変わる。スマホ・タブレット・PCの得意領域を整理し、試験種別と生活リズムに合わせた最適配分と記事導線を一本化する。'
 image: '~/data/post/method/multi-device-cert-study/cover.jpg'
@@ -81,7 +81,7 @@ ITパスポートのようにマーク式中心で範囲が整理されている
 
 Syllabus Hackでは、各デバイスを最大限に活用するための詳細なガイド記事も提供しています。
 
-- [ITパスポートはスマホ学習で合格できる？スキマ時間で進める最短ルート](/method/smartphone-study-guide/)
+- [ITパスポートのスマホ勉強法｜スキマ時間の長さで変えるアプリとAIの使い方](/method/smartphone-study-guide/)
 - [PC学習が強い理由。長時間学習で合格率を上げる環境の作り方](/method/pc-study-setup-guide/)
 - [タブレットで学ぶIT資格対策。見やすさ重視の学習設計ガイド](/method/tablet-study-guide/)
 
