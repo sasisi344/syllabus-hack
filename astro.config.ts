@@ -104,6 +104,15 @@ export default defineConfig({
     // Googleにインデックスされている旧URLは /method/ プレフィックス付きだが、従来の定義は
     // ソース・ターゲットともプレフィックス欠落で、実URLは404・生成ページの転送先も404だった。
     // プレフィックスなしキーも過去の生成ページが参照されている可能性があるため残す（ターゲットのみ修正）。
+    // re-content 統合 (2026-10-20): ITP→APロードマップは ap-hub に統合、学習ルート比較は itp-hub と重複のため削除
+    '/career/it-passport-to-ap-roadmap/': '/method/ap-hub/',
+    '/method/it-passport-study-route-comparison/': '/method/itp-hub/',
+    // re-content 統合 (2026-10-20): セキュマネ総論は backoffice-sg-career-hack と重複のため統合
+    '/career/backoffice-sg-strategy/': '/career/backoffice-sg-career-hack/',
+    // re-content 統合 (2026-10-20): 非エンジニアのITパスポート活用は itp-hub のキャリア戦略節に統合
+    '/career/itp-non-engineer-career-strategy/': '/method/itp-hub/',
+    // re-content 統合 (2026-10-21): 生成AI分野のNotebookLM出題は notebooklm-ip-study-hack に統合
+    '/method/genai-problem-mastery-notebooklm/': '/method/notebooklm-ip-study-hack/',
     // CBT系統合 (2026-06-10): cbt-impact-advanced-exams の固有情報をマージ
     '/cbt-impact-advanced-exams/': '/method/cbt-2026-syllabus-complete-guide/',
     '/method/cbt-impact-advanced-exams/': '/method/cbt-2026-syllabus-complete-guide/',

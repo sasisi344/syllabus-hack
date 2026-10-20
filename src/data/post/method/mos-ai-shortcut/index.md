@@ -1,7 +1,7 @@
 ---
 publishDate: 2026-05-30T00:00:00Z
-lastmod: 2026-07-10
-title: 'MOS合格を最短化するAI学習法——「役に立たない」と言われる前にやること'
+lastmod: 2026-10-20
+title: 'MOSのAI学習法——「役に立たない」と言われる前にやること'
 excerpt: '「MOS 役に立たない」という検索をする前に知っておくべき、AI時代のMOS活用戦略と独学20時間で合格レベルに到達するプロンプト活用法を解説します。'
 image: '~/data/post/method/mos-ai-shortcut/cover.jpg'
 category: 'method'
@@ -215,4 +215,4 @@ AccessとOutlookは、特定の業務環境を前提とした資格のため、�
 
 ---
 
-> この記事は [MOS（Microsoft Office Specialist）完全攻略ガイド](/method/mos-hub/) の一部です。
+> この記事は [MOS（Microsoft Office Specialist） 合格ロードマップ](/method/mos-hub/) の一部です。

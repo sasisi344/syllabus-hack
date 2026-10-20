@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-03-08T00:00:00Z
-lastmod: 2026-07-10
+lastmod: 2026-10-20
 title: 【福岡編】スタートアップ特区×ITで攻める文系就活ハック
 excerpt: 福岡市の「グローバル創業・雇用創出特区」を背景に、文系学生がIT資格（IP/FE）をどう武器にするか。天神・博多のコワーキング活用術とともに解説。
 persona: 福岡県内（特に福岡市）での就職を目指す文系大学生
@@ -44,7 +44,7 @@ metadata:
 
 まずは、福岡独自のスタートアップ事情や就活ハックを<strong>[地域特化型のキャリアハック・ハブ](/career/regional-it-career-hub/)</strong>で確認してください。
 
-- <strong>STEP 1</strong>: [ITパスポート最短合格ロードマップ](/method/itp-hub/)で基礎知識をインプット。
+- <strong>STEP 1</strong>: [ITパスポート 合格ロードマップ](/method/itp-hub/)で基礎知識をインプット。
 - <strong>STEP 2</strong>: [NotebookLMでの音声学習](/method/notebooklm-features-guide/)を活用し、地下鉄やバスの移動時間をハック。
 - <strong>STEP 3</strong>: 資格を武器に、天神・博多の「勢いのあるITベンチャー」のインターンや早期選考へエントリー。
 

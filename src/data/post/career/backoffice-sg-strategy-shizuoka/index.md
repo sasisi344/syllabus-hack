@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-03-08T00:00:00Z
-lastmod: 2026-07-10
+lastmod: 2026-10-20
 title: 【静岡編】中堅メーカーの事務職がセキュマネで市場価値を上げる方法
 excerpt: 静岡県に多い中堅・中小製造業において、総務や経理などのバックオフィス層がSG（セキュマネ）をどう実務とキャリアに活かすか。地域特化の戦略を解説。
 persona: 静岡県内の中堅製造業で働くバックオフィス・事務職
@@ -47,7 +47,7 @@ metadata:
 
 まずは、静岡の製造業や地元有力企業に強い<strong>[地域特化型のキャリアハック・ハブ](/career/regional-it-career-hub/)</strong>で、自分の住んでいるエリアの成功事例を確認してみてください。
 
-- <strong>STEP 1</strong>: [セキュマネ最短合格ロードマップ](/method/sg-beginner-roadmap/)で基礎を固める。
+- <strong>STEP 1</strong>: [セキュマネは未経験だと難しいか](/method/sg-beginner-roadmap/)で基礎を固める。
 - <strong>STEP 2</strong>: [NotebookLMでの音声学習](/method/notebooklm-features-guide/)を導入し、車通勤の時間をハック。
 - <strong>STEP 3</strong>: 資格を武器に、浜松や静岡市内の「隠れた優良BtoB企業」へのキャリアアップを狙う。
 
@@ -73,8 +73,8 @@ metadata:
 
 <strong>関連リンク</strong>:
 - [【全国版】地方エンジニア・事務職のための「地域別キャリアハック」まとめ](/career/regional-it-career-hub/)
-- [バックオフィスの武器になる！セキュマネ取得で市場価値を高める理由（総論）](/career/backoffice-sg-strategy/)
+- [バックオフィス職がSGで年収を上げる道筋（総論）](/career/backoffice-sg-career-hack/)
 
 ---
 
-> この記事は [情報セキュリティマネジメント試験（SG）完全攻略ガイド](/method/sg-hub/) の一部です。
+> この記事は [情報セキュリティマネジメント試験（SG） 合格ロードマップ](/method/sg-hub/) の一部です。

@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-09-19
+lastmod: 2026-10-20
 publishDate: 2026-03-31T00:00:00Z
 title: "開発と運用の融合！DevOps（デブオプス）でITサービスを高速化する仕組み"
 excerpt: "「速く作りたい開発」と「安定させたい運用」が手を取り合う。DevOpsの目的、CI/CDなどの技術要素まで、ITパスポートの重要点を網羅。"
@@ -46,7 +46,7 @@ metadata:
 </li>
 </ol>
 
-<h2>【AIハック】生成AIで最速暗記</h2>
+<h2>【AIハック】生成AIで覚える</h2>
 <p>AIに、DevOpsを身近な商売に例えて解説させましょう。</p>
 
 <div class="prompt-box">

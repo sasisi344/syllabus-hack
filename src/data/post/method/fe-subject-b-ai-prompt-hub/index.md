@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-04-15T00:00:00Z
-lastmod: 2026-07-10
+lastmod: 2026-10-20
 title: 'FE科目Bを生成AIで攻略するプロンプト集｜場面別・ツール別インデックス【ChatGPT・Gemini・Claude】'
 excerpt: '基本情報技術者試験・科目B（疑似言語・アルゴリズム）をAIで攻略するプロンプトを場面別（初見/追試/時間切れ）・ツール別に整理。既存4記事の読む順と、CBT本番で即使える一文プロンプトも収録。'
 image: '~/data/post/method/fe-subject-b-ai-prompt-hub/cover.jpg'
@@ -29,7 +29,7 @@ metadata:
 - <strong>[疑似言語をAIで動くコードに変換](/method/fe-pseudo-code-ai-hack/)</strong>（理解の芯）
 - <strong>[Geminiプロンプト集（基本情報向け）](/method/gemini-cert-complete/)</strong>（Gemini中心ルート）
 
-ITパスポートの全手順マップは <strong>[ChatGPTでITパスポートに合格する全手順](/method/chatgpt-itpassport-ai-complete-guide/)</strong>。
+ITパスポートの全手順マップは <strong>[生成AIをコーチにしてITパスポートに合格するには](/method/chatgpt-itpassport-ai-complete-guide/)</strong>。
 
 ---
 
@@ -113,7 +113,7 @@ while〜endwhile、for〜to〜endfor、if〜elseif〜else〜endif、
 
 一度解けた問題でも、少し変形すると解けない——これは「手順の暗記」が起きているサインだ。
 
-本質的な理解に変えるには、<strong>同じアルゴリズムを違う問題形式で何度も解く</strong>のが最短の方法だ。
+本質的な理解に変えるには、<strong>同じアルゴリズムを違う問題形式で何度も解く</strong>のが近道だ。
 
 ### プロンプト B-1：類題を無限生成する
 
@@ -269,4 +269,4 @@ CBT画面にはコピペができないため、<strong>事前に問題のアプ
 今日の問題1問から始めよう。AIに投げて、理解まで完結させる習慣が科目Bを制する。
 ---
 
-> この記事は [基本情報技術者試験 完全攻略ガイド](/method/fe-hub/) の一部です。
+> この記事は [基本情報技術者試験 合格ロードマップ](/method/fe-hub/) の一部です。

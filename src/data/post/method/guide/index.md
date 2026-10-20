@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-02-10T00:00:00Z
-lastmod: 2026-09-30
+lastmod: 2026-10-20
 title: シラバスハック学習メソッド：生成AIで資格試験を攻略する
 image: ~/data/post/method/common-cover.png
 excerpt: 当サイトが推奨する「生成AI×シラバス」を活用した学習メソッドの総まとめです。ITパスポートから基本情報技術者まで、効率的な合格戦略を解説します。
@@ -25,7 +25,7 @@ metadata:
 | <strong>Claude</strong> | 長文・PDFの要約・記述式の言語化・添削 | 午後問題のシナリオ全文を扱う、Projectsで文脈を蓄える |
 | <strong>Gemini</strong> | 検索連携・最新情報の当たり付け | IPAの公式発表や直近トレンドを確認したい |
 
-ITパスポートの手順を1本にまとめた柱は <strong>[ChatGPTでITパスポートに合格する全手順](/method/chatgpt-itpassport-ai-complete-guide/)</strong>。基本情報・科目Bのプロンプト索引は <strong>[FE科目Bプロンプトハブ](/method/fe-subject-b-ai-prompt-hub/)</strong>。
+ITパスポートの手順を1本にまとめた柱は <strong>[生成AIをコーチにしてITパスポートに合格するには](/method/chatgpt-itpassport-ai-complete-guide/)</strong>。基本情報・科目Bのプロンプト索引は <strong>[FE科目Bプロンプトハブ](/method/fe-subject-b-ai-prompt-hub/)</strong>。
 
 ## 【重要】2026年、情報処理試験のルールが変わる
 
@@ -41,12 +41,12 @@ ITパスポートの手順を1本にまとめた柱は <strong>[ChatGPTでITパ�
 
 ### 【Method】最新のAI学習法を極める
 シラバス（試験範囲）をNotebookLMなどのAIに読み込ませ、あなた専用の <strong>「24時間使い放題の家庭教師」</strong> を作り出す独自手法です。
-- <strong>[【保存版】NotebookLM×シラバス学習ハック完全ガイド](/method/notebooklm-ai-workflow-guide/)</strong>
+- <strong>[【保存版】NotebookLM×シラバス学習ハックガイド](/method/notebooklm-ai-workflow-guide/)</strong>
 - <strong>音声学習</strong>: [公式資料を「ポッドキャスト」に変えて隙間時間をハック](/method/notebooklm-features-guide/)（学生・社会人別の使い方つき。2026年7月にGemini Notebookへ改称）
 - <strong>演習ツール</strong>: [AIを使って「自分専用のドリル」を自動生成する](/method/notebooklm-features-guide/)
 
-### 【Strategy】試験別・最短攻略ロードマップ
-ITパスポート、セキュマネ、基本情報の3大試験に対し、AIをフル活用した最短ルートを提示しています。
+### 【Strategy】試験別・合格ロードマップ
+ITパスポート、セキュマネ、基本情報の3大試験に対し、AIをフル活用した進め方を提示しています。
 - <strong>[ITパスポート](/tag/itパスポート)</strong>: 「広大な範囲をAIで圧縮する」戦略。
 - <strong>[情報セキュリティマネジメント（SG）](/app/sg-quiz/)</strong>: 事例からリスクを抽出する「実務脳」の構築。
 - <strong>[基本情報技術者（FE）](/app/fe-quiz/)</strong>: 最難関の「アルゴリズム」をAIで視覚化・デバッグ。
@@ -66,7 +66,7 @@ ITパスポート、セキュマネ、基本情報の3大試験に対し、AIを
 1.  <strong>汎用性の高いスキル</strong> :
     試験勉強を通じて身につけた「AIへの指示力（プロンプティング）」や「データ解析力」は、合格後の実務でそのまま通用する武器になります。
 2.  <strong>一石二鳥の学習</strong> :
-    資格取得をしながら、IT業界の最前線で使われる「AIツール」を使いこなす。これこそが、Syllabus Hackが目指す <strong>「実務系エンジニア・事務職」</strong> への最短距離です。
+    資格取得をしながら、IT業界の最前線で使われる「AIツール」を使いこなす。これこそが、Syllabus Hackが目指す <strong>「実務系エンジニア・事務職」</strong> への近道です。
 
 ### ハックの3ステップ
 

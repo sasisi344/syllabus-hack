@@ -1,7 +1,7 @@
 ---
 publishDate: 2026-06-03T00:00:00Z
-lastmod: 2026-07-10
-title: 'Gemini完全ガイド：IT資格試験を攻略するプロンプト集と学習ハック【ITP・FE・AP対応】'
+lastmod: 2026-10-20
+title: 'GeminiでIT資格試験を勉強する方法｜プロンプト集と学習ハック【ITP・FE・AP対応】'
 excerpt: 'GeminiでIT資格試験を攻略する決定版ガイド。試験別プロンプト集・記憶術・FAQ完備。ITパスポート・基本情報・応用情報すべての場面で即使えるコピペ素材を収録。'
 image: '~/data/post/method/common-cover.png'
 category: 'method'
@@ -13,7 +13,7 @@ knowledge:
   type: 'method'
   difficulty: 'beginner'
 metadata:
-  description: 'GeminiでIT資格試験（ITパスポート・基本情報・応用情報）を攻略するプロンプト完全ガイド。試験別プロンプト集・記憶の宮殿ハック・FAQ5選で合格を最短化。5000語超の決定版。'
+  description: 'GeminiでIT資格試験（ITパスポート・基本情報・応用情報）を勉強するためのプロンプトガイド。試験別プロンプト集・記憶の宮殿ハック・FAQ5選で、詰まって立ち止まる時間を減らす方法をまとめます。'
 ---
 
 
@@ -363,4 +363,4 @@ Geminiは「答えを教えるツール」ではなく、<strong>「問いを深
 
 今日の問題1問から始めよう。Geminiに投げて、理解まで完結させる習慣が合格を引き寄せる。
 
-> 試験別の詳細ハブページ: [ITパスポート完全攻略ガイド](/method/itp-hub/) / [基本情報技術者完全攻略ガイド](/method/fe-hub/) / [応用情報技術者完全攻略ガイド](/method/ap-hub/)
+> 試験別の詳細ハブページ: [ITパスポート 合格ロードマップ](/method/itp-hub/) / [基本情報技術者 合格ロードマップ](/method/fe-hub/) / [応用情報技術者 合格ロードマップ](/method/ap-hub/)

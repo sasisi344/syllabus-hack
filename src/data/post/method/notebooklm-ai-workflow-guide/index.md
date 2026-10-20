@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-05-31T00:00:00Z
-lastmod: 2026-07-10
+lastmod: 2026-10-20
 title: 'NotebookLM × 生成AI 資格試験ワークフローガイド｜ChatGPT・Gemini・Claudeと組み合わせる方法'
 excerpt: 'NotebookLMを知識ベースに、ChatGPT/Gemini/Claudeを対話エンジンに使い分ける学習ワークフローを解説。各AIの役割を明確に分けることで、どのモデルを使っても最大の学習効果が出る構造を作ります。'
 image: '~/data/post/method/notebooklm-ai-workflow-guide/cover.jpg'
@@ -187,7 +187,7 @@ Gemini単独でも十分機能します。NotebookLM（Googleのツール）はG
 
 <strong>Q: プロンプトを毎回考えるのが大変です</strong>
 
-[Gemini完全ガイド](/method/gemini-cert-complete/)や[ChatGPT完全ガイド](/method/chatgpt-cert-complete/)に試験別プロンプトテンプレートをまとめています。コピーして使ってください。
+[GeminiでIT資格試験を勉強する方法](/method/gemini-cert-complete/)や[ChatGPTで資格試験の勉強をする方法](/method/chatgpt-cert-complete/)に試験別プロンプトテンプレートをまとめています。コピーして使ってください。
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 publishDate: 2026-06-09T00:00:00Z
-lastmod: 2026-07-10
-title: 'CCNA完全攻略ガイド｜合格率20%の壁をAIで突破する最短ロードマップ'
+lastmod: 2026-10-20
+title: 'CCNA 合格ロードマップ｜合格率20%の壁をAIでどう越えるか'
 excerpt: '求人数2.5万件・合格率20〜30%のCCNA（200-301）。ネットワーク理論からサブネット計算・ルーティング設計まで、AIで体系化して4〜6ヶ月で合格するための全手順をまとめた。'
 image: ~/data/post/method/ccna-hub/cover.jpg
 category: 'method'
@@ -14,12 +14,12 @@ knowledge:
   syllabusRef: 'CCNA 200-301'
   difficulty: intermediate
 metadata:
-  description: 'CCNA（200-301）完全攻略ガイド。試験科目・難易度・合格率・最短ロードマップ・AI活用プロンプト・キャリアへの繋げ方まで、インフラ資格のスタートラインを一本にまとめます。'
+  description: 'CCNA（200-301）の合格ロードマップ。試験科目・難易度・合格率・学習の進め方・AI活用プロンプト・キャリアへの繋げ方まで、インフラ資格のスタートラインを一本にまとめます。'
 ---
 
 CCNA（Cisco Certified Network Associate）は、ネットワークエンジニアのキャリアにおける最初の実力証明となる資格だ。
 
-求人掲載数は常時<strong>2〜2.5万件以上</strong>。「CCNA必須」「CCNA歓迎」の表記が多く、未経験から書類選考を突破するための最短経路として機能する。
+求人掲載数は常時<strong>2〜2.5万件以上</strong>。「CCNA必須」「CCNA歓迎」の表記が多く、未経験から書類選考を突破するための足がかりとして機能する。
 
 合格率は<strong>20〜30%</strong>と高難度だが、学習方法が明確なため適切に準備すれば独学合格は十分現実的だ。
 
@@ -89,7 +89,7 @@ OSI参照モデル・TCP/IP・IPアドレス設計・ルーティング・スイ
 
 ---
 
-## 最短合格ロードマップ（4〜6ヶ月プラン）
+## 合格ロードマップ（4〜6ヶ月プラン）
 
 ### Month 1：ネットワーク基礎とIPアドレス設計
 
@@ -158,10 +158,10 @@ CCNAの「IPコネクティビティ」でOSPFが理解できません。
 | 記事 | カテゴリ | 内容 |
 |-----|--------|-----|
 | [CCNA合格率20%でも独学で受かる人の共通点](/method/ccna-ai-hack/) | method | シラバスの出題密度マップの作り方 |
-| [文系・未経験からCCNA合格ロードマップ](/method/ccna-liberal-arts-roadmap/) | method | 6ヶ月の具体的な学習手順 |
+| [CCNAを文系・未経験から6ヶ月で目指す手順](/method/ccna-liberal-arts-roadmap/) | method | 現在地の測り方と6ヶ月の学習手順 |
 | [CCNAに落ちた人が最初にやるべきこと](/method/ccna-fail-comeback/) | method | 敗因分析とリベンジ手順 |
 | [CCNAとAWS SAA、どちらを先に取るべきか](/trend/ccna-vs-aws-saa/) | trend | 学習効率から見た取得順番の論理 |
-| [LPIC・CCNA・AWSを取る順番](/trend/lpic-ccna-aws-order/) | trend | インフラ資格の最短ロードマップ |
+| [LPIC・CCNA・AWSを取る順番](/trend/lpic-ccna-aws-order/) | trend | インフラ資格を取る順番 |
 | [ルーティングプロトコルとは？OSPF・EIGRP理論解説](/theory/ccna-routing-protocols/) | theory | OSPF/EIGRPの動作原理 |
 | [VLANとSTPとは？CCNA理論解説](/theory/ccna-vlan-stp/) | theory | VLAN設計とスパニングツリー |
 | [CCNAで目指すネットワークエンジニアのキャリアパス](/career/ccna-network-engineer-career/) | career | 年収・転職・上位資格ロードマップ |

@@ -1,8 +1,8 @@
 ---
 title: "コアコンピタンス徹底解説！他社に真似できない「核となる強み」の磨き方"
-description: "競合がどれだけ努力しても追いつけない圧倒的な独自性、それが「コアコンピタンス」。IT試験の頻出ポイントと、AIを鏡にして自分自身の『真の強み』を見つける Syllabus Hack 流の自己分析ハック。"
+description: "競合がどれだけ努力しても追いつけない独自性、それが「コアコンピタンス」。IT試験の頻出ポイントと、AIを鏡にして自分自身の『真の強み』を見つける Syllabus Hack 流の自己分析ハック。"
 publishDate: 2026-03-31T00:00:00Z
-lastmod: 2026-07-12
+lastmod: 2026-10-20
 category: "theory"
 tags: ["経営戦略", "コアコンピタンス", "競争優位", "AI自己分析"]
 image: ~/data/post/theory/common-cover.png

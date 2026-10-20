@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-03-08T00:00:00Z
-lastmod: 2026-07-10
+lastmod: 2026-10-20
 title: 【広島編】広電（路面電車）の「揺れ」をリズムに変える暗記ハック
 excerpt: 広島市内のメーカー事務職必見。独特の移動時間をSG（セキュマネ）の暗記時間に変えるコツと、製造業サプライチェーンでの価値向上を解説。
 persona: 広島県内のメーカー（マツダ関連等）で働くバックオフィス・事務職
@@ -47,7 +47,7 @@ metadata:
 
 まずは、広島の製造業やIT企業に強い<strong>[地域特化型のキャリア支援サービス](/career/regional-it-career-hub/)</strong>で、自分の現在の市場価値を確認してみましょう。
 
-- <strong>STEP 1</strong>: [セキュマネ最短合格ロードマップ](/method/sg-beginner-roadmap/)で学習を開始。
+- <strong>STEP 1</strong>: [セキュマネは未経験だと難しいか](/method/sg-beginner-roadmap/)で学習を開始。
 - <strong>STEP 2</strong>: 広電の移動時間を[音声学習](/method/notebooklm-features-guide/)でハック。
 - <strong>STEP 3</strong>: 資格を武器に、マツダ関連企業や地元ITベンチャーへのキャリアアップを狙う。
 
@@ -72,8 +72,8 @@ metadata:
 
 <strong>関連リンク</strong>:
 - [【全国版】地方エンジニア・事務職のための「地域別キャリアハック」まとめ](/career/regional-it-career-hub/)
-- [バックオフィスの武器になる！セキュマネ取得で市場価値を高める理由（総論）](/career/backoffice-sg-strategy/)
+- [バックオフィス職がSGで年収を上げる道筋（総論）](/career/backoffice-sg-career-hack/)
 
 ---
 
-> この記事は [情報セキュリティマネジメント試験（SG）完全攻略ガイド](/method/sg-hub/) の一部です。
+> この記事は [情報セキュリティマネジメント試験（SG） 合格ロードマップ](/method/sg-hub/) の一部です。

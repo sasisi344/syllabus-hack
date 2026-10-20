@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-03-01T00:00:00Z
-lastmod: 2026-09-30
+lastmod: 2026-10-20
 title: 'PDF学習をハックする！「PDF to Text」変換ツールの活用手順'
 excerpt: 'IPAの公式シラバス（PDF）を、AIが理解しやすいテキスト形式に変換。効率的な学習データを作成するための「PDF to Text」ツールの使い方をステップバイステップで解説します。'
 image: ~/data/post/method/common-cover.png
@@ -74,4 +74,4 @@ JSON（JavaScript Object Notation）は、人間にとっても読みやすく�
 
 > [!NOTE]
 > <strong>「データ化」することで、学習の効率は数倍に跳ね上がります。</strong>
-> 単にPDFを読むだけでは得られない、インタラクティブでパーソナライズされた学習体験が、構造化されたデータから生まれます。当サイトの [PDF Syllabus Parser](/app/pdf-to-text/) を、ぜひあなたの学習をハックする強力な武器として活用し、IT資格合格への最短ルートを切り拓いてください。
+> 単にPDFを読むだけでは得られない、インタラクティブでパーソナライズされた学習体験が、構造化されたデータから生まれます。当サイトの [PDF Syllabus Parser](/app/pdf-to-text/) を、ぜひあなたの学習をハックする強力な武器として活用し、IT資格合格への道を切り拓いてください。

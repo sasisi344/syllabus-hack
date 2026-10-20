@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-10-07T00:00:00Z
-lastmod: 2026-10-15
+lastmod: 2026-10-20
 title: '今さら聞けない情報漏えい対策｜相次ぐ流出から自分と会社を守る方法'
 excerpt: '2026年9月〜10月、大規模な情報漏えいが相次いでいます。企業が漏らしたデータは個人では止められません。それでも被害を小さくするために、個人と職場でできる対策を整理します。'
 image: '~/data/post/trend/security-incident-prevention-basics/cover.jpg'
@@ -140,7 +140,7 @@ NHKの報道によると、セキュリティ会社は7月以降に被害が増�
 
 さらに学ぶなら、次の記事が入口になります。
 
-- [情報セキュリティマネジメント（SG）完全攻略ガイド](/method/sg-hub/)
+- [情報セキュリティマネジメント（SG） 合格ロードマップ](/method/sg-hub/)
 - [SG試験の学習ロードマップ](/method/sg-beginner-roadmap/)
 - [セキュリティ対策・暗号・インシデント対応の基礎](/theory/security-controls-crypto-incident-basics/)
 - [ゼロトラストとは](/trend/zero-trust-architecture/)

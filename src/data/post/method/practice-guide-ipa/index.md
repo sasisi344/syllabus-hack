@@ -2,7 +2,7 @@
 title: '【完全版】IPA試験「最強」学習ガイド：ChatGPT／Claude／Geminiで合格をハックする4つのステップ'
 image: ~/data/post/method/common-cover.png
 publishDate: 2026-03-10T00:00:00Z
-lastmod: 2026-07-11
+lastmod: 2026-10-20
 category: method
 tags: ['学習法', 'ChatGPT', 'Claude', 'Gemini', 'SyllabusHack']
 knowledge:
@@ -22,9 +22,9 @@ metadata:
 柱記事へのショートカットは次のとおり。
 
 - <strong>[シラバスハック学習メソッド総まとめ](/method/guide/)</strong>（本サイト全体の地図）
-- <strong>[ChatGPTでITパスポートに合格する全手順](/method/chatgpt-itpassport-ai-complete-guide/)</strong>（IP受験の手順・プロンプトを1本化）
+- <strong>[生成AIをコーチにしてITパスポートに合格するには](/method/chatgpt-itpassport-ai-complete-guide/)</strong>（IP受験の手順・プロンプトを1本化）
 - <strong>[FE科目Bプロンプトハブ](/method/fe-subject-b-ai-prompt-hub/)</strong>（基本情報・科目Bの場面別プロンプト索引）
-- <strong>[新IPA試験を攻略する「最短合格」戦略](/method/new-ipa-exam-study-strategy/)</strong>（2027年からの新体制での区分選びと学習計画）
+- <strong>[新IPA試験の勉強法](/method/new-ipa-exam-study-strategy/)</strong>（2027年からの新体制での区分選びと学習計画）
 
 ---
 
@@ -74,7 +74,7 @@ IPA（情報処理推進機構）が公開するシラバスは、ITパスポー
 
 これこそが、資格そのもの以上に価値がある、あなたの生涯資産になります。
 
-## 【Comparison】ハイブリッド学習こそが最短・最安・最強の選択
+## 【Comparison】ハイブリッド学習が無駄の少ない選択である理由
 
 「AIだけで万全か？」と聞かれれば、答えはNOです。
 
@@ -96,7 +96,7 @@ IPA（情報処理推進機構）が公開するシラバスは、ITパスポー
 
 今、AIを使いこなしながら合格を勝ち取る経験をしておくことは、これからのキャリアにおいて決定的な差となります。
 
-- <strong>STEP 1</strong>: まずは[最短スケジュール](/career/it-passport-to-ap-roadmap/)で自分の目標を定める。
+- <strong>STEP 1</strong>: まずは[ITパスポートから応用情報へ進む順番](/method/ap-hub/)で自分の目標を定める。
 - <strong>STEP 2</strong>: [NotebookLM活用ガイド](/method/notebooklm-features-guide/)でAI教師を起動する。
 - <strong>STEP 3</strong>: 本番に備え、[CBT対応のフルキーボード](/method/typing-speed-cbt/)でタイピング感覚を養う。
 

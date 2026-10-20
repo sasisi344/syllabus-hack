@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-06-09T00:00:00Z
-lastmod: 2026-07-10
+lastmod: 2026-10-20
 title: 'ルーティングプロトコルとは？OSPF・EIGRP・RIPの違いをCCNA試験向けに解説'
 excerpt: 'CCNA（200-301）の最重要領域「IPコネクティビティ」の核心、ルーティングプロトコル。RIP・OSPF・EIGRPの動作原理と違い、ルーティングテーブルの読み方を図解で整理する。'
 image: ~/data/post/theory/common-cover.png
@@ -197,4 +197,4 @@ CCNA試験に向けてRIP・OSPF・EIGRPの違いを整理したいです。
 
 理解が止まった瞬間にAIに「なぜそう動くのか」を聞く習慣をつけることで、暗記量を大幅に減らせる。
 
-→ [CCNA完全攻略ガイドに戻る](/method/ccna-hub/)
+→ [CCNA 合格ロードマップに戻る](/method/ccna-hub/)

@@ -92,4 +92,4 @@ PDFビューアは、 <strong>ダークモード・余白のトリミング・�
 
 デバイスは万能化させず、スマホ・PCと役割を分けるほうが、総合的な合格までの道が短くなる。
 
-スキマ学習の設計は [ITパスポートのスマホ勉強法｜スキマ時間の長さで変えるアプリとAIの使い方](/method/smartphone-study-guide/) を、長時間の模試と環境づくりは [PC学習が強い理由。長時間学習で合格率を上げる環境の作り方](/method/pc-study-setup-guide/) を参照。全体の使い分けは [スマホ・タブレット・PCをどう使い分ける？IT資格学習の最適デバイス戦略](/method/multi-device-cert-study/) に集約している。
+スキマ学習の設計は [ITパスポートのスマホ勉強法｜スキマ時間の長さで変えるアプリとAIの使い方](/method/smartphone-study-guide/) を、長時間の模試と環境づくりは [PC学習の強みは「自分で調べに行ける」こと](/method/pc-study-setup-guide/) を参照。全体の使い分けは [スマホ・タブレット・PCをどう使い分ける？IT資格学習の最適デバイス戦略](/method/multi-device-cert-study/) に集約している。

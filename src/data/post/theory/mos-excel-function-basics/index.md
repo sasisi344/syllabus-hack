@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-07-10T00:00:00Z
-lastmod: 2026-07-10
+lastmod: 2026-10-20
 title: 'MOS Excel頻出関数まとめ｜SUM・VLOOKUP・IFの使い分けを試験範囲で整理'
 excerpt: 'MOS Excel試験で頻出するSUM・VLOOKUP・IF系関数の役割と使い分けを、実務での使用場面とセットで整理します。'
 image: '~/data/post/theory/common-cover.png'
@@ -80,4 +80,4 @@ MOS Excel試験の関数問題は、暗記よりも「この関数は何をす�
 
 集計・条件付き集計・検索・条件分岐という4つのカテゴリで整理すれば、似た関数同士の混同を防げる。
 
-MOS試験全体の攻略法は[MOS完全攻略ガイド](/method/mos-hub/)を参照してほしい。
+MOS試験全体の進め方は[MOS 合格ロードマップ](/method/mos-hub/)を参照してほしい。

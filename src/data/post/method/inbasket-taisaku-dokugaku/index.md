@@ -1,7 +1,7 @@
 ---
 publishDate: 2026-07-18T00:00:00Z
-lastmod: 2026-07-18
-title: 'インバスケット対策は独学でできるか｜アセスメント研修攻略法'
+lastmod: 2026-10-20
+title: 'インバスケット対策は独学でできるか｜アセスメント研修の準備の進め方'
 excerpt: 'インバスケット演習の独学が難しいとされる本当の理由はフィードバック不足。AIとの壁打ちで疑似フィードバックループを作る具体的な方法を解説します。'
 image: '~/data/post/method/inbasket-taisaku-dokugaku/cover.jpg'
 category: 'method'

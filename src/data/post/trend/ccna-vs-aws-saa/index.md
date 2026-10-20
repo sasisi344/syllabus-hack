@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-05-31T00:00:00Z
-lastmod: 2026-10-06
+lastmod: 2026-10-20
 title: 'CCNAとAWS SAAはどっちが先？ネットワーク知識から見た取得順番の正解'
 excerpt: 'CCNAとAWS SAAはどっちを先に取るべきか。ネットワーク未経験ならCCNAが先になる理由を、VPC設計への知識の継承関係から解説し、AWS SAAを先にすべきケースも示します。'
 image: '~/data/post/trend/ccna-vs-aws-saa/cover.jpg'
@@ -29,7 +29,7 @@ metadata:
 
 ---
 
-## 最短で答えを知りたい人へ
+## 先に答えを知りたい人へ
 
 - ネットワーク実務経験なし：<strong>CCNA先行</strong>
 - ネットワーク・Linuxの実務経験あり：AWS SAA先行
@@ -67,7 +67,7 @@ AWS SAAはクラウドアーキテクチャの設計スキルを証明します�
 | 受験料 | Cisco公式で最新額を確認 | 150 USD |
 | 学習時間の目安（ネットワーク未経験） | 150〜200時間 | 100〜130時間 |
 
-CCNAの出題範囲と配点の詳細は[CCNA完全攻略ガイド](/method/ccna-hub/)にまとめています。
+CCNAの出題範囲と配点の詳細は[CCNA 合格ロードマップ](/method/ccna-hub/)にまとめています。
 
 なお、どちらの試験も公式は合格率を公表していません。
 
@@ -249,4 +249,4 @@ CCNAで習得したネットワークの論理体系は、AWS SAAだけでなく
 
 ---
 
-> この記事は [CCNA完全攻略ガイド](/method/ccna-hub/) の一部です。
+> この記事は [CCNA 合格ロードマップ](/method/ccna-hub/) の一部です。

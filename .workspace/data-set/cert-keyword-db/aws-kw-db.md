@@ -83,6 +83,19 @@
 | CCNA AWS ダブル取得 期間 | 両方取る場合の計画 | trend | B | ○ | P6 | 中 | 週10時間換算のスケジュール | ccna-vs-aws-saa（スケジュール目安） |
 | CCNA AWS CLF 挟む | CLFの位置づけ | trend | B | ○ | P3 | 中 | FAQで回答。単独記事化は不要 | ccna-vs-aws-saa（FAQ） |
 
+### CCNA サブネット計算 実査 2026-10-21（ip-address-ai-metaphor-hack 刷新時）
+
+> 実査方法: WebSearch 5クエリ（US拠点の検索のため、日本のGoogle順位とはずれる可能性あり）。上位は @IT「CCNA対策講座(8)」（2008年の旧試験向け）・Zenn（個人）・Cisco NetAcad資料・英語のCisco Community/海外練習サイトで、通信講座・転職メディアは上位5件に出なかった。「サブネット 分ける 理由 社内LAN」は大学の古いPDFと英語資料のみで日本語の実務解説が薄い。
+> 判断: 主KW「CCNA サブネット計算」は競合が古い／個人中心で占拠度「中」のため、タイトル前半に主KWを置き、差別化として「実務で使う？（社内LANの分け方・台数制限・機器ごとの割り当て）」のニッチ軸を掛け合わせるハイブリッド戦略を採用。計算手順そのものの網羅は ccna-ai-hack の「サブネット計算の壁をAIで崩す」と重複しないよう、実務の場面→計算→VLSMの流れに寄せた。
+
+| KW | 検索意図 | 記事タイプ | 優先度 | 状態 | 方向性パターン | 競合占拠度 | 差別化角度 | 既存記事 slug |
+| --- | --- | --- | --- | --- | :---: | :---: | --- | --- |
+| CCNA サブネット 計算 方法 | 計算手順を知りたい | method | A | ◎ | P8 | 中（@IT 2008年記事・Zenn・NetAcad） | 社内LANの設計例（VLSM）から手順を説明 | ip-address-ai-metaphor-hack |
+| CCNA サブネット 計算 できない / わからない | 計算でつまずいている | method | A | ○ | P2/P7 | 中（Cisco Community・@IT） | 実務の場面で「なぜ分けるか」を先に理解 | ip-address-ai-metaphor-hack |
+| サブネット 分ける 理由 社内LAN 実務 | 実務で何に使うか知りたい | method | A | ◎ | P4 | 低（古い大学PDF・英語資料のみ） | 部署分け・台数上限・機器ごとの固定割り当てとセキュリティ | ip-address-ai-metaphor-hack |
+| サブネット計算 実務 必要 / 意味ない | 勉強する価値の確認 | method | B | ○ | P1 | 低〜中（計算ツール事業者のページ中心） | 家庭では不要・会社では必要と場面で区別 | ip-address-ai-metaphor-hack |
+| CCNA サブネット ChatGPT 練習 | AIで練習したい | method | B | ○ | P10 | 低（日本語の該当ページなし） | 社内LAN想定の問題生成プロンプト＋手計算で検証 | ip-address-ai-metaphor-hack（AI練習節） |
+
 ---
 
 ## 既存スポーク・関連記事

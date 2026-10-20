@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-05-31T00:00:00Z
-lastmod: 2026-07-10
+lastmod: 2026-10-20
 title: 'MOS vs ITパスポート——どちらが有利か問うより「両方取れるなら取ったほうがいい」理由'
 excerpt: 'MOSとITパスポートは証明する能力の軸が違う補完関係にあります。優先順位の判断基準と、AI時代にExcel知識がむしろ重要になる理由を解説します。'
 image: '~/data/post/trend/mos-vs-itp-job-hunting/cover.jpg'
@@ -42,7 +42,7 @@ metadata:
 
 事務職の採用で評価されやすいのは<strong>MOS（特にExcel一般）</strong>です。
 
-求人票に「Excelが使える方」という条件がある場合、MOSは「使える」を客観的に証明できる最短の手段です。<strong>書類選考の段階でスキルが見える化されるため、事務職への応募ではMOSの有効性は今も高いです</strong>。
+求人票に「Excelが使える方」という条件がある場合、MOSは「使える」を客観的に証明できる手軽な手段です。<strong>書類選考の段階でスキルが見える化されるため、事務職への応募ではMOSの有効性は今も高いです</strong>。
 
 ITパスポートは事務職採用では必須でも優位でもないケースがほとんどです。
 
@@ -105,4 +105,4 @@ MOSとITパスポートは競合する資格ではなく、<strong>証明する�
 
 ---
 
-> この記事は [MOS（Microsoft Office Specialist）完全攻略ガイド](/method/mos-hub/) の一部です。
+> この記事は [MOS（Microsoft Office Specialist） 合格ロードマップ](/method/mos-hub/) の一部です。
