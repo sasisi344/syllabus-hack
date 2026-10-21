@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-05-31T00:00:00Z
-lastmod: 2026-10-20
+lastmod: 2026-10-21
 title: 'CCNAとAWS SAAはどっちが先？ネットワーク知識から見た取得順番の正解'
 excerpt: 'CCNAとAWS SAAはどっちを先に取るべきか。ネットワーク未経験ならCCNAが先になる理由を、VPC設計への知識の継承関係から解説し、AWS SAAを先にすべきケースも示します。'
 image: '~/data/post/trend/ccna-vs-aws-saa/cover.jpg'
@@ -67,7 +67,7 @@ AWS SAAはクラウドアーキテクチャの設計スキルを証明します�
 | 受験料 | Cisco公式で最新額を確認 | 150 USD |
 | 学習時間の目安（ネットワーク未経験） | 150〜200時間 | 100〜130時間 |
 
-CCNAの出題範囲と配点の詳細は[CCNA 合格ロードマップ](/method/ccna-hub/)にまとめています。
+CCNAの出題範囲と配点の詳細は[CCNAとは？勉強時間の目安とIPA試験でいうとどのレベルか](/method/ccna-hub/)にまとめています。
 
 なお、どちらの試験も公式は合格率を公表していません。
 
@@ -231,7 +231,7 @@ A. AWSの用語や料金・責任共有モデルに慣れたい人には有効�
 
 <strong>Q. LPIC・LinuCはどこに入りますか？</strong>
 
-A. Linuxの基礎が不安な場合は、CCNAの前に置くのが王道です。3資格の全体像は[LPIC・CCNA・AWSを取る順番](/trend/lpic-ccna-aws-order/)で整理しています。
+A. Linuxの基礎が不安な場合は、CCNAの前に置くのが王道です。3資格の全体像は[AWS・CCNA・LPICの取る順番](/method/aws-hub/)で整理しています。
 
 <strong>Q. 学習期間はどのくらい間隔を空けるべきですか？</strong>
 
@@ -249,4 +249,4 @@ CCNAで習得したネットワークの論理体系は、AWS SAAだけでなく
 
 ---
 
-> この記事は [CCNA 合格ロードマップ](/method/ccna-hub/) の一部です。
+> この記事は [CCNAとは？勉強時間の目安とIPA試験でいうとどのレベルか](/method/ccna-hub/) の一部です。

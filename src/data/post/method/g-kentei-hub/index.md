@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-06-09T00:00:00Z
-lastmod: 2026-10-20
+lastmod: 2026-10-21
 title: 'G検定（JDLA）合格ロードマップ｜最新ニュースより公式テキストの読み込みと反復テスト'
 excerpt: 'G検定はAI・ディープラーニングの基礎知識を広く問うジェネラリスト向けの資格。深い知識は要らない一方、未経験者には難しい用語が多い。最新ニュースを追うより、テキストを読み込んでテストを繰り返す学習計画を60〜100時間で整理します。'
 image: ~/data/post/method/g-kentei-hub/cover.jpg
@@ -226,7 +226,7 @@ G検定はAIの技術概念と活用・倫理に強く、DS検定は統計・デ
 | [DS検定 合格ロードマップ](/method/ds-kentei-hub/) | method | 統計・データ分析の資格の学習法 |
 | [ディープラーニング基礎理論](/theory/deep-learning-basics/) | theory | ニューラルネット・活性化関数・バックプロパゲーション |
 | [機械学習の3種類を理解する](/theory/ml-supervised-unsupervised/) | theory | 教師あり・教師なし・強化学習の概念 |
-| [AI・データ系資格のキャリアパス](/career/ai-data-career/) | career | G検定・DS検定・E資格後の年収・転職 |
+| [G検定・DS検定・E資格の違いと取る順番](/career/ai-data-career/) | career | AI・データ系の仕事につなげる資格の選び方 |
 | [G検定の数学・統計が苦手な人の学習法](/method/g-kentei-math-statistics-hack/) | method | 数式ではなく意味からAIで理解する学習法 |
 | [G検定シラバスの最新動向](/trend/g-kentei-2026-syllabus-trend/) | trend | 生成AI・LLM関連の出題比重の変化 |
 | [G検定 模擬試験シミュレーター](/app/g-kentei-mock-exam/) | app | 全30問・制限時間20分の本番形式演習アプリ |

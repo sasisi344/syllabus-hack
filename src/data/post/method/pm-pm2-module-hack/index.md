@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-03-17T00:00:00Z
-lastmod: 2026-10-20
+lastmod: 2026-10-21
 title: '【メソッド】プロジェクトマネージャ（PM）午後Ⅱ：実務経験の棚卸しと論文モジュール化プロンプト'
 excerpt: 'PM試験午後Ⅱの鬼門、論文対策を効率化。経歴をChatGPT・Claude・Geminiのいずれかに役割固定して棚卸しし、設問に組み替え可能な「論文モジュール」にするメソッド。'
 image: ~/data/post/method/common-cover.png
@@ -96,4 +96,4 @@ metadata:
 
 ---
 
-> この記事は [高度情報処理技術者試験 合格ロードマップ](/method/advanced-ipa-hub/) の一部です。
+> この記事は [IPA資格の高難易度対策｜応用情報・高度試験と2027年の新試験の選び方](/method/advanced-ipa-hub/) の一部です。

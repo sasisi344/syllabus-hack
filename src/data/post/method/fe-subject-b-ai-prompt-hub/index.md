@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-04-15T00:00:00Z
-lastmod: 2026-10-20
+lastmod: 2026-10-21
 title: 'FE科目Bを生成AIで攻略するプロンプト集｜場面別・ツール別インデックス【ChatGPT・Gemini・Claude】'
 excerpt: '基本情報技術者試験・科目B（疑似言語・アルゴリズム）をAIで攻略するプロンプトを場面別（初見/追試/時間切れ）・ツール別に整理。既存4記事の読む順と、CBT本番で即使える一文プロンプトも収録。'
 image: '~/data/post/method/fe-subject-b-ai-prompt-hub/cover.jpg'
@@ -247,7 +247,7 @@ CBT画面にはコピペができないため、<strong>事前に問題のアプ
 | ------ | ----------------------------------------- | -------------------------- | ------------------------------------------ |
 | ①      | 【プロンプト配布】科目B「無限ドリル」生成 | 類題をとにかく量こなしたい | [読む](/method/fe-subject-b-drill/)         |
 | ②      | 科目B疑似言語をAIで動くコードに変換       | Pythonへの翻訳で理解したい | [読む](/method/fe-pseudo-code-ai-hack/)     |
-| ③      | 疑似言語をAIで可視化・フローチャート化    | 「動き」を図で確認したい   | [読む](/method/fe-pseudo-code-visual-hack/) |
+| ③      | 疑似言語をAIで可視化・フローチャート化    | 「動き」を図で確認したい   | [読む](/method/fe-algorithm-roadmap/) |
 | ④      | Geminiプロンプト集（基本情報向け）        | Geminiで包括的に攻略したい | [読む](/method/gemini-cert-complete/)   |
 
 <strong>① → ② → ③ → ④の順</strong>が最も自然な学習フローだ。まず量（①）で型を身につけ、理解（②③）を深め、ツール幅（④）を広げる。

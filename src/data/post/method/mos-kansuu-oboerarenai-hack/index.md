@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-07-10T00:00:00Z
-lastmod: 2026-10-20
+lastmod: 2026-10-21
 title: 'MOSのExcel関数が覚えられない「エクセルアレルギー」をAIで克服する方法'
 excerpt: 'VLOOKUPやIF関数を見ただけで拒否反応が出る「エクセルアレルギー」の正体と、AIを使って苦手意識をなくす具体的な手順を解説します。'
 image: '~/data/post/method/common-cover.png'
@@ -77,4 +77,4 @@ Excelの学習で挫折する最大の要因は、エラーメッセージの意
 
 AIに「日本語に翻訳させる」という一手間を挟むだけで、関数への拒否反応は大きく軽減できる。
 
-関数ごとの役割整理は[MOS Excel頻出関数まとめ](/theory/mos-excel-function-basics/)、MOS試験全体の進め方は[MOS 合格ロードマップ](/method/mos-hub/)を参照してほしい。
+関数ごとの役割整理は[MOS Excel頻出関数まとめ](/theory/mos-excel-function-basics/)、MOS試験全体の進め方は[MOSはどれから取る？事務職はExcelとWordが基本、エキスパートで難しくなる理由](/method/mos-hub/)を参照してほしい。

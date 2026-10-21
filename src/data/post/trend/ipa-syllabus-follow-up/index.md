@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-04-11T00:00:00Z
-lastmod: 2026-10-20
+lastmod: 2026-10-21
 title: IPAシラバスの変更に「秒」で対応する、AIディープリサーチ術
 persona: 試験範囲の変更に不安を感じている受験生、効率的に最新情報をキャッチアップしたい人
 category: trend
@@ -69,4 +69,4 @@ IPAが公開するシラバスのPDFは、数百ページに及ぶこともあ�
 
 ### 次に読むべき記事
 - [生成AIで10分で自作する、自分専用のIT資格対策アプリ](../genai-self-made-app-hack/)
-- [ITパスポート：10日前からのパニック合格術](../../method/itp-10-days-panic-hack/)
+- [資格試験の直前10日の過ごし方](/method/exam-final-10-days/)

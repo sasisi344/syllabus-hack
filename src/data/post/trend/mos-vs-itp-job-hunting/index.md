@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-05-31T00:00:00Z
-lastmod: 2026-10-20
+lastmod: 2026-10-21
 title: 'MOS vs ITパスポート——どちらが有利か問うより「両方取れるなら取ったほうがいい」理由'
 excerpt: 'MOSとITパスポートは証明する能力の軸が違う補完関係にあります。優先順位の判断基準と、AI時代にExcel知識がむしろ重要になる理由を解説します。'
 image: '~/data/post/trend/mos-vs-itp-job-hunting/cover.jpg'
@@ -105,4 +105,4 @@ MOSとITパスポートは競合する資格ではなく、<strong>証明する�
 
 ---
 
-> この記事は [MOS（Microsoft Office Specialist） 合格ロードマップ](/method/mos-hub/) の一部です。
+> この記事は [MOSはどれから取る？事務職はExcelとWordが基本、エキスパートで難しくなる理由](/method/mos-hub/) の一部です。

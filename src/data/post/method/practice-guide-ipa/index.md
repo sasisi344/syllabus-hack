@@ -2,7 +2,7 @@
 title: '【完全版】IPA試験「最強」学習ガイド：ChatGPT／Claude／Geminiで合格をハックする4つのステップ'
 image: ~/data/post/method/common-cover.png
 publishDate: 2026-03-10T00:00:00Z
-lastmod: 2026-10-20
+lastmod: 2026-10-21
 category: method
 tags: ['学習法', 'ChatGPT', 'Claude', 'Gemini', 'SyllabusHack']
 knowledge:
@@ -96,7 +96,7 @@ IPA（情報処理推進機構）が公開するシラバスは、ITパスポー
 
 今、AIを使いこなしながら合格を勝ち取る経験をしておくことは、これからのキャリアにおいて決定的な差となります。
 
-- <strong>STEP 1</strong>: まずは[ITパスポートから応用情報へ進む順番](/method/ap-hub/)で自分の目標を定める。
+- <strong>STEP 1</strong>: まずは[ITパスポートから応用情報へ進む順番](/method/advanced-ipa-hub/)で自分の目標を定める。
 - <strong>STEP 2</strong>: [NotebookLM活用ガイド](/method/notebooklm-features-guide/)でAI教師を起動する。
 - <strong>STEP 3</strong>: 本番に備え、[CBT対応のフルキーボード](/method/typing-speed-cbt/)でタイピング感覚を養う。
 

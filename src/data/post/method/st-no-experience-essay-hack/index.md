@@ -1,7 +1,7 @@
 ---
 image: ~/data/post/method/st-no-experience-essay-hack/cover.png
 draft: false
-lastmod: 2026-10-20
+lastmod: 2026-10-21
 publishDate: 2026-04-11T00:00:00Z
 title: '「実務経験なし」は不合格の理由にならない。シラバスの共通言語で「架空の成功」を錬成する技術'
 persona: '実務未経験で高度試験（ST）に挑む20代後半、理論派だが自信のないエンジニア'
@@ -144,4 +144,4 @@ AIは単なるカンニングツールではなく、あなたの学習プロセ
 
 ---
 
-> この記事は [高度情報処理技術者試験 合格ロードマップ](/method/advanced-ipa-hub/) の一部です。
+> この記事は [IPA資格の高難易度対策｜応用情報・高度試験と2027年の新試験の選び方](/method/advanced-ipa-hub/) の一部です。

@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-10-15T00:00:00Z
-lastmod: 2026-10-20
+lastmod: 2026-10-21
 title: '他社の事故は対岸の火事ではない｜AI攻撃時代に経営トップが決めるセキュリティ投資'
 excerpt: 'ランサムウェア被害は半期で過去最多。AIで攻撃の敷居も下がる中、自社が狙われなくても取引先の停止で業務は止まります。経営トップが決めるべき投資の判断軸を、最新事例とともに整理します。'
 image: '~/data/post/trend/exec-security-investment-ai-era/cover.jpg'
@@ -247,7 +247,7 @@ KADOKAWAは、原因を「フィッシングなどにより従業員のアカウ
 
 「入口になる機器の管理」は、費用対効果の高い優先項目です。
 
-守る範囲の考え方は、[ゼロトラストの考え方](/trend/zero-trust-architecture/)も参考になります。
+守る範囲の考え方は、[ゼロトラストの考え方](/theory/security-controls-crypto-incident-basics/)も参考になります。
 
 ### 許容を決める｜決めないことも「享受する」という選択
 

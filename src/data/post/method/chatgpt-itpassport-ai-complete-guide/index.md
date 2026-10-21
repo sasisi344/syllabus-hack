@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-04-15T00:00:00Z
-lastmod: 2026-10-20
+lastmod: 2026-10-21
 title: '生成AIをコーチにしてITパスポートに合格するには｜ChatGPT・Gemini・Claude共通の進め方'
 excerpt: 'ChatGPTでもGeminiでもClaudeでも、ITパスポートの勉強で生成AIをコーチにする進め方は同じです。まず公式の過去問を解き、その結果をAIに読ませて得意と苦手を切り分け、学ぶ項目のスケジュールをAIと一緒に積み上げていく手順を、共通のプロンプトで紹介します。'
 image: '~/data/post/method/chatgpt-itpassport-ai-complete-guide/cover.jpg'
@@ -165,7 +165,7 @@ AIの説明には、誤りが混ざることがあります。用語の定義や
 | [AIをメンターにする学習ロードマップ](/method/ai-mentor-study-method-roadmap/) | 社会人として学習時間をつくりたい |
 | [NotebookLM資格試験活用ガイド](/method/notebooklm-features-guide/) | シラバスを読み込ませて、フラッシュカードや音声で学びたい |
 | [ストラテジ系をAIの「たとえ話」で理解する](/method/ip-strategy-ai-hack/) | ストラテジ系だけが苦手 |
-| [ITパスポート直前10日のAI活用プラン](/method/itp-10-days-panic-hack/) | 試験まで2週間を切っている |
+| [資格試験の直前10日の過ごし方](/method/exam-final-10-days/) | 試験まで2週間を切っている |
 | [FE科目Bを生成AIで学ぶプロンプト集](/method/fe-subject-b-ai-prompt-hub/) | ITパスポートの次に基本情報を目指す |
 
 ---

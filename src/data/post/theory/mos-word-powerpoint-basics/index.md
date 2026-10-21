@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-07-10T00:00:00Z
-lastmod: 2026-10-20
+lastmod: 2026-10-21
 title: 'MOS Word・PowerPoint基礎知識まとめ｜文書構造とスライド設計の試験頻出ポイント'
 excerpt: 'MOS Word・PowerPoint試験で問われる文書構造（スタイル・段落設定）とスライド設計（レイアウト・マスター）の基礎を整理します。'
 image: '~/data/post/theory/common-cover.png'
@@ -72,4 +72,4 @@ Word・PowerPointの試験範囲は、Excelの関数のような計算ロジッ�
 
 スタイル・マスターといった「型で一括管理する」発想を押さえれば、個別の操作手順も理解しやすくなる。
 
-MOS試験全体の進め方は[MOS 合格ロードマップ](/method/mos-hub/)を参照してほしい。
+MOS試験全体の進め方は[MOSはどれから取る？事務職はExcelとWordが基本、エキスパートで難しくなる理由](/method/mos-hub/)を参照してほしい。

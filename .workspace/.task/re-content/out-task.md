@@ -1,18 +1,48 @@
 # re-contentで残っているタスクを記録
 
-最終整理: 2026-10-21
+最終整理: 2026-10-21（第2弾完了）
 
 ## 進捗のまとめ
 
 - `wording-list.md` の文言修正: 307記事すべて完了
-- 刷新（`[!forAI]` 指示分）: 47記事すべて完了（2026-10-20〜21）。一覧は `refreshed-list.md`。残りの `[!forAI]` はなし
+- 刷新（`[!forAI]` 指示分）: 第1弾47記事・第2弾38記事は完了（2026-10-20〜21）。一覧は `refreshed-list.md`。第3弾（`wording-list.md` に残っていた `> [!forAI]` の記事）もすべて完了（3記事ずつ処理。完了: fp2-cbt-strategy・sg-quiz・30s-career-change・ai-data-career・fe-career-modern-web・ip-survival-strategy・kougyou-koukou-shikaku-ichiran・ses-ap-independence-strategy・fe-pseudo-code-visual-hack・genai-vocabulary-learning-efficiency・guide・itp-10-days-panic-hack・nw-mermaid-hack・st-strategy-brainstorming・boki-zensho-vs-nissho-comparison-hack・cbt-exam-venue-booking-tips・genai-ethics-quiz・sa-llm-agent-design・security-incident-prevention-basics・sg-exam-popularity-step-up・targeted-threat-email・web3-nft・zero-trust-architecture・st-ai-pov-strategy）
 - 統合してリダイレクトした記事（`astro.config.ts` の redirects）:
-  - `/career/it-passport-to-ap-roadmap/` → `/method/ap-hub/`
+  - `/career/it-passport-to-ap-roadmap/` → `/method/advanced-ipa-hub/`（第2弾で ap-hub を統合したため転送先を変更）
   - `/method/it-passport-study-route-comparison/` → `/method/itp-hub/`
   - `/career/backoffice-sg-strategy/` → `/career/backoffice-sg-career-hack/`
   - `/career/itp-non-engineer-career-strategy/` → `/method/itp-hub/`
   - `/method/genai-problem-mastery-notebooklm/` → `/method/notebooklm-ip-study-hack/`
+  - `/method/tablet-study-guide/` → `/method/multi-device-cert-study/`（第2弾、2026-10-21）
+  - 第2弾（2026-10-21）:
+    - `/method/mos-ai-shortcut/`・`/theory/mos-exam-format-scoring-basics/` → `/method/mos-hub/`
+    - `/method/ap-hub/`・`/method/level4-strategy-hub/`・`/career/gateway-to-advanced/` → `/method/advanced-ipa-hub/`
+    - `/method/ccna-ai-hack/`・`/method/ccna-fail-comeback/` → `/method/ccna-hub/`
+    - `/trend/lpic-ccna-aws-order/` → `/method/aws-hub/`
+    - `/trend/fp-why-2kyu-is-standard/`・`/career/fp2-jukendekaku-junbi-roadmap/` → `/method/fp-hub/`
+  - 第3弾（2026-10-21）: `/trend/zero-trust-architecture/` → `/theory/security-controls-crypto-incident-basics/`、`/trend/st-ai-pov-strategy/` → `/method/advanced-ipa-hub/`
+  - 第3弾（2026-10-21）: `/trend/targeted-threat-email/`・`/trend/sg-exam-popularity-step-up/` → `/trend/security-incident-prevention-basics/`
+  - 第3弾（2026-10-21）: `/method/st-strategy-brainstorming/` → `/method/advanced-ipa-hub/`（`/trend/st-ai-pov-strategy/` を統合するときも、同じハブのST節に寄せる）
+  - 第3弾（2026-10-21）: `/method/itp-10-days-panic-hack/` → `/method/exam-final-10-days/`（新規スラッグ。既存の `/final-checkpoint-100-plus/` 系のリダイレクトも付け替え済み）
+  - 第3弾（2026-10-21）: `/career/ses-ap-independence-strategy/` → `/career/ses-ap-strategy/`、`/method/fe-pseudo-code-visual-hack/` → `/method/fe-algorithm-roadmap/`
+  - 第3弾（2026-10-21）: `/career/ip-survival-strategy/` → `/method/itp-hub/`
+  - 第3弾（2026-10-21）: `/trend/fp2-cbt-strategy/` → `/method/fp-hub/`（FPの20時間コースを作ったら、fp-hub の「不合格だったとき」節からリンクする）
+    - `/app/genai-trend-quiz/` → `/app/genai-ethics-quiz/`（アプリのコード `src/apps/genai-trend-quiz/` は残し、統合先のページで表示）
+    - `/trend/agile-development/`・`/trend/scrum-agile/` → `/theory/agile-scrum-basics/`
+    - `/trend/reskilling-it-passport/` → `/theory/reskilling-basics/`（新規作成）
+    - `/career/biru-kanri-jitsumu-keiken-roadmap/` → `/method/biru-kanri-hub/`
+    - `/trend/fe-certification-value-debate/` → `/method/fe-hub/`（競合が強いため単独の刷新はせず、fe-hub に「意味がないことはない」節を置いた）
 - 統合したがページは残した記事: `/app/flashcard-app/`（用語ノートの説明を `/method/notebooklm-features-guide/` へ移し、アプリのページから案内）
+
+## 第2弾の刷新（2026-10-21〜）
+
+- [x] 38件すべてを刷新・統合（`refreshed-list.md` の一覧末尾）
+- [x] 統合先だけ刷新し、統合元はまだ残している記事（統合元の `[!forAI]` を処理するときに、内容の移動・リダイレクト・記事削除を行う）
+  - `/method/advanced-ipa-hub/` ← `/method/level4-strategy-hub/`・`/method/ap-hub/`・`/career/gateway-to-advanced/`
+  - `/method/mos-hub/` ← `/method/mos-ai-shortcut/`・`/theory/mos-exam-format-scoring-basics/`
+
+## 未着手の実装（第3弾で保留）
+
+- [ ] 生成AI用語データベースの中身と、定期調査のフィード（`/app/genai-ethics-quiz/` の `[!forAI]` の後半）: 型は作成済み（`.workspace/data-set/genai-terms-db/` の `schema.json`・空の `terms.json`・`README.md`、2026-10-21）。未実施は、実際に調べて一次情報で確認した用語を入れることと、ClaudeやChatGPTのスケジュール機能での定期実行の設定。人の確認を挟む前提で、小さく始めること
 
 ## ITパスポート（ip）関連
 

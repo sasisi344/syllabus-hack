@@ -40,7 +40,7 @@ G検定（ジェネラリスト検定）は、AIをビジネスで活用する�
 
 8つのジャンルから出題する簡易診断です。正答率が低かった章は優先的に学習することをおすすめします。
 
-<ChapterQuiz client:load questions={diagnosisQuestions} examId="g-kentei" mode="diagnosis" chapterLinks={chapterLinks} />
+<ChapterQuiz client:load questions={diagnosisQuestions} examId="g-kentei" mode="diagnosis" chapterLinks={chapterLinks} mockExamHref="/app/g-kentei-mock-exam/" />
 
 ## カリキュラムマップ
 
@@ -67,7 +67,7 @@ G検定（ジェネラリスト検定）は、AIをビジネスで活用する�
 
 全8章を終えたら、20問の総復習で定着度を確認しましょう。各章から2〜3問ずつ出題しています。正答率が低かった章は、該当ページに戻って章末チェックを解き直すことをおすすめします。
 
-<ChapterQuiz client:load questions={reviewQuestions} examId="g-kentei" mode="diagnosis" chapterLinks={chapterLinks} />
+<ChapterQuiz client:load questions={reviewQuestions} examId="g-kentei" mode="review" chapterLinks={chapterLinks} />
 
 ## 完走したら
 

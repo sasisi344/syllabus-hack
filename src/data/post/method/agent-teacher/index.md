@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-03-20T00:00:00Z
-lastmod: 2026-09-30
+lastmod: 2026-10-21
 title: 'Agent Teacher:24時間365日の「最強の家庭教師」を無料で雇う技術'
 excerpt: '高い塾や通信講座はもう不要？ChatGPTやGeminiを「ただのチャット」ではなく「超一流の家庭教師」として使いこなす、Syllabus Hack流のAI講師活用術を全公開。'
 category: method
@@ -129,7 +129,7 @@ AI講師（理論）で理解を深めたら、当サイトのツール（実践
 
 - <strong>理解が曖昧なら</strong>: AI講師に概念を噛み砕いてもらう（上記1・2・3のプロンプト）。
 - <strong>覚える段階なら</strong>: [<strong>重要用語フラッシュカード</strong>](/app/flashcard-app/)で反復横跳び。
-- <strong>実力を試すなら</strong>: [<strong>トレンド・倫理クイズ</strong>](/app/genai-trend-quiz/)で力試し。
+- <strong>実力を試すなら</strong>: [<strong>トレンド・倫理クイズ</strong>](/app/genai-ethics-quiz/)で力試し。
 
 時間換算で考えると、参考書の該当ページを探し、例え話を自分で考え、それでも理解できずに諦める——という従来のプロセスには数十分かかっていました。AI講師なら、この工程はものの数分で完結します。浮いた時間はすべて、演習と定着に再投資できます。
 

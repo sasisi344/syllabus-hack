@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-07-10T00:00:00Z
-lastmod: 2026-10-20
+lastmod: 2026-10-21
 title: 'CCNAは新卒の就活で武器になる｜企業の見極めに使う逆転の発想'
 excerpt: 'CCNAは新卒の就活市場では知名度が低いが、逆にそれを企業の見極めに使える。反応する企業ほどITへの理解が深い傾向を解説する。'
 image: '~/data/post/career/common-cover.png'
@@ -79,7 +79,7 @@ CCNAの学習でOSPFとEIGRPの違いにつまずいています。
 両者の動作の違いを説明してください。
 ```
 
-実機経験がない学生でも、AIとの対話で概念を身近な比喩に変換しながら理解を進められる。CCNA全体の学習ロードマップは[CCNA 合格ロードマップ](/method/ccna-hub/)、文系・未経験からの合格ルートは[CCNAを文系・未経験から6ヶ月で目指す手順](/method/ccna-liberal-arts-roadmap/)で解説している。
+実機経験がない学生でも、AIとの対話で概念を身近な比喩に変換しながら理解を進められる。CCNA全体の学習ロードマップは[CCNAとは？勉強時間の目安とIPA試験でいうとどのレベルか](/method/ccna-hub/)、文系・未経験からの合格ルートは[CCNAを文系・未経験から6ヶ月で目指す手順](/method/ccna-liberal-arts-roadmap/)で解説している。
 
 ---
 

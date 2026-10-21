@@ -104,8 +104,8 @@ export default defineConfig({
     // Googleにインデックスされている旧URLは /method/ プレフィックス付きだが、従来の定義は
     // ソース・ターゲットともプレフィックス欠落で、実URLは404・生成ページの転送先も404だった。
     // プレフィックスなしキーも過去の生成ページが参照されている可能性があるため残す（ターゲットのみ修正）。
-    // re-content 統合 (2026-10-20): ITP→APロードマップは ap-hub に統合、学習ルート比較は itp-hub と重複のため削除
-    '/career/it-passport-to-ap-roadmap/': '/method/ap-hub/',
+    // re-content 統合 (2026-10-20): ITP→APロードマップは ap-hub に統合（ap-hub は 2026-10-21 に advanced-ipa-hub へ統合）、学習ルート比較は itp-hub と重複のため削除
+    '/career/it-passport-to-ap-roadmap/': '/method/advanced-ipa-hub/',
     '/method/it-passport-study-route-comparison/': '/method/itp-hub/',
     // re-content 統合 (2026-10-20): セキュマネ総論は backoffice-sg-career-hack と重複のため統合
     '/career/backoffice-sg-strategy/': '/career/backoffice-sg-career-hack/',
@@ -113,13 +113,59 @@ export default defineConfig({
     '/career/itp-non-engineer-career-strategy/': '/method/itp-hub/',
     // re-content 統合 (2026-10-21): 生成AI分野のNotebookLM出題は notebooklm-ip-study-hack に統合
     '/method/genai-problem-mastery-notebooklm/': '/method/notebooklm-ip-study-hack/',
+    // re-content 統合 (2026-10-21): タブレット学習はデバイス使い分け記事と内容が重なるため統合
+    '/method/tablet-study-guide/': '/method/multi-device-cert-study/',
+    // re-content 統合 (2026-10-21): MOSのAI学習法・出題形式は mos-hub に統合
+    '/method/mos-ai-shortcut/': '/method/mos-hub/',
+    '/theory/mos-exam-format-scoring-basics/': '/method/mos-hub/',
+    // re-content 統合 (2026-10-21): 応用情報・Level4・登竜門の各記事は advanced-ipa-hub に統合
+    '/method/ap-hub/': '/method/advanced-ipa-hub/',
+    '/method/level4-strategy-hub/': '/method/advanced-ipa-hub/',
+    '/career/gateway-to-advanced/': '/method/advanced-ipa-hub/',
+    // re-content 統合 (2026-10-21): CCNAのAI学習法・不合格後の立て直しは ccna-hub に集約
+    '/method/ccna-ai-hack/': '/method/ccna-hub/',
+    '/method/ccna-fail-comeback/': '/method/ccna-hub/',
+    // re-content 統合 (2026-10-21): LPIC・CCNA・AWSの取る順番は aws-hub に集約
+    '/trend/lpic-ccna-aws-order/': '/method/aws-hub/',
+    // re-content 統合 (2026-10-21): FPの級の違い・2級の受験資格は fp-hub に統合
+    '/trend/fp-why-2kyu-is-standard/': '/method/fp-hub/',
+    '/career/fp2-jukendekaku-junbi-roadmap/': '/method/fp-hub/',
+    // re-content 統合 (2026-10-21): 不合格後の立て直し・CBT申込の流れは fp-hub に統合
+    '/trend/fp2-cbt-strategy/': '/method/fp-hub/',
+    // re-content 統合 (2026-10-21): ITパスポートの価値の総論は itp-hub のFAQに統合
+    '/career/ip-survival-strategy/': '/method/itp-hub/',
+    // re-content 統合 (2026-10-21): SESとAPの独立戦略は ses-ap-strategy に統合
+    '/career/ses-ap-independence-strategy/': '/career/ses-ap-strategy/',
+    // re-content 統合 (2026-10-21): 擬似言語のAI可視化は科目Bアルゴリズム対策に統合
+    '/method/fe-pseudo-code-visual-hack/': '/method/fe-algorithm-roadmap/',
+    // re-content 昇格 (2026-10-21): ITパスポート直前10日は、全試験共通の直前期の記事 exam-final-10-days に改稿
+    '/method/itp-10-days-panic-hack/': '/method/exam-final-10-days/',
+    // re-content 統合 (2026-10-21): STの論文ブレストは advanced-ipa-hub のITストラテジスト節に統合
+    '/method/st-strategy-brainstorming/': '/method/advanced-ipa-hub/',
+    // re-content 統合 (2026-10-21): 標的型メールと、経営層向けのSGの価値は、情報漏えい対策の記事に統合
+    '/trend/targeted-threat-email/': '/trend/security-incident-prevention-basics/',
+    '/trend/sg-exam-popularity-step-up/': '/trend/security-incident-prevention-basics/',
+    // re-content 統合 (2026-10-21): ゼロトラストの用語説明はセキュリティ対策の基礎に、STのAI導入の論点は advanced-ipa-hub に統合
+    '/trend/zero-trust-architecture/': '/theory/security-controls-crypto-incident-basics/',
+    '/trend/st-ai-pov-strategy/': '/method/advanced-ipa-hub/',
+    // re-content 統合 (2026-10-21): 高度試験向け生成AIドリルは genai-ethics-quiz のページに同居
+    '/app/genai-trend-quiz/': '/app/genai-ethics-quiz/',
+    // re-content 統合 (2026-10-21): アジャイル・スクラムの用語記事は theory/agile-scrum-basics に集約
+    '/trend/agile-development/': '/theory/agile-scrum-basics/',
+    '/trend/scrum-agile/': '/theory/agile-scrum-basics/',
+    // re-content 刷新 (2026-10-21): リスキリングの用語解説は theory へ移動
+    '/trend/reskilling-it-passport/': '/theory/reskilling-basics/',
+    // re-content 統合 (2026-10-21): ビル管理士の実務経験の満たし方は biru-kanri-hub に統合
+    '/career/biru-kanri-jitsumu-keiken-roadmap/': '/method/biru-kanri-hub/',
+    // re-content 統合 (2026-10-21): 「基本情報は意味ない」論は fe-hub に統合
+    '/trend/fe-certification-value-debate/': '/method/fe-hub/',
     // CBT系統合 (2026-06-10): cbt-impact-advanced-exams の固有情報をマージ
     '/cbt-impact-advanced-exams/': '/method/cbt-2026-syllabus-complete-guide/',
     '/method/cbt-impact-advanced-exams/': '/method/cbt-2026-syllabus-complete-guide/',
     '/trend/cbt-impact-advanced-exams/': '/method/cbt-2026-syllabus-complete-guide/',
     // グループD: 直前対策統合 (2026-05-30)
-    '/final-checkpoint-100-plus/': '/method/itp-10-days-panic-hack/',
-    '/method/final-checkpoint-100-plus/': '/method/itp-10-days-panic-hack/',
+    '/final-checkpoint-100-plus/': '/method/exam-final-10-days/',
+    '/method/final-checkpoint-100-plus/': '/method/exam-final-10-days/',
     // グループB: NotebookLM統合 (2026-05-30) — 旧redirect先も新ガイドへ転送
     '/notebooklm-it-passport-drill/': '/method/notebooklm-features-guide/',
     '/method/notebooklm-it-passport-drill/': '/method/notebooklm-features-guide/',
@@ -168,22 +214,22 @@ export default defineConfig({
     // GSC累積エクスポート（2026-07-11 ページ.csv）で表示実績のある旧URLを全量移植 (w28-site-verifi T3追補)
     '/trend/prompt-engineering-basics/': '/theory/prompt-engineering-basics/',
     '/term/prompt-engineering-basics/': '/theory/prompt-engineering-basics/',
-    '/term/sampling-methods-data/': '/theory/sampling-methods-data/',
+    '/term/sampling-methods-data/': '/theory/statistics-mean-variance-probability-sampling/',
     '/term/digital-divide-basics/': '/theory/digital-divide-basics/',
-    '/term/standard-deviation-variance/': '/theory/standard-deviation-variance/',
+    '/term/standard-deviation-variance/': '/theory/statistics-mean-variance-probability-sampling/',
     '/term/labor-dispatch-act-ses/': '/theory/labor-dispatch-act-ses/',
-    '/term/mean-median-mode-stats/': '/theory/mean-median-mode-stats/',
-    '/term/subcontract-act-it-dev/': '/theory/subcontract-act-it-dev/',
-    '/term/profit-and-loss-statement-pl/': '/theory/profit-and-loss-statement-pl/',
+    '/term/mean-median-mode-stats/': '/theory/statistics-mean-variance-probability-sampling/',
+    '/term/subcontract-act-it-dev/': '/theory/it-legal-basics-ip-subcontract-contracts/',
+    '/term/profit-and-loss-statement-pl/': '/theory/corporate-finance-pl-bs-cf-roi-basics/',
     '/term/labor-standards-act-36-agreement/': '/theory/labor-standards-act-36-agreement/',
     '/term/cpu-memory-functions/': '/theory/cpu-memory-functions/',
     '/term/sets-logical-operations/': '/theory/sets-logical-operations/',
     '/term/text-mining-nlp/': '/theory/text-mining-nlp/',
-    '/strategy/quality-control-abc-fishbone-scatter/': '/theory/quality-control-abc-fishbone-scatter/',
-    '/strategy/system-development-contracts-ses-outsourcing-risk/': '/theory/system-development-contracts-ses-outsourcing-risk/',
-    '/strategy/data-profitability-dwh-mining-regression/': '/theory/data-profitability-dwh-mining-regression/',
-    '/strategy/business-math-statistics-average-variance-bayes/': '/theory/business-math-statistics-average-variance-bayes/',
-    '/strategy/cloud-service-selection-saas-paas-iaas/': '/theory/cloud-service-selection-saas-paas-iaas/',
+    '/strategy/quality-control-abc-fishbone-scatter/': '/theory/qc-seven-tools-abc-fishbone-scatter/',
+    '/strategy/system-development-contracts-ses-outsourcing-risk/': '/theory/it-legal-basics-ip-subcontract-contracts/',
+    '/strategy/data-profitability-dwh-mining-regression/': '/theory/data-warehouse-mining-regression-basics/',
+    '/strategy/business-math-statistics-average-variance-bayes/': '/theory/statistics-mean-variance-probability-sampling/',
+    '/strategy/cloud-service-selection-saas-paas-iaas/': '/theory/cloud-saas-paas-iaas-basics/',
     // IPA 2026年CBT記事クラスタ統廃合 (2026-09-08, article-consolidation/ipa-cbt-2026-cluster-w36.md):
     // 独自価値の薄い6本をハブ記事へ統合。日程の詳細は ipa-2026-cbt-schedule-guide へ
     '/trend/ipa-2026-cbt-confirmed-schedule/': '/method/cbt-2026-syllabus-complete-guide/',

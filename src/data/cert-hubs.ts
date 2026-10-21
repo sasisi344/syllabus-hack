@@ -38,19 +38,9 @@ export const certGroups: CertGroup[] = [
         description: 'エンジニアの登竜門。科目A・B対策から合格後まで',
       },
       {
-        name: '応用情報技術者（AP）',
-        href: '/method/ap-hub/',
-        description: '午前・午後記述対策と高度試験へのステップアップ',
-      },
-      {
-        name: '高度試験（SC・NW・PM ほか）',
+        name: '応用情報・高度試験（AP・SC・NWほか）',
         href: '/method/advanced-ipa-hub/',
-        description: '分野別対策マップで高度区分を攻略',
-      },
-      {
-        name: '高度試験 論文・記述対策',
-        href: '/method/level4-strategy-hub/',
-        description: '生成AIを専門家に変えて論文・記述の壁を越える',
+        description: '応用情報の午後記述から高度試験・2027年の新試験まで',
       },
     ],
   },
@@ -66,7 +56,7 @@ export const certGroups: CertGroup[] = [
       {
         name: 'CCNA',
         href: '/method/ccna-hub/',
-        description: '世界共通のネットワーク資格をAIで突破',
+        description: '勉強時間の目安とIPA試験でいうとどのレベルか',
       },
     ],
   },
@@ -82,7 +72,7 @@ export const certGroups: CertGroup[] = [
       {
         name: 'DS検定',
         href: '/method/ds-kentei-hub/',
-        description: '統計・分析力をAIで体系化する最短ロードマップ',
+        description: '統計が難しく感じる理由と、G検定と組み合わせて広がる仕事',
       },
     ],
   },
@@ -93,17 +83,17 @@ export const certGroups: CertGroup[] = [
       {
         name: '日商簿記2・3級',
         href: '/method/boki-hub/',
-        description: '仕訳暗記からCBT試験まで最短合格ロードマップ',
+        description: '経理なら3級、製造業なら2級。仕事で決める級の選び方',
       },
       {
-        name: 'FP2級',
+        name: 'FP（ファイナンシャルプランナー）',
         href: '/method/fp-hub/',
-        description: 'CBT時代の合格戦略とAI活用学習ロードマップ',
+        description: '3級・2級・1級の違いと、2級を受けるか決める方法',
       },
       {
         name: 'MOS',
         href: '/method/mos-hub/',
-        description: 'Excel・Word試験の最短合格ロードマップ',
+        description: 'どれから取るか。事務職はExcelとWordが基本',
       },
       {
         name: '宅建（宅地建物取引士）',
@@ -124,7 +114,7 @@ export const certGroups: CertGroup[] = [
       {
         name: '電験三種',
         href: '/method/denken-hub/',
-        description: '1000時間の壁をAIで突破するロードマップ',
+        description: '知名度は低いが高給と独立が狙える。受けるべきかの決め方',
       },
       {
         name: '危険物取扱者（乙4）',
@@ -144,7 +134,7 @@ export const certGroups: CertGroup[] = [
       {
         name: '消防設備士',
         href: '/method/shobo-setsubi-hub/',
-        description: '乙6から甲種まで。記述式の実技（鑑別）をAIで攻略',
+        description: '全13種類の違いと、乙6から始める選び方',
       },
       {
         name: '土木施工管理技士',
@@ -159,8 +149,7 @@ export const certGroups: CertGroup[] = [
 export const headerCertLinks: CertHub[] = [
   certGroups[0].items[0], // ITパスポート
   certGroups[0].items[2], // 基本情報
-  certGroups[0].items[3], // 応用情報
-  certGroups[0].items[4], // 高度試験
+  certGroups[0].items[3], // 応用情報・高度試験
   certGroups[1].items[0], // AWS
   certGroups[3].items[0], // 簿記
   certGroups[3].items[1], // FP2級

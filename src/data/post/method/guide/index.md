@@ -1,81 +1,108 @@
 ---
 publishDate: 2026-02-10T00:00:00Z
-lastmod: 2026-10-20
-title: シラバスハック学習メソッド：生成AIで資格試験を攻略する
+lastmod: 2026-10-21
+title: シラバスハックの学習メソッド一覧｜20時間学習・マスク流・NotebookLMなど目的別の選び方
 image: ~/data/post/method/common-cover.png
-excerpt: 当サイトが推奨する「生成AI×シラバス」を活用した学習メソッドの総まとめです。ITパスポートから基本情報技術者まで、効率的な合格戦略を解説します。
+excerpt: シラバスハックで紹介している学習メソッドを、目的別にまとめた総覧です。20時間学習法や有名人の学習法、生成AIとNotebookLMの使い方、記憶・集中・直前対策まで、自分に合う方法を選べます。
 category: method
+toc: true
 tags:
   - 学習メソッド
-  - ChatGPT
-  - Claude
-  - Gemini
+  - 20時間学習法
+  - 生成AI
+  - NotebookLM
   - SyllabusHack
 metadata:
-  description: 生成AIを「最強の家庭教師」に変える、Syllabus Hack流の学習メソッド。2026年のCBT完全移行対応、NotebookLM学習法、地域別キャリア戦略。
+  description: シラバスハックで紹介している学習メソッドの一覧。20時間学習法、イーロン・マスク流の基礎学習、S.E.L.F.ループ、NotebookLM、記憶術、ポモドーロ、直前対策などを、目的別に整理して選び方を示します。
 ---
 
-## ツール別早見（ChatGPT / Claude / Gemini）
+資格の勉強を始めると、学習メソッドの情報にたくさん出会います。
 
-迷ったらこの表だけ見て、今日の作業に合うツールを1本選ぶ。
+有名人の学び方、自己啓発の本で紹介された方法、生成AIを使った新しいやり方。どれも魅力的に見えますが、全部を試す時間はありません。
+
+このページは、シラバスハックで紹介している学習メソッドを、目的別にまとめた一覧です。気になる悩みから、読む記事を選んでください。
+
+## 迷ったら、まず20時間で基礎を学び切る
+
+シラバスハックのコースは、どれも<strong>20時間</strong>を軸にしています。100時間、1000時間といった目安の大きさに圧倒されず、基礎を学んで形にするための現実的な時間だからです。
+
+- [なぜシラバスハックは「20時間学習法」を採用しているのか](/method/20hours-method-reason/)
+- [イーロン・マスク流「基礎だけ学ぶ」学習法と20時間学習法の共通点](/method/musk-semantic-tree-fundamentals/)
+- [ダン・マーテルの「S.E.L.F.ループ」で自己学習を設計する｜AIとの対話で「何を学ぶべきか」を見つける方法](/method/self-loop-ai-learning/)
+
+有名人や自己啓発で語られる学習法は、そのままでは試験に使いにくいことがあります。ここでは、幹となる基礎を先に押さえる、学ぶ内容を自分で設計するといった、考え方の部分を取り出して、資格試験に当てはめています。
+
+## 悩み別に選ぶ学習メソッド
+
+### 何から学べばいいかわからない
+
+- シラバス（試験範囲）をAIに読み込ませて、自分専用の学習相手にする：[NotebookLM（Gemini Notebook）資格試験活用ガイド](/method/notebooklm-features-guide/)
+- 複数のAIとNotebookLMを組み合わせて進める：[NotebookLM × 生成AI 資格試験ワークフローガイド](/method/notebooklm-ai-workflow-guide/)
+- 社会人の限られた時間で進める：[月100時間を捻出する社会人のAI学習法](/method/ai-mentor-study-method-roadmap/)
+
+### 用語が覚えられない
+
+- 専門用語を絵にして覚える：[覚えられない専門用語は「絵」にしろ。生成AIで記憶の宮殿を建築する暗記術](/method/generative-memory-palace/)
+- 用語を、つながりで覚える：[暗記という名の鎖を断ち切れ：用語の『繋がり』で記憶を永遠に変える記述式メソッド](/method/logical-memory-linkage-hack/)
+- 新しい用語が次々に出る分野は、自分用のノートを育てる：[生成AI用語は参考書を買うより生成AIに聞く](/method/genai-vocabulary-learning-efficiency/)
+- 手が疲れたら、口を動かす：[歩きながら学ぶ「音声独り言」学習法](/method/voice-output-learning/)
+
+### 問題が解けるようにならない
+
+- 間違いの癖を分析して、弱点だけ潰す：[正解には価値がない。AIに自分の「思考の癖」を分析させて弱点だけを潰す方法](/method/miss-note-db/)
+- 不正解の選択肢も学びにする：[正解の裏側に潜む『3つの財宝』](/method/wrong-choice-analysis-hack/)
+- 自分専用のドリルをAIで作る：[生成AIで10分で自作する、自分専用のIT資格対策アプリ](/method/genai-self-made-app-hack/)
+- 作って動かした経験をポートフォリオにする：[バイブコーディングで資格試験の問題集アプリを自作する](/method/vibe-coding/)
+
+### 続かない、時間がない
+
+- 集中の区切りをつくる：[ポモドーロ勉強法を「道具」でハックする](/method/pomodoro-anki-technique/)
+- 進捗を小さく刻んで管理する：[Notionで資格勉強の進捗管理](/method/notion-study-tracker/)
+- 記憶の定着を支える：[「1秒で寝れる」技術が学習効率を上げる](/method/sleep-skill-learning-efficiency/)
+- スキマ時間で進める：[ITパスポートのスマホ勉強法](/method/smartphone-study-guide/)
+- 機器の使い分けを決める：[スマホ・タブレット・PC、資格勉強はどれがいい？](/method/multi-device-cert-study/)
+- 続けるべきか迷ったとき：[資格の勉強を諦めるべきタイミング](/method/shikaku-benkyou-akirameru-timing/)
+
+### 試験が近づいている
+
+- 出題の傾向を、シラバスの変更から探る：[試験に出るのは「新参者」だ。シラバス改訂差分から次回の出題を予測するハック](/method/syllabus-diff-hack/)
+- 捨てる分野を決める：[ITパスポートを社会人が最短で取る捨て問戦略](/method/ip-discard-strategy/)
+- CBT試験の画面と時間配分に慣れる：[120分の戦場を支配せよ：CBT試験の迷宮を突破する操作感の極意](/method/cbt-exam-tactics/)
+- 2026年以降の試験制度の変更を確認する：[応用情報・高度試験のCBT化と2027年度の新試験制度](/method/cbt-2026-syllabus-complete-guide/)
+
+## 生成AIツールの使い分け
+
+迷ったら、今日の作業に合うツールを1本選んで使います。
 
 | ツール | 向いている用途 | 典型シーン |
 | :--- | :--- | :--- |
-| <strong>ChatGPT</strong> | 対話での用語解説・問題生成・プロンプトの追従 | 4択の類題を量産したい、手順どおりの出力が欲しい |
-| <strong>Claude</strong> | 長文・PDFの要約・記述式の言語化・添削 | 午後問題のシナリオ全文を扱う、Projectsで文脈を蓄える |
-| <strong>Gemini</strong> | 検索連携・最新情報の当たり付け | IPAの公式発表や直近トレンドを確認したい |
+| <strong>ChatGPT</strong> | 対話での用語解説・問題生成 | 4択の類題を作りたい、手順どおりの出力が欲しい |
+| <strong>Claude</strong> | 長文・PDFの要約、記述式の添削 | 午後問題の長い文章を扱う |
+| <strong>Gemini</strong> | 検索と連携した最新情報の確認 | IPAの公式発表や直近の動向を確認したい |
 
-ITパスポートの手順を1本にまとめた柱は <strong>[生成AIをコーチにしてITパスポートに合格するには](/method/chatgpt-itpassport-ai-complete-guide/)</strong>。基本情報・科目Bのプロンプト索引は <strong>[FE科目Bプロンプトハブ](/method/fe-subject-b-ai-prompt-hub/)</strong>。
+機能は変わりやすいので、利用するときの最新の仕様に合わせて使い分けてください。
 
-## 【重要】2026年、情報処理試験のルールが変わる
+ITパスポートの進め方は[生成AIをコーチにしてITパスポートに合格するには](/method/chatgpt-itpassport-ai-complete-guide/)に、基本情報の科目Bのプロンプトは[FE科目Bプロンプトハブ](/method/fe-subject-b-ai-prompt-hub/)にまとめています。
 
-今、受験者が最も知っておくべきは、IPA試験の歴史的な転換点である<strong>「2026年CBT完全移行」と「最新シラバス改訂」</strong>への対応です。
+## 試験別ロードマップとキャリア
 
-- 筆記試験の廃止、高度試験のCBT化への備え。
-- 生成AI前提の新シラバスに、これまでの参考書で対応できるか？
-- <strong>[2026年CBT完全移行＆新シラバス攻略マスターガイドはこちら](/method/cbt-2026-syllabus-complete-guide/)</strong>
+学習メソッドを選んだら、受ける試験のロードマップで全体の進め方を確認してください。
 
-## Syllabus Hack メソッドの3つの柱
-
-当サイトは、単なる合格テクニックではなく、<strong>「AIを使いこなしてキャリアを切り拓く」</strong>ための3つの柱を提供しています。
-
-### 【Method】最新のAI学習法を極める
-シラバス（試験範囲）をNotebookLMなどのAIに読み込ませ、あなた専用の <strong>「24時間使い放題の家庭教師」</strong> を作り出す独自手法です。
-- <strong>[【保存版】NotebookLM×シラバス学習ハックガイド](/method/notebooklm-ai-workflow-guide/)</strong>
-- <strong>音声学習</strong>: [公式資料を「ポッドキャスト」に変えて隙間時間をハック](/method/notebooklm-features-guide/)（学生・社会人別の使い方つき。2026年7月にGemini Notebookへ改称）
-- <strong>演習ツール</strong>: [AIを使って「自分専用のドリル」を自動生成する](/method/notebooklm-features-guide/)
-
-### 【Strategy】試験別・合格ロードマップ
-ITパスポート、セキュマネ、基本情報の3大試験に対し、AIをフル活用した進め方を提示しています。
-- <strong>[ITパスポート](/tag/itパスポート)</strong>: 「広大な範囲をAIで圧縮する」戦略。
-- <strong>[情報セキュリティマネジメント（SG）](/app/sg-quiz/)</strong>: 事例からリスクを抽出する「実務脳」の構築。
-- <strong>[基本情報技術者（FE）](/app/fe-quiz/)</strong>: 最難関の「アルゴリズム」をAIで視覚化・デバッグ。
-
-### 【Career】資格を地元での高年収に変える
-資格は、地方でのキャリアを最大化するための「最強の武器」です。地域の産業特性（マツダ、トヨタ、静岡のメーカーなど）に合わせた活用術を公開。
-- <strong>[【全国版】地方ITキャリアハック・ハブ：地域別の攻略戦略まとめ](/career/regional-it-career-hub/)</strong>
-- <strong>広島編</strong>: [広電での移動時間を「暗記のリズム」に変える](/career/backoffice-sg-strategy-hiroshima/)
-- <strong>静岡編</strong>: [製造業サプライチェーンでの市場価値を最大化](/career/backoffice-sg-strategy-shizuoka/)
+- [ITパスポート 合格ロードマップ](/method/itp-hub/)
+- [情報セキュリティマネジメント試験（SG） 合格ロードマップ](/method/sg-hub/)
+- [基本情報技術者試験 合格ロードマップ](/method/fe-hub/)
+- 資格を地元の仕事につなげたいとき：[【全国版】地方ITキャリアハック・ハブ](/career/regional-it-career-hub/)
 
 ---
 
-## シラバスハックの基本理念
+## シラバスハックの基本の考え方
 
-当サイトのモットーは <strong>「生成AI × シラバス ＝ 未来への投資」</strong> です。
+資格の勉強を通じて身につく「AIに指示を出す力」や「データを読み解く力」は、合格したあとの仕事でも使えます。
 
-1.  <strong>汎用性の高いスキル</strong> :
-    試験勉強を通じて身につけた「AIへの指示力（プロンプティング）」や「データ解析力」は、合格後の実務でそのまま通用する武器になります。
-2.  <strong>一石二鳥の学習</strong> :
-    資格取得をしながら、IT業界の最前線で使われる「AIツール」を使いこなす。これこそが、Syllabus Hackが目指す <strong>「実務系エンジニア・事務職」</strong> への近道です。
+学び方の基本は、次の3ステップです。
 
-### ハックの3ステップ
+1. <strong>公式ルール（シラバス）をAIに読ませる</strong>: 試験の範囲と深さをAIに把握させる
+2. <strong>対話しながらインプットする</strong>: わからない用語を、AIに繰り返し質問する
+3. <strong>自分に合わせてアウトプットする</strong>: 自分の仕事や目指すキャリアに合わせて、資格を活かす
 
-1.  <strong>公式ルール（シラバス）をAIに食わせる</strong> : 試験の「範囲」と「深さ」をAIに把握させます。
-2.  <strong>対話型インプット</strong> : わからない用語をAIに「エンジニアの視点で」解説させます。
-3.  <strong>パーソナライズ・アウトプット</strong> : 自分の居住地域や目指すキャリアに合わせて、資格という切符を最大限に活用します。
-
-「試験のための勉強」を、AIと共に「未来の人生をハックするトレーニング」に変えていきましょう。
-
-
-
-
+どの方法も、AIの答えを鵜呑みにせず、公式のシラバスや過去問で確かめながら使ってください。

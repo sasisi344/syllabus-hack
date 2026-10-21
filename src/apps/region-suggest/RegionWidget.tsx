@@ -18,7 +18,7 @@ const REGION_MAP: Record<string, RegionArticle[]> = {
     { title: '【宮城編】仙台の自社開発企業を狙うための応用情報（AP）活用術', slug: '/career/ses-ap-strategy-miyagi/', description: '仙台IT集積エリアを活かすキャリアパス' },
   ],
   '東京': [
-    { title: '【東京都版】超高密度な交通網を「合格タイマー」に変える戦略', slug: '/method/region-hack-tokyo/', description: '通勤時間を学習時間に変換する東京式ハック' },
+    { title: '東京で働き続けるなら取っておきたい資格', slug: '/method/region-hack-tokyo/', description: 'IT・セキュリティ・クラウドの選び方と合格までの道のり' },
   ],
   '神奈川': [
     { title: '【神奈川編】満員電車を「耳」で攻略！通勤エンジニアのロングトレイン術', slug: '/career/ses-ap-strategy-kanagawa/', description: '横浜・川崎のIT求人市場と資格の使い方' },

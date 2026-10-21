@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-06-09T00:00:00Z
-lastmod: 2026-10-20
+lastmod: 2026-10-21
 title: 'VLANとSTPとは？CCNA試験のネットワークアクセス領域を図解で攻略'
 excerpt: 'CCNA（200-301）の配点20%「ネットワークアクセス」の核心。VLAN設計・802.1Qトランキング・スパニングツリープロトコル（STP/RSTP）の動作原理を図解と試験対策プロンプト付きで解説する。'
 image: ~/data/post/theory/common-cover.png
@@ -189,4 +189,4 @@ CCNAの勉強でSTPの動作が理解しにくいです。
 
 VLANとSTPはPacket Tracerで実際に手を動かすと理解が格段に速い。「設定した後に何が変わったか」を目で確認することが最も効果的な学習法だ。
 
-→ [CCNA 合格ロードマップに戻る](/method/ccna-hub/)
+→ [CCNAの概要と勉強時間の目安に戻る](/method/ccna-hub/)

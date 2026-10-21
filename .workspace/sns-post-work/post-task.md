@@ -8,7 +8,7 @@
 - 鮮度の優先順: 旬のニュース（情報漏えい）→ 締切が近い日程（申込の窓口）→ コラム2本
 - 注意: 10/15（C・「（1/N）」）→ 10/16（E・「（1/N）」）は、10/17の予約が「続きます👇」方式のため、目印の方式が連続する（どちらを選んでも隣と重なる）。フックの型は変えて単調さを避けた
 
-- [ ] **2026-10-16（金）21:00 — 型E（③旬のニュース・ペルソナ#6）**
+- [x] **2026-10-16（金）21:00 — 型E（③旬のニュース・ペルソナ#6）**
   - 元記事: https://syllabushack.com/trend/security-incident-prevention-basics/
   - 連投の目印: 「（1/N）」方式（フックは数字＋問い。「？」結び）
 
@@ -55,7 +55,7 @@ https://syllabushack.com/trend/security-incident-prevention-basics/
 （4/4）
 ```
 
-- [ ] **2026-10-19（月）21:00 — 型D（②導線・ペルソナ#4）**
+- [x] **2026-10-19（月）21:00 — 型D（②導線・ペルソナ#4）**
   - 元記事: https://syllabushack.com/trend/exam-application-to-exam-period-table/
   - 連投の目印: 「（1/N）」方式（フックは数字＋問い。直前の10/17が「続きます👇」方式のため切り替え）
 
@@ -103,7 +103,7 @@ https://syllabushack.com/trend/exam-application-to-exam-period-table/
 （4/4）
 ```
 
-- [ ] **2026-10-21（水）21:00 — 型G（①コラム・ペルソナ#8）**
+- [x] **2026-10-21（水）21:00 — 型G（①コラム・ペルソナ#8）**
   - 元記事: https://syllabushack.com/trend/exec-security-investment-ai-era/
   - 連投の目印: 「続きます👇」方式（フックは問い。「？」の直後に置く）
 
@@ -147,7 +147,7 @@ https://syllabushack.com/trend/exam-application-to-exam-period-table/
 https://syllabushack.com/trend/exec-security-investment-ai-era/
 ```
 
-- [ ] **2026-10-23（金）21:00 — 型C（②導線・ペルソナ#5）**
+- [x] **2026-10-23（金）21:00 — 型C（②導線・ペルソナ#5）**
   - 元記事: https://syllabushack.com/method/musk-semantic-tree-fundamentals/
   - 連投の目印: 「（1/N）」方式（フックは意外性＋絵文字の言い切り。直前の10/21が「続きます👇」方式のため切り替え）
 

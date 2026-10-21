@@ -74,8 +74,8 @@ export const appRegistry: Record<string, AppMetadata> = {
   'genai-ethics-quiz': {
     id: 'genai-ethics-quiz',
     slug: 'genai-ethics-quiz',
-    title: '生成AI・AI倫理「新用語」特化型クイズ',
-    description: '最新シラバス対応！生成AIとAI倫理の重要キーワードをAI解説付きドリルで攻略。',
+    title: '生成AI・AI倫理クイズ',
+    description: 'ITパスポートの新用語から高度試験の実務ロジックまで、生成AIの用語を問題で確かめるドリル。',
     category: 'quiz',
     status: 'development',
   },
@@ -138,8 +138,8 @@ export const appRegistry: Record<string, AppMetadata> = {
   'genai-trend-quiz': {
     id: 'genai-trend-quiz',
     slug: 'genai-trend-quiz',
-    title: '生成AIトレンド・ロジック完全攻略ドリル',
-    description: 'IPA高度試験（Level 4）対応！2025年以降の最新トレンド、RAG、AIガバナンス、セキュリティを最速攻略する。',
+    title: '生成AIトレンド・ロジック演習ドリル',
+    description: '高度試験向けに、RAGの使い分けやAIガバナンスなど生成AIの実務ロジックを確かめるドリル。/app/genai-ethics-quiz/ のページに同居（2026-10-21統合）。',
     category: 'quiz',
     status: 'development',
     examId: 'common',

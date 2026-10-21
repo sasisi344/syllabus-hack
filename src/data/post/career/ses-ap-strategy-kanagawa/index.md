@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-03-08T00:00:00Z
-lastmod: 2026-10-20
+lastmod: 2026-10-21
 title: 【神奈川編】満員電車を「耳」で攻略！通勤エンジニアのロングトレイン術
 excerpt: 横浜・川崎から都内へ通勤する過酷な時間を、AP（応用情報）取得のブースト期間に変える。神奈川エンジニアのための「完全音声学習」戦略。
 persona: 神奈川県（横浜・川崎等）から都内へ通勤するSES・エンジニア
@@ -44,7 +44,7 @@ metadata:
 
 まずは、神奈川特有のエンジニア求人やキャリアハックを<strong>[地域特化型のキャリアハック・ハブ](/career/regional-it-career-hub/)</strong>でチェックしてください。
 
-- <strong>STEP 1</strong>: [応用情報技術者試験 合格ロードマップ](/method/ap-hub/)を読み、学習の優先順位を決める。
+- <strong>STEP 1</strong>: [IPA資格の高難易度対策｜応用情報・高度試験と2027年の新試験の選び方](/method/advanced-ipa-hub/)を読み、学習の優先順位を決める。
 - <strong>STEP 2</strong>: [NotebookLMでの音声学習](/method/notebooklm-features-guide/)を導入。湘南新宿ラインの揺れを暗記のリズムに変える。
 - <strong>STEP 3</strong>: 資格を武器に、横浜・川崎の「自社開発・ホワイト企業」へのキャリア相談を始める。
 
