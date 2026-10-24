@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-03-20T00:00:00Z
-lastmod: 2026-07-12
+lastmod: 2026-10-25
 title: 文系就活の最強カード「ITリテラシー」で内定を勝ち取る戦略
 excerpt: 文系学生がIT資格を取得することで、就活における市場価値をどう高めるか。ガクチカへの組み込み方や面接でのアピール術を具体的に解説します。
 persona: 20代文系大学生・就活生
@@ -68,7 +68,7 @@ metadata:
 
 ### 地域別キャリアハック一覧
 
-- [【愛知編】製造業DXの波に乗る！文系学生のためのIT資格活用術](/career/liberal-arts-it-strategy-aichi/)
+- [地方でIT資格は意味ない？都道府県別の年収差と、資格が効く地域・職種の見分け方（愛知などの製造業集積地を含む）](/career/regional-salary-qualification-correlation/)
 - [【福岡編】スタートアップ特区×ITで攻める文系就活ハック](/career/liberal-arts-it-strategy-fukuoka/)
 - （順次追加予定）
 

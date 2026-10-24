@@ -27,7 +27,7 @@ const REGION_MAP: Record<string, RegionArticle[]> = {
     { title: '【静岡編】バックオフィス×セキュリティマネジメント合格戦略', slug: '/career/backoffice-sg-strategy-shizuoka/', description: '製造業・物流拠点での情報セキュリティ人材ニーズ' },
   ],
   '愛知': [
-    { title: '【愛知編】製造業DXの波に乗る！文系学生のためのIT資格活用術', slug: '/career/liberal-arts-it-strategy-aichi/', description: '名古屋・豊田の製造業DX文脈でのIT資格価値' },
+    { title: '地方でIT資格は意味ない？都道府県別の年収差と、資格が効く地域・職種の見分け方', slug: '/career/regional-salary-qualification-correlation/', description: '名古屋・豊田など製造業の集積地でのIT資格の効き方' },
   ],
   '大阪': [
     { title: '【大阪版】梅田・難波のオフィス街をゴールに、DS検定から始める学習設計', slug: '/method/region-hack-osaka/', description: '大阪ITクラスターへの最短ルート設計' },

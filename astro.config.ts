@@ -132,6 +132,16 @@ export default defineConfig({
     '/career/fp2-jukendekaku-junbi-roadmap/': '/method/fp-hub/',
     // re-content 統合 (2026-10-21): 不合格後の立て直し・CBT申込の流れは fp-hub に統合
     '/trend/fp2-cbt-strategy/': '/method/fp-hub/',
+    // re-content 統合・排除 (2026-10-25): 愛知編は地域別年収の記事に統合、生成AI用語のシラバス解説・CBT操作感の記事は排除（転送先は itp-hub）
+    '/career/liberal-arts-it-strategy-aichi/': '/career/regional-salary-qualification-correlation/',
+    '/method/ai-problem-master-syllabus/': '/method/itp-hub/',
+    '/method/cbt-exam-tactics/': '/method/itp-hub/',
+    // re-content 統合 (2026-10-25): ITパスポートの分野別ドリル3本（ストラテジ・マネジメント・テクノロジ）を ip-field-drill に統合
+    '/app/ip-strategy-drill/': '/app/ip-field-drill/',
+    '/app/ip-management-drill/': '/app/ip-field-drill/',
+    '/app/ip-technology-drill/': '/app/ip-field-drill/',
+    // re-content 統合 (2026-10-25): MOS Excelエキスパートの難しさは mos-hub に統合
+    '/method/mos-excel-expert-difficulty/': '/method/mos-hub/',
     // re-content 統合 (2026-10-21): ITパスポートの価値の総論は itp-hub のFAQに統合
     '/career/ip-survival-strategy/': '/method/itp-hub/',
     // re-content 統合 (2026-10-21): SESとAPの独立戦略は ses-ap-strategy に統合

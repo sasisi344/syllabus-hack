@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-06-09T00:00:00Z
-lastmod: 2026-10-21
+lastmod: 2026-10-25
 title: '日商簿記3級・2級 合格ロードマップ｜経理なら3級、製造業なら2級。仕事で決める級の選び方'
 excerpt: '日商簿記は3級が入門編、2級で商業簿記に工業簿記が加わり、覚える範囲が一気に広がります。経理の仕事をしているか、確定申告を自分でしたことがあるかで難しさは大きく変わります。仕事から級を選ぶ考え方と、合格までの進め方をまとめます。'
 image: ~/data/post/method/boki-hub/cover.jpg
@@ -124,7 +124,7 @@ metadata:
 - [日商簿記の仕訳が覚えられないのはAIドリルで解決する](/method/boki-shiwake-drill-hack/)
 - [工業簿記がわからない簿記3級合格者へ](/method/boki-genka-keisan-wakaranai-hack/)
 - [日商簿記2級から経理・財務キャリアを作るロードマップ](/career/boki-keiri-career-roadmap/)
-- [簿記2級の次に取るべき資格](/method/boki2kyuu-tsugi-shikaku/)
+- [簿記2級の次に取る資格｜税理士・社労士を将来性とフリーランスの稼ぎやすさで比べる](/method/boki2kyuu-tsugi-shikaku/)
 - [全商簿記と日商簿記の違い｜難しさより「主催」と使い道で考える](/trend/boki-zensho-vs-nissho-comparison-hack/)
 
 ---

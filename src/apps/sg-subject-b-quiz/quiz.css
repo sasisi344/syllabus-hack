@@ -121,6 +121,54 @@
   color: #f8fafc;
 }
 
+.sg-case-label {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 0 0 0.75rem;
+  font-size: 0.85rem;
+}
+
+.sg-case-title {
+  font-weight: 700;
+  color: #475569;
+}
+
+.dark .sg-case-title {
+  color: #cbd5e1;
+}
+
+.sg-case-phase {
+  padding: 0.1rem 0.6rem;
+  border-radius: 999px;
+  background: rgba(99, 102, 241, 0.12);
+  color: #4f46e5;
+  font-weight: 700;
+}
+
+.dark .sg-case-phase {
+  color: #a5b4fc;
+}
+
+.sg-case-scores {
+  list-style: none;
+  margin: 1rem 0;
+  padding: 0;
+  display: grid;
+  gap: 0.4rem;
+}
+
+.sg-case-scores li {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.5rem 0.9rem;
+  border-radius: 0.5rem;
+  background: rgba(99, 102, 241, 0.06);
+  font-size: 0.9rem;
+}
+
 .sg-progress-dots {
   display: flex;
   gap: 0.4rem;

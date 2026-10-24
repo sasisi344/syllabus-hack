@@ -14,6 +14,8 @@ export function transformRawQuestions(raw: any[]): Question[] {
     return {
       id: r.id.toString(),
       category: r.category,
+      caseTitle: r.caseTitle,
+      phase: r.phase,
       scenario: r.scenario,
       question: r.question,
       choices,

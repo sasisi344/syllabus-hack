@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-02-10T00:00:00Z
-lastmod: 2026-10-21
+lastmod: 2026-10-25
 title: '資格のコスパ・タイパは受ける前には測れない｜費用の目安と先に決めたい「目的」'
 excerpt: '資格を取る前に、費用と時間に見合うかを計算したくなるのは自然なこと。けれど、受験前のコスパ・タイパの計算はほとんど当たりません。教材と受験料の目安を整理したうえで、計算より先に決めておきたい「目的」の立て方を紹介します。'
 image: ~/data/post/method/article-outlines-feb/cover.jpg
@@ -47,7 +47,7 @@ metadata:
 - 最後に、この範囲の4択問題を5問つける
 ```
 
-NotebookLMの使い方は [ITパスポート NotebookLM勉強法｜シラバスと過去問で自分専用の問題集を作る](/method/notebooklm-ip-study-hack/) でくわしく扱っています。
+NotebookLMの使い方は [ITパスポート NotebookLM勉強法｜シラバスから無料で問題集を自作し、手書きで解く](/method/notebooklm-ip-study-hack/) でくわしく扱っています。
 
 ### 過去問を解くなら、市販テキストだけで合格まで進める
 

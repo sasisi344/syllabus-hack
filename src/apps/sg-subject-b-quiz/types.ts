@@ -12,6 +12,8 @@ export interface Choice {
 export interface Question {
   id: string;
   category: string;
+  caseTitle?: string;    // 事例名（同じ事例の設問は同じ値）
+  phase?: string;        // 対応の段階（初期対応・現場の指揮など）
   scenario: string;      // シナリオ本文
   question: string;      // 設問文
   choices: Choice[];

@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-05-31T00:00:00Z
-lastmod: 2026-10-21
+lastmod: 2026-10-25
 title: '基本情報技術者試験 合格ロードマップ｜科目A・B対策から合格後のキャリアまで'
 excerpt: '科目A（広域知識）と科目B（擬似言語・アルゴリズム）の2本構成に対応した基本情報技術者試験のハブガイド。AI対話学習法・ロードマップ・関連記事33本のインデックスを一冊で整理します。'
 image: '~/data/post/method/fe-hub/cover.jpg'
@@ -207,7 +207,7 @@ AIとの対話で概念の「なぜ」から理解することで、テクノロ
 
 ## 科目A対策・全般学習
 
-- [SQLのJOINをAIでビジュアル変換して理解する](/method/sql-join-visual-ai-hack/) — DB分野の頻出テーマを論理から突破
+- [SQLのJOINが覚えられない人へ｜AIの図解で、基本情報とDS検定のSQL問題に備える](/method/sql-join-visual-ai-hack/) — DB分野の頻出テーマを、図と身近な例で理解
 - [CCNAのサブネット計算は実務で使う？](/method/ip-address-ai-metaphor-hack/) — 社内LANの分け方から理解するサブネット計算の手順
 - [Geminiで過去問を自分専用に作らせるプロンプト集](/method/gemini-cert-complete/) — 科目A用の問題生成・解説自動化
 - [基本情報の科目BはPythonだけで大丈夫？擬似言語でつまずく3つの違い](/trend/fe-pseudo-language-trap/) — 独学でよくある失敗パターンの回避

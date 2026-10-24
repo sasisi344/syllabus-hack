@@ -1,6 +1,6 @@
 # re-contentで残っているタスクを記録
 
-最終整理: 2026-10-21（第2弾完了）
+最終整理: 2026-10-25（第4弾完了）
 
 ## 進捗のまとめ
 
@@ -39,6 +39,18 @@
 - [x] 統合先だけ刷新し、統合元はまだ残している記事（統合元の `[!forAI]` を処理するときに、内容の移動・リダイレクト・記事削除を行う）
   - `/method/advanced-ipa-hub/` ← `/method/level4-strategy-hub/`・`/method/ap-hub/`・`/career/gateway-to-advanced/`
   - `/method/mos-hub/` ← `/method/mos-ai-shortcut/`・`/theory/mos-exam-format-scoring-basics/`
+
+## 第4弾の刷新（2026-10-25）
+
+- [x] `wording-list.md` に書き足されていた `[!forAI]` 18件を処理（一覧は `refreshed-list.md` 末尾）
+  - 統合: `/career/liberal-arts-it-strategy-aichi/` → `/career/regional-salary-qualification-correlation/`、`/method/mos-excel-expert-difficulty/` → `/method/mos-hub/`、ITパスポートの分野別ドリル3本 → `/app/ip-field-drill/`（新規）
+  - 排除: `/method/ai-problem-master-syllabus/`・`/method/cbt-exam-tactics/` → `/method/itp-hub/` へ転送
+  - 刷新: sg-subject-b-quiz・portfolio-vs-cert・ap-grader-intent-hack・boki2kyuu-tsugi-shikaku・miss-note-db・notebooklm-ip-study-hack・practice-guide-ipa・sg-news-study-hack・sql-join-visual-ai-hack・st-no-experience-essay-hack・syllabus-diff-hack・zaigakuchuu-takken-itsu-ukeru
+- [ ] 筆者の確認待ち
+  - `/career/portfolio-vs-cert/`: 採用担当の声3タイプ（マニュアル型・個人判断型・情報通型）は筆者の提供内容を反映済み。追加の取材や出典があれば、各タイプに追記する
+  - `/career/regional-salary-qualification-correlation/`: 年収表・資格保有者の待遇差の表は旧記事の数値（出典は「編集部作成」）をそのまま残している。根拠の確認が必要
+  - `/app/sg-subject-b-quiz/`: 12問は新規に書き下ろした架空の事例。内容（特に個人情報保護法まわりの記述）は公式資料での確認が必要。旧問題のうちMFA・シャドーIT・CIAの3問は削除した
+  - `/method/sql-join-visual-ai-hack/`: 「統合も考える」の指示に対し、別記事のまま残してDS検定hubから案内する形にした。統合する場合は `/method/ds-kentei-hub/` へ
 
 ## 未着手の実装（第3弾で保留）
 

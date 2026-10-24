@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-06-03T00:00:00Z
-lastmod: 2026-10-21
+lastmod: 2026-10-25
 title: 'IPA資格の高難易度対策｜応用情報・高度試験と2027年の新試験の選び方'
 excerpt: '応用情報技術者試験から、情報処理安全確保支援士・ネットワークスペシャリストなどの高度試験まで。IPAの難しい試験を正式名称ごとに整理し、2027年度に始まるプロフェッショナルデジタルスキル試験への移り変わりと、自分に合った試験の選び方をまとめます。'
 image: '~/data/post/method/common-cover.png'
@@ -131,7 +131,7 @@ ITパスポートから順に進むなら、<strong>ITパスポート → 情報
 - [応用情報技術者は取る価値がある？人事に知られていない資格で「評価してくれる会社」を見分ける](/career/applied-information-technology-engineer-career-value/)
 - [応用情報の捨て問戦略｜文系・未経験が3ヶ月で6割を取る分野の決め方](/method/ap-discard-strategy/)
 - [応用情報の午後・記述式をAIで対策するプロンプト集](/method/ap-pm-descriptive-ai-prompts/)
-- [「あと5点」が届かないときに。採点者の意図をAIで読み解くコツ](/method/ap-grader-intent-hack/)
+- [応用情報で「あと5点」足りなかったとき｜苦手分野で点を補う勉強の順番](/method/ap-grader-intent-hack/)
 - [応用情報に受かったのに何も変わらない。合格証を実務の武器に変える](/career/ap-cert-practical-use-hack/)
 - [応用情報で自社に残るか外へ飛ぶか](/career/ses-ap-strategy/)
 - [応用情報技術者(AP) 科目A試験 模擬試験シミュレーター](/app/ap-quiz/)
@@ -214,7 +214,7 @@ ITパスポートから順に進むなら、<strong>ITパスポート → 情報
 
 AIの案は、そのまま使わず、公的な統計や業界の資料で裏付けを確かめてください。論文では、提案が現実的で、リスクやガバナンスにも触れているかが見られます。
 
-- [未経験論文でSTに合格した「借用エピソード構造」の作り方](/method/st-no-experience-essay-hack/)
+- [ITストラテジスト論文で実務経験がないとき｜経験を補う順番と、今からできる業務の練習](/method/st-no-experience-essay-hack/)
 
 ### AI導入を「実験」で終わらせない役割
 

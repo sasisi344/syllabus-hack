@@ -58,6 +58,8 @@ ${q.answer}
     const cumAccuracy =
       progress.totalAnswered > 0 ? Math.round((progress.totalCorrect / progress.totalAnswered) * 100) : 0;
 
+    const caseTitles = Array.from(new Set(questions.map((q) => q.caseTitle).filter(Boolean))) as string[];
+
     return (
       <div class="sg-quiz-container res-view" ref={containerRef}>
         <div class="sg-result-card">
@@ -66,6 +68,22 @@ ${q.answer}
             <span class="num">{sessionCorrect}</span> / {questions.length}
           </div>
           <p class="sg-score-label">今回の正答率: {Math.round((sessionCorrect / questions.length) * 100)}%</p>
+          {caseTitles.length > 0 && (
+            <ul class="sg-case-scores">
+              {caseTitles.map((title) => {
+                const inCase = questions.filter((q) => q.caseTitle === title);
+                const correct = inCase.filter((q) => answers[q.id] === q.answer).length;
+                return (
+                  <li key={title}>
+                    <span>{title}</span>
+                    <span>
+                      {correct} / {inCase.length}
+                    </span>
+                  </li>
+                );
+              })}
+            </ul>
+          )}
           <div class="sg-cumulative">
             <span>累積回答数: {progress.totalAnswered}</span>
             <span>累積正答率: {cumAccuracy}%</span>
@@ -97,6 +115,13 @@ ${q.answer}
               ))}
             </div>
           </div>
+
+          {activeQuestion.caseTitle && (
+            <p class="sg-case-label">
+              <span class="sg-case-title">{activeQuestion.caseTitle}</span>
+              {activeQuestion.phase && <span class="sg-case-phase">{activeQuestion.phase}</span>}
+            </p>
+          )}
 
           <p class="sg-question-text">{activeQuestion.question}</p>
 

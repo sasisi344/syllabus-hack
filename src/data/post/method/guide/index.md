@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-02-10T00:00:00Z
-lastmod: 2026-10-21
+lastmod: 2026-10-25
 title: シラバスハックの学習メソッド一覧｜20時間学習・マスク流・NotebookLMなど目的別の選び方
 image: ~/data/post/method/common-cover.png
 excerpt: シラバスハックで紹介している学習メソッドを、目的別にまとめた総覧です。20時間学習法や有名人の学習法、生成AIとNotebookLMの使い方、記憶・集中・直前対策まで、自分に合う方法を選べます。
@@ -49,7 +49,7 @@ metadata:
 
 ### 問題が解けるようにならない
 
-- 間違いの癖を分析して、弱点だけ潰す：[正解には価値がない。AIに自分の「思考の癖」を分析させて弱点だけを潰す方法](/method/miss-note-db/)
+- 間違いの癖を分析して、弱点だけ潰す：[資格の間違いノートをAIで分析する方法｜Markdownで記録して、ミスのパターンを見つける](/method/miss-note-db/)
 - 不正解の選択肢も学びにする：[正解の裏側に潜む『3つの財宝』](/method/wrong-choice-analysis-hack/)
 - 自分専用のドリルをAIで作る：[生成AIで10分で自作する、自分専用のIT資格対策アプリ](/method/genai-self-made-app-hack/)
 - 作って動かした経験をポートフォリオにする：[バイブコーディングで資格試験の問題集アプリを自作する](/method/vibe-coding/)
@@ -65,9 +65,8 @@ metadata:
 
 ### 試験が近づいている
 
-- 出題の傾向を、シラバスの変更から探る：[試験に出るのは「新参者」だ。シラバス改訂差分から次回の出題を予測するハック](/method/syllabus-diff-hack/)
+- 出題の傾向を、シラバスの変更から探る：[資格のシラバス更新を見逃さない仕組み作り｜URLの記録・RSS・自動チェック・AIで変更点を知る](/method/syllabus-diff-hack/)
 - 捨てる分野を決める：[ITパスポートを社会人が最短で取る捨て問戦略](/method/ip-discard-strategy/)
-- CBT試験の画面と時間配分に慣れる：[120分の戦場を支配せよ：CBT試験の迷宮を突破する操作感の極意](/method/cbt-exam-tactics/)
 - 2026年以降の試験制度の変更を確認する：[応用情報・高度試験のCBT化と2027年度の新試験制度](/method/cbt-2026-syllabus-complete-guide/)
 
 ## 生成AIツールの使い分け

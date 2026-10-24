@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-06-09T00:00:00Z
-lastmod: 2026-10-21
+lastmod: 2026-10-25
 title: 'DS検定（データサイエンティスト検定）合格ロードマップ｜統計が難しく感じる理由と、G検定と組み合わせて広がる仕事'
 excerpt: 'DS検定は、データ分析のスキルを証明する資格です。統計学が範囲に入るため、数学が苦手な人には難しく感じられます。それでも取る価値がある理由と、G検定と組み合わせたときに広がる仕事、合格までの進め方をまとめます。'
 image: ~/data/post/method/ds-kentei-hub/cover.jpg
@@ -118,6 +118,7 @@ DS検定の勉強で、仮説検定がわかりません。
 
 - [DS検定とは何か。文系でも挑める「データ活用」の資格を解説](/trend/ds-kentei/)
 - [機械学習の3種類とは？教師あり・教師なし・強化学習](/theory/ml-supervised-unsupervised/)
+- [SQLのJOINが覚えられない人へ｜AIの図解で、基本情報とDS検定のSQL問題に備える](/method/sql-join-visual-ai-hack/)
 - [梅田・難波のオフィス街をゴールに、DS検定から始める大阪発の学習設計](/method/region-hack-osaka/)
 
 ---

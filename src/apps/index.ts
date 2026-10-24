@@ -35,11 +35,11 @@ export const appRegistry: Record<string, AppMetadata> = {
     category: 'tool',
     status: 'development',
   },
-  'ip-strategy-drill': {
-    id: 'ip-strategy-drill',
-    slug: 'ip-strategy-drill',
-    title: 'ITパスポート ストラテジ系 集中100問ドリル',
-    description: '配点35%を占める最重要分野「ストラテジ系」に特化した集中演習ドリル。AI解説付き。',
+  'ip-field-drill': {
+    id: 'ip-field-drill',
+    slug: 'ip-field-drill',
+    title: 'ITパスポート 分野別ドリル（ストラテジ・マネジメント・テクノロジ）',
+    description: 'ストラテジ系・マネジメント系・テクノロジ系を1ページで切り替えて演習。間違えた問題ほど出やすくなるドリル。',
     category: 'quiz',
     status: 'beta',
     examId: 'ip',
@@ -82,8 +82,8 @@ export const appRegistry: Record<string, AppMetadata> = {
   'sg-subject-b-quiz': {
     id: 'sg-subject-b-quiz',
     slug: 'sg-subject-b-quiz',
-    title: 'SG科目B 実務シナリオ演習ドリル',
-    description: '情報セキュリティマネジメント試験の最難関「科目B」に特化。実務シナリオ形式の長文問題を攻略。',
+    title: '情報セキュリティマネジメント科目B対策（インシデント対応3事例）',
+    description: '科目Bの長文シナリオを、発生直後から再発防止まで12問で演習。セキュリティ担当の判断の流れを身につける。',
     category: 'quiz',
     status: 'development',
     examId: 'sg',
@@ -114,26 +114,6 @@ export const appRegistry: Record<string, AppMetadata> = {
       'ITパスポートから応用情報まで対応。隙間時間にカードをめくって、膨大なシラバス用語を効率的にインプット。',
     category: 'tool',
     status: 'development',
-  },
-  'ip-management-drill': {
-    id: 'ip-management-drill',
-    slug: 'ip-management-drill',
-    title: 'ITパスポート マネジメント系 集中80問ドリル',
-    description:
-      'プロジェクト管理・サービスマネジメントなど、実務に直結する「マネジメント系」に特化した集中演習ドリル。',
-    category: 'quiz',
-    status: 'beta',
-    examId: 'ip',
-  },
-  'ip-technology-drill': {
-    id: 'ip-technology-drill',
-    slug: 'ip-technology-drill',
-    title: 'ITパスポート テクノロジ系 集中100問ドリル',
-    description:
-      '基礎理論からIT技術、セキュリティまで。配点の半分を占める「テクノロジ系」を完全網羅した集中演習ドリル。',
-    category: 'quiz',
-    status: 'beta',
-    examId: 'ip',
   },
   'genai-trend-quiz': {
     id: 'genai-trend-quiz',

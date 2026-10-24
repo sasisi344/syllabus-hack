@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-05-31T00:00:00Z
-lastmod: 2026-10-21
+lastmod: 2026-10-25
 title: 'ITパスポート 合格ロードマップ｜AI時代に最初の一手としてこれを選ぶ理由'
 excerpt: 'リスキリング・企業の最低限IT資格化・生成AI時代の入口として注目されるITパスポート。なぜ今この資格なのかという背景から合格手順・関連記事インデックスまで網羅したハブガイドです。'
 image: '~/data/post/method/itp-hub/cover.jpg'
@@ -151,10 +151,9 @@ ITパスポートの「プロジェクトマネジメント」を学び始めま
 - [資格試験の直前10日の過ごし方](/method/exam-final-10-days/) — 1日2時間で20時間を使う逆算スケジュールと、ITパスポートの頻出キーワード確認リスト
 - [ITパスポートのスマホ勉強法｜スキマ時間の長さで変えるアプリとAIの使い方](/method/smartphone-study-guide/) — スキマ時間の長さ別にアプリとAIを使い分ける
 - [「全力捨て問」戦略](/method/ip-discard-strategy/) — 社会人が1週間で受かるための取捨選択の技法
-- [ITパスポート NotebookLM勉強法](/method/notebooklm-ip-study-hack/) — シラバスと過去問で用語の自分事化から分野別の出題まで回す手順
+- [ITパスポート NotebookLM勉強法](/method/notebooklm-ip-study-hack/) — シラバスから無料で問題集を自作し、印刷して手書きで解く手順
 - [NotebookLM資格試験活用ガイド](/method/notebooklm-features-guide/) — 音声・マインドマップなど機能全体の使い方
 - [ストラテジ系をAIの「たとえ話」で攻略する技術](/method/ip-strategy-ai-hack/) — 経済学ゼロからでも解ける解説法
-- [CBT試験の操作感を制する極意](/method/cbt-exam-tactics/) — 本番のインターフェースで失点しないための事前対策
 
 ## 試験情報・トレンド
 
@@ -203,9 +202,7 @@ ITと直接関係しない会社では、資格名を書くだけでは評価に
 理解の確認と問題演習に使える無料のCBT対応アプリです。
 
 - [ITパスポート 模擬試験シミュレーター（CBT対応）](/app/it-passport-quiz/) — 本番形式で全分野を総合演習
-- [ストラテジ系ドリル（101問）](/app/ip-strategy-drill/) — 間違えた問題ほど出やすいストラテジ系の演習
-- [テクノロジ系 集中100問ドリル](/app/ip-technology-drill/) — 用語と仕組みを問題形式で定着
-- [マネジメント系 集中80問ドリル](/app/ip-management-drill/) — 開発手法・監査の頻出問題
+- [ITパスポート 分野別ドリル（283問）](/app/ip-field-drill/) — ストラテジ・マネジメント・テクノロジ系を切り替えて演習。間違えた問題ほど出やすい
 
 ## 分野別頻出パターン分析
 

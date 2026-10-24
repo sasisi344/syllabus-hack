@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-04-01T00:00:00Z
-lastmod: 2026-10-21
+lastmod: 2026-10-25
 title: 【全国版】地方ITキャリアを「資格×地域ハック」で攻略する：地域別戦略まとめ
 excerpt: 「地方は給与が低い」を覆す。広島、静岡、愛知、福岡など、各地域の産業特性に合わせたIPA資格の活用術と、高待遇・優良企業への転職ルートを徹底解説。
 persona: 地方在住、またはUIターンを検討中のIT・事務職志望者
@@ -34,7 +34,7 @@ metadata:
 - SESの将来に不安があり、案件ガチャから抜け出したい  
   → [神奈川・東京との境界線で市場価値を最大化](/career/ses-ap-strategy-kanagawa/) / [北海道・冬の学習ハックと案件攻略](/career/ses-ap-strategy-hokkaido/) / [宮城・仙台拠点の企業を攻略する](/career/ses-ap-strategy-miyagi/)
 - 文系からITへ進みたいが、何を武器にすべきか迷っている  
-  → [愛知・トヨタ経済圏でのITサバイバル](/career/liberal-arts-it-strategy-aichi/) / [福岡・IT特区でのスマートなキャリア形成](/career/liberal-arts-it-strategy-fukuoka/)
+  → [愛知など製造業の集積地での資格の効き方](/career/regional-salary-qualification-correlation/) / [福岡・IT特区でのスマートなキャリア形成](/career/liberal-arts-it-strategy-fukuoka/)
 - 地元を離れずに市場価値を上げる全体像から知りたい  
   → このまま下の一覧を確認
 
@@ -53,7 +53,7 @@ metadata:
 | :--- | :--- | :--- | :--- |
 | <strong>広島</strong> | バックオフィス・製造業 | SG | [広島・広電ハックで組織の守護神へ](/career/backoffice-sg-strategy-hiroshima/) |
 | <strong>静岡</strong> | メーカー事務・公務員志望 | SG | [静岡・車社会の移動を学習に変える](/career/backoffice-sg-strategy-shizuoka/) |
-| <strong>愛知</strong> | 文系IT・製造関連IT | IP/FE | [愛知・トヨタ経済圏でのITサバイバル](/career/liberal-arts-it-strategy-aichi/) |
+| <strong>愛知</strong> | 文系IT・製造関連IT | IP/FE | [愛知など製造業の集積地での資格の効き方](/career/regional-salary-qualification-correlation/) |
 | <strong>神奈川</strong> | 中堅エンジニア・SES | AP | [神奈川・東京との境界線で市場価値を最大化](/career/ses-ap-strategy-kanagawa/) |
 | <strong>福岡</strong> | IT初学者・文系スタートアップ | IP/FE | [福岡・IT特区でのスマートなキャリア形成](/career/liberal-arts-it-strategy-fukuoka/) |
 | <strong>北海道</strong> | SESエンジニア・準社員 | AP | [北海道・冬の学習ハックと案件攻略](/career/ses-ap-strategy-hokkaido/) |
