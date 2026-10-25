@@ -160,10 +160,9 @@ ITパスポートの「プロジェクトマネジメント」を学び始めま
 試験の最新動向と周辺情報をまとめた記事です。
 
 - [最新シラバス攻略｜生成AI・プロンプト変更点と対策](/trend/it-passport-syllabus-genai-update/) — シラバス6.3の変更点を整理
-- [生成AIパスポートvsITパスポート。AI時代にまず取るべき資格は](/trend/genai-passport-vs-it-passport/) — 2資格の役割分担と優先順位
+- [生成AIパスポートvsITパスポート。AI時代にまず取るべき資格は](/trend/genai-passport-vs-it-passport/) — 2資格の役割分担と優先順位、生成AI系資格の価値（認知度と活用場面）
 - [CBT試験の会場予約で失敗しない方法](/trend/cbt-exam-venue-booking-tips/) — 混む時間帯の避け方と、遅延への備え
 - [いま評価されやすいIT資格は？](/trend/cost-effective-certification-path-2025/) — 資格名に「情報セキュリティ」「生成AI」が入る資格が伝わりやすい理由
-- [生成AI関連の資格は意味あるか](/trend/generative-ai-certification-worth/) — 認知度と活用場面から考える資格の価値
 
 ## キャリア戦略
 
@@ -190,7 +189,7 @@ ITと直接関係しない会社では、資格名を書くだけでは評価に
 - [地方でIT資格は意味ない？都道府県別の年収差と、資格が効く地域・職種の見分け方](/career/regional-salary-qualification-correlation/) — 地方の事務職が資格を活かす経路
 - [ITパスポートが「恥ずかしい」と感じるあなたへ](/career/itp-shameful-career-hack/) — 武器にする時と捨てる時の見極め方。2026年の市場価値の見方も
 - [IPA資格の高難易度対策｜応用情報・高度試験と2027年の新試験の選び方](/method/advanced-ipa-hub/) — ITパスポートからSG・FEを経て応用情報へ進む順番
-- [リスキリングは通過点。データで実務を証明するポートフォリオ戦略](/career/reskilling-success-story-it-passport-to-data-scientist/) — 資格を活かす実績の作り方
+- [リスキリングとは？スキルアップ・リカレント教育との違いと、キャリアに役立つ資格・使える公的支援](/theory/reskilling-basics/) — 資格を活かす実績の作り方
 - [30代未経験エンジニア転職にITパスポートは武器になる？目指す職種で変わる価値とポートフォリオ](/career/30s-career-change/) — 職種ごとの見方とポートフォリオの作り方
 - [ITパスポートの次はAWSかFPか](/career/next-step-aws-vs-fp-strategy/) — 進みたい方向別の選び方と、金融系に進む人のFP＋SG
 - [金融IT検定とは？ITパスポートの次に取る価値があるか](/trend/fintech-it-cert-intro/) — 金融機関志望・金融DX担当向けの新しい選択肢

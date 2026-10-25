@@ -297,6 +297,48 @@ export default defineConfig({
     // re-content 統合 (2026-10-25): ベクトル検索とAIプロジェクト品質管理は advanced-ipa-hub に統合
     '/trend/db-vector-search-rag/': '/method/advanced-ipa-hub/',
     '/trend/pm-ai-quality-management/': '/method/advanced-ipa-hub/',
+    // re-content 統合 (2026-10-25): リスキリングの記事5本は theory/reskilling-basics に統合
+    '/trend/reskilling-yameta-riyuu/': '/theory/reskilling-basics/',
+    '/trend/reskilling-era-mindset-shift/': '/theory/reskilling-basics/',
+    '/trend/government-reskilling-university-60man/': '/theory/reskilling-basics/',
+    '/method/continuous-learning-reskilling-beyond-itp/': '/theory/reskilling-basics/',
+    '/career/reskilling-success-story-it-passport-to-data-scientist/': '/theory/reskilling-basics/',
+    // re-content 統合 (2026-10-25): 生成AI系資格の価値は genai-passport-vs-it-passport に統合
+    '/trend/generative-ai-certification-worth/': '/trend/genai-passport-vs-it-passport/',
+    // re-content 統合 (2026-10-25): ボイラー技士の引っ掛け問題対策は boiler-refrigeration-hub に統合
+    '/method/boiler-hikkake-mondai-ai-hack/': '/method/boiler-refrigeration-hub/',
+    // re-content 統合 (2026-10-25): 危険物乙4の1週間プランは kiken-butsu-hub に統合
+    '/method/kiken-butsu-isshukan-hack/': '/method/kiken-butsu-hub/',
+    // re-content 統合 (2026-10-25): 知財検定2級の実技対策は chiteki-zaisan-hub に統合
+    '/method/chiteki-zaisan-2kyu-jitsugi-jirei-ai-hack/': '/method/chiteki-zaisan-hub/',
+    // re-content 統合 (2026-10-25): 消防設備士乙6の不合格診断は shobo-setsubi-hub に統合
+    '/method/shobo-setsubi-otsu6-fail-diagnosis/': '/method/shobo-setsubi-hub/',
+    // re-content 統合 (2026-10-25): 学生向けのビル管理系資格は biru-kanri-hub に統合
+    '/method/manshon-energy-student-hack/': '/method/biru-kanri-hub/',
+    // re-content 統合 (2026-10-25): TOEICのシャドーイングと昇進要件は toeic-hub に統合
+    '/method/toeic-shadowing-ai-hack/': '/method/toeic-hub/',
+    '/career/toeic-shoushin-youken-kigyou/': '/method/toeic-hub/',
+    // re-content 統合 (2026-10-25): FP2級のタックス計算・シミュレーター・知識目的・実技の団体比較は fp-hub に統合
+    '/method/fp-tax-planning-calc-hack/': '/method/fp-hub/',
+    '/method/fp-ai-simulator-hack/': '/method/fp-hub/',
+    '/trend/fp-knowledge-without-passing-cert/': '/method/fp-hub/',
+    '/trend/fp2-jitsuki-comparison/': '/method/fp-hub/',
+    // re-content 統合 (2026-10-25): 宅建の民法AI記憶術は takken-hub に統合
+    '/method/takken-minpou-ai-memory-hack/': '/method/takken-hub/',
+    // re-content 統合 (2026-10-25): 簿記の仕訳ドリルと経理キャリアは boki-hub に統合
+    '/method/boki-shiwake-drill-hack/': '/method/boki-hub/',
+    '/career/boki-keiri-career-roadmap/': '/method/boki-hub/',
+    // re-content 統合 (2026-10-25): 土木施工管理の実務経験の積み方は doboku-sekou-hub に統合
+    '/career/doboku-sekou-jitsumu-keiken-hack/': '/method/doboku-sekou-hub/',
+    // re-content 統合 (2026-10-25): G検定の数学・統計とシラバス動向は g-kentei-hub に統合
+    '/method/g-kentei-math-statistics-hack/': '/method/g-kentei-hub/',
+    '/trend/g-kentei-2026-syllabus-trend/': '/method/g-kentei-hub/',
+    // re-content 統合 (2026-10-25): DS検定の概要は ds-kentei-hub に統合
+    '/trend/ds-kentei/': '/method/ds-kentei-hub/',
+    // re-content 統合 (2026-10-25): 経営層向けのセキュリティ投資の判断は security-incident-prevention-basics に統合
+    '/trend/exec-security-investment-ai-era/': '/trend/security-incident-prevention-basics/',
+    // re-content 統合 (2026-10-25): SGの『意味がない』という声への答えは sg-hub に統合
+    '/method/sg-meaningless-rumors-hack/': '/method/sg-hub/',
     // CBT系統合 (2026-06-10): cbt-impact-advanced-exams の固有情報をマージ
     '/cbt-impact-advanced-exams/': '/method/cbt-2026-syllabus-complete-guide/',
     '/method/cbt-impact-advanced-exams/': '/method/cbt-2026-syllabus-complete-guide/',
