@@ -197,6 +197,46 @@ export default defineConfig({
     // re-content 統合 (2026-10-25): CCNAのキャリア・新卒就活の記事は ccna-hub に統合
     '/career/ccna-network-engineer-career/': '/method/ccna-hub/',
     '/career/ccna-new-grad-company-filter/': '/method/ccna-hub/',
+    // re-content 統合 (2026-10-25): 3C分析とコアコンピタンスは SWOT分析の記事に統合（環境分析と自社の強みを1ページに）
+    '/theory/three-c-analysis/': '/theory/swot-analysis/',
+    '/theory/core-competence/': '/theory/swot-analysis/',
+    // re-content 統合 (2026-10-25): PPMとアンゾフの成長マトリクスは product-life-cycle に統合（製品と事業の戦略を1ページに）
+    '/theory/ppm-portfolio/': '/theory/product-life-cycle/',
+    '/theory/ansoff-matrix/': '/theory/product-life-cycle/',
+    // re-content 統合 (2026-10-25): コーポレートガバナンス・コンプライアンス・GXは CSR・SDGs・ESG投資の記事に統合（企業の責任の用語を1ページに）
+    '/theory/corporate-governance/': '/theory/csr-sdgs-esg-investment/',
+    '/theory/compliance/': '/theory/csr-sdgs-esg-investment/',
+    '/trend/gx-green-transformation/': '/theory/csr-sdgs-esg-investment/',
+    // re-content 統合 (2026-10-25): CRM・SCMとインボイス制度は ERP の記事に統合（業務システムと法対応を1ページに）
+    '/theory/crm-scm-management/': '/theory/erp-system-integration/',
+    '/trend/invoice-system/': '/theory/erp-system-integration/',
+    // re-content 統合 (2026-10-25): ストレージ(HDD/SSD)は CPU・メモリの記事に統合（ハードウェア基礎を1ページに）
+    '/theory/storage-hdd-ssd/': '/theory/cpu-memory-functions/',
+    // re-content 統合 (2026-10-25): OS制御（タスク管理・割込み・仮想記憶）は OS の記事に統合
+    '/theory/fe-os-control/': '/theory/os-operating-systems/',
+    // re-content 統合 (2026-10-25): FE向けTCP/IP・サブネットと5Gは network-database-fundamentals に統合
+    '/theory/fe-network-basics/': '/theory/network-database-fundamentals/',
+    '/trend/5g-technology/': '/theory/network-database-fundamentals/',
+    // re-content 統合 (2026-10-25): ウォーターフォール・DevOps・OODAループは agile-scrum-basics に統合（開発手法の用語を1ページに）
+    '/theory/waterfall-development/': '/theory/agile-scrum-basics/',
+    '/trend/devops/': '/theory/agile-scrum-basics/',
+    '/trend/ooda-loop/': '/theory/agile-scrum-basics/',
+    // re-content 統合 (2026-10-25): V字モデルは white-black-box-testing に統合（テスト手法と工程を1ページに）
+    '/theory/v-model-testing-phases/': '/theory/white-black-box-testing/',
+    // re-content 統合 (2026-10-25): 集合と論理演算は 2進数・16進数の記事に統合（数の表現と条件判断を1ページに）
+    '/theory/sets-logical-operations/': '/theory/binary-hexadecimal-basics/',
+    // re-content 統合 (2026-10-25): データ構造(スタック・キュー・木)は algorithm-search-sort に統合
+    '/theory/data-structures-basics/': '/theory/algorithm-search-sort/',
+    // re-content 統合 (2026-10-25): TLS・IPsec・認証プロトコル(応用情報)は security-controls-crypto-incident-basics に統合
+    '/theory/ap-security-protocols/': '/theory/security-controls-crypto-incident-basics/',
+    // re-content 統合 (2026-10-25): ディープラーニング基礎は ml-supervised-unsupervised に統合
+    '/theory/deep-learning-basics/': '/theory/ml-supervised-unsupervised/',
+    // re-content 統合 (2026-10-25): エクセルアレルギー対処は mos-excel-function-basics に統合
+    '/method/mos-kansuu-oboerarenai-hack/': '/theory/mos-excel-function-basics/',
+    // re-content 統合 (2026-10-25): MOS Word・PowerPoint基礎は mos-hub に統合
+    '/theory/mos-word-powerpoint-basics/': '/method/mos-hub/',
+    // re-content 統合 (2026-10-25): ルーティングプロトコル(OSPF/EIGRP/RIP)は ccna-vlan-stp に統合（CCNAの主要2領域を1ページに）
+    '/theory/ccna-routing-protocols/': '/theory/ccna-vlan-stp/',
     // CBT系統合 (2026-06-10): cbt-impact-advanced-exams の固有情報をマージ
     '/cbt-impact-advanced-exams/': '/method/cbt-2026-syllabus-complete-guide/',
     '/method/cbt-impact-advanced-exams/': '/method/cbt-2026-syllabus-complete-guide/',
@@ -261,7 +301,7 @@ export default defineConfig({
     '/term/profit-and-loss-statement-pl/': '/theory/corporate-finance-pl-bs-cf-roi-basics/',
     '/term/labor-standards-act-36-agreement/': '/theory/labor-standards-act-36-agreement/',
     '/term/cpu-memory-functions/': '/theory/cpu-memory-functions/',
-    '/term/sets-logical-operations/': '/theory/sets-logical-operations/',
+    '/term/sets-logical-operations/': '/theory/binary-hexadecimal-basics/',
     '/term/text-mining-nlp/': '/theory/text-mining-nlp/',
     '/strategy/quality-control-abc-fishbone-scatter/': '/theory/qc-seven-tools-abc-fishbone-scatter/',
     '/strategy/system-development-contracts-ses-outsourcing-risk/': '/theory/it-legal-basics-ip-subcontract-contracts/',

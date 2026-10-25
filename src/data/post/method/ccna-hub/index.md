@@ -236,8 +236,7 @@ CCNAは世界共通のネットワーク技術者資格で、シスコ社が認�
 
 - [CCNAを文系・未経験から6ヶ月で目指す手順｜最初にITパスポート過去問で現在地を測る](/method/ccna-liberal-arts-roadmap/)
 - [CCNAのサブネット計算は実務で使う？社内LANの分け方から理解する計算の手順](/method/ip-address-ai-metaphor-hack/)
-- [ルーティングプロトコルとは？OSPF・EIGRP・RIPの違い](/theory/ccna-routing-protocols/)
-- [VLANとSTPとは？CCNA試験のネットワークアクセス領域](/theory/ccna-vlan-stp/)
+- [VLAN・STP・ルーティング（OSPF・EIGRP・RIP）とは？CCNAの主要2領域](/theory/ccna-vlan-stp/)
 
 ---
 
