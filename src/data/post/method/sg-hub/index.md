@@ -130,8 +130,6 @@ SGで学ぶ情報セキュリティの概念（リスク管理・インシデン
 ## キャリア戦略
 
 - [バックオフィス職がSGで年収を上げる道筋｜社内のセキュリティ教育から副業講師まで](/career/backoffice-sg-career-hack/) — 社内で教える側に回り、評価と副業につなげる方法
-- [広島のバックオフィス職がSGを取ると何が変わるか](/career/backoffice-sg-strategy-hiroshima/) — 地方・中小企業での活用事例
-- [静岡のバックオフィス職がSGを活かすキャリア戦略](/career/backoffice-sg-strategy-shizuoka/) — 製造業・地方企業の文脈での価値
 
 ## 練習アプリ
 

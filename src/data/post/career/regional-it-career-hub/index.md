@@ -30,11 +30,11 @@ metadata:
 あなたに合う地域別戦略へそのまま進めます。
 
 - 年収を上げたいが、職種は大きく変えたくない  
-  → [広島・広電ハックで組織の守護神へ](/career/backoffice-sg-strategy-hiroshima/) / [静岡・車社会の移動を学習に変える](/career/backoffice-sg-strategy-shizuoka/)
+  → [バックオフィス職がSGで年収を上げる道筋（広島・静岡など製造業の多い地域の見方つき）](/career/backoffice-sg-career-hack/)
 - SESの将来に不安があり、案件ガチャから抜け出したい  
-  → [神奈川・東京との境界線で市場価値を最大化](/career/ses-ap-strategy-kanagawa/) / [北海道・冬の学習ハックと案件攻略](/career/ses-ap-strategy-hokkaido/) / [宮城・仙台拠点の企業を攻略する](/career/ses-ap-strategy-miyagi/)
+  → [応用情報で自社に残るか外へ飛ぶか（仙台・札幌・神奈川の地域別の見方つき）](/career/ses-ap-strategy/)
 - 文系からITへ進みたいが、何を武器にすべきか迷っている  
-  → [愛知など製造業の集積地での資格の効き方](/career/regional-salary-qualification-correlation/) / [福岡・IT特区でのスマートなキャリア形成](/career/liberal-arts-it-strategy-fukuoka/)
+  → [地方でIT資格は意味ない？（愛知の製造業の集積地・福岡のスタートアップ都市の見方つき）](/career/regional-salary-qualification-correlation/)
 - 地元を離れずに市場価値を上げる全体像から知りたい  
   → このまま下の一覧を確認
 
@@ -51,13 +51,13 @@ metadata:
 
 | 対象地域 | ターゲット職種 | 推奨資格 | 記事リンク |
 | :--- | :--- | :--- | :--- |
-| <strong>広島</strong> | バックオフィス・製造業 | SG | [広島・広電ハックで組織の守護神へ](/career/backoffice-sg-strategy-hiroshima/) |
-| <strong>静岡</strong> | メーカー事務・公務員志望 | SG | [静岡・車社会の移動を学習に変える](/career/backoffice-sg-strategy-shizuoka/) |
-| <strong>愛知</strong> | 文系IT・製造関連IT | IP/FE | [愛知など製造業の集積地での資格の効き方](/career/regional-salary-qualification-correlation/) |
-| <strong>神奈川</strong> | 中堅エンジニア・SES | AP | [神奈川・東京との境界線で市場価値を最大化](/career/ses-ap-strategy-kanagawa/) |
-| <strong>福岡</strong> | IT初学者・文系スタートアップ | IP/FE | [福岡・IT特区でのスマートなキャリア形成](/career/liberal-arts-it-strategy-fukuoka/) |
-| <strong>北海道</strong> | SESエンジニア・準社員 | AP | [北海道・冬の学習ハックと案件攻略](/career/ses-ap-strategy-hokkaido/) |
-| <strong>宮城</strong> | エンジニア・事務・金融 | AP/SG | [宮城・仙台拠点の企業を攻略する](/career/ses-ap-strategy-miyagi/) |
+| <strong>広島</strong> | バックオフィス・製造業 | SG | [製造業の多い地域でSGを活かす見方](/career/backoffice-sg-career-hack/) |
+| <strong>静岡</strong> | メーカー事務・公務員志望 | SG | [製造業の多い地域でSGを活かす見方](/career/backoffice-sg-career-hack/) |
+| <strong>愛知</strong> | 文系IT・製造関連IT | IP/FE | [製造業の集積地での資格の効き方](/career/regional-salary-qualification-correlation/) |
+| <strong>神奈川</strong> | 中堅エンジニア・SES | AP | [長い通勤を音声学習に変える](/career/ses-ap-strategy/) |
+| <strong>福岡</strong> | IT初学者・文系スタートアップ | IP/FE | [スタートアップ都市で橋渡し役になる](/career/regional-salary-qualification-correlation/) |
+| <strong>北海道</strong> | SESエンジニア・準社員 | AP | [資格の順番と冬の学習設計](/career/ses-ap-strategy/) |
+| <strong>宮城</strong> | エンジニア・事務・金融 | AP/SG | [仙台で横断力を示す](/career/ses-ap-strategy/) |
 
 ## 【Benefit】地域特化ハックで得られる3つのメリット
 

@@ -218,10 +218,8 @@ AIとの対話で概念の「なぜ」から理解することで、テクノロ
 
 ## キャリア設計
 
-- [生成AI時代の「エンジニアOS」——基本情報で手に入れる指示の解像度](/career/fe-engineer-foundation/) — 合格後の実務活用方法
+- [生成AI時代の「エンジニアOS」——基本情報で手に入れる指示の解像度](/career/fe-engineer-foundation/) — 合格後の実務活用方法と、会社命令・フリーランス・非エンジニアの立場別の価値
 - [ITパスポートを飛ばして基本情報から受けてよい人｜過去問7割が目安、開発部門を目指す資格ステップ](/career/fe-career-modern-web/) — ITパスポートとの差と合格後の進路
-- [非エンジニアこそ基本情報を取得せよ——DX時代の共通言語](/career/fundamental-it-engineer-for-non-engineers/) — IT職種以外での活用
-- [フリーランスエンジニアこそ「基本情報」を取り直すべき3つの理由](/career/freelance-fe-merit/) — 信頼性・単価・守備範囲への影響
 - [「科目B不合格」を履歴書で活かす方法](/career/fe-resume-liar-hack/) — 転職活動中の正直な書き方戦略
 
 ## 練習アプリ

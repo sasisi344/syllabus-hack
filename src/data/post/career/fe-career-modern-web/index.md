@@ -136,7 +136,7 @@ ITパスポートの内容を一通り知っている人は、ストラテジ系
 <strong>関連リンク</strong>:
 
 - [生成AI時代の「エンジニアOS」— 基本情報技術者で手に入れる指示の解像度（総論）](/career/fe-engineer-foundation/)
-- [【福岡編】スタートアップ特区×ITで攻める文系就活ハック](/career/liberal-arts-it-strategy-fukuoka/)
+- [地方でIT資格は意味ない？都道府県別の年収差と、資格が効く地域・職種の見分け方](/career/regional-salary-qualification-correlation/)
 
 ---
 

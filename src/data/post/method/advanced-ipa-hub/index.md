@@ -132,8 +132,7 @@ ITパスポートから順に進むなら、<strong>ITパスポート → 情報
 - [応用情報の捨て問戦略｜文系・未経験が3ヶ月で6割を取る分野の決め方](/method/ap-discard-strategy/)
 - [応用情報の午後・記述式をAIで対策するプロンプト集](/method/ap-pm-descriptive-ai-prompts/)
 - [応用情報で「あと5点」足りなかったとき｜苦手分野で点を補う勉強の順番](/method/ap-grader-intent-hack/)
-- [応用情報に受かったのに何も変わらない。合格証を実務の武器に変える](/career/ap-cert-practical-use-hack/)
-- [応用情報で自社に残るか外へ飛ぶか](/career/ses-ap-strategy/)
+- [応用情報で自社に残るか外へ飛ぶか](/career/ses-ap-strategy/)：合格後に知識を実務で使う方法と、地域別の見方を含む
 - [応用情報技術者(AP) 科目A試験 模擬試験シミュレーター](/app/ap-quiz/)
 - [応用情報技術者(AP) 科目B試験 ケーススタディ演習](/app/ap-subject-b/)
 

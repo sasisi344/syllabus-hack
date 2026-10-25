@@ -12,19 +12,19 @@ interface RegionArticle {
 
 const REGION_MAP: Record<string, RegionArticle[]> = {
   '北海道': [
-    { title: '【北海道編】札幌で上位キャリアを築くための応用情報（AP）ロードマップ', slug: '/career/ses-ap-strategy-hokkaido/', description: '道内IT企業・自社開発求人を狙うAP活用戦略' },
+    { title: '応用情報で自社に残るか外へ飛ぶか｜札幌編：資格の順番と冬の学習設計', slug: '/career/ses-ap-strategy/', description: '道内IT企業・自社開発求人を狙うAP活用戦略' },
   ],
   '宮城': [
-    { title: '【宮城編】仙台の自社開発企業を狙うための応用情報（AP）活用術', slug: '/career/ses-ap-strategy-miyagi/', description: '仙台IT集積エリアを活かすキャリアパス' },
+    { title: '応用情報で自社に残るか外へ飛ぶか｜仙台編：横断力を示すAP活用術', slug: '/career/ses-ap-strategy/', description: '仙台IT集積エリアを活かすキャリアパス' },
   ],
   '東京': [
     { title: '東京で働き続けるなら取っておきたい資格', slug: '/method/region-hack-tokyo/', description: 'IT・セキュリティ・クラウドの選び方と合格までの道のり' },
   ],
   '神奈川': [
-    { title: '【神奈川編】満員電車を「耳」で攻略！通勤エンジニアのロングトレイン術', slug: '/career/ses-ap-strategy-kanagawa/', description: '横浜・川崎のIT求人市場と資格の使い方' },
+    { title: '応用情報で自社に残るか外へ飛ぶか｜神奈川編：長い通勤を音声学習に変える', slug: '/career/ses-ap-strategy/', description: '横浜・川崎のIT求人市場と資格の使い方' },
   ],
   '静岡': [
-    { title: '【静岡編】バックオフィス×セキュリティマネジメント合格戦略', slug: '/career/backoffice-sg-strategy-shizuoka/', description: '製造業・物流拠点での情報セキュリティ人材ニーズ' },
+    { title: 'バックオフィス職がSGで年収を上げる道筋｜静岡など製造業の多い地域の見方', slug: '/career/backoffice-sg-career-hack/', description: '製造業・物流拠点での情報セキュリティ人材ニーズ' },
   ],
   '愛知': [
     { title: '地方でIT資格は意味ない？都道府県別の年収差と、資格が効く地域・職種の見分け方', slug: '/career/regional-salary-qualification-correlation/', description: '名古屋・豊田など製造業の集積地でのIT資格の効き方' },
@@ -33,15 +33,15 @@ const REGION_MAP: Record<string, RegionArticle[]> = {
     { title: '【大阪版】梅田・難波のオフィス街をゴールに、DS検定から始める学習設計', slug: '/method/region-hack-osaka/', description: '大阪ITクラスターへの最短ルート設計' },
   ],
   '広島': [
-    { title: '【広島編】広電（路面電車）のリズムをスキマ学習に変える暗記ハック', slug: '/career/backoffice-sg-strategy-hiroshima/', description: '地方中核都市でのバックオフィス×セキュリティ戦略' },
+    { title: 'バックオフィス職がSGで年収を上げる道筋｜広島など製造業の多い地域の見方', slug: '/career/backoffice-sg-career-hack/', description: '地方中核都市でのバックオフィス×セキュリティ戦略' },
   ],
   '福岡': [
-    { title: '【福岡編】スタートアップ特区×ITで攻める文系就活ハック', slug: '/career/liberal-arts-it-strategy-fukuoka/', description: '福岡スタートアップ集積地でのIT資格活用' },
+    { title: '地方でIT資格は意味ない？｜福岡のスタートアップ都市で文系が評価される場面', slug: '/career/regional-salary-qualification-correlation/', description: '福岡スタートアップ集積地でのIT資格活用' },
   ],
 };
 
 const DEFAULT_ARTICLES: RegionArticle[] = [
-  { title: '地方事務職がITパスポートを取っても給料が上がらない本当の理由', slug: '/career/itp-rural-salary-hack/', description: '地方×IT資格の現実と突破策' },
+  { title: '地方事務職がITパスポートを取っても給料が上がらない本当の理由', slug: '/career/regional-salary-qualification-correlation/', description: '地方×IT資格の現実と突破策' },
   { title: '【全国版】地方ITキャリアを「資格×地域ハック」で攻略する', slug: '/career/regional-it-career-hub/', description: '都道府県別キャリア戦略のまとめ' },
 ];
 

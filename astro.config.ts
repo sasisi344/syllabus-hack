@@ -169,6 +169,34 @@ export default defineConfig({
     '/career/biru-kanri-jitsumu-keiken-roadmap/': '/method/biru-kanri-hub/',
     // re-content 統合 (2026-10-21): 「基本情報は意味ない」論は fe-hub に統合
     '/trend/fe-certification-value-debate/': '/method/fe-hub/',
+    // re-content 統合 (2026-10-25): 危険物乙4と電験三種の手当記事は資格手当の相場一覧に統合
+    '/career/kikenbutsu-otsu4-teate/': '/career/shikaku-teate-soba-ichiran/',
+    '/theory/denken3-sennin-teate/': '/career/shikaku-teate-soba-ichiran/',
+    // re-content 統合 (2026-10-25): SES×APの地域別3本と、応用情報の合格後の活用は ses-ap-strategy に統合
+    '/career/ses-ap-strategy-miyagi/': '/career/ses-ap-strategy/',
+    '/career/ses-ap-strategy-kanagawa/': '/career/ses-ap-strategy/',
+    '/career/ses-ap-strategy-hokkaido/': '/career/ses-ap-strategy/',
+    '/career/ap-cert-practical-use-hack/': '/career/ses-ap-strategy/',
+    // re-content 統合 (2026-10-25): 広島・静岡のバックオフィス×SG記事は backoffice-sg-career-hack に統合
+    '/career/backoffice-sg-strategy-hiroshima/': '/career/backoffice-sg-career-hack/',
+    '/career/backoffice-sg-strategy-shizuoka/': '/career/backoffice-sg-career-hack/',
+    // re-content 統合 (2026-10-25): 福岡編と地方事務職の記事は地域別年収の記事に統合
+    '/career/liberal-arts-it-strategy-fukuoka/': '/career/regional-salary-qualification-correlation/',
+    '/career/itp-rural-salary-hack/': '/career/regional-salary-qualification-correlation/',
+    // re-content 統合 (2026-10-25): 高度試験の市場価値と報奨金の交渉は IPA資格と年収の記事に統合
+    '/career/advanced-ipa-certification-high-salary-impact/': '/career/ipa-certification-salary-impact/',
+    '/career/ipa-reward-negotiation-hack/': '/career/ipa-certification-salary-impact/',
+    // re-content 統合 (2026-10-25): 基本情報の会社命令・フリーランス・非エンジニア向けの記事は fe-engineer-foundation に統合
+    '/career/fe-useless-corporate-hack/': '/career/fe-engineer-foundation/',
+    '/career/freelance-fe-merit/': '/career/fe-engineer-foundation/',
+    '/career/fundamental-it-engineer-for-non-engineers/': '/career/fe-engineer-foundation/',
+    // re-content 統合 (2026-10-25): 「ITパスポートは恥ずかしい」の2本を itp-shameful-career-hack に統合
+    '/trend/it-passport-shame-debate/': '/career/itp-shameful-career-hack/',
+    // re-content 統合 (2026-10-25): 文系学生の新卒戦略は liberal-arts-it-strategy に統合
+    '/career/liberal-arts-student-strategy/': '/career/liberal-arts-it-strategy/',
+    // re-content 統合 (2026-10-25): CCNAのキャリア・新卒就活の記事は ccna-hub に統合
+    '/career/ccna-network-engineer-career/': '/method/ccna-hub/',
+    '/career/ccna-new-grad-company-filter/': '/method/ccna-hub/',
     // CBT系統合 (2026-06-10): cbt-impact-advanced-exams の固有情報をマージ
     '/cbt-impact-advanced-exams/': '/method/cbt-2026-syllabus-complete-guide/',
     '/method/cbt-impact-advanced-exams/': '/method/cbt-2026-syllabus-complete-guide/',
