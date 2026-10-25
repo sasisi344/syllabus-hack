@@ -229,7 +229,7 @@
 
 ### 著者の判断で保留にしたもの
 
-- D13: `ai-driven-architecture-hack` と `dev-doc-process-mvp` は著者の指示で統合せず、それぞれ刷新した（技術構成の記事と、開発記の入口の記事に役割を分けた）。Preactの採用などリポジトリで確認できる事実に直した。開発に使うAIツールの現状（Claude Codeの利用など）は著者が確認する
+- D13: `ai-driven-architecture-hack` と `dev-doc-process-mvp` は著者の指示で統合せず、それぞれ刷新した（技術構成の記事と、開発記の入口の記事に役割を分けた）。Preactの採用などリポジトリで確認できる事実に直した。開発ツールはAntigravityから始め、現在はCursorとClaude Code（著者の確認済み）。開発記4本には、当時と現在でツールが違う旨の注記を追加した
 - `bcm-bcp-business-continuity` は現状のまま
 - `/trend/fintech-it-cert-intro/` の受験料は、著者の確認（一般8,800円・会員5,280円、いずれも税込10%）を反映した
 - `/trend/security-incident-prevention-basics/` に移した警察庁・IPA・経産省の数字は、元記事の出典をそのまま引き継いでいる。公開前に一次資料での再確認が望ましい

@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-02-19T00:00:00Z
-lastmod: 2026-02-19
+lastmod: 2026-10-25
 updateDate: 2026-02-19
 title: '【実装編】Antigravityとペアプログラミング。Astro+Reactで構築する爆速Webアプリ開発'
 excerpt: 'フロントエンド開発の新時代。AIと共同で作り上げたUI/UXの実装プロセスと、Astro × Reactの技術選定。'
@@ -12,6 +12,8 @@ tags: ['Astro', 'React', 'Tailwind', 'ペアプロ']
 metadata:
   description: 'AIエージェント「Antigravity」とのペアプログラミングでクイズアプリを爆速構築したUI実装ドキュメント。科目B画面やTailwindの実践例。'
 ---
+
+> この開発記は、開発ツールにAntigravityを使っていたころの記録です。現在はCursorとClaude Codeで開発しています。当時と現在の構成で違うのは、主に開発に使うツールです。
 
 ## AstroWind から始まるプロトタイピング
 

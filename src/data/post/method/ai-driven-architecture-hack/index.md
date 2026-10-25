@@ -2,7 +2,7 @@
 publishDate: 2026-04-05T00:00:00Z
 lastmod: 2026-10-25
 title: '【内部構成】AIにサイト開発を任せる仕組み｜Syllabus Hackの技術構成とルール設計'
-excerpt: 'Syllabus HackをAI駆動で作り、運用している仕組みを公開します。Astro、Preactのクイズアプリ、Gemini API、AIエージェントの役割分担と、AIに守らせるルールファイルの考え方をまとめました。'
+excerpt: 'Syllabus HackをAI駆動で作り、運用している仕組みを公開します。Astro、Preactのクイズアプリ、生成AIのAPI、AIエージェントの役割分担と、AIに守らせるルールファイルの考え方をまとめました。'
 image: '~/data/post/method/ai-driven-architecture-hack/cover.png'
 persona: 'AIツールを実戦で使いこなしたい開発者・学習者'
 category: method
@@ -10,8 +10,8 @@ tags:
   - 生成AI
   - Astro
   - Antigravity
+  - Cursor
   - ClaudeCode
-  - GeminiAPI
   - SyllabusHack
 toc: true
 draft: false
@@ -25,7 +25,7 @@ knowledge:
 
 # SEO・外部表示設定
 metadata:
-  description: 'Syllabus Hackの技術構成を紹介。Astro、Preactのクイズアプリ、Gemini APIによるシラバスの構造化、AIエージェントの役割分担、AIに守らせるルールファイルの設計を解説します。'
+  description: 'Syllabus Hackの技術構成を紹介。Astro、Preactのクイズアプリ、生成AIのAPIによるシラバスの構造化、AIエージェントの役割分担、AIに守らせるルールファイルの設計を解説します。'
 ---
 
 この<strong>Syllabus Hack</strong>は、従来のWebサイト制作とは違う進め方で作っています。人間が要件定義から実装、テストまでを手作業で進めるのではなく、私が「何を作るか」を伝え、実装の多くをAIエージェントが担います。私がコードを一から書くことは、ほとんどありません。
@@ -41,15 +41,15 @@ metadata:
 | 役割 | 担当 | 内容 |
 | --- | --- | --- |
 | 方針を決める | 人間 | 何を作るか、誰のためか、どこまでやるか |
-| 実装する | AIエージェント（現在はClaude Code） | ファイルの編集、ビルド、エラーの修正、画像生成のスクリプト実行 |
-| 試験情報を構造化する | Gemini API | PDFのシラバスの解析、クイズデータ（JSON）や記事の下書きへの変換 |
+| 実装する | AIエージェント（Antigravityから始め、現在はCursorとClaude Code） | ファイルの編集、ビルド、エラーの修正、画像生成のスクリプト実行 |
+| 試験情報を構造化する | 生成AIのAPI | PDFのシラバスの解析、クイズデータ（JSON）や記事の下書きへの変換 |
 | 確認する | 人間 | 内容の正しさ、表現、公開してよいか |
 
 最後の「確認する」は、人間に残しています。AIが書いた記事や問題には、事実の誤りが混ざることがあるためです。
 
-## 開発ツールの変遷｜GeminiとAntigravityからClaude Codeへ
+## 開発ツールの変遷｜AntigravityからCursorとClaude Codeへ
 
-開発ツールの土台は、はじめはGeminiとAntigravityでした。ただ、それでは限界があったため、Claude Codeに切り替え、現在はClaude Codeを中心に開発と運用をしています。
+開発は、Antigravityから始めました。ただ、それでは限界があったため、現在はCursorとClaude Codeで開発と運用をしています。
 
 AIに守らせるルールは、ファイルにして置いています（後述）。
 
@@ -66,7 +66,7 @@ AIに守らせるルールは、ファイルにして置いています（後述
 
 ## 試験情報をAIで構造化する
 
-IPAのシラバスのようなPDFの試験要綱を、人間が一つずつ読み解くのは重労働です。ここにGeminiのAPIを使い、PDFの内容をクイズ用のデータ（JSON）や記事の下書きに変換する流れを作っています。コマンドラインから実行できるので、同じ処理を繰り返し回せます。
+IPAのシラバスのようなPDFの試験要綱を、人間が一つずつ読み解くのは重労働です。ここに生成AIのAPIを使うと、PDFの内容をクイズ用のデータ（JSON）や記事の下書きに変換する流れを作れます。このサイトでは、当初Geminiを使って試しました。コマンドラインから実行できるようにすれば、同じ処理を繰り返し回せます。
 
 シラバスにあるのは基礎知識で、問題文そのものではありません。そのため、AIが作った問題や解説は、そのまま公開せず、公式の資料と照らして確かめています。
 
@@ -90,7 +90,7 @@ AIエージェントに毎回同じ説明をするのは大変です。そこで
 ## まとめ：今回のポイント
 
 - Syllabus Hackは、人間が方針を決め、AIエージェントが実装する形で作っている
-- 構成はAstro 5、Preactのクイズアプリ、Tailwind CSS、MDX。試験情報の構造化にはGemini APIを使っている
+- 構成はAstro 5、Preactのクイズアプリ、Tailwind CSS、MDX。試験情報の構造化は、生成AIのAPIで行える
 - AIには、`CLAUDE.md` や `.agents/` のルールファイルを読ませて、作業の質をそろえている
 - 内容の正しさの確認は、人間の仕事として残している
 

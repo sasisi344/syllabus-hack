@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-02-19T00:00:00Z
-lastmod: 2026-02-19
+lastmod: 2026-10-25
 updateDate: 2026-02-19
 title: '【技術解説】PDFシラバスをGeminiで構造化データへ。無限クイズ生成パイプラインの裏側'
 excerpt: 'JSONで試験を再現する「Data Pipeline」の全貌。PDFパースからGemini 2.0 APIを使った問題生成までを技術的に解説。'
@@ -12,6 +12,8 @@ tags: ['Gemini', 'API', 'Node.js', '技術解説']
 metadata:
   description: 'ITパスポートやFE/SG試験の公式PDFシラバスから、Gemini APIを活用して高品質なクイズデータを生成する自動化パイプラインの技術詳細です。'
 ---
+
+> この開発記は、開発ツールにAntigravityを使っていたころの記録です。現在はCursorとClaude Codeで開発しています。当時と現在の構成で違うのは、主に開発に使うツールです。
 
 ## 課題：PDFはデータではない
 
