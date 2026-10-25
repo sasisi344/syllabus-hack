@@ -18,6 +18,12 @@ ITパスポートを題材にした20時間学習法パイロット（Tier1・�
 | [`completed-2026-10-06.md`](./completed-2026-10-06.md) | Week進捗表・Week3/Week4・コース検索流入モニタリングの完了項目・S.E.L.Fループ公開・旧§1・旧§2の完了項目（P10追加・実査、`notebooklm-ip-study-hack` 復活）・w40週報のAct完了項目・2026-10-06の作業記録（4記事の改善・KW DB・SNS台帳） |
 | [`task-2026-11-17-gemini-gem-to-skills.md`](./task-2026-11-17-gemini-gem-to-skills.md) | Gem→スキル統合に伴うコラム更新タスクの原本。内容は `../schedule-task.md` §8 に統合済み |
 
+## 1.5 古い記事の統合・刷新（re-content、2026-10-20〜25）
+
+| ファイル | 何を作業したか |
+|---|---|
+| [`re-content-2026-10/`](./re-content-2026-10/) | 「教える側・合格を約束する側」の文言の洗い出し（307記事）と、統合・刷新の作業一式。第1〜5弾で多数の記事を刷新・統合し、旧URLを `astro.config.ts` の redirects で転送した。最終記録は `out-task.md`。`extract_wording.py` を再実行すると `wording-list.md` を上書きするため注意 |
+
 ## 2. サイト構成再編（courseコレクション・3本柱）
 
 | ファイル | 何を作業したか |

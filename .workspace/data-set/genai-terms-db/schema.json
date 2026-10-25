@@ -1,0 +1,73 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "生成AI用語データベース",
+  "description": "genai-ethics-quiz などの問題を最新に保つための用語台帳。AIは status を candidate でしか書かない。confirmed への変更は人が一次情報を確かめてから行う。",
+  "type": "object",
+  "required": ["version", "updatedAt", "terms"],
+  "additionalProperties": false,
+  "properties": {
+    "version": { "type": "integer", "const": 1 },
+    "updatedAt": { "type": "string", "format": "date", "description": "このファイルを最後に更新した日 (YYYY-MM-DD)" },
+    "terms": { "type": "array", "items": { "$ref": "#/$defs/term" } }
+  },
+  "$defs": {
+    "term": {
+      "type": "object",
+      "required": ["id", "name", "definition", "sources", "status", "addedAt", "addedBy"],
+      "additionalProperties": false,
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$", "description": "kebab-case の英語スラッグ。例: rag" },
+        "name": { "type": "string", "description": "日本語の用語名。例: RAG（検索拡張生成）" },
+        "aliases": { "type": "array", "items": { "type": "string" }, "description": "英語名・略称・表記ゆれ。重複判定に使う" },
+        "definition": { "type": "string", "description": "1〜2文の定義。出典の言い回しの写しではなく、要約にする" },
+        "usage": { "type": "string", "description": "どんな場面で使われるか" },
+        "sources": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "required": ["url", "title", "kind"],
+            "additionalProperties": false,
+            "properties": {
+              "url": { "type": "string", "format": "uri" },
+              "title": { "type": "string" },
+              "kind": { "type": "string", "enum": ["primary", "secondary"], "description": "primary=公式発表・官公庁・規格・論文、secondary=報道・解説記事" },
+              "accessedAt": { "type": "string", "format": "date" }
+            }
+          }
+        },
+        "status": {
+          "type": "string",
+          "enum": ["candidate", "confirmed", "obsolete", "rejected"],
+          "description": "candidate=AIが集めた未確認、confirmed=人が一次情報で確認済み、obsolete=使われなくなった、rejected=誤り・存在しない・対象外"
+        },
+        "uncertain": { "type": "boolean", "description": "AIが断定できなかった場合 true。confirmed にする前に必ず false にする" },
+        "addedAt": { "type": "string", "format": "date" },
+        "addedBy": { "type": "string", "enum": ["human", "ai"] },
+        "confirmedAt": { "type": "string", "format": "date", "description": "status が confirmed になった日。confirmed のとき必須" },
+        "confirmedBy": { "type": "string", "description": "確認した人（筆者）の識別子。confirmed のとき必須" },
+        "obsoleteAt": { "type": "string", "format": "date", "description": "status が obsolete になった日" },
+        "note": { "type": "string", "description": "却下理由、定義が変わった経緯など" },
+        "relatedQuestionIds": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "この用語から作った問題の id（src/data/master/questions-genai.json など）"
+        }
+      },
+      "allOf": [
+        {
+          "if": { "properties": { "status": { "const": "confirmed" } }, "required": ["status"] },
+          "then": { "required": ["confirmedAt", "confirmedBy"], "properties": { "uncertain": { "const": false } } }
+        },
+        {
+          "if": { "properties": { "status": { "const": "obsolete" } }, "required": ["status"] },
+          "then": { "required": ["obsoleteAt"] }
+        },
+        {
+          "if": { "properties": { "addedBy": { "const": "ai" } }, "required": ["addedBy"] },
+          "then": { "properties": { "status": { "enum": ["candidate", "rejected"] } } }
+        }
+      ]
+    }
+  }
+}

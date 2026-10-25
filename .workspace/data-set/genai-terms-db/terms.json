@@ -1,0 +1,75 @@
+{
+  "version": 1,
+  "updatedAt": "2026-10-25",
+  "terms": [
+    {
+      "id": "ai-act-japan",
+      "name": "AI法（人工知能関連技術の研究開発及び活用の推進に関する法律）",
+      "aliases": [
+        "AI推進法",
+        "人工知能関連技術の研究開発及び活用の推進に関する法律",
+        "AI法"
+      ],
+      "definition": "AIの研究開発と活用を国として推進するための法律。2025年6月4日に公布・一部施行され、2025年9月1日に全面施行された。全面施行に合わせて、内閣に人工知能戦略本部が置かれた。",
+      "usage": "国のAI政策の根拠として、AI基本計画やAIの適正性確保の指針とあわせて語られる。",
+      "sources": [
+        {
+          "url": "https://www.cao.go.jp/press/new_wave/20251003.html",
+          "title": "ＡＩ法 全面施行 －次なるフェーズへ－（内閣府）",
+          "kind": "primary",
+          "accessedAt": "2026-10-25"
+        }
+      ],
+      "status": "candidate",
+      "uncertain": false,
+      "addedAt": "2026-10-25",
+      "addedBy": "ai",
+      "note": "施行日は内閣府の掲載ページで確認。法律の条文（e-Gov）と、AI基本計画の最新の閣議決定の内容は未確認。"
+    },
+    {
+      "id": "ai-cyber-risk-ipa-10threats",
+      "name": "AIの利用をめぐるサイバーリスク",
+      "aliases": [
+        "AI利用リスク",
+        "情報セキュリティ10大脅威 2026 組織編 3位"
+      ],
+      "definition": "IPA「情報セキュリティ10大脅威 2026」の組織編で、3位に初選出された脅威の名称。",
+      "usage": "組織のセキュリティ対策や、セキュリティ系の試験・学習で、最近の脅威の例として挙げられる。",
+      "sources": [
+        {
+          "url": "https://www.ipa.go.jp/security/10threats/10threats2026.html",
+          "title": "情報セキュリティ10大脅威 2026（IPA）",
+          "kind": "primary",
+          "accessedAt": "2026-10-25"
+        }
+      ],
+      "status": "candidate",
+      "uncertain": true,
+      "addedAt": "2026-10-25",
+      "addedBy": "ai",
+      "note": "順位と初選出はIPAの掲載ページで確認。脅威の具体的な内容（解説書 kaisetsu_2026_soshiki.pdf）は未読のため、定義は名称の説明にとどめた。"
+    },
+    {
+      "id": "ai-guidelines-for-business",
+      "name": "AI事業者ガイドライン",
+      "aliases": [
+        "AI Guidelines for Business"
+      ],
+      "definition": "総務省と経済産業省が共同で公表している、AIを事業で扱う主体向けのガイドライン。AI開発者・AI提供者・AI利用者の3つの主体に分けて整理している。第1.1版は令和7年3月28日付。",
+      "usage": "企業がAIを開発・提供・利用するときのガバナンスやリスク対応の考え方として参照される。",
+      "sources": [
+        {
+          "url": "https://www.meti.go.jp/shingikai/mono_info_service/ai_shakai_jisso/20240419_report.html",
+          "title": "AI事業者ガイドライン（経済産業省）",
+          "kind": "primary",
+          "accessedAt": "2026-10-25"
+        }
+      ],
+      "status": "candidate",
+      "uncertain": true,
+      "addedAt": "2026-10-25",
+      "addedBy": "ai",
+      "note": "検索結果では第1.2版が令和8年3月31日に公表されたとされるが、経産省ページが取得できず（403）、最新版の番号と内容は未確認。confirmed にする前に、経産省・総務省のページで版を確かめる。"
+    }
+  ]
+}
