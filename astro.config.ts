@@ -237,6 +237,28 @@ export default defineConfig({
     '/theory/mos-word-powerpoint-basics/': '/method/mos-hub/',
     // re-content 統合 (2026-10-25): ルーティングプロトコル(OSPF/EIGRP/RIP)は ccna-vlan-stp に統合（CCNAの主要2領域を1ページに）
     '/theory/ccna-routing-protocols/': '/theory/ccna-vlan-stp/',
+    // re-content 統合 (2026-10-25): ハルシネーション・マルチモーダル・RAG・XAI・AIアシスタント・MLOps は generative-ai-terms-basics に統合
+    '/trend/hallucination-ai-error/': '/theory/generative-ai-terms-basics/',
+    '/trend/multi-modal-ai/': '/theory/generative-ai-terms-basics/',
+    '/trend/rag-ai-system/': '/theory/generative-ai-terms-basics/',
+    '/trend/explainable-ai-xai/': '/theory/generative-ai-terms-basics/',
+    '/trend/ai-assistant/': '/theory/generative-ai-terms-basics/',
+    '/trend/mlops/': '/theory/generative-ai-terms-basics/',
+    // re-content 統合 (2026-10-25): AI生成物の著作権・AI倫理・オプトアウト・ディープフェイクは ai-law-ethics-basics に統合
+    '/trend/copyright-ai-generated/': '/theory/ai-law-ethics-basics/',
+    '/trend/ai-ethics-governance/': '/theory/ai-law-ethics-basics/',
+    '/trend/ai-opt-out-policy/': '/theory/ai-law-ethics-basics/',
+    '/trend/deepfake/': '/theory/ai-law-ethics-basics/',
+    // re-content 統合 (2026-10-25): 多要素認証・SQLインジェクション・XSS・ランサムウェアは cyber-attack-countermeasures-basics に統合
+    '/trend/multi-factor-authentication/': '/theory/cyber-attack-countermeasures-basics/',
+    '/trend/sql-injection-vulnerability/': '/theory/cyber-attack-countermeasures-basics/',
+    '/trend/cross-site-scripting/': '/theory/cyber-attack-countermeasures-basics/',
+    '/trend/ransomware-security/': '/theory/cyber-attack-countermeasures-basics/',
+    // re-content 統合 (2026-10-25): DE&Iと人的資本報告(ISO 30414)は human-capital-management に統合
+    '/trend/dei-diversity-equity-inclusion/': '/trend/human-capital-management/',
+    '/trend/human-capital-reporting-iso30414/': '/trend/human-capital-management/',
+    // re-content 統合 (2026-10-25): DX(デジタルトランスフォーメーション)の定義は dx-leadership-mvv-digital-divide に統合
+    '/trend/dx-digital-transformation/': '/theory/dx-leadership-mvv-digital-divide/',
     // CBT系統合 (2026-06-10): cbt-impact-advanced-exams の固有情報をマージ
     '/cbt-impact-advanced-exams/': '/method/cbt-2026-syllabus-complete-guide/',
     '/method/cbt-impact-advanced-exams/': '/method/cbt-2026-syllabus-complete-guide/',

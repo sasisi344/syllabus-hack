@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-10-07T00:00:00Z
-lastmod: 2026-10-21
+lastmod: 2026-10-25
 title: '今さら聞けない情報漏えい対策｜相次ぐ流出から自分と会社を守る方法'
 excerpt: '2026年9月〜10月、大規模な情報漏えいが相次いでいます。企業が漏らしたデータは個人では止められません。それでも被害を小さくするために、個人と職場、経営層・管理職ができる対策と、標的型メールの見分け方を整理します。'
 image: '~/data/post/trend/security-incident-prevention-basics/cover.jpg'
@@ -67,7 +67,7 @@ NHKの報道によると、セキュリティ会社は7月以降に被害が増�
 
 パスワードが盗まれても、もう1つの確認が必要なら、不正ログインを止められます。メール・通販・金融・SNSから、順に設定してください。
 
-仕組みと種類の違いは、[多要素認証（MFA）の解説](/trend/multi-factor-authentication/)で整理しています。使えるサービスでは、パスキー（端末の指紋・顔認証で、パスワードなしにログインする方式）への切り替えも、有効な選択肢です。
+仕組みと種類の違いは、[多要素認証（MFA）の解説](/theory/cyber-attack-countermeasures-basics/)で整理しています。使えるサービスでは、パスキー（端末の指紋・顔認証で、パスワードなしにログインする方式）への切り替えも、有効な選択肢です。
 
 ### 預けるデータを減らす
 
@@ -197,7 +197,7 @@ DXのようなデジタル化を進めるほど、1回の事故で失うもの�
 - [SG試験の学習ロードマップ](/method/sg-beginner-roadmap/)
 - [セキュリティ対策・暗号・インシデント対応の基礎](/theory/security-controls-crypto-incident-basics/)
 - [ゼロトラストとは（セキュリティ対策の基礎の一節）](/theory/security-controls-crypto-incident-basics/)
-- [ランサムウェアの仕組みと防御策](/trend/ransomware-security/)
+- [ランサムウェア・多要素認証などの攻撃と対策](/theory/cyber-attack-countermeasures-basics/)
 
 ---
 
