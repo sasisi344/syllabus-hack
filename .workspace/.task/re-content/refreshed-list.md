@@ -2,7 +2,7 @@
 
 `wording-list.md` から、内容の刷新まで終えた記事を分けて管理するファイル。文言修正だけで済んだ記事は `wording-list.md` に残している。残っている作業は `out-task.md` を参照。
 
-- 刷新済み: 126記事（第1弾47記事 2026-10-20〜21、第2弾38記事 2026-10-21、第3弾 2026-10-21〜: 23記事、第4弾 2026-10-25: 18記事）。ほかに `[!forAI]` の対象外だが重複していたため統合した記事を一覧に含む
+- 刷新済み: 126記事（第1弾47記事 2026-10-20〜21、第2弾38記事 2026-10-21、第3弾 2026-10-21〜: 23記事、第4弾 2026-10-25: 18記事）。第5弾（統合110本・刷新10本）は末尾の節に記載。ほかに `[!forAI]` の対象外だが重複していたため統合した記事を一覧に含む
 - 「現在のタイトル」は2026-10-25時点の記事ファイルの値。統合した記事は、旧URLを `astro.config.ts` の redirects で統合先へ転送している
 
 ## 一覧
@@ -145,6 +145,94 @@
 | `/method/st-no-experience-essay-hack/` | ITストラテジスト論文で実務経験がないとき｜経験を補う順番と、今からできる業務の練習 | 刷新（「架空の成功を実体験として書く」方針を撤回） |
 | `/method/syllabus-diff-hack/` | 資格のシラバス更新を見逃さない仕組み作り｜URLの記録・RSS・自動チェック・AIで変更点を知る | 刷新 |
 | `/method/zaigakuchuu-takken-itsu-ukeru/` | 大学生は宅建をいつ受ける？目的を先に決めて、2年で設計し3年で受ける計画の立て方 | 刷新 |
+
+## 第5弾の統合と刷新（2026-10-25）
+
+`next-plan.md` の案に沿って、近似する記事を統合先へ集約した。削除した記事は110本。旧URLは `astro.config.ts` の redirects で統合先へ転送している。
+
+### 統合した内容（統合先ごとの要約）
+
+- 危険物乙4と電験三種の手当記事は資格手当の相場一覧に統合
+- SES×APの地域別3本と、応用情報の合格後の活用は ses-ap-strategy に統合
+- 広島・静岡のバックオフィス×SG記事は backoffice-sg-career-hack に統合
+- 福岡編と地方事務職の記事は地域別年収の記事に統合
+- 高度試験の市場価値と報奨金の交渉は IPA資格と年収の記事に統合
+- 基本情報の会社命令・フリーランス・非エンジニア向けの記事は fe-engineer-foundation に統合
+- 「ITパスポートは恥ずかしい」の2本を itp-shameful-career-hack に統合
+- 文系学生の新卒戦略は liberal-arts-it-strategy に統合
+- CCNAのキャリア・新卒就活の記事は ccna-hub に統合
+- 3C分析とコアコンピタンスは SWOT分析の記事に統合（環境分析と自社の強みを1ページに）
+- PPMとアンゾフの成長マトリクスは product-life-cycle に統合（製品と事業の戦略を1ページに）
+- コーポレートガバナンス・コンプライアンス・GXは CSR・SDGs・ESG投資の記事に統合（企業の責任の用語を1ページに）
+- CRM・SCMとインボイス制度は ERP の記事に統合（業務システムと法対応を1ページに）
+- ストレージ(HDD/SSD)は CPU・メモリの記事に統合（ハードウェア基礎を1ページに）
+- OS制御（タスク管理・割込み・仮想記憶）は OS の記事に統合
+- FE向けTCP/IP・サブネットと5Gは network-database-fundamentals に統合
+- ウォーターフォール・DevOps・OODAループは agile-scrum-basics に統合（開発手法の用語を1ページに）
+- V字モデルは white-black-box-testing に統合（テスト手法と工程を1ページに）
+- 集合と論理演算は 2進数・16進数の記事に統合（数の表現と条件判断を1ページに）
+- データ構造(スタック・キュー・木)は algorithm-search-sort に統合
+- TLS・IPsec・認証プロトコル(応用情報)は security-controls-crypto-incident-basics に統合
+- ディープラーニング基礎は ml-supervised-unsupervised に統合
+- エクセルアレルギー対処は mos-excel-function-basics に統合
+- MOS Word・PowerPoint基礎は mos-hub に統合
+- ルーティングプロトコル(OSPF/EIGRP/RIP)は ccna-vlan-stp に統合（CCNAの主要2領域を1ページに）
+- ハルシネーション・マルチモーダル・RAG・XAI・AIアシスタント・MLOps は generative-ai-terms-basics に統合
+- AI生成物の著作権・AI倫理・オプトアウト・ディープフェイクは ai-law-ethics-basics に統合
+- 多要素認証・SQLインジェクション・XSS・ランサムウェアは cyber-attack-countermeasures-basics に統合
+- DE&Iと人的資本報告(ISO 30414)は human-capital-management に統合
+- DX(デジタルトランスフォーメーション)の定義は dx-leadership-mvv-digital-divide に統合
+- AP午後・NW過去問・PM午後Ⅱ・SCの記述対策は ap-pm-descriptive-ai-prompts に統合
+- FE科目Bのドリル・Python変換・擬似言語入門は ai-prompt-hub と algorithm-roadmap に統合
+- NotebookLMの他AI連携とPDF変換手順は notebooklm-features-guide に統合
+- IPAシラバス変更の追随は syllabus-diff-hack に統合
+- IPA試験の最新動向・2027年再編・年代別の狙い目は ipa-2027-restructuring に統合
+- 科学的な学習法の3記事を scientific-study-methods に集約
+- イーロン・マスクの知識の木は 20hours-method-reason に統合
+- 試験当日のコンディションと欠席時の報告は exam-final-10-days に統合
+- 不正解の選択肢の解剖は miss-note-db に統合
+- AI家庭教師の使い方は ai-mentor-study-method-roadmap に統合
+- マネジメント系長文の読み方は ip-strategy-ai-hack に統合
+- 音声アウトプット学習は generative-memory-palace に統合
+- ベクトル検索とAIプロジェクト品質管理は advanced-ipa-hub に統合
+- リスキリングの記事5本は theory/reskilling-basics に統合
+- 生成AI系資格の価値は genai-passport-vs-it-passport に統合
+- ボイラー技士の引っ掛け問題対策は boiler-refrigeration-hub に統合
+- 危険物乙4の1週間プランは kiken-butsu-hub に統合
+- 知財検定2級の実技対策は chiteki-zaisan-hub に統合
+- 消防設備士乙6の不合格診断は shobo-setsubi-hub に統合
+- 学生向けのビル管理系資格は biru-kanri-hub に統合
+- TOEICのシャドーイングと昇進要件は toeic-hub に統合
+- FP2級のタックス計算・シミュレーター・知識目的・実技の団体比較は fp-hub に統合
+- 宅建の民法AI記憶術は takken-hub に統合
+- 簿記の仕訳ドリルと経理キャリアは boki-hub に統合
+- 土木施工管理の実務経験の積み方は doboku-sekou-hub に統合
+- G検定の数学・統計とシラバス動向は g-kentei-hub に統合
+- DS検定の概要は ds-kentei-hub に統合
+- 経営層向けのセキュリティ投資の判断は security-incident-prevention-basics に統合
+- SGの『意味がない』という声への答えは sg-hub に統合
+
+### アクセス上位の刷新（公式情報で確認したもの）
+
+| URL | 対応 |
+| --- | --- |
+| `/trend/ipa-2026-cbt-schedule-guide/` | IPA公式（2026年9月17日更新）の日程と照合。タイトルを「受付開始」から「前期はAPが11月7日まで」に変更し、高度・SCの締切済みを反映 |
+| `/trend/ccna-vs-aws-saa/` | Cisco・AWS公式で試験時間と受験料（300 USD／150 USD）を確認し、記事に反映 |
+| `/trend/mos-vs-itp-job-hunting/` | MOSの受験料を公式で確認（一般レベル12,980円・Wordの例）。採用での見られ方は会社と担当者で変わる、と補足 |
+| `/method/doboku-sekou-hub/` | 合格率の数値（出典なし）を削除し、JCTCの公式資料で確認する形に変更。実務経験の積み方を統合 |
+| `/app/ap-subject-b/` | IPA公式で科目Bの形式（150分・11問中5問）と日程を確認し、試験制度が2026年度で終了する予定を追記 |
+| `/method/notebooklm-features-guide/` | ノートブック数・ソース数を公式ヘルプで確認。1日の上限は9月時点の記載と明記 |
+| `/theory/takken-koushin-hiyou/` | 交付申請手数料4,500円を県の案内で確認。合格後1年以内は講習不要の点を追記 |
+| `/career/shikaku-teate-soba-ichiran/` | 第1弾で拡充済み。今回は手を入れていない |
+| `/method/kikai-hozen-ginoushi-dokugaku/` | 特級の存在と、等級ごとの実務経験要件の確認先を追記 |
+| `/trend/fintech-it-cert-intro/` | 級構成が変わる可能性（中級の報道）と、受験料が未確認である点を明記 |
+
+### 著者の判断で保留にしたもの
+
+- D13: `ai-driven-architecture-hack` と `dev-doc-process-mvp` は統合していない（著者の判断に委ねる）
+- `bcm-bcp-business-continuity` は現状のまま
+- `/trend/fintech-it-cert-intro/` の受験料（一般8,800円・会員5,280円）は、公式で再確認できていない
+- `/trend/security-incident-prevention-basics/` に移した警察庁・IPA・経産省の数字は、元記事の出典をそのまま引き継いでいる。公開前に一次資料での再確認が望ましい
 
 ## 抽出時の記録
 
