@@ -86,4 +86,4 @@ AIは指定された形式で <strong>JSONデータ</strong> を出力してく�
 ### 次に読むべき記事
 
 - [Geminiを活用した「記憶の宮殿」構築法](../gemini-memory-palace-hack/)
-- [シラバスの変更点を一瞬で抽出するプロンプト術](../ipa-syllabus-follow-up/)
+- [資格のシラバス更新を見逃さない仕組み作り](/method/syllabus-diff-hack/)

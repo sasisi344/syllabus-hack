@@ -173,7 +173,7 @@ SESエンジニアは現場によって扱う技術が偏りがちで、APで問
 
 ## 🧐 おすすめの深掘り記事（キャリア・メソッド）
 
-- [<strong>応用情報「午後記述」をAIで添削する最強のセルフコーチング術</strong>](/method/ap-afternoon-ai-coaching/)
+- [<strong>応用情報・高度試験の午後記述をAIで対策するプロンプト集</strong>](/method/ap-pm-descriptive-ai-prompts/)
 
 ---
 

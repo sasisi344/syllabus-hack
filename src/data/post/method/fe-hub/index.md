@@ -199,11 +199,8 @@ AIとの対話で概念の「なぜ」から理解することで、テクノロ
 
 ## 科目B・アルゴリズム対策
 
-- [FE科目Bを生成AIで攻略するプロンプト集](/method/fe-subject-b-ai-prompt-hub/) — 場面別・ツール別の使い分けインデックス
-- [擬似言語をAIで動くコードに変換して理解する](/method/fe-pseudo-code-ai-hack/) — 疑似言語→Python変換で構造を把握
-- [論理の階段：擬似言語とアルゴリズムの壁を突破する思考転換](/method/pseudo-code-bridge-to-fe/) — 「読めない理由」の根本解消
-- [科目B「無限ドリル」生成メソッド](/method/fe-subject-b-drill/) — AIで無制限に練習問題を生成する手順
-- [基本情報の科目Bアルゴリズム対策｜ITパスポート合格者でも一気に難しくなる理由](/method/fe-algorithm-roadmap/) — 基礎知識あり・なし別の進め方
+- [FE科目Bを生成AIで攻略するプロンプト集](/method/fe-subject-b-ai-prompt-hub/) — 場面別・ツール別の使い分けと、類題の生成
+- [基本情報の科目Bアルゴリズム対策｜ITパスポート合格者でも一気に難しくなる理由](/method/fe-algorithm-roadmap/) — 擬似言語のトレース、Pythonへの翻訳、日常の手順から考える入門
 
 ## 科目A対策・全般学習
 
@@ -214,7 +211,7 @@ AIとの対話で概念の「なぜ」から理解することで、テクノロ
 
 ## 試験情報
 
-- [2026年を見据えたIPA試験の最新トレンド](/trend/ipa-exam-trends-2026/) — CBT化とAI知識必須化の動向整理
+- [2027年からのIPA試験再編まとめ](/trend/ipa-2027-restructuring/) — CBT化・AI知識・区分再編の動向整理
 
 ## キャリア設計
 

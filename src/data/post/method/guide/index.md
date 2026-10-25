@@ -27,7 +27,6 @@ metadata:
 シラバスハックのコースは、どれも<strong>20時間</strong>を軸にしています。100時間、1000時間といった目安の大きさに圧倒されず、基礎を学んで形にするための現実的な時間だからです。
 
 - [なぜシラバスハックは「20時間学習法」を採用しているのか](/method/20hours-method-reason/)
-- [イーロン・マスク流「基礎だけ学ぶ」学習法と20時間学習法の共通点](/method/musk-semantic-tree-fundamentals/)
 - [ダン・マーテルの「S.E.L.F.ループ」で自己学習を設計する｜AIとの対話で「何を学ぶべきか」を見つける方法](/method/self-loop-ai-learning/)
 
 有名人や自己啓発で語られる学習法は、そのままでは試験に使いにくいことがあります。ここでは、幹となる基礎を先に押さえる、学ぶ内容を自分で設計するといった、考え方の部分を取り出して、資格試験に当てはめています。
@@ -36,8 +35,7 @@ metadata:
 
 ### 何から学べばいいかわからない
 
-- シラバス（試験範囲）をAIに読み込ませて、自分専用の学習相手にする：[NotebookLM（Gemini Notebook）資格試験活用ガイド](/method/notebooklm-features-guide/)
-- 複数のAIとNotebookLMを組み合わせて進める：[NotebookLM × 生成AI 資格試験ワークフローガイド](/method/notebooklm-ai-workflow-guide/)
+- シラバス（試験範囲）をAIに読み込ませて、自分専用の学習相手にする（他のAIとの組み合わせ方も含む）：[NotebookLM（Gemini Notebook）資格試験活用ガイド](/method/notebooklm-features-guide/)
 - 社会人の限られた時間で進める：[月100時間を捻出する社会人のAI学習法](/method/ai-mentor-study-method-roadmap/)
 
 ### 用語が覚えられない
@@ -45,12 +43,11 @@ metadata:
 - 専門用語を絵にして覚える：[覚えられない専門用語は「絵」にしろ。生成AIで記憶の宮殿を建築する暗記術](/method/generative-memory-palace/)
 - 用語を、つながりで覚える：[暗記という名の鎖を断ち切れ：用語の『繋がり』で記憶を永遠に変える記述式メソッド](/method/logical-memory-linkage-hack/)
 - 新しい用語が次々に出る分野は、自分用のノートを育てる：[生成AI用語は参考書を買うより生成AIに聞く](/method/genai-vocabulary-learning-efficiency/)
-- 手が疲れたら、口を動かす：[歩きながら学ぶ「音声独り言」学習法](/method/voice-output-learning/)
+- 手が疲れたら、口を動かす：[記憶の宮殿の記事（声に出して確かめる方法を含む）](/method/generative-memory-palace/)
 
 ### 問題が解けるようにならない
 
-- 間違いの癖を分析して、弱点だけ潰す：[資格の間違いノートをAIで分析する方法｜Markdownで記録して、ミスのパターンを見つける](/method/miss-note-db/)
-- 不正解の選択肢も学びにする：[正解の裏側に潜む『3つの財宝』](/method/wrong-choice-analysis-hack/)
+- 間違いの癖を分析して、弱点だけ潰す（不正解の選択肢の解剖を含む）：[資格の間違いノートをAIで分析する方法｜Markdownで記録して、ミスのパターンを見つける](/method/miss-note-db/)
 - 自分専用のドリルをAIで作る：[生成AIで10分で自作する、自分専用のIT資格対策アプリ](/method/genai-self-made-app-hack/)
 - 作って動かした経験をポートフォリオにする：[バイブコーディングで資格試験の問題集アプリを自作する](/method/vibe-coding/)
 

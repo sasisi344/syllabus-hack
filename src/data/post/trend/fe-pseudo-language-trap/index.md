@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-01-31T00:00:00Z
-lastmod: 2026-10-21
+lastmod: 2026-10-25
 title: '基本情報の科目BはPythonだけで大丈夫？擬似言語でつまずく3つの違いと、複数の言語で身につく考え方'
 excerpt: 'Pythonは人気が高く、仕事でも使われる言語です。けれど基本情報技術者試験の科目Bは擬似言語で出題され、Pythonの感覚のままだとつまずく所があります。3つの違いと、Pythonを活かしながら複数の言語に通じる考え方を身につける方法をまとめます。'
 image: ~/data/post/trend/fe-pseudo-language-trap/cover.jpg
@@ -120,7 +120,7 @@ AIの書き換えには、まれに誤りがあります。擬似言語の書き
 
 これで、Pythonの経験を活かしながら、科目Bの擬似言語に慣れる進め方がわかったはずです。まずは手元のPythonのコードを1つ、上のプロンプトで擬似言語に書き換えて、紙の上で追いかけてみてください。
 
-擬似言語をPythonに書き直して動かす方法は [基本情報の科目Bアルゴリズム対策](/method/fe-algorithm-roadmap/)、科目Bの練習問題の作り方は [基本情報技術者 科目B「無限ドリル」生成メソッド](/method/fe-subject-b-drill/) でも扱っています。
+擬似言語をPythonに書き直して動かす方法は [基本情報の科目Bアルゴリズム対策](/method/fe-algorithm-roadmap/)、科目Bの練習問題の作り方は [FE科目Bを生成AIで攻略するプロンプト集](/method/fe-subject-b-ai-prompt-hub/) でも扱っています。
 
 ---
 

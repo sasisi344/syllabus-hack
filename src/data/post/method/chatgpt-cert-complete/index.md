@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-05-31T00:00:00Z
-lastmod: 2026-10-20
+lastmod: 2026-10-25
 title: 'ChatGPTで資格試験の勉強をする方法｜試験別プロンプト集と対話学習の設計'
 excerpt: 'ChatGPTを使った資格試験学習の全手順を1記事に集約。「なぜ」から始める対話学習の設計から、ITパスポート・基本情報・応用情報・高度試験それぞれの試験別プロンプト集まで解説します。'
 image: '~/data/post/method/chatgpt-cert-complete/cover.jpg'
@@ -262,7 +262,7 @@ ChatGPT はシラバスの特定バージョン情報を知らない場合があ
 
 <strong>Q: GeminiやClaudeとの使い分けは？</strong>
 
-ChatGPTは<strong>たとえ話・概念の言い換え・コード変換</strong>が得意です。Geminiは<strong>最新情報の調査・視覚化</strong>、Claudeは<strong>長文の論理分析・記述添削</strong>に向いています。詳しくは [NotebookLM × AI組み合わせガイド](/method/notebooklm-ai-workflow-guide/) を参照してください。
+ChatGPTは<strong>たとえ話・概念の言い換え・コード変換</strong>が得意です。Geminiは<strong>最新情報の調査・視覚化</strong>、Claudeは<strong>長文の論理分析・記述添削</strong>に向いています。詳しくは [NotebookLM資格試験活用ガイドの「他のAIと組み合わせる」](/method/notebooklm-features-guide/) を参照してください。
 
 <strong>Q: プロンプトを毎回考えるのが面倒です</strong>
 

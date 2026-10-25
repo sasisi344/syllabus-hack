@@ -259,6 +259,44 @@ export default defineConfig({
     '/trend/human-capital-reporting-iso30414/': '/trend/human-capital-management/',
     // re-content 統合 (2026-10-25): DX(デジタルトランスフォーメーション)の定義は dx-leadership-mvv-digital-divide に統合
     '/trend/dx-digital-transformation/': '/theory/dx-leadership-mvv-digital-divide/',
+    // re-content 統合 (2026-10-25): AP午後・NW過去問・PM午後Ⅱ・SCの記述対策は ap-pm-descriptive-ai-prompts に統合
+    '/method/ap-afternoon-ai-coaching/': '/method/ap-pm-descriptive-ai-prompts/',
+    '/method/nw-kakomon-ai-hack/': '/method/ap-pm-descriptive-ai-prompts/',
+    '/method/pm-pm2-module-hack/': '/method/ap-pm-descriptive-ai-prompts/',
+    '/method/sc-timeline-hack/': '/method/ap-pm-descriptive-ai-prompts/',
+    '/method/sc-descriptive-self-loop-hack/': '/method/ap-pm-descriptive-ai-prompts/',
+    // re-content 統合 (2026-10-25): FE科目Bのドリル・Python変換・擬似言語入門は ai-prompt-hub と algorithm-roadmap に統合
+    '/method/fe-subject-b-drill/': '/method/fe-subject-b-ai-prompt-hub/',
+    // re-content 統合 (2026-10-25): FE科目Bのドリル・Python変換・擬似言語入門は ai-prompt-hub と algorithm-roadmap に統合
+    '/method/fe-pseudo-code-ai-hack/': '/method/fe-algorithm-roadmap/',
+    '/method/pseudo-code-bridge-to-fe/': '/method/fe-algorithm-roadmap/',
+    // re-content 統合 (2026-10-25): NotebookLMの他AI連携とPDF変換手順は notebooklm-features-guide に統合
+    '/method/notebooklm-ai-workflow-guide/': '/method/notebooklm-features-guide/',
+    '/method/pdf-to-text-guide/': '/method/notebooklm-features-guide/',
+    // re-content 統合 (2026-10-25): IPAシラバス変更の追随は syllabus-diff-hack に統合
+    '/trend/ipa-syllabus-follow-up/': '/method/syllabus-diff-hack/',
+    // re-content 統合 (2026-10-25): IPA試験の最新動向・2027年再編・年代別の狙い目は ipa-2027-restructuring に統合
+    '/trend/ipa-exam-trends-2026/': '/trend/ipa-2027-restructuring/',
+    '/career/ipa-new-exam-target-guide/': '/trend/ipa-2027-restructuring/',
+    // re-content 統合 (2026-10-25): 科学的な学習法の3記事を scientific-study-methods に集約
+    '/method/3kw-study-method/': '/method/scientific-study-methods/',
+    '/method/diversity-study-method/': '/method/scientific-study-methods/',
+    // re-content 統合 (2026-10-25): イーロン・マスクの知識の木は 20hours-method-reason に統合
+    '/method/musk-semantic-tree-fundamentals/': '/method/20hours-method-reason/',
+    // re-content 統合 (2026-10-25): 試験当日のコンディションと欠席時の報告は exam-final-10-days に統合
+    '/method/exam-day-doping/': '/method/exam-final-10-days/',
+    '/method/ipa-absence-report-hack/': '/method/exam-final-10-days/',
+    // re-content 統合 (2026-10-25): 不正解の選択肢の解剖は miss-note-db に統合
+    '/method/wrong-choice-analysis-hack/': '/method/miss-note-db/',
+    // re-content 統合 (2026-10-25): AI家庭教師の使い方は ai-mentor-study-method-roadmap に統合
+    '/method/agent-teacher/': '/method/ai-mentor-study-method-roadmap/',
+    // re-content 統合 (2026-10-25): マネジメント系長文の読み方は ip-strategy-ai-hack に統合
+    '/method/management-comprehension-hack/': '/method/ip-strategy-ai-hack/',
+    // re-content 統合 (2026-10-25): 音声アウトプット学習は generative-memory-palace に統合
+    '/method/voice-output-learning/': '/method/generative-memory-palace/',
+    // re-content 統合 (2026-10-25): ベクトル検索とAIプロジェクト品質管理は advanced-ipa-hub に統合
+    '/trend/db-vector-search-rag/': '/method/advanced-ipa-hub/',
+    '/trend/pm-ai-quality-management/': '/method/advanced-ipa-hub/',
     // CBT系統合 (2026-06-10): cbt-impact-advanced-exams の固有情報をマージ
     '/cbt-impact-advanced-exams/': '/method/cbt-2026-syllabus-complete-guide/',
     '/method/cbt-impact-advanced-exams/': '/method/cbt-2026-syllabus-complete-guide/',
@@ -281,12 +319,12 @@ export default defineConfig({
     '/method/notebooklm-movie/': '/method/notebooklm-features-guide/',
     '/notebooklm-mindmap/': '/method/notebooklm-features-guide/',
     '/method/notebooklm-mindmap/': '/method/notebooklm-features-guide/',
-    '/notebooklm-syllabus-study-method/': '/method/notebooklm-ai-workflow-guide/',
-    '/method/notebooklm-syllabus-study-method/': '/method/notebooklm-ai-workflow-guide/',
-    '/notebooklm-100-day-hack/': '/method/notebooklm-ai-workflow-guide/',
-    '/method/notebooklm-100-day-hack/': '/method/notebooklm-ai-workflow-guide/',
-    '/notebooklm-100days-challenge-hack/': '/method/notebooklm-ai-workflow-guide/',
-    '/method/notebooklm-100days-challenge-hack/': '/method/notebooklm-ai-workflow-guide/',
+    '/notebooklm-syllabus-study-method/': '/method/notebooklm-features-guide/',
+    '/method/notebooklm-syllabus-study-method/': '/method/notebooklm-features-guide/',
+    '/notebooklm-100-day-hack/': '/method/notebooklm-features-guide/',
+    '/method/notebooklm-100-day-hack/': '/method/notebooklm-features-guide/',
+    '/notebooklm-100days-challenge-hack/': '/method/notebooklm-features-guide/',
+    '/method/notebooklm-100days-challenge-hack/': '/method/notebooklm-features-guide/',
     // Gemini統合 (2026-06-03)
     '/gemini-prompt-collection/': '/method/gemini-cert-complete/',
     '/method/gemini-prompt-collection/': '/method/gemini-cert-complete/',

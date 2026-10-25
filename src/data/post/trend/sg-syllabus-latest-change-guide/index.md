@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-04-15T00:00:00Z
-lastmod: 2026-10-20
+lastmod: 2026-10-25
 title: 'SGシラバスの変更点｜現行Ver.4.1と新シラバス案、生成AIのセキュリティはニュースでも学ぶ'
 excerpt: '情報セキュリティマネジメント（SG）のシラバスは、現行のVer.4.1に続き、2026年9月に新しいシラバスの案が公開されました。生成AIに関わる項目がどう変わるかを整理し、シラバスだけでは追いつかない生成AIのセキュリティを、ニュースから学ぶ方法を紹介します。'
 image: '~/data/post/trend/sg-syllabus-latest-change-guide/cover.jpg'
@@ -137,7 +137,7 @@ AIの答えにも誤りが混ざることがあります。用語の意味や対
 
 | 記事 | 内容 |
 |---|---|
-| [IPAシラバス変更に対応する汎用手法](/trend/ipa-syllabus-follow-up/) | どの試験区分にも使えるシラバス差分の読み方 |
+| [IPAシラバス変更に対応する汎用手法](/method/syllabus-diff-hack/) | どの試験区分にも使えるシラバス差分の読み方 |
 | [2027年からのIPA試験再編まとめ](/trend/ipa-2027-restructuring/) | SGを含む試験制度全体の変化 |
 | [情報セキュリティマネジメント試験は未経験だと難しい？](/method/sg-beginner-roadmap/) | 合格までの学習手順全体 |
 

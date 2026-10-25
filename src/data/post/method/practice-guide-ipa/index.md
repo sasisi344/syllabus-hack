@@ -55,16 +55,14 @@ AIは、問題を大量に出す道具としてではなく、<strong>理解を�
 理解した内容を、問題で確かめる段階です。
 
 - [ITパスポート NotebookLM勉強法](/method/notebooklm-ip-study-hack/)：シラバスから無料で問題集を自作する手順
-- [NotebookLM資格試験活用ガイド](/method/notebooklm-features-guide/)：音声やマインドマップなど、機能全体の使い方
-- [PDF to Text 変換ツールの活用手順](/method/pdf-to-text-guide/)：PDFの資料をAIに読ませやすくする
+- [NotebookLM資格試験活用ガイド](/method/notebooklm-features-guide/)：音声やマインドマップなど機能全体の使い方と、PDFの資料をAIに読ませやすくする方法
 - [ITパスポート 分野別ドリル](/app/ip-field-drill/)：ストラテジ・マネジメント・テクノロジを切り替えて演習できる
 
 ### 段階4：間違いを分析する
 
 点が伸びない原因を見つける段階です。
 
-- [資格の間違いノートをAIで分析する方法](/method/miss-note-db/)：ミスを記録して、パターンを見つける
-- [不正解の選択肢を知識に変える逆転学習法](/method/wrong-choice-analysis-hack/)：間違えた選択肢から学ぶ
+- [資格の間違いノートをAIで分析する方法](/method/miss-note-db/)：ミスを記録してパターンを見つけ、不正解の選択肢からも学ぶ
 - [Notionで資格勉強の進捗管理](/method/notion-study-tracker/)：計画と進捗を管理する
 
 ### 段階5：直前期
