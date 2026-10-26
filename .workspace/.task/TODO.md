@@ -57,7 +57,7 @@
 > **正本・全タスク**: [`genai-pass-task.md`](genai-pass-task.md)（本ファイルには詳細を重複して書かない。日付は `schedule-task.md` §12）。2026-10-01にGUGAが公開した新シラバス（2027年2月試験から適用）に対応する。新シラバスPDFは `.workspace/syllabus-data-pdf/GenAI-Pass/` に格納済み。
 > 内訳: A 前提確認 → B シラバス構造化 → C 変更点記事・資格更新テスト記事・KW実査・既存記事の改訂 → D リスク事例コラム（実在事例のリサーチ）→ E AI倫理・ガバナンスの用語解説 → F 20時間コース → G クイズJSONの最新化＋コース連携 → H 導線・公開 → I 公式テキスト照合（11/24〜）→ J SNS・効果測定
 
-- [ ] 上記タスク（`genai-pass-task.md` §3 のA〜J）を順に進める。着手時は、まずタスクA（前提情報の確認）
+- [ ] 上記タスク（`genai-pass-task.md` §3 のA〜J）を順に進める。着手時は、まずタスクA（前提情報の確認）（**2026-10-26 進捗**: A・B・C（主要）・D・F-1・G-1/G-2 まで完了、公開済み。残りは `genai-pass-task.md` を参照。全体は未完了のため、チェックは付けない）
 
 ---
 
@@ -68,10 +68,10 @@
 
 - [x] **【公開前・必須】デジタル庁大臣の発言の一次情報を確認する**（2026-10-15完了: デジタル庁の会見録（令和8年10月6日・古川大臣）で確認し、本文に反映）: ドラフトの節「自分のデータは自分で守るは正しいのか」にHTMLコメントで印あり。発言日・発言者・趣旨を会見録か報道で確認できたら出典つきで書く。確認できなければ、冒頭の1文を削除して一般論に書き直す（2026-10-07時点では未確認）
 - [x] 事案の数字を報道で再確認（2026-10-15: 焼肉きんぐ1078万8963件・第一ライフ約12万人（従業員等）・佐川急便9/30を確認。公式発表そのものでの再確認は未実施）（デジタル庁24.6万件・第一ライフ約12万人・物語コーポレーション1078万8963件・佐川急便の公表日）。続報で件数が変わっていないか
-- [ ] デル調査の数値（95.7% / 78.5% / 20.2% / 25.8% / 24.3% / 17.5% / 7.1%）を元記事と突き合わせる（ドラフト作成時に照合済み。公開前の再確認のみ）
+- [ ] デル調査の数値（95.7% / 78.5% / 20.2% / 25.8% / 24.3% / 17.5% / 7.1%）を元記事と突き合わせる（ドラフト作成時に照合済み。公開前の再確認のみ。2026-10-26: 元記事 `344ob/02_webclip/` がこの環境に見つからず、再確認できなかった。本文の数値の存在のみ確認）
 - [x] 最終チェック → 本番配置（2026-10-15: `src/data/post/trend/security-incident-prevention-basics/index.md`。`pnpm build` 成功）（本文の `**bold**` は `<strong>` に変換済み。コードフェンス内の `**` は残す）
 - [x] カバー画像: 生成・配置済み（2026-10-15）（ドラフト末尾の IMAGE_PROMPT。生成するまでは `trend/common-cover.png` 等の暫定を確認）
-- [ ] 内部リンク6本の疎通確認（`/trend/multi-factor-authentication/` `/method/sg-hub/` `/method/sg-beginner-roadmap/` `/theory/security-controls-crypto-incident-basics/` `/trend/zero-trust-architecture/` `/trend/ransomware-security/`）。あわせて既存のSG・MFA記事から本コラムへ逆リンクを足す
+- [x] 内部リンク6本の疎通確認＋逆リンク（2026-10-26: 本文のリンク先5本は実在。旧URLの `multi-factor-authentication` `zero-trust-architecture` `ransomware-security` は301で `theory` 記事へ転送済みで、本文は転送先を直接参照。逆リンクは `sg-hub`（既存）に加え、`sg-beginner-roadmap`・`security-controls-crypto-incident-basics`・`cyber-attack-countermeasures-basics` に追加。`pnpm build` は未実行）
 - [ ] 公開後: commit・push（`pnpm build` は2026-10-15成功済み。pushは本番デプロイのトリガー）、SNS告知（`/sns-post`。結論を出さない連投形式）
 - [ ] 公開の約2週間後に、GSCで「情報漏えい 対策」「今さら聞けない」系KWの表示・順位を確認（`/weekly-report` に組み込む）
 
@@ -110,7 +110,7 @@
 
 > 背景: 古い記事の統合・刷新（`re-content`）は2026-10-25に完了。作業ファイルは [`archive/re-content-2026-10/`](archive/re-content-2026-10/)（記録は `out-task.md`）。AIが決められず、筆者の判断や確認を待っているものだけを残す。
 
-- [ ] **生成AI用語DBの3語を確認**: `.workspace/data-set/genai-terms-db/terms.json` の `candidate` 3語（AI法・AIの利用をめぐるサイバーリスク・AI事業者ガイドライン）を一次情報で確かめ、`confirmed` にするか `rejected` にする。AI事業者ガイドラインは、最新の版（第1.2版の公表有無）を経産省・総務省のページで確認する
+- [ ] **生成AI用語DBの3語を `confirmed` にするか決める**: 2026-10-26にAIが一次情報で再確認済み（AI法＝内閣府、IPA 10大脅威2026＝IPA 組織編3位・初選出、AI事業者ガイドライン＝総務省ページで最新版は第1.2版・令和8年3月31日）。DBの `note`・定義は更新したが、規約上 `confirmed` にできるのは筆者のみ。IPAの脅威は解説書（64ページ）、ガイドラインは第1.2版本文の内容が未確認のため `uncertain` は true のまま
 - [ ] **用語の定期調査を設定するか決める**: ClaudeやChatGPTのスケジュール実行（外部設定を伴う）。設定する場合は、`candidate` の追記だけ・1回5件まで、を条件にする
 - [ ] **`portfolio-vs-cert`**: 採用担当の声3タイプに、追加の取材や出典があれば追記
 - [ ] **`regional-salary-qualification-correlation`（任意）**: 現在は全職種の都道府県別賃金。IT職種別の都道府県別の賃金は e-Stat の職種別表で確かめられる。足す場合は出典と取得日を書く

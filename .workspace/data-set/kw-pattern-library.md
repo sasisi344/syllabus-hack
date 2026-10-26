@@ -55,6 +55,8 @@
 
 AI研修・ベンダー・AI専門メディア系（生成AI×業務のKWで横断的に出現。2026-09-29追加）: AI総研（metaversesouken.com）、JAPAN AIラボ、AI経営総合研究所（SHIFT AI）、WEEL、スキルアップAI、exawizards（AI新聞）、Uravation、Smart at、cloudpack、リコー、Taskhub、GMO天秤AI、チャプロAI、excelcamp、note・Zenn・Qiita（個人。中〜低占拠の受け皿になりやすい）
 
+生成AI資格の制度変更系KW（2026-10-26追加。`genai-pass-kw-db.md`）: Impress Watch（cloud.watch.impress.co.jp）・ASCII・AIsmiley・Uravation（AI研修）・アガルート。ニュース媒体は公式発表の転載、Uravation・AIsmileyは網羅型の解説で、上位を取りやすい
+
 > 上記は `research-kw-non-ipa.md` で実際に確認された占拠プレイヤーの一部。資格ジャンルが変わると占拠プレイヤーも変わるため、新規資格では必ずWebSearchで個別に確認すること。
 
 ---

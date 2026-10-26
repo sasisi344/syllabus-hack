@@ -44,6 +44,7 @@ knowledge:
 | --- | --- | --- | --- |
 | `ccna` | Cisco CCNA | `method/ccna-hub` | |
 | `g-kentei` | ディープラーニングG検定 | `method/g-kentei-hub` | |
+| `genai-pass` | 生成AIパスポート（GUGA） | `trend/what-is-genai-passport-exam` | 2026-10-26登録（記事・courseの両enum）。クイズアプリ側の同名IDとは別体系だが値は同じ。Hub記事は未作成 |
 | `ds-kentei` | データサイエンティスト検定 | `method/ds-kentei-hub` | |
 | `mos` | Microsoft Office Specialist | `method/mos-hub` | |
 | `toeic` | TOEIC L&R | `method/toeic-hub` | 2026-07-20追加 |
@@ -78,7 +79,7 @@ knowledge:
 
 ```
 ip, sg, fe, ap, st, sa, pm, nw, db, es, sm, au, sc, dm, pd-m, pd-s,
-common, ai-work, g-kentei, ds-kentei, ccna,
+common, ai-work, g-kentei, genai-pass, ds-kentei, ccna,
 denken, boki, takken, mos, kiken-butsu, biru-kanri, doboku-sekou,
 chiteki-zaisan, boiler-refrigeration, shobo-setsubi, fp, aws, fintech-it, toeic
 ```

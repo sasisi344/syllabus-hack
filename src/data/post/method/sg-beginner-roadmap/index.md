@@ -3,7 +3,7 @@ title: '情報セキュリティマネジメント試験は未経験だと難し
 image: ~/data/post/method/common-cover.png
 description: 'AI攻撃や情報漏えいのニュースをきっかけに、情報セキュリティマネジメント試験（SG）に興味を持った非エンジニアへ。未経験でも難しくないかは、日頃のセキュリティ意識で変わります。'
 publishDate: 2026-03-09T00:00:00Z
-lastmod: 2026-10-25
+lastmod: 2026-10-26
 category: method
 tags: ['情報セキュリティマネジメント', '科目A', '科目B', '未経験', 'ロードマップ']
 knowledge:
@@ -171,6 +171,8 @@ SGは単語テストではなく、「もし自社で情報漏えいが起きた
 
 - <strong>実力試し (科目A)</strong>: [情報セキュリティマネジメント：科目A 選択式問題集アプリ](/app/sg-quiz/)
 - <strong>実力試し (科目B)</strong>: [情報セキュリティマネジメント科目B対策｜セキュリティ担当になって解くインシデント対応3事例](/app/sg-subject-b-quiz/)
+
+最近の情報漏えいの事案から、個人と職場でできる対策を押さえたい方は、[今さら聞けない情報漏えい対策](/trend/security-incident-prevention-basics/)も読んでみてください。
 
 SG合格後にステップアップを目指す方は、[IPA資格の高難易度対策｜応用情報・高度試験と2027年の新試験の選び方](/method/advanced-ipa-hub/)で次の道筋を確認できます。
 

@@ -42,6 +42,7 @@ To prevent taxonomy fragmentation, ALWAYS use the **Canonical Tag** for qualific
 | Cisco CCNA                              | `CCNA`                        | `ccna` |
 | ディープラーニングG検定                 | `G検定`                       | `g-kentei` |
 | データサイエンティスト検定               | `データサイエンティスト検定` | `ds-kentei` |
+| 生成AIパスポート（GUGA）                 | `生成AIパスポート`           | `genai-pass` |
 | Microsoft Office Specialist             | `MOS`                          | `mos` |
 | TOEIC L&R                               | `TOEIC`                        | `toeic` |
 

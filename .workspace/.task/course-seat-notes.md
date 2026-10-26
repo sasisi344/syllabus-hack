@@ -122,3 +122,18 @@
 | 第6章 マネジメント（プロジェクト・サービス・監査） | `06-management.mdx` | 未 | 0 |  |
 | 第7章 経営・システム戦略 | `07-strategy.mdx` | 未 | 0 |  |
 | 第8章 情報セキュリティ管理者の実務（ケーススタディ） | `08-practice-casestudy.mdx` | 未 | 0 |  |
+
+## 生成AIパスポート 20時間コース（Tier1・2027年2月試験〜の新シラバスベース）（`genai-pass`）
+
+> 2026-10-26 カリキュラム初稿のみ（本文は未作成）。章立ては [`genai-pass-course-curriculum.md`](../.new-contentplan/genai-pass-course/genai-pass-course-curriculum.md) §2。ファイル名は案。優先は第6章（リスク予防）・第7章（権利・倫理・ガバナンス）。
+
+| 章 | ファイル | 状態 | コメント数 | メモ |
+| --- | --- | --- | --- | --- |
+| 第1章 AIの基礎と歴史 | `01-ai-basics-history.mdx` | 未 | 0 |  |
+| 第2章 生成AIのしくみ：技術・学習・生成 | `02-genai-mechanism.mdx` | 未 | 0 |  |
+| 第3章 LLMと主要モデル・各モダリティ | `03-llm-models-modalities.mdx` | 未 | 0 |  |
+| 第4章 AIエージェントとRAG | `04-ai-agent-rag.mdx` | 未 | 0 |  |
+| 第5章 MCP・ツール活用・エージェントのリスク | `05-mcp-agent-risk.mdx` | 未 | 0 |  |
+| 第6章 生成AIのリスク予防（使う人の判断） | `06-risk-prevention.mdx` | 未 | 0 |  |
+| 第7章 権利・AI倫理・ガバナンス・AI法 | `07-rights-ethics-governance.mdx` | 未 | 0 |  |
+| 第8章 生成AIの実践と活用事例 | `08-practice-use-cases.mdx` | 未 | 0 |  |
