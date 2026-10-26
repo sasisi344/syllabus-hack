@@ -1,9 +1,12 @@
 # Syllabus Hack Article Index
 
-Generated on: 2026/10/26 12:17:17
+Generated on: 2026/10/26 13:45:36
 
 | Publish Date | Category | Title | Tags | Path |
 | :--- | :--- | :--- | :--- | :--- |
+| 2026-10-26 | trend | 生成AIパスポート新シラバスで何が変わる？旧版から追加で学ぶ項目を整理 | 生成AIパスポート, シラバス改訂, 生成AI, AIエージェント, AI倫理 | `src/data/post/trend/genai-passport-2027-syllabus-changes/index.md` |
+| 2026-10-26 | trend | 生成AIパスポートの更新テストは受ける？受けない？失効の有無と判断基準 | 生成AIパスポート, 資格更新, シラバス改訂, 生成AI, リスキリング | `src/data/post/trend/genai-passport-renewal-test/index.md` |
+| 2026-10-26 | trend | 生成AIのリスクとは？実際に起きた事例で5つの系統に分けて理解する | 生成AI, 生成AIパスポート, リスク管理, AI倫理, シャドーAI | `src/data/post/trend/genai-risk-cases-explained/index.md` |
 | 2026-10-25 | theory | AI生成物の著作権・AI倫理・オプトアウト・ディープフェイクとは？生成AIの法律と倫理を1ページで | 生成AI, 著作権, AI倫理, オプトアウト, ディープフェイク, ITパスポート | `src/data/post/theory/ai-law-ethics-basics/index.md` |
 | 2026-10-25 | theory | 多要素認証・SQLインジェクション・XSS・ランサムウェアとは？攻撃と対策を1ページで | 情報セキュリティ, 多要素認証, SQLインジェクション, XSS, ランサムウェア, ITパスポート | `src/data/post/theory/cyber-attack-countermeasures-basics/index.md` |
 | 2026-10-25 | theory | ハルシネーション・RAG・マルチモーダルAI・XAI・MLOpsとは？生成AIの用語を1ページで | 生成AI, ハルシネーション, RAG, マルチモーダルAI, XAI, MLOps, ITパスポート | `src/data/post/theory/generative-ai-terms-basics/index.md` |

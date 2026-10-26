@@ -36,6 +36,7 @@
 | `fintech-it`（予定） | 金融IT検定 | [fintech-it-kw-db.md](./fintech-it-kw-db.md) | **未作成**（段階戦略: trend記事→反応見てクラスター化） | KW-DB＋リサーチ完了（2026-07-12。materials: `data-set/fintech-it-research.md`） |
 | `dm` | データマネジメント試験（2027年新設・仮称） | [dm-kw-db.md](./dm-kw-db.md) | `course/dm/`（20時間コース、Hub記事は独立trendなし） | コース公開済み・週次流入が低迷したためKWリサーチ実施（2026-09-27）。PassDojo等の新興専門サイトが先行しクラスター構築済みと判明、サンプル問題記事が最優先候補 |
 | `genai-pass` | 生成AIパスポート（GUGA。2026-10-26新設） | [genai-pass-kw-db.md](./genai-pass-kw-db.md) | `trend/what-is-genai-passport-exam`（独立Hubなし。コース `course/genai-pass/` は予定（未着手）） | 新シラバス変更点・更新テストの2記事（2026-10-26）。他のKWは未実査 |
+| `common`（暫定） | 日商PC検定（2026-10-26新設） | [nissho-pc-kw-db.md](./nissho-pc-kw-db.md) | なし（既存 `method/nissho-pc-kentei-ai-hack`） | KW実査・サジェスト確認済み。需要は「履歴書」「意味ない」「MOS比較」「何級から」に集中。「生成AI」はサジェスト0件で差別化の軸 |
 
 ※ examId の正本は [exam-id-catalog.md](../../.task/exam-id-catalog.md) と `src/content/config.ts` の enum。
 
@@ -81,5 +82,5 @@
 
 ---
 
-**最終更新**: 2026-10-21（aws-kw-db に CCNAサブネット計算の実査行を追記）／2026-10-06（aws-kw-db に P3/P2/P4 実査行を追記）／2026-09-27（P10「資格名×AI」横断リサーチ → [p10-ai-query-research-2026-09.md](./p10-ai-query-research-2026-09.md)。boki/takken/aws/fp/denkenのDBにP10行を追記）  
+**最終更新**: 2026-10-26（日商PC検定の nissho-pc-kw-db.md を新設）/2026-10-21（aws-kw-db に CCNAサブネット計算の実査行を追記）／2026-10-06（aws-kw-db に P3/P2/P4 実査行を追記）／2026-09-27（P10「資格名×AI」横断リサーチ → [p10-ai-query-research-2026-09.md](./p10-ai-query-research-2026-09.md)。boki/takken/aws/fp/denkenのDBにP10行を追記）  
 **次回リサーチ候補**: 消防設備士スポーク2本（鑑別×AI／落ちた原因）、金融IT検定 第1弾trend記事、TOEIC Hub 新設（ユーザー判断待ち）、GSCクエリCSVとの突合

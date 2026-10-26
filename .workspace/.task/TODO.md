@@ -14,6 +14,7 @@
 > 日付が決まっている未来のタスク、効果測定、毎週の定点観測は、すべて `schedule-task.md` で管理する（早見表つき）。実行したら、そちらの項目を完了にする。
 
 ---
+## draftにある記事候補をアップ
 
 ## 0. 2027年IPAシラバス改訂対応 — 20時間学習法コンテンツ制作（Tier1は全て完了。残りはTier2の検討のみ）
 
@@ -116,6 +117,18 @@
 - [ ] **`regional-salary-qualification-correlation`（任意）**: 現在は全職種の都道府県別賃金。IT職種別の都道府県別の賃金は e-Stat の職種別表で確かめられる。足す場合は出典と取得日を書く
 - [ ] **令和9年度の土木施工管理技術検定の日程**: 国土交通省・JCTCの公表後に、`doboku-sekou-hub` の日程表を更新
 - [ ] **`ip-discard-strategy` のタイトルの「最短」**: 現在は残している（GSCでCTRが高い）。検索順位が落ちたら見直す
+
+---
+
+## 0.12 日商PC検定「意味ない？」記事の仕上げ（2026-10-26追加）
+
+> 本文は執筆済み: [`draft/career-nissho-pc-kentei-imi-nai.md`](../draft/career-nissho-pc-kentei-imi-nai.md)（`draft: true`）。KW・批判の収集・競合: [`cert-keyword-db/nissho-pc-kw-db.md`](../data-set/cert-keyword-db/nissho-pc-kw-db.md)・[`draft/nissho-pc-critics-2026-10.md`](../draft/nissho-pc-critics-2026-10.md)。生成AI出題は未確定のため記事では扱っていない。
+
+- [ ] 筆者が `LEARNER_NOTE` 3か所を callout で記入するか削除（未処理のまま本番移行しない）
+- [ ] `FACT_CHECK` 2か所: 職業訓練のコース案内を2〜3件取得日つきで確認／資格名の正式表記を日本商工会議所の案内で確認
+- [ ] 知恵袋の投稿日・要約が本文の記述と合っているか最終確認（現状は検索要約とWebFetchの要約）
+- [ ] カバー画像（現在は `career/common-cover.png` を暫定使用。生成は指示後）
+- [ ] `/check-draft` → `/publish-post`（pushは確認のうえ）。公開後に GSC で「日商PC検定 意味ない」「履歴書 何級から」を確認
 
 ---
 
