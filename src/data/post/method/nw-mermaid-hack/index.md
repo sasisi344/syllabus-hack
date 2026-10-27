@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-03-19T00:00:00Z
-lastmod: 2026-10-25
+lastmod: 2026-10-27
 title: 'ネットワーク図の書き方｜手書きメモの写真をAIに送ってMermaidに整形する（NW試験の午後対策）'
 excerpt: 'Mermaidを文字だけで書くのは難しいので、先に手書きのメモで図を描き、写真をAIに送ってMermaid記法に整形してもらう方法を解説。NW試験の長文要件を図にして、VRRPやOSPFの構成を読み解きます。'
 image: ~/data/post/method/nw-mermaid-hack/cover.png
@@ -22,6 +22,8 @@ metadata:
 ---
 
 ネットワークスペシャリスト（NW）試験の午後は、複数の要件が絡み合うパズルのような問題です。
+
+（2026年度からCBT方式になり、午後Ⅰ・午後Ⅱは科目B-1・科目B-2に名前が変わりました。出題形式は変わっていません。出典: [CBT方式での実施について｜IPA](https://www.ipa.go.jp/shiken/2026/ap_koudo_sc-cbt.html)）
 
 物理構成、論理構成、ルーティングプロトコル、VRRPによる冗長化などが、文字だけで延々と書かれています。読んだだけで、頭の中に正確な構成図を描ける人は多くありません。
 
@@ -80,6 +82,19 @@ Mermaidは、テキストで図を書ける記法です。コードを書けば�
 出力のイメージは次のとおりです。VRRPで冗長化されたL3スイッチの配下に、複数のVLANがぶら下がる、NW試験でよく出る形です。
 
 ```text
+graph TD
+    FW[FW] --- L3M[L3SW マスター]
+    FW --- L3B[L3SW バックアップ]
+    L3M -.VRRP.- L3B
+    L3M --- VLAN10[VLAN10 営業]
+    L3M --- VLAN20[VLAN20 開発]
+    L3B --- VLAN10
+    L3B --- VLAN20
+```
+
+このコードを表示すると、次の図になります。文字の並びでは追いにくかった「どちらのL3スイッチからも、両方のVLANに線が出ている」ことが、図ではひと目で分かります。
+
+```mermaid caption="上のMermaidコードを表示した図（VRRPで冗長化したL3スイッチとVLAN）"
 graph TD
     FW[FW] --- L3M[L3SW マスター]
     FW --- L3B[L3SW バックアップ]

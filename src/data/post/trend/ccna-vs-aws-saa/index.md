@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-05-31T00:00:00Z
-lastmod: 2026-10-25
+lastmod: 2026-10-27
 title: 'CCNAとAWS SAAはどっちが先？ネットワーク知識から見た取得順番の正解'
 excerpt: 'CCNAとAWS SAAはどっちを先に取るべきか。ネットワーク未経験ならCCNAが先になる理由を、VPC設計への知識の継承関係から解説し、AWS SAAを先にすべきケースも示します。'
 image: '~/data/post/trend/ccna-vs-aws-saa/cover.jpg'
@@ -69,7 +69,11 @@ AWS SAAはクラウドアーキテクチャの設計スキルを証明します�
 
 CCNAの出題範囲と配点の詳細は[CCNAとは？勉強時間の目安とIPA試験でいうとどのレベルか](/method/ccna-hub/)にまとめています。
 
-試験コード、時間、受験料は、2026年10月25日にCisco公式ページとAWS公式ページで確認した内容です。為替や制度の改定で変わることがあるため、申込前に最新の公式情報を確かめてください。
+試験コード、時間、受験料は、2026年10月25日にCisco公式ページとAWS公式ページで確認し、10月27日に再確認した内容です（学習時間の目安は公式の数字ではありません）。
+
+出典: [CCNA Exam（200-301）｜Cisco](https://www.cisco.com/site/us/en/learn/training-certifications/exams/ccna.html)、[AWS Certified Solutions Architect - Associate｜AWS](https://aws.amazon.com/certification/certified-solutions-architect-associate/)
+
+為替や制度の改定で変わることがあるため、申込前に最新の公式情報を確かめてください。
 
 なお、どちらの試験も公式は合格率を公表していません。
 

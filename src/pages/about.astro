@@ -5,6 +5,7 @@ import Hero from '~/components/widgets/Hero.astro';
 import Steps2 from '~/components/widgets/Steps2.astro';
 import Layout from '~/layouts/PageLayout.astro';
 import sasisiImg from '~/assets/images/sasisi344.jpg';
+import { AUTHOR_EXAM_STATUS } from '~/data/author-exam-status';
 
 const metadata = {
   title: 'このサイトについて | Syllabus Hack',
@@ -127,7 +128,7 @@ const metadata = {
             Syllabus Hackの専門性は、資格の合格実績ではなく<strong class="text-heading dark:text-white font-semibold">「生成AIを活用した学習設計の実践と体系化」</strong>にあります。
           </p>
           <p>
-            LLMは人類が書き記してきた知識体系を学習しており、概念の論理構造・設計意図・他概念との繋がりを説明することに長けています。この特性を活かして「問題を解かせる」ではなく「なぜを対話する」学習フローを設計し、ITパスポートから高度試験・AWS・FP2級まで横断的に検証してきました。
+            LLMは人類が書き記してきた知識体系を学習しており、概念の論理構造・設計意図・他概念との繋がりを説明することに長けています。この特性を活かして「問題を解かせる」ではなく「なぜを対話する」学習フローを設計し、ITパスポートから高度試験・AWS・FP2級まで、各試験のシラバスを読み込んで学習設計を組み立ててきました。
           </p>
           <p>
             各記事で紹介するプロンプトや学習手順は、実際にシラバスと向き合いながら設計したものです。「まずやってみる」を繰り返すことで能力は更新されます。このサイトはその実践の場であり、記録でもあります。
@@ -165,6 +166,22 @@ const metadata = {
               生成AIが登場して以来、「AIを道具として正しく使う能力」こそが現代のリテラシーだと確信し、Syllabus Hackを立ち上げました。自分自身が各試験のシラバスとAIを使い倒して学習設計を検証しながら、「AI対話学習メソッド」を構築・発信しています。<br />
               同年代・それ以上の世代が「AIを使って自分を更新し続ける」ための実践知を届けることをミッションとしています。
             </p>
+            <div class="text-left text-muted text-base mb-4">
+              <p class="font-bold text-heading dark:text-white mb-1">資格の受験・学習の状況</p>
+              <ul class="list-disc pl-5 space-y-1">
+                {
+                  Object.values(AUTHOR_EXAM_STATUS).map(({ name, status }) => (
+                    <li>
+                      {name}: {status}
+                    </li>
+                  ))
+                }
+                <li>上記以外の資格: 未受験です。</li>
+              </ul>
+              <p class="text-sm mt-2">
+                記事に書く体験は、受験・学習・実務で実際に使った範囲だけです。未受験の資格の記事では、記事末尾の執筆者欄にその旨を表示しています。
+              </p>
+            </div>
             <div class="flex justify-center md:justify-start gap-4 mt-2">
               <a
                 href="https://x.com/sasisi344"

@@ -43,6 +43,9 @@ export interface Post {
   /**  */
   readingTime?: number;
 
+  /** The body has ```mermaid fences (set by mermaidFenceRemarkPlugin). */
+  hasMermaid?: boolean;
+
   /**  */
   knowledge?: {
     examId?: string;

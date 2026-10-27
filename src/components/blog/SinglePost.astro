@@ -5,8 +5,10 @@ import Image from '~/components/common/Image.astro';
 import PostTags from '~/components/blog/Tags.astro';
 import TableOfContents from '~/components/blog/TableOfContents.astro';
 import SocialShare from '~/components/common/SocialShare.astro';
+import MermaidStyles from '~/components/common/MermaidStyles.astro';
 import RegionWidget from '~/apps/region-suggest/RegionWidget';
 import sasisiImg from '~/assets/images/sasisi344.jpg';
+import { authorStanceFor } from '~/data/author-exam-status';
 
 import { SITE } from 'astrowind:config';
 import { getCanonical, getPermalink } from '~/utils/permalinks';
@@ -23,6 +25,7 @@ const { post, url } = Astro.props;
 
 const postUrl = String(url);
 const isHubPage = post.slug?.endsWith('-hub');
+const authorStance = authorStanceFor(post.knowledge?.examId);
 const imageUrl =
   post.image && typeof post.image === 'object' && 'src' in post.image
     ? `${SITE.site}${post.image.src}`
@@ -250,6 +253,36 @@ const breadcrumbJsonLd = {
         border: 1px solid rgba(255, 255, 255, 0.1);
       }
     </style>
+    {post.hasMermaid && <MermaidStyles />}
+    <script>
+      // Render the placeholders produced by mermaidFenceRemarkPlugin; mermaid is only fetched on pages that have them
+      const figures = document.querySelectorAll<HTMLElement>('figure.mermaid-diagram');
+      if (figures.length > 0) {
+        const render = async () => {
+          const mermaid = (await import('mermaid')).default;
+          mermaid.initialize({
+            startOnLoad: false,
+            theme: document.documentElement.classList.contains('dark') ? 'dark' : 'default',
+            securityLevel: 'strict',
+            fontFamily: 'inherit',
+          });
+          for (const [i, fig] of figures.entries()) {
+            const src = fig.querySelector('pre.mermaid-src')?.textContent ?? '';
+            const canvas = fig.querySelector('.mermaid-diagram-canvas');
+            if (!canvas) continue;
+            try {
+              const { svg } = await mermaid.render(`post-mermaid-${i}-${Date.now()}`, src);
+              canvas.innerHTML = svg;
+            } catch {
+              canvas.innerHTML = '<p class="mermaid-diagram-error">図の描画に失敗しました。</p>';
+            }
+          }
+        };
+        render();
+        // Re-render when dark mode toggles (html.dark)
+        new MutationObserver(render).observe(document.documentElement, { attributes: true, attributeFilter: ['class'] });
+      }
+    </script>
     {isHubPage && (
       <div class="mx-auto px-6 sm:px-6 max-w-3xl mt-10">
         <RegionWidget client:idle />
@@ -279,6 +312,7 @@ const breadcrumbJsonLd = {
           <p class="text-sm text-muted mt-1">
             ITインフラからWeb開発まで幅広く経験。生成AIを使った「対話型」学習メソッドを自ら実践・検証しながらSyllabus Hackで発信しています。
           </p>
+          {authorStance && <p class="text-sm text-muted mt-2">この記事の資格について: {authorStance}</p>}
         </div>
       </a>
     </div>

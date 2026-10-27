@@ -112,6 +112,7 @@ const getNormalizedPost = async (post: CollectionEntry<'post'>): Promise<Post> =
     // or 'content' in case you consume from API
 
     readingTime: remarkPluginFrontmatter?.readingTime,
+    hasMermaid: remarkPluginFrontmatter?.hasMermaid === true,
     knowledge: knowledge,
     faqs: faqs,
     toc: toc,

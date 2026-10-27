@@ -20,6 +20,7 @@ import astrowind from './vendor/integration';
 import {
   readingTimeRemarkPlugin,
   learnerCalloutRemarkPlugin,
+  mermaidFenceRemarkPlugin,
   responsiveTablesRehypePlugin,
   lazyImagesRehypePlugin,
   normalizeInternalLinksRehypePlugin,
@@ -587,6 +588,7 @@ export default defineConfig({
     remarkPlugins: [
       readingTimeRemarkPlugin,
       learnerCalloutRemarkPlugin,
+      mermaidFenceRemarkPlugin,
       remarkMath,
       [
         remarkLinkCard,

@@ -107,6 +107,32 @@ export const learnerCalloutRemarkPlugin: RemarkPlugin = () => {
   };
 };
 
+const escapeHtml = (s: string) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+
+// ```mermaid caption="..." fences in .md posts become a placeholder that SinglePost.astro renders on the client
+export const mermaidFenceRemarkPlugin: RemarkPlugin = () => {
+  return function (tree, file) {
+    let found = false;
+    visit(tree, 'code', function (node, index, parent) {
+      if (node.lang !== 'mermaid' || !parent || index === undefined) return;
+      found = true;
+      const caption = node.meta?.match(/caption="([^"]*)"/)?.[1];
+      const label = escapeHtml(caption ?? '図解');
+      parent.children[index] = {
+        type: 'html',
+        value:
+          `<figure class="mermaid-diagram not-prose"><pre class="mermaid-src" hidden>${escapeHtml(node.value)}</pre>` +
+          `<div class="mermaid-diagram-canvas" role="img" aria-label="${label}"></div>` +
+          (caption ? `<figcaption class="mermaid-diagram-caption">${label}</figcaption>` : '') +
+          `</figure>`,
+      };
+    });
+    if (found && typeof file?.data?.astro?.frontmatter !== 'undefined') {
+      file.data.astro.frontmatter.hasMermaid = true;
+    }
+  };
+};
+
 export const responsiveTablesRehypePlugin: RehypePlugin = () => {
   return function (tree) {
     if (!tree.children) return;

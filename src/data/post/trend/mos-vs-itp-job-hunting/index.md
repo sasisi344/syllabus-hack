@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-05-31T00:00:00Z
-lastmod: 2026-10-25
+lastmod: 2026-10-27
 title: 'MOS vs ITパスポート——どちらが有利か問うより「両方取れるなら取ったほうがいい」理由'
 excerpt: 'MOSとITパスポートは証明する能力の軸が違う補完関係にあります。優先順位の判断基準と、AI時代にExcel知識がむしろ重要になる理由を解説します。'
 image: '~/data/post/trend/mos-vs-itp-job-hunting/cover.jpg'
@@ -70,7 +70,7 @@ ExcelをVBA・Pivot・Power Queryレベルで使いこなす業務がある場�
 | 知名度（IT職採用） | 低 | 中 |
 | 知名度（事務職採用） | 高 | 低〜中 |
 
-受験費用は、MOS公式サイトの受験料のページ（2026年10月25日確認）をもとにしています。ITパスポートの手数料は、IPAの案内で最新額を確認してください。
+受験費用は、[MOS公式サイトの受験料のページ](https://mos.odyssey-com.co.jp/exam/examfee.html)（2026年10月25日確認）をもとにしています。ITパスポートの手数料は、[ITパスポート試験の公式サイト](https://www3.jitec.ipa.go.jp/JitesCbt/index.html)で最新額を確認してください。
 
 ITパスポートは国家資格として永続的に有効ですが、MOSは取得したバージョン（365・2019等）が明記され、数年後には「旧バージョン取得」になります。<strong>長期的な資産性ではITパスポートが優位</strong>です。
 
