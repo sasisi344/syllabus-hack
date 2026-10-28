@@ -21,7 +21,8 @@
 
 - [ ] ① 強化12本: 出典・図・AIの実行例を入れる（Claude。AIの実行例の画面・回答はユーザー）。書ける体験がある記事だけ筆者が callout を記入
   - [x] 10/27 テスト実施（Claude分）: 12本中11本に出典・図を追加（工業高校の記事は出典ありのため変更なし）。`.md` 記事で ```mermaid が描画されるようにした（`mermaidFenceRemarkPlugin`）。図は5本（36協定・BCM・NW Mermaid・CBT日程・土木施工）。応用情報の記事は午前/午後→科目A/Bに修正。新IPA試験の記事は「新設された」→「新設予定（仮称）」に修正
-  - [ ] AIの実行例の画面・回答（ユーザー）: nw-mermaid-hack / ccna-vs-aws-saa / ipa-2026-cbt-schedule-guide / doboku-sekou-hub / new-ipa-exam-study-strategy
+  - [ ] AIの実行例の画面・回答（ユーザー）: nw-mermaid-hack / ipa-2026-cbt-schedule-guide が残り
+    - [x] 10/28: ccna-vs-aws-saa（Gemini・図あり）/ new-ipa-exam-study-strategy（Gemini）/ doboku-sekou-hub（ChatGPT。スケジュールと添削の2本、添削は架空の例文で実行）に実行結果と筆者の exp を入れた
   - [ ] NWの記事タイトルが「午後対策」のまま（科目Bへの言い換えを判断）
 - [ ] ② 残す50本の出典（19本）: 公式ページで事実を確かめてリンクを足す。違っていれば本文も直す（Claude）
 - [ ] ③ 全体図・流れ図（20本）: Mermaid で作る（Claude、内容の確認はユーザー）
