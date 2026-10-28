@@ -2,7 +2,7 @@
 title: 'IPA試験のAI勉強法まとめ｜学習の段階と試験区分から、読む記事を選ぶ'
 image: ~/data/post/method/common-cover.png
 publishDate: 2026-03-10T00:00:00Z
-lastmod: 2026-10-25
+lastmod: 2026-10-28
 category: method
 toc: true
 tags: ['学習法', 'ChatGPT', 'Claude', 'Gemini', 'NotebookLM']
@@ -48,7 +48,7 @@ AIは、問題を大量に出す道具としてではなく、<strong>理解を�
 - [ストラテジ系をAIの「たとえ話」で攻略する技術](/method/ip-strategy-ai-hack/)：経営の用語を、身近な例えで理解する
 - [生成AI用語は参考書を買うより生成AIに聞く](/method/genai-vocabulary-learning-efficiency/)：新しい用語が増える分野の用語ノートの作り方
 - [SQLのJOINが覚えられない人へ](/method/sql-join-visual-ai-hack/)：図にして理解する方法
-- [ネットワーク図の書き方｜手書きメモをAIでMermaidに整形する](/method/nw-mermaid-hack/)：図解しながら覚える方法
+- [ネットワーク図の書き方｜NW試験の要件をAIでMermaidの構成図にする](/method/nw-mermaid-hack/)：図解しながら覚える方法
 
 ### 段階3：問題を解く、問題集を作る
 
