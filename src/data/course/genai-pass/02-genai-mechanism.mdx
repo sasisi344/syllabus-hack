@@ -1,0 +1,123 @@
+---
+title: '第2章 生成AIのしくみ：技術・学習・生成'
+examId: 'genai-pass'
+kind: 'chapter'
+order: 2
+genre: '生成AIの技術'
+estimatedMinutes: 90
+syllabusRefs: ['生成AIを支える技術革新（Transformer以降）', '生成AIの学習プロセス', '生成AIの生成（推論）プロセス']
+field2027: 'technology'
+quizRef: 'course-ch2'
+relatedPosts: []
+noteUrl: ''
+draft: true
+lastmod: 2026-10-31
+metadata:
+  description: ''
+---
+
+import ChapterQuiz from '~/apps/course-quiz/ChapterQuiz';
+import questions from '~/data/quiz/genai-passport/course-ch2.json';
+
+{/* データ出典: syllabus-genai-pass-2027.json v2027-02（2027年2月試験） */}
+{/* 章ヘッダは実装側で自動生成（章番号／ジャンル／目安90分／読了目安／進捗） */}
+
+## この章で学ぶこと
+
+{/* 3〜5行。担当する中分類・小分類: 生成AIを支える技術革新（Transformer以降）・生成AIの学習プロセス・生成AIの生成（推論）プロセス（全49語。精選基準は各コースのcurriculum.md §3） */}
+
+## 生成AIを支える技術革新（Transformer以降）
+
+{/* 要点の要約 10〜20行。既存theory記事の要約に徹し、フルで再解説しない（カニバリ回避） */}
+
+<strong>扱う用語（候補・全18語。精選して残す語だけ残し、他は削除する）</strong>
+
+- Transformer
+- 自然言語処理
+- Self-Attention（自己注意機構）
+- Query
+- Key
+- Value
+- 並列処理
+- 長距離依存
+- 拡散モデル（Diffusion Model）
+- 拡散過程
+- 逆拡散過程
+- 潜在拡散モデル（Latent Diffusion Model）
+- 基盤モデル（Foundation Model）
+- マルチモーダルモデル
+- モダリティ
+- エンコーダ
+- デコーダ
+- マルチモーダル
+
+{/* 深掘り: 既存theory記事があれば追記 [/theory/{slug}/](/theory/{slug}/)。無ければ新規要約が必要な節として対応 */}
+
+## 生成AIの学習プロセス
+
+{/* 要点の要約 10〜20行。既存theory記事の要約に徹し、フルで再解説しない（カニバリ回避） */}
+
+<strong>扱う用語（候補・全19語。精選して残す語だけ残し、他は削除する）</strong>
+
+- 事前学習
+- 次トークン予測
+- トークン
+- パラメータ
+- ハルシネーション
+- ファインチューニング
+- 教師ありファインチューニング
+- 指示チューニング（Instruction Tuning）
+- ドメイン適応
+- RLHF（人間のフィードバックによる強化学習）
+- 報酬モデル
+- バイアス
+- スケーリング則（Scaling Laws）
+- 創発的能力
+- 追加学習
+- 人間の評価
+- 学習データ
+- データの品質
+- 著作権
+
+{/* 深掘り: 既存theory記事があれば追記 [/theory/{slug}/](/theory/{slug}/)。無ければ新規要約が必要な節として対応 */}
+
+## 生成AIの生成（推論）プロセス
+
+{/* 要点の要約 10〜20行。既存theory記事の要約に徹し、フルで再解説しない（カニバリ回避） */}
+
+<strong>扱う用語（候補・全12語。精選して残す語だけ残し、他は削除する）</strong>
+
+- トークン化
+- サブワード
+- 埋め込み（Embedding）
+- ベクトル
+- 確率分布
+- ハルシネーション
+- RAG（検索拡張生成）
+- 生成パラメータ
+- Temperature
+- Top-p
+- コンテキストウィンドウ
+- トークン
+
+{/* 深掘り: 既存theory記事があれば追記 [/theory/{slug}/](/theory/{slug}/)。無ければ新規要約が必要な節として対応 */}
+
+## AIで学ぶ
+
+```
+あなたは生成AIパスポートの講師です。「生成AIのしくみ：技術・学習・生成」の範囲について、以下の用語を初学者向けに**関連づけながら**説明してください（単体の丸暗記より、用語同士のつながりを理解したほうが記憶に定着しやすく、試験本番で紛らわしい選択肢を見分ける力もつくためです）。用語同士の違いが分かる**比較表**を最後に付けてください。
+
+（精選後の用語リストをここに貼る）
+```
+
+このプロンプトは、<strong>役割設定</strong>（試験の講師として振る舞わせる）→<strong>関連づけの指示</strong>（用語を単に列挙させず、つながりで説明させる）→<strong>出力形式の指定</strong>（比較表で受け取る）という3段構成でできています。コピーして使うだけでなく、この組み立て方を覚えておくと、他の章や他の資格でも自分でプロンプトを作れるようになります。
+
+## 章末チェック
+
+{/* island: quizRef=course-ch2。出題テーマ: （次工程で選定） */}
+
+<ChapterQuiz client:load questions={questions} examId="genai-pass" mode="chapter" chapterOrder={2} />
+
+## この章のまとめ
+
+{/* 3〜5行のまとめと次章へのリンク（テンプレート §3-1） */}

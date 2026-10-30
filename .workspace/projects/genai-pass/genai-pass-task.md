@@ -170,8 +170,8 @@ tags:
   - `ai-work`（生成AI実務練習コース）: 第5章「生成AIの実践と活用事例」と重なる。**ai-workへ実践の練習として送客**する導線。ai-work側の事前準備・ルール設定コラム（`/method/ai-skill-rules-setup/`・`/method/ai-programming-prep/`）への導線も検討
   - `sc`・`sg`: プロンプトインジェクション・情報漏えい（第3・4章）との接続
   - 用語解説（タスクE）・リスク事例コラム（タスクD）を、第6・7章から参照
-- [ ] **F-3 スキャフォールド**: `.workspace/scripts/scaffold-course.cjs` の `COURSES` に `genai-pass` を追加（`g-kentei` の追加方法を参考に。新シラバスのJSON構造に対応する `from` 合算オプションを確認）→ `.workspace/draft/course/genai-pass/` に骨組みを生成
-- [ ] **F-4 スキーマ登録**: `src/content/config.ts` の course enum に `genai-pass`（A項の決定に従う）。`src/pages/course/` が examId 依存の分岐を持つか `Grep` で確認
+- [x] **F-3 スキャフォールド**（2026-10-31 完了。出力先は `src/data/course/genai-pass/` に draft で直接生成。`--mdx` オプション）: `.workspace/scripts/scaffold-course.cjs` の `COURSES` に `genai-pass` を追加（`g-kentei` の追加方法を参考に。新シラバスのJSON構造に対応する `from` 合算オプションを確認）→ `.workspace/draft/course/genai-pass/` に骨組みを生成
+- [x] **F-4 スキーマ登録**（2026-10-31 確認: enum に登録済み、`src/pages/course/` に examId の分岐なし）: `src/content/config.ts` の course enum に `genai-pass`（A項の決定に従う）。`src/pages/course/` が examId 依存の分岐を持つか `Grep` で確認
 - [ ] **F-5 本文執筆**（章ごと。`src/data/course/genai-pass/` に配置。`draft: true` で作成し、全章完成後に公開）: 各章「この章で学ぶこと／用語の説明（なぜ重要か）／判断のポイント／AIで学ぶプロンプト例／章末チェック」。**プロンプト例（コードフェンス内の強調は Markdown の `**太字**`）**。第3章・5章は、実際のAIエージェント（コーディングエージェント等）を触る演習を入れるかを検討
 - [ ] **F-6 index.mdx**（診断テスト・カリキュラムマップ・チャプターリンク・「完走したら」）。公式テキスト（11/24〜）の案内・過去問の有無（公式の公開範囲を確認）の注記
 - [ ] **F-7 ビルド確認**: `pnpm astro check` → `pnpm run build`

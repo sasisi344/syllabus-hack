@@ -1,0 +1,115 @@
+---
+title: '第4章 AIエージェントとRAG'
+examId: 'genai-pass'
+kind: 'chapter'
+order: 4
+genre: 'AIエージェント'
+estimatedMinutes: 90
+syllabusRefs: ['AIエージェントとは', 'RAG（検索拡張生成）', 'AIエージェントの仕組み']
+field2027: 'technology'
+quizRef: 'course-ch4'
+relatedPosts: []
+noteUrl: ''
+draft: true
+lastmod: 2026-10-31
+metadata:
+  description: ''
+---
+
+import ChapterQuiz from '~/apps/course-quiz/ChapterQuiz';
+import questions from '~/data/quiz/genai-passport/course-ch4.json';
+
+{/* データ出典: syllabus-genai-pass-2027.json v2027-02（2027年2月試験） */}
+{/* 章ヘッダは実装側で自動生成（章番号／ジャンル／目安90分／読了目安／進捗） */}
+
+## この章で学ぶこと
+
+{/* 3〜5行。担当する中分類・小分類: AIエージェントとは・RAG（検索拡張生成）・AIエージェントの仕組み（全41語。精選基準は各コースのcurriculum.md §3） */}
+
+## AIエージェントとは
+
+{/* 要点の要約 10〜20行。既存theory記事の要約に徹し、フルで再解説しない（カニバリ回避） */}
+
+<strong>扱う用語（候補・全7語。精選して残す語だけ残し、他は削除する）</strong>
+
+- AIエージェント
+- ワークフロー型エージェント
+- 自律型エージェント
+- 推論モデル
+- コンテキストウィンドウ
+- Human-in-the-Loop
+- 計画
+
+{/* 深掘り: 既存theory記事があれば追記 [/theory/{slug}/](/theory/{slug}/)。無ければ新規要約が必要な節として対応 */}
+
+## RAG（検索拡張生成）
+
+{/* 要点の要約 10〜20行。既存theory記事の要約に徹し、フルで再解説しない（カニバリ回避） */}
+
+<strong>扱う用語（候補・全17語。精選して残す語だけ残し、他は削除する）</strong>
+
+- RAG（Retrieval-Augmented Generation：検索拡張生成）
+- ハルシネーション
+- 埋め込み（Embedding）
+- ベクトルデータベース
+- 意味的検索（セマンティック検索）
+- リランキング
+- ハイブリッド検索
+- Advanced RAG
+- クエリの書き換え
+- Agentic RAG
+- Graph RAG
+- 知識グラフ
+- チャンク分割
+- メタデータ
+- データサイロ
+- 正確性
+- 最新性
+
+{/* 深掘り: 既存theory記事があれば追記 [/theory/{slug}/](/theory/{slug}/)。無ければ新規要約が必要な節として対応 */}
+
+## AIエージェントの仕組み
+
+{/* 要点の要約 10〜20行。既存theory記事の要約に徹し、フルで再解説しない（カニバリ回避） */}
+
+<strong>扱う用語（候補・全17語。精選して残す語だけ残し、他は削除する）</strong>
+
+- タスク分解と計画
+- サブタスク
+- Function Calling
+- Tool Use
+- 記憶（メモリ）
+- 短期メモリ
+- 長期メモリ
+- コンテキスト管理
+- コンテキストエンジニアリング
+- システムプロンプト
+- ガードレール
+- 構造化出力
+- フィードバックループ
+- LLM（大規模言語モデル）
+- 推論
+- 観察
+- 再計画
+
+{/* 深掘り: 既存theory記事があれば追記 [/theory/{slug}/](/theory/{slug}/)。無ければ新規要約が必要な節として対応 */}
+
+## AIで学ぶ
+
+```
+あなたは生成AIパスポートの講師です。「AIエージェントとRAG」の範囲について、以下の用語を初学者向けに**関連づけながら**説明してください（単体の丸暗記より、用語同士のつながりを理解したほうが記憶に定着しやすく、試験本番で紛らわしい選択肢を見分ける力もつくためです）。用語同士の違いが分かる**比較表**を最後に付けてください。
+
+（精選後の用語リストをここに貼る）
+```
+
+このプロンプトは、<strong>役割設定</strong>（試験の講師として振る舞わせる）→<strong>関連づけの指示</strong>（用語を単に列挙させず、つながりで説明させる）→<strong>出力形式の指定</strong>（比較表で受け取る）という3段構成でできています。コピーして使うだけでなく、この組み立て方を覚えておくと、他の章や他の資格でも自分でプロンプトを作れるようになります。
+
+## 章末チェック
+
+{/* island: quizRef=course-ch4。出題テーマ: （次工程で選定） */}
+
+<ChapterQuiz client:load questions={questions} examId="genai-pass" mode="chapter" chapterOrder={4} />
+
+## この章のまとめ
+
+{/* 3〜5行のまとめと次章へのリンク（テンプレート §3-1） */}

@@ -25,8 +25,7 @@
 | T-17 | データ待ち | 2 | M | 保留136本（刷新・リライト済み）を m11 のデータで残す／外すに再判定する | Claude | m11取得後 | 変更 11/30 | 旧TODO | T-13 |
 | T-18 | 時期待ち | 1 | L | 既存コースの全面リライト（11月分: ip → sg → g-kentei。1コース＝指示書2本） | Codex | 11/30 | 再開 11/09 | hq:H-29 | T-53 |
 | T-19 | 時期待ち | 2 | L | 既存コースの全面リライト（12月分: sc → dm → pd-s → pd-m → ai-work） | Codex | 12/20 | 再開 2026-12 | hq:H-29 | T-18 |
-| T-20 | 着手可 | 1 | M | 生成AIパスポート コース: スキャフォールドとスキーマ登録（F-3・F-4） | Claude | 11/06 | — | hq:H-29 | T-21 |
-| T-21 | 時期待ち | 1 | L | 生成AIパスポート コース 第1〜4章（draft） | Codex | 11/13 | 再開 11/06 | hq:H-29 | T-20 |
+| T-21 | 着手可 | 1 | L | 生成AIパスポート コース 第1〜4章（draft） | Codex | 11/13 | — | hq:H-29 | 2026-10-31-T-20-genai-pass-scaffold.md |
 | T-22 | 時期待ち | 1 | L | 生成AIパスポート コース 第5〜8章・コースTOP（draft） | Codex | 11/20 | 再開 11/13 | hq:H-29 | T-21 |
 | T-23 | 着手可 | 1 | L | 生成AIパスポート クイズを新シラバスへ（G-3〜G-9。旧シラバスの最終試験は 10/31 で終了） | Codex | 11/22 | — | hq:H-29 | — |
 | T-24 | 時期待ち | 2 | M | 生成AIパスポート 公式テキストとコース・クイズを照合する（タスクI） | 両方 | 11/30 | 再開 11/24 | hq:H-29 | T-22 |
@@ -149,17 +148,12 @@
 - T-18（11月）: ip → sg → g-kentei。T-19（12月）: sc（12章のため3本）→ dm → pd-s → pd-m → ai-work
 - 診断を16〜24問に増やす作業は指示書に含める。ルートの表示（コード）は T-53
 
-### T-20 生成AIパスポート スキャフォールド
-
-- `.workspace/projects/genai-pass/genai-pass-task.md` F-3・F-4。`scaffold-course.cjs` に `genai-pass` を追加、`src/content/config.ts` の course enum に登録、`src/pages/course/` の examId 分岐を確認
-- 章立ては `.workspace/.new-contentplan/genai-pass-course/genai-pass-course-curriculum.md` §2（8章・20時間）
-- 終わったら T-21 の指示書を書く（`course-expansion-2026-11/README.md` §4・§6）
-
 ### T-21・T-22 生成AIパスポート コース本文
 
 - Codex が `src/data/course/genai-pass/` に `draft: true` で書く。1指示書4章まで
 - T-22 にコースTOP（診断テスト・カリキュラムマップ・注意書き。テンプレート §2）を含める
 - 筆者は未受験。LEARNER_NOTE の候補は think（わかりにくさ）に限る
+- T-21 の指示書: `.workspace/codex/orders/2026-10-31-T-21.md`（骨組みは T-20 で作成済み）。T-22 の指示書は T-21 の検収後に、検収で見つけた点を足して書く
 
 ### T-23 生成AIパスポート クイズ
 
@@ -242,6 +236,7 @@
 ### T-53 診断ルーティングの実装
 
 - テンプレート §1-1: 診断の全体正答率で3ルート（演習80%以上／重点40〜79%／基礎40%未満）、章別正答率で重点章。今の `ChapterQuiz`（`mode="diagnosis"`）は苦手章の列挙だけ
+- 2026-10-31 確認: `ChapterQuiz` には `getLearningRoute`・`route_assigned` イベント・`LearningRoute`（practice / focus / basic）がすでにある。まず今の表示がテンプレート §1-1 を満たすか確かめ、足りない分だけ足す。規模は M に下がる見込み
 - 実装して、既存コースのリライト（診断JSONの増問）と新コースで使う。マーケティング基礎講座の「経験の自己申告」（知識×経験の4ルート）は同じ部品の拡張として設計する
 - `.agents/quiz_app_rules.md` に従い、`pnpm build` と実際の画面で確かめる
 

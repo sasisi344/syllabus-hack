@@ -1,0 +1,65 @@
+---
+title: '生成AIパスポート 20時間コース（2027年2月試験〜の新シラバス対応）'
+examId: 'genai-pass'
+kind: 'index'
+totalHours: 20
+chapters: 8
+draft: true
+lastmod: 2026-10-31
+metadata:
+  description: ''
+---
+
+import ChapterQuiz from '~/apps/course-quiz/ChapterQuiz';
+import diagnosisQuestions from '~/data/quiz/genai-passport/course-diagnosis.json';
+import reviewQuestions from '~/data/quiz/genai-passport/course-review.json';
+
+export const chapterLinks = [
+  { order: 1, title: '第1章 AIの基礎と歴史', href: '/course/genai-pass/01-ai-basics-history/' },
+  { order: 2, title: '第2章 生成AIのしくみ：技術・学習・生成', href: '/course/genai-pass/02-genai-mechanism/' },
+  { order: 3, title: '第3章 LLMと主要モデル・各モダリティ', href: '/course/genai-pass/03-llm-models-modalities/' },
+  { order: 4, title: '第4章 AIエージェントとRAG', href: '/course/genai-pass/04-ai-agent-rag/' },
+  { order: 5, title: '第5章 MCP・ツール活用・エージェントのリスク', href: '/course/genai-pass/05-mcp-agent-risk/' },
+  { order: 6, title: '第6章 生成AIのリスク予防（使う人の判断）', href: '/course/genai-pass/06-risk-prevention/' },
+  { order: 7, title: '第7章 権利・AI倫理・ガバナンス・AI法', href: '/course/genai-pass/07-rights-ethics-governance/' },
+  { order: 8, title: '第8章 生成AIの実践と活用事例', href: '/course/genai-pass/08-practice-use-cases/' },
+];
+
+{/* 導入（3〜5行）: 20時間で何ができるようになるか／対象読者。テンプレート §0 の注意書き（合格を保証しない）をここと章ページに入れる */}
+
+## 20時間で生成AIパスポートの全体像をつかむ
+
+## まず現在地を測る
+
+{/* 診断は1章2〜3問（16〜24問）。全体正答率でルート（演習80%以上／重点40〜79%／基礎40%未満）、章別正答率で重点章が出る（テンプレート §1-1） */}
+
+<ChapterQuiz client:load questions={diagnosisQuestions} examId="genai-pass" mode="diagnosis" chapterLinks={chapterLinks} />
+
+## 学習ルート
+
+{/* 3ルートの進め方の表（テンプレート §1-1） */}
+
+## 章一覧
+
+| 章 | ジャンル | 目安 |
+| --- | --- | --- |
+| [第1章 AIの基礎と歴史](/course/genai-pass/01-ai-basics-history/) | AI基礎・歴史 | 150分 |
+| [第2章 生成AIのしくみ：技術・学習・生成](/course/genai-pass/02-genai-mechanism/) | 生成AIの技術 | 90分 |
+| [第3章 LLMと主要モデル・各モダリティ](/course/genai-pass/03-llm-models-modalities/) | LLM・モデル | 90分 |
+| [第4章 AIエージェントとRAG](/course/genai-pass/04-ai-agent-rag/) | AIエージェント | 90分 |
+| [第5章 MCP・ツール活用・エージェントのリスク](/course/genai-pass/05-mcp-agent-risk/) | エージェントの連携とリスク | 60分 |
+| [第6章 生成AIのリスク予防（使う人の判断）](/course/genai-pass/06-risk-prevention/) | リスク予防 | 210分 |
+| [第7章 権利・AI倫理・ガバナンス・AI法](/course/genai-pass/07-rights-ethics-governance/) | 権利・倫理・ガバナンス | 210分 |
+| [第8章 生成AIの実践と活用事例](/course/genai-pass/08-practice-use-cases/) | 実践・活用 | 180分 |
+
+## 総復習
+
+<ChapterQuiz client:load questions={reviewQuestions} examId="genai-pass" mode="review" chapterLinks={chapterLinks} />
+
+## 完走したら
+
+{/* 模擬試験アプリ・関連コース・ハブへの導線 */}
+
+## よくある質問
+
+{/* 3〜5問 */}
