@@ -5,7 +5,7 @@ status: 優先度：低・ストック企画（着手時期未定）
 
 > **重要**: 本フォルダの内容は IPA資格試験（`course`コレクション・`.new-contentplan/`配下）とは別系統。
 > シラバス構造に依存しない「20時間で体系的に学ぶ」汎用教養/ビジネススキル・コンテンツラインの企画置き場。
-> TODO登録: [`../.task/TODO.md`](../.task/TODO.md) §4 参照。
+> TODO登録: [`../.task/TODO.md`](../archive/legacy/TODO.md) §4 参照。
 
 ## 元ネタ（344ob側のメモ）
 

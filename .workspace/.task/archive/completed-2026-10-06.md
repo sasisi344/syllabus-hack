@@ -1,7 +1,7 @@
 # 完了タスク記録（2026-10-06 アーカイブ）
 
 > `TODO.md` と `w40-weekly-task.md` の完了済みタスクを退避したもの。**本文は、元の記述のまま移した**。リンクのうち、`.task/` 基準の相対パスは、本ファイルの位置（`.task/archive/`）に合わせて直してある。
-> 日付つきの未完了タスク・効果測定は、[`../schedule-task.md`](../schedule-task.md) に集約した（同日）。
+> 日付つきの未完了タスク・効果測定は、[`../schedule-task.md`](../../archive/legacy/schedule-task.md) に集約した（同日）。
 
 ## 目次
 

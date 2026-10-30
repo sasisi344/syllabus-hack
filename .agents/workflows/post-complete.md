@@ -31,4 +31,4 @@ description: 執筆したドラフトを本番用コンテンツに変換・移�
     - 元のドラフトを削除し、本番環境へ配置を完了する。
 
 4.  **タスク管理の更新**
-    - `.workspace/.task/TODO.md` やプロジェクトの `TODO.md` の該当項目を[x]済みにする。
+    - `.task-management/task.md` の該当タスクを完了にする（`records/` に記録）。

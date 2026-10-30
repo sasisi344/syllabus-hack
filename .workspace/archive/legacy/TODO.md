@@ -5,7 +5,7 @@
 >
 > **2026-09-07 全面更新**: 「20時間学習法（courseコレクション）」への戦略転換に伴い、2026-07台の旧タスク（PDCA週次検証・記事統廃合判断待ち等）を `archive/todo-pre-course-pivot-2026-09-07.md` へ一括退避。以降は2027年IPAシラバス改訂対応を最優先タスクとして本ファイル冒頭に固定する。
 >
-> **2026-10-06 整理**: 完了済みの節・項目を [`archive/completed-2026-10-06.md`](archive/completed-2026-10-06.md) へ退避。**日付つきタスクと効果測定は、[`schedule-task.md`](schedule-task.md) に集約**した（Gem→スキル統合の更新タスクも同ファイルへ統合）。本ファイルには、日付・測定の詳細を重複して書かない。
+> **2026-10-06 整理**: 完了済みの節・項目を [`archive/completed-2026-10-06.md`](../../.task/archive/completed-2026-10-06.md) へ退避。**日付つきタスクと効果測定は、[`schedule-task.md`](schedule-task.md) に集約**した（Gem→スキル統合の更新タスクも同ファイルへ統合）。本ファイルには、日付・測定の詳細を重複して書かない。
 
 ---
 
@@ -13,7 +13,7 @@
 
 > 2026-10-27 決定。AdSense に3回不合格（「有用性の低いコンテンツ」）。**計画・棚卸しの集計・判断の記録は hq の [`adsense-redesign.md`](../../../hq/adsense-redesign.md) §3**、進捗は hq の `backlog.md` H-21〜H-25 で追う。講座アフィリエイトは審査の結果が出るまで入れない。
 
-- [x] 10/27: 記事267本の棚卸し一覧を作った（hq H-21）→ [`adsense-inventory/README.md`](adsense-inventory/README.md)。強化12・残す50・保留136（うち10/19以降の刷新済み110）・統合30・公開停止39。リッチ要素（出典・AIの実行例・図・体験）の判定基準は同 README §4
+- [x] 10/27: 記事267本の棚卸し一覧を作った（hq H-21）→ [`adsense-inventory/README.md`](../../.task/adsense-inventory/README.md)。強化12・残す50・保留136（うち10/19以降の刷新済み110）・統合30・公開停止39。リッチ要素（出典・AIの実行例・図・体験）の判定基準は同 README §4
 - [x] 10/27: 判定と提案をユーザーが採用（hq H-22）。方針は **既存記事をまずリッチにする**。体験コメントは記事0〜2個（`CLAUDE.md` 変更済み）、未受験の資格は未受験と明記
 - [x] 10/27: 筆者の受験・学習の状況を反映（`src/data/author-exam-status.ts`）。記事末尾の執筆者欄に examId 別の1文を自動表示、about に一覧を追加
 
@@ -60,16 +60,16 @@
 
 **今月のゴール**: ITパスポートを題材にした20時間学習法パイロット（Tier1・無料8章）を、2027年シラバスベースで制作し、サイト新構成 `course` コレクションとして公開する。Tier2（有料note・合格テキスト26章フル版）は来月に延期。CBT型（既存資産）は維持しKPIを崩さない。
 
-**進捗**: Week1〜4（9/6〜10/3）は全て完了。**IPAグループ（`ip`→`sg`→`dm`→`pd-m`→`pd-s`）に加え、G検定・SC（情報処理安全確保支援士）のコースも公開済み**。Week進捗表・Week3/Week4の詳細は [`archive/completed-2026-10-06.md`](archive/completed-2026-10-06.md) §1 を参照。次点候補（クラウド・ネットワーク）は、下記 §4.5 で検討中。
+**進捗**: Week1〜4（9/6〜10/3）は全て完了。**IPAグループ（`ip`→`sg`→`dm`→`pd-m`→`pd-s`）に加え、G検定・SC（情報処理安全確保支援士）のコースも公開済み**。Week進捗表・Week3/Week4の詳細は [`archive/completed-2026-10-06.md`](../../.task/archive/completed-2026-10-06.md) §1 を参照。次点候補（クラウド・ネットワーク）は、下記 §4.5 で検討中。
 
-- [ ] **Tier2（有料note・合格テキスト）: 検討開始（2026-10-06）**。Tier1（無料の20時間コース）は2027年改訂シラバスで全て制作済みのため、優先タスクは完了扱い。**未確定: noteに入れる価値のある内容は何か**（Tier1との差別化）。これを決めてから、価格帯・巻数設計（[`ip-course-curriculum.md`](../.new-contentplan/archive/ip-course/ip-course-curriculum.md) §4）、メールゲート実装方式に進む（noteアカウントは開設済み）
+- [ ] **Tier2（有料note・合格テキスト）: 検討開始（2026-10-06）**。Tier1（無料の20時間コース）は2027年改訂シラバスで全て制作済みのため、優先タスクは完了扱い。**未確定: noteに入れる価値のある内容は何か**（Tier1との差別化）。これを決めてから、価格帯・巻数設計（[`ip-course-curriculum.md`](../../.new-contentplan/archive/ip-course/ip-course-curriculum.md) §4）、メールゲート実装方式に進む（noteアカウントは開設済み）
   - 2026-10-17: noteで最初に出すのは合格テキスト（Tier2）ではなく「20時間コースの作り方のロジック」に決定（§0.10）。Tier2の検討は、その結果を見てから再開する
 
 ### コース検索流入モニタリング（週次・恒常化フェーズ）
 
-> 判断保留フェーズは終了し、コース別・週次の定点観測を毎週の `/weekly-report` で行う（2026-09-27〜）。**定点観測・データ取得の確認は [`schedule-task.md`](schedule-task.md) §1・§11**。完了項目は [`archive/completed-2026-10-06.md`](archive/completed-2026-10-06.md) §2 へ退避。
+> 判断保留フェーズは終了し、コース別・週次の定点観測を毎週の `/weekly-report` で行う（2026-09-27〜）。**定点観測・データ取得の確認は [`schedule-task.md`](schedule-task.md) §1・§11**。完了項目は [`archive/completed-2026-10-06.md`](../../.task/archive/completed-2026-10-06.md) §2 へ退避。
 
-- [ ] **【次のデプロイ後・最優先】コース用GA4カスタムイベントの本番反映と管理画面設定（実装・ビルド確認済み 2026-10-06、未コミット・未push）**: 前回デプロイの完了を待ってから、変更内容（`src/utils/ga.ts`・`ChapterQuiz.tsx`・`CourseLayout.astro`・`[chapter].astro`）をコミット→push（pushはユーザー確認のうえ実行）。反映後の作業は下記。手順・イベント仕様は [`access-data/README.md`](access-data/README.md) §2.5
+- [ ] **【次のデプロイ後・最優先】コース用GA4カスタムイベントの本番反映と管理画面設定（実装・ビルド確認済み 2026-10-06、未コミット・未push）**: 前回デプロイの完了を待ってから、変更内容（`src/utils/ga.ts`・`ChapterQuiz.tsx`・`CourseLayout.astro`・`[chapter].astro`）をコミット→push（pushはユーザー確認のうえ実行）。反映後の作業は下記。手順・イベント仕様は [`access-data/README.md`](../../.task/access-data/README.md) §2.5
   - [ ] GA4リアルタイムで、コースの章ページでクイズを操作し `quiz_start` / `quiz_complete` / `chapter_complete` / `course_nav_click` が届くことを確認（`course_id` パラメータも合わせて確認。`/course/ip/` を開いて `course_id` / `content_group` が届くことも確認。ディメンション名・スコープが `Layout.astro` の送信パラメータ名と一致しているか）
   - [ ] GA4管理画面（管理 → イベント）で `chapter_complete` / `course_complete` を「キーイベントとしてマーク」（w39 Actの「キーイベント0件」切り分けの解消。`course_complete` は全章完了後にしか出ないため、イベント一覧に現れるまで時間がかかる場合は後日に回す）
   - [ ] `course_id` のカスタムディメンションは作成済み。追加で `quiz_mode` / `chapter_order` / `direction` が探索で必要になったら同様に登録
@@ -79,7 +79,7 @@
 
 ## 0.6 生成AI実務練習コース — 制作完了（アーカイブ済み）／公開後の残タスク
 
-> 制作と本番ビルド（1,441ページ）まで完了。完了記録: [`archive/completed-2026-09-29.md`](archive/completed-2026-09-29.md)（設計の正本 `archive/requirement-ai-practice-usecases.md`、進捗管理 [`../.new-contentplan/archive/ai-work-course/ai-work-course-task.md`](../.new-contentplan/archive/ai-work-course/ai-work-course-task.md)）。コース: `/course/ai-work/`（`src/data/course/ai-work/`）、コラム: `/method/ai-skill-rules-setup/`・`/method/ai-programming-prep/`。公開（commit `6ed05a5`）は完了。
+> 制作と本番ビルド（1,441ページ）まで完了。完了記録: [`archive/completed-2026-09-29.md`](../../.task/archive/completed-2026-09-29.md)（設計の正本 `archive/requirement-ai-practice-usecases.md`、進捗管理 [`../.new-contentplan/archive/ai-work-course/ai-work-course-task.md`](../../.new-contentplan/archive/ai-work-course/ai-work-course-task.md)）。コース: `/course/ai-work/`（`src/data/course/ai-work/`）、コラム: `/method/ai-skill-rules-setup/`・`/method/ai-programming-prep/`。公開（commit `6ed05a5`）は完了。
 > **日付つきの項目は `schedule-task.md` へ移した**: 公開告知のSNS投稿（§2）、W44頃の効果測定（§7）、2026-11-17以降のGem→スキル統合に伴うコラム更新（§8）。
 
 - [ ] コラム2本の個別カバー画像（現在は `method/common-cover.png` を暫定使用。生成は指示後）
@@ -91,7 +91,7 @@
 
 ## 0.7 生成AIパスポート2027年新シラバス対応（2026-10-06追加）
 
-> **正本・全タスク**: [`genai-pass-task.md`](genai-pass-task.md)（本ファイルには詳細を重複して書かない。日付は `schedule-task.md` §12）。2026-10-01にGUGAが公開した新シラバス（2027年2月試験から適用）に対応する。新シラバスPDFは `.workspace/syllabus-data-pdf/GenAI-Pass/` に格納済み。
+> **正本・全タスク**: [`genai-pass-task.md`](../../projects/genai-pass/genai-pass-task.md)（本ファイルには詳細を重複して書かない。日付は `schedule-task.md` §12）。2026-10-01にGUGAが公開した新シラバス（2027年2月試験から適用）に対応する。新シラバスPDFは `.workspace/syllabus-data-pdf/GenAI-Pass/` に格納済み。
 > 内訳: A 前提確認 → B シラバス構造化 → C 変更点記事・資格更新テスト記事・KW実査・既存記事の改訂 → D リスク事例コラム（実在事例のリサーチ）→ E AI倫理・ガバナンスの用語解説 → F 20時間コース → G クイズJSONの最新化＋コース連携 → H 導線・公開 → I 公式テキスト照合（11/24〜）→ J SNS・効果測定
 
 - [ ] 上記タスク（`genai-pass-task.md` §3 のA〜J）を順に進める。着手時は、まずタスクA（前提情報の確認）（**2026-10-26 進捗**: A・B・C（主要）・D・F-1・G-1/G-2 まで完了、公開済み。残りは `genai-pass-task.md` を参照。全体は未完了のため、チェックは付けない）
@@ -132,7 +132,7 @@
 
 > 背景: GA4でCBT・course配下がほぼ読まれず、コラムが強い。資格名KWは商業テキストが上位を占めるため、noteを使った導線を検討した。受講体験の記録は資格ごとに時間がかかりすぎるため不採用。
 > **決定（2026-10-17）**: 専用アカウントは作らず、個人アカウント（sasisi344）で**1本だけ**出す（`pricing: partial`）。サイトの20時間コースを無料の実例として見せ、作り方のロジック（テンプレート＋プロンプト）を有料で売る。20hoursはテンプレートとシラバスでどの資格にも使えるため、資格ごとの記事には展開しない。コラムはサイト、告知はSNSで足りる。記事の前提は「無料でできる」なので、案内するのは無料の3ルート（NotebookLM／プロジェクト機能／都度貼り付け）のみ。CLI（Claude Code・Codex）は有料のため記事から外し、「サイトのコースは有料ツールも使って作った」と開示する。
-> **正本**: [`.new-contentplan/note-20hours-logic/`](../.new-contentplan/note-20hours-logic/)（`plan.md` 企画／`template.md`・`prompts.md` 有料パート／`article.md` 本文）
+> **正本**: [`.new-contentplan/note-20hours-logic/`](../../.new-contentplan/note-20hours-logic)（`plan.md` 企画／`template.md`・`prompts.md` 有料パート／`article.md` 本文）
 
 - [ ] **プロンプトを無料プランで検証**: G検定シラバスを使い、NotebookLM（無料）でP1（章立て）から順に実行。`prompts.md` 末尾の「検証記録」を埋める。プロジェクト機能（ルートB）が無料プランで使えるかも確認し、使えなければ記事で注記するか2ルートに絞る
 - [ ] **`article.md` の【要記入】を実体験で埋める**: シラバスを渡す前後の出力の違い／実際に手直しが必要だった工程／サイトのコースで使った有料ツールと使いどころ／シラバスの公式URL
@@ -145,7 +145,7 @@
 
 ## 0.11 re-content 後の残り（2026-10-25追加・筆者の判断待ち／任意）
 
-> 背景: 古い記事の統合・刷新（`re-content`）は2026-10-25に完了。作業ファイルは [`archive/re-content-2026-10/`](archive/re-content-2026-10/)（記録は `out-task.md`）。AIが決められず、筆者の判断や確認を待っているものだけを残す。
+> 背景: 古い記事の統合・刷新（`re-content`）は2026-10-25に完了。作業ファイルは [`archive/re-content-2026-10/`](../../.task/archive/re-content-2026-10)（記録は `out-task.md`）。AIが決められず、筆者の判断や確認を待っているものだけを残す。
 
 - [ ] **生成AI用語DBの3語を `confirmed` にするか決める**: 2026-10-26にAIが一次情報で再確認済み（AI法＝内閣府、IPA 10大脅威2026＝IPA 組織編3位・初選出、AI事業者ガイドライン＝総務省ページで最新版は第1.2版・令和8年3月31日）。DBの `note`・定義は更新したが、規約上 `confirmed` にできるのは筆者のみ。IPAの脅威は解説書（64ページ）、ガイドラインは第1.2版本文の内容が未確認のため `uncertain` は true のまま
 - [ ] **用語の定期調査を設定するか決める**: ClaudeやChatGPTのスケジュール実行（外部設定を伴う）。設定する場合は、`candidate` の追記だけ・1回5件まで、を条件にする
@@ -158,7 +158,7 @@
 
 ## 0.12 日商PC検定「意味ない？」記事の仕上げ（2026-10-26追加）
 
-> 本文は執筆済み: [`draft/career-nissho-pc-kentei-imi-nai.md`](../draft/career-nissho-pc-kentei-imi-nai.md)（`draft: true`）。KW・批判の収集・競合: [`cert-keyword-db/nissho-pc-kw-db.md`](../data-set/cert-keyword-db/nissho-pc-kw-db.md)・[`draft/nissho-pc-critics-2026-10.md`](../draft/nissho-pc-critics-2026-10.md)。生成AI出題は未確定のため記事では扱っていない。
+> 本文は執筆済み: [`draft/career-nissho-pc-kentei-imi-nai.md`](../../draft/career-nissho-pc-kentei-imi-nai.md)（`draft: true`）。KW・批判の収集・競合: [`cert-keyword-db/nissho-pc-kw-db.md`](../../data-set/cert-keyword-db/nissho-pc-kw-db.md)・[`draft/nissho-pc-critics-2026-10.md`](../../draft/nissho-pc-critics-2026-10.md)。生成AI出題は未確定のため記事では扱っていない。
 
 - [ ] 筆者が `LEARNER_NOTE` 3か所を callout で記入するか削除（未処理のまま本番移行しない）
 - [ ] `FACT_CHECK` 2か所: 職業訓練のコース案内を2〜3件取得日つきで確認／資格名の正式表記を日本商工会議所の案内で確認
@@ -172,8 +172,8 @@
 
 > 背景: 「20時間学習」「生成AIと学ぶ」「資格試験の教材」を新たな3本柱に、「最新情報のフォロー」「コラム」を副次コンテンツに据えるサイト構成の設計依頼（2026-09-09）。既存5カテゴリ・URLには手を入れず、ナビ・トップページの見せ方だけを再編する案。
 > **正本**: [`site-structure-pillars.md`](site-structure-pillars.md)
-> ヘッダー・フッター・トップページの実装3点は2026-09-15に全完了（[`archive/completed-2026-09-15.md`](archive/completed-2026-09-15.md)）。2026-09-27: theory/method価値再評価とフッター広告枠検証を実施 → [`site-structure-pillars.md`](site-structure-pillars.md) §8
-> 完了項目（theory/methodの現状維持確定、P10パターンの追加・実査、`notebooklm-ip-study-hack` の復活 ほか）は [`archive/completed-2026-10-06.md`](archive/completed-2026-10-06.md) §6 へ退避。**フッター広告枠の実績確認・theory/methodの再集計は `schedule-task.md` §9・§6**
+> ヘッダー・フッター・トップページの実装3点は2026-09-15に全完了（[`archive/completed-2026-09-15.md`](../../.task/archive/completed-2026-09-15.md)）。2026-09-27: theory/method価値再評価とフッター広告枠検証を実施 → [`site-structure-pillars.md`](site-structure-pillars.md) §8
+> 完了項目（theory/methodの現状維持確定、P10パターンの追加・実査、`notebooklm-ip-study-hack` の復活 ほか）は [`archive/completed-2026-10-06.md`](../../.task/archive/completed-2026-10-06.md) §6 へ退避。**フッター広告枠の実績確認・theory/methodの再集計は `schedule-task.md` §9・§6**
 
 - [ ] **【今後の主戦】「資格名＋AI」クエリ攻略**（§8-3）: 非IPA 15資格それぞれで「AIで出題させる」「AIと学習テキストを作る」記事を展開
   - [ ] **要ユーザー判断（次回作業時）**: 次の着手を「簿記のP10記事執筆」と「IPコース第1章での『AIに出題させる』ブロック試作」のどちらから進めるか
@@ -185,7 +185,7 @@
 
 ## 3. 頻出KWのジャンル別「まとめ記事」化
 
-> 背景・目的: 1記事＝1用語で分散していた`theory`記事を、コース横断で頻出するジャンル単位に統合し、AdSense評価（低品質・テンプレ的コピー短文の整理）向上と読者の自己完結的な学習体験を両立させる施策。**2026-09-15に全項目完了**。実施した11件の統合・リライト内容、組織軸の方針（試験ごとではなくKW・トピッククラスタで統一）、IP軸の全数カテゴライズ結果は [`archive/theory-genre-consolidation-2026-09-15.md`](archive/theory-genre-consolidation-2026-09-15.md) へ退避。
+> 背景・目的: 1記事＝1用語で分散していた`theory`記事を、コース横断で頻出するジャンル単位に統合し、AdSense評価（低品質・テンプレ的コピー短文の整理）向上と読者の自己完結的な学習体験を両立させる施策。**2026-09-15に全項目完了**。実施した11件の統合・リライト内容、組織軸の方針（試験ごとではなくKW・トピッククラスタで統一）、IP軸の全数カテゴライズ結果は [`archive/theory-genre-consolidation-2026-09-15.md`](../../.task/archive/theory-genre-consolidation-2026-09-15.md) へ退避。
 
 - theory記事数: 102本 → 65本（統合ハブ11本を新規作成、301リダイレクト累計39件）
 - 統合した記事群の効果検証（アクセス解析）は `schedule-task.md` §5 へ移した
@@ -197,7 +197,7 @@
 ## 4. 【優先度：低・ストック企画】「20時間で体系的に学ぶ」非IPA系コンテンツ
 
 > 背景: IPA資格（`course`コレクション）とはシラバス構造が異なる、汎用教養/ビジネススキル題材の「20時間で体系的に学ぶ」コンテンツライン。**IPA関連タスク（§0）とは別件で管理し、混同しないこと**。着手時期は未定（IPA系20hoursが一段落した後、または次の企画ネタに困った時）。
-> **正本**: [`.workspace/.general-20hours-plan/20hours-non-ipa-genre-research.md`](../.general-20hours-plan/20hours-non-ipa-genre-research.md)
+> **正本**: [`.workspace/.general-20hours-plan/20hours-non-ipa-genre-research.md`](../../.general-20hours-plan/20hours-non-ipa-genre-research.md)
 
 - [ ] 候補ジャンルの目次骨格・優先順位確定（統計学＝実績あり／SNS戦略＝構成案完成済み／マーケティング・MBA＝リサーチ済み・骨格未確定／秘書検定＝ネタ案のみ）
 - [ ] やりたくなったタイミングで上記正本ファイルを再読し、着手ジャンルを選定

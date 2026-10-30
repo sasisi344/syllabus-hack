@@ -11,7 +11,7 @@ description: 資格試験名を主軸変数にした横断KW生成パターン�
 
 - `.workspace/data-set/cert-keyword-db/` に未登録の新規資格を調査するとき
 - 既存 `*-kw-db.md` の状態が `×未着手` / `△不足` の行を拡充するとき
-- `.workspace/.task/TODO.md` の「未登録資格を探す」案件に着手するとき
+- `.task-management/task.md` の「未登録資格を探す」タスクに着手するとき
 
 ## 2. データソース
 

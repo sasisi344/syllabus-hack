@@ -36,7 +36,7 @@ const { socialLinks = [], secondaryLinks = [], links = [], footNote = '', theme 
       <a class="inline-block font-bold text-xl" href={getHomePermalink()}>{SITE?.name}</a>
     </div>
 
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 pb-8 md:pb-12">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 pb-8 md:pb-12">
       <!-- カテゴリ -->
       {
         links.map(({ title, links }) => (
@@ -93,21 +93,7 @@ const { socialLinks = [], secondaryLinks = [], links = [], footNote = '', theme 
         </div>
       </div>
 
-      <!-- 広告枠（テスト導入: 資格スクエア／A8.net） -->
-      <div class="flex md:justify-end" id="footer-ad-column">
-        <div class="w-full max-w-[300px]" data-ad-slot="footer-300x250" data-ad-partner="a8-shikaku-square-test">
-          <a href="https://px.a8.net/svt/ejp?a8mat=2NZAE0+1F7HQY+373C+6B70H" rel="nofollow">
-            <img
-              style="border:0"
-              width="300"
-              height="250"
-              alt=""
-              src="https://www21.a8.net/svt/bgt?aid=161209944086&amp;wid=010&amp;eno=01&amp;mid=s00000014916001060000&amp;mc=1"
-            />
-          </a>
-          <img style="border:0" width="1" height="1" src="https://www18.a8.net/0.gif?a8mat=2NZAE0+1F7HQY+373C+6B70H" alt="" />
-        </div>
-      </div>
+      {/* 広告枠（資格スクエア／A8.net、2026-09-15 テスト導入）は AdSense の審査中のため 2026-10-31 に外した。戻すときは git の履歴から復元する（.task-management/task.md T-34） */}
     </div>
 
     <div class="md:flex md:items-center md:justify-between py-6 md:py-8 border-t border-gray-200 dark:border-slate-800">

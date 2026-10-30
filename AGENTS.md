@@ -9,7 +9,7 @@
 3. ワークスペースの共通ルール: `C:\Users\sasis\344dev\CLAUDE.md` の「筆者プロフィール」と「サイトごとに出す経歴」
 4. このサイトの `CLAUDE.md` と、下の「サイトの規約」
 
-`CLAUDE.md` は Claude Code 向けに書かれている。「Claude」は実行者のあなたと読み替える。ただし、ルール・スキルの改訂、タスクファイルの更新、コミット、プロジェクトの管理・設計の指示は CC の仕事なので行わない。このサイトはまだ `.task-management/` に移行していない（タスクは `.workspace/.task/` にあり、CC が管理する）。改善提案は報告書にだけ書く。
+`CLAUDE.md` は Claude Code 向けに書かれている。「Claude」は実行者のあなたと読み替える。ただし、ルール・スキルの改訂、タスクファイルの更新、コミット、プロジェクトの管理・設計の指示は CC の仕事なので行わない。タスクは `.task-management/task.md`（読むだけ）。改善提案は報告書に書き、`.task-management/inbox.md` の表に1行足す（書いた人 `Codex`、処置 `未処置`）。
 
 報告書は `.workspace/codex/reports/YYYY-MM-DD-<タスクID>.md` に書く。
 
@@ -22,6 +22,8 @@
 | カテゴリ・タグ | `.agents/category_rules.md`、`.agents/tag_rules.md` |
 | ファクトチェック | `.agents/fact-check/` |
 | 画像・図 | `CLAUDE.md`「画像生成ルール」、`.agents/image_rules.md` |
+| 既存記事の全面リライト（2026-11） | `.workspace/projects/rewrite-2026-11/README.md` §2（点検の順番と基準） |
+| 20時間コースの章 | `.workspace/.new-contentplan/20hours-course-template.md`、`.workspace/projects/course-expansion-2026-11/README.md` §4 |
 
 - 筆者が受けていない試験の受験体験を書かない。callout の体験は筆者が書いたものだけ
 - 確認: `pnpm build`

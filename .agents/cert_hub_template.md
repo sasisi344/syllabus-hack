@@ -5,7 +5,7 @@ description: 資格クエリ拡張施策で量産する「資格Hub記事」の�
 
 # 資格Hub記事テンプレート
 
-`.workspace/.task/TODO.md` の「資格クエリ拡張施策」で新規資格を追加する際は、本テンプレートに従って構成する。
+`.task-management/task.md` の資格クエリ拡張のタスクで新規資格を追加する際は、本テンプレートに従って構成する。
 実例: `src/data/post/method/biru-kanri-hub/index.md`、`src/data/post/method/doboku-sekou-hub/index.md`
 
 **事前必読**: `.agents/cert_keyword_db.md` → 対象資格の `.workspace/data-set/cert-keyword-db/*-kw-db.md` でKW・詰まりポイント・コンテンツギャップを確認してから執筆する。
@@ -78,5 +78,5 @@ knowledge:
 
 ## 7. 完了後の更新
 
-- `.workspace/.task/TODO.md` の該当項目を `[x]` 化
+- `.task-management/task.md` の該当タスクを完了にして `records/` に記録
 - ドラフトは `.workspace/draft/` から本番配置後に削除（`/publish-post` 手順に従う）

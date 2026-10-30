@@ -94,7 +94,7 @@ Read(.workspace/.task/exam-id-catalog.md)  # examId 確定
 
 - 記事公開後: 該当 KW の `状態` を ◎ / ○ に更新
 - Hub新設後: `index.md` のクラスター表と `exam-id-catalog.md` を同期
-- `.workspace/.task/TODO.md` の資格クエリ拡張項目を `[x]` 化
+- `.task-management/task.md` の資格クエリ拡張のタスクを完了にして `records/` に記録
 
 ---
 

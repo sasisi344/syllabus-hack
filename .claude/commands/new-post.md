@@ -13,7 +13,7 @@
    - Read `.agents/reader_segments.md`
 
 2. **TODO確認**
-   - Read `.workspace/.task/TODO.md` — 関連タスクがあれば内容を確認
+   - Read `.task-management/task.md` の索引 — 関連タスクがあれば本文を確認
 
 3. **ナレッジ参照**
    - `.workspace/data-set/` に関連データがあれば Glob で確認

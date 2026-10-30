@@ -32,7 +32,7 @@ Claude Code がこのプロジェクトで効率よく作業するためのガ�
 ```
 Read(.agents/post_writer.md)
 Read(.agents/category_rules.md)
-Read(.workspace/.task/TODO.md)
+Read(.task-management/task.md)
 ```
 
 **クイズ開発開始時（並列OK）:**
@@ -53,7 +53,7 @@ Read(.workspace/.task/requirement-*.md)
 | 記事カバー画像   | `src/data/post/{category}/{slug}/cover.jpg` |
 | 下書き           | `.workspace/draft/`                         |
 | タスク要件定義   | `.workspace/.task/requirement-*.md`         |
-| TODO管理         | `.workspace/.task/TODO.md`                  |
+| タスク管理       | `.task-management/task.md`                  |
 | リサーチデータ   | `.workspace/data-set/`                      |
 | 資格KWナレッジDB | `.workspace/data-set/cert-keyword-db/`      |
 | 資格KW参照スキル | `.agents/cert_keyword_db.md`                |

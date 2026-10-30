@@ -73,7 +73,7 @@
 
 ## 5. theory統合記事群の効果検証
 
-> 背景: 2026-09-15に完了した、theoryジャンル別まとめ記事化（102本→65本、統合ハブ11本）。記録: [`archive/theory-genre-consolidation-2026-09-15.md`](archive/theory-genre-consolidation-2026-09-15.md)。
+> 背景: 2026-09-15に完了した、theoryジャンル別まとめ記事化（102本→65本、統合ハブ11本）。記録: [`archive/theory-genre-consolidation-2026-09-15.md`](../../.task/archive/theory-genre-consolidation-2026-09-15.md)。
 
 - [ ] 統合した記事群のアクセス解析（GA4/GSC）による効果検証を、次回データ取得時（w41以降）に実施する（統合前後のセッション数・掲載順位の変化）
 
@@ -85,10 +85,10 @@
 
 ## 7. 生成AI実務練習コースの公開後の効果測定（W44）
 
-> コース: `/course/ai-work/`（`src/data/course/ai-work/`）。公開は2026-09-29、公開URLの200確認は2026-09-30。制作の記録: [`archive/completed-2026-09-29.md`](archive/completed-2026-09-29.md)。
+> コース: `/course/ai-work/`（`src/data/course/ai-work/`）。公開は2026-09-29、公開URLの200確認は2026-09-30。制作の記録: [`archive/completed-2026-09-29.md`](../../.task/archive/completed-2026-09-29.md)。
 
 - [ ] **W44頃（2026-10-25〜27頃）効果測定**: 集計期間は10/18〜10/24。`/weekly-report w44` に組み込む。見る指標:
-  - GA4（コース別探索レポートの標準テンプレート。[`access-data/README.md`](access-data/README.md)）: `/course/ai-work/` の表示回数・セッション・エンゲージメント率・平均エンゲージメント時間。TOP→第1章→…→第8章の、どこで離脱するか（完走率）
+  - GA4（コース別探索レポートの標準テンプレート。[`access-data/README.md`](../../.task/access-data/README.md)）: `/course/ai-work/` の表示回数・セッション・エンゲージメント率・平均エンゲージメント時間。TOP→第1章→…→第8章の、どこで離脱するか（完走率）
   - サンプルZIPのダウンロード数: GA4の `file_download` イベント（拡張計測の「ファイルのダウンロード」が有効か、事前に確認）
   - GSC: 狙ったKW（`.workspace/data-set/ai-work-course-kw-research-2026-09.md`：生成AI 練習問題 業務／実務 練習 など）の表示回数・クリック・掲載順位、コラム2本（`/method/ai-skill-rules-setup/`・`/method/ai-programming-prep/`）の流入
   - SNS経由の流入（Threadsのリファラ）。§2の告知を実施した場合のみ
@@ -182,13 +182,13 @@
 
 ## 10. 2027年の予定
 
-- [ ] **2027-03頃**: 生成AI実務練習コースの主軸KW（生成AI 練習問題 業務）の再実査（[KW記録 §5](../data-set/ai-work-course-kw-research-2026-09.md)）
+- [ ] **2027-03頃**: 生成AI実務練習コースの主軸KW（生成AI 練習問題 業務）の再実査（[KW記録 §5](../../data-set/ai-work-course-kw-research-2026-09.md)）
 - [ ] **2027-03頃**: GeminiのWorkspaceアカウントのGem→スキル移行。コラム `/method/ai-skill-rules-setup/` の注記の見直し（§8-3の表の「注記」の行）
 - [ ] **2027-06頃**: Geminiの教育機関アカウントのGem→スキル移行。同上の注記の見直し
 
 ## 11. 毎週の定点観測（`/weekly-report`）
 
-> コース別の定点観測は、判断保留フェーズが終了し、恒常化した（2026-09-27）。方法は [`access-data/README.md`](access-data/README.md)「コース別モニタリング用GA4設定」節。
+> コース別の定点観測は、判断保留フェーズが終了し、恒常化した（2026-09-27）。方法は [`access-data/README.md`](../../.task/access-data/README.md)「コース別モニタリング用GA4設定」節。
 
 - [ ] **w41から**: コース別探索レポートを、単一週の期間で取得する。w40の累積ベースライン（IP35imp / DM32imp / PD-S9imp / PD-M8imp / G検定2imp / SG1imp。公開日8/30〜9/26の累積）との増分を比較する
 - [ ] IP・DMのコースページ単体へのオーガニック流入が0件だった点（w40）を、継続観察する。内部リンク導線の強化や、コース個別ページのSEO要素（タイトル・見出し構成）の確認の余地を検討する
@@ -198,7 +198,7 @@
 
 ## 12. 生成AIパスポート2027年新シラバス対応
 
-> 2026-10-06追加。**詳細・全タスクは [`genai-pass-task.md`](genai-pass-task.md) が正本**（本節は日付の早見のみ。重複して書かない）。
+> 2026-10-06追加。**詳細・全タスクは [`genai-pass-task.md`](../../projects/genai-pass/genai-pass-task.md) が正本**（本節は日付の早見のみ。重複して書かない）。
 
 - [x] 前提確認（タスクA、2026-10-26完了）: 年5回（2・4・6・8・10月）・各回1か月の受験期間／旧シラバスの最終試験は2026年10月試験（〜10/31）／2月試験の受験期間は2027-02-01〜02-28／60問・60分・11,000円
 - [ ] **2026-11-01以降**: 旧シラバス最終試験の終了後に、クイズを新分類へ切り替える（G-5）。それまでは旧データを維持

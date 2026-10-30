@@ -60,7 +60,7 @@ GA4/GSCの週次データを分析し、PPDCA週報を `.workspace/.task/w{NN}-w
 - 前週レポートのActを箇条書きで再掲（実施状況: 済/未着手を付記）
 
 ### Do（実施施策）
-- 今週実施した施策（前週Act由来＋git logやTODO.mdから確認できる作業）
+- 今週実施した施策（前週Act由来＋git logや `.task-management/records/index.md` から確認できる作業）
 
 ### Check（数値変化・要因仮説）
 - KPIサマリー: UU / セッション / クリック / 表示回数 / CTR / 掲載順位 の前週比
@@ -74,7 +74,7 @@ GA4/GSCの週次データを分析し、PPDCA週報を `.workspace/.task/w{NN}-w
 ## 手順5: 完了処理
 
 - レポートのパスとAct（次週ToDo）の要約をユーザーに報告する
-- `TODO.md` への転記はユーザーの指示があった場合のみ行う
+- `.task-management/task.md` への起票はユーザーの指示があった場合のみ行う（気づきは `.task-management/inbox.md` に1行書いてよい）
 
 ## 禁止事項
 

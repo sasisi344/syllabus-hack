@@ -95,7 +95,7 @@ chiteki-zaisan, boiler-refrigeration, shobo-setsubi, fp, aws, fintech-it, toeic
 
 ---
 
-## 未登録・予定（TODO.md より）
+## 未登録・予定（旧 TODO.md より）
 
 以下は Hub 作成予定だが、**まだ `config.ts` に examId 未登録**。記事化時に上記手順で追加すること。
 
@@ -112,7 +112,7 @@ chiteki-zaisan, boiler-refrigeration, shobo-setsubi, fp, aws, fintech-it, toeic
 | `src/content/config.ts` | **記事フロントマター**の examId 正本（ビルド検証） |
 | `.agents/quiz_app_rules.md` §2 | **クイズアプリ**用 examId（`it-passport-mgmt` 等、アプリ専用IDあり） |
 | `.agents/cert_hub_template.md` | 資格 Hub 記事の構成テンプレート |
-| `.workspace/.task/TODO.md` | 資格クエリ拡張施策の進捗 |
+| `.task-management/task.md` | 資格クエリ拡張施策の進捗 |
 | `.workspace/data-set/cert-keyword-db/` | 横展開資格のKW→examIdナレッジDB |
 | `.agents/cert_keyword_db.md` | 上記DBの参照スキル |
 

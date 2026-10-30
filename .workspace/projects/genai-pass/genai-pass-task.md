@@ -10,7 +10,7 @@ tags:
 
 # 生成AIパスポート 2027年新シラバス対応タスク
 
-> **正本**: 本ファイルが「生成AIパスポート新シラバス対応」の全タスクの正本。日付つきの項目は [`schedule-task.md`](schedule-task.md) §12 に早見表として置く（詳細は本ファイルを編集する）。
+> **正本**: 本ファイルが「生成AIパスポート新シラバス対応」の全タスクの正本。日付つきの項目は [`schedule-task.md`](../../archive/legacy/schedule-task.md) §12 に早見表として置く（詳細は本ファイルを編集する）。
 > **背景**: 2026-10-01、GUGA（生成AI活用普及協会）が**2027年2月試験から適用する新シラバス**を公開（[PR TIMES](https://prtimes.jp/main/html/rd/p/000000107.000121559.html)）。IPAの各試験でも生成AIの出題が増えており、「生成AI知識の最新化 × スキルとして身につける」ことを重視する。**公式テキストは11/24発送のため、シラバス（入手済み）だけで先行して学習コンテンツを作る**。
 > **着手順の方針**: 変更点の整理（記事・構造化）→ 用語解説・リスク事例コラム → 20時間コース＋クイズ → 公式テキスト到着後の照合。
 
@@ -39,7 +39,7 @@ tags:
 
 ## 1. 完了済み
 
-- [x] **新シラバスPDFを格納**（2026-10-06）: `~/Downloads/syllabus-genAI.pdf` → [`.workspace/syllabus-data-pdf/GenAI-Pass/syllabus-generativeai-passport-2027-02.pdf`](../syllabus-data-pdf/GenAI-Pass/syllabus-generativeai-passport-2027-02.pdf)
+- [x] **新シラバスPDFを格納**（2026-10-06）: `~/Downloads/syllabus-genAI.pdf` → [`.workspace/syllabus-data-pdf/GenAI-Pass/syllabus-generativeai-passport-2027-02.pdf`](../../syllabus-data-pdf/GenAI-Pass/syllabus-generativeai-passport-2027-02.pdf)
   - 全文テキスト: 同フォルダの `syllabus-generativeai-passport-2027-02-utf8.txt`（PyMuPDF抽出。pdftotextは日本語が欠落するため使わない）
   - 旧版（v2.0）は同フォルダに残置（`syllabus-generativeai-passport.pdf` ほか）。`syllabus-datalist.md` を更新済み
 - [x] 本タスクファイルの作成・`schedule-task.md`・`TODO.md` への導線追加

@@ -1,0 +1,205 @@
+wave,order,depth,verdict,category,examId,path,url,title,impressions_3m,clicks_3m,position_3m,needs,missing,experience,added_since_1019
+A,T-11-A01,全面,残す,app,ap,src/data/post/app/ap-subject-b/index.mdx,/app/ap-subject-b/,応用情報技術者(AP) 科目B試験 ケーススタディ演習,94,7,13.4,出典・流れ図・筆者の体験,出典・流れ図・筆者の体験,学習中（これから受験）,11
+A,T-11-A01,部分,強化,method,ap,src/data/post/method/ap-discard-strategy/index.md,/method/ap-discard-strategy/,応用情報の捨て問戦略｜文系・未経験が3ヶ月で6割を取る分野の決め方,1017,34,8.1,出典・筆者の体験,出典・筆者の体験,学習中（これから受験）,205
+A,T-11-A01,部分,残す,method,aws,src/data/post/method/aws-hub/index.md,/method/aws-hub/,AWS・CCNA・LPICの取る順番｜インフラエンジニアの資格ロードマップ,28,1,15.5,全体図・筆者の体験,全体図・筆者の体験,なし（未受験と明記）,36
+A,T-11-A01,全面,残す,method,biru-kanri,src/data/post/method/bilmen-4tenset-junban/index.md,/method/bilmen-4tenset-junban/,ビルメン4点セットの取得順番｜文系・未経験からの設備管理転身ルート,12,0,6.7,AIの実行例・筆者の体験,AIの実行例,AIの使用,2
+A,T-11-A01,部分,残す,method,boiler-refrigeration,src/data/post/method/boiler-refrigeration-hub/index.md,/method/boiler-refrigeration-hub/,ボイラー技士・冷凍機械責任者 合格ロードマップ｜「試験合格」と「免許取得」は別物と知ってから始める,36,0,7.9,出典・AIの実行例・全体図・筆者の体験,出典・AIの実行例・全体図・筆者の体験,AIの使用,52
+A,T-11-A01,部分,残す,method,boki,src/data/post/method/boki-hub/index.md,/method/boki-hub/,日商簿記3級・2級 合格ロードマップ｜経理なら3級、製造業なら2級。仕事で決める級の選び方,24,0,10.4,全体図・筆者の体験,全体図,これから（2級は取れる見込み）,120
+A,T-11-A01,部分,残す,method,boki,src/data/post/method/boki2kyuu-tsugi-shikaku/index.md,/method/boki2kyuu-tsugi-shikaku/,簿記2級の次に取る資格｜税理士・社労士を将来性とフリーランスの稼ぎやすさで比べる,19,1,7.3,筆者の体験,,これから（2級は取れる見込み）,80
+A,T-11-A01,部分,強化,method,boiler-refrigeration,src/data/post/method/reitoukikai-3shu-iranai/index.md,/method/reitoukikai-3shu-iranai/,第三種冷凍機械責任者は必要ない？いらないと言われる理由と取るべき人の条件,233,16,9.8,筆者の体験,筆者の体験,なし（未受験と明記）,3
+A,T-11-A01,全面,残す,theory,aws,src/data/post/theory/aws-concept-metaphor-hack/index.md,/theory/aws-concept-metaphor-hack/,【AWS】Mermaid構成図の作り方：3つの視点と題目サンプルで設計意図まで言語化する,28,0,9.2,AIの実行例,AIの実行例,AIの使用,1
+A,T-11-A01,部分,強化,trend,aws,src/data/post/trend/ccna-vs-aws-saa/index.md,/trend/ccna-vs-aws-saa/,CCNAとAWS SAAはどっちが先？ネットワーク知識から見た取得順番の正解,452,4,8.7,出典・AIの実行例,出典・AIの実行例,AIの使用,54
+A,T-11-A02,部分,残す,method,chiteki-zaisan,src/data/post/method/chiteki-zaisan-hub/index.md,/method/chiteki-zaisan-hub/,知的財産管理技能検定（知財検定）合格ロードマップ｜3級から1級までの進め方,10,0,6.8,出典・全体図・筆者の体験,出典・全体図・筆者の体験,なし（未受験と明記）,44
+A,T-11-A02,部分,強化,method,doboku-sekou,src/data/post/method/doboku-sekou-hub/index.md,/method/doboku-sekou-hub/,【2026年最新】土木施工管理技士1級2級｜経験記述をAIで添削し独学合格,179,13,8.4,出典・AIの実行例・全体図・筆者の体験,出典・AIの実行例・全体図・筆者の体験,AIの使用,136
+A,T-11-A02,部分,残す,method,fp,src/data/post/method/fp-hub/index.md,/method/fp-hub/,FP合格ロードマップ｜3級・2級・1級の違いと、2級を受けるか決める過去問10問チェック,35,3,10.7,出典・全体図・筆者の体験,全体図・筆者の体験,これから（2級は取れる見込み）,262
+A,T-11-A02,部分,強化,method,nw,src/data/post/method/nw-mermaid-hack/index.md,/method/nw-mermaid-hack/,ネットワーク図の書き方｜手書きメモの写真をAIに送ってMermaidに整形する（NW試験の午後対策）,795,45,8.4,AIの実行例・筆者の体験,AIの実行例・筆者の体験,AIの使用,245
+A,T-11-A02,部分,残す,method,shobo-setsubi,src/data/post/method/shobo-setsubi-hub/index.md,/method/shobo-setsubi-hub/,消防設備士はどれから取る？全13種類の違いと乙6から始める合格ロードマップ,16,0,12.5,出典・全体図・筆者の体験,出典・全体図・筆者の体験,なし（未受験と明記）,151
+A,T-11-A02,全面,残す,method,shobo-setsubi,src/data/post/method/shobo-setsubi-kanbetsu-ai-hack/index.md,/method/shobo-setsubi-kanbetsu-ai-hack/,消防設備士の実技（鑑別）が覚えられないのは暗記法が違うから。AIに連想セットを作らせる覚え方,15,0,8.1,AIの実行例・筆者の体験,AIの実行例・筆者の体験,AIの使用,12
+A,T-11-A02,部分,残す,theory,mos,src/data/post/theory/mos-excel-function-basics/index.md,/theory/mos-excel-function-basics/,MOS Excel頻出関数とは？SUM・VLOOKUP・IFの使い分けと関数が覚えられないときの対処,18,0,8.5,,,なし（未受験と明記）,38
+A,T-11-A02,部分,残す,trend,boki,src/data/post/trend/boki-zensho-vs-nissho-comparison-hack/index.md,/trend/boki-zensho-vs-nissho-comparison-hack/,全商簿記と日商簿記の違い｜難しさより「主催」と使い道で考える（商業高校生向け）,33,0,13.1,,,これから（2級は取れる見込み）,60
+A,T-11-A02,全面,残す,trend,fintech-it,src/data/post/trend/fintech-it-cert-intro/index.md,/trend/fintech-it-cert-intro/,金融IT検定とは？ITパスポートの次に取る価値があるか一次情報で整理する,24,2,7.4,出典・AIの実行例,出典・AIの実行例,AIの使用,7
+A,T-11-A02,部分,残す,trend,ip,src/data/post/trend/itp-vs-info1-comparison-hack/index.md,/trend/itp-vs-info1-comparison-hack/,「情報I」と「ITパスポート」どっちが難しい？高校生のうちに国家資格を取る理由,33,2,7.9,出典,出典,受験（合格済み・以前の試験）,94
+A,T-11-A03,全面,残す,career,-,src/data/post/career/foreigner-japan-national-qualification/index.md,/career/foreigner-japan-national-qualification/,外国人が日本の国家資格を取得する条件｜在留資格別に選ぶ、就職と永住につなげる資格戦略,51,0,6.9,,,なし（未受験と明記）,0
+A,T-11-A03,全面,残す,career,-,src/data/post/career/regional-it-career-hub/index.md,/career/regional-it-career-hub/,【全国版】地方ITキャリアを「資格×地域ハック」で攻略する：地域別戦略まとめ,4,0,2.2,全体図・筆者の体験,全体図・筆者の体験,なし（未受験と明記）,19
+A,T-11-A03,全面,残す,method,-,src/data/post/method/ai-dj-pomodoro/index.md,/method/ai-dj-pomodoro/,25分で脳をハックする。AIに最適な「集中BGM」を作らせてポモドーロを回す,9,0,20.4,AIの実行例・筆者の体験,AIの実行例,AIの使用,0
+A,T-11-A03,部分,残す,method,takken,src/data/post/method/takken-hub/index.md,/method/takken-hub/,宅建（宅地建物取引士）合格ロードマップ｜合格率15%の壁をAI学習でどう越えるか,41,4,14.3,出典・AIの実行例・全体図・筆者の体験,出典・AIの実行例・全体図・筆者の体験,AIの使用,35
+A,T-11-A03,部分,残す,method,toeic,src/data/post/method/toeic-hub/index.md,/method/toeic-hub/,TOEIC 目標スコア到達ロードマップ｜600点から900点までAIを専任講師にする,15,1,7.5,全体図・筆者の体験,全体図・筆者の体験,なし（未受験と明記）,38
+A,T-11-A03,部分,残す,method,takken,src/data/post/method/zaigakuchuu-takken-itsu-ukeru/index.md,/method/zaigakuchuu-takken-itsu-ukeru/,大学生は宅建をいつ受ける？目的を先に決めて、2年で設計し3年で受ける計画の立て方,66,1,14.4,筆者の体験,筆者の体験,なし（未受験と明記）,68
+A,T-11-A03,全面,残す,theory,-,src/data/post/theory/balanced-scorecard/index.md,/theory/balanced-scorecard/,BSC（バランススコアカード）徹底解説！4つの視点で経営を「多角的」に測る,5,0,19.4,,,なし（未受験と明記）,4
+A,T-11-A03,部分,強化,theory,-,src/data/post/theory/bcm-bcp-business-continuity/index.md,/theory/bcm-bcp-business-continuity/,BCPとBCMの違いとは？担当者が最初にやるべきことから解説,481,0,88.9,流れ図,流れ図・順位30位より下,なし（未受験と明記）,19
+A,T-11-A03,全面,残す,theory,-,src/data/post/theory/bios-device-driver/index.md,/theory/bios-device-driver/,BIOSとデバイスドライバとは？OSを支える密かな「橋渡し」役,0,0,,,,なし（未受験と明記）,0
+A,T-11-A03,全面,残す,theory,takken,src/data/post/theory/takken-koushin-hiyou/index.md,/theory/takken-koushin-hiyou/,宅建士証の更新にかかる費用と法定講習の実態を解説,80,0,21.6,出典,,なし（未受験と明記）,19
+A,T-11-A04,全面,残す,theory,-,src/data/post/theory/corporate-mission-mvv/index.md,/theory/corporate-mission-mvv/,経営理念とMVV（ミッション・ビジョン・バリュー）とは？会社の「存在意義」と「行動指針」,5,0,50.2,流れ図,流れ図・順位30位より下,なし（未受験と明記）,0
+A,T-11-A04,全面,残す,theory,-,src/data/post/theory/digital-divide-basics/index.md,/theory/digital-divide-basics/,デジタルディバイドとは？情報格差がもたらす不平等とIT社会の課題,0,0,,,,なし（未受験と明記）,0
+A,T-11-A04,全面,残す,theory,-,src/data/post/theory/io-interface-usb-hdmi/index.md,/theory/io-interface-usb-hdmi/,入出力インタフェース(USB/HDMI)とは？周辺機器をつなぐ「窓口」基礎,0,0,,,,なし（未受験と明記）,0
+A,T-11-A04,全面,残す,theory,-,src/data/post/theory/just-in-time-jit-kanban/index.md,/theory/just-in-time-jit-kanban/,ジャストインタイム（かんばん方式）とは？在庫を「ゼロ」に近づける魔法,0,0,,,,なし（未受験と明記）,0
+A,T-11-A04,部分,強化,theory,-,src/data/post/theory/labor-standards-act-36-agreement/index.md,/theory/labor-standards-act-36-agreement/,労働基準法・36協定とは？残業や休日のルールをIT試験向けに整理,109,0,69.9,出典・流れ図,出典・流れ図・順位30位より下,なし（未受験と明記）,17
+A,T-11-A04,全面,残す,theory,-,src/data/post/theory/value-chain-analysis/index.md,/theory/value-chain-analysis/,バリューチェーン徹底解説！価値が生まれる「鎖」をAIで最大化する極意,11,0,30.4,流れ図・筆者の体験,流れ図・筆者の体験・順位30位より下,なし（未受験と明記）,0
+A,T-11-A04,部分,残す,trend,-,src/data/post/trend/cbt-exam-venue-booking-tips/index.md,/trend/cbt-exam-venue-booking-tips/,CBT試験の会場予約で失敗しない方法｜混む時間帯の避け方、休みの取り方、遅延したときの備え,92,10,7.0,,,なし（未受験と明記）,62
+A,T-11-A04,全面,残す,trend,-,src/data/post/trend/ipa-certification-overseas-mutual-recognition/index.md,/trend/ipa-certification-overseas-mutual-recognition/,海外でも通用する？日本の情報処理技術者試験（IPA）の相互認証制度とアジア諸国での価値,63,3,7.2,,,なし（未受験と明記）,0
+A,T-11-A04,全面,残す,trend,-,src/data/post/trend/ipa-open-badge-impact/index.md,/trend/ipa-open-badge-impact/,IPA「オープンバッジ」導入の衝撃。デジタル履歴書でIT資格の証明はどう変わる？,12,2,9.6,,,なし（未受験と明記）,2
+A,T-11-A04,全面,残す,trend,-,src/data/post/trend/syllabus-update-ai-ethics/index.md,/trend/syllabus-update-ai-ethics/,ITパスポートのシラバス改訂で「AI倫理・ガバナンス」が重要視される背景と対策,10,1,9.9,,,なし（未受験と明記）,0
+A,T-11-A05,全面,残す,career,common,src/data/post/career/eisei-kanrisha-kaisha-kara-torasareru/index.md,/career/eisei-kanrisha-kaisha-kara-torasareru/,衛生管理者を会社から取らされる理由｜管理職候補の必置資格,0,0,,,,なし（未受験と明記）,0
+A,T-11-A05,部分,強化,career,common,src/data/post/career/kougyou-koukou-shikaku-ichiran/index.md,/career/kougyou-koukou-shikaku-ichiran/,工業高校で取れる資格一覧10選｜普通科でも取れる資格と、工業高校のほうが有利な資格（電験三種ほか）,340,0,8.0,出典,,なし（未受験と明記）,81
+A,T-11-A05,全面,残す,career,common,src/data/post/career/kyouiku-kunren-kyuufu-bareru/index.md,/career/kyouiku-kunren-kyuufu-bareru/,教育訓練給付金は会社にバレる？対象講座の調べ方と離職中の受給条件,44,1,7.6,,,なし（未受験と明記）,0
+A,T-11-A05,全面,残す,career,common,src/data/post/career/nenkin-advisor-3kyuu-ginkouin/index.md,/career/nenkin-advisor-3kyuu-ginkouin/,年金アドバイザー3級は銀行員の昇格要件？知名度より実務直結を狙う検定,17,0,36.6,,順位30位より下,なし（未受験と明記）,4
+A,T-11-A05,全面,残す,career,common,src/data/post/career/shikaku-toroku-hiyou-ichiran/index.md,/career/shikaku-toroku-hiyou-ichiran/,合格後の登録費用一覧｜行政書士・社労士・宅建の維持費まで比較,12,0,8.4,出典,出典,なし（未受験と明記）,0
+A,T-11-A05,全面,残す,career,common,src/data/post/career/shoukaku-shiken-ochita/index.md,/career/shoukaku-shiken-ochita/,昇格試験に落ちたらどうなる？再挑戦のリアルと対策の見直し方,81,5,15.6,流れ図,流れ図,なし（未受験と明記）,4
+A,T-11-A05,全面,残す,career,common,src/data/post/career/shuukatsu-shikaku-imi-nai/index.md,/career/shuukatsu-shikaku-imi-nai/,就活で資格は意味ないは本当か？ガクチカと資格どっちが強いか,16,0,6.6,AIの実行例,AIの実行例,AIの使用,4
+A,T-11-A05,部分,強化,method,common,src/data/post/method/cbt-2026-syllabus-complete-guide/index.md,/method/cbt-2026-syllabus-complete-guide/,応用情報・高度試験のCBT化と2027年度の新試験制度｜令和8年度に受けるか、新試験を待つか,1188,25,9.9,出典・筆者の体験,筆者の体験,なし（未受験と明記）,95
+A,T-11-A05,全面,残す,method,common,src/data/post/method/gemini-cert-complete/index.md,/method/gemini-cert-complete/,GeminiでIT資格試験を勉強する方法｜プロンプト集と学習ハック【ITP・FE・AP対応】,18,1,9.9,AIの実行例・流れ図・筆者の体験,AIの実行例・流れ図・筆者の体験,AIの使用,6
+A,T-11-A05,全面,残す,trend,-,src/data/post/trend/what-is-genai-passport-exam/index.md,/trend/what-is-genai-passport-exam/,生成AIパスポートとは？ITパスポートとの違いを解説,59,0,62.5,出典,出典・順位30位より下,なし（未受験と明記）,19
+A,T-11-A06,部分,残す,method,common,src/data/post/method/inbasket-taisaku-dokugaku/index.md,/method/inbasket-taisaku-dokugaku/,インバスケットとは？管理職の判断力を測る演習を、経営層・人事が社内の育成に取り入れる方法,69,0,13.2,筆者の体験,筆者の体験,なし（未受験と明記）,78
+A,T-11-A06,全面,残す,method,common,src/data/post/method/kikai-hozen-ginoushi-dokugaku/index.md,/method/kikai-hozen-ginoushi-dokugaku/,機械保全技能士は独学で取れるか｜製造→保全へのリスキリングルート,31,4,6.7,筆者の体験,筆者の体験,なし（未受験と明記）,5
+A,T-11-A06,部分,強化,method,common,src/data/post/method/new-ipa-exam-study-strategy/index.md,/method/new-ipa-exam-study-strategy/,新IPA試験の勉強法｜区分選びとデータ・AIを使った学習計画,138,14,8.7,AIの実行例・筆者の体験,AIの実行例・筆者の体験,AIの使用,51
+A,T-11-A06,部分,残す,method,common,src/data/post/method/notebooklm-features-guide/index.md,/method/notebooklm-features-guide/,NotebookLM（Gemini Notebook）資格試験活用ガイド｜2026年版・機能別の使い倒し方,84,6,15.0,出典・AIの実行例・流れ図・筆者の体験,AIの実行例・流れ図・筆者の体験,AIの使用,87
+A,T-11-A06,全面,残す,method,common,src/data/post/method/secretarial-cost-time-knowledge/index.md,/method/secretarial-cost-time-knowledge/,秘書検定2級・3級は何が身につく？費用・勉強時間・難易度の実際,4,0,7.8,出典・AIの実行例・筆者の体験,出典・AIの実行例・筆者の体験,AIの使用,0
+A,T-11-A06,全面,残す,method,common,src/data/post/method/shikaku-benkyou-akirameru-timing/index.md,/method/shikaku-benkyou-akirameru-timing/,資格の勉強を諦めるべきタイミング｜サンクコストと撤退基準,14,0,7.4,筆者の体験,筆者の体験,なし（未受験と明記）,2
+A,T-11-A06,全面,残す,theory,common,src/data/post/theory/hicchi-shikaku-toha/index.md,/theory/hicchi-shikaku-toha/,必置資格とは？名義貸し・選任リスクまで解説する業界内部事情,38,0,10.0,AIの実行例,AIの実行例,AIの使用,2
+A,T-11-A06,全面,残す,theory,common,src/data/post/theory/shikaku-kamoku-menjo-ichiran/index.md,/theory/shikaku-kamoku-menjo-ichiran/,資格の科目免除一覧｜他資格保有による組み合わせ免除まとめ,32,4,6.8,AIの実行例・流れ図,AIの実行例・流れ図,AIの使用,0
+A,T-11-A06,全面,残す,theory,common,src/data/post/theory/shikaku-teate-kazei/index.md,/theory/shikaku-teate-kazei/,資格手当は課税される？非課税になるケースとの違い,19,1,8.4,,,なし（未受験と明記）,2
+A,T-11-A06,全面,残す,theory,common,src/data/post/theory/shiken-dentaku-mochikomi-kitei/index.md,/theory/shiken-dentaku-mochikomi-kitei/,試験の電卓持ち込み規定まとめ｜指定できる電卓・できない電卓,67,0,9.0,,,なし（未受験と明記）,0
+A,T-11-A07,全面,残す,theory,common,src/data/post/theory/shiken-jyuken-hairyo-shinsei/index.md,/theory/shiken-jyuken-hairyo-shinsei/,試験の受験配慮は申請できる？障害・病気がある場合の手続き,14,0,21.4,出典・流れ図,出典・流れ図,なし（未受験と明記）,0
+A,T-11-A07,全面,残す,trend,common,src/data/post/trend/cbt-shiken-muzukashiku-natta/index.md,/trend/cbt-shiken-muzukashiku-natta/,◯◯試験のCBTが難しくなった？申込の罠（締切・写真規格・再受験ルール）,60,0,9.0,出典,出典,なし（未受験と明記）,1
+A,T-11-A07,全面,残す,trend,common,src/data/post/trend/cbt-tokubetsu-sochi-guide/index.md,/trend/cbt-tokubetsu-sochi-guide/,CBT試験を受けられない人はどうする？特別措置試験の対象・申込・配慮内容ガイド,96,2,8.5,出典,出典,なし（未受験と明記）,0
+A,T-11-A07,部分,強化,trend,common,src/data/post/trend/ipa-2026-cbt-schedule-guide/index.md,/trend/ipa-2026-cbt-schedule-guide/,応用情報・高度試験CBTの申込日程と試験期間｜前期はAPが11月7日まで,352,1,15.9,出典・AIの実行例・流れ図,AIの実行例・流れ図,AIの使用,79
+A,T-11-A07,全面,残す,trend,common,src/data/post/trend/kokka-shikakuka-yotei-ichiran/index.md,/trend/kokka-shikakuka-yotei-ichiran/,今後国家資格化が予定されている資格一覧｜制度変更ウォッチ,32,2,9.3,出典,出典,なし（未受験と明記）,0
+A,T-11-A07,部分,強化,trend,common,src/data/post/trend/mos-vs-itp-job-hunting/index.md,/trend/mos-vs-itp-job-hunting/,MOS vs ITパスポート——どちらが有利か問うより「両方取れるなら取ったほうがいい」理由,123,3,8.4,,,なし（未受験と明記）,15
+A,T-11-A07,部分,残す,trend,common,src/data/post/trend/syllabus-ai-knowledge-introduction/index.md,/trend/syllabus-ai-knowledge-introduction/,2027年のIPA試験見直しで何が変わる？ITパスポート・情報セキュリティマネジメント・生成AIパスポートを今取る理由,62,1,7.9,,,なし（未受験と明記）,96
+A,T-11-A07,全面,残す,trend,common,src/data/post/trend/touroku-nihongo-kyouin-keika-sochi/index.md,/trend/touroku-nihongo-kyouin-keika-sochi/,登録日本語教員の経過措置はいつまで？国家資格化の移行スケジュール,38,1,11.6,出典,出典,なし（未受験と明記）,0
+B,T-12-B01,全面,保留,app,ap,src/data/post/app/ap-quiz/index.mdx,/app/ap-quiz/,応用情報技術者(AP) 科目A試験 模擬試験シミュレーター,0,0,,筆者の体験,筆者の体験,学習中（これから受験）,5
+B,T-12-B01,全面,保留,app,boki,src/data/post/app/boki-shiwake-drill/index.mdx,/app/boki-shiwake-drill/,日商簿記3級 仕訳ドリル｜取引文から借方貸方を選ぶ反復演習アプリ,0,0,,筆者の体験,筆者の体験,これから（2級は取れる見込み）,3
+B,T-12-B01,全面,保留,app,fp,src/data/post/app/fp2-calc-drill/index.mdx,/app/fp2-calc-drill/,FP2級 計算問題ドリル｜6分野の頻出パターンを反復演習するアプリ,0,0,,筆者の体験,筆者の体験,これから（2級は取れる見込み）,6
+B,T-12-B01,全面,保留,app,g-kentei,src/data/post/app/g-kentei-mock-exam/index.mdx,/app/g-kentei-mock-exam/,G検定 模擬試験シミュレーター｜制限時間20分で本番形式を体験できる無料アプリ,1,0,9.0,筆者の体験,筆者の体験,実務（分析）,4
+B,T-12-B01,全面,保留,app,fe,src/data/post/app/genai-ip-quiz/index.mdx,/app/genai-ip-quiz/,生成AI導入実務者検定 攻略マスター：ROIを最大化する実務ドリル,0,0,,流れ図・筆者の体験,流れ図・筆者の体験,なし（未受験と明記）,0
+B,T-12-B01,全面,保留,app,genai-pass,src/data/post/app/genai-passport-quiz/index.mdx,/app/genai-passport-quiz/,生成AIパスポート 模擬試験シミュレーター：シラバス完全対応AIドリル,0,0,,筆者の体験,筆者の体験,内容の理解（未受験）,8
+B,T-12-B01,全面,保留,method,dm,src/data/post/method/dm-kakomon-nashi-ai-mondai-hack/index.md,/method/dm-kakomon-nashi-ai-mondai-hack/,【プロンプト配布】データマネジメント試験「無限想定問題」生成メソッド｜過去問ゼロで演習量を確保する,1,0,121.0,AIの実行例・流れ図・筆者の体験,AIの実行例・流れ図・筆者の体験・順位30位より下,AIの使用,0
+B,T-12-B01,全面,保留,theory,ip,src/data/post/theory/bpr-bpm-business-process-improvement-basics/index.md,/theory/bpr-bpm-business-process-improvement-basics/,BPR・BPMとは？改革と改善の違いを1ページで整理,9,0,52.7,,順位30位より下,受験（合格済み・以前の試験）,0
+B,T-12-B01,全面,保留,theory,ip,src/data/post/theory/cloud-saas-paas-iaas-basics/index.md,/theory/cloud-saas-paas-iaas-basics/,SaaS・PaaS・IaaSとは？クラウド3大サービスと選び方を1ページで整理,0,0,,,,受験（合格済み・以前の試験）,0
+B,T-12-B01,全面,保留,theory,ip,src/data/post/theory/corporate-finance-pl-bs-cf-roi-basics/index.md,/theory/corporate-finance-pl-bs-cf-roi-basics/,P/L・B/S・C/F・損益分岐点・ROIとは？会計・財務の基礎を1ページで整理,1,0,2.0,,,受験（合格済み・以前の試験）,0
+B,T-12-B02,全面,保留,app,-,src/data/post/app/aws-cert-diagnosis/index.mdx,/app/aws-cert-diagnosis/,AWS資格診断｜3つの質問でCLF・SAA・ANSどれから始めるべきか分かる無料ツール,4,0,19.8,筆者の体験,筆者の体験,なし（未受験と明記）,2
+B,T-12-B02,全面,保留,app,-,src/data/post/app/pm-essay-gacha/index.mdx,/app/pm-essay-gacha/,【PM/ST対策】Theme-Gacha-Next：AIが論文構成案を即時採点する実戦シミュレーター,0,0,,筆者の体験,筆者の体験,なし（未受験と明記）,2
+B,T-12-B02,全面,保留,app,sc,src/data/post/app/sc-specialist-quiz/index.mdx,/app/sc-specialist-quiz/,SC（情報処理安全確保支援士）専門用語特訓,0,0,,筆者の体験,筆者の体験,なし（未受験と明記）,4
+B,T-12-B02,全面,保留,app,sg,src/data/post/app/sg-quiz/index.mdx,/app/sg-quiz/,情報セキュリティマネジメント 演習アプリ,0,0,,筆者の体験,筆者の体験,学習中（これから受験）,14
+B,T-12-B02,全面,保留,app,takken,src/data/post/app/takken-kenri-quiz/index.mdx,/app/takken-kenri-quiz/,宅建 権利関係 一問一答｜民法のひっかけ論点を○×で潰すドリルアプリ,2,0,4.5,筆者の体験,筆者の体験,なし（未受験と明記）,4
+B,T-12-B02,全面,保留,theory,ip,src/data/post/theory/data-warehouse-mining-regression-basics/index.md,/theory/data-warehouse-mining-regression-basics/,DWH・データマイニング・回帰分析とは？データ活用3技術を1ページで整理,0,0,,,,受験（合格済み・以前の試験）,0
+B,T-12-B02,全面,保留,theory,ip,src/data/post/theory/it-legal-basics-ip-subcontract-contracts/index.md,/theory/it-legal-basics-ip-subcontract-contracts/,知的財産権・不正競争防止法・下請法・契約形態とは？IT法務の基礎を1ページで整理,0,0,,AIの実行例,AIの実行例,受験（合格済み・以前の試験）・AIの使用,2
+B,T-12-B02,全面,保留,theory,ip,src/data/post/theory/qc-seven-tools-abc-fishbone-scatter/index.md,/theory/qc-seven-tools-abc-fishbone-scatter/,ABC分析・特性要因図・散布図とは？QC七つ道具3手法を1ページで整理,3,0,6.7,流れ図,流れ図,受験（合格済み・以前の試験）,0
+B,T-12-B02,全面,保留,theory,ip,src/data/post/theory/statistics-mean-variance-probability-sampling/index.md,/theory/statistics-mean-variance-probability-sampling/,平均値・標準偏差・確率・サンプリングとは？統計の基礎を1ページで整理,1,0,11.0,出典,出典,受験（合格済み・以前の試験）,2
+B,T-12-B02,全面,保留,theory,ip,src/data/post/theory/ui-ux-accessibility-universal-design/index.md,/theory/ui-ux-accessibility-universal-design/,UI・UX・アクセシビリティ・ユニバーサルデザインとは？情報デザイン4用語を1ページで整理,3,0,8.7,流れ図,流れ図,受験（合格済み・以前の試験）,0
+B,T-12-B03,全面,保留,app,common,src/data/post/app/flashcard-app/index.mdx,/app/flashcard-app/,暗記ハック：IPA重要用語フラッシュカード,0,0,,筆者の体験,筆者の体験,なし（未受験と明記）,28
+B,T-12-B03,全面,保留,method,common,src/data/post/method/ai-programming-prep/index.md,/method/ai-programming-prep/,生成AIでプログラミングをするための事前準備｜初心者がPythonでTODOアプリを動かすまで,0,0,,AIの実行例・流れ図・筆者の体験,AIの実行例・流れ図・筆者の体験,AIの使用,0
+B,T-12-B03,全面,保留,method,common,src/data/post/method/ai-skill-rules-setup/index.md,/method/ai-skill-rules-setup/,生成AIにルールを覚えさせるスキル設定｜ChatGPT・Claude・Gemini【2026年版】,0,0,,出典・AIの実行例・流れ図・筆者の体験,出典・AIの実行例・流れ図,AIの使用,0
+B,T-12-B03,全面,保留,method,common,src/data/post/method/self-loop-ai-learning/index.md,/method/self-loop-ai-learning/,ダン・マーテルの「S.E.L.F.ループ」で自己学習を設計する｜AIとの対話で「何を学ぶべきか」を見つける方法,0,0,,AIの実行例・流れ図・筆者の体験,AIの実行例・流れ図・筆者の体験,AIの使用,3
+B,T-12-B03,全面,保留,theory,common,src/data/post/theory/project-service-management-overview/index.md,/theory/project-service-management-overview/,WBS・ガントチャート・クリティカルパス・SLA/SLOとは？プロジェクト管理5用語を1ページで解説,2,0,2.0,出典・AIの実行例,出典・AIの実行例,AIの使用,0
+B,T-12-B03,全面,保留,trend,common,src/data/post/trend/exam-application-to-exam-period-table/index.md,/trend/exam-application-to-exam-period-table/,申込から本番まで最長何か月？IPA試験・宅建・電験ほか資格別の早見表【2026年版】,0,0,,出典,,なし（未受験と明記）,4
+C,T-13-C01,部分,保留,career,ap,src/data/post/career/applied-information-technology-engineer-career-value/index.md,/career/applied-information-technology-engineer-career-value/,応用情報技術者は取る価値がある？人事に知られていない資格で「評価してくれる会社」を見分ける,0,0,,,,学習中（これから受験）,90
+C,T-13-C01,部分,保留,career,ap,src/data/post/career/ses-ap-strategy/index.md,/career/ses-ap-strategy/,応用情報で自社に残るか外へ飛ぶか。エンジニアの自信を取り戻すAP活用術,0,0,,AIの実行例・流れ図,AIの実行例・流れ図,学習中（これから受験）・AIの使用,155
+C,T-13-C01,部分,保留,method,ap,src/data/post/method/ap-grader-blackbox-hack/index.md,/method/ap-grader-blackbox-hack/,応用情報の記述式で点が取れない理由｜答えはひとつではない、論理で説明する練習法,5,0,6.4,流れ図・筆者の体験,流れ図・筆者の体験,学習中（これから受験）,100
+C,T-13-C01,部分,保留,method,ap,src/data/post/method/ap-grader-intent-hack/index.md,/method/ap-grader-intent-hack/,応用情報で「あと5点」足りなかったとき｜苦手分野で点を補う勉強の順番,0,0,,流れ図・筆者の体験,流れ図・筆者の体験,学習中（これから受験）,92
+C,T-13-C01,部分,保留,method,aws,src/data/post/method/aws-saa-beginner-reality/index.md,/method/aws-saa-beginner-reality/,AWS SAAは未経験でも取れる？基本情報・応用情報と比べた難易度と学習の順番,6,1,13.0,流れ図・筆者の体験,流れ図・筆者の体験,なし（未受験と明記）,104
+C,T-13-C01,部分,保留,method,biru-kanri,src/data/post/method/biru-kanri-hub/index.md,/method/biru-kanri-hub/,ビル管理の管理者を目指す資格｜ビル管理士・マンション管理士・エネルギー管理士の合格ロードマップ,0,0,,出典・AIの実行例・全体図・筆者の体験,出典・AIの実行例・全体図・筆者の体験,AIの使用,102
+C,T-13-C01,部分,保留,method,boki,src/data/post/method/boki-genka-keisan-wakaranai-hack/index.md,/method/boki-genka-keisan-wakaranai-hack/,工業簿記がわからない簿記3級合格者へ｜原価計算は商業簿記と同じ「仕入れて売る」の延長で理解する,0,0,,流れ図・筆者の体験,流れ図・筆者の体験,これから（2級は取れる見込み）,99
+C,T-13-C01,部分,保留,method,ccna,src/data/post/method/ccna-hub/index.md,/method/ccna-hub/,CCNAとは？勉強時間の目安とIPA試験でいうとどのレベルか｜合格までの進め方と落ちたときの立て直し方,4,0,10.2,出典・AIの実行例・全体図・筆者の体験,AIの実行例・全体図・筆者の体験,AIの使用,194
+C,T-13-C01,部分,保留,method,ccna,src/data/post/method/ip-address-ai-metaphor-hack/index.md,/method/ip-address-ai-metaphor-hack/,CCNAのサブネット計算は実務で使う？社内LANの分け方から理解する計算の手順,0,0,,筆者の体験,筆者の体験,なし（未受験と明記）,121
+C,T-13-C01,部分,保留,theory,ccna,src/data/post/theory/ccna-vlan-stp/index.md,/theory/ccna-vlan-stp/,VLAN・STP・ルーティング（OSPF・EIGRP・RIP）とは？CCNAの主要2領域を1ページで,8,1,6.9,AIの実行例・流れ図,AIの実行例・流れ図,AIの使用,183
+C,T-13-C02,部分,保留,app,fe,src/data/post/app/fe-quiz/index.mdx,/app/fe-quiz/,基本情報技術者試験 攻略シミュレーター,1,0,11.0,出典・AIの実行例・流れ図・筆者の体験,出典・AIの実行例・流れ図・筆者の体験,AIの使用,103
+C,T-13-C02,部分,保留,career,fe,src/data/post/career/fe-career-modern-web/index.md,/career/fe-career-modern-web/,ITパスポートを飛ばして基本情報から受けてよい人｜過去問7割が目安、開発部門を目指す資格ステップ,0,0,,,,なし（未受験と明記）,81
+C,T-13-C02,部分,保留,career,fe,src/data/post/career/fe-engineer-foundation/index.md,/career/fe-engineer-foundation/,生成AI時代の「エンジニアOS」— 基本情報技術者で手に入れる指示の解像度,2,0,8.0,AIの実行例,AIの実行例,AIの使用,59
+C,T-13-C02,部分,保留,method,db,src/data/post/method/db-normalization-hack/index.md,/method/db-normalization-hack/,データベーススペシャリストは取るべき？バックエンド・インフラの専門家をめざす人の資格の選び方と正規化の練習法,0,0,,筆者の体験,筆者の体験,なし（未受験と明記）,99
+C,T-13-C02,部分,保留,method,denken,src/data/post/method/denken-hub/index.md,/method/denken-hub/,電験三種は取るべき？知名度は低いが高給と独立が狙える資格の合格ロードマップ,1,0,7.0,全体図・筆者の体験,全体図・筆者の体験,なし（未受験と明記）,95
+C,T-13-C02,部分,保留,method,doboku-sekou,src/data/post/method/doboku-sekou-mikeiken-gakka-hack/index.md,/method/doboku-sekou-mikeiken-gakka-hack/,土木施工管理技士は学科だけ受かっても意味がある？実務経験者も苦戦する筆記試験と、現場の言葉とのすりあわせ,1,0,5.0,流れ図・筆者の体験,流れ図・筆者の体験,なし（未受験と明記）,70
+C,T-13-C02,部分,保留,method,ds-kentei,src/data/post/method/ds-kentei-hub/index.md,/method/ds-kentei-hub/,DS検定（データサイエンティスト検定）合格ロードマップ｜統計が難しく感じる理由と、G検定と組み合わせて広がる仕事,1,0,9.0,AIの実行例・全体図・筆者の体験,AIの実行例・全体図・筆者の体験,実務（分析）・AIの使用,96
+C,T-13-C02,部分,保留,method,fe,src/data/post/method/fe-algorithm-roadmap/index.md,/method/fe-algorithm-roadmap/,基本情報の科目Bアルゴリズム対策｜ITパスポート合格者でも一気に難しくなる理由と、基礎がある人の進め方,0,0,,流れ図・筆者の体験,流れ図・筆者の体験,なし（未受験と明記）,134
+C,T-13-C02,部分,保留,method,fe,src/data/post/method/fe-hub/index.md,/method/fe-hub/,基本情報技術者試験 合格ロードマップ｜科目A・B対策から合格後のキャリアまで,1,0,31.0,出典・AIの実行例・全体図・筆者の体験,出典・AIの実行例・全体図・筆者の体験・順位30位より下,AIの使用,125
+C,T-13-C02,部分,保留,method,fe,src/data/post/method/fe-subject-b-ai-prompt-hub/index.md,/method/fe-subject-b-ai-prompt-hub/,FE科目Bを生成AIで攻略するプロンプト集｜場面別・ツール別インデックス【ChatGPT・Gemini・Claude】,0,0,,AIの実行例・全体図・筆者の体験,AIの実行例・全体図・筆者の体験,AIの使用,31
+C,T-13-C03,部分,保留,career,g-kentei,src/data/post/career/ai-data-career/index.md,/career/ai-data-career/,G検定・DS検定・E資格の違いと取る順番｜AI・データ系の仕事につなげる資格の選び方,0,0,,,,実務（分析）,69
+C,T-13-C03,部分,保留,method,fp,src/data/post/method/fp2-3month-plan/index.md,/method/fp2-3month-plan/,FP2級を3ヶ月で目指す勉強計画｜初心者と金融の知識がある人で変わる進め方,0,0,,AIの実行例・流れ図・筆者の体験,AIの実行例・流れ図・筆者の体験,これから（2級は取れる見込み）・AIの使用,108
+C,T-13-C03,部分,保留,method,g-kentei,src/data/post/method/g-kentei-hub/index.md,/method/g-kentei-hub/,G検定（JDLA）合格ロードマップ｜最新ニュースより公式テキストの読み込みと反復テスト,9,0,43.2,出典・AIの実行例・全体図・筆者の体験,AIの実行例・全体図・筆者の体験・順位30位より下,実務（分析）・AIの使用,145
+C,T-13-C03,部分,保留,method,fe,src/data/post/method/miss-note-db/index.md,/method/miss-note-db/,資格の間違いノートをAIで分析する方法｜Markdownで記録して、ミスのパターンを見つける,0,0,,AIの実行例・筆者の体験,AIの実行例・筆者の体験,AIの使用,120
+C,T-13-C03,部分,保留,method,fe,src/data/post/method/sql-join-visual-ai-hack/index.md,/method/sql-join-visual-ai-hack/,SQLのJOINが覚えられない人へ｜AIの図解で、基本情報とDS検定のSQL問題に備える,9,0,5.3,AIの実行例・筆者の体験,AIの実行例・筆者の体験,AIの使用,45
+C,T-13-C03,部分,保留,theory,fe,src/data/post/theory/algorithm-search-sort/index.md,/theory/algorithm-search-sort/,線形探索・二分探索・ソート・スタック・キュー・木とは？アルゴリズムとデータ構造の基礎,0,0,,AIの実行例・流れ図,AIの実行例・流れ図,AIの使用,81
+C,T-13-C03,部分,保留,theory,g-kentei,src/data/post/theory/ml-supervised-unsupervised/index.md,/theory/ml-supervised-unsupervised/,機械学習の3種類とディープラーニングとは？G検定・DS検定の基礎理論を1ページで,0,0,,出典・AIの実行例・流れ図,出典・AIの実行例・流れ図,実務（分析）・AIの使用,91
+C,T-13-C03,部分,保留,trend,fe,src/data/post/trend/fe-pseudo-language-trap/index.md,/trend/fe-pseudo-language-trap/,基本情報の科目BはPythonだけで大丈夫？擬似言語でつまずく3つの違いと、複数の言語で身につく考え方,2,0,5.0,AIの実行例,AIの実行例,AIの使用,63
+C,T-13-C03,部分,保留,trend,genai-pass,src/data/post/trend/genai-passport-2027-syllabus-changes/index.md,/trend/genai-passport-2027-syllabus-changes/,生成AIパスポート新シラバスで何が変わる？旧版から追加で学ぶ項目を整理,0,0,,出典・AIの実行例,AIの実行例,内容の理解（未受験）・AIの使用,298
+C,T-13-C03,部分,保留,trend,genai-pass,src/data/post/trend/genai-passport-renewal-test/index.md,/trend/genai-passport-renewal-test/,生成AIパスポートの更新テストは受ける？受けない？失効の有無と判断基準,0,0,,出典・AIの実行例,AIの実行例,内容の理解（未受験）・AIの使用,193
+C,T-13-C04,部分,保留,app,ip,src/data/post/app/ip-field-drill/index.mdx,/app/ip-field-drill/,ITパスポートの分野別ドリル283問｜ストラテジ・マネジメント・テクノロジ系の苦手を見つける,0,0,,出典・流れ図・筆者の体験,出典・流れ図・筆者の体験,受験（合格済み・以前の試験）,177
+C,T-13-C04,部分,保留,app,ip,src/data/post/app/it-passport-quiz/index.mdx,/app/it-passport-quiz/,ITパスポート 模擬試験シミュレーター (CBT対応),0,0,,筆者の体験,筆者の体験,受験（合格済み・以前の試験）,75
+C,T-13-C04,部分,保留,career,ip,src/data/post/career/30s-career-change/index.md,/career/30s-career-change/,30代未経験エンジニア転職にITパスポートは武器になる？目指す職種で変わる価値とポートフォリオ,1,0,10.0,,,受験（合格済み・以前の試験）,74
+C,T-13-C04,部分,保留,method,ip,src/data/post/method/chatgpt-itpassport-ai-complete-guide/index.md,/method/chatgpt-itpassport-ai-complete-guide/,生成AIをコーチにしてITパスポートに合格するには｜ChatGPT・Gemini・Claude共通の進め方,0,0,,AIの実行例・流れ図・筆者の体験,AIの実行例・流れ図・筆者の体験,受験（合格済み・以前の試験）・AIの使用,109
+C,T-13-C04,部分,保留,method,ip,src/data/post/method/ip-discard-strategy/index.md,/method/ip-discard-strategy/,ITパスポートを社会人が最短で取る捨て問戦略｜まず勉強なしで過去問を解く,1,0,47.0,筆者の体験,筆者の体験・順位30位より下,受験（合格済み・以前の試験）,137
+C,T-13-C04,部分,保留,method,ip,src/data/post/method/ip-strategy-ai-hack/index.md,/method/ip-strategy-ai-hack/,経済学ゼロからでも解ける！ストラテジ系をAIの「たとえ話」で攻略する技術,3,0,8.3,AIの実行例・流れ図・筆者の体験,AIの実行例・流れ図・筆者の体験,受験（合格済み・以前の試験）・AIの使用,46
+C,T-13-C04,部分,保留,method,ip,src/data/post/method/itp-hub/index.md,/method/itp-hub/,ITパスポート 合格ロードマップ｜AI時代に最初の一手としてこれを選ぶ理由,0,0,,出典・AIの実行例・全体図・筆者の体験,AIの実行例・全体図・筆者の体験,受験（合格済み・以前の試験）・AIの使用,59
+C,T-13-C04,部分,保留,method,ip,src/data/post/method/notebooklm-ip-study-hack/index.md,/method/notebooklm-ip-study-hack/,ITパスポート NotebookLM勉強法｜シラバスから無料で問題集を自作し、手書きで解く,0,0,,AIの実行例・流れ図・筆者の体験,AIの実行例・流れ図・筆者の体験,受験（合格済み・以前の試験）・AIの使用,148
+C,T-13-C04,部分,保留,method,ip,src/data/post/method/smartphone-study-guide/index.md,/method/smartphone-study-guide/,ITパスポートのスマホ勉強法｜スキマ時間の長さで変えるアプリとAIの使い方,4,0,8.5,AIの実行例・筆者の体験,AIの実行例・筆者の体験,受験（合格済み・以前の試験）・AIの使用,168
+C,T-13-C04,部分,保留,trend,genai-pass,src/data/post/trend/genai-risk-cases-explained/index.md,/trend/genai-risk-cases-explained/,生成AIのリスクとは？実際に起きた事例で5つの系統に分けて理解する,0,0,,出典・AIの実行例・流れ図,AIの実行例・流れ図,内容の理解（未受験）・AIの使用,339
+C,T-13-C05,部分,保留,career,sc,src/data/post/career/sc-unregistered-benefit-hack/index.md,/career/sc-unregistered-benefit-hack/,情報処理安全確保支援士は転職で隠すと損？知名度の低さを補う伝え方と、責任を背負いすぎない選び方,4,0,7.2,,,なし（未受験と明記）,109
+C,T-13-C05,部分,保留,method,sc,src/data/post/method/advanced-ipa-hub/index.md,/method/advanced-ipa-hub/,IPA資格の高難易度対策｜応用情報・高度試験と2027年の新試験の選び方,0,0,,AIの実行例・全体図・筆者の体験,AIの実行例・全体図・筆者の体験,AIの使用,309
+C,T-13-C05,部分,保留,method,kiken-butsu,src/data/post/method/kiken-butsu-hub/index.md,/method/kiken-butsu-hub/,危険物取扱者の甲種・乙種・丙種どれから取る？合格率と勉強時間で比べる,1,0,22.0,出典・AIの実行例・全体図・筆者の体験,AIの実行例・全体図,AIの使用,266
+C,T-13-C05,部分,保留,method,mos,src/data/post/method/mos-hub/index.md,/method/mos-hub/,MOSはどれから取る？事務職はExcelとWordが基本、エキスパートで難しくなる理由,7,0,20.1,全体図・筆者の体験,全体図・筆者の体験,なし（未受験と明記）,168
+C,T-13-C05,部分,保留,theory,ip,src/data/post/theory/network-database-fundamentals/index.md,/theory/network-database-fundamentals/,OSI参照モデル・TCP/IP・サブネット・DNS・正規化とは？ネットワークとDBの基礎,1,0,20.0,,,受験（合格済み・以前の試験）,71
+C,T-13-C05,部分,保留,theory,ip,src/data/post/theory/reskilling-basics/index.md,/theory/reskilling-basics/,リスキリングとは？スキルアップ・リカレント教育との違いと、キャリアに役立つ資格・使える公的支援,0,0,,流れ図,流れ図,受験（合格済み・以前の試験）,223
+C,T-13-C05,部分,保留,theory,ip,src/data/post/theory/security-controls-crypto-incident-basics/index.md,/theory/security-controls-crypto-incident-basics/,共通鍵暗号・公開鍵暗号・TLS・IPsec・インシデント対応・BYOD対策とは？セキュリティ対策の基礎,0,0,,流れ図,流れ図,受験（合格済み・以前の試験）,90
+C,T-13-C05,部分,保留,trend,ip,src/data/post/trend/human-capital-management/index.md,/trend/human-capital-management/,人的資本経営・DE&I・ISO 30414とは？人を資産と見る経営と情報開示を1ページで,0,0,,,,受験（合格済み・以前の試験）,77
+C,T-13-C05,部分,保留,trend,sa,src/data/post/trend/sa-llm-agent-design/index.md,/trend/sa-llm-agent-design/,AIエージェントとは？「部署の従業員」に例えて設計する｜禁則リストと品質チェックの考え方（SA試験にも）,0,0,,流れ図,流れ図,なし（未受験と明記）,73
+C,T-13-C05,部分,保留,trend,ip,src/data/post/trend/web3-nft/index.md,/trend/web3-nft/,ブロックチェーンとは？Web3.0・NFT・DAOとの関係を試験用語として整理する,0,0,,,,受験（合格済み・以前の試験）,75
+C,T-13-C06,部分,保留,app,sg,src/data/post/app/sg-subject-b-quiz/index.mdx,/app/sg-subject-b-quiz/,情報セキュリティマネジメント科目B対策｜セキュリティ担当になって解くインシデント対応3事例,0,0,,流れ図・筆者の体験,流れ図・筆者の体験,学習中（これから受験）,63
+C,T-13-C06,部分,保留,career,sg,src/data/post/career/backoffice-sg-career-hack/index.md,/career/backoffice-sg-career-hack/,バックオフィス職がSGで年収を上げる道筋｜社内のセキュリティ教育から副業講師まで,3,0,6.3,AIの実行例・流れ図,AIの実行例・流れ図,学習中（これから受験）・AIの使用,158
+C,T-13-C06,部分,保留,career,sg,src/data/post/career/sg-company-security-roadmap/index.md,/career/sg-company-security-roadmap/,社員のSG取得を会社が補助すべき理由｜2026年9月の情報漏えいから考えるセキュリティ人材の育て方,1,0,3.0,出典,,学習中（これから受験）,76
+C,T-13-C06,部分,保留,method,sc,src/data/post/method/sc-hub/index.md,/method/sc-hub/,情報処理安全確保支援士（SC）合格ロードマップ｜知識861語・技能31項目を「苦手章だけ20時間」で埋める,0,0,,AIの実行例・全体図・筆者の体験,AIの実行例・全体図・筆者の体験,AIの使用,74
+C,T-13-C06,部分,保留,method,sg,src/data/post/method/sg-beginner-roadmap/index.md,/method/sg-beginner-roadmap/,情報セキュリティマネジメント試験は未経験だと難しい？差がつくのは日頃のセキュリティ意識,3,0,21.3,出典・筆者の体験,出典・筆者の体験,学習中（これから受験）,117
+C,T-13-C06,部分,保留,method,sg,src/data/post/method/sg-hub/index.md,/method/sg-hub/,情報セキュリティマネジメント試験（SG）合格ロードマップ｜非エンジニアは何から始めるか,0,0,,AIの実行例・全体図・筆者の体験,AIの実行例・全体図・筆者の体験,学習中（これから受験）・AIの使用,49
+C,T-13-C06,部分,保留,method,sg,src/data/post/method/sg-news-study-hack/index.md,/method/sg-news-study-hack/,情報セキュリティマネジメント｜公的機関のレポートで事故対応をシミュレーションする勉強法,0,0,,AIの実行例・流れ図・筆者の体験,AIの実行例・流れ図・筆者の体験,学習中（これから受験）・AIの使用,94
+C,T-13-C06,部分,保留,method,st,src/data/post/method/st-no-experience-essay-hack/index.md,/method/st-no-experience-essay-hack/,ITストラテジスト論文で実務経験がないとき｜経験を補う順番と、今からできる業務の練習,0,0,,流れ図・筆者の体験,流れ図・筆者の体験,なし（未受験と明記）,81
+C,T-13-C06,部分,保留,trend,sg,src/data/post/trend/security-incident-prevention-basics/index.md,/trend/security-incident-prevention-basics/,今さら聞けない情報漏えい対策｜相次ぐ流出から自分と会社を守る方法,0,0,,出典・流れ図,出典・流れ図,学習中（これから受験）,142
+C,T-13-C06,部分,保留,trend,sg,src/data/post/trend/sg-syllabus-latest-change-guide/index.md,/trend/sg-syllabus-latest-change-guide/,SGシラバスの変更点｜現行Ver.4.1と新シラバス案、生成AIのセキュリティはニュースでも学ぶ,0,0,,出典・AIの実行例,AIの実行例,学習中（これから受験）・AIの使用,89
+C,T-13-C07,部分,保留,career,-,src/data/post/career/qualification-60min-daily-simulation/index.md,/career/qualification-60min-daily-simulation/,1日60分の勉強で取れる資格は？3ヶ月・6ヶ月・1年で届く資格を比べる,0,0,,,,なし（未受験と明記）,128
+C,T-13-C07,部分,保留,method,-,src/data/post/method/guide/index.md,/method/guide/,シラバスハックの学習メソッド一覧｜20時間学習・マスク流・NotebookLMなど目的別の選び方,0,0,,筆者の体験,筆者の体験,なし（未受験と明記）,88
+C,T-13-C07,部分,保留,method,-,src/data/post/method/vibe-coding/index.md,/method/vibe-coding/,バイブコーディングで資格試験の問題集アプリを自作する｜作って動かした経験をポートフォリオにする,0,0,,AIの実行例・筆者の体験,AIの実行例・筆者の体験,AIの使用,124
+C,T-13-C07,部分,保留,theory,-,src/data/post/theory/ai-law-ethics-basics/index.md,/theory/ai-law-ethics-basics/,AI生成物の著作権・AI倫理・オプトアウト・ディープフェイクとは？生成AIの法律と倫理を1ページで,0,0,,,,なし（未受験と明記）,119
+C,T-13-C07,部分,保留,theory,-,src/data/post/theory/binary-hexadecimal-basics/index.md,/theory/binary-hexadecimal-basics/,2進数・16進数・集合と論理演算とは？コンピュータの数字と思考の基礎,0,0,,,,なし（未受験と明記）,98
+C,T-13-C07,部分,保留,theory,-,src/data/post/theory/cpu-memory-functions/index.md,/theory/cpu-memory-functions/,CPU・メモリ・ストレージ（HDD/SSD）とは？頭脳・作業机・倉庫のITハードウェア基礎,2,0,9.5,,,なし（未受験と明記）,84
+C,T-13-C07,部分,保留,theory,-,src/data/post/theory/csr-sdgs-esg-investment/index.md,/theory/csr-sdgs-esg-investment/,CSR・SDGs・ESG投資・ガバナンス・コンプライアンスとは？企業の責任とITの役割を1ページで,0,0,,,,なし（未受験と明記）,128
+C,T-13-C07,部分,保留,theory,-,src/data/post/theory/cyber-attack-countermeasures-basics/index.md,/theory/cyber-attack-countermeasures-basics/,多要素認証・SQLインジェクション・XSS・ランサムウェアとは？攻撃と対策を1ページで,0,0,,,,なし（未受験と明記）,120
+C,T-13-C07,部分,保留,theory,-,src/data/post/theory/dx-leadership-mvv-digital-divide/index.md,/theory/dx-leadership-mvv-digital-divide/,DXとは？IT化との違いと、DX推進担当者に求められる3つのスキル,1,0,6.0,流れ図,流れ図,なし（未受験と明記）,34
+C,T-13-C07,部分,保留,theory,-,src/data/post/theory/erp-system-integration/index.md,/theory/erp-system-integration/,ERP・CRM・SCM・インボイス制度とは？業務システムと法対応を1ページで整理,0,0,,,,なし（未受験と明記）,79
+C,T-13-C08,部分,保留,app,common,src/data/post/app/dev-doc-process-mvp/index.md,/app/dev-doc-process-mvp/,Syllabus Hackアプリ開発の流れ｜構想からMVP、高度試験対応までの開発記まとめ,0,0,,流れ図・筆者の体験,流れ図・筆者の体験,なし（未受験と明記）,36
+C,T-13-C08,部分,保留,app,common,src/data/post/app/genai-ethics-quiz/index.mdx,/app/genai-ethics-quiz/,生成AI・AI倫理クイズ｜ITパスポートの新用語から高度試験の実務ロジックまで,0,0,,AIの実行例・流れ図・筆者の体験,AIの実行例・流れ図・筆者の体験,AIの使用,79
+C,T-13-C08,部分,保留,career,common,src/data/post/career/career-change-to-it-with-ipa/index.md,/career/career-change-to-it-with-ipa/,未経験からIT業界へ転職した元営業・教員の声｜最初の一手にITパスポートを選ぶ理由,0,0,,出典,,なし（未受験と明記）,162
+C,T-13-C08,部分,保留,theory,-,src/data/post/theory/generative-ai-terms-basics/index.md,/theory/generative-ai-terms-basics/,ハルシネーション・RAG・マルチモーダルAI・XAI・MLOpsとは？生成AIの用語を1ページで,0,0,,AIの実行例,AIの実行例,AIの使用,141
+C,T-13-C08,部分,保留,theory,-,src/data/post/theory/os-operating-systems/index.md,/theory/os-operating-systems/,OS（オペレーティングシステム）とは？タスク管理・割込み・仮想記憶まで1ページで,0,0,,,,なし（未受験と明記）,127
+C,T-13-C08,部分,保留,theory,-,src/data/post/theory/product-life-cycle/index.md,/theory/product-life-cycle/,プロダクトライフサイクル・PPM・アンゾフの成長マトリクスとは？製品と事業の戦略を1ページで,2,0,4.5,,,なし（未受験と明記）,199
+C,T-13-C08,部分,保留,theory,-,src/data/post/theory/swot-analysis/index.md,/theory/swot-analysis/,SWOT分析・3C分析・コアコンピタンスとは？環境分析と自社の強みの整理を1ページで,0,0,,AIの実行例・流れ図,AIの実行例・流れ図,AIの使用,117
+C,T-13-C08,部分,保留,theory,-,src/data/post/theory/white-black-box-testing/index.md,/theory/white-black-box-testing/,ホワイトボックス・ブラックボックステストとV字モデルとは？テスト手法と工程を1ページで,0,0,,,,なし（未受験と明記）,72
+C,T-13-C08,部分,保留,trend,-,src/data/post/trend/cost-effective-certification-path-2025/index.md,/trend/cost-effective-certification-path-2025/,いま評価されやすいIT資格は？資格名に「情報セキュリティ」「生成AI」が入る資格が強い理由,0,0,,,,なし（未受験と明記）,76
+C,T-13-C08,部分,保留,trend,-,src/data/post/trend/genai-passport-vs-it-passport/index.md,/trend/genai-passport-vs-it-passport/,生成AIパスポート vs ITパスポート。AI時代にまず取るべき資格はどちらか？徹底比較,0,0,,,,なし（未受験と明記）,64
+C,T-13-C09,部分,保留,career,common,src/data/post/career/ipa-certification-salary-impact/index.md,/career/ipa-certification-salary-impact/,基本情報・応用情報・高度で年収は上がる？資格手当の相場と交渉のしかた,0,0,,出典,出典,なし（未受験と明記）,90
+C,T-13-C09,部分,保留,career,common,src/data/post/career/next-step-aws-vs-fp-strategy/index.md,/career/next-step-aws-vs-fp-strategy/,ITパスポートの次はAWSかFPか？金融系に進むならFP＋SGの組み合わせ,0,0,,流れ図,流れ図,なし（未受験と明記）,83
+C,T-13-C09,部分,保留,career,common,src/data/post/career/portfolio-vs-cert/index.md,/career/portfolio-vs-cert/,資格よりポートフォリオは本当？採用側の見方は職種と採用担当のタイプで変わる,3,0,7.7,,,なし（未受験と明記）,101
+C,T-13-C09,部分,保留,career,common,src/data/post/career/regional-salary-qualification-correlation/index.md,/career/regional-salary-qualification-correlation/,地方でIT資格は意味ない？都道府県別の年収差と、資格が効く地域・職種の見分け方,5,0,5.6,出典・AIの実行例・流れ図,出典・AIの実行例・流れ図,AIの使用,132
+C,T-13-C09,部分,保留,career,common,src/data/post/career/resume-writing-tips-ipa-certification/index.md,/career/resume-writing-tips-ipa-certification/,履歴書の資格欄に何を書く？応募先で評価される資格の選び方と書き方,2,0,3.0,,,なし（未受験と明記）,95
+C,T-13-C09,部分,保留,career,common,src/data/post/career/shikaku-teate-soba-ichiran/index.md,/career/shikaku-teate-soba-ichiran/,資格手当の実額相場一覧｜電験三種・危険物乙4・ビルメン系マトリクス,3,0,8.0,出典・流れ図,出典・流れ図,なし（未受験と明記）,103
+C,T-13-C09,部分,保留,method,common,src/data/post/method/20hours-method-reason/index.md,/method/20hours-method-reason/,なぜシラバスハックは「20時間学習法」を採用しているのか,1,0,7.0,AIの実行例・流れ図・筆者の体験,AIの実行例・流れ図,AIの使用,88
+C,T-13-C09,部分,保留,method,common,src/data/post/method/ai-driven-architecture-hack/index.md,/method/ai-driven-architecture-hack/,【内部構成】AIにサイト開発を任せる仕組み｜Syllabus Hackの技術構成とルール設計,0,0,,筆者の体験,,なし（未受験と明記）,62
+C,T-13-C09,部分,保留,method,common,src/data/post/method/ai-mentor-study-method-roadmap/index.md,/method/ai-mentor-study-method-roadmap/,月100時間を捻出する社会人のAI学習法｜AIをメンターにする合格ロードマップ,0,0,,AIの実行例・全体図・筆者の体験,AIの実行例・全体図,AIの使用,91
+C,T-13-C09,部分,保留,method,common,src/data/post/method/ap-pm-descriptive-ai-prompts/index.md,/method/ap-pm-descriptive-ai-prompts/,応用情報・高度試験の午後記述をAIで対策するプロンプト集｜AP・PM・SC・NW,9,2,7.2,AIの実行例・流れ図・筆者の体験,AIの実行例・流れ図・筆者の体験,AIの使用,238
+C,T-13-C10,部分,保留,method,common,src/data/post/method/article-outlines-feb/index.md,/method/article-outlines-feb/,資格のコスパ・タイパは受ける前には測れない｜費用の目安と先に決めたい「目的」,0,0,,出典・AIの実行例・筆者の体験,出典・AIの実行例・筆者の体験,AIの使用,72
+C,T-13-C10,部分,保留,method,common,src/data/post/method/calc-problem-abandon-strategy/index.md,/method/calc-problem-abandon-strategy/,計算問題に時間がかかる人の試験戦略｜苦手と割り切り、得意分野で点を伸ばす,0,0,,筆者の体験,筆者の体験,なし（未受験と明記）,81
+C,T-13-C10,部分,保留,method,common,src/data/post/method/ccna-liberal-arts-roadmap/index.md,/method/ccna-liberal-arts-roadmap/,CCNAを文系・未経験から6ヶ月で目指す手順｜最初にITパスポート過去問で現在地を測る,0,0,,筆者の体験,筆者の体験,なし（未受験と明記）,115
+C,T-13-C10,部分,保留,method,common,src/data/post/method/common-essay-ai-examiner/index.md,/method/common-essay-ai-examiner/,記述式・論文問題をAIに採点してもらう練習法｜正解がいくつもある答案の磨き方,0,0,,AIの実行例・流れ図・筆者の体験,AIの実行例・流れ図・筆者の体験,AIの使用,136
+C,T-13-C10,部分,保留,method,common,src/data/post/method/digital-detox-learning/index.md,/method/digital-detox-learning/,勉強は紙に書くと覚えられる？デジタル教科書の時代に手書きをすすめる理由,0,0,,筆者の体験,筆者の体験,なし（未受験と明記）,85
+C,T-13-C10,部分,保留,method,common,src/data/post/method/exam-final-10-days/index.md,/method/exam-final-10-days/,資格試験の直前10日の過ごし方｜1日2時間で20時間を使う逆算スケジュールと、受ける覚悟の確かめ方,0,0,,出典・流れ図・筆者の体験,出典・流れ図・筆者の体験,なし（未受験と明記）,201
+C,T-13-C10,部分,保留,method,common,src/data/post/method/genai-cert-study-plan/index.md,/method/genai-cert-study-plan/,生成AI資格の一覧を用途と難易度で整理｜人事が履歴書の資格名から必要な人材を見分けるには,0,0,,筆者の体験,筆者の体験,なし（未受験と明記）,78
+C,T-13-C10,部分,保留,method,common,src/data/post/method/genai-vocabulary-learning-efficiency/index.md,/method/genai-vocabulary-learning-efficiency/,生成AI用語は参考書を買うより生成AIに聞く｜新語が増え続ける試験の用語ノートの作り方,0,0,,AIの実行例・筆者の体験,AIの実行例・筆者の体験,AIの使用,101
+C,T-13-C10,部分,保留,method,common,src/data/post/method/multi-device-cert-study/index.md,/method/multi-device-cert-study/,スマホ・タブレット・PC、資格勉強はどれがいい？画面で読んだら紙に書くと覚えられる,0,0,,筆者の体験,筆者の体験,なし（未受験と明記）,99
+C,T-13-C10,部分,保留,method,common,src/data/post/method/notion-study-tracker/index.md,/method/notion-study-tracker/,Notionで資格勉強の進捗管理｜落ちる人はタスク作りで力尽き、受かる人は目標を小さく刻む,0,0,,流れ図・筆者の体験,流れ図・筆者の体験,なし（未受験と明記）,103
+C,T-13-C11,部分,保留,method,common,src/data/post/method/pc-study-setup-guide/index.md,/method/pc-study-setup-guide/,PC学習の強みは「自分で調べに行ける」こと｜「なぜ？」を検索で解決して知識を伸ばす,0,0,,筆者の体験,筆者の体験,なし（未受験と明記）,84
+C,T-13-C11,部分,保留,method,common,src/data/post/method/practice-guide-ipa/index.md,/method/practice-guide-ipa/,IPA試験のAI勉強法まとめ｜学習の段階と試験区分から、読む記事を選ぶ,2,0,8.5,筆者の体験,筆者の体験,なし（未受験と明記）,85
+C,T-13-C11,部分,保留,method,common,src/data/post/method/region-hack-tokyo/index.md,/method/region-hack-tokyo/,東京で働き続けるなら取っておきたい資格｜IT・セキュリティ・クラウドの選び方と、合格までの道のり,0,0,,筆者の体験,筆者の体験,なし（未受験と明記）,95
+C,T-13-C11,部分,保留,method,common,src/data/post/method/scientific-study-methods/index.md,/method/scientific-study-methods/,【Active Recall】科学的に「脳に効く」勉強法だけをやる。エビデンスベースの資格試験攻略,0,0,,筆者の体験,,なし（未受験と明記）,71
+C,T-13-C11,部分,保留,method,common,src/data/post/method/syllabus-diff-hack/index.md,/method/syllabus-diff-hack/,資格のシラバス更新を見逃さない仕組み作り｜URLの記録・RSS・自動チェック・AIで変更点を知る,0,0,,AIの実行例・流れ図・筆者の体験,AIの実行例・流れ図・筆者の体験,AIの使用,159
+C,T-13-C11,部分,保留,method,common,src/data/post/method/typing-speed-cbt/index.md,/method/typing-speed-cbt/,CBT試験のPC操作が不安な人へ｜スマホ派がつまずくマウス・日本語入力・キー配列の練習法,0,0,,筆者の体験,筆者の体験,なし（未受験と明記）,107
+C,T-13-C11,部分,保留,theory,common,src/data/post/theory/agile-scrum-basics/index.md,/theory/agile-scrum-basics/,アジャイル・スクラム・ウォーターフォール・DevOps・OODAとは？開発手法の用語を1ページで,0,0,,,,なし（未受験と明記）,180
+C,T-13-C11,部分,保留,trend,common,src/data/post/trend/e-shikaku/index.md,/trend/e-shikaku/,E資格は必要か？約23万円の費用が会社の研修費で出やすい理由と取る価値,0,0,,出典,出典,なし（未受験と明記）,82
+C,T-13-C11,部分,保留,trend,common,src/data/post/trend/ipa-2027-restructuring/index.md,/trend/ipa-2027-restructuring/,2027年からのIPA試験再編まとめ｜データマネジメントと新区分PDとは？,2,0,21.5,,,なし（未受験と明記）,68
+C,T-13-C11,部分,保留,trend,common,src/data/post/trend/new-game-study-method/index.md,/trend/new-game-study-method/,資格試験に早く合格する勉強法｜生成AIとシラバスで「地図を先に持つ」学び方,0,0,,AIの実行例・筆者の体験,筆者の体験,AIの使用,128

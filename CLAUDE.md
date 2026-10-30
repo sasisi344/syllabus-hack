@@ -75,7 +75,8 @@
 | ---------------------- | ------------------ | --------------------------------------------- |
 | `.agents/`             | **Brain**          | ルール・スキル定義。タスク開始前に必ず参照    |
 | `.claude/commands/`    | **Commands**       | スラッシュコマンド定義（Claude Code専用）     |
-| `.workspace/.task/`    | **Command**        | タスク要件定義（requirement-\*.md）・TODO管理 |
+| `.task-management/`    | **Command**        | タスクの正本（`task.md`）・inbox・実行記録（hq 標準、2026-10-31〜） |
+| `.workspace/projects/` | **Plan**           | 計画書（全面リライト・コース追加・生成AIパスポート） |
 | `.workspace/draft/`    | **Draft**          | 記事・コードの下書き置き場                    |
 | `.workspace/data-set/` | **Knowledge**      | シラバスデータ・試験傾向・リサーチ結果        |
 | `src/data/post/`       | **Output: 記事**   | カテゴリ別ページバンドル（最終出力先）        |
@@ -126,7 +127,7 @@
 ### A. 記事執筆ワークフロー
 
 ```
-1. 要件確認: .workspace/.task/ の該当TODOを Read
+1. 要件確認: `.task-management/task.md` の該当タスクを Read
 2. スキルロード: post_writer.md + category_rules.md を Read（並列可）
 3. ナレッジ参照: .workspace/data-set/ から関連データを Read（横展開資格は cert-keyword-db/ を優先）
 4. ターゲットKW・読者確定: post_writer.md「Step 0」と reader_segments.md に従い、ロングテールKWを1つ決め、TARGET_KW / READER / ANSWER / TAKEAWAY とタイトルを確定
@@ -142,7 +143,7 @@
 ### B. クイズ／アプリ開発ワークフロー
 
 ```
-1. 要件確認: .workspace/.task/requirement-*.md を Read
+1. 要件確認: `.task-management/task.md` の該当タスクと、リンク先の要件定義を Read
 2. スキルロード: quiz_app_rules.md + quiz_data_rules.md を Read（並列可）
 3. データ作成: src/data/master/questions-{examId}.json を Write
 4. 実装: src/apps/{app-slug}/ に Write / Edit
@@ -173,7 +174,7 @@
 4. lastmod を今日の日付に更新
 5. callout 確認: [!forAI] を削除、LEARNER_NOTE の未処理なし、exp/question/think と本文が矛盾しないこと
 6. src/data/post/{category}/{slug}/index.md に配置
-7. .workspace/.task/TODO.md の該当項目を完了にする
+7. `.task-management/task.md` の該当タスクを完了にする（完了したら `records/` へ。手順は `.task-management/CLAUDE.md` §6）
 ```
 
 > **スラッシュコマンド**: `/publish-post {ドラフトファイル名}` でチェックリストを展開
@@ -319,9 +320,16 @@ Read(.workspace/data-set/kw-pattern-library.md)
 
 ---
 
-## タスク管理（GitHub Project 統合、2026-09-25〜）
+## タスク管理
 
-ブログ横断の中期〜長期タスクは GitHub Project で一元管理: https://github.com/users/sasisi344/projects/1 （「ブログ運営タスク」）。カンバン列は `Backlog → Todo → In Progress → Done`。短期〜中期の目標タスクは Start date / End date を設定し、ロードマップビューで期間の進捗を管理する。新規タスクは `gh issue create --repo sasisi344/syllabus-hack` でIssue化 → `gh project item-add 1 --owner sasisi344 --url <issue-url>` でボードに追加。詳細は `344ob/07_workspace/.agents/blog-registry.md` 参照。`.workspace/.task/TODO.md` は引き続き本リポジトリの全タスクの正本であり、GitHub Projectとは二重管理しない。
+タスクは `.task-management/` にある（344dev の hq からの統合司令の窓口。2026-10-31 移行、GitHub Project は廃止）。タスクを読む・書く前に、必ず `.task-management/CLAUDE.md` を読む。
+
+- 正本: `.task-management/task.md`（索引だけ読み、必要な ID の本文だけ開く）
+- 問題点・気づき・hq からの修正依頼: `.task-management/inbox.md`（作業の開始時に未処置を処理する）
+- 実行記録: `.task-management/records/index.md`（起票前・解析前に Grep する）
+- 計画書・調査・データは `.workspace/` に置き、タスクからリンクする
+- Codex（実行部）への指示書は `.workspace/codex/orders/`、報告書は `.workspace/codex/reports/`（組織は `C:\Users\sasis\344dev\hq\org\README.md`）
+- 11月の計画（2026-10-31〜）: 全面リライト `.workspace/projects/rewrite-2026-11/`、20時間コースの追加 `.workspace/projects/course-expansion-2026-11/`
 
 ---
 

@@ -450,7 +450,7 @@ export default defineConfig({
     '/trend/2026-cbt-transition-advanced-exam/': '/method/cbt-2026-syllabus-complete-guide/',
     '/trend/2026-cbt-ai-syllabus-strategy/': '/method/cbt-2026-syllabus-complete-guide/',
     '/trend/ipa-2026-cbt-strategy-ai/': '/method/cbt-2026-syllabus-complete-guide/',
-    // theoryジャンル別まとめ記事化 (2026-09-15, TODO.md §3): 1KW=1記事で分散していた
+    // theoryジャンル別まとめ記事化 (2026-09-15, 旧TODO §3): 1KW=1記事で分散していた
     // プロジェクト・サービスマネジメント系5本を project-service-management-overview へ統合
     '/theory/work-breakdown-structure/': '/theory/project-service-management-overview/',
     '/theory/gantt-chart/': '/theory/project-service-management-overview/',

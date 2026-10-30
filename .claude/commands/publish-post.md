@@ -31,7 +31,7 @@
 
 ### Step 4: タスク管理更新
 
-- `.workspace/.task/TODO.md` に該当タスクがあれば `[x]` 済みにする
+- `.task-management/task.md` に該当タスクがあれば完了にする（`records/` に記録）
 
 ### Step 5: 完了報告
 
