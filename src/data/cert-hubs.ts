@@ -98,7 +98,7 @@ export const certGroups: CertGroup[] = [
       {
         name: '宅建（宅地建物取引士）',
         href: '/method/takken-hub/',
-        description: '合格率15%の壁をAI学習で突破する',
+        description: '合格率18%の壁をAI学習で突破する',
       },
       {
         name: '知的財産管理技能検定',
