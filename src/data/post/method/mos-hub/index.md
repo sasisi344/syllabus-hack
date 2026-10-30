@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-06-09T00:00:00Z
-lastmod: 2026-10-25
+lastmod: 2026-10-30
 title: 'MOSはどれから取る？事務職はExcelとWordが基本、エキスパートで難しくなる理由'
 excerpt: 'MOSはWord・Excel・PowerPointなど、ソフトごとに試験が分かれた資格です。すべて取るのは大変なので、事務職ならまずExcelとWord。エキスパートではマクロまで問われて難しくなる理由と、資格がどんな証明になるのかを整理します。'
 image: ~/data/post/method/mos-hub/cover.jpg
@@ -159,7 +159,7 @@ AIで表や文書の下書きを作れるようになっても、それをExcel�
 | 日商PC検定 | Officeの操作に加えて、ビジネス文書の作り方や実務の知識 | 文書の構成力や実務の理解まで示したい人 |
 | Google Workspace の認定資格 | Googleスプレッドシート・ドキュメントなど | Googleのツールを使う会社をめざす人 |
 
-求人票に「Excel・Wordが使える方」とあるなら、MOSがいちばん直接的な証明になります。日商PC検定の勉強の進め方は [日商PC検定はAI対話学習と相性がいい理由](/method/nissho-pc-kentei-ai-hack/) で扱っています。
+求人票に「Excel・Wordが使える方」とあるなら、MOSがいちばん直接的な証明になります。
 
 ITパスポートと比べてどちらが評価されるかは、[MOS vs ITパスポート](/trend/mos-vs-itp-job-hunting/) で扱っています。
 

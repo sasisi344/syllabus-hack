@@ -5,6 +5,7 @@ title: '【開発記】1,171語のシラバスからクイズを自動生成す�
 excerpt: 'ITパスポート全範囲をカバーする1,171語のキーワード。これらを人手で作問するのは不可能です。Gemini APIを活用し、高品質な問題を自動生成するパイプラインの裏側を解説。'
 image: ~/assets/images/post/common/trend.png
 category: app
+draft: true
 persona: 生成AI活用に興味がある開発者
 knowledge:
   type: method

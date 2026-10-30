@@ -4,6 +4,7 @@ lastmod: 2026-04-24
 title: 生成AIで10分で自作する、自分専用のIT資格対策アプリ
 persona: AI時代の効率重視な受験生、最新技術を学習に取り入れたいIT初学者
 category: method
+draft: true
 tags:
   - ITパスポート
   - ChatGPT

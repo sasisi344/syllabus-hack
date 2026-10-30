@@ -30,7 +30,7 @@ const REGION_MAP: Record<string, RegionArticle[]> = {
     { title: '地方でIT資格は意味ない？都道府県別の年収差と、資格が効く地域・職種の見分け方', slug: '/career/regional-salary-qualification-correlation/', description: '名古屋・豊田など製造業の集積地でのIT資格の効き方' },
   ],
   '大阪': [
-    { title: '【大阪版】梅田・難波のオフィス街をゴールに、DS検定から始める学習設計', slug: '/method/region-hack-osaka/', description: '大阪ITクラスターへの最短ルート設計' },
+    { title: '【全国版】地方ITキャリアを「資格×地域ハック」で攻略する', slug: '/career/regional-it-career-hub/', description: '大阪を含む都道府県別キャリア戦略のまとめ' },
   ],
   '広島': [
     { title: 'バックオフィス職がSGで年収を上げる道筋｜広島など製造業の多い地域の見方', slug: '/career/backoffice-sg-career-hack/', description: '地方中核都市でのバックオフィス×セキュリティ戦略' },

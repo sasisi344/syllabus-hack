@@ -5,6 +5,7 @@ title: '【ラバーダッキング×AI】初級・中級・上級で伸ばす�
 excerpt: 'AI相手に説明して詰まりを可視化し、初級・中級・上級の3ステップで理解を深める実践ガイド。'
 image: ~/data/post/method/common-cover.png
 category: 'method'
+draft: true
 tags: ['学習法', 'AI活用', 'アウトプット', 'ラバーダッキング', 'フェイマンテクニック']
 metadata:
   description: 'ラバーダッキング、フェイマン・テクニック、反証ドリルを統合したAI活用学習法を解説。各段階の狙いと運用サイクルを示し、知識を実践で使える状態まで高める方法を紹介する。'

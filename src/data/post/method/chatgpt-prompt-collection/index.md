@@ -6,6 +6,7 @@ title: 'ChatGPTプロンプト集：Syllabus Hackを支える記事・アプリ�
 excerpt: '当サイト「Syllabus Hack」の膨大な記事執筆やクイズアプリ開発で実際に使用した、実践的なChatGPT/Geminiプロンプトを公開。'
 image: ~/data/post/method/common-cover.png
 category: method
+draft: true
 tags: ['ChatGPT', 'Gemini', 'プロンプト', '開発記', '効率化']
 knowledge:
   examId: common

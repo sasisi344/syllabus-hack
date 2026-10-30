@@ -3,6 +3,7 @@ title: 'Anthropicが「AI Academy」を無料公開。英語の壁を越えて�
 publishDate: 2026-03-25T00:00:00Z
 lastmod: 2026-07-12
 category: trend
+draft: true
 tags: ['Anthropic', 'Claude', 'AI Academy', 'リスキリング', '英語学習']
 persona: 最先端のAI技術をいち早く学びたいが、英語の壁を感じているエンジニア・学習者
 knowledge:

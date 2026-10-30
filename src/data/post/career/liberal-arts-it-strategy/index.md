@@ -5,6 +5,7 @@ title: 文系就活の最強カード「ITリテラシー」で内定を勝ち�
 excerpt: 文系学生がIT資格を取得することで、就活における市場価値をどう高めるか。ガクチカへの組み込み方や面接でのアピール術を具体的に解説します。
 persona: 20代文系大学生・就活生
 category: career
+draft: true
 tags: ['就活', 'ITパスポート', '基本情報技術者', '文系学生', 'シラバス攻略']
 image: ~/data/post/career/common-cover.png
 toc: true

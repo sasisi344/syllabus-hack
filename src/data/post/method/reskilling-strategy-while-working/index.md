@@ -6,7 +6,7 @@ excerpt: 働きながら資格を取るとき、最初に不足するのは教�
 image: ~/data/post/method/reskilling-strategy-while-working/cover.jpg
 category: method
 tags: ['リスキリング', '学習継続', '資格取得', '時間管理']
-draft: false
+draft: true
 persona: '社会人学習者'
 knowledge:
   type: method

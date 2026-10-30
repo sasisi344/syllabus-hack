@@ -6,6 +6,7 @@ title: 'システムアーキテクチャ図を「写経」する。Miroを使�
 excerpt: 'AIが出した構成案をホワイトボードツールMiroで自分の手で描いてみる。単語ではなく「関係性」を理解するためのシステム設計訓練。'
 image: ~/data/post/method/common-cover.png
 category: 'method'
+draft: true
 tags: ['学習法', '図解', 'Miro', 'システム設計']
 metadata:
   description: 'AIが生成したテキストベースのシステム構成案を、自分自身でMiro上に図解する「関係性」思考のトレーニング。エンジニア必須の設計力を養う。'

@@ -5,6 +5,7 @@ title: '暗記という名の鎖を断ち切れ：用語の『繋がり』で記
 excerpt: '英単語のような単純暗記は、もういらない。IT用語を『ストーリー』で繋げて、一度覚えたら忘れない最強の記憶法。'
 image: ~/data/post/method/practice.png
 category: method
+draft: true
 tags: [暗記法, 記憶術, ITパスポート, 連結学習, メソッド]
 knowledge:
   examId: common

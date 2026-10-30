@@ -6,7 +6,7 @@ excerpt: '50代からの資格取得は本当に遅いのか。年代別の採�
 image: '~/data/post/career/50dai-mikeiken-shikaku-osoi/cover.jpg'
 category: 'career'
 tags: ['50代', '未経験転職', 'キャリアチェンジ', '資格取得', 'リスキリング']
-draft: false
+draft: true
 toc: true
 persona: '50代でキャリアチェンジ・資格取得を考えているが遅すぎるのではと不安な人'
 knowledge:

@@ -1,6 +1,6 @@
 ---
 image: ~/data/post/career/fe-resume-liar-hack/cover.png
-draft: false
+draft: true
 lastmod: 2026-10-20
 publishDate: 2026-04-11T00:00:00Z
 title: '基本情報の科目B不合格は履歴書にどう書く？「現在進行形の努力」として伝える方法'

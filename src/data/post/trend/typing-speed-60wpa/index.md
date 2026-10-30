@@ -4,6 +4,7 @@ publishDate: 2026-03-31T00:00:00Z
 title: "ITパスポート試験にタイピングは必要か？CBTで求められる速度の目安"
 excerpt: "CBT方式の試験で意外な落とし穴となるのが「入力速度」。理想とされる60WPM（WPA）の壁と、効率的な上達法を解説します。"
 category: trend
+draft: true
 tags: [タイピング, 業務効率化, CBT試験, ITパスポート, 生産性]
 persona: "パソコン操作に不慣れでCBT試験に不安を感じている受験生"
 knowledge:

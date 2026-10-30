@@ -10,7 +10,7 @@ knowledge:
   examId: common
   type: method
   difficulty: beginner
-draft: false
+draft: true
 toc: true
 metadata:
   description: 'NotebookLMをはじめとする最新の生成AIが資格試験の学習をどう変えるのかを解説。ソース根拠つき回答・音声解説・自動クイズ生成など次世代の学習法と、今日から試せる具体的な活用手順を紹介します。学習効率を一段引き上げたい受験者におすすめです。'

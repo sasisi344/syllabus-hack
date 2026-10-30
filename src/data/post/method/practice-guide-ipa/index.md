@@ -2,7 +2,7 @@
 title: 'IPA試験のAI勉強法まとめ｜学習の段階と試験区分から、読む記事を選ぶ'
 image: ~/data/post/method/common-cover.png
 publishDate: 2026-03-10T00:00:00Z
-lastmod: 2026-10-28
+lastmod: 2026-10-30
 category: method
 toc: true
 tags: ['学習法', 'ChatGPT', 'Claude', 'Gemini', 'NotebookLM']
@@ -84,7 +84,7 @@ AIは、問題を大量に出す道具としてではなく、<strong>理解を�
 | 応用情報・高度試験 | [IPA資格の高難易度対策](/method/advanced-ipa-hub/) | [応用情報の午後・記述式をAIで対策するプロンプト集](/method/ap-pm-descriptive-ai-prompts/) |
 | 2027年からの新試験 | [新IPA試験の勉強法](/method/new-ipa-exam-study-strategy/) | 上の各区分の記事を併用 |
 
-ChatGPTの使い方を試験別のプロンプトで知りたい人は、[ChatGPTで資格試験の勉強をする方法](/method/chatgpt-cert-complete/)も参考になります。
+生成AIの使い方を試験別のプロンプトで知りたい人は、[GeminiでIT資格試験を勉強する方法](/method/gemini-cert-complete/)も参考になります。
 
 ## AIツールの使い分けの目安
 

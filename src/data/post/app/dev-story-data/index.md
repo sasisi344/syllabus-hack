@@ -6,6 +6,7 @@ title: '【技術解説】PDFシラバスをGeminiで構造化データへ。無
 excerpt: 'JSONで試験を再現する「Data Pipeline」の全貌。PDFパースからGemini 2.0 APIを使った問題生成までを技術的に解説。'
 image: ~/assets/images/post/common/trend.png
 category: 'app'
+draft: true
 knowledge:
   type: method
 tags: ['Gemini', 'API', 'Node.js', '技術解説']

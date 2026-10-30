@@ -6,7 +6,7 @@ excerpt: '建設業経理士は知名度こそ低いが、経営事項審査（�
 image: '~/data/post/career/kensetsugyou-keirishi-keishin-katen/cover.jpg'
 category: 'career'
 tags: ['建設業経理士', '経営事項審査', '経審', '簿記', 'キャリア']
-draft: false
+draft: true
 toc: true
 persona: '建設業の経理職、または簿記資格を活かしてニッチな検定を探している人'
 knowledge:

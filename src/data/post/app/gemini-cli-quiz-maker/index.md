@@ -6,6 +6,7 @@ title: '【Gemini 2.0】CLIで無限にクイズを作る自作ツール "Quiz G
 excerpt: 'コマンド一発で試験問題を量産。Gemini APIのリミット制御と重複排除を実装したNode.jsスクリプトの全貌。'
 image: ~/assets/images/post/common/trend.png
 category: app
+draft: true
 knowledge:
   type: method
   examId: common

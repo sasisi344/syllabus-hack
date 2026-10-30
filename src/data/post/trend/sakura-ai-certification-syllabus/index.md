@@ -3,6 +3,7 @@ title: 'さくらインターネット「AI検定」のシラバスをハック�
 publishDate: 2026-03-25T00:00:00Z
 lastmod: 2026-07-12
 category: trend
+draft: true
 tags: ['さくらインターネット', 'AI検定', '生成AI', '無料資格', 'シラバス']
 persona: 網羅的な知識を手に入れたい、コストを抑えてスキルを証明したい初学者・学生
 knowledge:

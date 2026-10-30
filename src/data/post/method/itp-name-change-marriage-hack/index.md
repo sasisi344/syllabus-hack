@@ -6,7 +6,7 @@ excerpt: '結婚・改姓後にITパスポートの申込名と本人確認書�
 image: '~/data/post/method/itp-name-change-marriage-hack/cover.jpg'
 category: 'method'
 tags: ['ITパスポート', '事務ハック', '生成AI', '手続き', '改姓']
-draft: false
+draft: true
 persona: '結婚・改姓後に試験を控えた受験者'
 knowledge:
   examId: 'ip'

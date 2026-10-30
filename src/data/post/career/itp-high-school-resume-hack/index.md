@@ -1,6 +1,6 @@
 ---
 image: ~/data/post/career/itp-high-school-resume-hack/cover.png
-draft: false
+draft: true
 lastmod: 2026-10-20
 publishDate: 2026-04-11T00:00:00Z
 title: '高校の「情報I」をITパスポートにつなげる｜18歳以下の履歴書マッピング術'

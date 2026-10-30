@@ -10,7 +10,7 @@ knowledge:
   examId: ip
   type: method
   difficulty: beginner
-draft: false
+draft: true
 toc: true
 metadata:
   description: '士業事務所のDXが進む今、「ITスキル×AI」を証明できる人材の需要が急上昇しています。新卒・転職市場でITパスポートが武器になる理由と、士業業界でITリテラシーをキャリアに変える具体的な戦略を解説します。資格を実務の信頼につなげたい人に向けた内容です。'

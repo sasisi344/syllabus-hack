@@ -101,6 +101,37 @@ export default defineConfig({
   site: 'https://syllabushack.com',
 
   redirects: {
+    // AdSense 再申請の整理 (2026-10-30, hq H-23): 表示10未満・刷新なしの記事を統合先へ転送（記事は削除）。一覧は .workspace/.task/adsense-inventory/inventory.csv
+    '/method/chatgpt-cert-complete/': '/method/gemini-cert-complete/',
+    '/trend/it-passport-syllabus-genai-update/': '/trend/syllabus-ai-knowledge-introduction/',
+    '/trend/genai-syllabus-integration/': '/trend/syllabus-ai-knowledge-introduction/',
+    '/career/secretarial-exam-multiwork-freelance/': '/method/secretarial-cost-time-knowledge/',
+    '/method/secretarial-ai-efficiency-hack/': '/method/secretarial-cost-time-knowledge/',
+    '/trend/fp-reskilling-fit-check/': '/method/fp-hub/',
+    '/method/ai-new-terms-explanation/': '/theory/generative-ai-terms-basics/',
+    '/method/essay-trainer-script/': '/method/ap-grader-blackbox-hack/',
+    '/method/pomodoro-anki-technique/': '/method/ai-dj-pomodoro/',
+    '/trend/reskilling-subsidy-it-certification/': '/career/kyouiku-kunren-kyuufu-bareru/',
+    '/career/ap-salary-impact/': '/career/ipa-certification-salary-impact/',
+    '/career/eisei-kanrisha-sennin-kotowaru/': '/career/eisei-kanrisha-kaisha-kara-torasareru/',
+    '/career/fp-side-business-reality/': '/method/fp-hub/',
+    '/career/ipa-career-value-job-change/': '/career/ipa-certification-salary-impact/',
+    '/career/ipa-certification-income/': '/career/ipa-certification-salary-impact/',
+    '/career/mos-back-office-expert-independence/': '/method/mos-hub/',
+    '/career/mos-freelance-haken-reality/': '/method/mos-hub/',
+    '/career/mos-instructor-school-path/': '/method/mos-hub/',
+    '/career/secretarial-career-up-effect/': '/method/secretarial-cost-time-knowledge/',
+    '/career/shikaku-iji-hi-ichiran/': '/career/shikaku-toroku-hiyou-ichiran/',
+    '/method/aws-personalized-roadmap-hack/': '/method/aws-hub/',
+    '/method/denken-bunkei-shakaijin-hack/': '/method/denken-hub/',
+    '/method/fast-track-roadmap-20h-pass/': '/course/ip/',
+    '/method/region-hack-osaka/': '/career/regional-it-career-hub/',
+    '/method/vision-to-mermaid-hack/': '/method/nw-mermaid-hack/',
+    '/theory/labor-dispatch-act-ses/': '/theory/it-legal-basics-ip-subcontract-contracts/',
+    '/theory/prompt-engineering-basics/': '/theory/generative-ai-terms-basics/',
+    '/theory/text-mining-nlp/': '/theory/data-warehouse-mining-regression-basics/',
+    '/trend/secretarial-why-bosses-recommend/': '/method/secretarial-cost-time-knowledge/',
+    '/trend/syllabus-ver9-update/': '/trend/syllabus-ai-knowledge-introduction/',
     // 統合リダイレクトの修正 (2026-07-11, w28-site-verifi T3追補):
     // Googleにインデックスされている旧URLは /method/ プレフィックス付きだが、従来の定義は
     // ソース・ターゲットともプレフィックス欠落で、実URLは404・生成ページの転送先も404だった。
@@ -191,10 +222,10 @@ export default defineConfig({
     '/career/fe-useless-corporate-hack/': '/career/fe-engineer-foundation/',
     '/career/freelance-fe-merit/': '/career/fe-engineer-foundation/',
     '/career/fundamental-it-engineer-for-non-engineers/': '/career/fe-engineer-foundation/',
-    // re-content 統合 (2026-10-25): 「ITパスポートは恥ずかしい」の2本を itp-shameful-career-hack に統合
-    '/trend/it-passport-shame-debate/': '/career/itp-shameful-career-hack/',
-    // re-content 統合 (2026-10-25): 文系学生の新卒戦略は liberal-arts-it-strategy に統合
-    '/career/liberal-arts-student-strategy/': '/career/liberal-arts-it-strategy/',
+    // re-content 統合 (2026-10-25): 「ITパスポートは恥ずかしい」の2本を itp-shameful-career-hack に統合（2026-10-30 統合先を公開停止したため itp-hub へ付け替え）
+    '/trend/it-passport-shame-debate/': '/method/itp-hub/',
+    // re-content 統合 (2026-10-25): 文系学生の新卒戦略は liberal-arts-it-strategy に統合（2026-10-30 統合先を公開停止したため itp-hub へ付け替え）
+    '/career/liberal-arts-student-strategy/': '/method/itp-hub/',
     // re-content 統合 (2026-10-25): CCNAのキャリア・新卒就活の記事は ccna-hub に統合
     '/career/ccna-network-engineer-career/': '/method/ccna-hub/',
     '/career/ccna-new-grad-company-filter/': '/method/ccna-hub/',
@@ -293,8 +324,8 @@ export default defineConfig({
     '/method/agent-teacher/': '/method/ai-mentor-study-method-roadmap/',
     // re-content 統合 (2026-10-25): マネジメント系長文の読み方は ip-strategy-ai-hack に統合
     '/method/management-comprehension-hack/': '/method/ip-strategy-ai-hack/',
-    // re-content 統合 (2026-10-25): 音声アウトプット学習は generative-memory-palace に統合
-    '/method/voice-output-learning/': '/method/generative-memory-palace/',
+    // re-content 統合 (2026-10-25): 音声アウトプット学習は generative-memory-palace に統合（2026-10-30 統合先を公開停止したため guide へ付け替え）
+    '/method/voice-output-learning/': '/method/guide/',
     // re-content 統合 (2026-10-25): ベクトル検索とAIプロジェクト品質管理は advanced-ipa-hub に統合
     '/trend/db-vector-search-rag/': '/method/advanced-ipa-hub/',
     '/trend/pm-ai-quality-management/': '/method/advanced-ipa-hub/',
@@ -376,8 +407,8 @@ export default defineConfig({
     '/gemini-memory-palace-hack/': '/method/gemini-cert-complete/',
     '/method/gemini-memory-palace-hack/': '/method/gemini-cert-complete/',
     // グループC: 氏名変更統合 (2026-05-30)
-    '/itp-receipt-name-change-hack/': '/method/itp-name-change-marriage-hack/',
-    '/method/itp-receipt-name-change-hack/': '/method/itp-name-change-marriage-hack/',
+    '/itp-receipt-name-change-hack/': '/method/itp-hub/',
+    '/method/itp-receipt-name-change-hack/': '/method/itp-hub/',
     // グループA: スマホ学習統合 (2026-05-30)
     '/itp-smartphone-only-hack/': '/method/smartphone-study-guide/',
     '/method/itp-smartphone-only-hack/': '/method/smartphone-study-guide/',
@@ -393,19 +424,19 @@ export default defineConfig({
     '/category/strategy/2/': '/category/theory/',
     // term/strategy → theory 移行 (2026-06-18): netlify.toml の [[redirects]] は本番(nginx)で機能していない。
     // GSC累積エクスポート（2026-07-11 ページ.csv）で表示実績のある旧URLを全量移植 (w28-site-verifi T3追補)
-    '/trend/prompt-engineering-basics/': '/theory/prompt-engineering-basics/',
-    '/term/prompt-engineering-basics/': '/theory/prompt-engineering-basics/',
+    '/trend/prompt-engineering-basics/': '/theory/generative-ai-terms-basics/',
+    '/term/prompt-engineering-basics/': '/theory/generative-ai-terms-basics/',
     '/term/sampling-methods-data/': '/theory/statistics-mean-variance-probability-sampling/',
     '/term/digital-divide-basics/': '/theory/digital-divide-basics/',
     '/term/standard-deviation-variance/': '/theory/statistics-mean-variance-probability-sampling/',
-    '/term/labor-dispatch-act-ses/': '/theory/labor-dispatch-act-ses/',
+    '/term/labor-dispatch-act-ses/': '/theory/it-legal-basics-ip-subcontract-contracts/',
     '/term/mean-median-mode-stats/': '/theory/statistics-mean-variance-probability-sampling/',
     '/term/subcontract-act-it-dev/': '/theory/it-legal-basics-ip-subcontract-contracts/',
     '/term/profit-and-loss-statement-pl/': '/theory/corporate-finance-pl-bs-cf-roi-basics/',
     '/term/labor-standards-act-36-agreement/': '/theory/labor-standards-act-36-agreement/',
     '/term/cpu-memory-functions/': '/theory/cpu-memory-functions/',
     '/term/sets-logical-operations/': '/theory/binary-hexadecimal-basics/',
-    '/term/text-mining-nlp/': '/theory/text-mining-nlp/',
+    '/term/text-mining-nlp/': '/theory/data-warehouse-mining-regression-basics/',
     '/strategy/quality-control-abc-fishbone-scatter/': '/theory/qc-seven-tools-abc-fishbone-scatter/',
     '/strategy/system-development-contracts-ses-outsourcing-risk/': '/theory/it-legal-basics-ip-subcontract-contracts/',
     '/strategy/data-profitability-dwh-mining-regression/': '/theory/data-warehouse-mining-regression-basics/',

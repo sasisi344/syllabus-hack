@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-02-27T00:00:00Z
-lastmod: 2026-10-25
+lastmod: 2026-10-30
 title: 'Syllabus Hackアプリ開発の流れ｜構想からMVP、高度試験対応までの開発記まとめ'
 excerpt: '「自分が欲しい」を形にしたSyllabus Hackのアプリ開発を、着想、MVP、PDF解析、UX改善、今後の構想の順にまとめ、詳しい開発記への入口を用意しました。'
 category: app
@@ -47,9 +47,6 @@ IPAのシラバスは、形式が決まっていないPDFです。シラバス�
 
 GeminiなどのLLMを使ったデータの抽出、不自然な日本語を直すためのプロンプトの調整など、試行錯誤を重ねました。詳しくは、次の開発記にまとめています。
 
-- [PDFシラバスをGeminiで構造化データへ。無限クイズ生成パイプラインの裏側](/app/dev-story-data/)
-- [1,171語のシラバスからクイズを自動生成する「AIエンジン」の仕組み](/app/dev-story-ai-engine/)
-- [CLIで無限にクイズを作る自作ツール "Quiz Generator"](/app/gemini-cli-quiz-maker/)
 
 ## 使いやすさの改善｜小さな不快を消す
 
@@ -58,11 +55,9 @@ GeminiなどのLLMを使ったデータの抽出、不自然な日本語を直�
 - <strong>回答後のフィードバック</strong>：正解か不正解かの判定の直後に、スムーズに解説へ進めるようにした
 - <strong>スクロール位置の自動調整</strong>：解説が長いと、回答後に情報が画面の外に流れてしまうため、回答ボタンを押したら、解説の位置へ自動でスクロールするようにした
 
-実装の詳細は、[Antigravityとペアプログラミング。Astroで構築するWebアプリ開発](/app/dev-story-ui/)にまとめています。
-
 ## 開発環境と構成
 
-サイト全体の構成、AIエージェントの役割分担、AIに読ませるルールファイルの考え方は、[AIにサイト開発を任せる仕組み｜Syllabus Hackの技術構成とルール設計](/method/ai-driven-architecture-hack/)にまとめています。ファイル構成と実装の方針は、[Syllabus Hack開発記：メンテナンス性を高めるファイル構成と実装戦略](/app/dev-doc-structure-astro/)を参照してください。
+サイト全体の構成、AIエージェントの役割分担、AIに読ませるルールファイルの考え方は、[AIにサイト開発を任せる仕組み｜Syllabus Hackの技術構成とルール設計](/method/ai-driven-architecture-hack/)にまとめています。
 
 ## これから｜構想中の機能
 

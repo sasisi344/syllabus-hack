@@ -3,6 +3,7 @@ title: '「1秒で寝れる」技術が学習効率を上げる｜記憶の定�
 publishDate: 2026-03-25T00:00:00Z
 lastmod: 2026-10-20
 category: method
+draft: true
 tags: ['学習効率化', '睡眠ハック', 'メンタルヘルス', 'ITパスポート', '集中力']
 persona: 勉強時間確保のために睡眠を削り、日中の集中力が低下しているすべての資格受験者
 knowledge:

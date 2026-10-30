@@ -6,7 +6,7 @@ excerpt: '日商PC検定は範囲が広く独学でつまずきやすい資格�
 image: '~/data/post/method/nissho-pc-kentei-ai-hack/cover.jpg'
 category: 'method'
 tags: ['日商PC検定', 'Office操作', '生成AI', 'ビジネス文書', '独学']
-draft: false
+draft: true
 toc: true
 persona: '未経験からPC操作全般を実務レベルで身につけたい社会人・学び直し層'
 knowledge:

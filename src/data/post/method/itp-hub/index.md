@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-05-31T00:00:00Z
-lastmod: 2026-10-25
+lastmod: 2026-10-30
 title: 'ITパスポート 合格ロードマップ｜AI時代に最初の一手としてこれを選ぶ理由'
 excerpt: 'リスキリング・企業の最低限IT資格化・生成AI時代の入口として注目されるITパスポート。なぜ今この資格なのかという背景から合格手順・関連記事インデックスまで網羅したハブガイドです。'
 image: '~/data/post/method/itp-hub/cover.jpg'
@@ -146,7 +146,7 @@ ITパスポートの「プロジェクトマネジメント」を学び始めま
 
 学習効率を最大化するための主要記事です。
 
-- [ITパスポートを20時間で学ぶロードマップ](/method/fast-track-roadmap-20h-pass/) — 文系・未経験がAIを相棒に進める手順
+- [ITパスポート20時間コース](/course/ip/) — 文系・未経験がAIを相棒に進める手順
 - [生成AIをコーチにしてITパスポートに合格するには](/method/chatgpt-itpassport-ai-complete-guide/) — 過去問の結果からAIと計画を組む共通プロンプト
 - [資格試験の直前10日の過ごし方](/method/exam-final-10-days/) — 1日2時間で20時間を使う逆算スケジュールと、ITパスポートの頻出キーワード確認リスト
 - [ITパスポートのスマホ勉強法｜スキマ時間の長さで変えるアプリとAIの使い方](/method/smartphone-study-guide/) — スキマ時間の長さ別にアプリとAIを使い分ける
@@ -159,7 +159,7 @@ ITパスポートの「プロジェクトマネジメント」を学び始めま
 
 試験の最新動向と周辺情報をまとめた記事です。
 
-- [最新シラバス攻略｜生成AI・プロンプト変更点と対策](/trend/it-passport-syllabus-genai-update/) — シラバス6.3の変更点を整理
+- [2027年のIPA試験見直しで何が変わる？](/trend/syllabus-ai-knowledge-introduction/) — 試験見直しの内容と、今のうちに取る理由を整理
 - [生成AIパスポートvsITパスポート。AI時代にまず取るべき資格は](/trend/genai-passport-vs-it-passport/) — 2資格の役割分担と優先順位、生成AI系資格の価値（認知度と活用場面）
 - [CBT試験の会場予約で失敗しない方法](/trend/cbt-exam-venue-booking-tips/) — 混む時間帯の避け方と、遅延への備え
 - [いま評価されやすいIT資格は？](/trend/cost-effective-certification-path-2025/) — 資格名に「情報セキュリティ」「生成AI」が入る資格が伝わりやすい理由
@@ -187,7 +187,6 @@ ITと直接関係しない会社では、資格名を書くだけでは評価に
 以下は、ITパスポート取得後の活用と次の一手を考えるための記事です。
 
 - [地方でIT資格は意味ない？都道府県別の年収差と、資格が効く地域・職種の見分け方](/career/regional-salary-qualification-correlation/) — 地方の事務職が資格を活かす経路
-- [ITパスポートが「恥ずかしい」と感じるあなたへ](/career/itp-shameful-career-hack/) — 武器にする時と捨てる時の見極め方。2026年の市場価値の見方も
 - [IPA資格の高難易度対策｜応用情報・高度試験と2027年の新試験の選び方](/method/advanced-ipa-hub/) — ITパスポートからSG・FEを経て応用情報へ進む順番
 - [リスキリングとは？スキルアップ・リカレント教育との違いと、キャリアに役立つ資格・使える公的支援](/theory/reskilling-basics/) — 資格を活かす実績の作り方
 - [30代未経験エンジニア転職にITパスポートは武器になる？目指す職種で変わる価値とポートフォリオ](/career/30s-career-change/) — 職種ごとの見方とポートフォリオの作り方

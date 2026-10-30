@@ -7,7 +7,7 @@ excerpt: '通関士求人になぜ「必須」ではなく「歓迎」「優遇�
 image: '~/data/post/career/tsukanshi-shikaku-dake-tenshoku/cover.jpg'
 category: 'career'
 tags: ['通関士', '転職', '求人票の読み方', '貿易実務', 'キャリア戦略']
-draft: false
+draft: true
 toc: true
 persona: '通関士資格を取得予定/取得済みで転職を考えている人'
 knowledge:

@@ -6,7 +6,7 @@ excerpt: '運行管理者資格は未経験転職の必須パスポートでは�
 image: '~/data/post/career/unko-kanrisha-tenshoku-mikeiken/cover.jpg'
 category: 'career'
 tags: ['運行管理者', '未経験転職', 'キャリア', '運送業界', '資格']
-draft: false
+draft: true
 toc: true
 persona: '運送業界未経験だが、運行管理者資格を取って転職したいと考えている人'
 knowledge:

@@ -6,7 +6,7 @@ publishDate: 2026-02-17T00:00:00Z
 lastmod: 2026-07-12
 category: 'trend'
 tags: ['情報I', '大学入試', 'ITパスポート', 'ITリテラシー', '共通テスト']
-draft: false
+draft: true
 toc: true
 metadata:
   description: '大学入試「情報Ⅰ」の新設で高校生のITリテラシーが共通化される今、IT資格の価値はどう変わるのか。教育現場のトレンドと、高校生・大学生がITパスポートなどの資格を先取りして得られるメリットを解説します。進路選択や就活準備の判断材料としても使えます。'

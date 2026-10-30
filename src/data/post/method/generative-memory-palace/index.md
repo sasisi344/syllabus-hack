@@ -6,6 +6,7 @@ title: '覚えられない専門用語は「絵」にしろ。生成AIで記憶�
 excerpt: 'テキストの羅列をDALL-E 3やMidjourneyで印象的な「情景」に。最強の暗記術「記憶の宮殿」をAIでブーストする。'
 image: ~/data/post/method/common-cover.png
 category: 'method'
+draft: true
 tags: ['学習法', '画像生成AI', '記憶術', 'Midjourney']
 metadata:
   description: '記憶術の王者「メソッド・オブ・ロキ（記憶の宮殿）」に生成AIを組み合わせる。抽象的なIT用語を強烈なビジュアルに変換して一発で脳に焼き付ける手法。'

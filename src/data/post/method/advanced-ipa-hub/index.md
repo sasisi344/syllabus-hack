@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-06-03T00:00:00Z
-lastmod: 2026-10-28
+lastmod: 2026-10-30
 title: 'IPA資格の高難易度対策｜応用情報・高度試験と2027年の新試験の選び方'
 excerpt: '応用情報技術者試験から、情報処理安全確保支援士・ネットワークスペシャリストなどの高度試験まで。IPAの難しい試験を正式名称ごとに整理し、2027年度に始まるプロフェッショナルデジタルスキル試験への移り変わりと、自分に合った試験の選び方をまとめます。'
 image: '~/data/post/method/common-cover.png'
@@ -127,7 +127,7 @@ ITパスポートから順に進むなら、<strong>ITパスポート → 情報
 
 ### 応用情報の関連記事
 
-- [応用情報技術者試験は意味ない？意味ある職業・ない職業](/career/ap-salary-impact/)
+- [基本情報・応用情報・高度で年収は上がる？資格手当の相場と交渉のしかた](/career/ipa-certification-salary-impact/)
 - [応用情報技術者は取る価値がある？人事に知られていない資格で「評価してくれる会社」を見分ける](/career/applied-information-technology-engineer-career-value/)
 - [応用情報の捨て問戦略｜文系・未経験が3ヶ月で6割を取る分野の決め方](/method/ap-discard-strategy/)
 - [応用情報の午後・記述式をAIで対策するプロンプト集](/method/ap-pm-descriptive-ai-prompts/)

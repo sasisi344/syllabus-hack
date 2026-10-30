@@ -6,6 +6,7 @@ title: '【実装編】Antigravityとペアプログラミング。Astro+React�
 excerpt: 'フロントエンド開発の新時代。AIと共同で作り上げたUI/UXの実装プロセスと、Astro × Reactの技術選定。'
 image: ~/assets/images/post/common/trend.png
 category: 'app'
+draft: true
 knowledge:
   type: method
 tags: ['Astro', 'React', 'Tailwind', 'ペアプロ']

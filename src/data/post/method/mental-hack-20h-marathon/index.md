@@ -5,6 +5,7 @@ title: '意志の力を信じるな、仕組みを信じろ：AI時代のモチ�
 excerpt: '三日坊主は、あなたの根性が足りないのではありません。継続するための『設計図』がなかっただけなのです。'
 image: ~/data/post/method/practice.png
 category: method
+draft: true
 tags: [モチベーション, 心理学, 習慣化, ITパスポート, メンタル]
 knowledge:
   examId: common

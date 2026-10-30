@@ -3,6 +3,7 @@ title: 'AI時代にあえて「本」を読む。ITリテラシーの地図を�
 publishDate: 2026-03-25T00:00:00Z
 lastmod: 2026-10-20
 category: method
+draft: true
 tags: ['読書術', '独学', '情報収集', 'ITリテラシー', 'プロンプト']
 persona: AIを使えば何でもわかると感じ、体系的な学習から遠ざかりがちな若手エンジニア・学生
 knowledge:

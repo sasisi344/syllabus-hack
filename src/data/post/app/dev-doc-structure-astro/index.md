@@ -5,6 +5,7 @@ title: 'Syllabus Hack開発記：メンテナンス性を高めるファイル�
 excerpt: '個人開発サイトを長く、楽しく育てるために。AstroとPage Bundleパターンを採用したSyllabus Hackの内部構造を技術解説します。'
 
 category: app
+draft: true
 tags:
   - Astro
   - React

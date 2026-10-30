@@ -14,7 +14,7 @@ const SAA: CertRecommendation = {
   certName: 'AWS Certified Solutions Architect - Associate（SAA）',
   reason:
     '実務でAWS環境の設計・構築に関わる、またはこれから関わりたいなら、業界で最も評価されるSAAが本命になる。EC2・VPC・S3といった主要サービスを組み合わせてシステムを設計する力が問われ、転職市場でも認知度が高い。',
-  articleSlug: '/method/aws-personalized-roadmap-hack/',
+  articleSlug: '/method/aws-hub/',
   articleTitle: 'AWS攻略：多すぎるサービスで迷子？AIに逆算ロードマップを作らせる',
 };
 

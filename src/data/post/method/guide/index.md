@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-02-10T00:00:00Z
-lastmod: 2026-10-25
+lastmod: 2026-10-30
 title: シラバスハックの学習メソッド一覧｜20時間学習・マスク流・NotebookLMなど目的別の選び方
 image: ~/data/post/method/common-cover.png
 excerpt: シラバスハックで紹介している学習メソッドを、目的別にまとめた総覧です。20時間学習法や有名人の学習法、生成AIとNotebookLMの使い方、記憶・集中・直前対策まで、自分に合う方法を選べます。
@@ -40,22 +40,17 @@ metadata:
 
 ### 用語が覚えられない
 
-- 専門用語を絵にして覚える：[覚えられない専門用語は「絵」にしろ。生成AIで記憶の宮殿を建築する暗記術](/method/generative-memory-palace/)
-- 用語を、つながりで覚える：[暗記という名の鎖を断ち切れ：用語の『繋がり』で記憶を永遠に変える記述式メソッド](/method/logical-memory-linkage-hack/)
 - 新しい用語が次々に出る分野は、自分用のノートを育てる：[生成AI用語は参考書を買うより生成AIに聞く](/method/genai-vocabulary-learning-efficiency/)
-- 手が疲れたら、口を動かす：[記憶の宮殿の記事（声に出して確かめる方法を含む）](/method/generative-memory-palace/)
 
 ### 問題が解けるようにならない
 
 - 間違いの癖を分析して、弱点だけ潰す（不正解の選択肢の解剖を含む）：[資格の間違いノートをAIで分析する方法｜Markdownで記録して、ミスのパターンを見つける](/method/miss-note-db/)
-- 自分専用のドリルをAIで作る：[生成AIで10分で自作する、自分専用のIT資格対策アプリ](/method/genai-self-made-app-hack/)
 - 作って動かした経験をポートフォリオにする：[バイブコーディングで資格試験の問題集アプリを自作する](/method/vibe-coding/)
 
 ### 続かない、時間がない
 
-- 集中の区切りをつくる：[ポモドーロ勉強法を「道具」でハックする](/method/pomodoro-anki-technique/)
+- 集中の区切りをつくる：[25分で脳をハックする。AIに集中BGMを作らせてポモドーロを回す](/method/ai-dj-pomodoro/)
 - 進捗を小さく刻んで管理する：[Notionで資格勉強の進捗管理](/method/notion-study-tracker/)
-- 記憶の定着を支える：[「1秒で寝れる」技術が学習効率を上げる](/method/sleep-skill-learning-efficiency/)
 - スキマ時間で進める：[ITパスポートのスマホ勉強法](/method/smartphone-study-guide/)
 - 機器の使い分けを決める：[スマホ・タブレット・PC、資格勉強はどれがいい？](/method/multi-device-cert-study/)
 - 続けるべきか迷ったとき：[資格の勉強を諦めるべきタイミング](/method/shikaku-benkyou-akirameru-timing/)
