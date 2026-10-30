@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-04-01T00:00:00Z
-lastmod: 2026-10-25
+lastmod: 2026-10-30
 title: 【全国版】地方ITキャリアを「資格×地域ハック」で攻略する：地域別戦略まとめ
 excerpt: 「地方は給与が低い」を覆す。広島、静岡、愛知、福岡など、各地域の産業特性に合わせたIPA資格の活用術と、高待遇・優良企業への転職ルートを徹底解説。
 persona: 地方在住、またはUIターンを検討中のIT・事務職志望者
@@ -58,6 +58,19 @@ metadata:
 | <strong>福岡</strong> | IT初学者・文系スタートアップ | IP/FE | [スタートアップ都市で橋渡し役になる](/career/regional-salary-qualification-correlation/) |
 | <strong>北海道</strong> | SESエンジニア・準社員 | AP | [資格の順番と冬の学習設計](/career/ses-ap-strategy/) |
 | <strong>宮城</strong> | エンジニア・事務・金融 | AP/SG | [仙台で横断力を示す](/career/ses-ap-strategy/) |
+
+表の推奨資格を、今の仕事から逆にたどると次のようになります。
+
+```mermaid caption="今の仕事から、地域別戦略で推す資格を選ぶ"
+flowchart TB
+  Q{"今の仕事・目指す方向は？"}
+  Q -->|バックオフィス・メーカー事務・公務員志望| SG["SG<br/>広島・静岡・宮城"]
+  Q -->|文系・IT初学者| IP["IP / FE<br/>愛知・福岡"]
+  Q -->|SES・中堅エンジニア| AP["AP<br/>神奈川・北海道・宮城"]
+  SG --> R["上の表から自分の地域の記事を読む"]
+  IP --> R
+  AP --> R
+```
 
 ## 【Benefit】地域特化ハックで得られる3つのメリット
 
