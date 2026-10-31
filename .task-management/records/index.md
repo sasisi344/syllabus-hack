@@ -6,6 +6,7 @@
 
 | ID | 完了日 | 種別 | テーマ（タグ） | 対象（URL・クエリ） | 結果（1行） | 参照できるデータ | ファイル |
 |---|---|---|---|---|---|---|---|
+| T-01 | 2026-10-31 | 施策 | AdSense, リッチ化, AIの実行例, 事実確認 | AIの実行例が不足の18本 | 18本すべてに実際の回答を反映（13本は10/31、ユーザー実行→CC反映）。誤答は正しい情報と並べて材料にした。fintech・shobo・bilmen はリライト前のプロンプトでの比較例 | .workspace/.task/ai-example-prompts-2026-10-31.md | [2026-10-31-T-01-ai-examples.md](2026-10-31-T-01-ai-examples.md) |
 | T-53 | 2026-10-31 | 施策 | 20時間コース, 診断テスト, 学習ルート, ChapterQuiz | 全コースのコースTOPの診断 | 結果画面に全体・章別の正答率の表と重点章、前回の診断の再表示、0問時の表示を追加。4ルートは設計のみ（T-48） | src/apps/course-quiz/, 20hours-course-template.md §1-1 | [2026-10-31-T-53-diagnosis-routing.md](2026-10-31-T-53-diagnosis-routing.md) |
 | T-20 | 2026-10-31 | 施策 | 20時間コース, 生成AIパスポート, スキャフォールド | src/data/course/genai-pass/（index＋8章、draft） | scaffold-course.cjs に genai-pass と --mdx を追加し骨組みを生成。表示・ビルドを確認、T-21 の指示書を作成 | .workspace/scripts/scaffold-course.cjs, .workspace/codex/orders/2026-10-31-T-21.md | [2026-10-31-T-20-genai-pass-scaffold.md](2026-10-31-T-20-genai-pass-scaffold.md) |
 | T-29 | 2026-10-31 | 施策 | マーケティング, 20時間コース, シリーズ設計 | マーケティング入門コースの構想 | ユーザー判断: 基礎講座＋3つの方向（コピーライティング・構想力・リサーチ戦略）に分ける。設計は marketing-series-plan.md | .workspace/.new-contentplan/marketing-course/ | [2026-10-31-T-29-marketing-direction.md](2026-10-31-T-29-marketing-direction.md) |
