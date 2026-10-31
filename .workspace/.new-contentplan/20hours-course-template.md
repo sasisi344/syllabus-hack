@@ -70,7 +70,8 @@ tags:
 - **問題数の根拠**: 章別判定をするには1章2〜3問が必要（1章1問だと1問の正誤で得意/苦手が決まってしまう）。8章なら16〜24問、診断の所要時間は0.5h以内に収める
 - **試験直前で時間がない読者**: 正答率に関わらず演習ルートを推奨する（旧「直前」パターンの役割）
 - **章別20時間型（SC等の最難関区分）**: 全体正答率の代わりに「重点章の数」で進め方を分ける既存の表（`src/data/course/sc/index.mdx`）を、本節の重点ルートの変種として扱う
-- **実装状況（2026-10-17時点）**: 未実装。現行の `ChapterQuiz`（`mode="diagnosis"`）は1問でも間違えた章を苦手章として列挙するだけで、ルート判定はない。また SC 以外の診断JSONは10問（1章1〜2問）。新規コースは本節に従い、既存コースは診断JSONの増問とルート表示の実装をセットで移行する
+- **実装状況（2026-10-31更新、T-53）**: 実装済み。`src/apps/course-quiz/`（`route.ts` の `getLearningRoute`・`getChapterScores`・`getWeakChapters`）。`ChapterQuiz`（`mode="diagnosis"`）の結果画面に、全体正答率・章別正答率の表（重点章を強調し章へリンク）・判定ルートと進め方・重点章リンク・試験直前の注意を出す。結果は localStorage に保存し、コースTOPに戻ると「前回の診断」としてルートと重点章を再表示する。問題が0問のときは「問題を準備中です」を出す。残り: 既存コースの診断JSONは10問のまま（T-18・T-19 で16〜24問に増やす）
+- **知識×経験の4ルート（マーケティング基礎講座、設計のみ）**: 診断の正答率で「体系知識あり/なし」を、診断の前の自己申告1問（実践経験の有無。例を広くとる）で「経験あり/なし」を決め、`marketing-course-curriculum.md` §1 の4ルート（体験／言語化／実践／演習）に振り分ける。実装は `ChapterQuiz` に任意の props（自己申告の質問と、2×2のルート表）を足す形にし、資格コースの3ルートの動きは変えない。T-48 でコースの examId と事前チェックの形が決まってから作る
 
 ## 2. コースTOPページ（`/course/{examId}/`）の構成
 
@@ -202,9 +203,10 @@ metadata:
 
 ## 6. 進捗・計測
 
-- localStorage `sh_course_{examId}`: `{ diagnosis: { chapterScores: {1: 0.5, …}, takenAt }, completedChapters: [1,2], reviewScore, lastUpdated }`
+- localStorage `sh_course_{examId}`: `{ completedChapters: [1,2], diagnosisResult: { correctCount, totalCount, weakChapters: [1,8], chapterScores: {1: {correct, total}, …}, route, answeredAt }, lastUpdated }`（型は `src/apps/course-quiz/types.ts`）
 - GA4イベント（実装済み・2026-10-17時点）: `quiz_start` / `quiz_complete`（`quiz_mode` で diagnosis / chapter を区別、`correct_count`・`total_count` 付き）/ `chapter_complete` / `course_complete` / `course_nav_click`。送信は `src/utils/ga.ts` の `trackEvent`
-- GA4イベント（未実装・追加予定）: `route_assigned`（§1-1の判定ルートを `route: practice|focus|basic` で送る）/ `gate_submit` / `note_click`
+- GA4イベント `route_assigned`（§1-1の判定ルートを `route: practice|focus|basic` で送る）: 実装済み
+- GA4イベント（未実装・追加予定）: `gate_submit` / `note_click`
 
 ## 7. 新しい資格へ展開する手順
 
