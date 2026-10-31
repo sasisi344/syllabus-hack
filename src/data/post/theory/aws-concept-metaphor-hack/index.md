@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-04-05T00:00:00Z
-lastmod: 2026-07-12
+lastmod: 2026-10-31
 title: '【AWS】Mermaid構成図の作り方：3つの視点と題目サンプルで設計意図まで言語化する'
 excerpt: 'AWSのMermaid構成図を実務で使える粒度で作る方法を解説。要件分解・境界/経路・設計理由の3視点と題目サンプルで、レビューに通る図の作成手順がわかります。'
 persona: 'クラウド学習でカタカナ用語の羅列に挫折している、文系・非エンジニア'
@@ -74,6 +74,56 @@ metadata:
 - 境界(Subnet/VPC)をサブグラフで表現
 - 許可通信のみ実線、禁止・非直結は注記
 ```
+
+### ChatGPTで実行した結果
+
+このプロンプトを、ChatGPT（有料プラン）で実行しました（2026年10月）。
+
+返ってきたコードを、そのまま表示したのが次の図です（先頭のタイトル行だけ、図の下のキャプションに移しています）。
+
+```mermaid caption="ChatGPTが出力した「Public/Private Subnetの経路設計」の図"
+graph TD
+    Internet["Internet"]
+
+    subgraph VPC["VPC"]
+        IGW["Internet Gateway"]
+
+        subgraph Public["Public Subnet"]
+            ALB["ALB"]
+            NAT["NAT Gateway"]
+            PublicNote["経路：0.0.0.0/0 → IGW"]
+        end
+
+        subgraph Private["Private Subnet"]
+            EC2["EC2"]
+            PrivateNote["経路：0.0.0.0/0 → NAT Gateway<br/>Internetからの直接接続は禁止"]
+        end
+
+        subgraph DB["DB Subnet"]
+            RDS["RDS"]
+            DBNote["RDSの受信はEC2のSGからのDBポートのみ許可<br/>IGW・NATへのデフォルト経路なし<br/>Internet・ALBからの直接接続は禁止"]
+        end
+
+        NATNote["NATはEC2が開始する外向き通信に使用<br/>InternetからEC2への新規接続は不可<br/>確立済み通信の応答は許可"]
+    end
+
+    Internet <-->|公開サービス通信・外向き通信| IGW
+    IGW -->|公開リスナーへのアクセス| ALB
+    ALB -->|アプリケーションポート| EC2
+    EC2 -->|外向き通信| NAT
+    NAT -->|外向き通信| IGW
+    EC2 -->|DBポート| RDS
+```
+
+実線の矢印は、許可された通信だけです。「InternetからEC2」「ALBからRDS」のような禁止された通信は線を引かず、注記のボックスに書かれています。プロンプトの制約どおりです。
+
+プロンプトに書いていない点まで、注記に入っていました。
+
+- 各サブネットのルートテーブルの行き先（Publicは `0.0.0.0/0 → IGW`、Privateは `0.0.0.0/0 → NAT Gateway`）
+- RDSへの受信を、EC2の<strong>セキュリティグループ（SG）</strong>からのDBポートに絞ること
+- NAT Gatewayは、EC2から始めた通信の応答は通すが、外からの新規接続は通さないこと
+
+どれもSAAで問われる設定です。ただし、ポート番号やSGのルールは図に書かれていないので、実際の値は自分で決めて書き足します。
 
 この視点では、<strong>境界</strong>と <strong>経路</strong> を分けて設計するのがコツです。VPC、サブネット、セキュリティグループ、ネットワークACLといった境界線を明確にし、それぞれの境界を越える通信がどのように許可・制御されているかを図示することで、システム全体のセキュリティモデルを視覚的に把握できます。例えば、ALB（Application Load Balancer）がPublic Subnetに配置され、Internet Gateway（IGW）を通じてインターネットからのトラフィックを受け付ける様子や、Private Subnet内のEC2インスタンスがNAT Gatewayを介してのみインターネットにアクセスする経路は、AWSのネットワーク設計の基本です。
 

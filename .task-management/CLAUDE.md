@@ -100,7 +100,7 @@
 ## サイト固有
 
 - 移行: 2026-10-31（旧 `.workspace/.task/TODO.md`・`schedule-task.md`・`w42-weekly-task.md` は `.workspace/archive/legacy/` に凍結。`genai-pass-task.md` は `.workspace/projects/genai-pass/`）。旧→新の対応は `.workspace/.task/README.md`
-- 作業層のうち、まだ `.workspace/.task/` に残しているもの（T-44 で移す）: `access-data/`（`/weekly-report` が参照）、`adsense-inventory/`（棚卸し）、`course-seat-notes.md`（コースの隣の席コメントの進み具合）、`exam-id-catalog.md`、`ai-example-prompts-2026-10-28.md`、`archive/`（旧アーカイブ。読むだけ）
+- 作業層のうち、まだ `.workspace/.task/` に残しているもの（T-44 で移す）: `access-data/`（`/weekly-report` が参照）、`adsense-inventory/`（棚卸し）、`course-seat-notes.md`（コースの隣の席コメントの進み具合）、`exam-id-catalog.md`、`ai-example-prompts-2026-10-28.md`・`ai-example-prompts-2026-10-31.md`（T-01 の入力シート）、`archive/`（旧アーカイブ。読むだけ）
 - 記事の素材（ネタ・アウトライン・KW）は `inbox.md` ではなく `.workspace/_inbox/`・`.workspace/draft/` に置く
 - 11月の計画: 全面リライトは `.workspace/projects/rewrite-2026-11/`（基準・ウェーブ表・進み具合・指示書の生成スクリプト）、20時間コースは `.workspace/projects/course-expansion-2026-11/`
 - Codex の指示書は `.workspace/codex/orders/`、報告書は `.workspace/codex/reports/`。リライトの指示書は `plan.py orders` で作る
