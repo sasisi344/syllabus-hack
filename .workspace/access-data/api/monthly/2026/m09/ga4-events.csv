@@ -1,0 +1,6 @@
+﻿eventName,pagePath,sessionSource,eventCount,totalUsers
+click,/app/sg-quiz/,bing,9,1
+click,/app/boki-shiwake-drill/,bing,1,1
+click,/app/sg-subject-b-quiz/,bing,1,1
+click,/course/ai-work/,(direct),1,1
+file_download,/course/ai-work/05-excel-spreadsheet/,(direct),1,1

@@ -1,0 +1,12 @@
+﻿deviceCategory,sessionDefaultChannelGroup,sessions,engagedSessions,engagementRate,userEngagementDuration,keyEvents
+desktop,Organic Search,670,468,0.6985074626865672,40567,0
+mobile,Organic Search,129,76,0.5891472868217055,7383,0
+desktop,Direct,113,26,0.23008849557522124,1886,0
+mobile,Referral,15,4,0.26666666666666666,317,0
+desktop,Unassigned,14,7,0.5,5409,0
+desktop,Organic Social,12,6,0.5,31,0
+desktop,Referral,12,5,0.4166666666666667,842,0
+mobile,Direct,10,4,0.4,432,0
+mobile,Organic Social,4,1,0.25,6,0
+desktop,AI Assistant,1,1,1,21,0
+tablet,Organic Search,1,1,1,28,0

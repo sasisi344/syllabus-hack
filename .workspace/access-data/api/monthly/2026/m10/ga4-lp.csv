@@ -1,0 +1,326 @@
+﻿landingPage,sessionSource,country,sessions,activeUsers,engagedSessions,engagementRate,userEngagementDuration,keyEvents
+(not set),bing,Japan,51,43,1,0.0196078431372549,317,0
+/career/kougyou-koukou-shikaku-ichiran,bing,Japan,43,41,37,0.8604651162790697,5366,0
+/theory/shikaku-teate-kazei,bing,Japan,40,39,30,0.75,2244,0
+/career/shikaku-teate-soba-ichiran,bing,Japan,33,29,28,0.8484848484848485,1647,0
+/method/ap-discard-strategy,google,Japan,29,28,20,0.6896551724137931,1934,0
+/method/advanced-ipa-hub,bing,Japan,19,18,13,0.6842105263157895,1679,0
+/theory/shikaku-kamoku-menjo-ichiran,bing,Japan,19,19,16,0.8421052631578947,380,0
+/method/doboku-sekou-hub,bing,Japan,17,16,13,0.7647058823529411,985,0
+/trend/fintech-it-cert-intro,bing,Japan,17,17,13,0.7647058823529411,1575,0
+/app/ap-quiz,duckduckgo,Japan,15,1,5,0.3333333333333333,1116,0
+/trend/kokka-shikakuka-yotei-ichiran,bing,Japan,15,15,13,0.8666666666666667,996,0
+/method/nw-mermaid-hack,google,Japan,14,13,9,0.6428571428571429,400,0
+/theory/takken-koushin-hiyou,bing,Japan,14,14,13,0.9285714285714286,1653,0
+/career/shikaku-teate-soba-ichiran,l.threads.com,Japan,12,12,3,0.25,125,0
+/method/chiteki-zaisan-hub,bing,Japan,12,12,11,0.9166666666666666,743,0
+/method/mos-hub,bing,Japan,12,12,12,1,656,0
+/theory/ccna-vlan-stp,bing,Japan,12,11,8,0.6666666666666666,588,0
+/method/ap-hub,bing,Japan,11,5,4,0.36363636363636365,421,0
+/method/new-ipa-exam-study-strategy,google,Japan,11,10,7,0.6363636363636364,572,0
+/trend/cbt-exam-venue-booking-tips,google,Japan,11,11,8,0.7272727272727273,402,0
+/trend/syllabus-ver9-update,bing,Japan,11,11,7,0.6363636363636364,292,0
+/method/ap-pm-descriptive-ai-prompts,google,Japan,10,10,7,0.7,230,0
+/method/bilmen-4tenset-junban,bing,Japan,9,8,9,1,645,0
+/method/reitoukikai-3shu-iranai,google,Japan,9,5,7,0.7777777777777778,617,0
+/theory/cloud-saas-paas-iaas-basics,bing,Japan,9,9,7,0.7777777777777778,784,0
+/theory/shiken-dentaku-mochikomi-kitei,bing,Japan,9,9,8,0.8888888888888888,293,0
+/method/ap-discard-strategy,bing,Japan,8,7,4,0.5,258,0
+/theory/shiken-jyuken-hairyo-shinsei,bing,Japan,8,8,5,0.625,399,0
+/,(direct),Japan,7,5,5,0.7142857142857143,351,0
+/app/ap-quiz,bing,Japan,7,7,4,0.5714285714285714,571,0
+/career/shikaku-teate-soba-ichiran,(direct),Japan,7,7,3,0.42857142857142855,63,0
+/method/cbt-2026-syllabus-complete-guide,bing,Japan,7,6,6,0.8571428571428571,163,0
+/method/sg-hub,bing,Japan,7,6,5,0.7142857142857143,632,0
+(not set),google,Japan,6,4,0,0,46,0
+/,search.google.com,Japan,6,1,5,0.8333333333333334,257,0
+/app/ap-subject-b,(direct),Japan,6,0,0,0,0,0
+/app/it-passport-quiz,bing,Japan,6,6,3,0.5,89,0
+/career/ipa-certification-salary-impact,bing,Japan,6,6,6,1,479,0
+/career/shikaku-iji-hi-ichiran,bing,Japan,6,5,5,0.8333333333333334,293,0
+/method/cbt-2026-syllabus-complete-guide,google,Japan,6,6,4,0.6666666666666666,138,0
+/method/reitoukikai-3shu-iranai,bing,Japan,6,6,6,1,512,0
+/method/shobo-setsubi-hub,bing,Japan,6,6,5,0.8333333333333334,596,0
+/trend/sg-syllabus-latest-change-guide,bing,Japan,6,6,4,0.6666666666666666,275,0
+/career/foreigner-japan-national-qualification,bing,Japan,5,5,5,1,390,0
+/career/shikaku-toroku-hiyou-ichiran,bing,Japan,5,5,5,1,846,0
+/method/boiler-refrigeration-hub,bing,Japan,5,5,4,0.8,210,0
+/theory/algorithm-search-sort,bing,Japan,5,5,3,0.6,446,0
+/trend/boki-zensho-vs-nissho-comparison-hack,bing,Japan,5,5,5,1,286,0
+(not set),copilot.com,Japan,4,1,0,0,369,0
+/app/ap-subject-b,google,Japan,4,4,2,0.5,64,0
+/career/ipa-new-exam-target-guide,bing,Japan,4,4,3,0.75,197,0
+/method/ap-discard-strategy,(direct),Japan,4,4,1,0.25,49,0
+/method/ap-discard-strategy,yahoo,Japan,4,4,4,1,261,0
+/method/boki-hub,bing,Japan,4,1,2,0.5,525,0
+/method/doboku-sekou-hub,google,Japan,4,4,3,0.75,191,0
+/method/nw-mermaid-hack,bing,Japan,4,4,4,1,224,0
+/theory/ui-ux-accessibility-universal-design,bing,Japan,4,4,1,0.25,31,0
+/trend/cbt-tokubetsu-sochi-guide,bing,Japan,4,4,3,0.75,139,0
+/app/fp2-calc-drill,bing,Japan,3,3,2,0.6666666666666666,404,0
+/career/kougyou-koukou-shikaku-ichiran,google,Japan,3,3,1,0.3333333333333333,80,0
+/method/fp-hub,bing,Japan,3,3,3,1,551,0
+/method/kikai-hozen-ginoushi-dokugaku,bing,Japan,3,3,2,0.6666666666666666,274,0
+/method/notebooklm-features-guide,bing,Japan,3,3,2,0.6666666666666666,22,0
+/method/notebooklm-features-guide,google,Japan,3,3,3,1,238,0
+/theory/ccna-vlan-stp,(direct),Japan,3,3,2,0.6666666666666666,38,0
+/theory/denken3-sennin-teate,bing,Japan,3,3,2,0.6666666666666666,72,0
+/theory/mos-exam-format-scoring-basics,bing,Japan,3,2,1,0.3333333333333333,68,0
+/trend/ccna-vs-aws-saa,(direct),Japan,3,2,0,0,0,0
+/trend/ccna-vs-aws-saa,bing,Japan,3,2,1,0.3333333333333333,73,0
+/trend/exam-application-to-exam-period-table,(direct),Japan,3,2,1,0.3333333333333333,132,0
+/trend/itp-vs-info1-comparison-hack,bing,Japan,3,3,2,0.6666666666666666,108,0
+/trend/kokka-shikakuka-yotei-ichiran,google,Japan,3,3,3,1,115,0
+/trend/touroku-nihongo-kyouin-keika-sochi,bing,Japan,3,2,2,0.6666666666666666,295,0
+(not set),(direct),Japan,2,2,0,0,0,0
+(not set),(not set),Japan,2,2,0,0,156,0
+(not set),search.google.com,Japan,2,1,0,0,0,0
+/app/g-kentei-mock-exam,google,Japan,2,2,2,1,752,0
+/career/ccna-network-engineer-career,(direct),Japan,2,1,0,0,0,0
+/career/ccna-network-engineer-career,bing,Japan,2,1,1,0.5,132,0
+/career/eisei-kanrisha-sennin-kotowaru,bing,Japan,2,2,2,1,350,0
+/career/kougyou-koukou-shikaku-ichiran,facebook.com,United States,2,2,2,1,10,0
+/career/portfolio-vs-cert,google,Japan,2,2,2,1,124,0
+/career/shuukatsu-shikaku-imi-nai,google,Japan,2,1,0,0,0,0
+/course/g-kentei,(direct),(not set),2,2,0,0,0,0
+/course/g-kentei,google,Japan,2,2,2,1,301,0
+/course/g-kentei,mail.nifty.com,Japan,2,1,2,1,425,0
+/course/g-kentei/02-machine-learning-basics,google,Japan,2,1,0,0,0,0
+/course/pd-s/06-development-methodology-devops,google,Japan,2,1,0,0,0,0
+/method/cbt-2026-syllabus-complete-guide,(direct),Japan,2,2,2,1,98,0
+/method/cbt-2026-syllabus-complete-guide,yahoo,Japan,2,2,2,1,512,0
+/method/chatgpt-cert-complete,bing,Japan,2,2,1,0.5,40,0
+/method/chatgpt-itpassport-ai-complete-guide,bing,Japan,2,2,2,1,445,0
+/method/denken-hub,bing,Japan,2,2,2,1,712,0
+/method/fe-hub,bing,Japan,2,2,1,0.5,210,0
+/method/fp-hub,(direct),Japan,2,2,2,1,102,0
+/method/fp-hub,google,Japan,2,2,2,1,27,0
+/method/g-kentei-hub,copilot.com,Japan,2,1,2,1,2263,0
+/method/inbasket-taisaku-dokugaku,google,Japan,2,2,2,1,107,0
+/method/itp-name-change-marriage-hack,bing,Japan,2,2,2,1,44,0
+/method/kikai-hozen-ginoushi-dokugaku,google,Japan,2,2,2,1,72,0
+/method/secretarial-cost-time-knowledge,bing,Japan,2,2,2,1,51,0
+/method/sg-hub,(direct),Japan,2,2,0,0,0,0
+/method/shobo-setsubi-hub,(direct),Japan,2,2,2,1,378,0
+/theory/bios-device-driver,bing,Japan,2,1,0,0,8,0
+/theory/hicchi-shikaku-toha,openai,Japan,2,1,1,0.5,62,0
+/theory/mos-excel-function-basics,bing,Japan,2,2,1,0.5,59,0
+/theory/ppm-portfolio,bing,Japan,2,2,0,0,5,0
+/theory/shikaku-kamoku-menjo-ichiran,google,Japan,2,2,1,0.5,26,0
+/theory/shiken-dentaku-mochikomi-kitei,(direct),Japan,2,2,0,0,4,0
+/trend/cbt-exam-venue-booking-tips,bing,Japan,2,2,2,1,41,0
+/trend/ccna-vs-aws-saa,google,Japan,2,2,0,0,0,0
+/trend/dei-diversity-equity-inclusion,bing,Japan,2,2,1,0.5,31,0
+/trend/fe-pseudo-language-trap,aocr.org,Singapore,2,2,0,0,0,0
+/trend/fintech-it-cert-intro,(direct),Japan,2,2,1,0.5,54,0
+/trend/fp2-jitsuki-comparison,bing,Japan,2,2,2,1,53,0
+/trend/ipa-2026-cbt-schedule-guide,bing,Japan,2,2,0,0,7,0
+/trend/sg-syllabus-latest-change-guide,google,Japan,2,2,1,0.5,34,0
+(not set),duckduckgo,Japan,1,1,0,0,0,0
+(not set),mail.nifty.com,Japan,1,1,0,0,0,0
+/,(direct),Canada,1,1,0,0,2,0
+/,(direct),China,1,1,0,0,0,0
+/,(direct),Germany,1,1,0,0,0,0
+/,(direct),Taiwan,1,1,0,0,0,0
+/,duckduckgo,Japan,1,1,1,1,22,0
+/,facebook.com,United States,1,1,0,0,0,0
+/,google,Japan,1,1,1,1,249,0
+/,google,Thailand,1,1,1,1,5,0
+/,threads,Japan,1,1,1,1,6,0
+/,wnnkd.com,China,1,1,0,0,0,0
+/about,(direct),China,1,1,0,0,0,0
+/app/ap-quiz,menlo01e.npa.go.jp,Japan,1,1,0,0,0,0
+/app/ap-subject-b,bing,Japan,1,1,1,1,19,0
+/app/fe-quiz,bing,Japan,1,1,1,1,499,0
+/app/flashcard-app,bing,Japan,1,1,0,0,3,0
+/app/gemini-cli-quiz-maker,aocr.org,United States,1,1,0,0,0,0
+/app/genai-ip-quiz,bing,Japan,1,1,1,1,29,0
+/app/genai-passport-quiz,google,Japan,1,1,1,1,185,0
+/app/sc-specialist-quiz,google,Japan,1,1,1,1,16,0
+/career/advanced-ipa-certification-high-salary-impact,bing,Japan,1,1,1,1,88,0
+/career/ai-data-career,bing,Japan,1,1,1,1,101,0
+/career/biru-kanri-jitsumu-keiken-roadmap,google,Japan,1,1,0,0,0,0
+/career/boki-keiri-career-roadmap,bing,Japan,1,1,1,1,25,0
+/career/eisei-kanrisha-kaisha-kara-torasareru,bing,Japan,1,1,1,1,38,0
+/career/fe-engineer-foundation,google,Japan,1,1,1,1,120,0
+/career/foreigner-japan-national-qualification,bing,China,1,1,1,1,84,0
+/career/foreigner-japan-national-qualification,google,China,1,1,0,0,0,0
+/career/ipa-certification-income,bing,Japan,1,1,1,1,18,0
+/career/ipa-certification-salary-impact,(direct),Japan,1,1,0,0,0,0
+/career/kensetsugyou-keirishi-keishin-katen,bing,Japan,1,1,1,1,575,0
+/career/kougyou-koukou-shikaku-ichiran,l.threads.com,Japan,1,1,1,1,192,0
+/career/kougyou-koukou-shikaku-ichiran,note.com,Japan,1,1,1,1,9,0
+/career/sc-unregistered-benefit-hack,bing,Japan,1,1,1,1,32,0
+/career/shikaku-teate-soba-ichiran,facebook.com,United States,1,1,0,0,0,0
+/career/shikaku-teate-soba-ichiran,l.threads.com,United States,1,1,0,0,0,0
+/career/shikaku-toroku-hiyou-ichiran,google,Japan,1,1,0,0,0,0
+/career/shoukaku-shiken-ochita,bing,Japan,1,1,1,1,244,0
+/career/shuukatsu-shikaku-imi-nai,bing,Japan,1,1,1,1,44,0
+/career/shuukatsu-shikaku-imi-nai,facebook.com,United States,1,1,1,1,4,0
+/career/toeic-shoushin-youken-kigyou,bing,Thailand,1,1,1,1,21,0
+/category/app/3,google,Japan,1,1,0,0,7,0
+/category/method,bing,Japan,1,1,1,1,38,0
+/category/trend/8,(direct),China,1,1,0,0,0,0
+/certifications,(direct),China,1,1,0,0,0,0
+/contact,(direct),Japan,1,1,1,1,28,0
+/course,google,Japan,1,1,1,1,247,0
+/course,search.google.com,Japan,1,1,1,1,7,0
+/course/ai-work/02-support-faq,(direct),China,1,1,0,0,1,0
+/course/g-kentei,copilot.com,Japan,1,1,1,1,32,0
+/course/g-kentei,notebook.google.com,Japan,1,1,1,1,192,0
+/course/g-kentei/01-ai-history,copilot.com,Japan,1,1,1,1,448,0
+/course/g-kentei/02-machine-learning-basics,copilot.com,Japan,1,1,0,0,0,0
+/course/g-kentei/03-deep-learning-theory,copilot.com,Japan,1,1,1,1,0,0
+/course/g-kentei/04-nn-elements,copilot.com,Japan,1,1,1,1,179,0
+/course/g-kentei/08-ai-law-ethics-governance,(direct),Netherlands,1,1,0,0,0,0
+/course/g-kentei/08-ai-law-ethics-governance,yahoo,Japan,1,1,0,0,2,0
+/course/ip,search.google.com,Japan,1,1,1,1,72,0
+/course/ip/06-network-database,(direct),Japan,1,1,1,1,28,0
+/course/pd-m/06-governance-audit-legal,google,Japan,1,1,1,1,39,0
+/course/sc/01-threat-basics-malware,bing,Japan,1,1,1,1,523,0
+/course/sc/05-isms-operational-controls,(direct),China,1,1,0,0,5,0
+/method/advanced-ipa-hub,(direct),Japan,1,1,0,0,0,0
+/method/ap-discard-strategy,google,Thailand,1,1,0,0,0,0
+/method/ap-discard-strategy,m.facebook.com,United States,1,1,0,0,0,0
+/method/ap-grader-blackbox-hack,bing,Japan,1,1,1,1,64,0
+/method/ap-grader-intent-hack,google,Japan,1,1,0,0,0,0
+/method/ap-hub,duckduckgo,Japan,1,1,1,1,13,0
+/method/aws-hub,google,Japan,1,1,1,1,91,0
+/method/boki-genka-keisan-wakaranai-hack,bing,Japan,1,1,0,0,6,0
+/method/boki-shiwake-drill-hack,bing,Japan,1,1,1,1,45,0
+/method/boki2kyuu-tsugi-shikaku,google,Japan,1,1,0,0,0,0
+/method/calc-problem-abandon-strategy,(direct),China,1,1,0,0,0,0
+/method/cbt-2026-syllabus-complete-guide,(direct),(not set),1,1,0,0,0,0
+/method/ccna-liberal-arts-roadmap,bing,Japan,1,0,0,0,0,0
+/method/chatgpt-cert-complete,ecosia.org,Japan,1,1,1,1,0,0
+/method/denken-bunkei-shakaijin-hack,google,Japan,1,1,1,1,19,0
+/method/dm-kakomon-nashi-ai-mondai-hack,facebook.com,United States,1,1,0,0,0,0
+/method/ds-kentei-hub,bing,Japan,1,1,0,0,0,0
+/method/ds-kentei-hub,bing,South Korea,1,1,1,1,22,0
+/method/exam-final-10-days,(direct),China,1,1,0,0,0,0
+/method/fe-subject-b-ai-prompt-hub,(direct),Japan,1,1,1,1,242,0
+/method/fe-subject-b-ai-prompt-hub,bing,Japan,1,1,1,1,166,0
+/method/fe-subject-b-drill,bing,Japan,1,1,0,0,7,0
+/method/fe-subject-b-drill,google,Japan,1,1,1,1,17,0
+/method/g-kentei-math-statistics-hack,(direct),(not set),1,1,0,0,0,0
+/method/gemini-cert-complete,(direct),China,1,1,0,0,0,0
+/method/gemini-cert-complete,bing,Japan,1,1,1,1,175,0
+/method/itp-name-change-marriage-hack,(direct),China,1,1,0,0,0,0
+/method/kikai-hozen-ginoushi-dokugaku,duckduckgo,Japan,1,1,0,0,0,0
+/method/kiken-butsu-hub,bing,Japan,1,1,0,0,2,0
+/method/logical-memory-linkage-hack,(direct),China,1,1,0,0,0,0
+/method/miro-diagram-thinking,bing,Japan,1,1,1,1,38,0
+/method/mos-excel-expert-difficulty,bing,Japan,1,1,1,1,13,0
+/method/mos-hub,(direct),Japan,1,1,1,1,73,0
+/method/musk-semantic-tree-fundamentals,facebook.com,United States,1,1,1,1,5,0
+/method/new-ipa-exam-study-strategy,bing,Japan,1,1,1,1,13,0
+/method/new-ipa-exam-study-strategy,yahoo,Japan,1,1,1,1,40,0
+/method/notebooklm-features-guide,(direct),(not set),1,1,0,0,0,0
+/method/notebooklm-features-guide,yahoo,Japan,1,1,1,1,74,0
+/method/notebooklm-ip-study-hack,l.threads.com,Japan,1,1,0,0,0,0
+/method/notebooklm-ip-study-hack,m.facebook.com,United States,1,1,0,0,0,0
+/method/nw-kakomon-ai-hack,google,Japan,1,1,1,1,8,0
+/method/nw-mermaid-hack,facebook.com,United States,1,1,1,1,7,0
+/method/pc-selection-guide,bing,Japan,1,1,1,1,144,0
+/method/pm-pm2-module-hack,google,Japan,1,1,1,1,33,0
+/method/pomodoro-anki-technique,google,Japan,1,1,1,1,12,0
+/method/practice-guide-ipa,bing,Japan,1,1,1,1,18,0
+/method/sc-hub,bing,Japan,1,1,1,1,38,0
+/method/sc-hub,google,Japan,1,1,1,1,84,0
+/method/sg-news-study-hack,(direct),China,1,1,0,0,0,0
+/method/shikaku-benkyou-akirameru-timing,google,Japan,1,1,1,1,78,0
+/method/shobo-setsubi-hub,(direct),China,1,1,0,0,0,0
+/method/shobo-setsubi-hub,google,Japan,1,1,1,1,78,0
+/method/shobo-setsubi-kanbetsu-ai-hack,yahoo,Japan,1,1,0,0,0,0
+/method/shobo-setsubi-otsu6-fail-diagnosis,bing,Japan,1,1,1,1,87,0
+/method/sql-join-visual-ai-hack,bing,Japan,1,1,0,0,0,0
+/method/takken-minpou-ai-memory-hack,google,Japan,1,1,0,0,4,0
+/method/typing-speed-cbt,bing,Japan,1,1,1,1,85,0
+/method/zaigakuchuu-takken-itsu-ukeru,copilot.com,Japan,1,1,1,1,21,0
+/tag/ai,(direct),China,1,1,0,0,0,0
+/tag/anthropic,(direct),China,1,1,0,0,0,0
+/tag/bi,(direct),China,1,1,0,0,0,0
+/tag/bpm,(direct),China,1,1,0,0,0,0
+/tag/da4-xue2-sheng1,(direct),China,1,1,0,0,0,0
+/tag/dx,(direct),China,1,1,0,0,0,0
+/tag/g-jian3-ding4/2,(direct),China,1,1,0,0,0,0
+/tag/itriterash,(direct),China,1,1,0,0,0,0
+/tag/jia1-shi4-zhi1-yuan2,(direct),China,1,1,0,0,0,0
+/tag/ke1-mu4-a,(direct),China,1,1,0,0,0,0
+/tag/mi4-shu1-jian3-ding4,(direct),China,1,1,0,0,0,0
+/tag/nft,(direct),China,1,1,0,0,0,0
+/tag/office-zi1-ge2,(direct),China,1,1,0,0,0,0
+/tag/pm,(direct),China,1,1,0,0,0,0
+/tag/risuku,(direct),China,1,1,0,0,0,0
+/tag/rru,(direct),China,1,1,0,0,0,0
+/tag/saas,(direct),China,1,1,0,0,0,0
+/tag/shi4-yan4-yu3-xiang3,(direct),China,1,1,0,0,0,0
+/tag/te4-xu1,(direct),China,1,1,0,0,0,0
+/terms,(direct),China,1,1,0,0,0,0
+/theory/binary-hexadecimal-basics,bing,Japan,1,1,1,1,25,0
+/theory/ccna-routing-protocols,bing,Japan,1,1,1,1,28,0
+/theory/cloud-saas-paas-iaas-basics,(direct),Japan,1,1,1,1,0,0
+/theory/compliance,bing,Japan,1,1,1,1,55,0
+/theory/core-competence,bing,Japan,1,1,0,0,0,0
+/theory/corporate-finance-pl-bs-cf-roi-basics,bing,Japan,1,1,1,1,48,0
+/theory/corporate-finance-pl-bs-cf-roi-basics,bing,Vietnam,1,1,0,0,8,0
+/theory/corporate-mission-mvv,bing,Japan,1,1,1,1,11,0
+/theory/data-structures-basics,bing,Japan,1,1,0,0,6,0
+/theory/data-warehouse-mining-regression-basics,(direct),China,1,1,0,0,0,0
+/theory/data-warehouse-mining-regression-basics,(direct),Singapore,1,1,0,0,0,0
+/theory/data-warehouse-mining-regression-basics,google,Japan,1,1,1,1,21,0
+/theory/denken3-sennin-teate,google,Japan,1,1,1,1,61,0
+/theory/fe-network-basics,bing,Japan,1,1,0,0,0,0
+/theory/hicchi-shikaku-toha,(direct),China,1,1,0,0,0,0
+/theory/labor-standards-act-36-agreement,(direct),Japan,1,1,1,1,0,0
+/theory/ml-supervised-unsupervised,bing,Japan,1,1,1,1,22,0
+/theory/ml-supervised-unsupervised,copilot.com,Japan,1,1,1,1,1962,0
+/theory/mos-exam-format-scoring-basics,google,Japan,1,1,0,0,1,0
+/theory/os-operating-systems,(direct),Japan,1,1,0,0,0,0
+/theory/os-operating-systems,bing,Japan,1,1,1,1,172,0
+/theory/product-life-cycle,bing,Japan,1,1,0,0,0,0
+/theory/project-service-management-overview,bing,Japan,1,1,1,1,15,0
+/theory/project-service-management-overview,google,Japan,1,1,1,1,13,0
+/theory/security-controls-crypto-incident-basics,(direct),China,1,1,0,0,0,0
+/theory/sets-logical-operations,bing,Japan,1,1,1,1,14,0
+/theory/shikaku-kamoku-menjo-ichiran,(direct),Japan,1,1,1,1,40,0
+/theory/shikaku-kamoku-menjo-ichiran,bing,United States,1,1,1,1,0,0
+/theory/statistics-mean-variance-probability-sampling,bing,Japan,1,1,0,0,5,0
+/theory/swot-analysis,(direct),Japan,1,1,1,1,19,0
+/theory/white-black-box-testing,(direct),Japan,1,1,0,0,7,0
+/trend/agile-development,(direct),China,1,1,0,0,0,0
+/trend/ai-opt-out-policy,bing,Japan,1,1,1,1,124,0
+/trend/cbt-exam-venue-booking-tips,(direct),United States,1,1,0,0,0,0
+/trend/cbt-exam-venue-booking-tips,m.facebook.com,United States,1,1,0,0,0,0
+/trend/cbt-exam-venue-booking-tips,yahoo,Japan,1,1,0,0,0,0
+/trend/ccna-vs-aws-saa,yahoo,Japan,1,1,1,1,250,0
+/trend/e-shikaku,(direct),China,1,1,0,0,0,0
+/trend/exam-application-to-exam-period-table,facebook.com,United States,1,1,0,0,0,0
+/trend/exec-security-investment-ai-era,facebook.com,United States,1,1,0,0,0,0
+/trend/fe-pseudo-language-trap,aocr.org,United Kingdom,1,1,0,0,0,0
+/trend/fintech-it-cert-intro,google,Japan,1,1,1,1,39,0
+/trend/fp-reskilling-fit-check,(direct),China,1,1,0,0,0,0
+/trend/fp-why-2kyu-is-standard,bing,Japan,1,1,1,1,64,0
+/trend/g-kentei-2026-syllabus-trend,bing,Japan,1,1,1,1,37,0
+/trend/g-kentei-2026-syllabus-trend,google,Japan,1,1,0,0,3,0
+/trend/genai-passport-2027-syllabus-changes,(direct),Japan,1,1,0,0,0,0
+/trend/genai-passport-2027-syllabus-changes,l.meta.ai,Japan,1,1,1,1,216,0
+/trend/genai-passport-vs-it-passport,bing,Japan,1,1,1,1,480,0
+/trend/genai-risk-cases-explained,(direct),United States,1,1,0,0,1,0
+/trend/genai-syllabus-integration,(direct),China,1,1,0,0,0,0
+/trend/ipa-2026-cbt-schedule-guide,(direct),Japan,1,1,1,1,11,0
+/trend/ipa-2026-cbt-schedule-guide,google,Japan,1,1,1,1,47,0
+/trend/ipa-2027-restructuring,(direct),Japan,1,1,1,1,32,0
+/trend/ipa-2027-restructuring,bing,Japan,1,1,0,0,0,0
+/trend/ipa-certification-overseas-mutual-recognition,(direct),Singapore,1,1,0,0,0,0
+/trend/ipa-certification-overseas-mutual-recognition,bing,Japan,1,1,0,0,0,0
+/trend/it-passport-shame-debate,(direct),China,1,1,0,0,0,0
+/trend/it-passport-shame-debate,facebook.com,United States,1,1,1,1,5,0
+/trend/kokka-shikakuka-yotei-ichiran,openai,Japan,1,1,1,1,32,0
+/trend/multi-modal-ai,(direct),China,1,1,0,0,0,0
+/trend/pm-ai-quality-management,(direct),China,1,1,0,0,0,0
+/trend/ransomware-security,(direct),China,1,1,0,0,0,0
+/trend/secretarial-why-bosses-recommend,bing,Japan,1,1,1,1,13,0
+/trend/security-incident-prevention-basics,facebook.com,Ireland,1,1,0,0,0,0
+/trend/sg-syllabus-latest-change-guide,(direct),Argentina,1,1,0,0,0,0
+/trend/sg-syllabus-latest-change-guide,(direct),Japan,1,1,1,1,560,0
