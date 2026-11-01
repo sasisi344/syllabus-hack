@@ -129,7 +129,7 @@
 - 筆者は未受験。LEARNER_NOTE の候補は think（わかりにくさ）に限る
 - 第1〜4章（T-21）は 2026-11-01 に検収済み（records/2026-11-01-T-21-genai-pass-ch1-4.md）。T-22 の指示書は T-21 の指示書 `.workspace/codex/orders/2026-10-31-T-21.md` をもとに、records の「次に使える知見」の3点（新規語の割り当てと抜けの報告・報告書を先に書く・outDir）を足して書く
 - 2026-11-01: 使用量の上限で止まらないよう2本に分けた。a（第5・6章と course-ch5・6.json）を `.workspace/codex/orders/2026-11-01-T-22a.md` で Codex に発行（task-mvx8n7c3-w8wos4）。b（第7・8章・コースTOP・course-ch7・8.json・診断16〜24問・総復習20問）は a の検収で見つけた点を足して書く。診断と総復習の JSON は T-23 ではなく b で作る（TOP の診断に要るため）
-- 2026-11-01: a を検収した（`.workspace/admin-review/2026-11-01-T-22a-genai-pass-ch5-6.md`。draft のまま公開可、直しは事例の帰属1か所）。b の分量が大きいので2本に分けた。b（第7・8章・course-ch7・8.json）を `.workspace/codex/orders/2026-11-01-T-22b.md` で発行（ジョブIDは下に追記）。c（コースTOP `index.mdx`・診断 `course-diagnosis.json` 16〜24問・総復習 `course-review.json` 20問）は b の検収後に、8章の本文を見てから書く
+- 2026-11-01: a を検収した（`.workspace/admin-review/2026-11-01-T-22a-genai-pass-ch5-6.md`。draft のまま公開可、直しは事例の帰属1か所）。b の分量が大きいので2本に分けた。b（第7・8章・course-ch7・8.json）を `.workspace/codex/orders/2026-11-01-T-22b.md` で発行（task-mvx9y20y-vh0oq0）。c（コースTOP `index.mdx`・診断 `course-diagnosis.json` 16〜24問・総復習 `course-review.json` 20問）は b の検収後に、8章の本文を見てから書く
 
 ### T-23 生成AIパスポート クイズ
 
