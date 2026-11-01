@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-05-31T00:00:00Z
-lastmod: 2026-10-31
+lastmod: 2026-11-01
 title: 'NotebookLM（Gemini Notebook）資格試験活用ガイド｜2026年版・機能別の使い倒し方'
 excerpt: 'NotebookLM（Gemini Notebook）の機能を、資格試験学習の困り事から選ぶガイド。公式資料の取り込み、チャットの引用確認、カード・音声・マップでの復習と、無料枠・ソース更新の確認方法を整理します。'
 image: '~/data/post/method/notebooklm-features-guide/cover.jpg'
@@ -190,8 +190,6 @@ NotebookLMに資料を追加し、自分の職業・生活に置き換える説�
 たとえ話が出てきたら、資料の定義と対応する部分、対応しない部分を確認します。生活上の例を、試験の正式な定義として覚えないようにします。
 
 <!-- AI_EXAMPLE: 使うAI=NotebookLM / プロンプト=本文のCRMを営業活動に例える指示 / 見せたいこと=たとえと資料の定義の対応を引用で確認 -->
-
-<!-- LEARNER_NOTE: 候補=CRMのたとえを原典に戻して確認した際の気づき / 種類=think / 筆者の実体験で記入 -->
 
 ### クイズ機能——説明できるかを確認する
 
