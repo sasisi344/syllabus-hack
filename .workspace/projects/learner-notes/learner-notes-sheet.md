@@ -1,0 +1,483 @@
+# LEARNER_NOTE 記入シート（T-15）
+
+- タスク: `.task-management/task.md` T-15。記事・コースに置いた LEARNER_NOTE の候補を、筆者が callout で書くか、要らなければ消す
+- 使い方: 各項目の「判定」に `記入` か `削除` を書く。`記入` のときは「種類」と「本文」を埋める。CC が記事の該当行（マーカー）を callout に置き換え、一覧の状態を `反映済` にする
+- 種類: `think`（ここ、引っかからない？）・`question`（この問題、ここが気になる）・`exp`（やってみて思ったこと）。`exp` は実際に受験・学習・実務で使った範囲だけ（`src/data/author-exam-status.ts`）。未受験の資格は think・question のみ。AIの実行結果への一言はどの記事でも書ける
+- 本文は1〜3文。「簡単です」「当然ですが」は使わない。解説は本文に任せる（CLAUDE.md「学習体験の共有ルール」）
+- 2026-11-01 時点の記事・コースのマーカーから作った（draft のコースを含む）。マーカーが増えたら CC が末尾に項目を足す（記入済みの欄は消さない）
+
+---
+
+## 一覧
+
+| # | ページ | 見出し | 種類（候補） | 状態 |
+|---|---|---|---|---|
+| 1 | /course/genai-pass/01-ai-basics-history/ | 種類を選ぶか、数値を出すか | think | 未記入 |
+| 2 | /course/genai-pass/01-ai-basics-history/ | 覚えた問題だけ得意にならないために | think | 未記入 |
+| 3 | /course/genai-pass/01-ai-basics-history/ | 期待と限界を分ける | think | 未記入 |
+| 4 | /course/genai-pass/02-genai-mechanism/ | 広く学ぶ、目的に合わせる、人が評価する | think | 未記入 |
+| 5 | /course/genai-pass/02-genai-mechanism/ | 揺らぎを変える設定の役割 | think | 未記入 |
+| 6 | /course/genai-pass/03-llm-models-modalities/ | 重みの公開と、利用条件を分ける | think | 未記入 |
+| 7 | /course/genai-pass/03-llm-models-modalities/ | サービスの特徴を公式情報で比べる | think | 未記入 |
+| 8 | /course/genai-pass/03-llm-models-modalities/ | 出どころの手がかりを読む | think | 未記入 |
+| 9 | /course/genai-pass/04-ai-agent-rag/ | 人が入る場所を先に決める | think | 未記入 |
+| 10 | /course/genai-pass/04-ai-agent-rag/ | 発展形を目的で見分ける | think | 未記入 |
+| 11 | /course/genai-pass/04-ai-agent-rag/ | 結果を見て修正し、条件で止める | think | 未記入 |
+| 12 | /career/shuukatsu-shikaku-imi-nai/ | Claudeで実行した結果 | think | 未記入 |
+| 13 | /method/ai-dj-pomodoro/ | Geminiで実行した結果 | think | 未記入 |
+| 14 | /method/aws-hub/ | AI対話でインフラ概念を理解する | think | 未記入 |
+| 15 | /method/bilmen-4tenset-junban/ | Geminiで試した結果：日程を渡さずに頼むとどうなるか | think | 未記入 |
+| 16 | /method/gemini-cert-complete/ | シラバス分野の概念理解 | think | 未記入 |
+| 17 | /method/new-ipa-exam-study-strategy/ | Geminiで実行した結果 | think | 未記入 |
+| 18 | /method/notebooklm-features-guide/ | 用語の自分事化——抽象概念を自分のことに変換する | think | 未記入 |
+| 19 | /method/nw-mermaid-hack/ | 手書きの図が合っているか、写真でAIに確かめる | think | 未記入 |
+| 20 | /method/secretarial-cost-time-knowledge/ | Claudeで実行した結果 | think | 未記入 |
+| 21 | /method/shobo-setsubi-kanbetsu-ai-hack/ | Claudeで試した結果：根拠を渡さずに頼むとどうなるか | think | 未記入 |
+| 22 | /method/takken-hub/ | 民法を「登場人物の関係図」にして理解する | think | 未記入 |
+| 23 | /theory/hicchi-shikaku-toha/ | ChatGPTで実行した結果 | think | 未記入 |
+| 24 | /theory/shikaku-kamoku-menjo-ichiran/ | ChatGPTで実行した結果 | think | 未記入 |
+| 25 | /trend/fintech-it-cert-intro/ | Claudeで試した結果：例え話だけを頼むとどうなるか | think | 未記入 |
+| 26 | /trend/ipa-2026-cbt-schedule-guide/ | 予約済みの科目Bから学習計画を作る追加プロンプト | think | 未記入 |
+
+---
+
+## 第1章 AIの基礎と歴史
+
+- ページ: /course/genai-pass/01-ai-basics-history/（`src/data/course/genai-pass/01-ai-basics-history.mdx`）
+
+### 1. 種類を選ぶか、数値を出すか
+
+- 場所: `src/data/course/genai-pass/01-ai-basics-history.mdx` 97行目（見出し「種類を選ぶか、数値を出すか」の中）
+- 直前の本文: 答え：前者は回帰、後者は分類です。入力の天気データではなく、答えとして何を出すかで分けます。
+- 候補: 数字を出す分類と回帰の見分け（think）
+
+判定（記入／削除）: 
+
+種類（think／question／exp）: 
+
+本文:
+
+> 
+
+### 2. 覚えた問題だけ得意にならないために
+
+- 場所: `src/data/course/genai-pass/01-ai-basics-history.mdx` 195行目（見出し「覚えた問題だけ得意にならないために」の中）
+- 直前の本文: 答え：続ける前に過学習を疑います。検証結果を見て止めることは対策の一つです。
+- 候補: 学習用の高得点と汎化の違い（think）
+
+判定（記入／削除）: 
+
+種類（think／question／exp）: 
+
+本文:
+
+> 
+
+### 3. 期待と限界を分ける
+
+- 場所: `src/data/course/genai-pass/01-ai-basics-history.mdx` 310行目（見出し「期待と限界を分ける」の中）
+- 直前の本文: 答え：できません。将来の仮説を、性能保証や確定した予定に置き換えています。
+- 候補: 研究史の事実と将来の仮説の区別（think）
+
+判定（記入／削除）: 
+
+種類（think／question／exp）: 
+
+本文:
+
+> 
+
+## 第2章 生成AIのしくみ：技術・学習・生成
+
+- ページ: /course/genai-pass/02-genai-mechanism/（`src/data/course/genai-pass/02-genai-mechanism.mdx`）
+
+### 4. 広く学ぶ、目的に合わせる、人が評価する
+
+- 場所: `src/data/course/genai-pass/02-genai-mechanism.mdx` 123行目（見出し「広く学ぶ、目的に合わせる、人が評価する」の中）
+- 直前の本文: 答え：異なります。前者はファインチューニング、後者はその入力を参照した生成であり、重みを更新したとは限りません。
+- 候補: 質問を送ることとモデルの追加学習の混同（think）
+
+判定（記入／削除）: 
+
+種類（think／question／exp）: 
+
+本文:
+
+> 
+
+### 5. 揺らぎを変える設定の役割
+
+- 場所: `src/data/course/genai-pass/02-genai-mechanism.mdx` 215行目（見出し「揺らぎを変える設定の役割」の中）
+- 直前の本文: 答え：不十分です。設定を変えるより先に原典を確かめ、引用が実在するかを確認する必要があります。
+- 候補: 出力の揺らぎと事実の正しさを別に考える点（think）
+
+判定（記入／削除）: 
+
+種類（think／question／exp）: 
+
+本文:
+
+> 
+
+## 第3章 LLMと主要モデル・各モダリティ
+
+- ページ: /course/genai-pass/03-llm-models-modalities/（`src/data/course/genai-pass/03-llm-models-modalities.mdx`）
+
+### 6. 重みの公開と、利用条件を分ける
+
+- 場所: `src/data/course/genai-pass/03-llm-models-modalities.mdx` 83行目（見出し「重みの公開と、利用条件を分ける」の中）
+- 直前の本文: 答え：結論付けられません。再配布や用途の条件をライセンスで確認する必要があります。
+- 候補: 重みの公開と自由な利用を同一視しやすい点（think）
+
+判定（記入／削除）: 
+
+種類（think／question／exp）: 
+
+本文:
+
+> 
+
+### 7. サービスの特徴を公式情報で比べる
+
+- 場所: `src/data/course/genai-pass/03-llm-models-modalities.mdx` 152行目（見出し「サービスの特徴を公式情報で比べる」の中）
+- 直前の本文: />
+- 候補: モデルの能力とサービス側の機能の違い（think）
+
+判定（記入／削除）: 
+
+種類（think／question／exp）: 
+
+本文:
+
+> 
+
+### 8. 出どころの手がかりを読む
+
+- 場所: `src/data/course/genai-pass/03-llm-models-modalities.mdx` 206行目（見出し「出どころの手がかりを読む」の中）
+- 直前の本文: 答え：言えません。来歴の検証と、出来事が実在したかの確認は別です。来歴のない画像を即座に偽物と断定することもできません。
+- 候補: 来歴の確認と内容の真実性の違い（think）
+
+判定（記入／削除）: 
+
+種類（think／question／exp）: 
+
+本文:
+
+> 
+
+## 第4章 AIエージェントとRAG
+
+- ページ: /course/genai-pass/04-ai-agent-rag/（`src/data/course/genai-pass/04-ai-agent-rag.mdx`）
+
+### 9. 人が入る場所を先に決める
+
+- 場所: `src/data/course/genai-pass/04-ai-agent-rag.mdx` 71行目（見出し「人が入る場所を先に決める」の中）
+- 直前の本文: 答え：候補がそろった後、購入の実行前です。最後に結果を見るだけでは、すでに起きた購入を止められません。
+- 候補: 自律性を高めることと承認をなくすことの違い（think）
+
+判定（記入／削除）: 
+
+種類（think／question／exp）: 
+
+本文:
+
+> 
+
+### 10. 発展形を目的で見分ける
+
+- 場所: `src/data/course/genai-pass/04-ai-agent-rag.mdx` 157行目（見出し「発展形を目的で見分ける」の中）
+- 直前の本文: 答え：Graph RAGです。関係を表したデータの整備が必要であり、導入するだけですべての回答が正しくなるわけではありません。
+- 候補: RAGの発展形を単純な性能順位として覚えやすい点（think）
+
+判定（記入／削除）: 
+
+種類（think／question／exp）: 
+
+本文:
+
+> 
+
+### 11. 結果を見て修正し、条件で止める
+
+- 場所: `src/data/course/genai-pass/04-ai-agent-rag.mdx` 244行目（見出し「結果を見て修正し、条件で止める」の中）
+- 直前の本文: 答え：まず実際に成立していないかを照会し、不明なら止めて人に確認します。無条件の再試行は、二重処理につながるおそれがあります。
+- 候補: 自動の再計画と無制限な再試行の違い（think）
+
+判定（記入／削除）: 
+
+種類（think／question／exp）: 
+
+本文:
+
+> 
+
+## 就活で資格は意味ない？募集要項とガクチカから優先順位を決める
+
+- ページ: /career/shuukatsu-shikaku-imi-nai/（`src/data/post/career/shuukatsu-shikaku-imi-nai/index.md`）
+
+### 12. Claudeで実行した結果
+
+- 場所: `src/data/post/career/shuukatsu-shikaku-imi-nai/index.md` 117行目（見出し「Claudeで実行した結果」の中）
+- 直前の本文: このプロセスの利点は、<strong>資格の合否に関わらずガクチカが完成する</strong>ことです。仮に本番で不合格だったとしても、学習過程で工夫し続けた事実そのものが評価対象になります。資格取得を目指す行動自体が、目的意識・計画力・継
+- 候補: Claudeの実行例で、ログの事実とAIの意味づけを見比べて気づいた点（think）
+
+判定（記入／削除）: 
+
+種類（think／question／exp）: 
+
+本文:
+
+> 
+
+## ポモドーロのBGMをAIで選ぶ｜25分の学習を邪魔しない試し方
+
+- ページ: /method/ai-dj-pomodoro/（`src/data/post/method/ai-dj-pomodoro/index.md`）
+
+### 13. Geminiで実行した結果
+
+- 場所: `src/data/post/method/ai-dj-pomodoro/index.md` 80行目（見出し「Geminiで実行した結果」の中）
+- 直前の本文: 25分の曲を指定しても、長さや曲調がそのまま実現するとは限らないため、区切りの管理には独立したタイマーを使います。
+- 候補: このプロンプトを実行し、条件を絞り直す必要があった箇所（think）
+
+判定（記入／削除）: 
+
+種類（think／question／exp）: 
+
+本文:
+
+> 
+
+## AWS・CCNA・LPICの取る順番｜インフラエンジニアの資格ロードマップ
+
+- ページ: /method/aws-hub/（`src/data/post/method/aws-hub/index.md`）
+
+### 14. AI対話でインフラ概念を理解する
+
+- 場所: `src/data/post/method/aws-hub/index.md` 122行目（見出し「AI対話でインフラ概念を理解する」の中）
+- 直前の本文: 対応表を受け取ったら、共通点だけでなく相違点も聞きます。AWSではセキュリティグループはリソース単位、ネットワークACLはサブネット単位で作用します。単純に同じACLだと覚えないでください。[AWSのVPCセキュリティ](https://d
+- 候補: 上記プロンプトの実際の回答で、対応表だけでは理解できず聞き直した点（think）
+
+判定（記入／削除）: 
+
+種類（think／question／exp）: 
+
+本文:
+
+> 
+
+## ビルメン4点セットの取得順番｜求人条件と申込期限から決めるルート
+
+- ページ: /method/bilmen-4tenset-junban/（`src/data/post/method/bilmen-4tenset-junban/index.md`）
+
+### 15. Geminiで試した結果：日程を渡さずに頼むとどうなるか
+
+- 場所: `src/data/post/method/bilmen-4tenset-junban/index.md` 163行目（見出し「Geminiで試した結果：日程を渡さずに頼むとどうなるか」の中）
+- 直前の本文: 提案を受け取ったら、週の合計時間、必須資格の期限、技能・講習の枠を自分でも照合します。日程が合わなければ「今年中に4つ」の条件を外して作り直します。
+- 候補: 上記プロンプトを実行し、講習や技能練習の抜けを指摘して組み直した実際のやりとり（think）
+
+判定（記入／削除）: 
+
+種類（think／question／exp）: 
+
+本文:
+
+> 
+
+## Geminiで資格勉強をする方法｜IT用語・科目B・記述の確認手順
+
+- ページ: /method/gemini-cert-complete/（`src/data/post/method/gemini-cert-complete/index.md`）
+
+### 16. シラバス分野の概念理解
+
+- 場所: `src/data/post/method/gemini-cert-complete/index.md` 114行目（見出し「シラバス分野の概念理解」の中）
+- 直前の本文: 上の結果にある文字数の誤差は、指定した形式がそろっていても細部の確認が必要な例です。「試験でよく問われる」というAIの説明も、出題の実績は公式問題で照合して使います。
+- 候補: 同じBSCプロンプトの出力を確認し、説明が役立った所または誤差に気づいた点（think）
+
+判定（記入／削除）: 
+
+種類（think／question／exp）: 
+
+本文:
+
+> 
+
+## 新IPA試験の勉強法｜区分選びとデータ・AIを使った学習計画
+
+- ページ: /method/new-ipa-exam-study-strategy/（`src/data/post/method/new-ipa-exam-study-strategy/index.md`）
+
+### 17. Geminiで実行した結果
+
+- 場所: `src/data/post/method/new-ipa-exam-study-strategy/index.md` 115行目（見出し「Geminiで実行した結果」の中）
+- 直前の本文: 2つ目は、試験区分です。確認問題は応用情報によく出る一般的な内容で、回答の最後に「どの試験区分か」を聞き返されました。最初の設定に「受ける区分：応用情報技術者試験」のように1行足すと、問題の範囲がしぼられます。
+- 候補: 既存のGemini学習計画で区分の指定を足した際の違い（think）
+
+判定（記入／削除）: 
+
+種類（think／question／exp）: 
+
+本文:
+
+> 
+
+## NotebookLM（Gemini Notebook）資格試験活用ガイド｜2026年版・機能別の使い倒し方
+
+- ページ: /method/notebooklm-features-guide/（`src/data/post/method/notebooklm-features-guide/index.md`）
+
+### 18. 用語の自分事化——抽象概念を自分のことに変換する
+
+- 場所: `src/data/post/method/notebooklm-features-guide/index.md` 194行目（見出し「用語の自分事化——抽象概念を自分のことに変換する」の中）
+- 直前の本文: たとえ話が出てきたら、資料の定義と対応する部分、対応しない部分を確認します。生活上の例を、試験の正式な定義として覚えないようにします。
+- 候補: CRMのたとえを原典に戻して確認した際の気づき（think）
+
+判定（記入／削除）: 
+
+種類（think／question／exp）: 
+
+本文:
+
+> 
+
+## ネットワーク図の書き方｜NW試験の要件をAIでMermaidの構成図にする（科目B・旧午後対策）
+
+- ページ: /method/nw-mermaid-hack/（`src/data/post/method/nw-mermaid-hack/index.md`）
+
+### 19. 手書きの図が合っているか、写真でAIに確かめる
+
+- 場所: `src/data/post/method/nw-mermaid-hack/index.md` 209行目（見出し「手書きの図が合っているか、写真でAIに確かめる」の中）
+- 直前の本文: 「直した図は作らない」がポイントです。AIが正しい図を出すと、それを写して終わりになりがちです。どこが違うかだけを聞いて、自分で描き直すほうが、本番の問題用紙で図を描く力につながります。
+- 候補: 手書き図の読み取りでAIに指摘された点と実際の図との照合（think）
+
+判定（記入／削除）: 
+
+種類（think／question／exp）: 
+
+本文:
+
+> 
+
+## 秘書検定2級・3級の費用と勉強時間｜身につく知識で選ぶ
+
+- ページ: /method/secretarial-cost-time-knowledge/（`src/data/post/method/secretarial-cost-time-knowledge/index.md`）
+
+### 20. Claudeで実行した結果
+
+- 場所: `src/data/post/method/secretarial-cost-time-knowledge/index.md` 157行目（見出し「Claudeで実行した結果」の中）
+- 直前の本文: 資料にない「最も安全」などの理由は、根拠を作らず不明としてください。
+- 候補: 席次のAI説明を教材と照合した際の気づき（think）
+
+判定（記入／削除）: 
+
+種類（think／question／exp）: 
+
+本文:
+
+> 
+
+## 消防設備士の鑑別が覚えられない？AIで見分ける根拠を整理する覚え方
+
+- ページ: /method/shobo-setsubi-kanbetsu-ai-hack/（`src/data/post/method/shobo-setsubi-kanbetsu-ai-hack/index.md`）
+
+### 21. Claudeで試した結果：根拠を渡さずに頼むとどうなるか
+
+- 場所: `src/data/post/method/shobo-setsubi-kanbetsu-ai-hack/index.md` 99行目（見出し「Claudeで試した結果：根拠を渡さずに頼むとどうなるか」の中）
+- 直前の本文: 回答の最後には「教本の記述と食い違う点があれば、教本を優先してください」と添えられていました。根拠を渡さずに頼むと、もっともらしい識別点が混ざり、その確認は自分でするしかありません。上のプロンプトで、教材で確認した内容だけを根拠にさせている
+- 候補: 連想セットにAIが補った未確認の特徴を教材と照合した結果（think）
+
+判定（記入／削除）: 
+
+種類（think／question／exp）: 
+
+本文:
+
+> 
+
+## 宅建（宅地建物取引士）合格ロードマップ｜合格率18%の壁をAI学習でどう越えるか
+
+- ページ: /method/takken-hub/（`src/data/post/method/takken-hub/index.md`）
+
+### 22. 民法を「登場人物の関係図」にして理解する
+
+- 場所: `src/data/post/method/takken-hub/index.md` 237行目（見出し「民法を「登場人物の関係図」にして理解する」の中）
+- 直前の本文: 先に登記した買主が常に保護される、と覚えるのは避けます。第三者の範囲など、結論に影響する条件は教材の解説で確認してください。対抗要件の条文は[民法第177条](https://laws.e-gov.go.jp/law/129AC000000
+- 候補: Geminiで関係を整理した実際の回答を見て、例外の質問が必要だった箇所（think）
+
+判定（記入／削除）: 
+
+種類（think／question／exp）: 
+
+本文:
+
+> 
+
+## 必置資格とは？求人で確認する配置義務・選任・名義貸しの違い
+
+- ページ: /theory/hicchi-shikaku-toha/（`src/data/post/theory/hicchi-shikaku-toha/index.md`）
+
+### 23. ChatGPTで実行した結果
+
+- 場所: `src/data/post/theory/hicchi-shikaku-toha/index.md` 124行目（見出し「ChatGPTで実行した結果」の中）
+- 直前の本文: 資料にない条件は不明としてください。
+- 候補: AIの比較表で資格名と選任役職の違いを確認した感想（think）
+
+判定（記入／削除）: 
+
+種類（think／question／exp）: 
+
+本文:
+
+> 
+
+## 資格の科目免除一覧｜他資格の組み合わせと申請条件の確認方法
+
+- ページ: /theory/shikaku-kamoku-menjo-ichiran/（`src/data/post/theory/shikaku-kamoku-menjo-ichiran/index.md`）
+
+### 24. ChatGPTで実行した結果
+
+- 場所: `src/data/post/theory/shikaku-kamoku-menjo-ichiran/index.md` 136行目（見出し「ChatGPTで実行した結果」の中）
+- 直前の本文: 記載がない他資格への読み替えや、免除できるという推測はしないでください。
+- 候補: 免除条件のAI抽出を原典と突き合わせた際の気づき（think）
+
+判定（記入／削除）: 
+
+種類（think／question／exp）: 
+
+本文:
+
+> 
+
+## 金融IT検定とは？難易度の見方とITパスポートの次に選ぶ条件
+
+- ページ: /trend/fintech-it-cert-intro/（`src/data/post/trend/fintech-it-cert-intro/index.md`）
+
+### 25. Claudeで試した結果：例え話だけを頼むとどうなるか
+
+- 場所: `src/data/post/trend/fintech-it-cert-intro/index.md` 133行目（見出し「Claudeで試した結果：例え話だけを頼むとどうなるか」の中）
+- 直前の本文: 例えだけを頼むと、こうしたずれが説明の中に混ざったまま残ります。上のプロンプトで「例え話が実際の制度・システムと一致しない部分を明示して」と頼んでいるのは、このためです。
+- 候補: 金融用語の例え話で理解が進んだ点と教材に戻って修正した点（think）
+
+判定（記入／削除）: 
+
+種類（think／question／exp）: 
+
+本文:
+
+> 
+
+## 応用情報・高度試験CBTの申込日程と試験期間｜前期はAPが11月7日まで
+
+- ページ: /trend/ipa-2026-cbt-schedule-guide/（`src/data/post/trend/ipa-2026-cbt-schedule-guide/index.md`）
+
+### 26. 予約済みの科目Bから学習計画を作る追加プロンプト
+
+- 場所: `src/data/post/trend/ipa-2026-cbt-schedule-guide/index.md` 288行目（見出し「予約済みの科目Bから学習計画を作る追加プロンプト」の中）
+- 直前の本文: 最初に、学習対象の科目と利用可能な日数を示してください。
+- 候補: 追加プロンプトの実行後、終了済みの科目を除外できたか公式日程と照合した所感（think）
+- 注意: 直前の AI_EXAMPLE（T-14）を実行してから書く。実行しない場合は「削除」
+
+判定（記入／削除）: 
+
+種類（think／question／exp）: 
+
+本文:
+
+> 

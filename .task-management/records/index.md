@@ -6,6 +6,7 @@
 
 | ID | 完了日 | 種別 | テーマ（タグ） | 対象（URL・クエリ） | 結果（1行） | 参照できるデータ | ファイル |
 |---|---|---|---|---|---|---|---|
+| T-11 | 2026-11-01 | 施策 | 全面リライト, AdSense, 一次情報, 判断の基準 | ウェーブA 68本（waves.csv の A） | A01〜A07 を Codex がリライトし CC が全数検収。A07 の事実は一次情報と全件一致。push は T-05 | .workspace/projects/rewrite-2026-11/progress.md | [2026-11-01-T-11-rewrite-wave-a.md](2026-11-01-T-11-rewrite-wave-a.md) |
 | T-21 | 2026-11-01 | 施策 | 20時間コース, 生成AIパスポート, 新シラバス, 章末チェック | src/data/course/genai-pass/01〜04（draft）、course-ch1〜4.json | Codex が4章と章末16問を作成（報告書なし・上限で停止）。CC が検収し新規語9語などを補って draft で公開可 | .workspace/codex/orders/2026-10-31-T-21.md | [2026-11-01-T-21-genai-pass-ch1-4.md](2026-11-01-T-21-genai-pass-ch1-4.md) |
 | T-01 | 2026-10-31 | 施策 | AdSense, リッチ化, AIの実行例, 事実確認 | AIの実行例が不足の18本 | 18本すべてに実際の回答を反映（13本は10/31、ユーザー実行→CC反映）。誤答は正しい情報と並べて材料にした。fintech・shobo・bilmen はリライト前のプロンプトでの比較例 | .workspace/.task/ai-example-prompts-2026-10-31.md | [2026-10-31-T-01-ai-examples.md](2026-10-31-T-01-ai-examples.md) |
 | T-53 | 2026-10-31 | 施策 | 20時間コース, 診断テスト, 学習ルート, ChapterQuiz | 全コースのコースTOPの診断 | 結果画面に全体・章別の正答率の表と重点章、前回の診断の再表示、0問時の表示を追加。4ルートは設計のみ（T-48） | src/apps/course-quiz/, 20hours-course-template.md §1-1 | [2026-10-31-T-53-diagnosis-routing.md](2026-10-31-T-53-diagnosis-routing.md) |
