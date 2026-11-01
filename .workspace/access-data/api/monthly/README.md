@@ -7,4 +7,4 @@
 - 画面から書き出した過去のデータ（`.workspace/.task/access-data/` の週次など）は消さずに残すが、このフォルダのデータと混ぜて計算しない。m08 以降はここで取り直してある（2026-11-01）
 - G3（インデックス登録）は API がないので、従来どおり画面から書き出す
 - `gsc-appearance.csv` が0行なのは、検索での見え方（リッチリザルトなど）のデータがないため（m08・m09）
-- `ga4-course.csv` はコースのイベント（`quiz_start`・`quiz_complete`・`chapter_complete`・`course_complete`・`course_nav_click`・`route_assigned`）。2026-10-06 の実装以降だけなので m08・m09 は0行。カスタムディメンションは `course_id` だけが登録済み（`chapter_order`・`quiz_mode` は未登録。GA4 の管理画面で登録すると以後の分から取れる）
+- `ga4-course.csv` はコースのイベント（`quiz_start`・`quiz_complete`・`chapter_complete`・`course_complete`・`course_nav_click`・`route_assigned`）。2026-10-06 の実装以降だけなので m08・m09 は0行。カスタムディメンションは `course_id`。`chapter_order`・`quiz_mode` は 2026-11-01 に登録したので、値が入るのはそれ以降（m11 から。m10 までの `ga4-course.csv` はこの2列なしで取ってある）
