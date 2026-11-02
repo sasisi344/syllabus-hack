@@ -6,6 +6,7 @@
 
 | ID | 完了日 | 種別 | テーマ（タグ） | 対象（URL・クエリ） | 結果（1行） | 参照できるデータ | ファイル |
 |---|---|---|---|---|---|---|---|
+| T-05 | 2026-11-02 | 施策 | デプロイ, GSC, サイトマップ, インデックス | 全公開記事、サイトマップ、主要ページ | 11/01 に push（26コミット）、11/02 にユーザーが GSC でサイトマップ再送信と主要ページの登録リクエスト。効果は T-06 | — | [2026-11-02-T-05-deploy-gsc.md](2026-11-02-T-05-deploy-gsc.md) |
 | T-12 | 2026-11-02 | 施策 | 全面リライト, AdSense, 一次情報, 図, 演習ツール | ウェーブBの26本（app 13・method 4・theory 8・trend 1） | Codex がリライト、CC が検収して26本とも公開可（.mdx の HTML コメントを直し、admin-lint に検出を追加）。push はユーザー確認後 | .workspace/admin-review/2026-11-02-T-12-wave-b.md, .workspace/codex/reports/2026-11-02-T-12-B01〜B03.md | [2026-11-02-T-12-rewrite-wave-b.md](2026-11-02-T-12-rewrite-wave-b.md) |
 | T-09 | 2026-11-02 | 施策 | GA4, キーイベント, 20時間コース | GA4 の chapter_complete・course_complete | ユーザーが新しいキーイベントで2つを登録し、壊れた quiz の作成ルールを削除。Admin API で4つのキーイベントを確認 | .workspace/.task/access-data/monthly-analysis-2026-10.md §0 | [2026-11-02-T-09-ga4-key-events.md](2026-11-02-T-09-ga4-key-events.md) |
 | T-11 | 2026-11-01 | 施策 | 全面リライト, AdSense, 一次情報, 判断の基準 | ウェーブA 68本（waves.csv の A） | A01〜A07 を Codex がリライトし CC が全数検収。A07 の事実は一次情報と全件一致。push は T-05 | .workspace/projects/rewrite-2026-11/progress.md | [2026-11-01-T-11-rewrite-wave-a.md](2026-11-01-T-11-rewrite-wave-a.md) |
