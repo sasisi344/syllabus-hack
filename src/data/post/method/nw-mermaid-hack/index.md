@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-03-19T00:00:00Z
-lastmod: 2026-11-01
+lastmod: 2026-11-02
 title: 'ネットワーク図の書き方｜NW試験の要件をAIでMermaidの構成図にする（科目B・旧午後対策）'
 excerpt: 'Mermaidを文字だけで書くのは難しいので、NW試験の長文要件をAIに渡して構成図にしてもらう方法を、Claudeでの実行例つきで解説。自分で手書きした図が合っているかを、写真でAIに確かめてもらう使い方も紹介します。'
 image: ~/data/post/method/nw-mermaid-hack/cover.png
@@ -189,6 +189,97 @@ AIに図を作ってもらうと、自分で図を描く過程が抜けます。
 - 機器（ルータ、L3スイッチ、FWなど）を丸や四角で描く
 - 機器同士の接続を線で描く
 - VLAN番号、VRRPの優先度、OSPFのエリアなど、問題文に書かれた条件を、図の横にメモする
+
+### 手書きの図を、写真からMermaidに起こしてもらう
+
+描いた図は、写真からMermaidのコードに起こしてもらうこともできます。コードになれば、そのあとの会話（障害の想像やACLの位置）にもそのまま使えます。
+
+```text
+添付の手書きのネットワーク図を読み取り、Mermaidの graph TD 形式で書いてください。
+
+- 機器の接続関係を、図のとおりに再現する
+- VLAN番号やVRRPの優先度など、メモに書いてある条件は、ラベルや注釈で残す
+- 読み取れない部分や、接続が不明な部分は、推測せずに「不明」と書いて教えてください
+```
+
+### ChatGPTで実行した結果
+
+ChatGPT（GPT6.1 Sol fast）で試しました（2026年11月）。手書きする元の図も、ChatGPTに「NW試験の構成でVLAN・VRRP・L3スイッチ・FWなどの図解を手書きで練習したいので、例の図を出力してほしい」と頼んで作ってもらいました。
+
+![ChatGPTが作った手書き練習用の構成図。FW・DMZのWebサーバ・中継セグメント・L3SW2台・L2SW・PC2台と、VLANごとのアドレスとVRRPの表がある](~/data/post/method/nw-mermaid-hack/chatgpt-reference-diagram.jpg)
+
+この図を紙に手書きして、スマホで撮影しました。アドレスや表は写さず、機器と線、VLANのメモだけを描いています。
+
+![上の図を手書きで写した構成図の写真。Internet・FW・Webサーバ・L3SW1・L3SW2・L2SW・PC-A・PC-Bと、VLANのメモがある](~/data/post/method/nw-mermaid-hack/handwritten-diagram.jpg)
+
+写真を添付して、上のプロンプトで頼むと、次のコードが返ってきました。
+
+```text
+flowchart TB
+    Internet(["Internet"])
+    FW["FW"]
+    Web["Webサーバ"]
+    Segment["共通セグメント"]
+    L3SW1["L3SW1"]
+    L3SW2["L3SW2"]
+    L2SW["L2SW"]
+    PCA["PC-A"]
+    PCB["PC-B"]
+
+    Internet --- FW
+    FW --- Web
+    FW --- Segment
+    Segment --- L3SW1
+    Segment --- L3SW2
+    L3SW1 ---|"VLAN"| L3SW2
+    L3SW1 --- L2SW
+    L3SW2 --- L2SW
+    L2SW ---|"VLAN 20"| PCA
+    L2SW ---|"VLAN 20"| PCB
+```
+
+```mermaid caption="ChatGPTが手書きの写真から起こしたMermaidコードを表示した図"
+flowchart TB
+    Internet(["Internet"])
+    FW["FW"]
+    Web["Webサーバ"]
+    Segment["共通セグメント"]
+    L3SW1["L3SW1"]
+    L3SW2["L3SW2"]
+    L2SW["L2SW"]
+    PCA["PC-A"]
+    PCB["PC-B"]
+
+    Internet --- FW
+    FW --- Web
+    FW --- Segment
+    Segment --- L3SW1
+    Segment --- L3SW2
+    L3SW1 ---|"VLAN"| L3SW2
+    L3SW1 --- L2SW
+    L3SW2 --- L2SW
+    L2SW ---|"VLAN 20"| PCA
+    L2SW ---|"VLAN 20"| PCB
+```
+
+機器と接続は、手書きの図のとおりに読み取れています。L3SW1・L3SW2・L2SWの三角形の接続も抜けていません。
+
+一方で、元の図と比べると、次の違いがあります。
+
+| 項目 | 元の図（ChatGPTの参考図） | 手書きの図 | 起こしたコード |
+| --- | --- | --- | --- |
+| PC-AのVLAN | VLAN 10 | VLAN20 | VLAN 20 |
+| L3SW間のリンク | 802.1Qトランク、VLAN 10,20 | VLAN | VLAN（番号なし） |
+| FWとL3SWの間 | 中継セグメント | 名前なしの線 | 共通セグメント |
+| VRRP・STP・アドレス | 表と線に書いてある | 書いていない | なし |
+
+上の2行は、手書きの図に書いたとおりです。AIは写真を正しく読んでいますが、<strong>写すときのずれ（VLAN 10とVLAN20）は直せません</strong>。元の図や要件を渡していないので、比べる相手がないからです。
+
+3行目の「共通セグメント」は、写真にない名前をAIが付けたものです。プロンプトで「推測せずに不明と書く」と頼んでいても、こうした補いは起こります。
+
+写真から起こしたコードは、「自分が描いたもの」の記録です。正しいかどうかは、次の方法で要件と照らして確かめます。
+
+### 要件と照らし合わせて、合っているかを聞く
 
 描き終えて「これで合っているのかな」と思ったら、図をスマホで撮影し、要件と一緒に画像を受け取れるAIに送ります。
 
