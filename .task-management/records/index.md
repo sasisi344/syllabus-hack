@@ -6,6 +6,8 @@
 
 | ID | 完了日 | 種別 | テーマ（タグ） | 対象（URL・クエリ） | 結果（1行） | 参照できるデータ | ファイル |
 |---|---|---|---|---|---|---|---|
+| T-12 | 2026-11-02 | 施策 | 全面リライト, AdSense, 一次情報, 図, 演習ツール | ウェーブBの26本（app 13・method 4・theory 8・trend 1） | Codex がリライト、CC が検収して26本とも公開可（.mdx の HTML コメントを直し、admin-lint に検出を追加）。push はユーザー確認後 | .workspace/admin-review/2026-11-02-T-12-wave-b.md, .workspace/codex/reports/2026-11-02-T-12-B01〜B03.md | [2026-11-02-T-12-rewrite-wave-b.md](2026-11-02-T-12-rewrite-wave-b.md) |
+| T-09 | 2026-11-02 | 施策 | GA4, キーイベント, 20時間コース | GA4 の chapter_complete・course_complete | ユーザーが新しいキーイベントで2つを登録し、壊れた quiz の作成ルールを削除。Admin API で4つのキーイベントを確認 | .workspace/.task/access-data/monthly-analysis-2026-10.md §0 | [2026-11-02-T-09-ga4-key-events.md](2026-11-02-T-09-ga4-key-events.md) |
 | T-11 | 2026-11-01 | 施策 | 全面リライト, AdSense, 一次情報, 判断の基準 | ウェーブA 68本（waves.csv の A） | A01〜A07 を Codex がリライトし CC が全数検収。A07 の事実は一次情報と全件一致。push は T-05 | .workspace/projects/rewrite-2026-11/progress.md | [2026-11-01-T-11-rewrite-wave-a.md](2026-11-01-T-11-rewrite-wave-a.md) |
 | T-21 | 2026-11-01 | 施策 | 20時間コース, 生成AIパスポート, 新シラバス, 章末チェック | src/data/course/genai-pass/01〜04（draft）、course-ch1〜4.json | Codex が4章と章末16問を作成（報告書なし・上限で停止）。CC が検収し新規語9語などを補って draft で公開可 | .workspace/codex/orders/2026-10-31-T-21.md | [2026-11-01-T-21-genai-pass-ch1-4.md](2026-11-01-T-21-genai-pass-ch1-4.md) |
 | T-01 | 2026-10-31 | 施策 | AdSense, リッチ化, AIの実行例, 事実確認 | AIの実行例が不足の18本 | 18本すべてに実際の回答を反映（13本は10/31、ユーザー実行→CC反映）。誤答は正しい情報と並べて材料にした。fintech・shobo・bilmen はリライト前のプロンプトでの比較例 | .workspace/.task/ai-example-prompts-2026-10-31.md | [2026-10-31-T-01-ai-examples.md](2026-10-31-T-01-ai-examples.md) |
