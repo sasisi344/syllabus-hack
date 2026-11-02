@@ -14,6 +14,8 @@ pnpm-debug.log*
 *.txt
 !public/llms.txt
 !public/ads.txt
+# IndexNow のキー（hq:H-35）
+!public/6277d9dbb8d24da9a319b4fb1912e550.txt
 
 # environment variables
 .env
