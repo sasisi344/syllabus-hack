@@ -4,9 +4,26 @@ on:
   push:
     branches:
       - main
+    # サイトの表示に関わるファイルが変わったときだけ deploy する（2026-11-09。.workspace/・.task-management/・規約だけのコミットでは走らない）
+    # ビルドが新しいフォルダを読むようになったら、ここに足す。公開を見送るコミットはメッセージに [skip ci] を付ける
     paths:
-      - '**'
+      - "src/**"
+      - "public/**"
+      - "astro.config.*"
+      - "package.json"
+      - "package-lock.json"
+      - "pnpm-lock.yaml"
+      - "tsconfig.json"
+      - ".github/workflows/**"
+      - "vendor/**"
+      - "tailwind.config.js"
+      - ".npmrc"
   workflow_dispatch: # 手動で実行できるボタンも残す
+
+# 同じサイトの deploy を重ねない（実行中は止めず、待ちは最新の1件だけ残す）
+concurrency:
+  group: deploy-syllabus-hack
+  cancel-in-progress: false
 
 jobs:
   build-and-deploy:
