@@ -1,46 +1,151 @@
 [
   {
     "id": "ch5-1",
-    "text": "クラウドサービスのうち、開発・実行環境（プラットフォーム）まで提供され、その上にアプリケーションを構築する形態はどれか。",
+    "examId": "it-passport",
+    "field": "technology",
+    "subField": "クラウド",
+    "year": "予想問題",
+    "questionNumber": 1,
+    "text": "自作アプリを配置するが、OSと実行環境の保守は事業者に任せたい。基本的なサービスモデルとして最も適切なものはどれか。",
     "choices": [
-      { "label": "ア", "text": "SaaS" },
-      { "label": "イ", "text": "PaaS" },
-      { "label": "ウ", "text": "IaaS" },
-      { "label": "エ", "text": "オンプレミス" }
+      {
+        "label": "ア",
+        "text": "SaaS"
+      },
+      {
+        "label": "イ",
+        "text": "PaaS"
+      },
+      {
+        "label": "ウ",
+        "text": "IaaS"
+      },
+      {
+        "label": "エ",
+        "text": "オンプレミス"
+      }
     ],
-    "correctLabel": "イ"
+    "correctLabel": "イ",
+    "explanation": "PaaSはアプリの開発・実行基盤を提供し、利用者は自作アプリやデータを管理する。SaaSは完成したアプリの利用、IaaSはOSなども利用者側が管理するのが基本である。",
+    "keywords": [
+      "PaaS",
+      "SaaS",
+      "IaaS",
+      "責任分担"
+    ],
+    "syllabusRef": "2027年シラバス案Ver.0.1-大分類4-中分類15",
+    "difficulty": "beginner",
+    "chapterOrder": 5
   },
   {
     "id": "ch5-2",
-    "text": "ファイルサイズを小さくする圧縮方式のうち、元のデータに完全に復元できるものはどれか。",
+    "examId": "it-passport",
+    "field": "technology",
+    "subField": "情報デザイン・情報メディア",
+    "year": "予想問題",
+    "questionNumber": 2,
+    "text": "数値ファイルを圧縮して配布する。展開後に元と完全に同じデータへ戻す必要があるとき、選ぶ方式はどれか。",
     "choices": [
-      { "label": "ア", "text": "非可逆圧縮" },
-      { "label": "イ", "text": "可逆圧縮" },
-      { "label": "ウ", "text": "ラスター圧縮" },
-      { "label": "エ", "text": "ベクター圧縮" }
+      {
+        "label": "ア",
+        "text": "非可逆圧縮"
+      },
+      {
+        "label": "イ",
+        "text": "可逆圧縮"
+      },
+      {
+        "label": "ウ",
+        "text": "ラスターデータへの変換"
+      },
+      {
+        "label": "エ",
+        "text": "画素数の削減"
+      }
     ],
-    "correctLabel": "イ"
+    "correctLabel": "イ",
+    "explanation": "可逆圧縮は元のデータに完全に復元できる。非可逆圧縮や画素数削減は情報を失う場合があり、ラスターは画像の表現形式であって可逆性を表す語ではない。",
+    "keywords": [
+      "可逆圧縮",
+      "非可逆圧縮",
+      "ZIP"
+    ],
+    "syllabusRef": "2027年シラバス案Ver.0.1-大分類4-中分類19",
+    "difficulty": "beginner",
+    "chapterOrder": 5
   },
   {
     "id": "ch5-3",
-    "text": "光の3原色（RGB）の説明として正しいものはどれか。",
+    "examId": "it-passport",
+    "field": "technology",
+    "subField": "システムの種類・構成",
+    "year": "予想問題",
+    "questionNumber": 3,
+    "text": "稼働率0.8の装置2台が独立に故障する。どちらか1台が動けば全機能を提供でき、切替機構の故障を無視する場合、全体の稼働率はどれか。",
     "choices": [
-      { "label": "ア", "text": "混ぜるほど暗くなる、インクの表現に使う" },
-      { "label": "イ", "text": "混ぜるほど明るくなる、ディスプレイなど光の表現に使う" },
-      { "label": "ウ", "text": "プリンターのインクにのみ使われる" },
-      { "label": "エ", "text": "白黒印刷専用の表現方式" }
+      {
+        "label": "ア",
+        "text": "0.64"
+      },
+      {
+        "label": "イ",
+        "text": "0.80"
+      },
+      {
+        "label": "ウ",
+        "text": "0.96"
+      },
+      {
+        "label": "エ",
+        "text": "1.00"
+      }
     ],
-    "correctLabel": "イ"
+    "correctLabel": "ウ",
+    "explanation": "両方が停止する確率は0.2×0.2＝0.04なので、稼働率は1－0.04＝0.96。0.64は両方の稼働が必要な直列構成での値である。",
+    "keywords": [
+      "システムの稼働率",
+      "並列構成",
+      "独立"
+    ],
+    "syllabusRef": "2027年シラバス案Ver.0.1-大分類4-中分類14",
+    "difficulty": "beginner",
+    "chapterOrder": 5
   },
   {
     "id": "ch5-4",
-    "text": "現実の風景に情報を重ねて表示する技術はどれか。",
+    "examId": "it-passport",
+    "field": "technology",
+    "subField": "情報デザイン・情報メディア",
+    "year": "予想問題",
+    "questionNumber": 4,
+    "text": "イベントの参加者が開催日から講座を探せるよう、日付順に整理した。LATCHのどの観点を使った例か。",
     "choices": [
-      { "label": "ア", "text": "VR（仮想現実）" },
-      { "label": "イ", "text": "AR（拡張現実）" },
-      { "label": "ウ", "text": "MR（複合現実）" },
-      { "label": "エ", "text": "XR（クロスリアリティ）" }
+      {
+        "label": "ア",
+        "text": "位置（Location）"
+      },
+      {
+        "label": "イ",
+        "text": "カテゴリ（Category）"
+      },
+      {
+        "label": "ウ",
+        "text": "階層（Hierarchy）"
+      },
+      {
+        "label": "エ",
+        "text": "時間（Time）"
+      }
     ],
-    "correctLabel": "イ"
+    "correctLabel": "エ",
+    "explanation": "日付順は時間の観点である。近くの会場を地図で探すなら位置、講座の分野ならカテゴリ、階層関係ならHierarchyを使う。",
+    "keywords": [
+      "LATCHの法則",
+      "時間",
+      "情報整理"
+    ],
+    "syllabusRef": "2027年シラバス案Ver.0.1-大分類4-中分類19",
+    "difficulty": "beginner",
+    "chapterOrder": 5
   }
 ]

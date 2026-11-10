@@ -1,46 +1,150 @@
 [
   {
     "id": "ch2-1",
-    "text": "「自社・競合・市場」の3つの視点から事業環境を分析するフレームワークはどれか。",
+    "text": "通販会社が顧客の要望・競合の動き・自社の能力を比較し、新事業の環境を調べたい。目的に合う枠組みはどれか。",
     "choices": [
-      { "label": "ア", "text": "SWOT分析" },
-      { "label": "イ", "text": "PEST分析" },
-      { "label": "ウ", "text": "3C分析" },
-      { "label": "エ", "text": "STP分析" }
+      {
+        "label": "ア",
+        "text": "KGI"
+      },
+      {
+        "label": "イ",
+        "text": "RFM分析"
+      },
+      {
+        "label": "ウ",
+        "text": "3C分析"
+      },
+      {
+        "label": "エ",
+        "text": "STP分析"
+      }
     ],
-    "correctLabel": "ウ"
+    "correctLabel": "ウ",
+    "examId": "it-passport",
+    "chapterOrder": 2,
+    "field": "strategy",
+    "subField": "ビジネスモデル・ビジネスプロセス",
+    "year": "予想問題",
+    "questionNumber": 1,
+    "explanation": "3C分析は顧客・競合・自社の視点で事業環境を捉えます。RFMは購買履歴、STPは市場の細分化・対象選択・位置づけ、KGIは最終的な目標の達成を測る指標です。",
+    "keywords": [
+      "3C分析",
+      "STP分析",
+      "RFM分析"
+    ],
+    "syllabusRef": "ビジネス変革-大分類1-中分類3",
+    "difficulty": "beginner"
   },
   {
     "id": "ch2-2",
-    "text": "経営資源（ヒト・モノ・カネ・情報）を一元管理し、社内情報を統合するシステムはどれか。",
+    "text": "販売・在庫・会計で同じ取引を別々に入力しているため、数字が食い違う。社内の基幹業務の情報統合を主目的とするシステムはどれか。",
     "choices": [
-      { "label": "ア", "text": "CRM" },
-      { "label": "イ", "text": "ERP" },
-      { "label": "ウ", "text": "SCM" },
-      { "label": "エ", "text": "SFA" }
+      {
+        "label": "ア",
+        "text": "CRM"
+      },
+      {
+        "label": "イ",
+        "text": "ERP"
+      },
+      {
+        "label": "ウ",
+        "text": "SCM"
+      },
+      {
+        "label": "エ",
+        "text": "SFA"
+      }
     ],
-    "correctLabel": "イ"
+    "correctLabel": "イ",
+    "examId": "it-passport",
+    "chapterOrder": 2,
+    "field": "strategy",
+    "subField": "デジタルサービス・デジタルツール",
+    "year": "予想問題",
+    "questionNumber": 2,
+    "explanation": "ERPは経営資源や基幹業務の情報を統合して管理します。CRMは顧客との関係、SCMは供給網全体、SFAは営業活動の支援が中心です。",
+    "keywords": [
+      "ERP",
+      "基幹業務",
+      "情報統合"
+    ],
+    "syllabusRef": "デジタル技術-大分類4-中分類13",
+    "difficulty": "beginner"
   },
   {
     "id": "ch2-3",
-    "text": "業務プロセスを抜本的に作り直すアプローチを指す用語はどれか。",
+    "text": "経費精算で重複する承認段階を廃止し、権限配分から業務全体を抜本的に再設計する。最も直接対応する考え方はどれか。",
     "choices": [
-      { "label": "ア", "text": "BPM（ビジネスプロセスマネジメント）" },
-      { "label": "イ", "text": "BPO（ビジネスプロセスアウトソーシング）" },
-      { "label": "ウ", "text": "BPR（ビジネスプロセスリエンジニアリング）" },
-      { "label": "エ", "text": "RPA（ロボティックプロセスオートメーション）" }
+      {
+        "label": "ア",
+        "text": "BPR"
+      },
+      {
+        "label": "イ",
+        "text": "既存業務を同じ手順で続けるためのRPA導入"
+      },
+      {
+        "label": "ウ",
+        "text": "既存の入力業務をそのまま外部へ委託するBPO"
+      },
+      {
+        "label": "エ",
+        "text": "購買履歴を分析するRFM分析"
+      }
     ],
-    "correctLabel": "ウ"
+    "correctLabel": "ア",
+    "examId": "it-passport",
+    "chapterOrder": 2,
+    "field": "strategy",
+    "subField": "ビジネスモデル・ビジネスプロセス",
+    "year": "予想問題",
+    "questionNumber": 3,
+    "explanation": "BPRは業務プロセスの抜本的な再設計です。RPAは定型操作の自動化、BPOは外部委託であり、それだけで承認や権限を再設計したことにはなりません。",
+    "keywords": [
+      "BPR",
+      "BPO",
+      "RPA"
+    ],
+    "syllabusRef": "ビジネス変革-大分類1-中分類3",
+    "difficulty": "beginner"
   },
   {
     "id": "ch2-4",
-    "text": "外部の事業者に対し、まず情報の提供を求める文書はどれか。",
+    "text": "通販システムを計画する会社が、方式や事業者の対応可能な範囲をまだ把握していない。まず情報収集のため事業者へ出す文書はどれか。",
     "choices": [
-      { "label": "ア", "text": "RFP（提案依頼書）" },
-      { "label": "イ", "text": "RFI（情報提供依頼書）" },
-      { "label": "ウ", "text": "見積書" },
-      { "label": "エ", "text": "NDA（守秘契約）" }
+      {
+        "label": "ア",
+        "text": "要件に基づく具体的な提案を求めるRFP"
+      },
+      {
+        "label": "イ",
+        "text": "秘密情報の取扱いを定めるNDA"
+      },
+      {
+        "label": "ウ",
+        "text": "提供者と利用者がサービス水準を合意するSLA"
+      },
+      {
+        "label": "エ",
+        "text": "市場の技術やサービスについて情報提供を求めるRFI"
+      }
     ],
-    "correctLabel": "イ"
+    "correctLabel": "エ",
+    "examId": "it-passport",
+    "chapterOrder": 2,
+    "field": "strategy",
+    "subField": "経営戦略・デジタル戦略",
+    "year": "予想問題",
+    "questionNumber": 4,
+    "explanation": "RFIは情報提供依頼書で、選択肢や市場の情報を集める段階に使います。RFPは具体的な提案依頼、NDAは守秘契約、SLAはサービスの水準等についての合意です。",
+    "keywords": [
+      "RFI",
+      "RFP",
+      "情報収集"
+    ],
+    "syllabusRef": "ビジネス変革-大分類1-中分類2",
+    "difficulty": "beginner"
   }
 ]

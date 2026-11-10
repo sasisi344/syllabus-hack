@@ -1,35 +1,150 @@
 [
   {
     "id": "ch4-1",
-    "text": "SLA（サービスレベルアグリーメント）の説明として最も適切なものはどれか。",
+    "text": "運用部門が社内目標を決めただけの状態と区別して、SLAを説明したものはどれか。",
     "choices": [
-      { "label": "ア", "text": "障害発生時の緊急連絡網" },
-      { "label": "イ", "text": "サービス提供者と利用者が合意する品質水準を数値で定めた文書" },
-      { "label": "ウ", "text": "システム開発の契約書の一種" },
-      { "label": "エ", "text": "サービスデスクの営業時間を示す表" }
+      {
+        "label": "ア",
+        "text": "障害を受け付ける単一窓口の名称"
+      },
+      {
+        "label": "イ",
+        "text": "サービス提供者と利用者が提供内容や品質水準などを合意したもの"
+      },
+      {
+        "label": "ウ",
+        "text": "プロジェクトの作業を階層的に分解したもの"
+      },
+      {
+        "label": "エ",
+        "text": "各作業の開始日と終了日を棒で表したもの"
+      }
     ],
-    "correctLabel": "イ"
+    "correctLabel": "イ",
+    "examId": "it-passport",
+    "chapterOrder": 4,
+    "field": "management",
+    "subField": "サービスマネジメント",
+    "year": "予想問題",
+    "questionNumber": 1,
+    "explanation": "SLAは提供者と利用者の間の合意です。社内で数値目標を決めただけでは利用者との合意は示されません。単一窓口はSPOC、作業分解はWBS、棒による日程表示はガントチャートです。",
+    "keywords": [
+      "SLA",
+      "サービスレベル管理",
+      "品質水準"
+    ],
+    "syllabusRef": "ビジネス変革-大分類1-中分類4",
+    "difficulty": "beginner"
   },
   {
     "id": "ch4-2",
-    "text": "プロジェクトの作業を階層的に分解し、漏れなく洗い出す技法はどれか。",
+    "text": "予約システム導入で、データ移行や操作説明の作業が抜けていないか確認したい。成果物や作業を階層的に分解する道具はどれか。",
     "choices": [
-      { "label": "ア", "text": "ガントチャート" },
-      { "label": "イ", "text": "アローダイアグラム" },
-      { "label": "ウ", "text": "WBS（作業分解構造）" },
-      { "label": "エ", "text": "SLA" }
+      {
+        "label": "ア",
+        "text": "ガントチャート"
+      },
+      {
+        "label": "イ",
+        "text": "アローダイアグラム"
+      },
+      {
+        "label": "ウ",
+        "text": "WBS"
+      },
+      {
+        "label": "エ",
+        "text": "SLA"
+      }
     ],
-    "correctLabel": "ウ"
+    "correctLabel": "ウ",
+    "examId": "it-passport",
+    "chapterOrder": 4,
+    "field": "management",
+    "subField": "プロジェクトマネジメント",
+    "year": "予想問題",
+    "questionNumber": 2,
+    "explanation": "WBSで必要な成果物や作業の範囲を分解します。ガントチャートは日程の表示、アローダイアグラムは作業の依存関係などの検討、SLAはサービスに関する当事者の合意です。",
+    "keywords": [
+      "WBS",
+      "スコープ",
+      "ガントチャート"
+    ],
+    "syllabusRef": "ビジネス変革-大分類1-中分類5",
+    "difficulty": "beginner"
   },
   {
     "id": "ch4-3",
-    "text": "利用者からの問い合わせを一元的に受け付ける単一窓口の原則を指す用語はどれか。",
+    "text": "サービスデスクが問合せを一元的に受け付け、窓口で解決できない障害は専門担当へ引き継いだ。適切な説明はどれか。",
     "choices": [
-      { "label": "ア", "text": "エスカレーション" },
-      { "label": "イ", "text": "SPOC（Single Point Of Contact）" },
-      { "label": "ウ", "text": "PMO" },
-      { "label": "エ", "text": "ステークホルダ" }
+      {
+        "label": "ア",
+        "text": "SPOCを保ちながらエスカレーションしている"
+      },
+      {
+        "label": "イ",
+        "text": "SPOCなので一人の窓口担当者が必ずすべてを解決する必要がある"
+      },
+      {
+        "label": "ウ",
+        "text": "専門担当へ引き継いだ時点でSPOCではなくなる"
+      },
+      {
+        "label": "エ",
+        "text": "エスカレーションとは利用者へのサービスの品質保証を指す"
+      }
     ],
-    "correctLabel": "イ"
+    "correctLabel": "ア",
+    "examId": "it-passport",
+    "chapterOrder": 4,
+    "field": "management",
+    "subField": "サービスマネジメント",
+    "year": "予想問題",
+    "questionNumber": 3,
+    "explanation": "SPOCは利用者の連絡窓口を一元化する考え方です。窓口の後ろで専門家が対応することと両立します。知識や権限に応じて専門家や上位者へ引き継ぐことがエスカレーションです。",
+    "keywords": [
+      "サービスデスク",
+      "SPOC",
+      "エスカレーション"
+    ],
+    "syllabusRef": "ビジネス変革-大分類1-中分類4",
+    "difficulty": "beginner"
+  },
+  {
+    "id": "ch4-4",
+    "examId": "it-passport",
+    "chapterOrder": 4,
+    "field": "management",
+    "subField": "プロジェクトマネジメント",
+    "year": "予想問題",
+    "questionNumber": 4,
+    "text": "A（1日）の後にB（5日）とC（2日）を並行実施し、両方が終わってからD（2日）を実施する。要員の競合や待ち時間がないとき、全体の最短所要日数と、その日数を決める経路はどれか。",
+    "choices": [
+      {
+        "label": "ア",
+        "text": "5日、A→C→D"
+      },
+      {
+        "label": "イ",
+        "text": "7日、B→D"
+      },
+      {
+        "label": "ウ",
+        "text": "10日、A→B→C→D"
+      },
+      {
+        "label": "エ",
+        "text": "8日、A→B→D"
+      }
+    ],
+    "correctLabel": "エ",
+    "explanation": "A→B→Dは1＋5＋2＝8日、A→C→Dは1＋2＋2＝5日です。Dは両方を待つため全体は最短8日で、長いA→B→Dがクリティカルパスです。BとCは並行できるので単純に全作業期間を足しません。",
+    "keywords": [
+      "クリティカルパス",
+      "依存関係",
+      "スケジュール"
+    ],
+    "syllabusRef": "ビジネス変革-大分類1-中分類5",
+    "difficulty": "beginner"
   }
 ]

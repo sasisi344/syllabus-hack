@@ -1,46 +1,150 @@
 [
   {
     "id": "ch7-1",
-    "text": "あらゆる形式の生データをそのまま蓄積するデータ基盤はどれか。",
+    "examId": "it-passport",
+    "field": "technology",
+    "subField": "データマネジメント",
+    "year": "予想問題",
+    "questionNumber": 1,
+    "text": "部門によって売上の定義が異なるため、全社の共通定義と責任者を決めた。この活動が主に関係するものはどれか。",
     "choices": [
-      { "label": "ア", "text": "データウェアハウス（DWH）" },
-      { "label": "イ", "text": "データマート" },
-      { "label": "ウ", "text": "データレイク" },
-      { "label": "エ", "text": "データベース" }
+      {
+        "label": "ア",
+        "text": "データガバナンス"
+      },
+      {
+        "label": "イ",
+        "text": "画像認識モデル"
+      },
+      {
+        "label": "ウ",
+        "text": "回帰分析"
+      },
+      {
+        "label": "エ",
+        "text": "非可逆圧縮"
+      }
     ],
-    "correctLabel": "ウ"
+    "correctLabel": "ア",
+    "explanation": "データガバナンスはデータに関する方針、責任、ルールを定めて統制する考え方。回帰分析は関係をモデル化して予測などに使う手法で、全社の定義と責任を決める活動とは違う。",
+    "keywords": [
+      "データガバナンス",
+      "データマネジメント",
+      "メタデータ管理"
+    ],
+    "syllabusRef": "2027年シラバス案Ver.0.1-大分類2-中分類8",
+    "difficulty": "beginner",
+    "chapterOrder": 7
   },
   {
     "id": "ch7-2",
-    "text": "正解データを与えずに、AIにデータの特徴やパターンを発見させる学習方式はどれか。",
+    "examId": "it-passport",
+    "field": "technology",
+    "subField": "AI技術",
+    "year": "予想問題",
+    "questionNumber": 2,
+    "text": "正解となる顧客区分は与えず、購買傾向の似た顧客をグループにまとめたい。基本となる学習方式はどれか。",
     "choices": [
-      { "label": "ア", "text": "教師あり学習" },
-      { "label": "イ", "text": "教師なし学習" },
-      { "label": "ウ", "text": "強化学習" },
-      { "label": "エ", "text": "転移学習" }
+      {
+        "label": "ア",
+        "text": "教師あり学習"
+      },
+      {
+        "label": "イ",
+        "text": "教師なし学習"
+      },
+      {
+        "label": "ウ",
+        "text": "強化学習"
+      },
+      {
+        "label": "エ",
+        "text": "コンテキスト内学習"
+      }
     ],
-    "correctLabel": "イ"
+    "correctLabel": "イ",
+    "explanation": "教師なし学習は正解ラベルなしでデータの構造やパターンを探す。教師あり学習は入力と正解の関係を学び、強化学習は行動に対する報酬を使う。",
+    "keywords": [
+      "教師なし学習",
+      "教師あり学習",
+      "顧客セグメンテーション"
+    ],
+    "syllabusRef": "2027年シラバス案Ver.0.1-大分類4-中分類18",
+    "difficulty": "beginner",
+    "chapterOrder": 7
   },
   {
     "id": "ch7-3",
-    "text": "AIが外部の情報を検索して参照することで回答の精度を高める仕組みはどれか。",
+    "examId": "it-passport",
+    "field": "technology",
+    "subField": "AI技術",
+    "year": "予想問題",
+    "questionNumber": 3,
+    "text": "質問に関連する社内文書を検索し、その内容を入力へ加えてLLMの回答を生成する仕組みはどれか。",
     "choices": [
-      { "label": "ア", "text": "プロンプトエンジニアリング" },
-      { "label": "イ", "text": "ニューラルネットワーク" },
-      { "label": "ウ", "text": "RAG（検索拡張生成）" },
-      { "label": "エ", "text": "マルチモーダルAI" }
+      {
+        "label": "ア",
+        "text": "主記憶の増設"
+      },
+      {
+        "label": "イ",
+        "text": "教師あり学習による売上予測"
+      },
+      {
+        "label": "ウ",
+        "text": "検索拡張生成（RAG）"
+      },
+      {
+        "label": "エ",
+        "text": "データの正規化"
+      }
     ],
-    "correctLabel": "ウ"
+    "correctLabel": "ウ",
+    "explanation": "RAGは検索した外部知識を回答生成へ利用する仕組み。モデルの再学習そのものではなく、検索対象の品質や回答の根拠を確認する必要がある。",
+    "keywords": [
+      "検索拡張生成（RAG）",
+      "大規模言語モデル（LLM）",
+      "外部知識"
+    ],
+    "syllabusRef": "2027年シラバス案Ver.0.1-大分類4-中分類18",
+    "difficulty": "beginner",
+    "chapterOrder": 7
   },
   {
     "id": "ch7-4",
-    "text": "品質管理で重要度の高い順に項目を並べ、優先順位を決める分析手法はどれか。",
+    "examId": "it-passport",
+    "field": "technology",
+    "subField": "データ分析・データ利活用",
+    "year": "予想問題",
+    "questionNumber": 4,
+    "text": "商品別の売上金額を大きい順に並べ、累積比率を使って重点管理する区分を決めたい。最も適切な手法はどれか。",
     "choices": [
-      { "label": "ア", "text": "特性要因図" },
-      { "label": "イ", "text": "散布図" },
-      { "label": "ウ", "text": "ABC分析（パレート図）" },
-      { "label": "エ", "text": "回帰分析" }
+      {
+        "label": "ア",
+        "text": "特性要因図"
+      },
+      {
+        "label": "イ",
+        "text": "散布図"
+      },
+      {
+        "label": "ウ",
+        "text": "回帰分析"
+      },
+      {
+        "label": "エ",
+        "text": "ABC分析"
+      }
     ],
-    "correctLabel": "ウ"
+    "correctLabel": "エ",
+    "explanation": "ABC分析は売上金額などの累積比率を基に管理の重点を決める。パレート図を利用できるが、ABC分析自体をQC七つ道具の図名と同一視しない。散布図は二つの量の関係、特性要因図は原因候補の整理に使う。",
+    "keywords": [
+      "ABC分析",
+      "パレート図",
+      "累積比率"
+    ],
+    "syllabusRef": "2027年シラバス案Ver.0.1-大分類2-中分類9",
+    "difficulty": "beginner",
+    "chapterOrder": 7
   }
 ]
