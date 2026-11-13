@@ -6,6 +6,8 @@
 
 | ID | 完了日 | 種別 | テーマ（タグ） | 対象（URL・クエリ） | 結果（1行） | 参照できるデータ | ファイル |
 |---|---|---|---|---|---|---|---|
+| T-57 | 2026-11-05 | 施策 | CBT, 申込日程, title, 応用情報 | /trend/ipa-2026-cbt-schedule-guide/ | title・説明を後期の申込開始日の形に直して push（a848510）、IndexNow で送信。効果は T-61 | — | [2026-11-05-T-57-schedule-title.md](2026-11-05-T-57-schedule-title.md) |
+| T-55 | 2026-11-05 | 調査 | 月次解析, GA4, GSC, Bing, クエリ分析, インデックス | サイト全体、GSC の全クエリ・全ページ | 10月の月報を完成。強いクエリ・弱いクエリを分析し T-56〜T-61 を起票。ウェーブC の刷新は効果あり（暫定）、`kougyou-koukou` ほか9本は Google の表示が途中で止まった | `.workspace/.task/access-data/monthly-analysis-2026-10.md`・`api/2026-11-05-sep-oct-page-date/` | [2026-11-05-T-55-m10-analysis.md](2026-11-05-T-55-m10-analysis.md) |
 | T-22 | 2026-11-02 | 施策 | 20時間コース, 生成AIパスポート, 新シラバス, 診断, 総復習 | `src/data/course/genai-pass/` 第5〜8章・TOP、診断20問・総復習20問 | Codex が3本（a・b・c）で作成、CC が検収してすべて draft のまま公開可。診断のルート判定をブラウザで確認 | .workspace/admin-review/2026-11-01-T-22a-…・2026-11-02-T-22b-…・2026-11-02-T-22c-genai-pass-top.md | [2026-11-02-T-22-genai-pass-ch5-8-top.md](2026-11-02-T-22-genai-pass-ch5-8-top.md) |
 | T-05 | 2026-11-02 | 施策 | デプロイ, GSC, サイトマップ, インデックス | 全公開記事、サイトマップ、主要ページ | 11/01 に push（26コミット）、11/02 にユーザーが GSC でサイトマップ再送信と主要ページの登録リクエスト。効果は T-06 | — | [2026-11-02-T-05-deploy-gsc.md](2026-11-02-T-05-deploy-gsc.md) |
 | T-12 | 2026-11-02 | 施策 | 全面リライト, AdSense, 一次情報, 図, 演習ツール | ウェーブBの26本（app 13・method 4・theory 8・trend 1） | Codex がリライト、CC が検収して26本とも公開可（.mdx の HTML コメントを直し、admin-lint に検出を追加）。push はユーザー確認後 | .workspace/admin-review/2026-11-02-T-12-wave-b.md, .workspace/codex/reports/2026-11-02-T-12-B01〜B03.md | [2026-11-02-T-12-rewrite-wave-b.md](2026-11-02-T-12-rewrite-wave-b.md) |

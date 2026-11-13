@@ -1,6 +1,6 @@
 # .task-management/ 運用ルール
 
-このフォルダは 344dev の司令塔（`hq/`）からの**統合司令の窓口**。全サイトで同じ形・同じファイル名にしている。標準設計の正本は `C:\Users\sasis\344dev\hq\task-control\standard.md`。この「共通」部分は hq が配布・更新する。サイトが書いてよいのは末尾の「サイト固有」節だけ。
+このフォルダは 344blog の司令塔（`hq/`）からの**統合司令の窓口**。全サイトで同じ形・同じファイル名にしている。標準設計の正本は `C:\Users\sasis\344blog\hq\task-control\standard.md`。この「共通」部分は hq が配布・更新する。サイトが書いてよいのは末尾の「サイト固有」節だけ。
 
 ## 1. ファイル
 
@@ -51,7 +51,7 @@
 - 「今すぐ着手」と「データ待ち」が混じる項目は2行に分ける
 - 規模 L のうち一部だけ平日に進められるもの（下調べなど）は、S・M の行に切り出す
 - 観測した数値はデータ置き場（`.workspace/access-data/` など）に書き、タスクには写さない
-- アクセスデータは月次取得が原則（ユーザーが翌月2〜3日に画面から書き出す）。月の途中で数字が要るとき（効果測定の前後比較、ページ×クエリなど）は、ユーザーに頼む前に `C:\Users\sasis\344dev\hq\tools\analytics-fetch\` の `fetch.mjs` で API から取る（使い方は同フォルダの README）。保存先は `.workspace/access-data/api/`。月次 CSV と混ぜて計算しない
+- アクセスデータは月次取得が原則（ユーザーが翌月2〜3日に画面から書き出す）。月の途中で数字が要るとき（効果測定の前後比較、ページ×クエリなど）は、ユーザーに頼む前に `C:\Users\sasis\344blog\hq\tools\analytics-fetch\` の `fetch.mjs` で API から取る（使い方は同フォルダの README）。保存先は `.workspace/access-data/api/`。月次 CSV と混ぜて計算しない
 - 作業中に見つけた問題で、今直さないもの → `inbox.md` に1行
 - サイトをまたぐもの・収益の判断が要るもの → `inbox.md` に書けば hq が拾う（hq の `backlog.md` に直接書かない）
 
@@ -89,7 +89,7 @@
 
 ## 9. Codex（実行部）との関係
 
-組織の正本は `C:\Users\sasis\344dev\hq\org\README.md`。Claude Code は管理部（起票・指示書・検収・記録）、Codex は実行部（記事の作成・リライト・サムネイル・インフォグラフィック）。
+組織の正本は `C:\Users\sasis\344blog\hq\org\README.md`。Claude Code は管理部（起票・指示書・検収・記録）、Codex は実行部（記事の作成・リライト・サムネイル・インフォグラフィック）。
 
 - 担当が `Codex` のタスクは、CC が `.workspace/codex/orders/YYYY-MM-DD-<ID>.md` に指示書を書いて渡す（ひな形 `hq/org/work-order-template.md`）
 - Codex は `task.md`・`records/` を読むだけ。報告書を `.workspace/codex/reports/` に書き、改善提案を `inbox.md` に `書いた人 Codex` で追記する
@@ -113,6 +113,6 @@
 | 記事を書く・直す | `CLAUDE.md` ワークフロー A・D、`.agents/post_writer.md` |
 | 全面リライトを進める | `.workspace/projects/rewrite-2026-11/README.md`・`progress.md` |
 | 20時間コースを作る | `.workspace/.new-contentplan/20hours-course-template.md`、`.workspace/projects/course-expansion-2026-11/README.md` |
-| AdSense の計画・判断 | `C:\Users\sasis\344dev\hq\adsense-redesign.md` §3・§4 |
+| AdSense の計画・判断 | `C:\Users\sasis\344blog\hq\adsense-redesign.md` §3・§4 |
 | アクセス解析 | `.workspace/.task/access-data/README.md`、`/weekly-report` |
 | 生成AIパスポートの細目 | `.workspace/projects/genai-pass/genai-pass-task.md` |
