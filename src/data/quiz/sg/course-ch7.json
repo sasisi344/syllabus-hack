@@ -1,46 +1,150 @@
 [
   {
     "id": "sg-ch7-1",
-    "text": "損益分岐点の説明として最も適切なものはどれか。",
+    "examId": "sg",
+    "field": "strategy",
+    "subField": "経営・組織論",
+    "year": "予想問題",
+    "questionNumber": 1,
+    "chapterOrder": 7,
+    "text": "月の固定費が12万円、1件当たり売上が2,000円、変動費が800円の架空サービスがある。売上と費用が一致する件数はどれか。",
     "choices": [
-      { "label": "ア", "text": "売上高と総費用（固定費＋変動費）が一致し、損益がちょうどゼロになる売上高の水準" },
-      { "label": "イ", "text": "固定費だけを合計した金額" },
-      { "label": "ウ", "text": "売上高に対する変動費の割合" },
-      { "label": "エ", "text": "営業利益を売上高で割った比率" }
+      {
+        "label": "ア",
+        "text": "60件"
+      },
+      {
+        "label": "イ",
+        "text": "100件"
+      },
+      {
+        "label": "ウ",
+        "text": "150件"
+      },
+      {
+        "label": "エ",
+        "text": "250件"
+      }
     ],
-    "correctLabel": "ア"
+    "correctLabel": "イ",
+    "explanation": "1件当たり固定費の回収に使える額は2,000－800＝1,200円です。120,000÷1,200＝100件が損益分岐点です。",
+    "keywords": [
+      "固定費",
+      "変動費",
+      "損益分岐点"
+    ],
+    "syllabusRef": "大分類3-中分類11",
+    "difficulty": "beginner"
   },
   {
     "id": "sg-ch7-2",
-    "text": "RFP（提案依頼書）とRFQ（見積依頼書）の違いとして正しいものはどれか。",
+    "examId": "sg",
+    "field": "strategy",
+    "subField": "AI利活用",
+    "year": "予想問題",
+    "questionNumber": 2,
+    "chapterOrder": 7,
+    "text": "社内文書を検索するRAGを導入した。「検索結果を使うので、回答は必ず正しくなる」という説明への指摘として最も適切なものはどれか。",
     "choices": [
-      { "label": "ア", "text": "RFPはシステムの要件や目標スケジュールなどを示して具体的な提案を求める文書であり、RFQは特定の項目について見積りを求める文書である" },
-      { "label": "イ", "text": "RFPは見積り専用の文書であり、RFQは要件を伝える文書である" },
-      { "label": "ウ", "text": "RFPとRFQはまったく同じ内容の文書であり、呼び方が異なるだけである" },
-      { "label": "エ", "text": "RFPは契約締結後に使う文書、RFQは契約前にのみ使う文書である" }
+      {
+        "label": "ア",
+        "text": "ランダム性を下げれば古い検索文書も最新の内容に変わる"
+      },
+      {
+        "label": "イ",
+        "text": "RAGでは利用者ごとの参照権限を設ける必要がない"
+      },
+      {
+        "label": "ウ",
+        "text": "検索を行うと人による根拠の確認は不要になる"
+      },
+      {
+        "label": "エ",
+        "text": "検索資料の誤りや古さ、生成時の誤解釈が残るので根拠を確認する"
+      }
     ],
-    "correctLabel": "ア"
+    "correctLabel": "エ",
+    "explanation": "RAGは外部の情報を参考に生成する仕組みで、正確性の保証ではありません。参照権限と資料・出力の確認も必要です。",
+    "keywords": [
+      "RAGによる知識連携",
+      "根拠確認",
+      "生成AI"
+    ],
+    "syllabusRef": "大分類2-中分類10",
+    "difficulty": "beginner"
   },
   {
     "id": "sg-ch7-3",
-    "text": "BPR（ビジネスプロセスリエンジニアリング）の説明として最も適切なものはどれか。",
+    "examId": "sg",
+    "field": "strategy",
+    "subField": "データ分析・データ利活用",
+    "year": "予想問題",
+    "questionNumber": 3,
+    "chapterOrder": 7,
+    "text": "全社研修の評価を、参加を希望した情報システム部の社員だけに聞いて全社員へ一般化した。まず確認すべき問題はどれか。",
     "choices": [
-      { "label": "ア", "text": "既存の業務プロセスを前提とせず、目的に立ち返って抜本的に見直し、根本から再設計すること" },
-      { "label": "イ", "text": "既存の業務プロセスを維持したまま、日常的な小さな改善を積み重ねること" },
-      { "label": "ウ", "text": "情報システムの調達方法を定めた契約形態の一つ" },
-      { "label": "エ", "text": "情報セキュリティ管理策の技術的な実装方式の一つ" }
+      {
+        "label": "ア",
+        "text": "調査対象が全社員を代表しているかという偏り"
+      },
+      {
+        "label": "イ",
+        "text": "テキストを数字へ変換していないこと"
+      },
+      {
+        "label": "ウ",
+        "text": "回答を保存したリージョンの数"
+      },
+      {
+        "label": "エ",
+        "text": "損益計算書と貸借対照表の不一致"
+      }
     ],
-    "correctLabel": "ア"
+    "correctLabel": "ア",
+    "explanation": "特定部署の希望者だけでは、他部署や不参加者の状況が反映されない可能性があります。集めた件数だけでなく標本の取り方を確認します。",
+    "keywords": [
+      "統計的バイアス",
+      "標本",
+      "調査対象"
+    ],
+    "syllabusRef": "大分類2-中分類9",
+    "difficulty": "beginner"
   },
   {
     "id": "sg-ch7-4",
-    "text": "組織の情報セキュリティに関する最高責任者を表す役職の略称はどれか。",
+    "examId": "sg",
+    "field": "strategy",
+    "subField": "経営・組織論",
+    "year": "予想問題",
+    "questionNumber": 4,
+    "chapterOrder": 7,
+    "text": "経営の役職のうち、情報セキュリティを統括する最高責任者を表すものはどれか。",
     "choices": [
-      { "label": "ア", "text": "CISO" },
-      { "label": "イ", "text": "CFO" },
-      { "label": "ウ", "text": "COO" },
-      { "label": "エ", "text": "CTO" }
+      {
+        "label": "ア",
+        "text": "CPO"
+      },
+      {
+        "label": "イ",
+        "text": "CDO"
+      },
+      {
+        "label": "ウ",
+        "text": "CISO"
+      },
+      {
+        "label": "エ",
+        "text": "CIO"
+      }
     ],
-    "correctLabel": "ア"
+    "correctLabel": "ウ",
+    "explanation": "CISOは最高情報セキュリティ責任者です。CPOはプライバシー、CDOはデジタル変革、CIOは情報活用や情報システムの責任者として区別します。",
+    "keywords": [
+      "CISO",
+      "経営責任",
+      "情報セキュリティ"
+    ],
+    "syllabusRef": "大分類3-中分類11",
+    "difficulty": "beginner"
   }
 ]

@@ -1,46 +1,150 @@
 [
   {
     "id": "sg-ch5-1",
-    "text": "「フールプルーフ」と「フェールセーフ」の違いとして正しいものはどれか。",
+    "examId": "sg",
+    "field": "technology",
+    "subField": "クラウド",
+    "year": "予想問題",
+    "questionNumber": 1,
+    "chapterOrder": 5,
+    "text": "完成した業務アプリをSaaSとして利用する。利用側が継続して確認すべき事項として、最も適切なものはどれか。",
     "choices": [
-      { "label": "ア", "text": "フールプルーフは誤操作をしても危険が生じないようにする設計、フェールセーフは故障が発生しても安全側に動作するようにする設計である" },
-      { "label": "イ", "text": "フールプルーフは故障が発生しても安全側に動作する設計、フェールセーフは誤操作をしても危険が生じない設計である" },
-      { "label": "ウ", "text": "どちらも同じ意味で、装置を二重化することを指す" },
-      { "label": "エ", "text": "どちらもネットワークの冗長構成を指す用語である" }
+      {
+        "label": "ア",
+        "text": "物理サーバの交換時期を決めて自分で交換する"
+      },
+      {
+        "label": "イ",
+        "text": "事業者の施設の入退室を自分で運用する"
+      },
+      {
+        "label": "ウ",
+        "text": "利用者と共有権限が業務上必要な範囲か確認する"
+      },
+      {
+        "label": "エ",
+        "text": "すべてのアプリ利用者に事業者のOS管理権限を与える"
+      }
     ],
-    "correctLabel": "ア"
+    "correctLabel": "ウ",
+    "explanation": "SaaSでも利用者や共有範囲の管理は利用側に残ります。提供範囲と責任分担を確認し、事業者の基盤運用と区別します。",
+    "keywords": [
+      "SaaS",
+      "責任分担",
+      "アクセス権"
+    ],
+    "syllabusRef": "大分類4-中分類15",
+    "difficulty": "beginner"
   },
   {
     "id": "sg-ch5-2",
-    "text": "MTBF（平均故障間隔）とMTTR（平均修理時間）の説明として正しいものはどれか。",
+    "examId": "sg",
+    "field": "technology",
+    "subField": "クラウド",
+    "year": "予想問題",
+    "questionNumber": 2,
+    "chapterOrder": 5,
+    "text": "データを国内のリージョンに保存する予定である。保存・保持の要求を満たすか判断するために追加で確認すべきものはどれか。",
     "choices": [
-      { "label": "ア", "text": "MTBFは故障から次の故障までの平均時間、MTTRは故障発生から修理完了までの平均時間である" },
-      { "label": "イ", "text": "MTBFは故障発生から修理完了までの平均時間、MTTRは故障から次の故障までの平均時間である" },
-      { "label": "ウ", "text": "MTBF・MTTRはいずれもシステムの導入コストを表す指標である" },
-      { "label": "エ", "text": "MTBF・MTTRはいずれもレスポンスタイムを表す指標である" }
+      {
+        "label": "ア",
+        "text": "リージョン名に国内の地名が含まれるかだけを確認する"
+      },
+      {
+        "label": "イ",
+        "text": "複製先、バックアップの保存先、保持期間と終了時の削除条件を確認する"
+      },
+      {
+        "label": "ウ",
+        "text": "サービスの画面が日本語なら追加確認を省く"
+      },
+      {
+        "label": "エ",
+        "text": "クラスタ構成なら過去の版も必ず残ると判断する"
+      }
     ],
-    "correctLabel": "ア"
+    "correctLabel": "イ",
+    "explanation": "リージョンの選択だけでは複製先や保持・削除の条件は確定しません。契約とサービス仕様を照合します。",
+    "keywords": [
+      "リージョン",
+      "データ保持の方法",
+      "バックアップ"
+    ],
+    "syllabusRef": "大分類4-中分類15",
+    "difficulty": "beginner"
   },
   {
     "id": "sg-ch5-3",
-    "text": "バックアップ方式のうち、直前のフルバックアップ以降に変更されたデータだけを毎回バックアップする方式（データ量は少ないが、復元時は直前のフルバックアップと最新の増分をすべて適用する必要がある）はどれか。",
+    "examId": "sg",
+    "field": "technology",
+    "subField": "ネットワーク",
+    "year": "予想問題",
+    "questionNumber": 3,
+    "chapterOrder": 5,
+    "text": "社内メールサーバから相手側メールサーバへ電子メールを転送する際に使う基本的なプロトコルはどれか。",
     "choices": [
-      { "label": "ア", "text": "増分バックアップ" },
-      { "label": "イ", "text": "差分バックアップ" },
-      { "label": "ウ", "text": "フルバックアップ" },
-      { "label": "エ", "text": "ミラーリング" }
+      {
+        "label": "ア",
+        "text": "POP3"
+      },
+      {
+        "label": "イ",
+        "text": "IMAP"
+      },
+      {
+        "label": "ウ",
+        "text": "DHCP"
+      },
+      {
+        "label": "エ",
+        "text": "SMTP"
+      }
     ],
-    "correctLabel": "ア"
+    "correctLabel": "エ",
+    "explanation": "SMTPはメールの送信・転送に使います。POP3やIMAPは受信側の取得・参照、DHCPはネットワーク設定の配布に関わります。",
+    "keywords": [
+      "SMTP",
+      "メール転送",
+      "プロトコル"
+    ],
+    "syllabusRef": "大分類4-中分類16",
+    "difficulty": "beginner"
   },
   {
     "id": "sg-ch5-4",
-    "text": "IPv4とIPv6のアドレス空間の違いとして正しいものはどれか。",
+    "examId": "sg",
+    "field": "technology",
+    "subField": "ネットワーク",
+    "year": "予想問題",
+    "questionNumber": 4,
+    "chapterOrder": 5,
+    "text": "IPv4とIPv6のアドレス長の組合せとして正しいものはどれか。",
     "choices": [
-      { "label": "ア", "text": "IPv4は32ビット、IPv6は128ビットのアドレス空間を持つ" },
-      { "label": "イ", "text": "IPv4は128ビット、IPv6は32ビットのアドレス空間を持つ" },
-      { "label": "ウ", "text": "どちらも32ビットのアドレス空間を持つ" },
-      { "label": "エ", "text": "どちらも128ビットのアドレス空間を持つ" }
+      {
+        "label": "ア",
+        "text": "IPv4は32ビット、IPv6は128ビット"
+      },
+      {
+        "label": "イ",
+        "text": "IPv4は128ビット、IPv6は32ビット"
+      },
+      {
+        "label": "ウ",
+        "text": "IPv4もIPv6も32ビット"
+      },
+      {
+        "label": "エ",
+        "text": "IPv4もIPv6も128ビット"
+      }
     ],
-    "correctLabel": "ア"
+    "correctLabel": "ア",
+    "explanation": "IPv4は32ビット、IPv6は128ビットです。アドレス長は宛先を表現する範囲に関わり、暗号化や安全性そのものを示す値ではありません。",
+    "keywords": [
+      "IPv4",
+      "IPv6",
+      "IPアドレス"
+    ],
+    "syllabusRef": "大分類4-中分類16",
+    "difficulty": "beginner"
   }
 ]

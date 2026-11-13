@@ -1,46 +1,150 @@
 [
   {
     "id": "sg-ch3-1",
-    "text": "インターネットなどの外部ネットワークと組織内部のLANとの中間に設け、外部に公開するサーバを内部LANから隔離するために設置する区域を何というか。",
+    "text": "公開Webサーバへの侵入が、そのまま社内の重要サーバへのアクセスにつながらないようにしたい。外部向けサーバを内部LANと分離して置く区域はどれか。",
     "choices": [
-      { "label": "ア", "text": "DMZ（非武装地帯）" },
-      { "label": "イ", "text": "検疫ネットワーク" },
-      { "label": "ウ", "text": "VPN" },
-      { "label": "エ", "text": "SOC" }
+      {
+        "label": "ア",
+        "text": "VPN"
+      },
+      {
+        "label": "イ",
+        "text": "SOC"
+      },
+      {
+        "label": "ウ",
+        "text": "DMZ"
+      },
+      {
+        "label": "エ",
+        "text": "検疫ネットワーク"
+      }
     ],
-    "correctLabel": "ア"
+    "correctLabel": "ウ",
+    "examId": "sg",
+    "field": "technology",
+    "subField": "情報セキュリティ対策",
+    "year": "予想問題",
+    "questionNumber": 1,
+    "chapterOrder": 3,
+    "explanation": "DMZは公開サーバなどを内部LANから分離する区域です。VPNは通信の保護、検疫ネットワークは接続端末の状態確認などを目的とし、公開サーバの配置区域とは異なります。",
+    "keywords": [
+      "DMZ",
+      "ネットワーク分離",
+      "境界防御"
+    ],
+    "syllabusRef": "大分類6-中分類25",
+    "difficulty": "beginner"
   },
   {
     "id": "sg-ch3-2",
-    "text": "マルウェア対策ソフトが、正常なファイルや通信を誤って「不正である」と判定してしまうことを何というか。",
+    "text": "攻撃を含む通信を監視装置が正常と判定し、通知しなかった。この判定はどれか。",
     "choices": [
-      { "label": "ア", "text": "フォールスポジティブ" },
-      { "label": "イ", "text": "フォールスネガティブ" },
-      { "label": "ウ", "text": "ゼロデイ攻撃" },
-      { "label": "エ", "text": "サンドボックス" }
+      {
+        "label": "ア",
+        "text": "フォールスネガティブ"
+      },
+      {
+        "label": "イ",
+        "text": "フォールスポジティブ"
+      },
+      {
+        "label": "ウ",
+        "text": "多要素認証"
+      },
+      {
+        "label": "エ",
+        "text": "ペネトレーションテスト"
+      }
     ],
-    "correctLabel": "ア"
+    "correctLabel": "ア",
+    "examId": "sg",
+    "field": "technology",
+    "subField": "情報セキュリティ対策",
+    "year": "予想問題",
+    "questionNumber": 2,
+    "chapterOrder": 3,
+    "explanation": "不正なものを正常と判定して見逃すことがフォールスネガティブです。正常を不正と誤判定するのがフォールスポジティブであり、向きを区別します。",
+    "keywords": [
+      "フォールスネガティブ",
+      "見逃し",
+      "侵入検知"
+    ],
+    "syllabusRef": "大分類6-中分類25",
+    "difficulty": "beginner"
   },
   {
     "id": "sg-ch3-3",
-    "text": "PCやサーバ（エンドポイント）上の不審な挙動を検知し、感染後の被害拡大防止や調査を支援するセキュリティ製品はどれか。",
+    "text": "通信の入口にWAFは導入済みだが、PCで起動されたプロセスの不審な振る舞いを検知し、感染端末の隔離や調査を支援したい。最も直接的な製品はどれか。",
     "choices": [
-      { "label": "ア", "text": "EDR" },
-      { "label": "イ", "text": "WAF" },
-      { "label": "ウ", "text": "IDS" },
-      { "label": "エ", "text": "DLP" }
+      {
+        "label": "ア",
+        "text": "WAF"
+      },
+      {
+        "label": "イ",
+        "text": "DLP"
+      },
+      {
+        "label": "ウ",
+        "text": "DNSサーバ"
+      },
+      {
+        "label": "エ",
+        "text": "EDR"
+      }
     ],
-    "correctLabel": "ア"
+    "correctLabel": "エ",
+    "examId": "sg",
+    "field": "technology",
+    "subField": "情報セキュリティ対策",
+    "year": "予想問題",
+    "questionNumber": 3,
+    "chapterOrder": 3,
+    "explanation": "EDRは端末上の動作を観測し、検知・調査・封じ込めなどを支援します。WAFが見るWeb要求とは観測する場所が違います。DLPは機密情報などの持出しの検知・制御が中心です。",
+    "keywords": [
+      "EDR",
+      "エンドポイント",
+      "WAF"
+    ],
+    "syllabusRef": "大分類6-中分類25",
+    "difficulty": "beginner"
   },
   {
     "id": "sg-ch3-4",
-    "text": "共通鍵暗号方式を用いた無線LANのセキュリティ規格として、現在推奨されているものはどれか。",
+    "text": "Webシステムの通信をTLSで保護した。TLSを使っていることだけから判断できないものはどれか。",
     "choices": [
-      { "label": "ア", "text": "WPA3" },
-      { "label": "イ", "text": "WEP" },
-      { "label": "ウ", "text": "SSID" },
-      { "label": "エ", "text": "MACアドレスフィルタリングのみ" }
+      {
+        "label": "ア",
+        "text": "通信路での盗聴・改ざんへの対策を行っている"
+      },
+      {
+        "label": "イ",
+        "text": "アプリケーションにSQLインジェクションの欠陥がない"
+      },
+      {
+        "label": "ウ",
+        "text": "通信内容の暗号化に関わる仕組みを使っている"
+      },
+      {
+        "label": "エ",
+        "text": "Web通信の保護を実施している"
+      }
     ],
-    "correctLabel": "ア"
+    "correctLabel": "イ",
+    "examId": "sg",
+    "field": "technology",
+    "subField": "セキュリティ実装技術・評価",
+    "year": "予想問題",
+    "questionNumber": 4,
+    "chapterOrder": 3,
+    "explanation": "TLSは通信路を保護しますが、アプリケーションのSQL処理の安全性は保証しません。SQLインジェクション対策ではプレースホルダなどを用い、命令と値を分ける実装を確かめます。",
+    "keywords": [
+      "TLS",
+      "SQLインジェクション対策",
+      "セキュアプログラミング"
+    ],
+    "syllabusRef": "大分類6-中分類26",
+    "difficulty": "beginner"
   }
 ]

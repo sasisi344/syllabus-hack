@@ -1,46 +1,150 @@
 [
   {
     "id": "sg-ch2-1",
-    "text": "リスクを特定・分析・評価し、対応策を講じた後もなお残ってしまうリスクのことを何というか。",
+    "text": "機密ファイルの持出しを制限したが、権限を持つ人による不正の可能性は残っている。次に取る対応として最も適切なものはどれか。",
     "choices": [
-      { "label": "ア", "text": "残留リスク" },
-      { "label": "イ", "text": "リスク集約" },
-      { "label": "ウ", "text": "リスク所有者" },
-      { "label": "エ", "text": "リスク登録簿" }
+      {
+        "label": "ア",
+        "text": "対策導入を根拠にリスクをゼロと記録する"
+      },
+      {
+        "label": "イ",
+        "text": "残るリスクを評価し、権限のある責任者が受容の可否を判断する"
+      },
+      {
+        "label": "ウ",
+        "text": "リスクを報告せず担当者だけで受け入れる"
+      },
+      {
+        "label": "エ",
+        "text": "保険に入れば情報漏えい自体もなくなると判断する"
+      }
     ],
-    "correctLabel": "ア"
+    "correctLabel": "イ",
+    "examId": "sg",
+    "field": "management",
+    "subField": "情報セキュリティマネジメント",
+    "year": "予想問題",
+    "questionNumber": 1,
+    "chapterOrder": 2,
+    "explanation": "残留リスクは対策後も残るリスクです。組織の受容基準に照らして評価し、権限のある責任者が判断します。保険は事故そのものを防ぐ対策ではありません。",
+    "keywords": [
+      "残留リスク",
+      "リスク受容",
+      "リスク所有者"
+    ],
+    "syllabusRef": "大分類6-中分類24",
+    "difficulty": "beginner"
   },
   {
     "id": "sg-ch2-2",
-    "text": "情報セキュリティインシデントの検知・連絡受付からインシデントレスポンス、報告までを専門に担う組織はどれか。",
+    "text": "自社製品の脆弱性報告を受け付け、修正と利用者への通知を調整する体制を設ける。最も直接的に対応する組織はどれか。",
     "choices": [
-      { "label": "ア", "text": "CSIRT" },
-      { "label": "イ", "text": "ISMS認証機関" },
-      { "label": "ウ", "text": "個人情報保護委員会" },
-      { "label": "エ", "text": "IPAセキュリティセンター" }
+      {
+        "label": "ア",
+        "text": "SOC"
+      },
+      {
+        "label": "イ",
+        "text": "ISMS認証機関"
+      },
+      {
+        "label": "ウ",
+        "text": "PSIRT"
+      },
+      {
+        "label": "エ",
+        "text": "人事評価委員会"
+      }
     ],
-    "correctLabel": "ア"
+    "correctLabel": "ウ",
+    "examId": "sg",
+    "field": "management",
+    "subField": "情報セキュリティマネジメント",
+    "year": "予想問題",
+    "questionNumber": 2,
+    "chapterOrder": 2,
+    "explanation": "PSIRTは自社製品・サービスの脆弱性などへ対応する組織です。SOCは監視・検知・分析、CSIRTは組織のインシデント対応の調整が中心で、対象から判断します。",
+    "keywords": [
+      "PSIRT",
+      "CSIRT",
+      "SOC"
+    ],
+    "syllabusRef": "大分類6-中分類24",
+    "difficulty": "beginner"
   },
   {
     "id": "sg-ch2-3",
-    "text": "「識別・防御・検知・対応・復旧」という5つの機能でまとめられるサイバーセキュリティの基本概念を何というか。",
+    "text": "NIST CSF 2.0において、リスク許容度や役割・責任、方針の設定に注目する機能はどれか。",
     "choices": [
-      { "label": "ア", "text": "サイバーセキュリティ概念" },
-      { "label": "イ", "text": "リスクアセスメントのプロセス" },
-      { "label": "ウ", "text": "ISMS適合性評価制度" },
-      { "label": "エ", "text": "情報セキュリティガバナンス" }
+      {
+        "label": "ア",
+        "text": "復旧（Recover）"
+      },
+      {
+        "label": "イ",
+        "text": "防御（Protect）"
+      },
+      {
+        "label": "ウ",
+        "text": "対応（Respond）"
+      },
+      {
+        "label": "エ",
+        "text": "統治（Govern）"
+      }
     ],
-    "correctLabel": "ア"
+    "correctLabel": "エ",
+    "examId": "sg",
+    "field": "management",
+    "subField": "情報セキュリティマネジメント",
+    "year": "予想問題",
+    "questionNumber": 3,
+    "chapterOrder": 2,
+    "explanation": "CSF 2.0は統治・識別・防御・検知・対応・復旧の6機能です。統治はリスク管理の方向や責任を支えます。これらは一度だけ順番に進む工程ではありません。",
+    "keywords": [
+      "NIST CSF 2.0",
+      "統治",
+      "役割及び責任"
+    ],
+    "syllabusRef": "大分類6-中分類24",
+    "difficulty": "beginner"
   },
   {
     "id": "sg-ch2-4",
-    "text": "JIS Q 27001（ISO/IEC 27001）の説明として最も適切なものはどれか。",
+    "text": "ISO/IEC 27001とISO/IEC 27002の使い分けとして最も適切なものはどれか。",
     "choices": [
-      { "label": "ア", "text": "ISMS（情報セキュリティマネジメントシステム）の要求事項を定めた規格で、これに基づき第三者によるISMS認証を取得できる" },
-      { "label": "イ", "text": "個人情報保護のための業界別ガイドラインである" },
-      { "label": "ウ", "text": "ネットワーク機器の通信規格を定めた技術標準である" },
-      { "label": "エ", "text": "サイバーセキュリティ経営ガイドラインの正式名称である" }
+      {
+        "label": "ア",
+        "text": "27001はISMSの要求事項、27002は管理策の実施などに関する指針である"
+      },
+      {
+        "label": "イ",
+        "text": "27001は暗号方式、27002は通信速度を定める"
+      },
+      {
+        "label": "ウ",
+        "text": "27001は個人情報保護法、27002は不正アクセス禁止法である"
+      },
+      {
+        "label": "エ",
+        "text": "27002の番号を掲示すれば全製品の安全性が保証される"
+      }
     ],
-    "correctLabel": "ア"
+    "correctLabel": "ア",
+    "examId": "sg",
+    "field": "management",
+    "subField": "情報セキュリティマネジメント",
+    "year": "予想問題",
+    "questionNumber": 4,
+    "chapterOrder": 2,
+    "explanation": "27001はISMSの要求事項を定め、27002は管理策の指針を示します。ISMS認証は適用範囲を確かめる必要があり、全製品の安全性を保証するものではありません。",
+    "keywords": [
+      "ISMS",
+      "ISO/IEC 27001",
+      "ISO/IEC 27002"
+    ],
+    "syllabusRef": "大分類6-中分類24",
+    "difficulty": "beginner"
   }
 ]

@@ -1,122 +1,594 @@
 [
   {
     "id": "diag-1",
+    "examId": "sg",
+    "field": "technology",
+    "subField": "情報セキュリティの脅威",
+    "year": "予想問題",
+    "questionNumber": 1,
     "chapterOrder": 1,
-    "text": "ランサムウェア対策として知られる「3-2-1ルール」の内容として正しいものはどれか。",
+    "text": "攻撃者は業務ファイルを暗号化したうえ、盗んだデータを公開すると要求している。この脅迫の特徴を表すものはどれか。",
     "choices": [
-      { "label": "ア", "text": "データを3世代保存し、2か所の拠点に分散させ、1つのクラウドサービスに限定して保管する" },
-      { "label": "イ", "text": "データのコピーを3つ保持し、2種類以上の異なる媒体に保存し、そのうち1つは遠隔地（オフサイト）に置く" },
-      { "label": "ウ", "text": "パスワードを3か月ごとに変更し、2種類の認証方式を使い、1つは生体認証にする" },
-      { "label": "エ", "text": "重要データに3人の承認者を置き、2段階の暗号化を行い、1つは物理媒体に限定する" }
+      {
+        "label": "ア",
+        "text": "二重恐喝（多重恐喝）"
+      },
+      {
+        "label": "イ",
+        "text": "リプレイ攻撃"
+      },
+      {
+        "label": "ウ",
+        "text": "DNSキャッシュポイズニング"
+      },
+      {
+        "label": "エ",
+        "text": "データポイズニング"
+      }
     ],
-    "correctLabel": "イ"
+    "correctLabel": "ア",
+    "explanation": "暗号化による利用妨害と、窃取データの公開を組み合わせています。復元手段があっても漏えいの懸念は残ります。",
+    "keywords": [
+      "ランサムウェア",
+      "二重恐喝",
+      "情報漏えい"
+    ],
+    "syllabusRef": "大分類6-中分類23",
+    "difficulty": "beginner"
   },
   {
     "id": "diag-2",
+    "examId": "sg",
+    "field": "technology",
+    "subField": "情報セキュリティの脅威",
+    "year": "予想問題",
+    "questionNumber": 2,
     "chapterOrder": 1,
-    "text": "「AIを悪用した攻撃」の例として、シラバスに挙げられているものはどれか。",
+    "text": "他のサービスから漏えいしたIDとパスワードの組を使い、同じ組合せで別サービスへログインを試す攻撃はどれか。",
     "choices": [
-      { "label": "ア", "text": "マルウェアの亜種の自動生成や、フィッシング文面・なりすましの巧妙化" },
-      { "label": "イ", "text": "データベースの正規化による重複データの排除" },
-      { "label": "ウ", "text": "SLAに基づくサービスレベルの管理" },
-      { "label": "エ", "text": "WBSによる作業の階層的な分解" }
+      {
+        "label": "ア",
+        "text": "辞書攻撃"
+      },
+      {
+        "label": "イ",
+        "text": "リプレイ攻撃"
+      },
+      {
+        "label": "ウ",
+        "text": "クレデンシャルスタッフィング"
+      },
+      {
+        "label": "エ",
+        "text": "セッションハイジャック"
+      }
     ],
-    "correctLabel": "ア"
+    "correctLabel": "ウ",
+    "explanation": "漏えいした資格情報の使い回しを狙う攻撃です。辞書による候補の推測や、取得した通信の再送とは区別します。",
+    "keywords": [
+      "クレデンシャルスタッフィング",
+      "資格情報",
+      "パスワード使い回し"
+    ],
+    "syllabusRef": "大分類6-中分類23",
+    "difficulty": "beginner"
   },
   {
     "id": "diag-3",
+    "examId": "sg",
+    "field": "management",
+    "subField": "情報セキュリティマネジメント",
+    "year": "予想問題",
+    "questionNumber": 3,
     "chapterOrder": 2,
-    "text": "情報セキュリティリスクアセスメントのプロセスとして正しい順序はどれか。",
+    "text": "部門では情報の重要度に応じた分類を決めた。受け取った人がその分類に沿って扱えるよう、次に整えるものはどれか。",
     "choices": [
-      { "label": "ア", "text": "リスクの特定 → リスクの分析 → リスクの評価" },
-      { "label": "イ", "text": "リスクの評価 → リスクの分析 → リスクの特定" },
-      { "label": "ウ", "text": "リスクの分析 → リスクの特定 → リスクの評価" },
-      { "label": "エ", "text": "リスクの評価 → リスクの特定 → リスクの分析" }
+      {
+        "label": "ア",
+        "text": "すべての資料を同じ公開区分へ変更する"
+      },
+      {
+        "label": "イ",
+        "text": "閲覧できる人にも分類を一切知らせない"
+      },
+      {
+        "label": "ウ",
+        "text": "情報の内容に関わらず端末名だけを付ける"
+      },
+      {
+        "label": "エ",
+        "text": "分類に対応するラベルと取扱い方法を資料や共有先に示す"
+      }
     ],
-    "correctLabel": "ア"
+    "correctLabel": "エ",
+    "explanation": "分類とラベル付けを結び付けると、利用者が保存・転送などの条件を判断できます。分類しただけで適切な扱いが自動化されるわけではありません。",
+    "keywords": [
+      "情報の分類",
+      "情報のラベル付け",
+      "取扱い方法"
+    ],
+    "syllabusRef": "大分類6-中分類24",
+    "difficulty": "beginner"
   },
   {
     "id": "diag-4",
+    "examId": "sg",
+    "field": "management",
+    "subField": "情報セキュリティマネジメント",
+    "year": "予想問題",
+    "questionNumber": 4,
     "chapterOrder": 2,
-    "text": "ISMS（情報セキュリティマネジメントシステム）における「情報セキュリティ管理策」の4つの区分の組み合わせとして正しいものはどれか。",
+    "text": "支払先の登録から送金の承認まで一人だけで実施できる状態を見直す。権限の集中を減らす仕組みとして最も適切なものはどれか。",
     "choices": [
-      { "label": "ア", "text": "組織的管理策・人的管理策・物理的管理策・技術的管理策" },
-      { "label": "イ", "text": "予防・検知・是正・復旧" },
-      { "label": "ウ", "text": "機密性・完全性・可用性・責任追跡性" },
-      { "label": "エ", "text": "計画・実行・評価・改善" }
+      {
+        "label": "ア",
+        "text": "操作記録を本人だけが削除できるようにする"
+      },
+      {
+        "label": "イ",
+        "text": "登録担当と承認担当を分け、別の人が確認する"
+      },
+      {
+        "label": "ウ",
+        "text": "承認者のIDを全員で共用する"
+      },
+      {
+        "label": "エ",
+        "text": "登録と送金の両方を同じ担当者の自由裁量にする"
+      }
     ],
-    "correctLabel": "ア"
+    "correctLabel": "イ",
+    "explanation": "職務を分離して相互に確認する仕組みにします。同じ人が実行・承認し、記録も消せる状態では不正の発見が難しくなります。",
+    "keywords": [
+      "職務の分離",
+      "相互確認",
+      "権限"
+    ],
+    "syllabusRef": "大分類6-中分類24",
+    "difficulty": "beginner"
   },
   {
     "id": "diag-5",
+    "examId": "sg",
+    "field": "technology",
+    "subField": "情報セキュリティ対策",
+    "year": "予想問題",
+    "questionNumber": 5,
     "chapterOrder": 3,
-    "text": "記憶（パスワード等）・所持（ICカード等）・生体（指紋等）のうち、異なる種類の要素を2つ以上組み合わせる認証方式はどれか。",
+    "text": "生体認証を評価したところ、登録本人ではない人を誤って通す割合が問題になった。この指標はどれか。",
     "choices": [
-      { "label": "ア", "text": "シングルサインオン" },
-      { "label": "イ", "text": "多要素認証" },
-      { "label": "ウ", "text": "多段階認証" },
-      { "label": "エ", "text": "リスクベース認証" }
+      {
+        "label": "ア",
+        "text": "本人拒否率（FRR）"
+      },
+      {
+        "label": "イ",
+        "text": "他人受入率（FAR）"
+      },
+      {
+        "label": "ウ",
+        "text": "サービスの稼働率"
+      },
+      {
+        "label": "エ",
+        "text": "インシデントの再発率"
+      }
     ],
-    "correctLabel": "イ"
+    "correctLabel": "イ",
+    "explanation": "FARは他人を誤って受け入れる割合、FRRは本人を誤って拒否する割合です。安全性と利便性の両方から評価します。",
+    "keywords": [
+      "生体認証",
+      "他人受入率",
+      "FAR"
+    ],
+    "syllabusRef": "大分類6-中分類25",
+    "difficulty": "beginner"
   },
   {
     "id": "diag-6",
+    "examId": "sg",
+    "field": "strategy",
+    "subField": "ビジネス関連法規",
+    "year": "予想問題",
+    "questionNumber": 6,
     "chapterOrder": 4,
-    "text": "個人情報保護法における「要配慮個人情報」に該当するものはどれか。",
+    "text": "公的な標準化機関の制定ではなく、市場で広く使われた結果として事実上の標準になったものを何というか。",
     "choices": [
-      { "label": "ア", "text": "人種、信条、病歴など、不当な差別や偏見が生じないよう特に配慮を要する情報" },
-      { "label": "イ", "text": "氏名や住所などの基本的な連絡先情報" },
-      { "label": "ウ", "text": "従業員に割り当てられた社員番号" },
-      { "label": "エ", "text": "業務用に登録されたメールアドレス" }
+      {
+        "label": "ア",
+        "text": "デジュレスタンダード"
+      },
+      {
+        "label": "イ",
+        "text": "ライセンス契約"
+      },
+      {
+        "label": "ウ",
+        "text": "守秘契約"
+      },
+      {
+        "label": "エ",
+        "text": "デファクトスタンダード"
+      }
     ],
-    "correctLabel": "ア"
+    "correctLabel": "エ",
+    "explanation": "普及によって事実上の標準となるのがデファクトスタンダードです。公的に定めた標準と区別します。",
+    "keywords": [
+      "デファクトスタンダード",
+      "標準化",
+      "普及"
+    ],
+    "syllabusRef": "大分類7-中分類28",
+    "difficulty": "beginner"
   },
   {
     "id": "diag-7",
+    "examId": "sg",
+    "field": "technology",
+    "subField": "ネットワーク",
+    "year": "予想問題",
+    "questionNumber": 7,
     "chapterOrder": 5,
-    "text": "複数のディスク装置を組み合わせて、データの冗長性や読み書き性能を高める技術はどれか。",
+    "text": "社外向けWebサーバの前段で利用者からの要求を受け、内部のWebサーバへ振り分ける役割のものはどれか。",
     "choices": [
-      { "label": "ア", "text": "RAID" },
-      { "label": "イ", "text": "NAS" },
-      { "label": "ウ", "text": "SAN" },
-      { "label": "エ", "text": "VDI" }
+      {
+        "label": "ア",
+        "text": "DHCPサーバ"
+      },
+      {
+        "label": "イ",
+        "text": "送信側のメールサーバ"
+      },
+      {
+        "label": "ウ",
+        "text": "リバースプロキシサーバ"
+      },
+      {
+        "label": "エ",
+        "text": "利用者側の外向きプロキシサーバ"
+      }
     ],
-    "correctLabel": "ア"
+    "correctLabel": "ウ",
+    "explanation": "リバースプロキシは公開サーバ側で要求を受けます。利用者の外向き通信を仲介するプロキシとは位置と目的を分けます。",
+    "keywords": [
+      "リバースプロキシサーバ",
+      "Webサーバ",
+      "中継"
+    ],
+    "syllabusRef": "大分類4-中分類16",
+    "difficulty": "beginner"
   },
   {
     "id": "diag-8",
+    "examId": "sg",
+    "field": "management",
+    "subField": "サービスマネジメント",
+    "year": "予想問題",
+    "questionNumber": 8,
     "chapterOrder": 6,
-    "text": "サービス提供者と利用者との間で、サービスの品質水準についてあらかじめ合意しておく文書はどれか。",
+    "text": "あるサーバを変更すると、どの業務サービスに影響するか調べたい。構成品目と依存関係を把握する活動はどれか。",
     "choices": [
-      { "label": "ア", "text": "SLA（サービスレベル合意書）" },
-      { "label": "イ", "text": "WBS（作業分解構造）" },
-      { "label": "ウ", "text": "RFP（提案依頼書）" },
-      { "label": "エ", "text": "BCP（事業継続計画）" }
+      {
+        "label": "ア",
+        "text": "構成管理"
+      },
+      {
+        "label": "イ",
+        "text": "サービス要求管理"
+      },
+      {
+        "label": "ウ",
+        "text": "需要管理"
+      },
+      {
+        "label": "エ",
+        "text": "問題管理"
+      }
     ],
-    "correctLabel": "ア"
+    "correctLabel": "ア",
+    "explanation": "構成管理ではCIとその関係を管理し、変更や障害の影響を判断する材料にします。通常の申請処理や需要予測とは目的が異なります。",
+    "keywords": [
+      "構成管理",
+      "構成品目",
+      "依存関係"
+    ],
+    "syllabusRef": "大分類1-中分類4",
+    "difficulty": "beginner"
   },
   {
     "id": "diag-9",
+    "examId": "sg",
+    "field": "strategy",
+    "subField": "経営・組織論",
+    "year": "予想問題",
+    "questionNumber": 9,
     "chapterOrder": 7,
-    "text": "事業継続計画（BCP）の説明として最も適切なものはどれか。",
+    "text": "今期の収益・費用・利益を確認したい。ある時点の資産残高や現金の増減とは区別して、まず参照する資料はどれか。",
     "choices": [
-      { "label": "ア", "text": "災害など緊急事態が発生した際に、重要な事業を中断させない、または早期に復旧させるための計画" },
-      { "label": "イ", "text": "年間の売上・利益目標を定めた経営計画" },
-      { "label": "ウ", "text": "システム開発のスケジュールを管理するための計画" },
-      { "label": "エ", "text": "情報セキュリティ監査を実施する年間計画" }
+      {
+        "label": "ア",
+        "text": "貸借対照表"
+      },
+      {
+        "label": "イ",
+        "text": "損益計算書"
+      },
+      {
+        "label": "ウ",
+        "text": "キャッシュフロー計算書"
+      },
+      {
+        "label": "エ",
+        "text": "情報資産台帳"
+      }
     ],
-    "correctLabel": "ア"
+    "correctLabel": "イ",
+    "explanation": "損益計算書は一定期間の収益・費用・利益を示します。貸借対照表はある時点の財政状態、キャッシュフロー計算書は現金などの動きを示します。",
+    "keywords": [
+      "損益計算書",
+      "収益",
+      "利益"
+    ],
+    "syllabusRef": "大分類3-中分類11",
+    "difficulty": "beginner"
   },
   {
     "id": "diag-10",
+    "examId": "sg",
+    "field": "management",
+    "subField": "情報セキュリティマネジメント",
+    "year": "予想問題",
+    "questionNumber": 10,
     "chapterOrder": 8,
-    "text": "部門でランサムウェア感染が疑われる事象を発見した際、初動処理として最も適切な行動はどれか。",
+    "text": "不審メールの訓練を企画する。異常を発見した利用者が組織の対応へつなげられるか確かめる指標として、最も適切なものはどれか。",
     "choices": [
-      { "label": "ア", "text": "上位者や関係部署に連絡して指示を仰ぎ、被害の拡大を回避する処置を検討・実行する" },
-      { "label": "イ", "text": "自分の判断だけで感染端末のログをすべて削除し、痕跡を消す" },
-      { "label": "ウ", "text": "調査より先に、詳細な被害状況を全社・社外に公表する" },
-      { "label": "エ", "text": "身代金を要求されたら、まず支払いを検討する" }
+      {
+        "label": "ア",
+        "text": "教育資料を配布できた社員の割合"
+      },
+      {
+        "label": "イ",
+        "text": "過去の同じ訓練を受けた回数"
+      },
+      {
+        "label": "ウ",
+        "text": "メールを開封しなかった社員の割合"
+      },
+      {
+        "label": "エ",
+        "text": "定めた窓口へ適切に報告できた割合と所要時間"
+      }
     ],
-    "correctLabel": "ア"
+    "correctLabel": "エ",
+    "explanation": "意識向上の目的に沿って、発見後の相談・報告という行動を確かめます。教育資料の量だけではその行動を評価できません。",
+    "keywords": [
+      "教育・訓練",
+      "報告手順",
+      "意識向上"
+    ],
+    "syllabusRef": "大分類6-中分類24",
+    "difficulty": "beginner"
+  },
+  {
+    "id": "diag-11",
+    "examId": "sg",
+    "field": "technology",
+    "subField": "セキュリティ実装技術・評価",
+    "year": "予想問題",
+    "questionNumber": 11,
+    "chapterOrder": 3,
+    "text": "異なる開発元や情報サイトの資料が、同じ脆弱性を扱っているか照合したい。脆弱性を識別する共通のIDはどれか。",
+    "choices": [
+      {
+        "label": "ア",
+        "text": "CVE"
+      },
+      {
+        "label": "イ",
+        "text": "CVSS"
+      },
+      {
+        "label": "ウ",
+        "text": "CWE"
+      },
+      {
+        "label": "エ",
+        "text": "SLA"
+      }
+    ],
+    "correctLabel": "ア",
+    "explanation": "CVEは個別の脆弱性の識別子です。CVSSは深刻度の評価、CWEは弱点のタイプを整理するもので、役割が異なります。",
+    "keywords": [
+      "CVE",
+      "脆弱性情報",
+      "識別子"
+    ],
+    "syllabusRef": "大分類6-中分類26",
+    "difficulty": "beginner"
+  },
+  {
+    "id": "diag-12",
+    "examId": "sg",
+    "field": "strategy",
+    "subField": "情報倫理・AI倫理",
+    "year": "予想問題",
+    "questionNumber": 12,
+    "chapterOrder": 4,
+    "text": "個人向けに最適化された情報表示により、自分の関心と異なる情報に触れにくくなる現象はどれか。",
+    "choices": [
+      {
+        "label": "ア",
+        "text": "ハルシネーション"
+      },
+      {
+        "label": "イ",
+        "text": "データポイズニング"
+      },
+      {
+        "label": "ウ",
+        "text": "フィルターバブル"
+      },
+      {
+        "label": "エ",
+        "text": "デジュレスタンダード"
+      }
+    ],
+    "correctLabel": "ウ",
+    "explanation": "個別化された表示で情報接触が偏る現象です。同じ意見が集団内で増幅されるエコーチェンバーと関連しますが、注目する仕組みが異なります。",
+    "keywords": [
+      "フィルターバブル",
+      "情報の個別化",
+      "情報倫理"
+    ],
+    "syllabusRef": "大分類7-中分類27",
+    "difficulty": "beginner"
+  },
+  {
+    "id": "diag-13",
+    "examId": "sg",
+    "field": "technology",
+    "subField": "クラウド",
+    "year": "予想問題",
+    "questionNumber": 13,
+    "chapterOrder": 5,
+    "text": "専用のプライベートクラウドと、一般向けのパブリッククラウドを組み合わせて利用する構成はどれか。",
+    "choices": [
+      {
+        "label": "ア",
+        "text": "シンクライアント"
+      },
+      {
+        "label": "イ",
+        "text": "ハイブリッドクラウド"
+      },
+      {
+        "label": "ウ",
+        "text": "コンテナ型仮想化"
+      },
+      {
+        "label": "エ",
+        "text": "オンプレミスだけの構成"
+      }
+    ],
+    "correctLabel": "イ",
+    "explanation": "異なる提供環境を組み合わせるハイブリッドクラウドです。マルチクラウドは複数のクラウド利用という別の軸で説明します。",
+    "keywords": [
+      "ハイブリッドクラウド",
+      "提供形態",
+      "クラウド"
+    ],
+    "syllabusRef": "大分類4-中分類15",
+    "difficulty": "beginner"
+  },
+  {
+    "id": "diag-14",
+    "examId": "sg",
+    "field": "management",
+    "subField": "サービスマネジメント",
+    "year": "予想問題",
+    "questionNumber": 14,
+    "chapterOrder": 6,
+    "text": "障害に備えた予備系を、平常時から稼働させて待機させる方式はどれか。",
+    "choices": [
+      {
+        "label": "ア",
+        "text": "コールドスタンバイ"
+      },
+      {
+        "label": "イ",
+        "text": "バッチ処理"
+      },
+      {
+        "label": "ウ",
+        "text": "サービス要求管理"
+      },
+      {
+        "label": "エ",
+        "text": "ホットスタンバイ"
+      }
+    ],
+    "correctLabel": "エ",
+    "explanation": "ホットスタンバイは稼働中の予備系を待機させる方式です。必要時に起動する方式と、切替え時間や運用費用を比較します。",
+    "keywords": [
+      "ホットスタンバイ",
+      "サービス可用性管理",
+      "予備系"
+    ],
+    "syllabusRef": "大分類1-中分類4",
+    "difficulty": "beginner"
+  },
+  {
+    "id": "diag-15",
+    "examId": "sg",
+    "field": "strategy",
+    "subField": "AI利活用",
+    "year": "予想問題",
+    "questionNumber": 15,
+    "chapterOrder": 7,
+    "text": "シミュレーション環境で、行動後に得た報酬を手掛かりに、よりよい行動方策を学ぶ方法はどれか。",
+    "choices": [
+      {
+        "label": "ア",
+        "text": "教師なし学習によるグルーピング"
+      },
+      {
+        "label": "イ",
+        "text": "RAGによる知識連携"
+      },
+      {
+        "label": "ウ",
+        "text": "強化学習"
+      },
+      {
+        "label": "エ",
+        "text": "マルチモーダルAI"
+      }
+    ],
+    "correctLabel": "ウ",
+    "explanation": "行動と報酬を使って方策を学ぶのが強化学習です。ラベルのないデータのグループ分けや、外部文書の検索とは区別します。",
+    "keywords": [
+      "強化学習による支援",
+      "報酬",
+      "方策"
+    ],
+    "syllabusRef": "大分類2-中分類10",
+    "difficulty": "beginner"
+  },
+  {
+    "id": "diag-16",
+    "examId": "sg",
+    "field": "management",
+    "subField": "情報セキュリティマネジメント",
+    "year": "予想問題",
+    "questionNumber": 16,
+    "chapterOrder": 8,
+    "text": "利用しなくなった可搬媒体を部門の廃棄手順で処理した。媒体管理として残すべき記録はどれか。",
+    "choices": [
+      {
+        "label": "ア",
+        "text": "対象媒体、処理方法、実施日と確認結果を追跡できる記録"
+      },
+      {
+        "label": "イ",
+        "text": "購入時の数量と金額だけを示す記録"
+      },
+      {
+        "label": "ウ",
+        "text": "廃棄予定だった媒体の総台数だけを示す記録"
+      },
+      {
+        "label": "エ",
+        "text": "次回の購入予定と担当部署だけを示す記録"
+      }
+    ],
+    "correctLabel": "ア",
+    "explanation": "媒体の処分も資産管理の一部です。何をどのように処理し確認したかを追跡できるようにし、台帳にも反映します。",
+    "keywords": [
+      "媒体の管理",
+      "廃棄記録",
+      "情報資産台帳"
+    ],
+    "syllabusRef": "大分類6-中分類24",
+    "difficulty": "beginner"
   }
 ]
