@@ -71,3 +71,9 @@
 - **Cause**: Windows の Python はテキストモードで書き込むと `\n` を `\r\n` に変換する（例: `.workspace/scripts/add_lastmod.py`）。エディタや外部のAIツールで編集したファイルも CRLF になりやすい
 - **Correction**: 正規を LF に決定。`.gitattributes`（`* text=auto eol=lf`＋バイナリ指定）を追加し、CRLF/混在の追跡ファイル180件を LF に変換。`add_lastmod.py` に `newline='\n'` を追加。ルールを CLAUDE.md「改行コード」節に明記し、`/check-draft` に確認項目を追加
 - **Lesson**: ファイルを書くスクリプトでは改行コードを明示する（Python は `newline='\n'`）。一括加工の前に `git ls-files --eol` で対象の改行コードを確認する
+
+### [2026-11-13] Codex の作業中に git stash して、作業中のファイルを旧版に戻した
+- **Context**: T-18 sg を main へ push するため、ほかのセッションの未コミットの変更を `git stash` で退避してから `git pull --rebase` した
+- **Failure**: そのとき T-23b の Codex が `src/data/quiz/genai-passport/genai-knowledge.json` に書き込み中だった。stash でファイルが HEAD の旧236問へ戻り、Codex はその上に16問を足した。さらに CC が `git checkout --` で戻したとき、退避先（scratchpad）のフォルダがなくてコピーに失敗しており、その16問を失った
+- **Correction**: stash の中身（177問＋Codex が先に足した12問）を戻し、Codex の同じスレッドを `--resume-last` で再開して16問を足し直させた。Codex は外部変更を検出して自分で止まっていた
+- **Lesson**: Codex のジョブが動いている間は、同じリポジトリで stash・checkout・rebase などの作業ツリーを書き換える git 操作をしない（`codex-companion.mjs status` で running がないことを確かめてから）。どうしても push が要るときは、`git worktree` で別の作業ツリーを作ってそこで行う。ファイルを捨てる前のバックアップは、コピーが成功したことを確かめてから次へ進む

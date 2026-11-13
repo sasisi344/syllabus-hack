@@ -20,3 +20,4 @@
 | I-12 | 11/06 | hq | 修正依頼: T-56 の9本の URL 検査の結果が出た（URL Inspection API、11/06）。8本は登録済みで、`itp-shameful-career-hack` は公開停止による 404（予定どおり）。リクエストは0本。T-56 を「ユーザー待ち」から外し、T-06 と合わせて原因を判断する。結果は `C:\Users\sasis\344blog\hq\data\2026\m10\g3-url-inspection-2026-11-06.md` §1 | 未処置 |
 | I-13 | 11/06 | hq | 修正依頼: 実行の順番を `hq/roadmap/syllabus-hack.md` に置いた（1日10本まで、検収は書き終えたあと）。11/15 の再申請は動かさない。画像は全サイトでプロンプトの段階で生成してよくなった（2026-11-06）ので、T-16 の「生成にはユーザーの指示が要る」を直すこと | 未処置 |
 | I-14 | 11/10 | Claude | T-18 ip の検収: 診断16問のうち6問が章末チェック・導入問とほぼ同じ（監査記録 `.workspace/admin-review/2026-11-10-T-18-ip-course.md`）。sg・g-kentei の指示書には禁止として足した | → T-18（ip の6問の差し替えは T-18 の残りに記載） |
+| I-15 | 11/13 | Claude | PD-M・PD-S のコースTOP（`src/data/course/pd-m/index.mdx`・`pd-s/index.mdx` 86行目）の FAQ が「科目A-1 は本コース制作時点では未取得のため対象外」のまま。A-1 は 2026-10-14 に取得済み（`syllabus-pd-a1-2027.json`）。T-19（12月の pd-s・pd-m の全面リライト）で直す | → T-19 |

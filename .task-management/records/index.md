@@ -6,6 +6,7 @@
 
 | ID | 完了日 | 種別 | テーマ（タグ） | 対象（URL・クエリ） | 結果（1行） | 参照できるデータ | ファイル |
 |---|---|---|---|---|---|---|---|
+| T-54 | 2026-11-13 | 調査 | 2027年シラバス, PD試験, データ・AI, 新設試験 | `src/data/master/syllabus-pd-d-2027.json`、2027-exams のレポート、PD-D に触れる記事5本 | PD-D シラバス案 Ver.0.1（10/30公開）を JSON 化し分析レポートを作成。記事5本への申し送りをウェーブC 用に記録 | `src/data/master/syllabus-pd-d-2027.json`・`.workspace/.new-contentplan/2027-exams/pd-d-2027-profile-report.md` | [2026-11-13-T-54-pd-d-syllabus.md](2026-11-13-T-54-pd-d-syllabus.md) |
 | T-57 | 2026-11-05 | 施策 | CBT, 申込日程, title, 応用情報 | /trend/ipa-2026-cbt-schedule-guide/ | title・説明を後期の申込開始日の形に直して push（a848510）、IndexNow で送信。効果は T-61 | — | [2026-11-05-T-57-schedule-title.md](2026-11-05-T-57-schedule-title.md) |
 | T-55 | 2026-11-05 | 調査 | 月次解析, GA4, GSC, Bing, クエリ分析, インデックス | サイト全体、GSC の全クエリ・全ページ | 10月の月報を完成。強いクエリ・弱いクエリを分析し T-56〜T-61 を起票。ウェーブC の刷新は効果あり（暫定）、`kougyou-koukou` ほか9本は Google の表示が途中で止まった | `.workspace/.task/access-data/monthly-analysis-2026-10.md`・`api/2026-11-05-sep-oct-page-date/` | [2026-11-05-T-55-m10-analysis.md](2026-11-05-T-55-m10-analysis.md) |
 | T-22 | 2026-11-02 | 施策 | 20時間コース, 生成AIパスポート, 新シラバス, 診断, 総復習 | `src/data/course/genai-pass/` 第5〜8章・TOP、診断20問・総復習20問 | Codex が3本（a・b・c）で作成、CC が検収してすべて draft のまま公開可。診断のルート判定をブラウザで確認 | .workspace/admin-review/2026-11-01-T-22a-…・2026-11-02-T-22b-…・2026-11-02-T-22c-genai-pass-top.md | [2026-11-02-T-22-genai-pass-ch5-8-top.md](2026-11-02-T-22-genai-pass-ch5-8-top.md) |
