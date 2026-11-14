@@ -29,10 +29,10 @@
 | trend/exam-application-to-exam-period-table | D | 2026-10-19 | 投稿済み |
 | trend/exec-security-investment-ai-era | G | 2026-10-21 | 投稿済み |
 | method/musk-semantic-tree-fundamentals | C | 2026-10-23 | 投稿済み |
-| theory/cloud-saas-paas-iaas-basics | A | 2026-11-15 | 予定 |
-| （なし・PD-Dコース公開告知） | E | 2026-11-16 | 予定 |
-| method/sql-join-visual-ai-hack | B | 2026-11-17 | 予定 |
-| career/qualification-60min-daily-simulation | D | 2026-11-18 | 予定 |
-| theory/cyber-attack-countermeasures-basics（誘導先 app/it-passport-quiz） | F | 2026-11-19 | 予定 |
-| career/regional-salary-qualification-correlation | C | 2026-11-20 | 予定 |
-| （なし・週の振り返りと生成AIパスポートコースの紹介） | E | 2026-11-21 | 予定 |
+| theory/cloud-saas-paas-iaas-basics | A | 2026-11-15 | 投稿済み |
+| （なし・PD-Dコース公開告知） | E | 2026-11-16 | 投稿済み |
+| method/sql-join-visual-ai-hack | B | 2026-11-17 | 投稿済み |
+| career/qualification-60min-daily-simulation | D | 2026-11-18 | 投稿済み |
+| theory/cyber-attack-countermeasures-basics（誘導先 app/it-passport-quiz） | F | 2026-11-19 | 投稿済み |
+| career/regional-salary-qualification-correlation | C | 2026-11-20 | 投稿済み |
+| （なし・週の振り返りと生成AIパスポートコースの紹介） | E | 2026-11-21 | 投稿済み |
