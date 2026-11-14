@@ -11,7 +11,7 @@ const metadata = {
 ---
 
 <Layout metadata={metadata}>
-  <section class="px-4 md:px-6 py-12 sm:py-16 lg:py-20 mx-auto max-w-4xl">
+  <section class="directory-page px-4 md:px-6 py-12 sm:py-16 lg:py-20 mx-auto max-w-4xl">
     <Headline>資格から探す</Headline>
     <p class="text-muted dark:text-slate-400 text-center mb-12">
       学びたい資格を選ぶと、その資格の合格ロードマップ（Hub記事）へ移動します。
@@ -19,18 +19,18 @@ const metadata = {
 
     {
       certGroups.map((group) => (
-        <div id={group.slug} class="mb-12 scroll-mt-24">
+        <div id={group.slug} class="qualification-group mb-12 scroll-mt-24">
           <h2 class="text-2xl font-bold mb-6 border-b-2 border-primary pb-2 dark:text-blue-400">{group.title}</h2>
           <div class="grid gap-4 sm:grid-cols-2">
             {group.items.map((item) => (
               <a
                 href={item.href}
-                class="block p-4 rounded-lg border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-900 hover:border-primary dark:hover:border-blue-400 hover:shadow-md transition"
+                class="qualification-link block p-4 rounded-lg border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-900 hover:border-primary dark:hover:border-blue-400 hover:shadow-md transition"
               >
                 <span class="font-bold text-lg dark:text-slate-100">{item.name}</span>
                 <p class="text-sm text-muted dark:text-slate-400 mt-1">{item.description}</p>
                 {item.courseHref && (
-                  <span class="inline-block mt-2 text-xs font-bold text-primary dark:text-blue-400 bg-blue-50 dark:bg-slate-800 rounded-full px-2 py-0.5">
+                  <span class="course-label inline-block mt-2 text-xs font-bold text-primary dark:text-blue-400 bg-blue-50 dark:bg-slate-800 rounded-full px-2 py-0.5">
                     20時間コースで学ぶ →
                   </span>
                 )}
@@ -41,7 +41,7 @@ const metadata = {
       ))
     }
 
-    <div class="mt-8 p-6 bg-blue-50 dark:bg-slate-800 rounded-lg border-l-4 border-primary">
+    <div class="directory-note mt-8 p-6 bg-blue-50 dark:bg-slate-800 rounded-lg border-l-4 border-primary">
       <p class="text-muted dark:text-slate-300">
         目当ての資格が見つからない場合は、<a href="/category/method/" class="text-primary dark:text-blue-400 underline"
           >学習メソッド一覧</a

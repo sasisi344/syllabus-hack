@@ -15,10 +15,7 @@ const show = items.filter((h) => h.depth === 2).length >= minHeadings;
 
 {
   show && (
-    <nav
-      aria-label="目次"
-      class="mx-auto max-w-3xl px-6 sm:px-6 mt-8 mb-2"
-    >
+    <nav aria-label="目次" class="article-toc mx-auto max-w-3xl px-6 sm:px-6 mt-8 mb-2">
       <details
         open
         class="bg-slate-50 dark:bg-slate-800/40 border border-gray-200 dark:border-gray-700 rounded-2xl px-5 py-4"

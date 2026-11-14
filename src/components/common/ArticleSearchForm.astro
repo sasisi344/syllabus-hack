@@ -1,0 +1,85 @@
+---
+import { Icon } from 'astro-icon/components';
+import { getPermalink } from '~/utils/permalinks';
+---
+
+<form
+  class="article-search-form"
+  role="search"
+  aria-label="サイト内の記事検索"
+  action={getPermalink('/search')}
+  method="get"
+>
+  <label>
+    <span class="sr-only">記事の検索キーワード</span>
+    <input type="search" name="q" placeholder="記事を検索" aria-label="記事の検索キーワード" maxlength="150" required />
+  </label>
+  <button type="submit" aria-label="検索する"><Icon name="tabler:search" /></button>
+</form>
+
+<style>
+  .article-search-form {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border: 1px solid #b8c0bd;
+    border-radius: 4px;
+    background: #ffffffa0;
+    color: #192c3c;
+  }
+  label {
+    flex: 1;
+    min-width: 0;
+  }
+  input {
+    width: 100%;
+    min-width: 0;
+    padding: 10px 0 10px 12px;
+    background: transparent;
+    font-size: 13px;
+    line-height: 22px;
+    outline: none;
+  }
+  input::placeholder {
+    color: #707570;
+  }
+  button {
+    display: grid;
+    place-items: center;
+    min-width: 42px;
+    min-height: 42px;
+    border-radius: 3px;
+  }
+  button:hover {
+    background: #28723e18;
+  }
+  svg {
+    width: 18px;
+    height: 18px;
+    stroke-width: 1.6;
+  }
+  .article-search-form:focus-within {
+    outline: 2px solid #28723e;
+    outline-offset: 2px;
+  }
+  button:focus-visible {
+    outline: 2px solid #28723e;
+    outline-offset: -3px;
+  }
+  :global(html.dark) .article-search-form {
+    color: #f1eee6;
+    background: #18232a;
+    border-color: #65736e;
+  }
+  :global(html.dark) input::placeholder {
+    color: #b0b7b4;
+  }
+  :global(html.dark) .article-search-form:focus-within {
+    outline-color: #84ce99;
+  }
+  @media (max-width: 767px) {
+    input {
+      font-size: 16px;
+    }
+  }
+</style>

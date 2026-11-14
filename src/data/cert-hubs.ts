@@ -11,6 +11,9 @@ export interface CertHub {
 
 export interface CertGroup {
   title: string;
+  label: string;
+  icon: string;
+  color: string;
   slug: string;
   items: CertHub[];
 }
@@ -18,6 +21,9 @@ export interface CertGroup {
 export const certGroups: CertGroup[] = [
   {
     title: 'IPA 情報処理技術者試験',
+    label: 'IT（IPA）',
+    icon: 'tabler:device-desktop-analytics',
+    color: '#21394b',
     slug: 'ipa',
     items: [
       {
@@ -38,14 +44,48 @@ export const certGroups: CertGroup[] = [
         description: 'エンジニアの登竜門。科目A・B対策から合格後まで',
       },
       {
-        name: '応用情報・高度試験（AP・SC・NWほか）',
+        name: '応用情報技術者（AP）',
         href: '/method/advanced-ipa-hub/',
         description: '応用情報の午後記述から高度試験・2027年の新試験まで',
+      },
+      {
+        name: '情報処理安全確保支援士（SC）',
+        href: '/method/sc-hub/',
+        description: '情報処理安全確保支援士の学習ガイド',
+        courseHref: '/course/sc/',
+      },
+      ...[
+        ['ネットワークスペシャリスト（NW）', 'ネットワークスペシャリスト試験'],
+        ['データベーススペシャリスト（DB）', 'データベーススペシャリスト試験'],
+        ['エンベデッドシステムスペシャリスト（ES）', 'エンベデッドシステムスペシャリスト試験'],
+        ['プロジェクトマネージャ（PM）', 'プロジェクトマネージャ試験'],
+        ['ITストラテジスト（ST）', 'itストラテジスト試験'],
+        ['システムアーキテクト（SA）', 'システムアーキテクト試験'],
+        ['ITサービスマネージャ（SM）', 'itサービスマネージャ試験'],
+        ['システム監査技術者（AU）', 'システム監査技術者試験'],
+      ].map(([name, anchor]) => ({
+        name,
+        href: `/method/advanced-ipa-hub/#${anchor}`,
+        description: `${name}の試験ガイド・関連記事`,
+      })),
+      {
+        name: 'プロフェッショナルデジタルスキル試験（仮称）',
+        href: '/method/ipa-2027-new-exam-hub/',
+        description: '新設予定の試験。既存の新試験対策一覧で区分と教材を確認',
+      },
+      {
+        name: 'データマネジメント試験（仮称）',
+        href: '/method/ipa-2027-new-exam-hub/',
+        description: '新設予定の試験。既存の新試験対策一覧で区分と教材を確認',
+        courseHref: '/course/dm/',
       },
     ],
   },
   {
     title: 'クラウド・ネットワーク',
+    label: 'クラウド',
+    icon: 'tabler:cloud',
+    color: '#35566a',
     slug: 'cloud-network',
     items: [
       {
@@ -62,6 +102,9 @@ export const certGroups: CertGroup[] = [
   },
   {
     title: 'AI・データ',
+    label: 'AI・データ',
+    icon: 'tabler:brain',
+    color: '#464969',
     slug: 'ai-data',
     items: [
       {
@@ -84,6 +127,9 @@ export const certGroups: CertGroup[] = [
   },
   {
     title: 'ビジネス・事務',
+    label: 'ビジネス',
+    icon: 'tabler:briefcase',
+    color: '#316064',
     slug: 'business',
     items: [
       {
@@ -115,6 +161,9 @@ export const certGroups: CertGroup[] = [
   },
   {
     title: '設備・施工',
+    label: '設備・施工',
+    icon: 'tabler:bolt',
+    color: '#716040',
     slug: 'facility',
     items: [
       {

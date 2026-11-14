@@ -1,5 +1,5 @@
 import { getPermalink, getBlogPermalink, getAsset } from './utils/permalinks';
-import { headerCertLinks } from './data/cert-hubs';
+import { certGroups, headerCertLinks } from './data/cert-hubs';
 
 export const headerData = {
   links: [
@@ -32,14 +32,26 @@ export const headerData = {
 
 export const footerData = {
   links: [
+    ...certGroups.map((group) => ({
+      title: group.title,
+      links: [
+        ...group.items.slice(0, 5).map(({ name, href }) => ({ text: name, href })),
+        { text: '他のも見る', href: `${getPermalink('/certifications')}#${group.slug}` },
+      ],
+    })),
     {
-      title: 'カテゴリ',
+      title: '学び方',
       links: [
         { text: '資格から探す', href: getPermalink('/certifications') },
         { text: '学習メソッド', href: getPermalink('method', 'category') },
         { text: '20時間学習', href: getPermalink('/course') },
         { text: '用語解説', href: getPermalink('theory', 'category') },
         { text: 'ウェブアプリ', href: getPermalink('app', 'category') },
+      ],
+    },
+    {
+      title: 'サイト案内',
+      links: [
         { text: 'トレンド', href: getPermalink('trend', 'category') },
         { text: 'キャリア', href: getPermalink('career', 'category') },
         { text: 'お問い合わせ', href: getPermalink('/contact') },

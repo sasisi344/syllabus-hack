@@ -1,0 +1,298 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import { getAsset, getPermalink } from '~/utils/permalinks';
+const metadata = { title: '記事を検索', robots: { index: false, follow: true } };
+---
+
+<Layout metadata={metadata}>
+  <article-search class="search-page" data-index-url={getAsset('/search-index.json')}>
+    <p class="search-eyebrow">ARTICLE SEARCH</p>
+    <h1>記事を検索</h1>
+    <p class="search-intro">資格名や気になる言葉で、記事のタイトル・概要・本文から探せます。</p>
+    <form role="search" aria-label="検索結果の絞り込み" action={getPermalink('/search')} method="get">
+      <label for="article-query">検索キーワード</label>
+      <div class="search-field">
+        <input id="article-query" type="search" name="q" maxlength="150" placeholder="例：ITパスポート 勉強法" /><button
+          type="submit">検索</button
+        >
+      </div>
+    </form>
+    <p class="search-status" role="status" aria-live="polite">検索キーワードを入力してください。</p>
+    <button class="search-retry" type="button" hidden>もう一度読み込む</button>
+    <ol class="search-results" aria-label="検索結果"></ol>
+    <button class="search-more" type="button" hidden>続きを表示</button>
+    <noscript
+      >検索機能を使うにはJavaScriptを有効にしてください。<a href={getPermalink('/blog')}>記事一覧を見る</a></noscript
+    >
+  </article-search>
+</Layout>
+
+<script>
+  interface SearchEntry {
+    title: string;
+    url: string;
+    excerpt: string;
+    category: string;
+    tags: string[];
+    text: string;
+  }
+  const normalize = (value: string) => value.normalize('NFKC').toLocaleLowerCase('ja');
+  class ArticleSearch extends HTMLElement {
+    private controller?: AbortController;
+    private timer?: ReturnType<typeof setTimeout>;
+    connectedCallback() {
+      this.controller?.abort();
+      this.controller = new AbortController();
+      const { signal } = this.controller;
+      const input = this.querySelector<HTMLInputElement>('input')!;
+      const results = this.querySelector<HTMLOListElement>('.search-results')!;
+      const status = this.querySelector<HTMLElement>('.search-status')!;
+      const retry = this.querySelector<HTMLButtonElement>('.search-retry')!;
+      const more = this.querySelector<HTMLButtonElement>('.search-more')!;
+      let entries: (SearchEntry & { normalizedTitle: string; normalizedMeta: string; corpus: string })[] | undefined;
+      let matches: SearchEntry[] = [];
+      let count = 20;
+      let loading: Promise<void> | undefined;
+      const render = () => {
+        results.replaceChildren();
+        matches.slice(0, count).forEach((entry) => {
+          const item = document.createElement('li');
+          const category = document.createElement('p');
+          category.className = 'result-category';
+          category.textContent = entry.category;
+          const heading = document.createElement('h2');
+          const link = document.createElement('a');
+          link.href = entry.url;
+          link.textContent = entry.title;
+          heading.append(link);
+          const excerpt = document.createElement('p');
+          excerpt.className = 'result-excerpt';
+          excerpt.textContent = entry.excerpt;
+          item.append(category, heading, excerpt);
+          results.append(item);
+        });
+        more.hidden = matches.length <= count;
+      };
+      const load = () =>
+        (loading ||= (async () => {
+          const response = await fetch(this.dataset.indexUrl!, { signal });
+          if (!response.ok) throw new Error('Search index unavailable');
+          const data: SearchEntry[] = await response.json();
+          entries = data.map((entry) => ({
+            ...entry,
+            normalizedTitle: normalize(entry.title),
+            normalizedMeta: normalize([entry.excerpt, entry.category, ...entry.tags].join(' ')),
+            corpus: normalize([entry.title, entry.excerpt, entry.category, ...entry.tags, entry.text].join(' ')),
+          }));
+        })());
+      const search = async () => {
+        const query = input.value.trim().slice(0, 150);
+        const url = new URL(location.href);
+        if (query) url.searchParams.set('q', query);
+        else url.searchParams.delete('q');
+        history.replaceState(history.state, '', url);
+        retry.hidden = true;
+        more.hidden = true;
+        if (!query) {
+          results.replaceChildren();
+          status.textContent = '検索キーワードを入力してください。';
+          return;
+        }
+        status.textContent = '記事を検索しています…';
+        try {
+          await load();
+          if (signal.aborted || query !== input.value.trim().slice(0, 150)) return;
+          const terms = normalize(query).split(/\s+/).filter(Boolean);
+          matches = entries!
+            .filter((entry) => terms.every((term) => entry.corpus.includes(term)))
+            .map((entry) => ({
+              entry,
+              score: terms.reduce(
+                (score, term) =>
+                  score +
+                  (entry.normalizedTitle.includes(term) ? 10 : 0) +
+                  (entry.normalizedMeta.includes(term) ? 3 : 0),
+                0
+              ),
+            }))
+            .sort((a, b) => b.score - a.score)
+            .map(({ entry }) => entry);
+          count = 20;
+          render();
+          status.textContent = matches.length
+            ? `「${query}」の検索結果：${matches.length}件`
+            : `「${query}」に一致する記事が見つかりませんでした。言葉を短くするか、別のキーワードで検索してください。`;
+        } catch {
+          if (signal.aborted) return;
+          results.replaceChildren();
+          loading = undefined;
+          status.textContent = '検索データを読み込めませんでした。時間をおいて、もう一度お試しください。';
+          retry.hidden = false;
+        }
+      };
+      input.value = new URL(location.href).searchParams.get('q')?.slice(0, 150) || '';
+      this.querySelector('form')!.addEventListener(
+        'submit',
+        (event) => {
+          event.preventDefault();
+          clearTimeout(this.timer);
+          void search();
+        },
+        { signal }
+      );
+      input.addEventListener(
+        'input',
+        (event) => {
+          if ((event as InputEvent).isComposing) return;
+          clearTimeout(this.timer);
+          this.timer = setTimeout(() => void search(), 200);
+        },
+        { signal }
+      );
+      input.addEventListener(
+        'compositionend',
+        () => {
+          clearTimeout(this.timer);
+          this.timer = setTimeout(() => void search(), 200);
+        },
+        { signal }
+      );
+      more.addEventListener(
+        'click',
+        () => {
+          count += 20;
+          render();
+        },
+        { signal }
+      );
+      retry.addEventListener('click', () => void search(), { signal });
+      void search();
+    }
+    disconnectedCallback() {
+      this.controller?.abort();
+      clearTimeout(this.timer);
+    }
+  }
+  if (!customElements.get('article-search')) customElements.define('article-search', ArticleSearch);
+</script>
+
+<style>
+  .search-page {
+    display: block;
+    width: min(800px, calc(100% - 40px));
+    margin: 64px auto 90px;
+    color: #192c3c;
+  }
+  .search-eyebrow {
+    font-size: 10px;
+    letter-spacing: 0.2em;
+    color: #28723e;
+  }
+  h1 {
+    font-size: clamp(30px, 5vw, 40px);
+    font-weight: 700;
+    margin: 12px 0 20px;
+  }
+  .search-intro {
+    font-size: 14px;
+    line-height: 1.9;
+    color: #65716a;
+  }
+  form {
+    margin: 32px 0 24px;
+  }
+  label {
+    display: block;
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  .search-field {
+    display: flex;
+    gap: 10px;
+  }
+  input {
+    min-width: 0;
+    flex: 1;
+    border: 1px solid #b8c0bd;
+    border-radius: 4px;
+    background: transparent;
+    padding: 13px;
+    font-size: 16px;
+  }
+  button {
+    background: #28723e;
+    color: white;
+    border-radius: 4px;
+    padding: 12px 24px;
+    font-size: 14px;
+  }
+  button:hover {
+    background: #1c5930;
+  }
+  input:focus-visible,
+  button:focus-visible,
+  a:focus-visible {
+    outline: 2px solid #28723e;
+    outline-offset: 3px;
+  }
+  .search-status {
+    font-size: 14px;
+    line-height: 1.9;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #d7ded9;
+  }
+  .search-results :global(li) {
+    padding: 25px 0;
+    border-bottom: 1px solid #d7ded9;
+  }
+  .search-results :global(.result-category) {
+    color: #28723e;
+    font-size: 11px;
+    margin-bottom: 8px;
+  }
+  .search-results :global(h2) {
+    font-size: 19px;
+    line-height: 1.6;
+    font-weight: 600;
+  }
+  .search-results :global(a:hover) {
+    text-decoration: underline;
+  }
+  .search-results :global(.result-excerpt) {
+    font-size: 13px;
+    line-height: 1.9;
+    margin-top: 10px;
+    color: #65716a;
+  }
+  .search-more,
+  .search-retry {
+    display: block;
+    margin: 25px auto 0;
+  }
+  [hidden] {
+    display: none;
+  }
+  :global(html.dark) .search-page {
+    color: #f1eee6;
+  }
+  :global(html.dark) .search-intro,
+  :global(html.dark) .search-results :global(.result-excerpt) {
+    color: #b0b7b4;
+  }
+  :global(html.dark) .search-eyebrow,
+  :global(html.dark) .search-results :global(.result-category) {
+    color: #84ce99;
+  }
+  :global(html.dark) .search-status,
+  :global(html.dark) .search-results :global(li) {
+    border-color: #3e4a4d;
+  }
+  @media (max-width: 700px) {
+    .search-page {
+      margin-top: 36px;
+    }
+    button {
+      padding-inline: 18px;
+    }
+  }
+</style>

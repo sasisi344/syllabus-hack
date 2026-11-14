@@ -1,7 +1,7 @@
 ---
 import { getPermalink } from '~/utils/permalinks';
 import Features3 from '~/components/widgets/Features3.astro';
-import Hero from '~/components/widgets/Hero.astro';
+import { Icon } from 'astro-icon/components';
 import Steps2 from '~/components/widgets/Steps2.astro';
 import Layout from '~/layouts/PageLayout.astro';
 import sasisiImg from '~/assets/images/sasisi344.jpg';
@@ -13,236 +13,445 @@ const metadata = {
 ---
 
 <Layout metadata={metadata}>
-  <!-- Hero Widget ******************* -->
-
-  <Hero
-    tagline="About"
-    image={{
-      src: 'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
-      alt: 'Syllabus Hack Concept Image',
-    }}
-  >
-    <Fragment slot="title">
-      生成AIで<br />
-      <span class="text-accent dark:text-blue-400">シラバス</span>をハックする
-    </Fragment>
-
-    <Fragment slot="subtitle">
-      試験合格のその先へ。<br />
-      Syllabus Hackは、暗記だけに頼らず、<br class="hidden md:inline" />
-      最新のAIを活用した「効率的かつ本質的」な資格学習を提案するメディアです。
-    </Fragment>
-  </Hero>
-
-  <!-- Features3 Widget (Concept) ************** -->
-
-  <Features3
-    title="サイトのコンセプト"
-    subtitle="資格学習の本質は「知識を使える状態にすること」です。生成AIを対話相手として使い、概念の論理構造から理解することで、暗記に頼らない本質的な学力が身につきます。"
-    columns={3}
-    isBeforeContent={true}
-    items={[
-      {
-        title: 'AI対話学習メソッド',
-        description:
-          '「なぜその概念が必要か」という問いから始めるAI対話学習を体系化。ChatGPT・Claude・Gemini・NotebookLMを活用した実践的プロンプトと学習設計を公開しています。',
-        icon: 'tabler:messages',
-      },
-      {
-        title: '実践的Webアプリ',
-        description:
-          '理解の確認に使えるCBT形式クイズアプリと演習ツールを開発・提供。学習→理解→確認のループを一つのサイトで完結できます。',
-        icon: 'tabler:app-window',
-      },
-      {
-        title: '試験別キャリア戦略',
-        description:
-          '資格は「取るだけ」では意味がありません。各試験の市場価値・取得順番・合格後のキャリア活用まで、データと現実の両面から解説します。',
-        icon: 'tabler:route',
-      },
-    ]}
-  />
-
-  <!-- Steps2 Widget (Learning x AI) ****************** -->
-
-  <Steps2
-    title="AI対話学習という考え方"
-    subtitle="LLMは膨大な知識体系を学習しています。問題を出させるより、「なぜ」を問いかける対話相手として使う方が、理解が深く・応用が利き・他の試験にも転用できる知識が身につきます。"
-    callToAction={{
-      text: '学習メソッドを見る',
-      href: getPermalink('method', 'category'),
-    }}
-    items={[
-      {
-        title: '「なぜ」から始める対話',
-        description:
-          '「この概念はなぜ必要か」という問いから対話を始めることで、表面的な暗記ではなく論理の構造が理解できます。構造を理解した知識は、試験が変わっても使い回せます。',
-        icon: 'tabler:messages',
-      },
-      {
-        title: '自分の言葉で説明して確認する',
-        description:
-          '理解したことを自分の言葉でAIに話し、論理の穴を指摘してもらうループが最も速く知識を定着させます。「言えるかどうか」が本当の理解の証明です。',
-        icon: 'tabler:user-star',
-      },
-      {
-        title: 'シラバスを論理マップに変換する',
-        description:
-          'IPAやFP協会の公式シラバスをAIに読み込ませ、出題頻度・分野の繋がり・優先順位を「自分専用のロードマップ」として可視化します。',
-        icon: 'tabler:file-description',
-      },
-    ]}
-  />
-
-  <!-- Site Stats Section ************** -->
-  <section class="relative not-prose scroll-mt-[72px] py-10 md:py-14">
-    <div class="relative max-w-4xl mx-auto px-4 sm:px-6 text-center">
-      <h2 class="font-bold text-2xl md:text-3xl font-heading text-heading mb-2">コンテンツ規模</h2>
-      <p class="text-muted mb-8">2026年10月時点。すべての記事はAIシラバスハック手法に基づき制作しています。</p>
-      <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
-        {[
-          { num: '200+', label: '公開記事数' },
-          { num: '19', label: 'クイズ・学習アプリ' },
-          { num: '20+', label: '対応試験・資格' },
-          { num: '21', label: '試験別ハブガイド' },
-        ].map(({ num, label }) => (
-          <div class="bg-white dark:bg-slate-900 border border-gray-200 dark:border-gray-700 rounded-xl p-5 shadow-sm">
-            <p class="text-3xl font-bold text-accent dark:text-blue-400">{num}</p>
-            <p class="text-sm text-muted mt-1">{label}</p>
-          </div>
-        ))}
-      </div>
-      <p class="text-xs text-muted mt-6">
-        対応試験：ITパスポート / 基本情報技術者 / 応用情報技術者 / 情報セキュリティマネジメント / 情報処理安全確保支援士 / 高度試験群 / G検定 / DS検定 / AWS / CCNA / MOS / FP / 簿記 / 宅建 / 知的財産管理技能検定 / TOEIC / 電験三種 / 危険物取扱者 / 消防設備士 / ボイラー・冷凍機械 / ビル管理士 / 土木施工管理技士
-      </p>
-    </div>
-  </section>
-
-  <!-- Expertise Section ************** -->
-  <section class="relative not-prose scroll-mt-[72px] bg-slate-50 dark:bg-slate-800/20 py-10 md:py-14">
-    <div class="relative max-w-4xl mx-auto px-4 sm:px-6">
-      <div class="max-w-3xl mx-auto">
-        <h2 class="font-bold text-2xl md:text-3xl font-heading text-heading mb-4 text-center">このサイトの専門性について</h2>
-        <div class="space-y-4 text-muted text-base leading-relaxed">
-          <p>
-            Syllabus Hackの専門性は、資格の合格実績ではなく<strong class="text-heading dark:text-white font-semibold">「生成AIを活用した学習設計の実践と体系化」</strong>にあります。
-          </p>
-          <p>
-            LLMは人類が書き記してきた知識体系を学習しており、概念の論理構造・設計意図・他概念との繋がりを説明することに長けています。この特性を活かして「問題を解かせる」ではなく「なぜを対話する」学習フローを設計し、ITパスポートから高度試験・AWS・FP2級まで、各試験のシラバスを読み込んで学習設計を組み立ててきました。
-          </p>
-          <p>
-            各記事で紹介するプロンプトや学習手順は、実際にシラバスと向き合いながら設計したものです。「まずやってみる」を繰り返すことで能力は更新されます。このサイトはその実践の場であり、記録でもあります。
-          </p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Admin Profile Section ************** -->
-  <section class="relative not-prose scroll-mt-[72px] bg-slate-50 dark:bg-slate-800/20 py-12 md:py-16 lg:py-20">
-    <div class="relative max-w-4xl mx-auto px-4 sm:px-6">
-      <div class="max-w-3xl mx-auto">
-        <div class="text-center mb-8">
-          <p class="text-base text-secondary dark:text-blue-200 font-bold tracking-wide uppercase">Admin</p>
-          <h2 class="font-bold leading-tighter tracking-tighter font-heading text-heading text-3xl md:text-4xl mt-2">
-            運営者プロフィール
-          </h2>
-        </div>
-
-        <div
-          class="flex flex-col md:flex-row gap-8 items-center bg-white dark:bg-slate-900 border border-gray-200 dark:border-gray-700 shadow-md rounded-2xl p-8"
+  <div class="about-page">
+    <section class="about-hero">
+      <div class="about-intro">
+        <p class="about-eyebrow">ABOUT SYLLABUS HACK</p>
+        <h1>生成AIで<br /><span>シラバス</span>を<br class="about-mobile-break" />ハックする</h1>
+        <span class="about-rule" aria-hidden="true"></span>
+        <p class="about-lead">
+          試験合格のその先へ。<br />Syllabus Hackは、暗記だけに頼らず、<br
+            class="hidden md:inline"
+          />最新のAIを活用した「効率的かつ本質的」な資格学習を提案するメディアです。
+        </p>
+        <a class="about-link" href={getPermalink('/certifications')}
+          >資格から探す <Icon name="tabler:arrow-up-right" /></a
         >
-          <div class="w-32 h-32 md:w-40 md:h-40 flex-shrink-0">
-            <img
-              src={sasisiImg.src}
-              alt="sasisi344"
-              class="w-full h-full object-cover rounded-full border-4 border-gray-100 dark:border-slate-800 shadow-sm"
-            />
-          </div>
-          <div class="flex flex-col flex-grow text-center md:text-left">
-            <h3 class="text-2xl font-bold mb-2 dark:text-white">さしし / @sasisi344</h3>
-            <p class="text-muted text-lg mb-4">
-              40代後半。仕事ではありませんが、自分のサイト運営・ネットワーク構築・Web開発をひととおり自分でやってきました。プロほどではないものの、ITには一般の人より少し詳しい立場です。<br />
-              生成AIが登場して以来、「AIを道具として正しく使う能力」こそが現代のリテラシーだと確信し、Syllabus Hackを立ち上げました。自分自身が各試験のシラバスとAIを使い倒して学習設計を検証しながら、「AI対話学習メソッド」を構築・発信しています。<br />
-              同年代・それ以上の世代が「AIを使って自分を更新し続ける」ための実践知を届けることをミッションとしています。
+      </div>
+      <div class="about-book" aria-hidden="true">
+        <div class="about-book-tabs"><span>AI</span><span>知識</span><span>実践</span></div><div
+          class="about-book-cover"
+        >
+          <span>SYLLABUS HACK</span><Icon name="tabler:book-2" /><p>学びの、その先へ。</p><span class="about-book-line"
+          ></span><span>AI × LEARNING</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features3 Widget (Concept) ************** -->
+
+    <Features3
+      title="サイトのコンセプト"
+      subtitle="資格学習の本質は「知識を使える状態にすること」です。生成AIを対話相手として使い、概念の論理構造から理解することで、暗記に頼らない本質的な学力が身につきます。"
+      columns={3}
+      isBeforeContent={true}
+      items={[
+        {
+          title: 'AI対話学習メソッド',
+          description:
+            '「なぜその概念が必要か」という問いから始めるAI対話学習を体系化。ChatGPT・Claude・Gemini・NotebookLMを活用した実践的プロンプトと学習設計を公開しています。',
+          icon: 'tabler:messages',
+        },
+        {
+          title: '実践的Webアプリ',
+          description:
+            '理解の確認に使えるCBT形式クイズアプリと演習ツールを開発・提供。学習→理解→確認のループを一つのサイトで完結できます。',
+          icon: 'tabler:app-window',
+        },
+        {
+          title: '試験別キャリア戦略',
+          description:
+            '資格は「取るだけ」では意味がありません。各試験の市場価値・取得順番・合格後のキャリア活用まで、データと現実の両面から解説します。',
+          icon: 'tabler:route',
+        },
+      ]}
+    />
+
+    <!-- Steps2 Widget (Learning x AI) ****************** -->
+
+    <Steps2
+      title="AI対話学習という考え方"
+      subtitle="LLMは膨大な知識体系を学習しています。問題を出させるより、「なぜ」を問いかける対話相手として使う方が、理解が深く・応用が利き・他の試験にも転用できる知識が身につきます。"
+      callToAction={{
+        text: '学習メソッドを見る',
+        href: getPermalink('method', 'category'),
+      }}
+      items={[
+        {
+          title: '「なぜ」から始める対話',
+          description:
+            '「この概念はなぜ必要か」という問いから対話を始めることで、表面的な暗記ではなく論理の構造が理解できます。構造を理解した知識は、試験が変わっても使い回せます。',
+          icon: 'tabler:messages',
+        },
+        {
+          title: '自分の言葉で説明して確認する',
+          description:
+            '理解したことを自分の言葉でAIに話し、論理の穴を指摘してもらうループが最も速く知識を定着させます。「言えるかどうか」が本当の理解の証明です。',
+          icon: 'tabler:user-star',
+        },
+        {
+          title: 'シラバスを論理マップに変換する',
+          description:
+            'IPAやFP協会の公式シラバスをAIに読み込ませ、出題頻度・分野の繋がり・優先順位を「自分専用のロードマップ」として可視化します。',
+          icon: 'tabler:file-description',
+        },
+      ]}
+    />
+
+    <!-- Site Stats Section ************** -->
+    <section class="relative not-prose scroll-mt-[72px] py-10 md:py-14">
+      <div class="relative max-w-4xl mx-auto px-4 sm:px-6 text-center">
+        <h2 class="font-bold text-2xl md:text-3xl font-heading text-heading mb-2">コンテンツ規模</h2>
+        <p class="text-muted mb-8">2026年10月時点。すべての記事はAIシラバスハック手法に基づき制作しています。</p>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+          {
+            [
+              { num: '200+', label: '公開記事数' },
+              { num: '19', label: 'クイズ・学習アプリ' },
+              { num: '20+', label: '対応試験・資格' },
+              { num: '21', label: '試験別ハブガイド' },
+            ].map(({ num, label }) => (
+              <div class="bg-white dark:bg-slate-900 border border-gray-200 dark:border-gray-700 rounded-xl p-5 shadow-sm">
+                <p class="text-3xl font-bold text-accent dark:text-blue-400">{num}</p>
+                <p class="text-sm text-muted mt-1">{label}</p>
+              </div>
+            ))
+          }
+        </div>
+        <p class="text-xs text-muted mt-6">
+          対応試験：ITパスポート / 基本情報技術者 / 応用情報技術者 / 情報セキュリティマネジメント /
+          情報処理安全確保支援士 / 高度試験群 / G検定 / DS検定 / AWS / CCNA / MOS / FP / 簿記 / 宅建 /
+          知的財産管理技能検定 / TOEIC / 電験三種 / 危険物取扱者 / 消防設備士 / ボイラー・冷凍機械 / ビル管理士 /
+          土木施工管理技士
+        </p>
+      </div>
+    </section>
+
+    <!-- Expertise Section ************** -->
+    <section class="relative not-prose scroll-mt-[72px] bg-slate-50 dark:bg-slate-800/20 py-10 md:py-14">
+      <div class="relative max-w-4xl mx-auto px-4 sm:px-6">
+        <div class="max-w-3xl mx-auto">
+          <h2 class="font-bold text-2xl md:text-3xl font-heading text-heading mb-4 text-center">
+            このサイトの専門性について
+          </h2>
+          <div class="space-y-4 text-muted text-base leading-relaxed">
+            <p>
+              Syllabus Hackの専門性は、資格の合格実績ではなく<strong class="text-heading dark:text-white font-semibold"
+                >「生成AIを活用した学習設計の実践と体系化」</strong
+              >にあります。
             </p>
-            <div class="text-left text-muted text-base mb-4">
-              <p class="font-bold text-heading dark:text-white mb-1">資格の受験・学習の状況</p>
-              <ul class="list-disc pl-5 space-y-1">
-                {
-                  Object.values(AUTHOR_EXAM_STATUS).map(({ name, status }) => (
-                    <li>
-                      {name}: {status}
-                    </li>
-                  ))
-                }
-                <li>上記以外の資格: 未受験です。</li>
-              </ul>
-              <p class="text-sm mt-2">
-                記事に書く体験は、受験・学習・実務で実際に使った範囲だけです。未受験の資格の記事では、記事末尾の執筆者欄にその旨を表示しています。
-              </p>
+            <p>
+              LLMは人類が書き記してきた知識体系を学習しており、概念の論理構造・設計意図・他概念との繋がりを説明することに長けています。この特性を活かして「問題を解かせる」ではなく「なぜを対話する」学習フローを設計し、ITパスポートから高度試験・AWS・FP2級まで、各試験のシラバスを読み込んで学習設計を組み立ててきました。
+            </p>
+            <p>
+              各記事で紹介するプロンプトや学習手順は、実際にシラバスと向き合いながら設計したものです。「まずやってみる」を繰り返すことで能力は更新されます。このサイトはその実践の場であり、記録でもあります。
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Admin Profile Section ************** -->
+    <section class="relative not-prose scroll-mt-[72px] bg-slate-50 dark:bg-slate-800/20 py-12 md:py-16 lg:py-20">
+      <div class="relative max-w-4xl mx-auto px-4 sm:px-6">
+        <div class="max-w-3xl mx-auto">
+          <div class="text-center mb-8">
+            <p class="text-base text-secondary dark:text-blue-200 font-bold tracking-wide uppercase">Admin</p>
+            <h2 class="font-bold leading-tighter tracking-tighter font-heading text-heading text-3xl md:text-4xl mt-2">
+              運営者プロフィール
+            </h2>
+          </div>
+
+          <div
+            class="flex flex-col md:flex-row gap-8 items-center bg-white dark:bg-slate-900 border border-gray-200 dark:border-gray-700 shadow-md rounded-2xl p-8"
+          >
+            <div class="w-32 h-32 md:w-40 md:h-40 flex-shrink-0">
+              <img
+                src={sasisiImg.src}
+                alt="sasisi344"
+                class="w-full h-full object-cover rounded-full border-4 border-gray-100 dark:border-slate-800 shadow-sm"
+              />
             </div>
-            <div class="flex justify-center md:justify-start gap-4 mt-2">
-              <a
-                href="https://x.com/sasisi344"
-                target="_blank"
-                rel="noopener noreferrer"
-                class="text-blue-500 hover:text-blue-600 transition flex items-center gap-1 font-medium"
-              >
-                <svg
-                  class="w-5 h-5 inline-block"
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 24 24"
-                  fill="currentColor"
+            <div class="flex flex-col flex-grow text-center md:text-left">
+              <h3 class="text-2xl font-bold mb-2 dark:text-white">さしし / @sasisi344</h3>
+              <p class="text-muted text-lg mb-4">
+                40代後半。仕事ではありませんが、自分のサイト運営・ネットワーク構築・Web開発をひととおり自分でやってきました。プロほどではないものの、ITには一般の人より少し詳しい立場です。<br
+                />
+                生成AIが登場して以来、「AIを道具として正しく使う能力」こそが現代のリテラシーだと確信し、Syllabus Hackを立ち上げました。自分自身が各試験のシラバスとAIを使い倒して学習設計を検証しながら、「AI対話学習メソッド」を構築・発信しています。<br
+                />
+                同年代・それ以上の世代が「AIを使って自分を更新し続ける」ための実践知を届けることをミッションとしています。
+              </p>
+              <div class="text-left text-muted text-base mb-4">
+                <p class="font-bold text-heading dark:text-white mb-1">資格の受験・学習の状況</p>
+                <ul class="list-disc pl-5 space-y-1">
+                  {
+                    Object.values(AUTHOR_EXAM_STATUS).map(({ name, status }) => (
+                      <li>
+                        {name}: {status}
+                      </li>
+                    ))
+                  }
+                  <li>上記以外の資格: 未受験です。</li>
+                </ul>
+                <p class="text-sm mt-2">
+                  記事に書く体験は、受験・学習・実務で実際に使った範囲だけです。未受験の資格の記事では、記事末尾の執筆者欄にその旨を表示しています。
+                </p>
+              </div>
+              <div class="flex justify-center md:justify-start gap-4 mt-2">
+                <a
+                  href="https://x.com/sasisi344"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="text-blue-500 hover:text-blue-600 transition flex items-center gap-1 font-medium"
                 >
-                  <path
-                    d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"
-                  ></path>
-                </svg>
-                X (Twitter)
-              </a>
-              <a
-                href="https://www.threads.net/@sasisi344"
-                target="_blank"
-                rel="noopener noreferrer"
-                class="text-gray-900 dark:text-white hover:opacity-80 transition flex items-center gap-1 font-medium"
-              >
-                <svg
-                  class="w-5 h-5 inline-block"
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 192 192"
-                  fill="currentColor"
+                  <svg
+                    class="w-5 h-5 inline-block"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                  >
+                    <path
+                      d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"
+                    ></path>
+                  </svg>
+                  X (Twitter)
+                </a>
+                <a
+                  href="https://www.threads.net/@sasisi344"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="text-gray-900 dark:text-white hover:opacity-80 transition flex items-center gap-1 font-medium"
                 >
-                  <path
-                    d="M141.537 88.9883C140.71 88.5919 139.87 88.2104 139.019 87.8451C137.537 60.5382 122.616 44.905 97.5619 44.745C97.4484 44.7443 97.3355 44.7443 97.222 44.7443C82.2364 44.7443 69.7731 51.1409 62.102 62.7807L75.881 72.2328C81.6116 63.5383 90.6052 61.6848 97.2286 61.6848C97.3305 61.6848 97.3819 61.6848 97.4576 61.6855C105.707 61.7381 111.932 64.1366 115.961 68.814C118.893 72.2193 120.854 76.925 121.825 82.8638C114.511 81.6207 106.601 81.2385 98.145 81.7233C74.3247 83.0954 59.0111 96.9879 60.0396 116.292C60.5615 126.084 65.4397 134.508 73.775 140.011C80.8224 144.663 89.899 146.938 99.3323 146.423C111.79 145.74 121.563 140.987 128.381 132.296C133.559 125.696 136.834 117.143 138.28 106.366C144.217 109.949 148.617 114.664 151.047 120.332C155.179 129.967 155.42 145.8 142.501 158.708C131.182 170.016 117.576 174.908 97.0135 175.059C74.2042 174.89 56.9538 167.575 45.7381 153.317C35.2355 139.966 29.8077 120.682 29.6052 96C29.8077 71.3178 35.2355 52.0336 45.7381 38.6827C56.9538 24.4249 74.2039 17.11 97.0132 16.9405C119.988 17.1113 137.539 24.4614 149.184 38.788C154.894 45.8136 159.199 54.6488 162.037 64.9503L178.184 60.6422C174.744 47.9622 169.331 37.0357 161.965 27.974C147.036 9.60668 125.202 0.195148 97.0695 0H96.9569C68.8816 0.19447 47.2921 9.6418 32.7883 28.0793C19.8819 44.4864 13.2244 67.3157 13.0007 95.9325L13 96L13.0007 96.0675C13.2244 124.684 19.8819 147.514 32.7883 163.921C47.2921 182.358 68.8816 191.806 96.9569 192H97.0695C122.03 191.827 139.624 185.292 154.118 170.811C173.081 151.866 172.51 128.119 166.26 113.541C161.776 103.087 153.227 94.5962 141.537 88.9883ZM98.4405 129.507C88.0005 130.095 77.1544 125.409 76.6196 115.372C76.2232 107.93 81.9158 99.626 99.0812 98.6368C101.047 98.5234 102.976 98.468 104.871 98.468C111.106 98.468 116.939 99.0737 122.242 100.233C120.264 124.935 108.662 128.946 98.4405 129.507Z"
-                  ></path>
-                </svg>
-                Threads
-              </a>
-              <a
-                href="https://github.com/sasisi344"
-                target="_blank"
-                rel="noopener noreferrer"
-                class="text-gray-700 dark:text-gray-300 hover:text-black dark:hover:text-white transition flex items-center gap-1 font-medium"
-              >
-                <svg
-                  class="w-5 h-5 inline-block"
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 24 24"
-                  fill="currentColor"
+                  <svg
+                    class="w-5 h-5 inline-block"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 192 192"
+                    fill="currentColor"
+                  >
+                    <path
+                      d="M141.537 88.9883C140.71 88.5919 139.87 88.2104 139.019 87.8451C137.537 60.5382 122.616 44.905 97.5619 44.745C97.4484 44.7443 97.3355 44.7443 97.222 44.7443C82.2364 44.7443 69.7731 51.1409 62.102 62.7807L75.881 72.2328C81.6116 63.5383 90.6052 61.6848 97.2286 61.6848C97.3305 61.6848 97.3819 61.6848 97.4576 61.6855C105.707 61.7381 111.932 64.1366 115.961 68.814C118.893 72.2193 120.854 76.925 121.825 82.8638C114.511 81.6207 106.601 81.2385 98.145 81.7233C74.3247 83.0954 59.0111 96.9879 60.0396 116.292C60.5615 126.084 65.4397 134.508 73.775 140.011C80.8224 144.663 89.899 146.938 99.3323 146.423C111.79 145.74 121.563 140.987 128.381 132.296C133.559 125.696 136.834 117.143 138.28 106.366C144.217 109.949 148.617 114.664 151.047 120.332C155.179 129.967 155.42 145.8 142.501 158.708C131.182 170.016 117.576 174.908 97.0135 175.059C74.2042 174.89 56.9538 167.575 45.7381 153.317C35.2355 139.966 29.8077 120.682 29.6052 96C29.8077 71.3178 35.2355 52.0336 45.7381 38.6827C56.9538 24.4249 74.2039 17.11 97.0132 16.9405C119.988 17.1113 137.539 24.4614 149.184 38.788C154.894 45.8136 159.199 54.6488 162.037 64.9503L178.184 60.6422C174.744 47.9622 169.331 37.0357 161.965 27.974C147.036 9.60668 125.202 0.195148 97.0695 0H96.9569C68.8816 0.19447 47.2921 9.6418 32.7883 28.0793C19.8819 44.4864 13.2244 67.3157 13.0007 95.9325L13 96L13.0007 96.0675C13.2244 124.684 19.8819 147.514 32.7883 163.921C47.2921 182.358 68.8816 191.806 96.9569 192H97.0695C122.03 191.827 139.624 185.292 154.118 170.811C173.081 151.866 172.51 128.119 166.26 113.541C161.776 103.087 153.227 94.5962 141.537 88.9883ZM98.4405 129.507C88.0005 130.095 77.1544 125.409 76.6196 115.372C76.2232 107.93 81.9158 99.626 99.0812 98.6368C101.047 98.5234 102.976 98.468 104.871 98.468C111.106 98.468 116.939 99.0737 122.242 100.233C120.264 124.935 108.662 128.946 98.4405 129.507Z"
+                    ></path>
+                  </svg>
+                  Threads
+                </a>
+                <a
+                  href="https://github.com/sasisi344"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="text-gray-700 dark:text-gray-300 hover:text-black dark:hover:text-white transition flex items-center gap-1 font-medium"
                 >
-                  <path
-                    fill-rule="evenodd"
-                    clip-rule="evenodd"
-                    d="M12 2C6.475 2 2 6.475 2 12A9.994 9.994 0 008.828 21.182c.5.093.682-.217.682-.482v-1.705c-2.782.604-3.37-1.341-3.37-1.341-.454-1.155-1.11-1.463-1.11-1.463-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855v2.755c0 .268.18.58.688.481A9.991 9.991 0 0022 12c0-5.525-4.475-10-10-10z"
-                  ></path>
-                </svg>
-                GitHub
-              </a>
+                  <svg
+                    class="w-5 h-5 inline-block"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M12 2C6.475 2 2 6.475 2 12A9.994 9.994 0 008.828 21.182c.5.093.682-.217.682-.482v-1.705c-2.782.604-3.37-1.341-3.37-1.341-.454-1.155-1.11-1.463-1.11-1.463-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855v2.755c0 .268.18.58.688.481A9.991 9.991 0 0022 12c0-5.525-4.475-10-10-10z"
+                    ></path>
+                  </svg>
+                  GitHub
+                </a>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
+  </div>
 </Layout>
+
+<style>
+  .about-page {
+    color: var(--aw-color-text-default);
+  }
+  .about-hero {
+    max-width: 1100px;
+    margin: auto;
+    padding: 70px 24px 80px;
+    display: grid;
+    grid-template-columns: 1.35fr 1fr;
+    gap: 80px;
+    align-items: center;
+    border-bottom: 1px solid var(--sh-line);
+  }
+  .about-eyebrow {
+    font-size: 10px;
+    letter-spacing: 0.18em;
+    color: var(--aw-color-text-muted);
+    margin-bottom: 24px;
+  }
+  .about-intro h1 {
+    font: 600 clamp(36px, 3.8vw, 52px)/1.55 var(--sh-font-editorial);
+    letter-spacing: -0.05em;
+    color: var(--aw-color-text-heading);
+  }
+  .about-intro h1 span {
+    color: var(--aw-color-primary);
+  }
+  .about-rule {
+    display: block;
+    width: 35px;
+    height: 2px;
+    background: #3bbb66;
+    margin: 26px 0;
+  }
+  .about-lead {
+    font-size: 15px;
+    line-height: 2.1;
+    color: var(--aw-color-text-muted);
+  }
+  .about-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 28px;
+    font-size: 13px;
+    color: var(--aw-color-primary);
+    margin-top: 28px;
+    border-bottom: 1px solid var(--sh-line);
+    padding-bottom: 12px;
+  }
+  .about-link svg {
+    width: 18px;
+    height: 18px;
+  }
+  .about-book {
+    max-width: 310px;
+    width: 100%;
+    margin: auto;
+    transform: rotate(3deg);
+  }
+  .about-book-tabs {
+    display: flex;
+    justify-content: end;
+    padding-right: 18px;
+    gap: 5px;
+  }
+  .about-book-tabs span {
+    background: #28723e;
+    color: white;
+    border-radius: 9px 9px 0 0;
+    padding: 7px 16px;
+    font-size: 10px;
+  }
+  .about-book-tabs span:nth-child(2) {
+    background: #464969;
+  }
+  .about-book-tabs span:nth-child(3) {
+    background: #b49d63;
+  }
+  .about-book-cover {
+    min-height: 370px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 28px;
+    background: #21394b;
+    color: #fffdf7;
+    border-left: 10px solid #192e3c;
+    border-right: 5px solid #d9d0be;
+    border-bottom: 8px solid #eee7da;
+    border-radius: 4px 9px 9px 4px;
+    box-shadow: 0 17px 26px -17px #12293880;
+  }
+  .about-book-cover > span {
+    font-size: 9px;
+    letter-spacing: 0.18em;
+    color: #ffffffa0;
+  }
+  .about-book-cover > svg {
+    width: 75px;
+    height: 75px;
+    stroke-width: 1;
+  }
+  .about-book-cover > p {
+    font: 600 23px var(--sh-font-editorial);
+  }
+  .about-book-cover > .about-book-line {
+    width: 40px;
+    height: 1px;
+    background: #ffffff70;
+  }
+  .about-mobile-break {
+    display: none;
+  }
+  .about-page :global(section:not(.about-hero)) {
+    max-width: 1100px;
+    margin-inline: auto;
+  }
+  .about-page :global(h2) {
+    font-family: var(--sh-font-editorial);
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1.6;
+  }
+  .about-page :global(h3) {
+    font-family: var(--sh-font-editorial);
+    font-weight: 600;
+  }
+  .about-page :global(p.text-xl),
+  .about-page :global(p.text-lg) {
+    font-size: 15px;
+    line-height: 2;
+  }
+  .about-page :global(.bg-white),
+  .about-page :global(.bg-slate-50) {
+    background-color: var(--sh-paper);
+    border-color: var(--sh-line);
+    border-radius: 4px;
+    box-shadow: none;
+  }
+  .about-page :global(.bg-blue-100) {
+    background-color: var(--sh-paper);
+    color: var(--aw-color-primary);
+    border: 1px solid var(--sh-line);
+    border-radius: 4px;
+  }
+  .about-page :global(.text-accent),
+  .about-page :global(.text-blue-500) {
+    color: var(--aw-color-primary);
+  }
+  .about-page :global(.space-y-4) {
+    font-size: 15px;
+    line-height: 2.05;
+  }
+  .about-page :global(.dark\:text-blue-200) {
+    color: var(--aw-color-primary);
+  }
+  @media (max-width: 767px) {
+    .about-hero {
+      grid-template-columns: 1fr;
+      gap: 40px;
+      padding: 38px 20px 48px;
+    }
+    .about-intro h1 {
+      font-size: 38px;
+    }
+    .about-mobile-break {
+      display: block;
+    }
+    .about-book {
+      max-width: 230px;
+    }
+    .about-book-cover {
+      min-height: 280px;
+      gap: 20px;
+    }
+    .about-book-cover > svg {
+      width: 58px;
+      height: 58px;
+    }
+    .about-book-cover > p {
+      font-size: 19px;
+    }
+    .about-page :global(h2) {
+      font-size: 27px;
+    }
+    .about-page :global(.p-8) {
+      padding: 24px;
+    }
+  }
+</style>

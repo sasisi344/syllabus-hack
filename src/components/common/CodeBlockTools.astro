@@ -1,0 +1,92 @@
+<script>
+  const fallbackCopy = (text: string) => {
+    const focused = document.activeElement instanceof HTMLElement ? document.activeElement : null;
+    const selection = window.getSelection();
+    const ranges = selection
+      ? Array.from({ length: selection.rangeCount }, (_, index) => selection.getRangeAt(index).cloneRange())
+      : [];
+    const field = document.createElement('textarea');
+    field.value = text;
+    field.readOnly = true;
+    field.style.cssText = 'position:fixed;left:-9999px;top:0;font-size:16px;';
+    document.body.append(field);
+    try {
+      field.select();
+      if (!document.execCommand('copy')) throw new Error('Copy unavailable');
+    } finally {
+      field.remove();
+      selection?.removeAllRanges();
+      ranges.forEach((range) => selection?.addRange(range));
+      focused?.focus({ preventScroll: true });
+    }
+  };
+
+  const copyText = async (text: string) => {
+    if (navigator.clipboard?.writeText) {
+      try {
+        await navigator.clipboard.writeText(text);
+        return;
+      } catch {
+        /* Try the selection-based copy below. */
+      }
+    }
+    fallbackCopy(text);
+  };
+
+  const enhanceCodeBlocks = () => {
+    document.querySelectorAll<HTMLElement>('.editorial-main .prose pre').forEach((pre) => {
+      const code = pre.querySelector('code');
+      if (!code || pre.closest('[hidden], figure.mermaid-diagram, .code-block-wrapper')) return;
+
+      const wrapper = document.createElement('div');
+      wrapper.className = 'code-block-wrapper';
+      const toolbar = document.createElement('div');
+      toolbar.className = 'code-block-toolbar';
+      const language = pre.dataset.language || code.className.match(/language-([\w-]+)/)?.[1];
+      const label = document.createElement('span');
+      label.className = 'code-block-label';
+      label.textContent =
+        language && !['text', 'txt', 'plaintext'].includes(language) ? language.toUpperCase() : 'テキスト';
+      const button = document.createElement('button');
+      button.type = 'button';
+      button.className = 'copy-code-btn';
+      button.textContent = 'コピー';
+      button.setAttribute('aria-label', 'コードをコピー');
+      const status = document.createElement('span');
+      status.className = 'sr-only';
+      status.setAttribute('role', 'status');
+      status.setAttribute('aria-live', 'polite');
+      toolbar.append(label, button, status);
+      pre.before(wrapper);
+      wrapper.append(toolbar, pre);
+
+      let timer: ReturnType<typeof setTimeout> | undefined;
+      let pending = false;
+      button.addEventListener('click', async () => {
+        if (pending) return;
+        pending = true;
+        clearTimeout(timer);
+        button.setAttribute('aria-busy', 'true');
+        status.textContent = '';
+        try {
+          // Read source text, not visually wrapped innerText or the toolbar label.
+          await copyText(code.textContent || '');
+          button.textContent = 'コピーしました';
+          status.textContent = 'コードをコピーしました。';
+        } catch {
+          button.textContent = '再試行';
+          status.textContent = 'コピーできませんでした。もう一度試すか、コードを選択してコピーしてください。';
+        } finally {
+          pending = false;
+          button.removeAttribute('aria-busy');
+        }
+        timer = setTimeout(() => {
+          button.textContent = 'コピー';
+        }, 2500);
+      });
+    });
+  };
+
+  enhanceCodeBlocks();
+  document.addEventListener('astro:page-load', enhanceCodeBlocks);
+</script>

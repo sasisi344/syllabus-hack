@@ -1,6 +1,5 @@
 ---
 import { Icon } from 'astro-icon/components';
-import { SITE } from 'astrowind:config';
 import { getHomePermalink, getPermalink } from '~/utils/permalinks';
 import sasisiImg from '~/assets/images/sasisi344.jpg';
 
@@ -27,21 +26,26 @@ export interface Props {
 const { socialLinks = [], secondaryLinks = [], links = [], footNote = '', theme = 'light' } = Astro.props;
 ---
 
-<footer class:list={[{ dark: theme === 'dark' }, 'relative border-t border-gray-200 dark:border-slate-800 not-prose']}>
+<footer
+  class:list={[
+    { dark: theme === 'dark' },
+    'site-footer relative border-t border-gray-200 dark:border-slate-800 not-prose',
+  ]}
+>
   <div class="dark:bg-dark absolute inset-0 pointer-events-none" aria-hidden="true"></div>
   <div
     class="relative max-w-7xl mx-auto px-4 sm:px-6 dark:text-slate-300 intersect-once intersect-quarter intersect-no-queue motion-safe:md:opacity-0 motion-safe:md:intersect:animate-fade"
   >
     <div class="mb-6 pt-8 md:pt-12">
-      <a class="inline-block font-bold text-xl" href={getHomePermalink()}>{SITE?.name}</a>
+      <a class="footer-brand inline-block font-bold text-xl" href={getHomePermalink()}>シラバスハック</a>
     </div>
 
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 pb-8 md:pb-12">
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 pb-8 md:pb-12">
       <!-- カテゴリ -->
       {
         links.map(({ title, links }) => (
           <div>
-            <div class="dark:text-gray-300 font-medium mb-2">{title}</div>
+            <div class="footer-group-title dark:text-gray-300 font-medium mb-2">{title}</div>
             {links && Array.isArray(links) && links.length > 0 && (
               <ul class="text-sm">
                 {links.map(({ text, href, ariaLabel }) => (
@@ -63,7 +67,7 @@ const { socialLinks = [], secondaryLinks = [], links = [], footNote = '', theme 
 
       <!-- 運営者について + 利用規約・プライバシーポリシー -->
       <div>
-        <div class="dark:text-gray-300 font-medium mb-2">運営者について</div>
+        <div class="footer-group-title dark:text-gray-300 font-medium mb-2">運営者について</div>
         <a href={getPermalink('/about')} class="flex items-start gap-3 mb-3 group">
           <img
             src={sasisiImg.src}
@@ -73,7 +77,9 @@ const { socialLinks = [], secondaryLinks = [], links = [], footNote = '', theme 
             class="w-10 h-10 rounded-full object-cover border border-gray-200 dark:border-slate-700 flex-shrink-0"
           />
           <span class="text-sm text-muted">
-            <span class="block font-medium text-gray-700 dark:text-gray-300 group-hover:underline">さしし / @sasisi344</span>
+            <span class="block font-medium text-gray-700 dark:text-gray-300 group-hover:underline"
+              >さしし / @sasisi344</span
+            >
             生成AIを使い倒して資格学習を設計するSyllabus Hack運営者。
           </span>
         </a>
@@ -93,7 +99,9 @@ const { socialLinks = [], secondaryLinks = [], links = [], footNote = '', theme 
         </div>
       </div>
 
-      {/* 広告枠（資格スクエア／A8.net、2026-09-15 テスト導入）は AdSense の審査中のため 2026-10-31 に外した。戻すときは git の履歴から復元する（.task-management/task.md T-34） */}
+      {
+        /* 広告枠（資格スクエア／A8.net、2026-09-15 テスト導入）は AdSense の審査中のため 2026-10-31 に外した。戻すときは git の履歴から復元する（.task-management/task.md T-34） */
+      }
     </div>
 
     <div class="md:flex md:items-center md:justify-between py-6 md:py-8 border-t border-gray-200 dark:border-slate-800">

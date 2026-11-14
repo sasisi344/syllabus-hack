@@ -1,181 +1,719 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
+import { Icon } from 'astro-icon/components';
+import ToggleTheme from '~/components/common/ToggleTheme.astro';
+import ArticleSearchForm from '~/components/common/ArticleSearchForm.astro';
+import QualificationDictionary from '~/components/home/QualificationDictionary.astro';
+import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
+import { certGroups } from '~/data/cert-hubs';
 import { getPermalink } from '~/utils/permalinks';
 
-import Hero from '~/components/widgets/Hero.astro';
-import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
-import Content from '~/components/widgets/Content.astro';
-import CallToAction from '~/components/widgets/CallToAction.astro';
-import Headline from '~/components/ui/Headline.astro';
-import Button from '~/components/ui/Button.astro';
-import WidgetWrapper from '~/components/ui/WidgetWrapper.astro';
-import { certGroups } from '~/data/cert-hubs';
-
-const metadata = {
-  title: 'Syllabus Hack — 生成AIで資格試験を攻略する',
-  ignoreTitleTemplate: true,
-};
-
-const methodButtons = [
+const metadata = { title: 'Syllabus Hack — 生成AIで資格試験を攻略する', ignoreTitleTemplate: true };
+const methods = [
   {
-    text: '20時間ロードマップで学ぶ',
+    title: 'コースで学ぶ',
+    label: 'COURSE',
+    description: '20時間ロードマップで、学びの道筋をつかむ。',
     href: getPermalink('/course'),
-    icon: 'tabler:clock-hour-8',
+    icon: 'tabler:route',
   },
   {
-    text: 'AI学習メソッドを読む',
+    title: 'AIと学ぶ',
+    label: 'METHOD',
+    description: 'ChatGPT・Claudeと、自分に合う学び方を探す。',
     href: getPermalink('method', 'category'),
-    icon: 'tabler:brain',
+    icon: 'tabler:sparkles',
   },
   {
-    text: '問題演習アプリで鍛える',
+    title: '問題を解く',
+    label: 'PRACTICE',
+    description: '問題演習アプリで、理解を確かめる。',
     href: getPermalink('app', 'category'),
-    icon: 'tabler:device-mobile',
-  },
-  {
-    text: '用語辞典で調べる',
-    href: getPermalink('theory', 'category'),
-    icon: 'tabler:book',
+    icon: 'tabler:pencil',
   },
 ];
-
-const genreIcons: Record<string, string> = {
-  ipa: 'tabler:device-desktop-analytics',
-  'cloud-network': 'tabler:cloud',
-  'ai-data': 'tabler:chart-dots',
-  business: 'tabler:briefcase',
-  facility: 'tabler:building-factory-2',
-};
+const genreIcons = [
+  'tabler:device-desktop-analytics',
+  'tabler:cloud',
+  'tabler:brain',
+  'tabler:briefcase',
+  'tabler:bolt',
+];
 ---
 
 <Layout metadata={metadata}>
-  <!-- Hero Widget ******************* -->
-
-  <Hero
-    actions={[
+  <div slot="header" class="home-header">
+    <header class="home-header-inner">
+      <a class="home-wordmark" href={getPermalink('/')} aria-label="シラバスハック ホーム"
+        >シラバスハック<span></span></a
+      >
+      <div class="home-search"><ArticleSearchForm /></div>
+      <nav class="home-nav" aria-label="メインナビゲーション">
+        <a href={getPermalink('/certifications')}>資格一覧</a><a href="#learning">学び方</a><a
+          href={getPermalink('theory', 'category')}>用語辞典</a
+        >
+      </nav>
+      <div class="home-header-actions">
+        <ToggleTheme label="ライト・ダークモードを切り替える" />
+        <details class="home-mobile-menu">
+          <summary aria-label="メニュー"><Icon name="tabler:menu-2" /></summary>
+          <nav aria-label="モバイルナビゲーション">
+            <a href={getPermalink('/certifications')}>資格一覧</a><a href="#learning">学び方</a><a
+              href={getPermalink('theory', 'category')}>用語辞典</a
+            ><a href={getPermalink('/blog')}>記事一覧</a>
+          </nav>
+        </details>
+      </div>
+    </header>
+  </div>
+  <div class="home-page">
+    <section class="home-hero" aria-labelledby="home-title">
+      <p class="home-eyebrow">SYLLABUS HACK / YOUR NEXT CHAPTER</p>
+      <h1 id="home-title">次の学びを、<br />ひらこう。</h1><span class="home-title-rule" aria-hidden="true"></span>
+      <p class="home-intro">資格のページをめくって、<br class="mobile-break" />学びの入口を見つけよう。</p>
+      <QualificationDictionary />
+    </section>
+    <nav class="home-genres home-container" aria-label="ジャンル別の資格一覧">
       {
-        variant: 'primary',
-        text: '20時間コースで学ぶ',
-        href: getPermalink('/course'),
-        icon: 'tabler:clock-hour-8',
-      },
-      { text: '試験対策アプリを使う', href: getPermalink('app', 'category') },
-      { text: '学習メソッドを読む', href: getPermalink('method', 'category') },
-    ]}
-    image={{ src: '~/assets/images/hero-syllabushack.jpg', alt: 'Syllabus Hack Hero Image' }}
-  >
-    <Fragment slot="title">
-      生成AIで <span class="text-accent dark:text-blue-400">シラバス</span> をハックする
-    </Fragment>
-
-    <Fragment slot="subtitle">
-      武器は<strong>ChatGPTとClaude</strong>。IT資格に限らず、シラバスのある資格試験なら、ジャンルを問わず攻略ロードマップが作れます。
-      ここで学んだ方法は、あなたが次に挑む資格にもそのまま使えます。
-    </Fragment>
-  </Hero>
-
-  <!-- 学習メソッドの種類（ボタン） ************** -->
-
-  <WidgetWrapper>
-    <Headline
-      tagline="How to Learn"
-      title="学び方は、4つ。目的に合わせて選べます"
-      subtitle="どの資格にも使える、ChatGPT・Claudeを活用した汎用の学習メソッドです。"
-    />
-    <div class="flex flex-wrap justify-center gap-3 max-w-3xl mx-auto">
-      {
-        methodButtons.map((item) => (
-          <Button variant="secondary" href={item.href} icon={item.icon} text={item.text} class="text-sm py-2.5 px-5" />
+        certGroups.map((group, index) => (
+          <a href={`${getPermalink('/certifications')}#${group.slug}`}>
+            <>
+              <Icon name={genreIcons[index]} />
+              <span>{group.label}</span>
+            </>
+          </a>
         ))
       }
-    </div>
-  </WidgetWrapper>
-
-  <!-- 対応する資格ジャンル（ボタン） ************** -->
-
-  <WidgetWrapper>
-    <Headline
-      tagline="Coverage"
-      title="IT資格だけじゃない。シラバスがあれば、ハックできる。"
-      subtitle="簿記、FP、宅建、電験三種、消防設備士——生成AIによる学習ロードマップの作り方は、資格ジャンルを問いません。"
-    />
-    <div class="flex flex-wrap justify-center gap-3 max-w-4xl mx-auto">
-      {
-        certGroups.map((group) => (
-          <Button
-            variant="secondary"
-            href={`${getPermalink('/certifications')}#${group.slug}`}
-            icon={genreIcons[group.slug]}
-            text={group.title}
-            class="text-sm py-2.5 px-5"
-          />
-        ))
-      }
-      <Button
-        variant="primary"
-        href={getPermalink('/certifications')}
-        text="すべての資格を見る →"
-        class="text-sm py-2.5 px-5"
+      <a class="home-all-link" href={getPermalink('/certifications')}
+        >すべての資格を見る <Icon name="tabler:arrow-up-right" /></a
+      >
+    </nav>
+    <section id="learning" class="home-learning home-container" aria-labelledby="learning-title">
+      <div class="home-section-heading">
+        <p class="home-eyebrow">HOW TO LEARN</p><h2 id="learning-title">学び方にも、<br />選択肢を。</h2>
+      </div>
+      <div class="home-methods">
+        {
+          methods.map((method, index) => (
+            <a class="home-method" href={method.href}>
+              <>
+                <span class="home-method-number">
+                  0{index + 1}
+                  <Icon name={method.icon} />
+                </span>
+                <span class="home-method-label">{method.label}</span>
+              </>
+              <>
+                <h3>
+                  {method.title}
+                  <Icon name="tabler:arrow-up-right" />
+                </h3>
+                <p>{method.description}</p>
+                <span class="home-method-rule" />
+              </>
+            </a>
+          ))
+        }
+      </div>
+    </section>
+    <section class="home-index home-container" aria-labelledby="index-title">
+      <div class="home-index-heading">
+        <div>
+          <p class="home-eyebrow">THE KNOWLEDGE INDEX</p><h2 id="index-title">
+            気になる資格から、<br class="mobile-break" />はじめよう。
+          </h2>
+        </div><a href={getPermalink('/certifications')}>資格一覧へ <Icon name="tabler:arrow-up-right" /></a>
+      </div>
+      <div class="home-index-groups">
+        {
+          certGroups.map((group, index) => (
+            <div class="home-index-group">
+              <>
+                <span class="home-index-number">0{index + 1}</span>
+                <h3>
+                  <Icon name={genreIcons[index]} />
+                  {group.title}
+                </h3>
+                <ul>
+                  {group.items.slice(0, 5).map((item) => (
+                    <li>
+                      <a href={item.href}>
+                        {item.name}
+                        <Icon name="tabler:chevron-right" />
+                      </a>
+                    </li>
+                  ))}
+                  <li>
+                    <a
+                      href={`${getPermalink('/certifications')}#${group.slug}`}
+                      aria-label={`${group.label}の他のも見る`}
+                    >
+                      他のも見る
+                      <Icon name="tabler:arrow-up-right" />
+                    </a>
+                  </li>
+                </ul>
+              </>
+            </div>
+          ))
+        }
+      </div>
+    </section>
+    <div class="home-latest">
+      <BlogLatestPosts
+        title="学びの、その先へ。"
+        information="試験対策、シラバス、AI活用。次の学びにつながる記事を届けます。"
+        linkText="記事をすべて見る"
+        count={3}
       />
     </div>
-  </WidgetWrapper>
-
-  <!-- Content Widget (Polite Explanation) **************** -->
-
-  <Content
-    isReversed
-    tagline="Concept"
-    title="なぜ、今「AIで勉強」なのか"
-    items={[
-      {
-        title: 'パーソナライズされた学習体験',
-        description:
-          'これまでの「一方通行な学習」から、ChatGPTやClaudeとの「対話的な学習」へ。自分の苦手な部分をAIが察知し、解説を最適化します。',
-      },
-      {
-        title: '資格を問わず使える、シラバス構造化術',
-        description:
-          '資格試験のシラバスは、どの分野でも肥大化しています。AIを活用して情報を整理・要約する方法は一度覚えれば、次に挑む資格でもそのまま使えます。',
-      },
-    ]}
-    image={{
-      src: 'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
-      alt: 'Concept Image',
-    }}
-  >
-    <Fragment slot="content">
-      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">落ち着いた学習環境を提供</h3>
-      情報のノイズを削ぎ落とし、勉強に集中できるデザインと機能性を追求しました。
-    </Fragment>
-  </Content>
-
-  <!-- HighlightedPosts Widget (Blog) ******* -->
-
-  <BlogLatestPosts
-    title="最新の学習記事とニュース"
-    information={`最新の試験対策メソッドや、シラバス改訂の速報、AI活用のヒントを定期的に更新しています。`}
-  />
-
-  <!-- CallToAction Widget *********** -->
-
-  <CallToAction
-    actions={[
-      {
-        variant: 'primary',
-        text: '無料の学習メソッドを体験',
-        href: '/try',
-        icon: 'tabler:rocket',
-      },
-    ]}
-  >
-    <Fragment slot="title">
-      あなたの合格を <br class="block sm:hidden" /><span class="sm:whitespace-nowrap">AIがバックアップ</span>
-    </Fragment>
-
-    <Fragment slot="subtitle">
-      PC・スマホ1台で、最新のシラバス攻略を今すぐ始めましょう。 <br
-        class="hidden md:inline"
-      />生成AIによる効率化と、実践的な演習アプリを無料で体験。
-    </Fragment>
-  </CallToAction>
+    <section class="home-closing home-container">
+      <Icon name="tabler:book" /><p>わからない言葉も、学びの入口。</p><a href={getPermalink('theory', 'category')}
+        >用語辞典をひらく <Icon name="tabler:arrow-up-right" /></a
+      >
+    </section>
+  </div>
 </Layout>
+
+<style>
+  .home-page,
+  .home-header {
+    --home-paper: #fcfbf7;
+    --home-ink: #192c3c;
+    --home-muted: #707570;
+    --home-line: #dadbd2;
+    --home-green: #28723e;
+    --home-serif: 'Yu Mincho', 'Hiragino Mincho ProN', 'Noto Serif JP', Georgia, serif;
+    background-color: var(--home-paper);
+    color: var(--home-ink);
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Cpath fill='%238b806a' opacity='.035' filter='url(%23n)' d='M0 0h180v180H0z'/%3E%3C/svg%3E");
+  }
+  .home-header {
+    border-bottom: 1px solid var(--home-line);
+    position: relative;
+    z-index: 20;
+  }
+  .home-header-inner {
+    max-width: 1160px;
+    margin: auto;
+    padding: 24px 28px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+  }
+  .home-wordmark {
+    font-size: 23px;
+    font-weight: 800;
+    letter-spacing: -0.06em;
+    line-height: 1.3;
+  }
+  .home-wordmark span {
+    display: block;
+    width: 31px;
+    height: 2px;
+    background: #3bbb66;
+    margin-top: 9px;
+  }
+  .home-nav {
+    display: flex;
+    gap: 35px;
+    margin-left: 0;
+    font-size: 13px;
+    letter-spacing: 0.06em;
+  }
+  .home-nav a:hover {
+    color: var(--home-green);
+  }
+  .home-header-actions {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .home-search {
+    width: 220px;
+    margin-left: auto;
+    flex-shrink: 0;
+  }
+  .home-mobile-menu {
+    display: none;
+  }
+  .home-container {
+    width: min(1100px, calc(100% - 64px));
+    margin-inline: auto;
+  }
+  .home-hero {
+    padding: 53px 20px 30px;
+    overflow: hidden;
+  }
+  .home-eyebrow {
+    font-size: 9px;
+    letter-spacing: 0.2em;
+    font-weight: 600;
+    color: var(--home-muted);
+  }
+  .home-hero > .home-eyebrow {
+    text-align: center;
+    margin-bottom: 17px;
+  }
+  .home-hero h1 {
+    font: 600 clamp(48px, 5.6vw, 76px)/1.2 var(--home-serif);
+    letter-spacing: -0.06em;
+    text-align: center;
+  }
+  .home-title-rule {
+    display: block;
+    width: 35px;
+    height: 2px;
+    background: #3bbb66;
+    margin: 23px auto 20px;
+  }
+  .home-intro {
+    font: 500 15px/1.9 var(--home-serif);
+    text-align: center;
+    letter-spacing: 0.06em;
+    margin-bottom: 42px;
+  }
+  .mobile-break {
+    display: none;
+  }
+  .home-genres {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-block: 1px solid var(--home-line);
+    padding: 18px 0;
+    gap: 12px;
+  }
+  .home-genres a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 9px;
+    font-size: 12px;
+  }
+  .home-genres a:hover {
+    color: var(--home-green);
+  }
+  .home-genres svg {
+    width: 22px;
+    height: 22px;
+    stroke-width: 1.4;
+  }
+  .home-genres .home-all-link {
+    color: var(--home-green);
+    font-size: 11px;
+    font-weight: 600;
+  }
+  .home-all-link svg {
+    width: 16px;
+  }
+  .home-learning {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    padding-block: 62px 72px;
+    scroll-margin-top: 30px;
+    gap: 40px;
+  }
+  .home-section-heading {
+    position: relative;
+    padding-left: 22px;
+  }
+  .home-section-heading::before {
+    content: '';
+    position: absolute;
+    top: 27px;
+    left: 0;
+    width: 8px;
+    height: 64px;
+    background: #e6ce82;
+  }
+  .home-section-heading h2 {
+    font: 600 31px/1.45 var(--home-serif);
+    letter-spacing: -0.04em;
+    margin-top: 12px;
+  }
+  .home-methods {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .home-method {
+    padding: 5px 24px;
+    border-left: 1px solid var(--home-line);
+  }
+  .home-method-number {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--home-green);
+    font:
+      20px Georgia,
+      serif;
+    margin-bottom: 23px;
+  }
+  .home-method-number svg {
+    width: 25px;
+    height: 25px;
+    stroke-width: 1.2;
+  }
+  .home-method-label {
+    color: var(--home-muted);
+    font-size: 8px;
+    letter-spacing: 0.15em;
+  }
+  .home-method h3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font: 600 21px/1.5 var(--home-serif);
+    margin-top: 6px;
+  }
+  .home-method h3 svg {
+    width: 17px;
+    height: 17px;
+  }
+  .home-method p {
+    font-size: 11px;
+    line-height: 1.9;
+    margin-top: 12px;
+    color: var(--home-muted);
+  }
+  .home-method-rule {
+    display: block;
+    width: 30px;
+    height: 1px;
+    background: var(--home-green);
+    margin-top: 18px;
+    transition: width 0.2s;
+  }
+  .home-method:hover .home-method-rule {
+    width: 100%;
+  }
+  .home-index {
+    border-top: 1px solid var(--home-line);
+    padding-block: 52px 64px;
+  }
+  .home-index-heading {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 34px;
+  }
+  .home-index h2 {
+    font: 600 30px/1.6 var(--home-serif);
+    margin-top: 10px;
+  }
+  .home-index-heading > a {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: 12px;
+    color: var(--home-green);
+    white-space: nowrap;
+  }
+  .home-index-heading > a svg {
+    width: 16px;
+    height: 16px;
+  }
+  .home-index-groups {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 36px 30px;
+  }
+  .home-index-number {
+    display: block;
+    color: var(--home-muted);
+    font:
+      12px Georgia,
+      serif;
+    margin-bottom: 12px;
+  }
+  .home-index-group h3 {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    font-size: 13px;
+    font-weight: 600;
+    padding-bottom: 16px;
+    border-bottom: 1px solid var(--home-line);
+  }
+  .home-index-group h3 svg {
+    width: 20px;
+    height: 20px;
+    stroke-width: 1.4;
+  }
+  .home-index-group li {
+    border-bottom: 1px solid var(--home-line);
+  }
+  .home-index-group li a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    padding-block: 13px;
+    font-size: 12px;
+    line-height: 1.7;
+  }
+  .home-index-group li a:hover {
+    color: var(--home-green);
+  }
+  .home-index-group li svg {
+    flex-shrink: 0;
+    width: 13px;
+    height: 13px;
+  }
+  .home-latest {
+    border-block: 1px solid var(--home-line);
+    background: #eeeae340;
+  }
+  .home-latest :global(h2) {
+    font-family: var(--home-serif);
+    font-weight: 600;
+  }
+  .home-closing {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding-block: 50px;
+  }
+  .home-closing > svg {
+    width: 28px;
+    height: 28px;
+    stroke-width: 1.3;
+  }
+  .home-closing p {
+    font-family: var(--home-serif);
+    font-size: 17px;
+  }
+  .home-closing a {
+    display: flex;
+    gap: 10px;
+    font-size: 12px;
+    color: var(--home-green);
+  }
+  .home-closing a svg {
+    width: 17px;
+    height: 17px;
+  }
+  .home-page :global(a:focus-visible),
+  .home-page :global(button:focus-visible),
+  .home-header :global(a:focus-visible),
+  .home-header :global(summary:focus-visible) {
+    outline: 2px solid var(--home-green);
+    outline-offset: 4px;
+  }
+  :global(html.dark) .home-page,
+  :global(html.dark) .home-header {
+    --home-paper: #18232a;
+    --home-ink: #f1eee6;
+    --home-muted: #b0b7b4;
+    --home-line: #3e4a4d;
+    --home-green: #84ce99;
+  }
+  @media (prefers-color-scheme: dark) {
+    :global(html:not(.dark)) .home-page,
+    :global(html:not(.dark)) .home-header {
+      color-scheme: light;
+    }
+  }
+  @media (max-width: 900px) {
+    .home-learning {
+      grid-template-columns: 1fr;
+      gap: 30px;
+    }
+    .home-section-heading h2 br {
+      display: none;
+    }
+    .home-section-heading::before {
+      height: 40px;
+    }
+    .home-method:first-child {
+      border-left: 0;
+      padding-left: 0;
+    }
+    .home-genres {
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px 25px;
+    }
+  }
+  @media (max-width: 700px) {
+    .home-header-inner {
+      flex-wrap: wrap;
+    }
+    .home-search {
+      order: 3;
+      width: 100%;
+      margin-left: 0;
+    }
+    .home-header-inner {
+      padding: 18px 20px;
+      gap: 12px;
+    }
+    .home-wordmark {
+      font-size: 20px;
+    }
+    .home-nav {
+      display: none;
+    }
+    .home-header-actions {
+      margin-left: auto;
+      gap: 8px;
+    }
+    .home-mobile-menu {
+      display: block;
+    }
+    .home-mobile-menu summary {
+      cursor: pointer;
+      list-style: none;
+      padding: 10px;
+    }
+    .home-mobile-menu summary::-webkit-details-marker {
+      display: none;
+    }
+    .home-mobile-menu summary svg {
+      width: 25px;
+      height: 25px;
+      stroke-width: 1.5;
+    }
+    .home-mobile-menu nav {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      display: grid;
+      padding: 12px 24px 24px;
+      background: var(--home-paper);
+      border-bottom: 1px solid var(--home-line);
+      box-shadow: 0 12px 20px #0001;
+    }
+    .home-mobile-menu nav a {
+      padding: 14px 0;
+      border-bottom: 1px solid var(--home-line);
+      font-size: 14px;
+    }
+    .home-container {
+      width: calc(100% - 40px);
+    }
+    .home-hero {
+      padding: 33px 13px 22px;
+    }
+    .home-hero > .home-eyebrow {
+      font-size: 7px;
+      margin-bottom: 17px;
+      letter-spacing: 0.15em;
+    }
+    .home-hero h1 {
+      font-size: clamp(44px, 11vw, 64px);
+      line-height: 1.3;
+    }
+    .home-title-rule {
+      margin: 20px auto 17px;
+      width: 28px;
+    }
+    .home-intro {
+      font-size: 13px;
+      margin-bottom: 26px;
+    }
+    .mobile-break {
+      display: block;
+    }
+    .home-genres {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      padding-block: 18px;
+      gap: 10px;
+      border-top: 0;
+    }
+    .home-genres a {
+      justify-content: start;
+      padding: 10px 12px;
+      border: 1px solid var(--home-line);
+      border-radius: 3px;
+      font-size: 11px;
+    }
+    .home-genres svg {
+      width: 18px;
+      height: 18px;
+    }
+    .home-genres .home-all-link {
+      border: 0;
+      font-size: 10px;
+      padding-inline: 6px;
+    }
+    .home-learning {
+      padding-block: 37px 40px;
+      gap: 25px;
+    }
+    .home-section-heading h2 {
+      font-size: 28px;
+    }
+    .home-methods {
+      grid-template-columns: 1fr;
+    }
+    .home-method,
+    .home-method:first-child {
+      padding: 20px 0;
+      border: 0;
+      border-bottom: 1px solid var(--home-line);
+      position: relative;
+    }
+    .home-method-number {
+      position: absolute;
+      top: 27px;
+      left: 0;
+      font-size: 16px;
+    }
+    .home-method-number svg,
+    .home-method-label,
+    .home-method-rule {
+      display: none;
+    }
+    .home-method h3 {
+      padding-left: 36px;
+      font-size: 21px;
+      margin: 0;
+    }
+    .home-method p {
+      padding-left: 36px;
+      margin-top: 8px;
+    }
+    .home-index {
+      padding-block: 33px 40px;
+    }
+    .home-index h2 {
+      font-size: 26px;
+    }
+    .home-index-heading {
+      margin-bottom: 25px;
+    }
+    .home-index-groups {
+      grid-template-columns: 1fr;
+      gap: 30px;
+    }
+    .home-index-group li a {
+      font-size: 13px;
+      padding-block: 14px;
+    }
+    .home-closing {
+      flex-wrap: wrap;
+      gap: 15px;
+      padding-block: 35px;
+    }
+    .home-closing p {
+      font-size: 15px;
+    }
+    .home-closing a {
+      flex-basis: 100%;
+      justify-content: center;
+    }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .home-page :global(*) {
+      transition: none !important;
+      scroll-behavior: auto !important;
+    }
+  }
+</style>

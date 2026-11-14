@@ -1,9 +1,26 @@
----
-import { SITE } from 'astrowind:config';
----
+<span class="site-wordmark">シラバスハック<span aria-hidden="true"></span></span>
 
-<span
-  class="self-center ml-2 rtl:ml-0 rtl:mr-2 text-2xl md:text-xl font-bold text-gray-900 whitespace-nowrap dark:text-white"
->
-  🚀 {SITE?.name}
-</span>
+<style>
+  .site-wordmark {
+    display: inline-block;
+    color: var(--aw-color-text-heading);
+    font-family: var(--aw-font-sans), sans-serif;
+    font-size: 23px;
+    font-weight: 800;
+    letter-spacing: -0.06em;
+    line-height: 1.3;
+    white-space: nowrap;
+  }
+  .site-wordmark > span {
+    display: block;
+    width: 31px;
+    height: 2px;
+    background: #3bbb66;
+    margin-top: 9px;
+  }
+  @media (max-width: 767px) {
+    .site-wordmark {
+      font-size: 20px;
+    }
+  }
+</style>

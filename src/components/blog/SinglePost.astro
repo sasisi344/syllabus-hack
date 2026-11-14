@@ -103,14 +103,26 @@ const breadcrumbJsonLd = {
 <script type="application/ld+json" set:html={JSON.stringify(breadcrumbJsonLd)} />
 {faqPageJsonLd && <script type="application/ld+json" set:html={JSON.stringify(faqPageJsonLd)} />}
 
-<section class="py-8 sm:py-16 lg:py-20 mx-auto">
+<section class="post-shell mx-auto">
   <article>
-    <header
-      class={post.image
-        ? 'intersect-once intersect-quarter motion-safe:md:opacity-0 motion-safe:md:intersect:animate-fade'
-        : 'intersect-once intersect-quarter motion-safe:md:opacity-0 motion-safe:md:intersect:animate-fade'}
-    >
-      <div class="flex justify-between flex-col sm:flex-row max-w-3xl mx-auto mt-0 mb-2 px-4 sm:px-6 sm:items-center">
+    <nav class="post-breadcrumb" aria-label="パンくずリスト">
+      <a href={getPermalink('/')}>ホーム</a><span aria-hidden="true">/</span>
+      {
+        post.category && (
+          <>
+            <>
+              <a href={getPermalink(post.category.slug, 'category')}>{post.category.title}</a>
+              <span aria-hidden="true">/</span>
+            </>
+          </>
+        )
+      }
+      <span>記事</span>
+    </nav>
+    <header class="post-header">
+      <div
+        class="post-meta flex justify-between flex-col sm:flex-row max-w-3xl mx-auto mt-0 mb-2 px-4 sm:px-6 sm:items-center"
+      >
         <p>
           <Icon name="tabler:clock" class="w-4 h-4 inline-block -mt-0.5 dark:text-gray-400" />
           <time datetime={String(post.publishDate)} class="inline-block">{getFormattedDate(post.publishDate)}</time>
@@ -145,30 +157,32 @@ const breadcrumbJsonLd = {
       </div>
 
       <h1
-        class="px-4 sm:px-6 max-w-3xl mx-auto text-4xl md:text-5xl font-bold leading-tighter tracking-tighter font-heading"
+        class="post-title px-4 sm:px-6 max-w-3xl mx-auto text-4xl md:text-5xl font-bold leading-tighter tracking-tighter font-heading"
       >
         {post.title}
       </h1>
       <p
-        class="max-w-3xl mx-auto mt-4 mb-8 px-4 sm:px-6 text-xl md:text-2xl text-muted dark:text-slate-400 text-justify"
+        class="post-summary max-w-3xl mx-auto mt-4 mb-8 px-4 sm:px-6 text-xl md:text-2xl text-muted dark:text-slate-400 text-justify"
       >
         {post.excerpt}
       </p>
 
       {
         post.image ? (
-          <Image
-            src={post.image}
-            class="max-w-full lg:max-w-[900px] mx-auto mb-6 sm:rounded-md bg-gray-400 dark:bg-slate-700"
-            widths={[400, 900]}
-            sizes="(max-width: 900px) 400px, 900px"
-            alt={post?.excerpt || ''}
-            width={900}
-            height={506}
-            loading="eager"
-            fetchpriority="high"
-            decoding="async"
-          />
+          <div class="post-cover-frame">
+            <Image
+              src={post.image}
+              class="post-cover max-w-full lg:max-w-[900px] mx-auto mb-6 sm:rounded-md bg-gray-400 dark:bg-slate-700"
+              widths={[400, 900]}
+              sizes="(max-width: 900px) 400px, 900px"
+              alt={post?.excerpt || ''}
+              width={900}
+              height={506}
+              loading="eager"
+              fetchpriority="high"
+              decoding="async"
+            />
+          </div>
         ) : (
           <div class="max-w-3xl mx-auto px-4 sm:px-6">
             <div class="border-t dark:border-slate-700" />
@@ -178,81 +192,11 @@ const breadcrumbJsonLd = {
     </header>
     {post.toc && post.headings && <TableOfContents headings={post.headings} />}
     <div
-      class="mx-auto px-6 sm:px-6 max-w-3xl prose prose-md lg:prose-xl dark:prose-invert dark:prose-headings:text-slate-300 prose-headings:font-heading prose-headings:leading-tighter prose-headings:tracking-tighter prose-headings:font-bold prose-a:text-primary dark:prose-a:text-blue-400 prose-img:rounded-md prose-img:shadow-lg mt-8 prose-headings:scroll-mt-[80px] prose-li:my-0"
+      class="post-body mx-auto px-6 sm:px-6 max-w-3xl prose prose-md lg:prose-xl dark:prose-invert dark:prose-headings:text-slate-300 prose-headings:font-heading prose-headings:leading-tighter prose-headings:tracking-tighter prose-headings:font-bold prose-a:text-primary dark:prose-a:text-blue-400 prose-img:rounded-md prose-img:shadow-lg mt-8 prose-headings:scroll-mt-[80px] prose-li:my-0"
     >
       <slot />
     </div>
 
-    <script is:inline>
-      document.addEventListener('DOMContentLoaded', () => {
-        const codeBlocks = document.querySelectorAll('pre');
-
-        codeBlocks.forEach((codeBlock) => {
-          // Wrap pre in a relative container
-          const wrapper = document.createElement('div');
-          wrapper.className = 'code-block-wrapper relative group';
-          codeBlock.parentNode.insertBefore(wrapper, codeBlock);
-          wrapper.appendChild(codeBlock);
-
-          // Create copy button
-          const copyButton = document.createElement('button');
-          copyButton.className =
-            'copy-code-btn absolute top-2 right-2 p-2 bg-slate-700/50 hover:bg-slate-600/80 text-white rounded-md opacity-0 group-hover:opacity-100 transition-all duration-200 focus:outline-none';
-          copyButton.setAttribute('aria-label', 'Copy code');
-          copyButton.innerHTML = `
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="copy-icon"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="check-icon hidden text-green-400"><polyline points="20 6 9 17 4 12"></polyline></svg>
-          `;
-
-          wrapper.appendChild(copyButton);
-
-          copyButton.addEventListener('click', async () => {
-            const code = codeBlock.querySelector('code')?.innerText || codeBlock.innerText;
-            try {
-              await navigator.clipboard.writeText(code);
-
-              // Show check icon
-              copyButton.querySelector('.copy-icon').classList.add('hidden');
-              copyButton.querySelector('.check-icon').classList.remove('hidden');
-
-              setTimeout(() => {
-                copyButton.querySelector('.copy-icon').classList.remove('hidden');
-                copyButton.querySelector('.check-icon').classList.add('hidden');
-              }, 2000);
-            } catch (err) {
-              console.error('Failed to copy code: ', err);
-            }
-          });
-        });
-      });
-    </script>
-
-    <style is:global>
-      /* Code Wrapping and Styling */
-      .prose pre {
-        white-space: pre-wrap !important;
-        word-break: break-all !important;
-        position: relative;
-        padding-top: 2.5rem !important; /* Make room for button */
-      }
-
-      .prose pre code {
-        white-space: pre-wrap !important;
-      }
-
-      .copy-code-btn.hidden {
-        display: none;
-      }
-
-      .copy-code-btn .hidden {
-        display: none;
-      }
-
-      .dark .prose pre {
-        background-color: #0f172a !important;
-        border: 1px solid rgba(255, 255, 255, 0.1);
-      }
-    </style>
     {post.hasMermaid && <MermaidStyles />}
     <script>
       // Render the placeholders produced by mermaidFenceRemarkPlugin; mermaid is only fetched on pages that have them
@@ -280,14 +224,19 @@ const breadcrumbJsonLd = {
         };
         render();
         // Re-render when dark mode toggles (html.dark)
-        new MutationObserver(render).observe(document.documentElement, { attributes: true, attributeFilter: ['class'] });
+        new MutationObserver(render).observe(document.documentElement, {
+          attributes: true,
+          attributeFilter: ['class'],
+        });
       }
     </script>
-    {isHubPage && (
-      <div class="mx-auto px-6 sm:px-6 max-w-3xl mt-10">
-        <RegionWidget client:idle />
-      </div>
-    )}
+    {
+      isHubPage && (
+        <div class="mx-auto px-6 sm:px-6 max-w-3xl mt-10">
+          <RegionWidget client:idle />
+        </div>
+      )
+    }
 
     <div class="mx-auto px-6 sm:px-6 max-w-3xl mt-8 flex justify-between flex-col sm:flex-row">
       <PostTags tags={post.tags} class="mr-5 rtl:mr-0 rtl:ml-5" />
@@ -297,7 +246,7 @@ const breadcrumbJsonLd = {
     <div class="mx-auto px-6 sm:px-6 max-w-3xl mt-10">
       <a
         href={getPermalink('about')}
-        class="flex flex-col sm:flex-row gap-4 items-center bg-slate-50 dark:bg-slate-800/40 border border-gray-200 dark:border-gray-700 rounded-2xl p-5 hover:border-primary dark:hover:border-blue-400 transition"
+        class="post-author flex flex-col sm:flex-row gap-4 items-center bg-slate-50 dark:bg-slate-800/40 border border-gray-200 dark:border-gray-700 rounded-2xl p-5 hover:border-primary dark:hover:border-blue-400 transition"
       >
         <img
           src={sasisiImg.src}
@@ -310,7 +259,8 @@ const breadcrumbJsonLd = {
           <p class="text-sm text-secondary dark:text-blue-200 font-bold tracking-wide uppercase">執筆者</p>
           <p class="font-bold text-heading dark:text-white">さしし / @sasisi344</p>
           <p class="text-sm text-muted mt-1">
-            自分のサイト運営・ネットワーク構築・Web開発をひととおり自分でこなす40代後半。生成AIを使った「対話型」学習メソッドを自ら実践・検証しながらSyllabus Hackで発信しています。
+            自分のサイト運営・ネットワーク構築・Web開発をひととおり自分でこなす40代後半。生成AIを使った「対話型」学習メソッドを自ら実践・検証しながらSyllabus
+            Hackで発信しています。
           </p>
           {authorStance && <p class="text-sm text-muted mt-2">この記事の資格について: {authorStance}</p>}
         </div>

@@ -1,5 +1,6 @@
 ---
 import '~/assets/styles/tailwind.css';
+import '~/assets/styles/editorial.css';
 
 import { I18N, SITE } from 'astrowind:config';
 
@@ -13,6 +14,7 @@ import Metadata from '~/components/common/Metadata.astro';
 import SiteVerification from '~/components/common/SiteVerification.astro';
 import Analytics from '~/components/common/Analytics.astro';
 import BasicScripts from '~/components/common/BasicScripts.astro';
+import CodeBlockTools from '~/components/common/CodeBlockTools.astro';
 
 const websiteJsonLd = {
   '@context': 'https://schema.org',
@@ -28,7 +30,7 @@ const websiteJsonLd = {
         '@type': 'SearchAction',
         target: {
           '@type': 'EntryPoint',
-          urlTemplate: `${SITE.site}/?s={search_term_string}`,
+          urlTemplate: `${SITE.site}/search/?q={search_term_string}`,
         },
         'query-input': 'required name=search_term_string',
       },
@@ -69,7 +71,9 @@ const { language, textDirection } = I18N;
     <ApplyColorMode />
     <Metadata {...metadata} />
     <SiteVerification />
-    {/* GA4: /course/{examId}/ 配下で course_id / content_group を付与。config の page_view より前に set する必要がある */}
+    {
+      /* GA4: /course/{examId}/ 配下で course_id / content_group を付与。config の page_view より前に set する必要がある */
+    }
     <script is:inline>
       (function () {
         if (window.__courseGaInit) return;
@@ -106,5 +110,6 @@ const { language, textDirection } = I18N;
     <slot />
 
     <BasicScripts />
+    <CodeBlockTools />
   </body>
 </html>
