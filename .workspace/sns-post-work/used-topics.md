@@ -36,3 +36,4 @@
 | theory/cyber-attack-countermeasures-basics（誘導先 app/it-passport-quiz） | F | 2026-11-19 | 投稿済み |
 | career/regional-salary-qualification-correlation | C | 2026-11-20 | 投稿済み |
 | （なし・週の振り返りと生成AIパスポートコースの紹介） | E | 2026-11-21 | 投稿済み |
+| （なし・サイト紹介。1スレッド完結の単発） | E | 未定 | 予定 |
