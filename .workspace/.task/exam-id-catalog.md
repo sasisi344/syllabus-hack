@@ -37,7 +37,7 @@ knowledge:
 | `dm` | データマネジメント試験（新設・2027年度夏〜秋予定、2026年8月現在は仮称） | — | 2026-09-17登録。ITパスポートの次のステップ試験。中分類8（データマネジメント）が独自の深掘り分野 |
 | `pd-m` | プロフェッショナルデジタルスキル（マネジメント）試験（新設・2026年8月現在は仮称） | — | 2026-09-17登録。応用情報＋高度試験のマネジメント領域を統合再編 |
 | `pd-s` | プロフェッショナルデジタルスキル（システム）試験（新設・2026年8月現在は仮称） | — | 2026-09-17登録。応用情報＋高度試験のシステム領域を統合再編。AI駆動開発等の新規領域を含む |
-| `pd-d` | プロフェッショナルデジタルスキル（データ・AI）試験（新設・仮称） | — | **未登録（候補）**。2026-11-13 にシラバス案 Ver.0.1 を取得（`syllabus-pd-d-2027.json`）。`config.ts` の enum には、記事・コースを作るときに追加する |
+| `pd-d` | プロフェッショナルデジタルスキル（データ・AI）試験（新設・仮称） | — | 2026-11-14登録（記事・コースの enum）。シラバス案 Ver.0.1（`syllabus-pd-d-2027.json`）。20時間コース `src/data/course/pd-d/`（T-62・T-63） |
 
 ### ベンダー・民間検定
 
@@ -79,7 +79,7 @@ knowledge:
 ## クイック参照（コピペ用）
 
 ```
-ip, sg, fe, ap, st, sa, pm, nw, db, es, sm, au, sc, dm, pd-m, pd-s,
+ip, sg, fe, ap, st, sa, pm, nw, db, es, sm, au, sc, dm, pd-m, pd-s, pd-d,
 common, ai-work, g-kentei, genai-pass, ds-kentei, ccna,
 denken, boki, takken, mos, kiken-butsu, biru-kanri, doboku-sekou,
 chiteki-zaisan, boiler-refrigeration, shobo-setsubi, fp, aws, fintech-it, toeic

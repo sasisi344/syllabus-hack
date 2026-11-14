@@ -1,0 +1,76 @@
+﻿verdict,url,expected_target,http_status,location_or_refresh,in_sitemap,insp_verdict,coverage,last_crawl,google_canonical
+強化,/method/cbt-2026-syllabus-complete-guide/,,200,,yes,PASS,送信して登録されました,2026-11-01,https://syllabushack.com/method/cbt-2026-syllabus-complete-guide/
+強化,/method/ap-discard-strategy/,,200,,yes,PASS,送信して登録されました,2026-11-09,https://syllabushack.com/method/ap-discard-strategy/
+強化,/method/nw-mermaid-hack/,,200,,yes,PASS,送信して登録されました,2026-10-31,https://syllabushack.com/method/nw-mermaid-hack/
+強化,/theory/bcm-bcp-business-continuity/,,200,,yes,PASS,送信して登録されました,2026-11-13,https://syllabushack.com/theory/bcm-bcp-business-continuity/
+強化,/trend/ccna-vs-aws-saa/,,200,,yes,PASS,送信して登録されました,2026-11-06,https://syllabushack.com/trend/ccna-vs-aws-saa/
+強化,/trend/ipa-2026-cbt-schedule-guide/,,200,,yes,PASS,送信して登録されました,2026-10-23,https://syllabushack.com/trend/ipa-2026-cbt-schedule-guide/
+強化,/career/kougyou-koukou-shikaku-ichiran/,,200,,yes,PASS,送信して登録されました,2026-11-04,https://syllabushack.com/career/kougyou-koukou-shikaku-ichiran/
+強化,/method/reitoukikai-3shu-iranai/,,200,,yes,PASS,送信して登録されました,2026-11-07,https://syllabushack.com/method/reitoukikai-3shu-iranai/
+強化,/method/doboku-sekou-hub/,,200,,yes,PASS,送信して登録されました,2026-10-26,https://syllabushack.com/method/doboku-sekou-hub/
+強化,/method/new-ipa-exam-study-strategy/,,200,,yes,PASS,送信して登録されました,2026-10-30,https://syllabushack.com/method/new-ipa-exam-study-strategy/
+強化,/trend/mos-vs-itp-job-hunting/,,200,,yes,PASS,送信して登録されました,2026-11-02,https://syllabushack.com/trend/mos-vs-itp-job-hunting/
+強化,/theory/labor-standards-act-36-agreement/,,200,,yes,NEUTRAL,クロール済み - インデックス未登録,2026-09-01,https://syllabushack.com/theory/labor-standards-act-36-agreement/
+統合,/method/chatgpt-cert-complete/,/method/gemini-cert-complete/,200,,no,NEUTRAL,クロール済み - インデックス未登録,2026-08-12,https://syllabushack.com/method/chatgpt-cert-complete/
+統合,/trend/it-passport-syllabus-genai-update/,/trend/syllabus-ai-knowledge-introduction/,200,,no,NEUTRAL,クロール済み - インデックス未登録,2026-09-12,https://syllabushack.com/trend/it-passport-syllabus-genai-update/
+統合,/trend/genai-syllabus-integration/,/trend/syllabus-ai-knowledge-introduction/,200,,no,NEUTRAL,クロール済み - インデックス未登録,2026-09-16,https://syllabushack.com/trend/genai-syllabus-integration/
+統合,/career/secretarial-exam-multiwork-freelance/,/method/secretarial-cost-time-knowledge/,200,,no,NEUTRAL,クロール済み - インデックス未登録,2026-08-11,https://syllabushack.com/career/secretarial-exam-multiwork-freelance/
+統合,/method/secretarial-ai-efficiency-hack/,/method/secretarial-cost-time-knowledge/,200,,no,NEUTRAL,クロール済み - インデックス未登録,2026-09-25,https://syllabushack.com/method/secretarial-ai-efficiency-hack/
+統合,/trend/fp-reskilling-fit-check/,/method/fp-hub/,200,,no,NEUTRAL,クロール済み - インデックス未登録,2026-09-09,https://syllabushack.com/trend/fp-reskilling-fit-check/
+統合,/method/ai-new-terms-explanation/,/theory/generative-ai-terms-basics/,200,,no,NEUTRAL,クロール済み - インデックス未登録,2026-09-03,https://syllabushack.com/method/ai-new-terms-explanation/
+統合,/method/essay-trainer-script/,/method/ap-grader-blackbox-hack/,200,,no,PASS,送信して登録されました,2026-09-16,https://syllabushack.com/method/essay-trainer-script/
+統合,/method/pomodoro-anki-technique/,/method/ai-dj-pomodoro/,200,,no,NEUTRAL,noindex タグによって除外されました,2026-11-04,https://syllabushack.com/method/ai-dj-pomodoro/
+統合,/trend/reskilling-subsidy-it-certification/,/career/kyouiku-kunren-kyuufu-bareru/,200,,no,NEUTRAL,クロール済み - インデックス未登録,2026-03-21,https://syllabushack.com/trend/reskilling-subsidy-it-certification/
+統合,/career/ap-salary-impact/,/career/ipa-certification-salary-impact/,200,,no,NEUTRAL,URL が Google に認識されていません,,
+統合,/career/eisei-kanrisha-sennin-kotowaru/,/career/eisei-kanrisha-kaisha-kara-torasareru/,200,,no,NEUTRAL,URL が Google に認識されていません,,
+統合,/career/fp-side-business-reality/,/method/fp-hub/,200,,no,NEUTRAL,クロール済み - インデックス未登録,2026-10-22,https://syllabushack.com/career/fp-side-business-reality/
+統合,/career/ipa-career-value-job-change/,/career/ipa-certification-salary-impact/,200,,no,PASS,送信して登録されました,2026-10-18,https://syllabushack.com/career/ipa-career-value-job-change/
+統合,/career/ipa-certification-income/,/career/ipa-certification-salary-impact/,200,,no,NEUTRAL,URL が Google に認識されていません,,
+統合,/career/mos-back-office-expert-independence/,/method/mos-hub/,200,,no,NEUTRAL,クロール済み - インデックス未登録,2026-10-22,https://syllabushack.com/career/mos-back-office-expert-independence/
+統合,/career/mos-freelance-haken-reality/,/method/mos-hub/,200,,no,NEUTRAL,クロール済み - インデックス未登録,2026-10-22,https://syllabushack.com/career/mos-freelance-haken-reality/
+統合,/career/mos-instructor-school-path/,/method/mos-hub/,200,,no,NEUTRAL,クロール済み - インデックス未登録,2026-10-23,https://syllabushack.com/career/mos-instructor-school-path/
+統合,/career/secretarial-career-up-effect/,/method/secretarial-cost-time-knowledge/,200,,no,NEUTRAL,URL が Google に認識されていません,,
+統合,/career/shikaku-iji-hi-ichiran/,/career/shikaku-toroku-hiyou-ichiran/,200,,no,NEUTRAL,URL が Google に認識されていません,,
+統合,/method/aws-personalized-roadmap-hack/,/method/aws-hub/,200,,no,NEUTRAL,クロール済み - インデックス未登録,2026-08-13,https://syllabushack.com/method/aws-personalized-roadmap-hack/
+統合,/method/denken-bunkei-shakaijin-hack/,/method/denken-hub/,200,,no,PASS,送信して登録されました,2026-09-02,https://syllabushack.com/method/denken-bunkei-shakaijin-hack/
+統合,/method/fast-track-roadmap-20h-pass/,/course/ip/,200,,no,NEUTRAL,クロール済み - インデックス未登録,2026-08-28,https://syllabushack.com/method/fast-track-roadmap-20h-pass/
+統合,/method/region-hack-osaka/,/career/regional-it-career-hub/,200,,no,NEUTRAL,URL が Google に認識されていません,,
+統合,/method/vision-to-mermaid-hack/,/method/nw-mermaid-hack/,200,,no,NEUTRAL,URL が Google に認識されていません,,
+統合,/theory/labor-dispatch-act-ses/,/theory/it-legal-basics-ip-subcontract-contracts/,200,,no,NEUTRAL,クロール済み - インデックス未登録,2026-07-02,https://syllabushack.com/theory/labor-dispatch-act-ses/
+統合,/theory/prompt-engineering-basics/,/theory/generative-ai-terms-basics/,200,,no,NEUTRAL,クロール済み - インデックス未登録,2026-08-12,https://syllabushack.com/theory/prompt-engineering-basics/
+統合,/theory/text-mining-nlp/,/theory/data-warehouse-mining-regression-basics/,200,,no,NEUTRAL,クロール済み - インデックス未登録,2026-09-25,https://syllabushack.com/theory/text-mining-nlp/
+統合,/trend/secretarial-why-bosses-recommend/,/method/secretarial-cost-time-knowledge/,200,,no,NEUTRAL,クロール済み - インデックス未登録,2026-09-03,https://syllabushack.com/trend/secretarial-why-bosses-recommend/
+統合,/trend/syllabus-ver9-update/,/trend/syllabus-ai-knowledge-introduction/,200,,no,NEUTRAL,クロール済み - インデックス未登録,2026-06-16,https://syllabushack.com/trend/syllabus-ver9-update/
+公開停止,/method/nissho-pc-kentei-ai-hack/,,404,,no,NEUTRAL,クロール済み - インデックス未登録,2026-08-31,https://syllabushack.com/method/nissho-pc-kentei-ai-hack/
+公開停止,/career/itp-shameful-career-hack/,,404,,no,NEUTRAL,クロール済み - インデックス未登録,2026-09-09,https://syllabushack.com/career/itp-shameful-career-hack/
+公開停止,/career/tsukanshi-shikaku-dake-tenshoku/,,404,,no,PASS,送信して登録されました,2026-08-12,https://syllabushack.com/career/tsukanshi-shikaku-dake-tenshoku/
+公開停止,/career/unko-kanrisha-tenshoku-mikeiken/,,404,,no,PASS,送信して登録されました,2026-09-18,https://syllabushack.com/career/unko-kanrisha-tenshoku-mikeiken/
+公開停止,/method/ai-rubber-ducking/,,404,,no,NEUTRAL,クロール済み - インデックス未登録,2026-08-28,https://syllabushack.com/method/ai-rubber-ducking/
+公開停止,/trend/sakura-ai-certification-syllabus/,,404,,no,NEUTRAL,クロール済み - インデックス未登録,2026-08-22,https://syllabushack.com/trend/sakura-ai-certification-syllabus/
+公開停止,/method/ai-era-book-reading-value/,,404,,no,NEUTRAL,クロール済み - インデックス未登録,2026-08-06,https://syllabushack.com/method/ai-era-book-reading-value/
+公開停止,/method/logical-memory-linkage-hack/,,404,,no,NEUTRAL,クロール済み - インデックス未登録,2026-08-14,https://syllabushack.com/method/logical-memory-linkage-hack/
+公開停止,/method/miro-diagram-thinking/,,404,,no,NEUTRAL,クロール済み - インデックス未登録,2026-08-13,https://syllabushack.com/method/miro-diagram-thinking/
+公開停止,/trend/anthropic-ai-academy-start/,,404,,no,NEUTRAL,クロール済み - インデックス未登録,2026-08-13,https://syllabushack.com/trend/anthropic-ai-academy-start/
+公開停止,/trend/latest-ai-future-of-exams/,,404,,no,NEUTRAL,見つかりませんでした（404）,2026-11-13,
+公開停止,/app/dev-doc-structure-astro/,,404,,no,NEUTRAL,見つかりませんでした（404）,2026-11-13,
+公開停止,/app/dev-story-ai-engine/,,404,,no,NEUTRAL,URL が Google に認識されていません,,
+公開停止,/app/dev-story-data/,,404,,no,NEUTRAL,クロール済み - インデックス未登録,2026-07-02,https://syllabushack.com/app/dev-story-data/
+公開停止,/app/dev-story-ui/,,404,,no,NEUTRAL,URL が Google に認識されていません,,
+公開停止,/app/gemini-cli-quiz-maker/,,404,,no,NEUTRAL,クロール済み - インデックス未登録,2026-10-05,https://syllabushack.com/app/gemini-cli-quiz-maker/
+公開停止,/app/pdf-to-text/,,404,,no,NEUTRAL,見つかりませんでした（404）,2026-10-31,
+公開停止,/career/50dai-mikeiken-shikaku-osoi/,,404,,no,NEUTRAL,URL が Google に認識されていません,,
+公開停止,/career/fe-resume-liar-hack/,,404,,no,NEUTRAL,クロール済み - インデックス未登録,2026-09-01,https://syllabushack.com/career/fe-resume-liar-hack/
+公開停止,/career/itp-high-school-resume-hack/,,404,,no,NEUTRAL,見つかりませんでした（404）,2026-11-13,
+公開停止,/career/kensetsugyou-keirishi-keishin-katen/,,404,,no,NEUTRAL,クロール済み - インデックス未登録,2026-09-26,https://syllabushack.com/career/kensetsugyou-keirishi-keishin-katen/
+公開停止,/career/liberal-arts-it-strategy/,,404,,no,NEUTRAL,クロール済み - インデックス未登録,2026-10-25,https://syllabushack.com/career/liberal-arts-it-strategy/
+公開停止,/method/chatgpt-prompt-collection/,,404,,no,NEUTRAL,URL が Google に認識されていません,,
+公開停止,/method/genai-self-made-app-hack/,,404,,no,NEUTRAL,クロール済み - インデックス未登録,2026-07-04,https://syllabushack.com/method/genai-self-made-app-hack/
+公開停止,/method/generative-memory-palace/,,404,,no,NEUTRAL,クロール済み - インデックス未登録,2026-08-27,https://syllabushack.com/method/generative-memory-palace/
+公開停止,/method/itp-name-change-marriage-hack/,,404,,no,NEUTRAL,URL が Google に認識されていません,,
+公開停止,/method/mental-hack-20h-marathon/,,404,,no,NEUTRAL,クロール済み - インデックス未登録,2026-06-29,https://syllabushack.com/method/mental-hack-20h-marathon/
+公開停止,/method/pc-selection-guide/,,404,,no,NEUTRAL,URL が Google に認識されていません,,
+公開停止,/method/reskilling-strategy-while-working/,,404,,no,NEUTRAL,クロール済み - インデックス未登録,2026-08-27,https://syllabushack.com/method/reskilling-strategy-while-working/
+公開停止,/method/sleep-skill-learning-efficiency/,,404,,no,NEUTRAL,クロール済み - インデックス未登録,2026-09-07,https://syllabushack.com/method/sleep-skill-learning-efficiency/
+公開停止,/trend/entrance-exam-information-1-impact/,,404,,no,PASS,送信して登録されました,2026-10-22,https://syllabushack.com/trend/entrance-exam-information-1-impact/
+公開停止,/trend/professional-occupations-it-literacy-demand/,,404,,no,NEUTRAL,URL が Google に認識されていません,,
+公開停止,/trend/typing-speed-60wpa/,,404,,no,NEUTRAL,クロール済み - インデックス未登録,2026-06-29,https://syllabushack.com/trend/typing-speed-60wpa/
