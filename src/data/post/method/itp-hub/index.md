@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-05-31T00:00:00Z
-lastmod: 2026-10-30
+lastmod: 2026-11-14
 title: 'ITパスポート 合格ロードマップ｜AI時代に最初の一手としてこれを選ぶ理由'
 excerpt: 'リスキリング・企業の最低限IT資格化・生成AI時代の入口として注目されるITパスポート。なぜ今この資格なのかという背景から合格手順・関連記事インデックスまで網羅したハブガイドです。'
 image: '~/data/post/method/itp-hub/cover.jpg'
@@ -161,6 +161,7 @@ ITパスポートの「プロジェクトマネジメント」を学び始めま
 
 - [2027年のIPA試験見直しで何が変わる？](/trend/syllabus-ai-knowledge-introduction/) — 試験見直しの内容と、今のうちに取る理由を整理
 - [生成AIパスポートvsITパスポート。AI時代にまず取るべき資格は](/trend/genai-passport-vs-it-passport/) — 2資格の役割分担と優先順位、生成AI系資格の価値（認知度と活用場面）
+- [生成AIパスポート 20時間コース](/course/genai-pass/) — 2027年2月試験からの新シラバスに沿って、ITパスポートの次に生成AIのリスクと使い方を8章で学ぶ無料コース
 - [CBT試験の会場予約で失敗しない方法](/trend/cbt-exam-venue-booking-tips/) — 混む時間帯の避け方と、遅延への備え
 - [いま評価されやすいIT資格は？](/trend/cost-effective-certification-path-2025/) — 資格名に「情報セキュリティ」「生成AI」が入る資格が伝わりやすい理由
 

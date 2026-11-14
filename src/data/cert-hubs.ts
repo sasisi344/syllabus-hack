@@ -70,6 +70,12 @@ export const certGroups: CertGroup[] = [
         description: 'AI活用人材の定番資格を2〜3ヶ月で取る',
       },
       {
+        name: '生成AIパスポート',
+        href: '/trend/genai-passport-2027-syllabus-changes/',
+        description: '2027年2月試験からの新シラバスで何が変わり、何を学び直すか',
+        courseHref: '/course/genai-pass/',
+      },
+      {
         name: 'DS検定',
         href: '/method/ds-kentei-hub/',
         description: '統計が難しく感じる理由と、G検定と組み合わせて広がる仕事',

@@ -1,0 +1,150 @@
+[
+  {
+    "id": "pd-d-ch2-1",
+    "text": "二部門が同じ顧客項目の欠損率を比較した。一方は退会者を含み、他方は購入者だけを対象にしている。比較の前に行う対応はどれか。",
+    "choices": [
+      {
+        "label": "ア",
+        "text": "測定対象と分母・例外条件をそろえる"
+      },
+      {
+        "label": "イ",
+        "text": "低い方を無条件に高品質とする"
+      },
+      {
+        "label": "ウ",
+        "text": "値が入っていれば正確とみなす"
+      },
+      {
+        "label": "エ",
+        "text": "分母を伏せて比較する"
+      }
+    ],
+    "correctLabel": "ア",
+    "examId": "pd-d",
+    "field": "management",
+    "subField": "データマネジメント",
+    "year": "予想問題",
+    "questionNumber": 1,
+    "chapterOrder": 2,
+    "explanation": "欠損率は測定対象と分母に左右されます。条件が異なるまま値だけを比較できません。完全性の測定から正確性を直ちに保証することもできません。",
+    "keywords": [
+      "データ品質測定量",
+      "完全性",
+      "品質基準"
+    ],
+    "syllabusRef": "大分類2-中分類8",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "pd-d-ch2-2",
+    "text": "データカタログで、ある日次取込みの完了時刻、成否、取込件数を整備した。この情報の主な分類はどれか。",
+    "choices": [
+      {
+        "label": "ア",
+        "text": "ビジネスメタデータ"
+      },
+      {
+        "label": "イ",
+        "text": "オペレーショナルメタデータ"
+      },
+      {
+        "label": "ウ",
+        "text": "顧客のマスターデータ"
+      },
+      {
+        "label": "エ",
+        "text": "商品分類の参照データ"
+      }
+    ],
+    "correctLabel": "イ",
+    "examId": "pd-d",
+    "field": "management",
+    "subField": "データマネジメント",
+    "year": "予想問題",
+    "questionNumber": 2,
+    "chapterOrder": 2,
+    "explanation": "実行時刻や処理結果は運用状態を表すオペレーショナルメタデータです。業務の意味や物理的な列定義とは区別します。",
+    "keywords": [
+      "メタデータ",
+      "更新時刻",
+      "運用"
+    ],
+    "syllabusRef": "大分類2-中分類8",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "pd-d-ch2-3",
+    "text": "全社の分析用に顧客情報を集約・統合したい。各システムの更新は継続し、統合結果を元システムへ同期することは今回の要求に含まれない。最も合うMDM方式はどれか。",
+    "choices": [
+      {
+        "label": "ア",
+        "text": "集中管理型"
+      },
+      {
+        "label": "イ",
+        "text": "コエグジスタンス型"
+      },
+      {
+        "label": "ウ",
+        "text": "コンソリデーション型"
+      },
+      {
+        "label": "エ",
+        "text": "識別子の対応だけを持つレジストリ型"
+      }
+    ],
+    "correctLabel": "ウ",
+    "examId": "pd-d",
+    "field": "management",
+    "subField": "データマネジメント",
+    "year": "予想問題",
+    "questionNumber": 3,
+    "chapterOrder": 2,
+    "explanation": "集約した統合データを主に分析・参照に使うコンソリデーション型が合います。各所との相互同期を求めておらず、識別対応だけでは分析用の統合値を満たしません。",
+    "keywords": [
+      "MDM",
+      "コンソリデーション型",
+      "ゴールデンレコード"
+    ],
+    "syllabusRef": "大分類2-中分類8",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "pd-d-ch2-4",
+    "text": "データメッシュの試行案として最も適切なものはどれか。",
+    "choices": [
+      {
+        "label": "ア",
+        "text": "部門ごとに保存場所だけを分け、品質責任は未定にする"
+      },
+      {
+        "label": "イ",
+        "text": "共通ルールをなくして各部門の自由な公開を認める"
+      },
+      {
+        "label": "ウ",
+        "text": "中央の人員を減らし、利用者にデータ解釈を全て任せる"
+      },
+      {
+        "label": "エ",
+        "text": "対象ドメインの提供責任・品質・共通基盤を定め、限定範囲で運用を検証する"
+      }
+    ],
+    "correctLabel": "エ",
+    "examId": "pd-d",
+    "field": "management",
+    "subField": "データマネジメント",
+    "year": "予想問題",
+    "questionNumber": 4,
+    "chapterOrder": 2,
+    "explanation": "データメッシュはドメインの所有と提供責任、データプロダクト、セルフサービス基盤、連邦型ガバナンスを伴います。物理的な分散だけでは成立せず、導入条件を検証します。",
+    "keywords": [
+      "データメッシュ",
+      "データプロダクト",
+      "連邦型ガバナンス"
+    ],
+    "syllabusRef": "大分類2-中分類8",
+    "difficulty": "intermediate"
+  }
+]

@@ -1,0 +1,150 @@
+[
+  {
+    "id": "pd-d-ch6-1",
+    "text": "架空の店舗を購買傾向が似た群へ分けたい。正解の区分は用意されていない。最も適切な出発点はどれか。",
+    "choices": [
+      {
+        "label": "ア",
+        "text": "クラスタリングで群を作り、各群の特徴と業務上の意味を確認する"
+      },
+      {
+        "label": "イ",
+        "text": "既存の正解区分との一致率だけを計算する"
+      },
+      {
+        "label": "ウ",
+        "text": "必ず強化学習で発注を試す"
+      },
+      {
+        "label": "エ",
+        "text": "少数の群を全て不正として除く"
+      }
+    ],
+    "correctLabel": "ア",
+    "examId": "pd-d",
+    "field": "technology",
+    "subField": "AI技術/機械学習",
+    "year": "予想問題",
+    "questionNumber": 1,
+    "chapterOrder": 6,
+    "explanation": "正解のない類似のグループ化は教師なし学習のクラスタリングが候補です。群ができたことだけで有用性や不正を確定せず、目的と特徴を確認します。",
+    "keywords": [
+      "教師なし学習",
+      "クラスタリング",
+      "k-means法"
+    ],
+    "syllabusRef": "中分類18-技能2-3",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "pd-d-ch6-2",
+    "text": "販売数予測の比較で、一部の日の大きな外れを相対的に重く評価したい。MAEと比べて、その性質を持つ指標はどれか。",
+    "choices": [
+      {
+        "label": "ア",
+        "text": "正解率（Accuracy）"
+      },
+      {
+        "label": "イ",
+        "text": "再現率（Recall）"
+      },
+      {
+        "label": "ウ",
+        "text": "適合率（Precision）"
+      },
+      {
+        "label": "エ",
+        "text": "RMSE（二乗平均平方根誤差）"
+      }
+    ],
+    "correctLabel": "エ",
+    "examId": "pd-d",
+    "field": "technology",
+    "subField": "AI技術/機械学習",
+    "year": "予想問題",
+    "questionNumber": 2,
+    "chapterOrder": 6,
+    "explanation": "RMSEは誤差を二乗して平均し平方根を取るため、MAEより大きな誤差の影響が相対的に強くなります。欠品や廃棄への実際の影響も別に評価します。",
+    "keywords": [
+      "RMSE（二乗平均平方根誤差）",
+      "MAE（平均絶対誤差）",
+      "回帰"
+    ],
+    "syllabusRef": "中分類18-技能2-3",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "pd-d-ch6-3",
+    "text": "翌週の需要を予測するモデルを比較する。運用時の条件へ近づける検証として最も適切なものはどれか。",
+    "choices": [
+      {
+        "label": "ア",
+        "text": "全期間の情報で前処理を作り、全データで評価する"
+      },
+      {
+        "label": "イ",
+        "text": "時間順を考慮して訓練・検証・テストを分け、前処理は訓練用から求める"
+      },
+      {
+        "label": "ウ",
+        "text": "最も高い評価結果が出るまでテスト用の分け方を変える"
+      },
+      {
+        "label": "エ",
+        "text": "訓練用で誤差が最小のモデルを無条件で採用する"
+      }
+    ],
+    "correctLabel": "イ",
+    "examId": "pd-d",
+    "field": "technology",
+    "subField": "AI技術/機械学習",
+    "year": "予想問題",
+    "questionNumber": 3,
+    "chapterOrder": 6,
+    "explanation": "将来の予測では、時間の前後と予測時点で使える情報を考慮します。全期間から求めた前処理は未来の情報を混ぜる可能性があり、テスト結果に合わせた反復調整も避けます。",
+    "keywords": [
+      "データリーク",
+      "ホールドアウト検証",
+      "時系列"
+    ],
+    "syllabusRef": "中分類18-技能2-3",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "pd-d-ch6-4",
+    "text": "外観検査モデルを新商品へ追加学習した。旧商品への影響を確認する対応として最も適切なものはどれか。",
+    "choices": [
+      {
+        "label": "ア",
+        "text": "新商品の訓練誤差だけを確認する"
+      },
+      {
+        "label": "イ",
+        "text": "学習回数を増やしたので旧商品の検証を省く"
+      },
+      {
+        "label": "ウ",
+        "text": "旧商品を含む確保した評価データで性能を再確認する"
+      },
+      {
+        "label": "エ",
+        "text": "新商品の精度を旧商品の精度として報告する"
+      }
+    ],
+    "correctLabel": "ウ",
+    "examId": "pd-d",
+    "field": "technology",
+    "subField": "AI技術/ディープラーニング",
+    "year": "予想問題",
+    "questionNumber": 4,
+    "chapterOrder": 6,
+    "explanation": "追加学習で以前の能力が失われる破滅的忘却なども考慮し、旧商品を含む利用範囲で再評価します。新商品への適応と従来範囲の能力維持は別に確かめます。",
+    "keywords": [
+      "ファインチューニング",
+      "破滅的忘却",
+      "評価データ"
+    ],
+    "syllabusRef": "中分類18-技能2-3",
+    "difficulty": "intermediate"
+  }
+]

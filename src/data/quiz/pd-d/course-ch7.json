@@ -1,0 +1,150 @@
+[
+  {
+    "id": "pd-d-ch7-1",
+    "text": "短い定型分類と、複雑な条件の比較が混在する。モデルルーターを導入する案で、最も適切な評価はどれか。",
+    "choices": [
+      {
+        "label": "ア",
+        "text": "最も小さいモデルのサイズだけを比較する"
+      },
+      {
+        "label": "イ",
+        "text": "ルーターの出力件数だけを数える"
+      },
+      {
+        "label": "ウ",
+        "text": "誤振分けを含む全工程の品質・待ち時間・費用と、情報の扱いを比較する"
+      },
+      {
+        "label": "エ",
+        "text": "高性能モデルが接続先にあれば評価を省く"
+      }
+    ],
+    "correctLabel": "ウ",
+    "examId": "pd-d",
+    "field": "technology",
+    "subField": "AI技術",
+    "year": "予想問題",
+    "questionNumber": 1,
+    "chapterOrder": 7,
+    "explanation": "ルーターは依頼に応じてモデルを選ぶ構成です。単体性能だけでなく、誤った振分けや代替経路、全体の費用・待ち時間、送れる情報の条件も確かめます。",
+    "keywords": [
+      "モデルルーター",
+      "小規模言語モデル（SLM）",
+      "評価"
+    ],
+    "syllabusRef": "中分類18-技能2-4",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "pd-d-ch7-2",
+    "text": "調査を進めると必要な作業の数や内容が変わる。主担当が仕事を分け、担当の結果を統合する構成に最も合うものはどれか。",
+    "choices": [
+      {
+        "label": "ア",
+        "text": "Prompt-Chainingだけで全工程を固定する"
+      },
+      {
+        "label": "イ",
+        "text": "Orchestrator-Workers Workflow"
+      },
+      {
+        "label": "ウ",
+        "text": "全作業を常に同じ三分割にするParallelizationだけ"
+      },
+      {
+        "label": "エ",
+        "text": "入力の再利用だけを行うプロンプトキャッシュ"
+      }
+    ],
+    "correctLabel": "イ",
+    "examId": "pd-d",
+    "field": "technology",
+    "subField": "AI技術",
+    "year": "予想問題",
+    "questionNumber": 2,
+    "chapterOrder": 7,
+    "explanation": "Orchestrator-Workersは主担当が必要な作業を分割し、担当へ渡して結果を統合する構成です。事前に固定した独立作業の並列化とは、分担の決め方が異なります。",
+    "keywords": [
+      "Orchestrator-Workers Workflow",
+      "Parallelization",
+      "ワークフロー"
+    ],
+    "syllabusRef": "中分類18-技能2-4",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "pd-d-ch7-3",
+    "text": "報告書の期間も対象読者も不明な依頼を受けた。スキル設計で、必要事項を先に質問して要件を引き出す役割はどれか。",
+    "choices": [
+      {
+        "label": "ア",
+        "text": "Generator"
+      },
+      {
+        "label": "イ",
+        "text": "Tool Wrapper"
+      },
+      {
+        "label": "ウ",
+        "text": "Reviewer"
+      },
+      {
+        "label": "エ",
+        "text": "Inversion"
+      }
+    ],
+    "correctLabel": "エ",
+    "examId": "pd-d",
+    "field": "technology",
+    "subField": "AI技術",
+    "year": "予想問題",
+    "questionNumber": 3,
+    "chapterOrder": 7,
+    "explanation": "Inversionは必要な情報を質問して要件を引き出す役割として整理します。Generatorは作成、Reviewerは確定した基準への点検、Tool Wrapperは道具の呼出しを目的へ合わせる役割です。",
+    "keywords": [
+      "Inversion",
+      "Reviewer",
+      "スキル設計パターン"
+    ],
+    "syllabusRef": "中分類18-技能2-4",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "pd-d-ch7-4",
+    "text": "長い入力へ旧版と矛盾する規程が蓄積し、回答が不安定になった。最初の対応として最も適切なものはどれか。",
+    "choices": [
+      {
+        "label": "ア",
+        "text": "不要な履歴と旧版を整理し、適用条件と根拠を対応させて再評価する"
+      },
+      {
+        "label": "イ",
+        "text": "入力上限に収まる限り、全履歴をさらに追加する"
+      },
+      {
+        "label": "ウ",
+        "text": "Temperatureを下げれば根拠の誤りも必ず解決すると考える"
+      },
+      {
+        "label": "エ",
+        "text": "コンテキストウィンドウが広ければ検証を省く"
+      }
+    ],
+    "correctLabel": "ア",
+    "examId": "pd-d",
+    "field": "technology",
+    "subField": "AI利活用",
+    "year": "予想問題",
+    "questionNumber": 4,
+    "chapterOrder": 7,
+    "explanation": "コンテキストは量だけでなく、関連性、版、矛盾、位置も設計します。ランダム性の調整や入力上限の拡大は、正しい根拠を利用することの保証ではありません。",
+    "keywords": [
+      "コンテキスト腐敗",
+      "Lost in the Middle現象",
+      "コンテキストエンジニアリング"
+    ],
+    "syllabusRef": "中分類10-技能2-4",
+    "difficulty": "intermediate"
+  }
+]

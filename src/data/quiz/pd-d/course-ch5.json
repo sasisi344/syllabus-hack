@@ -1,0 +1,150 @@
+[
+  {
+    "id": "pd-d-ch5-1",
+    "text": "部署ごとに異なる物理DBへ実装する前に、受注と商品の業務上の関係を製品に依存せず合意したい。最初に作るものはどれか。",
+    "choices": [
+      {
+        "label": "ア",
+        "text": "B木インデックス"
+      },
+      {
+        "label": "イ",
+        "text": "概念データモデル"
+      },
+      {
+        "label": "ウ",
+        "text": "ダンプファイル"
+      },
+      {
+        "label": "エ",
+        "text": "GRANT文"
+      }
+    ],
+    "correctLabel": "イ",
+    "examId": "pd-d",
+    "field": "technology",
+    "subField": "データベース",
+    "year": "予想問題",
+    "questionNumber": 1,
+    "chapterOrder": 5,
+    "explanation": "概念データモデルは業務上の対象と意味上の関係を表します。索引や格納配置は、関係と制約を具体化した後の物理設計で検討します。",
+    "keywords": [
+      "概念データモデル",
+      "論理データモデル",
+      "物理データモデル"
+    ],
+    "syllabusRef": "中分類17-技能3-2",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "pd-d-ch5-2",
+    "text": "未設定値のないsales表から、明細の金額に関係なく店舗ごとに全売上を合計し、合計が1000以上の店舗だけを出したい。最も適切な処理はどれか。",
+    "choices": [
+      {
+        "label": "ア",
+        "text": "WHERE amount >= 1000で絞り、店舗ごとに合計する"
+      },
+      {
+        "label": "イ",
+        "text": "全行の合計を求め、店舗名を一つだけ付ける"
+      },
+      {
+        "label": "ウ",
+        "text": "店舗ごとにGROUP BYし、HAVING SUM(amount) >= 1000で絞る"
+      },
+      {
+        "label": "エ",
+        "text": "各明細に合計を付け、全明細をそのまま返す"
+      }
+    ],
+    "correctLabel": "ウ",
+    "examId": "pd-d",
+    "field": "technology",
+    "subField": "データベース",
+    "year": "予想問題",
+    "questionNumber": 2,
+    "chapterOrder": 5,
+    "explanation": "必要な粒度は一店舗一行です。集計後の店舗合計に対する条件はHAVINGで指定します。WHEREで明細を先に除くと、全売上の店舗合計になりません。",
+    "keywords": [
+      "SELECT文",
+      "集合関数",
+      "HAVING"
+    ],
+    "syllabusRef": "中分類17-技能4-1",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "pd-d-ch5-3",
+    "text": "二人の担当者が別々の当番行を更新した結果、「少なくとも一人在席」という条件が崩れた。最も適切な見直しはどれか。",
+    "choices": [
+      {
+        "label": "ア",
+        "text": "複数行の条件を守れる更新単位と同時実行制御を設計し、競合時を検証する"
+      },
+      {
+        "label": "イ",
+        "text": "各行の主キーだけを増やせばよい"
+      },
+      {
+        "label": "ウ",
+        "text": "読取りはMVCCなので業務条件の検査は省く"
+      },
+      {
+        "label": "エ",
+        "text": "バックアップの保存数だけを増やす"
+      }
+    ],
+    "correctLabel": "ア",
+    "examId": "pd-d",
+    "field": "technology",
+    "subField": "データベース",
+    "year": "予想問題",
+    "questionNumber": 3,
+    "chapterOrder": 5,
+    "explanation": "別々の行でも、合わせた結果が業務制約を破る場合があります。ライトスキュー等を念頭に、選択する分離レベルや制御が条件を守れるかを同時処理で確かめます。",
+    "keywords": [
+      "ライトスキュー（write skew）",
+      "隔離性水準",
+      "整合性"
+    ],
+    "syllabusRef": "中分類17-技能3-3",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "pd-d-ch5-4",
+    "text": "編集操作を直前のものから順に取り消したい。操作履歴を取り出す性質として最も適切なものはどれか。",
+    "choices": [
+      {
+        "label": "ア",
+        "text": "先に入れたものを先に取り出す"
+      },
+      {
+        "label": "イ",
+        "text": "キーの辞書順に取り出す"
+      },
+      {
+        "label": "ウ",
+        "text": "無作為に取り出す"
+      },
+      {
+        "label": "エ",
+        "text": "後から入れたものを先に取り出す"
+      }
+    ],
+    "correctLabel": "エ",
+    "examId": "pd-d",
+    "field": "technology",
+    "subField": "アルゴリズム・プログラミング",
+    "year": "予想問題",
+    "questionNumber": 4,
+    "chapterOrder": 5,
+    "explanation": "直前の操作を先に取り消すには、後入れ先出しのスタックの性質が合います。先入れ先出しのキューは到着順の処理などに用います。",
+    "keywords": [
+      "スタックとキュー",
+      "後入れ先出し",
+      "データ構造"
+    ],
+    "syllabusRef": "中分類22-技能4-2",
+    "difficulty": "intermediate"
+  }
+]
