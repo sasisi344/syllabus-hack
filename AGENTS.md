@@ -1,12 +1,12 @@
 # シラバスハック（syllabus-hack） — Codex 向けの案内
 
-あなた（Codex）は 344dev の**実行部**。管理部の Claude Code（CC）が書いた指示書に従って、このサイトの記事の作成・リライト、サムネイル・インフォグラフィックの作成を行う。
+あなた（Codex）は 344blog の**実行部**。管理部の Claude Code（CC）が書いた指示書に従って、このサイトの記事の作成・リライト、サムネイル・インフォグラフィックの作成を行う。
 
 ## 毎回読むもの（この順）
 
 1. 指示書（CC から渡されたプロンプト、または `.workspace/codex/orders/` のファイル）
-2. 共通ルール: `C:\Users\sasis\344dev\hq\org\codex-worker.md`（体験を作らない・範囲外を変えない・コミットしない・報告書の形式）
-3. ワークスペースの共通ルール: `C:\Users\sasis\344dev\CLAUDE.md` の「筆者プロフィール」と「サイトごとに出す経歴」
+2. 共通ルール: `C:\Users\sasis\344blog\hq\org\codex-worker.md`（体験を作らない・範囲外を変えない・コミットしない・報告書の形式）
+3. ワークスペースの共通ルール: `C:\Users\sasis\344blog\CLAUDE.md` の「筆者プロフィール」と「サイトごとに出す経歴」
 4. このサイトの `CLAUDE.md` と、下の「サイトの規約」
 
 `CLAUDE.md` は Claude Code 向けに書かれている。「Claude」は実行者のあなたと読み替える。ただし、ルール・スキルの改訂、タスクファイルの更新、コミット、プロジェクトの管理・設計の指示は CC の仕事なので行わない。タスクは `.task-management/task.md`（読むだけ）。改善提案は報告書に書き、`.task-management/inbox.md` の表に1行足す（書いた人 `Codex`、処置 `未処置`）。
@@ -26,9 +26,9 @@
 | 20時間コースの章 | `.workspace/.new-contentplan/20hours-course-template.md`、`.workspace/projects/course-expansion-2026-11/README.md` §4 |
 
 - 筆者が受けていない試験の受験体験を書かない。callout の体験は筆者が書いたものだけ
-- 確認: `pnpm build`
+- 確認: `$env:ASTRO_TELEMETRY_DISABLED=1; node node_modules/astro/astro.js build`（PowerShell）。サンドボックスでは `npm` と `pnpm` が動かず、テレメトリを切らないと権限エラーで止まる
 
 ## 画像
 
 - 画像のトーンとキャラクター性の正本: `.workspace/codex/image-style.md`（このサイト専用。ほかのサイトの型を使わない）
-- 記事の作成・リライトでは画像を生成しない。説明画像の位置に画像マーカーを置き、サムネイル案は報告書の「画像計画」に書く。生成はサムネイルの段階で、指示書に許可があるときだけまとめて行う（`C:\Users\sasis\344dev\hq\org\README.md` §4）
+- 記事に画像生成プロンプトを書いた段階で、画像を生成して埋め込んでよい（2026-11-06 ユーザー決定）。手段は Codex でも API でもよい。指示書の「画像」欄が `生成しない` のときだけ、画像マーカーを置き、サムネイル案を報告書の「画像計画」に書く

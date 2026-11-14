@@ -11,7 +11,7 @@
 
 コアミッション: 検索した読者が「なぜその知識・資格が自分に必要か」を判断できるように答え、AI活用が役立つ場面では「効率的・本質的」な学び方を提案する。煽らない（旧来の学習法を否定・攻撃しない）。
 
-筆者: さしし（40代後半。正本は `344dev/CLAUDE.md`「筆者プロフィール」）。生成AIと資格勉強は相性がいいと考え、自分でも実践している。IT の経歴は「職業としてではないが、自分のサイト運営・ネットワーク構築・Web開発をひととおり自分でやってきた。プロほどではないが一般よりは詳しい」の範囲で書く（プロ・実務経験者を名乗らない。2026-10-27 確定）。筆者の意見を本文に入れる方法は別途決める（決まるまでは「学習体験の共有ルール」の callout と LEARNER_NOTE の範囲だけ）。
+筆者: さしし（40代後半。正本は `344blog/CLAUDE.md`「筆者プロフィール」）。生成AIと資格勉強は相性がいいと考え、自分でも実践している。IT の経歴は「職業としてではないが、自分のサイト運営・ネットワーク構築・Web開発をひととおり自分でやってきた。プロほどではないが一般よりは詳しい」の範囲で書く（プロ・実務経験者を名乗らない。2026-10-27 確定）。筆者の意見を本文に入れる方法は別途決める（決まるまでは「学習体験の共有ルール」の callout と LEARNER_NOTE の範囲だけ）。
 
 基本方針（2026-10-19〜）: 知識を渡して学習の舵取りを読者に一任する「テキスト提供」から、**学習体験の共有**へ転換する。詳細は下記「学習体験の共有ルール」。
 
@@ -322,13 +322,13 @@ Read(.workspace/data-set/kw-pattern-library.md)
 
 ## タスク管理
 
-タスクは `.task-management/` にある（344dev の hq からの統合司令の窓口。2026-10-31 移行、GitHub Project は廃止）。タスクを読む・書く前に、必ず `.task-management/CLAUDE.md` を読む。
+タスクは `.task-management/` にある（344blog の hq からの統合司令の窓口。2026-10-31 移行、GitHub Project は廃止）。タスクを読む・書く前に、必ず `.task-management/CLAUDE.md` を読む。
 
 - 正本: `.task-management/task.md`（索引だけ読み、必要な ID の本文だけ開く）
 - 問題点・気づき・hq からの修正依頼: `.task-management/inbox.md`（作業の開始時に未処置を処理する）
 - 実行記録: `.task-management/records/index.md`（起票前・解析前に Grep する）
 - 計画書・調査・データは `.workspace/` に置き、タスクからリンクする
-- Codex（実行部）への指示書は `.workspace/codex/orders/`、報告書は `.workspace/codex/reports/`（組織は `C:\Users\sasis\344dev\hq\org\README.md`）
+- Codex（実行部）への指示書は `.workspace/codex/orders/`、報告書は `.workspace/codex/reports/`（組織は `C:\Users\sasis\344blog\hq\org\README.md`）
 - 11月の計画（2026-10-31〜）: 全面リライト `.workspace/projects/rewrite-2026-11/`、20時間コースの追加 `.workspace/projects/course-expansion-2026-11/`
 
 ---

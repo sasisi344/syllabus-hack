@@ -87,7 +87,7 @@
 1. CC: `python .workspace/projects/rewrite-2026-11/plan.py orders --wave A --date YYYY-MM-DD` で指示書を作る（`.workspace/codex/orders/`）。GSC のクエリなど、記事ごとの補足は作った指示書に手で足す
 2. CC: Codex に渡す（`hq/org/README.md` §3。10本の指示書は `--background`）
 3. Codex: 記事を直し、報告書 `.workspace/codex/reports/` を書く
-4. CC: 検収（`344dev/.claude/skills/site-admin` の手順、`/check-draft`、`pnpm build`）。差し戻しは同じスレッドで（2回まで）
+4. CC: 検収（`344blog/.claude/skills/site-admin` の手順、`/check-draft`、`pnpm build`）。差し戻しは同じスレッドで（2回まで）
 5. CC: `progress.md` を更新。AI_EXAMPLE と LEARNER_NOTE の一覧を T-14・T-15 の本文に足す（ユーザーの作業）
 6. CC: 検収済みがたまったら、変更を要約してユーザーに確認し、コミット・push
 

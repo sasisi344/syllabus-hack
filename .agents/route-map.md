@@ -94,7 +94,7 @@ pnpm dev
 pnpm build
 ```
 
-ビルドは `C:/Users/sasis/344dev/syllabus-hack` で実行。
+ビルドは `C:/Users/sasis/344blog/syllabus-hack` で実行。
 
 ---
 
