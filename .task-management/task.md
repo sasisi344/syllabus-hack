@@ -51,7 +51,7 @@
 | T-63 | 進行中 | 1 | L | PD-D 20時間コース（11/14 に全章・TOP・問題を検収して公開、2f4f709。残りは筆者の LEARNER_NOTE・AI_EXAMPLE） | ユーザー | 11/30 | — | ユーザー | records T-62・T-64 |
 | T-64 | 進行中 | 1 | M | 2027年度 IPA 新試験の対策一覧 hub 記事（11/14 に検収・公開、2f4f709。残りは AI_EXAMPLE 2個） | ユーザー | 11/30 | — | ユーザー | T-63 |
 | T-65 | 完了 | 1 | S | コースTOP 2本を GSC の URL 検査で「インデックス登録をリクエスト」（`/course/pd-d/`・`/course/genai-pass/`。TOP だけ） | Claude | 11/15 | 11/15 リクエスト済み・IndexNow 送信済み | ユーザー | T-63・T-25 |
-| T-66 | ユーザー待ち | 1 | M | `trend/ipa-2027-restructuring` を新試験制度の最新情報にリライト（8区分の扱い・数字を IPA で確認、コースへの導線、FE はコース準備中と明記） | Codex | 11/16 | 11/15 検収済み（公開可）・公開の承認待ち | ユーザー | T-64・T-26 |
+| T-66 | 完了 | 1 | M | `trend/ipa-2027-restructuring` を新試験制度の最新情報にリライト（8区分の扱い・数字を IPA で確認、コースへの導線、FE はコース準備中と明記） | Codex | 11/16 | 11/15 公開（373a94e）・本番確認・IndexNow 送信済み | ユーザー | T-64・T-26 |
 
 ## 本文
 
@@ -281,4 +281,5 @@
 - 材料: 筆者メモ `.workspace/_inbox/IPA資格試験の再編と新体制について.md`、すみ分けは `.workspace/data-set/cert-keyword-db/ipa-2027-kw-db.md`（教材の一覧は hub の役割）
 - 注意: FE の20時間コースはまだない（T-26）。科目A-1 もコースの範囲外。「全区分にコースあり」と書かない
 - 指示書: `.workspace/codex/orders/2026-11-14-T-66-restructuring.md`
+- 2026-11-15: Codex がリライト、CC が検収（`.workspace/admin-review/2026-11-15-T-66.md`。IPA と15件照合で全件一致、冒頭の余分な横線を削除）。ユーザー承認のうえ公開（373a94e、deploy 43661549520 成功）。本番: 200・noindex なし・canonical 正・新タイトル。IndexNow 200。筆者メモは削除されていたため使っていない
 - 完了条件: CC が検収し、ユーザーの承認後に main へ取り込む（deploy が走る）
