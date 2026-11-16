@@ -93,8 +93,6 @@ IPアドレス:       192.168.1.10
 
 ドメイン名からIPアドレスを求める<strong>正引き</strong>と、IPアドレスからドメイン名を求める<strong>逆引き</strong>の違いが試験で問われます。通常のDNSはUDPだけでなくTCPの53番ポートも使います。端末が問い合わせたDNSキャッシュサーバに有効な記録がなければ、権威DNSサーバをたどって必要な情報を得ます。毎回すべてのサーバへ問い合わせるわけではありません。[RFC 7766](https://www.rfc-editor.org/rfc/rfc7766.html)
 
-<!-- LEARNER_NOTE: 候補=ITパスポート学習時にDNSの正引きと逆引きをどう区別したか / 種類=think / 筆者の実体験で記入。以前の試験の体験と明記 -->
-
 ## HTTP/HTTPSとCookie — Webの通信とセッション管理
 
 <strong>HTTP</strong>はWebページをやり取りする基本プロトコルですが、データを平文（そのまま）で送るため盗聴・改ざんのリスクがあります。これを<strong>SSL/TLS</strong>で暗号化したものが<strong>HTTPS</strong>で、共通鍵暗号と公開鍵暗号を組み合わせて安全な通信路を作ります。通信結果を示す3桁のステータスコード（200 OK、404 Not Found、500 Internal Server Errorなど）も試験頻出です。
