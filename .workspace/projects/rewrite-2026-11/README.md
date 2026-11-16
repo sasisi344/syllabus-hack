@@ -91,6 +91,8 @@
 - frontmatter: `lastmod` を作業日に、`publishDate`・slug・URL は変えない。`toc: true`、`metadata.description` 120〜160字
 - アフィリエイトのリンク・広告を足さない（AdSense の審査中）
 - `.mdx` の記事のコメントは `{/* */}`（`<!-- -->` はビルドが落ちる。ウェーブB で9本あった。LEARNER_NOTE のマーカーも同じ）
+- プロンプト例の伏せ字は「〇〇」（`XXX` は admin-lint の ERROR。C01 で1件）。地の文に体験を思わせる言い回し（「正直に言うと」など）を書かない（C02 で1件）。報告の前に `admin-lint.mjs --site syllabus-hack --files …` で ERROR を0にする（2026-11-16 追加）
+- LEARNER_NOTE は §2-2 のとおり記録がある資格だけ。「AIの使用」だけを理由に、記録のない資格（FE・CCNA・ビル管など）の記事に置かない（C01〜C03 で9件。2026-11-16 に C04 以降の指示書で明記）
 
 ---
 
