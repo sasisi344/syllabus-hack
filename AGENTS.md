@@ -5,9 +5,10 @@
 ## 毎回読むもの（この順）
 
 1. 指示書（CC から渡されたプロンプト、または `.workspace/codex/orders/` のファイル）
-2. 共通ルール: `C:\Users\sasis\344blog\hq\org\codex-worker.md`（体験を作らない・範囲外を変えない・コミットしない・報告書の形式）
-3. ワークスペースの共通ルール: `C:\Users\sasis\344blog\CLAUDE.md` の「筆者プロフィール」と「サイトごとに出す経歴」
-4. このサイトの `CLAUDE.md` と、下の「サイトの規約」
+2. 指示書の常設部: `.workspace/codex/order-base.md`（種別ごとに読むルール・共通の完了条件・共通の禁止事項・検収で繰り返し直した点。指示書に書いていなくても毎回当てはまる）
+3. 共通ルール: `C:\Users\sasis\344blog\hq\org\codex-worker.md`（体験を作らない・範囲外を変えない・コミットしない・報告書の形式）
+4. ワークスペースの共通ルール: `C:\Users\sasis\344blog\CLAUDE.md` の「筆者プロフィール」と「サイトごとに出す経歴」
+5. このサイトの `CLAUDE.md` と、下の「サイトの規約」
 
 `CLAUDE.md` は Claude Code 向けに書かれている。「Claude」は実行者のあなたと読み替える。ただし、ルール・スキルの改訂、タスクファイルの更新、コミット、プロジェクトの管理・設計の指示は CC の仕事なので行わない。タスクは `.task-management/task.md`（読むだけ）。改善提案は報告書に書き、`.task-management/inbox.md` の表に1行足す（書いた人 `Codex`、処置 `未処置`）。
 
