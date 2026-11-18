@@ -1,7 +1,16 @@
 import { useState, useMemo, useEffect } from 'preact/hooks';
-import type { CourseQuestion, ChapterLink, ChapterScores, DiagnosisResult, LearningRoute } from './types';
+import type {
+  CourseQuestion,
+  ChapterLink,
+  ChapterScores,
+  DiagnosisResult,
+  LearningRoute,
+  ExperienceQuestion,
+  ExperienceAnswers,
+  RouteMatrix,
+} from './types';
 import { loadCourseProgress, markChapterComplete, saveDiagnosisResult } from './progress';
-import { getChapterScores, getLearningRoute, getWeakChapters } from './route';
+import { getChapterScores, getLearningRoute, getMatrixRoute, getWeakChapters } from './route';
 import { trackEvent } from '~/utils/ga';
 
 export interface ChapterQuizProps {
@@ -13,6 +22,9 @@ export interface ChapterQuizProps {
   chapterLinks?: ChapterLink[];
   /** 演習ルートで案内するCBT模擬試験のURL（無いコースでは汎用文言になる） */
   mockExamHref?: string;
+  /** routeMatrix と両方を渡した診断だけ、知識問題の前に表示する */
+  experienceQuestions?: ExperienceQuestion[];
+  routeMatrix?: RouteMatrix;
 }
 
 const ROUTE_LABELS: Record<LearningRoute, string> = {
@@ -35,8 +47,47 @@ export default function ChapterQuiz({
   chapterOrder,
   chapterLinks,
   mockExamHref,
+  experienceQuestions,
+  routeMatrix,
 }: ChapterQuizProps) {
   const [answers, setAnswers] = useState<Record<string, string>>({});
+  const [experienceAnswers, setExperienceAnswers] = useState<ExperienceAnswers>({});
+  const matrixEnabled = mode === 'diagnosis' && experienceQuestions !== undefined && routeMatrix !== undefined;
+  const experienceComplete =
+    !matrixEnabled || experienceQuestions.every((q) => typeof experienceAnswers[q.id] === 'boolean');
+  const getRoute = (correctCount: number) =>
+    matrixEnabled
+      ? getMatrixRoute(correctCount, questions.length, experienceAnswers, routeMatrix).name
+      : getLearningRoute(correctCount, questions.length);
+  const routeLabel = (route: NonNullable<DiagnosisResult['route']>) =>
+    route === 'basic' || route === 'focus' || route === 'practice' ? ROUTE_LABELS[route] : `${route}ルート`;
+  const matrixDefinition = (route: DiagnosisResult['route']) =>
+    matrixEnabled
+      ? Object.values(routeMatrix)
+          .flatMap((row) => Object.values(row))
+          .find((definition) => definition.name === route)
+      : undefined;
+  const matrixGuidance = (route: DiagnosisResult['route']) => {
+    const definition = matrixDefinition(route);
+    if (!definition) return null;
+    return (
+      <>
+        <p>{definition.guidance}</p>
+        {chapterLinks && (
+          <ol>
+            {definition.chapterOrder.map((order) => {
+              const link = chapterLinks.find((chapter) => chapter.order === order);
+              return link ? (
+                <li key={order}>
+                  <a href={link.href}>{link.title}</a>
+                </li>
+              ) : null;
+            })}
+          </ol>
+        )}
+      </>
+    );
+  };
   const [graded, setGraded] = useState(false);
   const [started, setStarted] = useState(false);
   // 前回の診断結果（コースTOPに戻ってきた読者に、決まったルートを再表示する）
@@ -48,7 +99,7 @@ export default function ChapterQuiz({
     if (saved?.route) setSavedDiagnosis(saved);
   }, [examId, mode]);
 
-  const allAnswered = questions.every((q) => answers[q.id]);
+  const allAnswered = experienceComplete && questions.every((q) => answers[q.id]);
 
   const results = useMemo(() => {
     if (!graded) return null;
@@ -57,9 +108,9 @@ export default function ChapterQuiz({
       correctIds,
       weakChapters: getWeakChapters(questions, answers),
       chapterScores: getChapterScores(questions, answers),
-      route: getLearningRoute(correctIds.size, questions.length),
+      route: getRoute(correctIds.size),
     };
-  }, [graded, questions, answers]);
+  }, [graded, questions, answers, experienceAnswers, matrixEnabled, routeMatrix]);
 
   const handleSelect = (questionId: string, label: string) => {
     if (graded) return;
@@ -71,7 +122,7 @@ export default function ChapterQuiz({
   };
 
   const handleGrade = () => {
-    if (!allAnswered) return;
+    if (!allAnswered || questions.length === 0) return;
     setGraded(true);
 
     const correctCount = questions.filter((q) => answers[q.id] === q.correctLabel).length;
@@ -99,13 +150,14 @@ export default function ChapterQuiz({
       }
     }
     if (mode === 'diagnosis') {
-      const route = getLearningRoute(correctCount, questions.length);
+      const route = getRoute(correctCount);
       saveDiagnosisResult(examId, {
         correctCount,
         totalCount: questions.length,
         weakChapters: getWeakChapters(questions, answers),
         chapterScores: getChapterScores(questions, answers),
         route,
+        ...(matrixEnabled ? { experienceAnswers } : {}),
         answeredAt: Date.now(),
       });
       trackEvent('route_assigned', {
@@ -186,50 +238,78 @@ export default function ChapterQuiz({
       {mode === 'diagnosis' && savedDiagnosis?.route && !graded && (
         <div class="cq-saved">
           <p>
-            前回の診断（{formatDate(savedDiagnosis.answeredAt)}）: <strong>{ROUTE_LABELS[savedDiagnosis.route]}</strong>
+            前回の診断（{formatDate(savedDiagnosis.answeredAt)}）: <strong>{routeLabel(savedDiagnosis.route)}</strong>
             ・正答率 {percent(savedDiagnosis.correctCount, savedDiagnosis.totalCount)}%
           </p>
+          {matrixGuidance(savedDiagnosis.route)}
           {savedDiagnosis.route !== 'basic' && weakChapterList('重点章:', savedDiagnosis.weakChapters)}
           <p class="cq-saved-note">もう一度解くと、結果は新しいものに置き換わります。</p>
         </div>
       )}
-      {questions.map((q, idx) => (
-        <div class="cq-question" key={q.id}>
-          <p class="cq-question-text">
-            <span class="cq-question-num">問{idx + 1}.</span> {q.text}
-          </p>
-          <div class="cq-choices">
-            {q.choices.map((c) => {
-              const selected = answers[q.id] === c.label;
-              const isCorrectChoice = graded && c.label === q.correctLabel;
-              const isWrongSelected = graded && selected && c.label !== q.correctLabel;
-              return (
+      {matrixEnabled &&
+        experienceQuestions.map((q) => (
+          <fieldset class="cq-question" key={q.id} disabled={graded}>
+            <legend class="cq-question-text">{q.text}</legend>
+            <div class="cq-choices">
+              {[true, false].map((answer) => (
                 <button
                   type="button"
-                  key={c.label}
-                  class={`cq-choice${selected ? ' cq-choice-selected' : ''}${isCorrectChoice ? ' cq-choice-correct' : ''}${isWrongSelected ? ' cq-choice-wrong' : ''}`}
+                  key={String(answer)}
                   disabled={graded}
-                  onClick={() => handleSelect(q.id, c.label)}
+                  class={`cq-choice${experienceAnswers[q.id] === answer ? ' cq-choice-selected' : ''}`}
+                  aria-pressed={experienceAnswers[q.id] === answer}
+                  onClick={() => {
+                    if (!started) {
+                      setStarted(true);
+                      trackEvent('quiz_start', { course_id: examId, quiz_mode: mode, chapter_order: chapterOrder });
+                    }
+                    setExperienceAnswers((prev) => ({ ...prev, [q.id]: answer }));
+                  }}
                 >
-                  <span class="cq-choice-label">{c.label}</span>
-                  <span class="cq-choice-text">{c.text}</span>
+                  {answer ? 'はい' : 'いいえ'}
                 </button>
-              );
-            })}
-          </div>
-          {graded && (
-            <p class={`cq-result ${results?.correctIds.has(q.id) ? 'cq-result-ok' : 'cq-result-ng'}`}>
-              {results?.correctIds.has(q.id) ? '○ 正解' : `✕ 不正解（正解: ${q.correctLabel}）`}
+              ))}
+            </div>
+          </fieldset>
+        ))}
+      {experienceComplete &&
+        questions.map((q, idx) => (
+          <div class="cq-question" key={q.id}>
+            <p class="cq-question-text">
+              <span class="cq-question-num">問{idx + 1}.</span> {q.text}
             </p>
-          )}
-        </div>
-      ))}
+            <div class="cq-choices">
+              {q.choices.map((c) => {
+                const selected = answers[q.id] === c.label;
+                const isCorrectChoice = graded && c.label === q.correctLabel;
+                const isWrongSelected = graded && selected && c.label !== q.correctLabel;
+                return (
+                  <button
+                    type="button"
+                    key={c.label}
+                    class={`cq-choice${selected ? ' cq-choice-selected' : ''}${isCorrectChoice ? ' cq-choice-correct' : ''}${isWrongSelected ? ' cq-choice-wrong' : ''}`}
+                    disabled={graded}
+                    onClick={() => handleSelect(q.id, c.label)}
+                  >
+                    <span class="cq-choice-label">{c.label}</span>
+                    <span class="cq-choice-text">{c.text}</span>
+                  </button>
+                );
+              })}
+            </div>
+            {graded && (
+              <p class={`cq-result ${results?.correctIds.has(q.id) ? 'cq-result-ok' : 'cq-result-ng'}`}>
+                {results?.correctIds.has(q.id) ? '○ 正解' : `✕ 不正解（正解: ${q.correctLabel}）`}
+              </p>
+            )}
+          </div>
+        ))}
 
       {!graded ? (
         <button type="button" class="cq-grade-btn" disabled={!allAnswered} onClick={handleGrade}>
           {allAnswered
             ? '答え合わせ'
-            : `すべての問題に回答してください（残り${questions.length - Object.keys(answers).length}問）`}
+            : `すべての問題に回答してください（残り${questions.length - Object.keys(answers).length + (matrixEnabled ? experienceQuestions.filter((q) => typeof experienceAnswers[q.id] !== 'boolean').length : 0)}問）`}
         </button>
       ) : (
         <div class="cq-summary">
@@ -243,8 +323,14 @@ export default function ChapterQuiz({
           {mode === 'diagnosis' && results && (
             <div class="cq-route">
               <p class="cq-route-label">
-                あなたの入口: <strong>{ROUTE_LABELS[results.route]}</strong>
+                あなたの入口: <strong>{routeLabel(results.route)}</strong>
               </p>
+              {matrixEnabled && (
+                <>
+                  {matrixGuidance(results.route)}
+                  {weakChapterList('重点章:')}
+                </>
+              )}
               {results.route === 'practice' && (
                 <>
                   <p>
@@ -280,9 +366,11 @@ export default function ChapterQuiz({
                   )}
                 </p>
               )}
-              <p class="cq-route-note">
-                試験まで時間がないときは、正答率にかかわらず演習ルート（模擬試験で落とした分野の章だけ読む）がおすすめです。
-              </p>
+              {!matrixEnabled && (
+                <p class="cq-route-note">
+                  試験まで時間がないときは、正答率にかかわらず演習ルート（模擬試験で落とした分野の章だけ読む）がおすすめです。
+                </p>
+              )}
             </div>
           )}
           {mode === 'review' && weakChapterList('正答率が低かった章を復習しましょう:')}

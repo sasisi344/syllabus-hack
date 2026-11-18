@@ -1,4 +1,18 @@
-import type { ChapterScores, CourseQuestion, LearningRoute } from './types';
+import type { ChapterScores, CourseQuestion, LearningRoute, ExperienceAnswers, RouteMatrix } from './types';
+
+// 4択の勘は25%。3ルートの「重点」（40〜79%）の中ほどを体系知識の線とする。
+export const KNOWLEDGE_THRESHOLD = 0.6;
+
+export const getMatrixRoute = (
+  correctCount: number,
+  totalCount: number,
+  experienceAnswers: ExperienceAnswers,
+  routeMatrix: RouteMatrix
+) => {
+  const hasKnowledge = totalCount > 0 && correctCount / totalCount >= KNOWLEDGE_THRESHOLD;
+  const hasExperience = Object.values(experienceAnswers).some((answer) => answer === true);
+  return routeMatrix[hasKnowledge ? 'present' : 'absent'][hasExperience ? 'present' : 'absent'];
+};
 
 // しきい値の根拠は .workspace/.new-contentplan/20hours-course-template.md §1-1（4択は勘でも25%取れるため基礎ルートの線は40%）
 const PRACTICE_THRESHOLD = 0.8;

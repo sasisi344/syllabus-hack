@@ -1,0 +1,144 @@
+---
+title: 'マーケティング入門｜練習問題で学ぶ20時間コース（基礎・全8章）'
+examId: 'marketing'
+kind: 'index'
+totalHours: 20
+chapters: 8
+draft: true
+lastmod: 2026-11-18
+---
+
+import ChapterQuiz from '~/apps/course-quiz/ChapterQuiz';
+import diagnosisQuestions from '~/data/quiz/marketing/course-diagnosis.json';
+import reviewQuestions from '~/data/quiz/marketing/course-review.json';
+
+export const chapterLinks = [
+  {
+    order: 1,
+    title: '第1章 マーケティングの出発点：顧客・価値・市場を知る',
+    href: '/course/marketing/01-customer-value-market/',
+  },
+  {
+    order: 2,
+    title: '第2章 誰に売るかを決める：STPと「自分＝客」の罠',
+    href: '/course/marketing/02-segmentation-targeting-positioning/',
+  },
+  {
+    order: 3,
+    title: '第3章 人はなぜ買うのか・読むのか：購買心理と文章の型',
+    href: '/course/marketing/03-buying-psychology-copywriting/',
+  },
+  {
+    order: 4,
+    title: '第4章 何を・いくらで・どこで・どう伝えるか：4Pと4C',
+    href: '/course/marketing/04-marketing-mix/',
+  },
+  {
+    order: 5,
+    title: '第5章 リアルのマーケティング：店頭・営業・ブランド',
+    href: '/course/marketing/05-retail-sales-brand/',
+  },
+  {
+    order: 6,
+    title: '第6章 Webマーケティング①：人を集めるチャネル',
+    href: '/course/marketing/06-web-acquisition-channels/',
+  },
+  {
+    order: 7,
+    title: '第7章 Webマーケティング②：測って直す',
+    href: '/course/marketing/07-measurement-improvement/',
+  },
+  {
+    order: 8,
+    title: '第8章 仮の実践：マーケティングプランを1枚にまとめる',
+    href: '/course/marketing/08-marketing-plan/',
+  },
+];
+
+export const experienceQuestions = [
+  {
+    id: 'marketing-experience-1',
+    text: 'SNSで、投稿の内容や時間を変えて、反応の違いを比べたことがある',
+  },
+  {
+    id: 'marketing-experience-2',
+    text: 'フリマアプリ・学園祭の模擬店・アルバイトの接客などで、物を売ったことがある',
+  },
+  {
+    id: 'marketing-experience-3',
+    text: 'サークルの新歓やイベントで、人を集める告知や呼びかけをしたことがある',
+  },
+  {
+    id: 'marketing-experience-4',
+    text: '自分の作ったもの（文章・写真・動画・作品）を、知らない人に見てもらう工夫をしたことがある',
+  },
+];
+
+export const routeMatrix = {
+  absent: {
+    absent: {
+      name: '体験',
+      guidance: '小さく「やってみる」→理論で名前をつける、を全章で往復。第1章から順に進める',
+      chapterOrder: [1, 2, 3, 4, 5, 6, 7, 8],
+    },
+    present: {
+      name: '言語化',
+      guidance:
+        '自分の経験を先に書き出し、理論で「なぜうまくいったか」を説明できるようにする。Webパート（6・7章）→基礎理論（1〜4章）→5章→8章の順を推奨',
+      chapterOrder: [6, 7, 1, 2, 3, 4, 5, 8],
+    },
+  },
+  present: {
+    absent: {
+      name: '実践',
+      guidance:
+        '節は読み飛ばし、各章の通し課題とGA4デモアカウントの練習から入る。「知っている」と「使える」の差を埋めることが目的',
+      chapterOrder: [1, 2, 3, 4, 5, 6, 7, 8],
+    },
+    present: {
+      name: '演習',
+      guidance: '第8章のプラン作成から入り、詰まった章だけ戻る',
+      chapterOrder: [8],
+    },
+  },
+};
+
+## 導入
+
+{/* TODO(T-49): 導入 */}
+
+本コースはマーケティングの基礎と考え方を身につけるための入門教材です。業界・会社によって用語の使い方や進め方は異なるため、配属後は職場のやり方を優先してください
+
+## 診断テスト
+
+{/* TODO(T-49): 診断テスト */}
+
+<ChapterQuiz
+  client:load
+  questions={diagnosisQuestions}
+  examId="marketing"
+  mode="diagnosis"
+  chapterLinks={chapterLinks}
+  experienceQuestions={experienceQuestions}
+  routeMatrix={routeMatrix}
+/>
+
+## 学習ルート
+
+{/* TODO(T-49): 学習ルート */}
+
+## 章一覧
+
+{/* TODO(T-49): 章一覧 */}
+
+## この先の導線
+
+{/* TODO(T-49): この先の導線 */}
+
+{/* TODO(T-49): 総復習 */}
+
+<ChapterQuiz client:load questions={reviewQuestions} examId="marketing" mode="review" chapterLinks={chapterLinks} />
+
+## FAQ
+
+{/* TODO(T-49): FAQ */}

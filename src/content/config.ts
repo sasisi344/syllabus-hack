@@ -161,6 +161,7 @@ const courseCollection = defineCollection({
       'pd-d',
       'common',
       'ai-work',
+      'marketing',
       'g-kentei',
       'genai-pass',
       'ds-kentei',
