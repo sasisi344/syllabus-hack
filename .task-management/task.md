@@ -21,7 +21,7 @@
 | T-24 | 時期待ち | 2 | M | 生成AIパスポート 公式テキストとコース・クイズを照合する（タスクI） | 両方 | 11/30 | 再開 11/24 | hq:H-29 | records T-22 |
 | T-25 | 完了 | 1 | M | 生成AIパスポート コースの公開と導線（11/14 公開・11/15 本番確認・GA4 確認済み） | Claude | 11/15 | — | hq:H-29 | T-31・T-65 |
 | T-26 | 保留 | 3 | L | 基本情報技術者 コース（設計・本文）。11月は生成AIパスポート・既存コース・マーケティングを優先し、12月に着手を判断 | 両方 | — | 再開 2026-12 | hq:H-29 | T-41 |
-| T-30 | 進行中 | 2 | L | マーケティング基礎講座 第1〜4章（draft） | Codex | 11/20 | — | hq:H-26 | 2026-11-19-T-48-marketing-course-setup.md |
+| T-30 | ユーザー待ち | 2 | L | マーケティング基礎講座 第1〜4章（draft） | Codex | 11/20 | — | hq:H-26 | 2026-11-19-T-48-marketing-course-setup.md |
 | T-31 | 着手可 | 2 | S | `/course/` 一覧の文言を、資格以外のコースが並んでも合う形に直す | Claude | 12/10 | — | 旧TODO | T-25 |
 | T-32 | 着手可 | 2 | M | アクセスデータの取得を週次から月次へ切り替える（取得仕様・`/weekly-report`） | Claude | 11/30 | — | hq | — |
 | T-33 | 時期待ち | 2 | M | Gemini の Gem → スキル統合に合わせてコラムを更新し、KW を再実査する | Codex | 11/20 | 再開 11/17 | 旧schedule | — |
@@ -170,6 +170,7 @@
 - 2026-11-18: T-48a 検収合格（`.workspace/admin-review/2026-11-18-T-48a.md`）。コースTOPの title はユーザー決定で「マーケティング入門｜練習問題で学ぶ20時間コース（基礎・全8章）」。T-48b の検収時に index.mdx へ反映する
 - 2026-11-18: T-48b 検収合格（`.workspace/admin-review/2026-11-18-T-48b.md`）、main に取り込み済み（5119955、marketing は全ページ draft）。T-48 の残り: T-30 の指示書（KW は `marketing-kw-db.md`、章 slug は T-48b の報告書）
 - 2026-11-19: T-48 完了（records `2026-11-19-T-48-marketing-course-setup.md`）。T-30 の指示書 `.workspace/codex/orders/2026-11-19-T-30.md`（アウトライン `.workspace/codex/outlines/2026-11-19-T-30-ch1.md`〜`ch4.md`）。Codex に渡せば着手できる。第1〜4章の title は指示書で CC が決定
+- 2026-11-19: T-30 検収合格（`.workspace/admin-review/2026-11-19-T-30.md`、ビルド成功・全ページ draft）。本文はブランチ `t30-marketing-ch1-4` にあり、main への取り込み（deploy が走る）はユーザーの承認待ち。LEARNER_NOTE 6個（第2章の exp を含む）は筆者の記入待ち
 - 筆者の失敗談（第2章の `[!exp]`）は筆者が記入する。下書きには LEARNER_NOTE だけ置く
 - 知識×経験の4ルート: T-48 のスキャフォールドで `ChapterQuiz` を拡張する（設計は `20hours-course-template.md` §1-1 の末尾。資格コースの3ルートは T-53 で実装済み）
 
