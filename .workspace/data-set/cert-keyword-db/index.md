@@ -38,6 +38,7 @@
 | `common`（IPA 2027 横断） | IPA 2027年度 新試験制度（区分をまたぐ「新試験」「シラバス案」「サンプル問題」） | [ipa-2027-kw-db.md](./ipa-2027-kw-db.md) | 新規 `method/ipa-2027-new-exam-hub`（T-64、PD-D コースの後に公開） | 2026-11-14 実査。主KW「IPA 新試験 2027 対策」は中（ニュース・TAC）、「新シラバス 対策 教材」は低。区分ごとの教材の一覧は競合にない |
 | `genai-pass` | 生成AIパスポート（GUGA。2026-10-26新設） | [genai-pass-kw-db.md](./genai-pass-kw-db.md) | `trend/what-is-genai-passport-exam`（独立Hubなし。コース `course/genai-pass/` は予定（未着手）） | 新シラバス変更点・更新テストの2記事（2026-10-26）。他のKWは未実査 |
 | `common`（暫定） | 日商PC検定（2026-10-26新設） | [nissho-pc-kw-db.md](./nissho-pc-kw-db.md) | なし（既存 `method/nissho-pc-kentei-ai-hack`） | KW実査・サジェスト確認済み。需要は「履歴書」「意味ない」「MOS比較」「何級から」に集中。「生成AI」はサジェスト0件で差別化の軸 |
+| `marketing` | マーケティング入門（非資格コース） | [marketing-kw-db.md](./marketing-kw-db.md) | コースTOPタイトル案 | 2026-11-18 最終更新。35候補すべて実査済み。主軸「マーケティング 入門 練習問題」、タイトル・description・全8章のKW案を作成 |
 
 ※ examId の正本は [exam-id-catalog.md](../../.task/exam-id-catalog.md) と `src/content/config.ts` の enum。
 
@@ -83,5 +84,5 @@
 
 ---
 
-**最終更新**: 2026-11-14（IPA 2027 横断の ipa-2027-kw-db.md を新設）/2026-10-26（日商PC検定の nissho-pc-kw-db.md を新設）/2026-10-21（aws-kw-db に CCNAサブネット計算の実査行を追記）／2026-10-06（aws-kw-db に P3/P2/P4 実査行を追記）／2026-09-27（P10「資格名×AI」横断リサーチ → [p10-ai-query-research-2026-09.md](./p10-ai-query-research-2026-09.md)。boki/takken/aws/fp/denkenのDBにP10行を追記）  
+**最終更新**: 2026-11-18（marketing-kw-db.md を新設）／2026-11-14（IPA 2027 横断の ipa-2027-kw-db.md を新設）/2026-10-26（日商PC検定の nissho-pc-kw-db.md を新設）/2026-10-21（aws-kw-db に CCNAサブネット計算の実査行を追記）／2026-10-06（aws-kw-db に P3/P2/P4 実査行を追記）／2026-09-27（P10「資格名×AI」横断リサーチ → [p10-ai-query-research-2026-09.md](./p10-ai-query-research-2026-09.md)。boki/takken/aws/fp/denkenのDBにP10行を追記）
 **次回リサーチ候補**: 消防設備士スポーク2本（鑑別×AI／落ちた原因）、金融IT検定 第1弾trend記事、TOEIC Hub 新設（ユーザー判断待ち）、GSCクエリCSVとの突合
