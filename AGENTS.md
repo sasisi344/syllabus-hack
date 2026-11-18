@@ -27,7 +27,7 @@
 | 20時間コースの章 | `.workspace/.new-contentplan/20hours-course-template.md`、`.workspace/projects/course-expansion-2026-11/README.md` §4 |
 
 - 筆者が受けていない試験の受験体験を書かない。callout の体験は筆者が書いたものだけ
-- 確認: `$env:ASTRO_TELEMETRY_DISABLED=1; node node_modules/astro/astro.js build`（PowerShell）。サンドボックスでは `npm` と `pnpm` が動かず、テレメトリを切らないと権限エラーで止まる
+- 確認: ビルドは Codex では走らせず、CC が検収で行う（2026-11-18 ユーザー決定。サンドボックスでは `npm`・`pnpm`・Corepack が動かず、依存の読み取りもアクセス拒否で止まる）
 
 ## 画像
 
