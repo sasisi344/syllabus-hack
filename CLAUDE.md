@@ -329,7 +329,7 @@ Read(.workspace/data-set/kw-pattern-library.md)
 - 問題点・気づき・hq からの修正依頼: `.task-management/inbox.md`（作業の開始時に未処置を処理する）
 - 実行記録: `.task-management/records/index.md`（起票前・解析前に Grep する）
 - 計画書・調査・データは `.workspace/` に置き、タスクからリンクする
-- Codex（実行部）への指示書は `.workspace/codex/orders/`、報告書は `.workspace/codex/reports/`（組織は `C:\Users\sasis\344blog\hq\org\README.md`）
+- 書き手（CC のサブエージェント。2026-11-20 からライティングに Codex を使わない）への指示書は `.workspace/codex/orders/`、報告書は `.workspace/codex/reports/`（組織は `C:\Users\sasis\344blog\hq\org\README.md`）
 - 11月の計画（2026-10-31〜）: 全面リライト `.workspace/projects/rewrite-2026-11/`、20時間コースの追加 `.workspace/projects/course-expansion-2026-11/`
 
 ---
