@@ -37,7 +37,7 @@
 | 状態 | `着手可`／`進行中`／`ユーザー待ち`／`データ待ち`／`時期待ち`／`保留` |
 | 優先 | 1〜3（1 が最優先） |
 | 規模 | `S`（30分以内）／`M`（1〜2時間）／`L`（複雑な調査・設計・実装、または記事5本以上の変更・作成）。hq は L を金〜月の集中枠に回すので、大きな作業は L にしておく |
-| 担当 | `ユーザー`／`Claude`／`Codex`／`両方`。記事の作成・リライトは `Claude`（サブエージェントが書く。2026-11-20 からライティングに Codex を使わない）、画像の生成・量の多い改修は `Codex`。それまでに `Codex` とした記事のタスクは `Claude` と読み替える |
+| 担当 | `ユーザー`／`Claude`／`Codex`／`両方`。記事の作成・リライトは `Claude`（サブエージェントが書く）か `Codex`、画像の生成・量の多い改修は `Codex` |
 | 予定日 | `MM/DD`、`YYYY-MM`、データ到着条件（`m11取得後`）、なければ `—` |
 | 基準 | 効果測定は `変更 MM/DD`、時期待ちは `再開 YYYY-MM`、それ以外は `—` |
 | 起票元 | `inbox:I-NN`／`hq:H-NN`／`分析:YYYY-MM`／`ユーザー` |
@@ -89,7 +89,7 @@
 
 ## 9. Codex（実行部）との関係
 
-組織の正本は `C:\Users\sasis\344blog\hq\org\README.md`。Claude Code は管理部（起票・指示書・検収・記録）、記事は CC のサブエージェントが書き（`hq/org/writer.md`）、Codex は画像の生成とサイト改修だけ（2026-11-20 ユーザー決定）。
+組織の正本は `C:\Users\sasis\344blog\hq\org\README.md`。Claude Code は管理部（起票・指示書・検収・記録）、記事は CC のサブエージェント（`hq/org/writer.md`）か Codex が書き、Codex はほかに画像の生成とサイト改修を受け持つ（2026-11-21 ユーザー決定）。
 
 - 担当が `Codex` のタスクは、CC が `.workspace/codex/orders/YYYY-MM-DD-<ID>.md` に指示書を書いて渡す（ひな形 `hq/org/work-order-template.md`）
 - Codex は `task.md`・`records/` を読むだけ。報告書を `.workspace/codex/reports/` に書き、改善提案を `inbox.md` に `書いた人 Codex` で追記する
