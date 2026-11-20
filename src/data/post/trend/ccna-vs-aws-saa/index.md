@@ -1,8 +1,8 @@
 ---
 publishDate: 2026-05-31T00:00:00Z
-lastmod: 2026-10-31
-title: 'CCNAとAWS SAAはどっちが先？ネットワーク知識から見た取得順番の正解'
-excerpt: 'CCNAとAWS SAAはどっちを先に取るべきか。ネットワーク未経験ならCCNAが先になる理由を、VPC設計への知識の継承関係から解説し、AWS SAAを先にすべきケースも示します。'
+lastmod: 2026-11-20
+title: 'CCNAとAWS SAAどっちが先？ネットワーク未経験ならCCNAが先'
+excerpt: 'CCNAとAWS SAAのどっちが先かは、IPアドレスと通信経路を説明できるかで決まります。ネットワーク未経験ならCCNAが先になる理由を、VPC設計への知識の継承関係から解説し、AWS SAAを先にするケースも示します。'
 image: '~/data/post/trend/ccna-vs-aws-saa/cover.jpg'
 category: 'trend'
 tags: ['CCNA', 'AWS認定', 'AWS SAA', '資格戦略', 'ネットワーク']
@@ -15,7 +15,7 @@ knowledge:
   syllabusRef: 'CCNA 200-301 / AWS SAA'
   difficulty: 'intermediate'
 metadata:
-  description: 'CCNAとAWS SAAはどっちを先に取るべきか？ネットワーク未経験ならCCNAが先。VPC・サブネット・ルートテーブルへの知識の継承関係から、AWS SAAを先に取るべきケースまで状況別に解説します。基礎を補ってAWSから進む選択肢も確認できます。インフラエンジニア志望の社会人向け。'
+  description: 'ネットワーク未経験でIPアドレスや経路を説明できないなら、CCNAが先です。経路を説明できてAWS設計が目的の場合や、転職を急ぐ場合は、AWS SAAを先にする選択もあります。VPCに必要なCCNA範囲だけ補う方法も解説します。'
 ---
 
 
