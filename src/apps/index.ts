@@ -77,7 +77,7 @@ export const appRegistry: Record<string, AppMetadata> = {
     title: '生成AI・AI倫理クイズ',
     description: 'ITパスポートの新用語から高度試験の実務ロジックまで、生成AIの用語を問題で確かめるドリル。',
     category: 'quiz',
-    status: 'development',
+    status: 'beta',
   },
   'sg-subject-b-quiz': {
     id: 'sg-subject-b-quiz',
@@ -91,8 +91,8 @@ export const appRegistry: Record<string, AppMetadata> = {
   'genai-passport-quiz': {
     id: 'genai-passport-quiz',
     slug: 'genai-passport-quiz',
-    title: '生成AIパスポート 模擬試験シミュレーター',
-    description: 'シラバス完全準拠！AIの基礎から生成AIの仕組み、プロンプト、倫理まで分野別ドリルで攻略。',
+    title: '生成AIパスポート 練習問題（新シラバス5分類）',
+    description: '2027年2月試験からの新シラバスの5分類で257問。AIの基礎からAIエージェント、ガバナンス、活用事例まで分野別に練習できる自作問題集。',
     category: 'quiz',
     status: 'beta',
     examId: 'genai-pass',
@@ -121,7 +121,7 @@ export const appRegistry: Record<string, AppMetadata> = {
     title: '生成AIトレンド・ロジック演習ドリル',
     description: '高度試験向けに、RAGの使い分けやAIガバナンスなど生成AIの実務ロジックを確かめるドリル。/app/genai-ethics-quiz/ のページに同居（2026-10-21統合）。',
     category: 'quiz',
-    status: 'development',
+    status: 'beta',
     examId: 'common',
   },
   'pm-essay-gacha': {
