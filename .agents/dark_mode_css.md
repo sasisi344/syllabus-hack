@@ -22,16 +22,16 @@ html.dark .your-component {
 }
 ```
 
-### 2. `@media (prefers-color-scheme: dark)` (Fallback)
+### 2. `@media (prefers-color-scheme: dark)` (Guard only — changed 2026-11-22)
 
-This handles users whose system is set to dark mode.
+Do NOT put dark colors inside this media query. With `theme: 'system'`, `ApplyColorMode.astro` already adds `html.dark` when the OS is dark, so selector 1 covers system users. A media-query fallback would also darken the component for users who switched the site to light while their OS is dark (the toggle only removes `.dark`; there is no `.light` class).
+
+Use the media query only to keep native controls light for those users (same pattern as `src/pages/index.astro`):
 
 ```css
 @media (prefers-color-scheme: dark) {
-  .your-component {
-    background: #1e293b;
-    color: #e2e8f0;
-    border-color: #334155;
+  html:not(.dark) .your-component {
+    color-scheme: light;
   }
 }
 ```

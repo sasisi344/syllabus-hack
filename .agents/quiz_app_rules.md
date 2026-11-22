@@ -287,7 +287,7 @@ export const getWeakestField = (progress: UserProgress): string | null => {
 - 汎用クイズUIをそのまま流用する場合のみ `qa-` / `dq-` を踏襲する
 - 既存の代表例: `qa-`/`dq-`（it-passport-quiz）, `sg-`（sg-subject-b-quiz）, `fc-`（flashcard-app）, `ex-app`（g-kentei-mock-exam）, `diag-app`（aws-cert-diagnosis）
 
-**ダークモードは必須**。`.dark .{prefix}-xxx` セレクタと `@media (prefers-color-scheme: dark)` の両方を実装すること（`dark_mode_css.md` 参照）。
+**ダークモードは必須**。配色は `.dark .{prefix}-xxx` セレクタで当てる。`@media (prefers-color-scheme: dark)` に配色を書かない（サイトでライトを選んだ人まで暗くなる）。書くのは `html:not(.dark)` に `color-scheme: light` を当てる守りだけ（`dark_mode_css.md` §2、2026-11-22 変更）。
 
 ### ブランドカラー
 
