@@ -1,6 +1,6 @@
 /** @jsxImportSource preact */
-import { useState, useCallback, useRef, useMemo } from 'preact/hooks';
-import type { Question } from './types';
+import { useState, useCallback, useRef, useMemo, useEffect } from 'preact/hooks';
+import type { Question, QuizProgress } from './types';
 import { recordAnswer, loadProgress } from './progress';
 
 interface CategoryDrillProps {
@@ -17,7 +17,11 @@ export default function CategoryDrill({ questions, examId, examName }: CategoryD
   const [drillQuestions, setDrillQuestions] = useState<Question[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [answers, setAnswers] = useState<Record<string, string>>({});
-  const [progress, setProgress] = useState(() => loadProgress(examId));
+  // SSR と初回描画をそろえるため、保存済みの進捗はマウント後に読む（client:load）
+  const [progress, setProgress] = useState<QuizProgress>({ categoryStats: {} });
+  useEffect(() => {
+    setProgress(loadProgress(examId));
+  }, [examId]);
   const containerRef = useRef<HTMLDivElement>(null);
 
   // ダイナミックにカテゴリを抽出

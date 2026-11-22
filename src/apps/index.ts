@@ -78,6 +78,7 @@ export const appRegistry: Record<string, AppMetadata> = {
     description: 'ITパスポートの新用語から高度試験の実務ロジックまで、生成AIの用語を問題で確かめるドリル。',
     category: 'quiz',
     status: 'beta',
+    examId: 'common',
   },
   'sg-subject-b-quiz': {
     id: 'sg-subject-b-quiz',

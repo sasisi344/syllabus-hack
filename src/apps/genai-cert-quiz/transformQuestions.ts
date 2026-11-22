@@ -1,12 +1,11 @@
-import type { Question, Choice } from './types';
+import type { Question, Choice, RawQuestion } from './types';
 
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
-export function transformRawQuestions(raw: any[]): Question[] {
+export function transformRawQuestions(raw: RawQuestion[]): Question[] {
   return raw.map((r) => {
     // Already transformed guard
-    if (r.choices) return r;
+    if (r.choices) return { ...r, id: r.id.toString(), choices: r.choices };
 
-    const choices: Choice[] = r.options.map((opt: string) => {
+    const choices: Choice[] = (r.options ?? []).map((opt) => {
       // e.g. "ア: ディープフェイク" -> label: "ア", text: "ディープフェイク"
       const match = opt.match(/^([アイウエA-D]):\s*(.+)$/);
       if (match) {

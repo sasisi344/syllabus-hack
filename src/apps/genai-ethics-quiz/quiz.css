@@ -1164,3 +1164,12 @@
   background-color: #10b981;
   color: white;
 }
+
+/* OS がダークでも、サイトでライトを選んだ人（html に .dark がない）には
+   ブラウザ既定の部品もライトで出す。ダークの配色は html.dark 側で当てる
+   （system 設定のときも ApplyColorMode.astro が .dark を付ける） */
+@media (prefers-color-scheme: dark) {
+  html:not(.dark) .ethics-quiz-app {
+    color-scheme: light;
+  }
+}
