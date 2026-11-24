@@ -1,10 +1,11 @@
 ---
 publishDate: 2026-02-21T00:00:00Z
-lastmod: 2026-10-21
+lastmod: 2026-11-24
 title: '生成AI・AI倫理クイズ｜ITパスポートの新用語から高度試験の実務ロジックまで'
-excerpt: 'ハルシネーション、RAG、著作権のガイドラインなど、IPAの試験で問われる生成AIの用語を問題で確かめるドリルです。ITパスポート・基本情報向けの用語編と、高度試験向けの実務ロジック編の2つを用意しています。'
+excerpt: 'ITパスポート・基本情報の用語確認は用語編20問、技術を選ぶ理由の確認は実務ロジック編25問へ。各回10問まで解ける生成AI・AI倫理ドリルです。'
 category: app
 appId: 'genai-ethics-quiz'
+toc: true
 image: ~/assets/images/post/common/app.png
 knowledge:
   examId: common
@@ -16,9 +17,8 @@ tags:
   - ITパスポート
   - 基本情報技術者
   - 高度試験共通
-  - SyllabusHack
 metadata:
-  description: 'IPAのシラバスに追加された生成AI・AI倫理の用語を、問題で確かめる演習ドリル。ITパスポート・基本情報向けの用語編と、RAGとファインチューニングの使い分けやAIガバナンスなど高度試験向けの実務ロジック編を、AIの解説付きで学べます。'
+  description: 'ITパスポート・基本情報を受ける人は用語編20問、技術を選ぶ理由を説明できない人は実務ロジック編25問から。どちらも1回10問までの生成AI・AI倫理クイズです。現行シラバスと2027年度の案の違い、Geminiの解説を確かめる方法、用語データベースを人が確認して更新する流れを紹介します。'
 ---
 
 import QuizApp from '~/apps/genai-ethics-quiz/QuizApp';
@@ -33,23 +33,29 @@ export const allQuestions = transformRawQuestions(questionsJson);
 
 ## アプリについて
 
-このアプリは、 <strong>ITパスポート試験（Ver.6.2以降）</strong> や <strong>基本情報技術者試験</strong> で近年急速に追加された <strong>生成AI・AI倫理</strong> の新用語を効率よく身につけるための演習ツールです。
+ITパスポート・基本情報を受ける人は用語編（20問・3分類）、用語は分かるが「なぜその技術を選ぶか」を説明できない人は実務ロジック編（25問）から始めてください。どちらも1回10問までの出題です。
 
-最新のシラバス変更点（差分）に特化しているため、従来のテキストだけではカバーしきれない「今、出る用語」を重点的に学習できます。
+ITパスポートに生成AIの項目が加わったのはVer.6.2（2023年8月公開、2024年4月の試験から）で、現行はVer.6.5です（2026年11月時点）。[IPAの改訂案内](https://www.ipa.go.jp/shiken/syllabus/henkou/2023/20230807.html)・[現行シラバス一覧](https://www.ipa.go.jp/shiken/syllabus/gaiyou.html)
+
+| 受ける試験・困りごと | 最初に解くドリル |
+| --- | --- |
+| ITパスポート・基本情報で生成AIの用語を確かめたい | このページの用語編 |
+| 用語は分かるが、技術を選ぶ理由を説明できない | このページの実務ロジック編 |
+| 生成AIパスポートの範囲を練習したい | [生成AIパスポート 練習問題](/app/genai-passport-quiz/) |
+
+用語の説明から読みたい人は、[ITパスポートの第7章 データとAI](/course/ip/07-data-ai/)へ進めます。
 
 ## 攻略のポイント
 
-- <strong>仕組みからリスクまで</strong> : 大規模言語モデル（LLM）の基本構造だけでなく、ハルシネーションやプロンプトインジェクションといったリスク、著作権法などの法的側面まで網羅。
-- <strong>実務視点のキーワード</strong> : RAG（検索拡張生成）やHITL（Human-in-the-Loop）など、シラバスに追加された実務実装用語を収録。
+- <strong>仕組みからリスクまで</strong> : 大規模言語モデル（LLM）の基本構造だけでなく、ハルシネーションやプロンプトインジェクションといったリスク、著作権法などの法的側面の一部を確認。
+- <strong>実務視点のキーワード</strong> : RAG（検索拡張生成）やHITL（Human-in-the-Loop）などを収録。RAGは現行のITパスポート（IP）・基本情報（FE）の用語例にはなく、2027年度のITパスポートのシラバス案Ver.0.1にあります（2026年11月時点）。[IP Ver.6.5](https://www.ipa.go.jp/shiken/syllabus/omgdg50000005kn1-att/syllabus_ip_ver6_5.pdf)・[FE Ver.9.2](https://www.ipa.go.jp/shiken/syllabus/omgdg50000005kpe-att/syllabus_fe_ver9_2.pdf)・[IP案Ver.0.1](https://www.ipa.go.jp/shiken/syllabus/minaoshi/rcu1hd000001ffp5-att/syllabus_ip_ver0_1.pdf)
 - <strong>AI解説で深く理解</strong> : 全ての問題にAIによる詳細解説へのリンクを用意。単なる用語の暗記ではなく、背景にある技術的・倫理的意義を理解できます。
 
----
+AI解説のリンクはGeminiを開きます。その場で生成される説明なので、ドリルの正解と公式資料に照らして確かめてください。用語例は例示であり、掲載の有無だけで出題の有無は決まりません。
 
 <div class="not-prose">
   <QuizApp client:visible questions={allQuestions} examId="common" examName="生成AI・AI倫理特訓ドリル" />
 </div>
-
----
 
 ## 高度試験向け：生成AIの実務ロジック編
 
@@ -63,9 +69,7 @@ export const allQuestions = transformRawQuestions(questionsJson);
   <TrendQuizApp client:visible questions={trendQuestions} examId="common" examName="生成AIトレンド・ロジック演習ドリル" />
 </div>
 
-午後の記述・論文では、選んだ理由を文章で説明する力が必要です。解説を読んだら、自分の言葉で書き直してみてください。高度試験の選び方は [IPA資格の高難易度対策](/method/advanced-ipa-hub/) で整理しています。
-
----
+科目B（旧午後）の記述・論文では、選んだ理由を文章で説明する力が必要です。解説を読んだら、自分の言葉で書き直してみてください。高度試験の選び方は [IPA資格の高難易度対策](/method/advanced-ipa-hub/) で整理しています。
 
 ## 用語は変わり続ける｜クイズを最新に保つ仕組みの作り方
 
@@ -82,6 +86,14 @@ export const allQuestions = transformRawQuestions(questionsJson);
 
 AIが自動で本番のデータを書き換える形にはしないでください。AIは存在しない用語や古い説明を、もっともらしく答えることがあるので、3の人による確認を必ず挟みます。
 
+```mermaid
+flowchart LR
+  A[用語DBを作る] --> B[定期調査して候補を追加]
+  B --> C[人が一次情報で確認]
+  C --> D[確認済みから問題を作る]
+  D --> B
+```
+
 調査の依頼は、たとえば次のようにします。
 
 ```text
@@ -95,7 +107,9 @@ AIが自動で本番のデータを書き換える形にはしないでくださ
 
 ### 定期実行は「ループエンジニアリング」の入り口になる
 
-ClaudeやChatGPTには、決めた時間にタスクを自動で実行する機能があります。上の調査を、週に1回などの頻度で実行するようにしておくと、止めるまで繰り返し動く仕組みになります。
+ClaudeやChatGPTには、決めた時間にタスクを自動で実行する機能があります（使える画面・頻度・件数の上限はプランで変わります。2026年11月時点）。[OpenAIの案内](https://help.openai.com/en/articles/10291617-scheduled-tasks-in-chatgpt)・[Claude Coworkの案内](https://support.claude.com/en/articles/13854387-schedule-recurring-tasks-in-claude-cowork)
+
+上の調査を、週に1回などの頻度で実行するようにしておくと、止めるまで繰り返し動く仕組みになります。
 
 ただし、動かし続けるときは次を決めておきます。
 
@@ -116,10 +130,8 @@ ClaudeやChatGPTには、決めた時間にタスクを自動で実行する機�
 
 用語ノートの作り方は、[生成AI用語は参考書を買うより生成AIに聞く](/method/genai-vocabulary-learning-efficiency/)にまとめています。
 
----
-
 ## 解くときのポイント
 
-1.  <strong>「ハルシネーション」などのリスクをまず把握</strong> : 生成AIの限界を知ることは、試験でも実務でも必須の知識です。
-2.  <strong>法的規制の動向をチェック</strong> : 日本の著作権法（30条の4）やEU AI法など、最新のルールは得点源になります。
+1.  <strong>「ハルシネーション」などのリスクをまず把握</strong> : 生成AIの限界を知ることは、試験や実務のリスクを理解する助けになります。
+2.  <strong>法的規制の動向をチェック</strong> : 日本の著作権法（30条の4）やEU AI法など、ルールの内容と適用される条件を確かめましょう。
 3.  <strong>「ステップバイステップ」で考える</strong> : プロンプトエンジニアリングの基本（CoTなど）は、仕組みを理解すれば正解しやすくなります。
