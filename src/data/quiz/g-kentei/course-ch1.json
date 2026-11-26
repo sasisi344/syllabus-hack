@@ -1,68 +1,150 @@
 [
   {
-    "id": "g-kentei-course-ch1-1",
-    "text": "1956年に開催され、「人工知能（Artificial Intelligence）」という言葉が初めて使われた会議はどれか。",
-    "choices": [
-      { "label": "ア", "text": "ダートマス会議" },
-      { "label": "イ", "text": "エルジンボロ会議" },
-      { "label": "ウ", "text": "パシフィコ横浜会議" },
-      { "label": "エ", "text": "ジュネーブ会議" }
-    ],
-    "correctLabel": "ア"
-  },
-  {
     "id": "g-kentei-course-ch1-2",
-    "text": "第1次AIブームが冬の時代を迎えた最大の要因として適切なものはどれか。",
+    "examId": "g-kentei",
+    "chapterOrder": 1,
+    "field": "technology",
+    "subField": "探索・推論",
+    "year": "予想問題",
+    "questionNumber": 2,
+    "text": "一手でたどれる候補を調べてから二手でたどれる候補を調べ、同じコストの操作で最小手数の解を探します。使う探索はどれですか？",
     "choices": [
-      { "label": "ア", "text": "迷路やパズルのような「トイ・プロブレム」しか解けず、現実の複雑な問題に対応できなかったこと" },
-      { "label": "イ", "text": "計算資源が過剰であったこと" },
-      { "label": "ウ", "text": "インターネットが普及しすぎたこと" },
-      { "label": "エ", "text": "ディープラーニングが登場したこと" }
+      {
+        "label": "ア",
+        "text": "深さ優先探索"
+      },
+      {
+        "label": "イ",
+        "text": "幅優先探索"
+      },
+      {
+        "label": "ウ",
+        "text": "αβ法"
+      },
+      {
+        "label": "エ",
+        "text": "Mini-Max法"
+      }
     ],
-    "correctLabel": "ア"
+    "correctLabel": "イ",
+    "explanation": "幅優先探索は根に近い状態から調べます。各操作のコストが同じなら、最初に見つけた解の手数が最小になります。",
+    "keywords": [
+      "幅優先探索",
+      "探索木",
+      "最小手数"
+    ],
+    "syllabusRef": "技術分野-中分類3",
+    "difficulty": "beginner"
   },
   {
     "id": "g-kentei-course-ch1-3",
-    "text": "第2次AIブーム（1980年代）を牽引した、専門家の知識をルールとしてコンピュータに与える手法の名称はどれか。",
+    "examId": "g-kentei",
+    "chapterOrder": 1,
+    "field": "technology",
+    "subField": "知識表現とエキスパートシステム",
+    "year": "予想問題",
+    "questionNumber": 3,
+    "text": "専門家の診断手順を規則にしたところ、例外を言葉にしてもらえず、新しい規則を追加できません。このつまずきは何ですか？",
     "choices": [
-      { "label": "ア", "text": "エキスパートシステム" },
-      { "label": "イ", "text": "強化学習" },
-      { "label": "ウ", "text": "畳み込みニューラルネットワーク" },
-      { "label": "エ", "text": "遺伝的アルゴリズム" }
+      {
+        "label": "ア",
+        "text": "AI効果"
+      },
+      {
+        "label": "イ",
+        "text": "フレーム問題"
+      },
+      {
+        "label": "ウ",
+        "text": "知識獲得のボトルネック"
+      },
+      {
+        "label": "エ",
+        "text": "次元の呪い"
+      }
     ],
-    "correctLabel": "ア"
+    "correctLabel": "ウ",
+    "explanation": "熟練者の暗黙知を明示的な規則に落とし込むことが難しい場合、知識獲得のボトルネックに当たります。",
+    "keywords": [
+      "知識獲得のボトルネック",
+      "エキスパートシステム",
+      "知識表現"
+    ],
+    "syllabusRef": "技術分野-中分類4",
+    "difficulty": "beginner"
   },
   {
     "id": "g-kentei-course-ch1-4",
-    "text": "「強いAI」と「弱いAI」の区別、および「中国語の部屋」という思考実験を提唱した哲学者はどれか。",
+    "examId": "g-kentei",
+    "chapterOrder": 1,
+    "field": "technology",
+    "subField": "人工知能分野で議論される問題",
+    "year": "予想問題",
+    "questionNumber": 4,
+    "text": "機械が「熱い」という記号を処理できても、その記号が温度や触れた経験とどう結びつくかが分かりません。この論点はどれですか？",
     "choices": [
-      { "label": "ア", "text": "ジョン・サール" },
-      { "label": "イ", "text": "アラン・チューリング" },
-      { "label": "ウ", "text": "ノーバート・ウィーナー" },
-      { "label": "エ", "text": "マーヴィン・ミンスキー" }
+      {
+        "label": "ア",
+        "text": "シンボルグラウンディング問題"
+      },
+      {
+        "label": "イ",
+        "text": "トイ・プロブレム"
+      },
+      {
+        "label": "ウ",
+        "text": "フレーム問題"
+      },
+      {
+        "label": "エ",
+        "text": "AI効果"
+      }
     ],
-    "correctLabel": "ア"
+    "correctLabel": "ア",
+    "explanation": "記号と実世界の対象や経験がどう結びつくかを問うのが、シンボルグラウンディング問題です。",
+    "keywords": [
+      "シンボルグラウンディング問題",
+      "身体性",
+      "意味"
+    ],
+    "syllabusRef": "技術分野-中分類2",
+    "difficulty": "beginner"
   },
   {
     "id": "g-kentei-course-ch1-5",
-    "text": "2012年の画像認識コンペティション（ILSVRC）で圧倒的な精度で優勝し、第3次AIブームの契機となったモデルはどれか。",
+    "examId": "g-kentei",
+    "chapterOrder": 1,
+    "field": "technology",
+    "subField": "ディープラーニング",
+    "year": "予想問題",
+    "questionNumber": 5,
+    "text": "画像認識で、データセットとその上で性能を競った競技を順に並べた組み合わせはどれですか？",
     "choices": [
-      { "label": "ア", "text": "AlexNet" },
-      { "label": "イ", "text": "ENIAC" },
-      { "label": "ウ", "text": "ELIZA" },
-      { "label": "エ", "text": "Perceptron" }
+      {
+        "label": "ア",
+        "text": "ILSVRC、ImageNet"
+      },
+      {
+        "label": "イ",
+        "text": "LeNet、ImageNet"
+      },
+      {
+        "label": "ウ",
+        "text": "AlphaGo、ILSVRC"
+      },
+      {
+        "label": "エ",
+        "text": "ImageNet、ILSVRC"
+      }
     ],
-    "correctLabel": "ア"
-  },
-  {
-    "id": "g-kentei-course-ch1-6",
-    "text": "会話の受け答えだけで相手が人間かAIかを判定できなければ、その機械は知能を持つとみなしてよいとする思考実験はどれか。",
-    "choices": [
-      { "label": "ア", "text": "チューリングテスト" },
-      { "label": "イ", "text": "中国語の部屋" },
-      { "label": "ウ", "text": "トロッコ問題" },
-      { "label": "エ", "text": "シンボルグラウンディング問題" }
+    "correctLabel": "エ",
+    "explanation": "ImageNetは画像データセットで、ILSVRCはそのデータを使って画像認識の性能を比べた競技です。",
+    "keywords": [
+      "ImageNet",
+      "ILSVRC",
+      "画像認識"
     ],
-    "correctLabel": "ア"
+    "syllabusRef": "技術分野-中分類6",
+    "difficulty": "beginner"
   }
 ]

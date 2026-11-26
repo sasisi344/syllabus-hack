@@ -1,90 +1,150 @@
 [
   {
-    "id": "g-kentei-course-ch3-1",
-    "text": "ニューラルネットワークにおいて、入力の重み付き和を非線形な出力に変換する関数を何と呼ぶか。",
-    "choices": [
-      { "label": "ア", "text": "活性化関数" },
-      { "label": "イ", "text": "誤差関数" },
-      { "label": "ウ", "text": "正則化" },
-      { "label": "エ", "text": "最適化関数" }
-    ],
-    "correctLabel": "ア"
-  },
-  {
-    "id": "g-kentei-course-ch3-2",
-    "text": "現在のディープラーニングで最も広く使われている活性化関数で、入力が0以下なら0、0より大きければそのまま出力する関数はどれか。",
-    "choices": [
-      { "label": "ア", "text": "ReLU関数" },
-      { "label": "イ", "text": "シグモイド関数" },
-      { "label": "ウ", "text": "ソフトマックス関数" },
-      { "label": "エ", "text": "tanh関数" }
-    ],
-    "correctLabel": "ア"
-  },
-  {
-    "id": "g-kentei-course-ch3-3",
-    "text": "ニューラルネットワークの学習において、出力層の誤差を入力層に向かって伝播させ、各層の重みを更新する手法はどれか。",
-    "choices": [
-      { "label": "ア", "text": "誤差逆伝播法" },
-      { "label": "イ", "text": "勾配降下法" },
-      { "label": "ウ", "text": "交差検証" },
-      { "label": "エ", "text": "ドロップアウト" }
-    ],
-    "correctLabel": "ア"
-  },
-  {
     "id": "g-kentei-course-ch3-4",
-    "text": "層が深くなるにつれて、逆伝播の際に勾配が極端に小さくなり、学習が進まなくなる問題を何と呼ぶか。",
+    "examId": "g-kentei",
+    "chapterOrder": 3,
+    "field": "technology",
+    "subField": "誤差逆伝播法",
+    "year": "予想問題",
+    "questionNumber": 4,
+    "text": "深いネットワークで出力付近の層は更新されますが、入力付近では勾配の絶対値がほぼ0になり、ほとんど更新が進みません。何が起きていますか？",
     "choices": [
-      { "label": "ア", "text": "勾配消失問題" },
-      { "label": "イ", "text": "勾配爆発問題" },
-      { "label": "ウ", "text": "次元の呪い" },
-      { "label": "エ", "text": "信用割当問題" }
+      {
+        "label": "ア",
+        "text": "勾配爆発問題"
+      },
+      {
+        "label": "イ",
+        "text": "勾配消失問題"
+      },
+      {
+        "label": "ウ",
+        "text": "過学習"
+      },
+      {
+        "label": "エ",
+        "text": "局所最適解への到達"
+      }
     ],
-    "correctLabel": "ア"
-  },
-  {
-    "id": "g-kentei-course-ch3-5",
-    "text": "学習中にランダムに一部のニューロンを無効化することで過学習を抑制する正則化の手法はどれか。",
-    "choices": [
-      { "label": "ア", "text": "ドロップアウト" },
-      { "label": "イ", "text": "L2正則化" },
-      { "label": "ウ", "text": "アンサンブル学習" },
-      { "label": "エ", "text": "早期終了" }
+    "correctLabel": "イ",
+    "explanation": "逆伝播の途中で勾配が非常に小さくなり、入力側の層の更新が進みにくくなるのが勾配消失問題です。",
+    "keywords": [
+      "勾配消失問題",
+      "連鎖律",
+      "誤差逆伝播法"
     ],
-    "correctLabel": "ア"
+    "syllabusRef": "技術分野-中分類15",
+    "difficulty": "beginner"
   },
   {
     "id": "g-kentei-course-ch3-6",
-    "text": "モーメンタムと学習率の自動調整を組み合わせた最適化手法で、現在最も広く使われている標準的な手法はどれか。",
+    "examId": "g-kentei",
+    "chapterOrder": 3,
+    "field": "technology",
+    "subField": "最適化手法",
+    "year": "予想問題",
+    "questionNumber": 6,
+    "text": "勾配の移動平均に加え、勾配の二乗の移動平均で更新を調整する最適化手法はどれですか？",
     "choices": [
-      { "label": "ア", "text": "Adam" },
-      { "label": "イ", "text": "AdaGrad" },
-      { "label": "ウ", "text": "確率的勾配降下法(SGD)" },
-      { "label": "エ", "text": "グリッドサーチ" }
+      {
+        "label": "ア",
+        "text": "AdaGrad"
+      },
+      {
+        "label": "イ",
+        "text": "モーメンタム"
+      },
+      {
+        "label": "ウ",
+        "text": "Adam"
+      },
+      {
+        "label": "エ",
+        "text": "グリッドサーチ"
+      }
     ],
-    "correctLabel": "ア"
+    "correctLabel": "ウ",
+    "explanation": "Adamは勾配の一次と二次のモーメントの推定に、勾配と勾配の二乗の移動平均を使います。",
+    "keywords": [
+      "Adam",
+      "学習率",
+      "最適化"
+    ],
+    "syllabusRef": "技術分野-中分類16",
+    "difficulty": "beginner"
   },
   {
     "id": "g-kentei-course-ch3-7",
-    "text": "重みの絶対値の合計にペナルティを課し、一部の重みを完全に0にすることで不要な特徴量を自動的に削る効果がある正則化はどれか。",
+    "examId": "g-kentei",
+    "chapterOrder": 3,
+    "field": "technology",
+    "subField": "正則化",
+    "year": "予想問題",
+    "questionNumber": 7,
+    "text": "線形回帰で、一部の係数がちょうど0になるよう促したいと考えています。重みの絶対値の和に罰則を課す方法はどれですか？",
     "choices": [
-      { "label": "ア", "text": "L1正則化" },
-      { "label": "イ", "text": "L2正則化" },
-      { "label": "ウ", "text": "ドロップアウト" },
-      { "label": "エ", "text": "早期終了" }
+      {
+        "label": "ア",
+        "text": "L1正則化"
+      },
+      {
+        "label": "イ",
+        "text": "L2正則化"
+      },
+      {
+        "label": "ウ",
+        "text": "早期終了"
+      },
+      {
+        "label": "エ",
+        "text": "ドロップアウト"
+      }
     ],
-    "correctLabel": "ア"
+    "correctLabel": "ア",
+    "explanation": "L1正則化は絶対値の和を罰則として使い、一部の係数が0になる解を得やすくします。",
+    "keywords": [
+      "L1正則化",
+      "ラッソ回帰",
+      "絶対値"
+    ],
+    "syllabusRef": "技術分野-中分類14",
+    "difficulty": "beginner"
   },
   {
     "id": "g-kentei-course-ch3-8",
-    "text": "分類問題において、予測した確率分布と正解の確率分布のズレを測る誤差関数として最も一般的に使われるものはどれか。",
+    "examId": "g-kentei",
+    "chapterOrder": 3,
+    "field": "technology",
+    "subField": "誤差関数",
+    "year": "予想問題",
+    "questionNumber": 8,
+    "text": "商品の写真を四つの種類から一つに分類するモデルで、正解クラスに付けた確率が低いときに大きな損失を与えるものはどれですか？",
     "choices": [
-      { "label": "ア", "text": "交差エントロピー" },
-      { "label": "イ", "text": "平均二乗誤差関数" },
-      { "label": "ウ", "text": "Contrastive Loss" },
-      { "label": "エ", "text": "Triplet Loss" }
+      {
+        "label": "ア",
+        "text": "ソフトマックス関数"
+      },
+      {
+        "label": "イ",
+        "text": "ReLU関数"
+      },
+      {
+        "label": "ウ",
+        "text": "L2正則化"
+      },
+      {
+        "label": "エ",
+        "text": "交差エントロピー"
+      }
     ],
-    "correctLabel": "ア"
+    "correctLabel": "エ",
+    "explanation": "単一ラベル分類の交差エントロピーでは、正解クラスに割り当てた確率が低いほど損失が大きくなります。",
+    "keywords": [
+      "交差エントロピー",
+      "誤差関数",
+      "分類"
+    ],
+    "syllabusRef": "技術分野-中分類13",
+    "difficulty": "beginner"
   }
 ]

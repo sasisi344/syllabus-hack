@@ -2,121 +2,417 @@
   {
     "id": "g-kentei-diag-1",
     "chapterOrder": 1,
-    "text": "1956年に開催され、「人工知能」という言葉が初めて使われた会議はどれか。",
+    "text": "1950年代の研究史を紹介します。人工知能という研究分野が成立する起点として扱われる会議はどれですか？",
     "choices": [
-      { "label": "ア", "text": "ダートマス会議" },
-      { "label": "イ", "text": "エルジンボロ会議" },
-      { "label": "ウ", "text": "パシフィコ横浜会議" },
-      { "label": "エ", "text": "ジュネーブ会議" }
+      {
+        "label": "ア",
+        "text": "ダートマス会議"
+      },
+      {
+        "label": "イ",
+        "text": "ローブナーコンテスト"
+      },
+      {
+        "label": "ウ",
+        "text": "ILSVRC"
+      },
+      {
+        "label": "エ",
+        "text": "Cycプロジェクト"
+      }
     ],
-    "correctLabel": "ア"
+    "correctLabel": "ア",
+    "explanation": "ダートマス会議は人工知能という研究分野の起点の一つです。",
+    "difficulty": "beginner"
   },
   {
     "id": "g-kentei-diag-2",
     "chapterOrder": 1,
-    "text": "AIが実用化されて当たり前になった技術は「もはやAIではない」と呼ばれなくなる現象を何と呼ぶか。",
+    "text": "かつてAIの代表例とされた処理が普及すると、特別な知能とは見なされなくなりました。この見方の変化はどれですか？",
     "choices": [
-      { "label": "ア", "text": "AI効果" },
-      { "label": "イ", "text": "シンギュラリティ" },
-      { "label": "ウ", "text": "フレーム問題" },
-      { "label": "エ", "text": "知識獲得のボトルネック" }
+      {
+        "label": "ア",
+        "text": "トイ・プロブレム"
+      },
+      {
+        "label": "イ",
+        "text": "AI効果"
+      },
+      {
+        "label": "ウ",
+        "text": "フレーム問題"
+      },
+      {
+        "label": "エ",
+        "text": "シンギュラリティ"
+      }
     ],
-    "correctLabel": "ア"
+    "correctLabel": "イ",
+    "explanation": "実用化され日常的になった技術が、AIと呼ばれにくくなる現象です。",
+    "difficulty": "beginner"
   },
   {
     "id": "g-kentei-diag-3",
     "chapterOrder": 2,
-    "text": "正解ラベルが付与されたデータを用いて、入力と出力の関係を学習する手法はどれか。",
+    "text": "申請書に過去の担当者が振ったカテゴリを利用し、新しい申請書にも同じ区分を付けたいとします。どの学習方式ですか？",
     "choices": [
-      { "label": "ア", "text": "教師あり学習" },
-      { "label": "イ", "text": "教師なし学習" },
-      { "label": "ウ", "text": "強化学習" },
-      { "label": "エ", "text": "半教師あり学習" }
+      {
+        "label": "ア",
+        "text": "教師なし学習"
+      },
+      {
+        "label": "イ",
+        "text": "強化学習"
+      },
+      {
+        "label": "ウ",
+        "text": "教師あり学習"
+      },
+      {
+        "label": "エ",
+        "text": "主成分分析(PCA)"
+      }
     ],
-    "correctLabel": "ア"
+    "correctLabel": "ウ",
+    "explanation": "入力例と目指す答えの組があるため、教師あり学習で分類します。",
+    "difficulty": "beginner"
   },
   {
     "id": "g-kentei-diag-4",
     "chapterOrder": 2,
-    "text": "交差検証（クロスバリデーション）を行う主な目的として最も適切なものはどれか。",
+    "text": "手元のデータを複数のグループに分け、評価用のグループを入れ替えながら性能を調べます。この方法は何ですか？",
     "choices": [
-      { "label": "ア", "text": "モデルの汎化性能を安定して評価するため" },
-      { "label": "イ", "text": "学習速度を上げるため" },
-      { "label": "ウ", "text": "データを暗号化するため" },
-      { "label": "エ", "text": "ハイパーパラメータを自動生成するため" }
+      {
+        "label": "ア",
+        "text": "ホールドアウト検証"
+      },
+      {
+        "label": "イ",
+        "text": "勾配降下法"
+      },
+      {
+        "label": "ウ",
+        "text": "クラスタリング"
+      },
+      {
+        "label": "エ",
+        "text": "k-分割交差検証"
+      }
     ],
-    "correctLabel": "ア"
+    "correctLabel": "エ",
+    "explanation": "各グループを交代で評価に使い、特定の分割だけに依存しない評価を目指します。",
+    "difficulty": "beginner"
   },
   {
     "id": "g-kentei-diag-5",
     "chapterOrder": 3,
-    "text": "ニューラルネットワークにおいて、入力の重み付き和を非線形な出力に変換する関数を何と呼ぶか。",
+    "text": "層が受け取った値を変換し、次の層に渡します。ReLUのように、ネットワークに非線形な変換を入れる関数の総称はどれですか？",
     "choices": [
-      { "label": "ア", "text": "活性化関数" },
-      { "label": "イ", "text": "誤差関数" },
-      { "label": "ウ", "text": "正則化" },
-      { "label": "エ", "text": "最適化関数" }
+      {
+        "label": "ア",
+        "text": "活性化関数"
+      },
+      {
+        "label": "イ",
+        "text": "誤差関数"
+      },
+      {
+        "label": "ウ",
+        "text": "行動価値関数"
+      },
+      {
+        "label": "エ",
+        "text": "回帰関数"
+      }
     ],
-    "correctLabel": "ア"
+    "correctLabel": "ア",
+    "explanation": "活性化関数は層の出力を変換します。予測と正解のずれの測定は誤差関数の役割です。",
+    "difficulty": "beginner"
   },
   {
     "id": "g-kentei-diag-6",
     "chapterOrder": 4,
-    "text": "画像データの局所的な特徴を検出するフィルタを用いる、画像認識に強いニューラルネットワークの種類はどれか。",
+    "text": "センサーの入力を短い時間窓に分け、同じ重みを別の時点でも使って波形の特徴を取り出します。この考え方を使うネットワークはどれですか？",
     "choices": [
-      { "label": "ア", "text": "畳み込みニューラルネットワーク(CNN)" },
-      { "label": "イ", "text": "リカレントニューラルネットワーク(RNN)" },
-      { "label": "ウ", "text": "オートエンコーダ" },
-      { "label": "エ", "text": "決定木" }
+      {
+        "label": "ア",
+        "text": "多層パーセプトロン"
+      },
+      {
+        "label": "イ",
+        "text": "畳み込みニューラルネットワーク(CNN)"
+      },
+      {
+        "label": "ウ",
+        "text": "変分オートエンコーダ(VAE)"
+      },
+      {
+        "label": "エ",
+        "text": "双方向RNN"
+      }
     ],
-    "correctLabel": "ア"
+    "correctLabel": "イ",
+    "explanation": "CNNは畳み込み層で、異なる位置や時点に同じフィルタを適用できます。",
+    "difficulty": "beginner"
   },
   {
     "id": "g-kentei-diag-7",
     "chapterOrder": 5,
-    "text": "単語や文章を、意味的な関係性を保ったまま数値ベクトルに変換する技術を何と呼ぶか。",
+    "text": "語を数値の組で表し、使われ方が似ている語どうしを近くに置きたいとします。どの表現が適していますか？",
     "choices": [
-      { "label": "ア", "text": "単語埋め込み（分散表現）" },
-      { "label": "イ", "text": "ワンホットベクトル" },
-      { "label": "ウ", "text": "形態素解析" },
-      { "label": "エ", "text": "構文解析" }
+      {
+        "label": "ア",
+        "text": "単語埋め込み"
+      },
+      {
+        "label": "イ",
+        "text": "ワンホットベクトル"
+      },
+      {
+        "label": "ウ",
+        "text": "ストライド"
+      },
+      {
+        "label": "エ",
+        "text": "周波数スペクトル"
+      }
     ],
-    "correctLabel": "ア"
+    "correctLabel": "ア",
+    "explanation": "単語埋め込みは語を分散表現にして、ベクトルの近さなどを比較できるようにします。",
+    "difficulty": "beginner"
   },
   {
     "id": "g-kentei-diag-8",
     "chapterOrder": 6,
-    "text": "生成器（Generator）と識別器（Discriminator）を競わせながら学習させ、本物らしいデータを生成する手法はどれか。",
+    "text": "画像作成モデルで、一方のネットワークが例を作り、もう一方が実際の画像か作られた画像かを判定するように学習します。この構成は何ですか？",
     "choices": [
-      { "label": "ア", "text": "敵対的生成ネットワーク(GAN)" },
-      { "label": "イ", "text": "サポートベクターマシン(SVM)" },
-      { "label": "ウ", "text": "決定木" },
-      { "label": "エ", "text": "ランダムフォレスト" }
+      {
+        "label": "ア",
+        "text": "Diffusion Model"
+      },
+      {
+        "label": "イ",
+        "text": "CLIP"
+      },
+      {
+        "label": "ウ",
+        "text": "敵対的生成ネットワーク(GAN)"
+      },
+      {
+        "label": "エ",
+        "text": "LIME"
+      }
     ],
-    "correctLabel": "ア"
+    "correctLabel": "ウ",
+    "explanation": "GANでは、生成器と識別器が互いに異なる目的で学習します。",
+    "difficulty": "beginner"
   },
   {
     "id": "g-kentei-diag-9",
     "chapterOrder": 7,
-    "text": "ビジネス理解→データ理解→データ準備→モデリング→評価→展開という6段階を繰り返す、機械学習プロジェクト特有の進め方の型はどれか。",
+    "text": "ビジネス理解からデータ準備、モデリング、評価、展開へ進み、必要なら前の工程へ戻る分析プロセスはどれですか？",
     "choices": [
-      { "label": "ア", "text": "CRISP-DM" },
-      { "label": "イ", "text": "ウォーターフォール" },
-      { "label": "ウ", "text": "BPR" },
-      { "label": "エ", "text": "MLOps" }
+      {
+        "label": "ア",
+        "text": "PoC"
+      },
+      {
+        "label": "イ",
+        "text": "データリーケージ"
+      },
+      {
+        "label": "ウ",
+        "text": "CRISP-DM"
+      },
+      {
+        "label": "エ",
+        "text": "標準化"
+      }
     ],
-    "correctLabel": "ア"
+    "correctLabel": "ウ",
+    "explanation": "CRISP-DMは業務とデータの理解から展開までを扱う、反復を含む進め方です。",
+    "difficulty": "beginner"
   },
   {
     "id": "g-kentei-diag-10",
     "chapterOrder": 8,
-    "text": "AIの学習データに社会的な偏りが含まれることで、予測・判断結果にも偏りが生じてしまう問題を何と呼ぶか。",
+    "text": "過去の判断の偏りが学習に引き継がれ、モデルの判定結果が特定の属性で不当に偏りました。結果に出た問題は何ですか？",
     "choices": [
-      { "label": "ア", "text": "アルゴリズムバイアス" },
-      { "label": "イ", "text": "過学習" },
-      { "label": "ウ", "text": "勾配消失" },
-      { "label": "エ", "text": "次元の呪い" }
+      {
+        "label": "ア",
+        "text": "トレーサビリティ"
+      },
+      {
+        "label": "イ",
+        "text": "アルゴリズムバイアス"
+      },
+      {
+        "label": "ウ",
+        "text": "モデル圧縮"
+      },
+      {
+        "label": "エ",
+        "text": "再現性"
+      }
     ],
-    "correctLabel": "ア"
+    "correctLabel": "イ",
+    "explanation": "過去のデータや設計に起因する偏りがモデルの判断に表れることがあります。",
+    "difficulty": "beginner"
+  },
+  {
+    "id": "g-kentei-diag-11",
+    "chapterOrder": 3,
+    "text": "過学習を抑えるため、学習中に一部のユニットの出力をランダムに無効にします。この手法はどれですか？",
+    "choices": [
+      {
+        "label": "ア",
+        "text": "バッチ正規化"
+      },
+      {
+        "label": "イ",
+        "text": "早期終了"
+      },
+      {
+        "label": "ウ",
+        "text": "L2正則化"
+      },
+      {
+        "label": "エ",
+        "text": "ドロップアウト"
+      }
+    ],
+    "correctLabel": "エ",
+    "explanation": "学習時にユニットをランダムに無効にする方法がドロップアウトです。",
+    "difficulty": "beginner"
+  },
+  {
+    "id": "g-kentei-diag-12",
+    "chapterOrder": 4,
+    "text": "自動字幕を作るモデルの学習で、直前にモデルが出した語の代わりに、正解の語を次の入力に使います。この方法はどれですか？",
+    "choices": [
+      {
+        "label": "ア",
+        "text": "教師強制"
+      },
+      {
+        "label": "イ",
+        "text": "位置エンコーディング"
+      },
+      {
+        "label": "ウ",
+        "text": "Self-Attention"
+      },
+      {
+        "label": "エ",
+        "text": "データ拡張"
+      }
+    ],
+    "correctLabel": "ア",
+    "explanation": "系列の出力を学習する際、直前の予測の代わりに正解を入力する方法です。",
+    "difficulty": "beginner"
+  },
+  {
+    "id": "g-kentei-diag-13",
+    "chapterOrder": 5,
+    "text": "ニュース原稿の文字列から、利用者が聞ける読み上げ用の波形を作ります。この処理はどれですか？",
+    "choices": [
+      {
+        "label": "ア",
+        "text": "音声認識"
+      },
+      {
+        "label": "イ",
+        "text": "話者識別"
+      },
+      {
+        "label": "ウ",
+        "text": "形態素解析"
+      },
+      {
+        "label": "エ",
+        "text": "音声合成"
+      }
+    ],
+    "correctLabel": "エ",
+    "explanation": "音声合成は文字などの入力から音声を作る処理です。",
+    "difficulty": "beginner"
+  },
+  {
+    "id": "g-kentei-diag-14",
+    "chapterOrder": 6,
+    "text": "学習済みのモデルに新しい課題を文章で説明します。この課題について見本を一つも入力せずに回答させる設定はどれですか？",
+    "choices": [
+      {
+        "label": "ア",
+        "text": "One-shot"
+      },
+      {
+        "label": "イ",
+        "text": "Few-shot"
+      },
+      {
+        "label": "ウ",
+        "text": "Zero-shot"
+      },
+      {
+        "label": "エ",
+        "text": "ファインチューニング"
+      }
+    ],
+    "correctLabel": "ウ",
+    "explanation": "Zero-shotは課題の例を提示しない設定です。見本の数とモデルの追加学習は別の観点です。",
+    "difficulty": "beginner"
+  },
+  {
+    "id": "g-kentei-diag-15",
+    "chapterOrder": 7,
+    "text": "5日分の入荷件数を少ない順に並べ、3番目の値を代表値にしました。この値は何ですか？",
+    "choices": [
+      {
+        "label": "ア",
+        "text": "平均"
+      },
+      {
+        "label": "イ",
+        "text": "中央値"
+      },
+      {
+        "label": "ウ",
+        "text": "最頻値"
+      },
+      {
+        "label": "エ",
+        "text": "標準偏差"
+      }
+    ],
+    "correctLabel": "イ",
+    "explanation": "中央値は並べたデータの中央です。5件のうち中央に来るのは3番目です。",
+    "difficulty": "beginner"
+  },
+  {
+    "id": "g-kentei-diag-16",
+    "chapterOrder": 8,
+    "text": "業界団体がAIの透明性を高めるための自主的な行動指針を示しました。法律による強制力がないこの種の指針は何ですか？",
+    "choices": [
+      {
+        "label": "ア",
+        "text": "ソフトロー"
+      },
+      {
+        "label": "イ",
+        "text": "ハードロー"
+      },
+      {
+        "label": "ウ",
+        "text": "請負契約"
+      },
+      {
+        "label": "エ",
+        "text": "知的財産権"
+      }
+    ],
+    "correctLabel": "ア",
+    "explanation": "自主的な指針など法的拘束力を持たないルールはソフトローと呼ばれます。",
+    "difficulty": "beginner"
   }
 ]

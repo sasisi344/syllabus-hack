@@ -1,90 +1,150 @@
 [
   {
-    "id": "g-kentei-course-ch7-1",
-    "text": "ビジネス理解→データ理解→データ準備→モデリング→評価→展開という6段階を繰り返す、機械学習プロジェクト特有の進め方の型はどれか。",
-    "choices": [
-      { "label": "ア", "text": "CRISP-DM" },
-      { "label": "イ", "text": "ウォーターフォール" },
-      { "label": "ウ", "text": "BPR" },
-      { "label": "エ", "text": "MLOps" }
-    ],
-    "correctLabel": "ア"
-  },
-  {
-    "id": "g-kentei-course-ch7-2",
-    "text": "本格的な開発に入る前に、その技術が実現可能かを小規模に検証する工程を何と呼ぶか。",
-    "choices": [
-      { "label": "ア", "text": "PoC（Proof of Concept）" },
-      { "label": "イ", "text": "MLOps" },
-      { "label": "ウ", "text": "BPR" },
-      { "label": "エ", "text": "アジャイル" }
-    ],
-    "correctLabel": "ア"
-  },
-  {
     "id": "g-kentei-course-ch7-3",
-    "text": "実運用に乗せたモデルの精度劣化を監視し、再学習を繰り返す一連の運用の仕組みを何と呼ぶか。",
+    "examId": "g-kentei",
+    "chapterOrder": 7,
+    "field": "technology",
+    "subField": "AIプロジェクトの進め方",
+    "year": "予想問題",
+    "questionNumber": 3,
+    "text": "モデルをサービスに配備した後、入力の変化と精度を監視し、条件に応じて再学習・再配備します。この運用の仕組みは何ですか？",
     "choices": [
-      { "label": "ア", "text": "MLOps" },
-      { "label": "イ", "text": "CRISP-DM" },
-      { "label": "ウ", "text": "Docker" },
-      { "label": "エ", "text": "Jupyter Notebook" }
+      {
+        "label": "ア",
+        "text": "PoC"
+      },
+      {
+        "label": "イ",
+        "text": "MLOps"
+      },
+      {
+        "label": "ウ",
+        "text": "アノテーション"
+      },
+      {
+        "label": "エ",
+        "text": "BPR"
+      }
     ],
-    "correctLabel": "ア"
+    "correctLabel": "イ",
+    "explanation": "MLOpsは配備、監視、再学習などの工程を継続して回すための取り組みです。",
+    "keywords": [
+      "MLOps",
+      "監視",
+      "再学習"
+    ],
+    "syllabusRef": "技術分野-中分類35",
+    "difficulty": "beginner"
   },
   {
     "id": "g-kentei-course-ch7-4",
-    "text": "本来モデルが学習時に知りえない未来の情報などが誤って学習データに混入し、学習時の評価は高精度に見えても実運用では性能が出なくなる現象を何と呼ぶか。",
+    "examId": "g-kentei",
+    "chapterOrder": 7,
+    "field": "technology",
+    "subField": "データの収集・加工・分析・学習",
+    "year": "予想問題",
+    "questionNumber": 4,
+    "text": "注文時点で返品リスクを予測したいのに、学習で返品受付後にしか決まらない受付番号を特徴に使いました。何が問題ですか？",
     "choices": [
-      { "label": "ア", "text": "データリーケージ" },
-      { "label": "イ", "text": "過学習" },
-      { "label": "ウ", "text": "次元の呪い" },
-      { "label": "エ", "text": "勾配消失問題" }
+      {
+        "label": "ア",
+        "text": "アノテーション"
+      },
+      {
+        "label": "イ",
+        "text": "過学習"
+      },
+      {
+        "label": "ウ",
+        "text": "データリーケージ"
+      },
+      {
+        "label": "エ",
+        "text": "移動平均"
+      }
     ],
-    "correctLabel": "ア"
-  },
-  {
-    "id": "g-kentei-course-ch7-5",
-    "text": "推論時間（ミリ秒）が80, 90, 100, 110, 120の5回のテスト結果について、標準偏差に最も近い値はどれか。",
-    "choices": [
-      { "label": "ア", "text": "約14.1ミリ秒" },
-      { "label": "イ", "text": "約100ミリ秒" },
-      { "label": "ウ", "text": "約20ミリ秒" },
-      { "label": "エ", "text": "約200ミリ秒" }
+    "correctLabel": "ウ",
+    "explanation": "予測時点で分からない値が学習時に入るため、本番では再現できない性能が出ることがあります。",
+    "keywords": [
+      "データリーケージ",
+      "予測時点",
+      "評価"
     ],
-    "correctLabel": "ア"
+    "syllabusRef": "技術分野-中分類36",
+    "difficulty": "beginner"
   },
   {
     "id": "g-kentei-course-ch7-6",
-    "text": "見かけ上は2つの変数に相関があるように見えても、実際には第三の要因が両方に影響しているだけの状態を何と呼ぶか。",
+    "examId": "g-kentei",
+    "chapterOrder": 7,
+    "field": "technology",
+    "subField": "AIに必要な数理・統計知識",
+    "year": "予想問題",
+    "questionNumber": 6,
+    "text": "アプリの利用者100人のうち30人が機能Aを使い、その30人のうち12人が翌日に再利用しました。機能Aを使った条件での再利用の割合はいくつですか？",
     "choices": [
-      { "label": "ア", "text": "疑似相関" },
-      { "label": "イ", "text": "偏相関係数" },
-      { "label": "ウ", "text": "共分散" },
-      { "label": "エ", "text": "相互情報量" }
+      {
+        "label": "ア",
+        "text": "12％"
+      },
+      {
+        "label": "イ",
+        "text": "30％"
+      },
+      {
+        "label": "ウ",
+        "text": "40％"
+      },
+      {
+        "label": "エ",
+        "text": "70％"
+      }
     ],
-    "correctLabel": "ア"
-  },
-  {
-    "id": "g-kentei-course-ch7-7",
-    "text": "自然現象や測定誤差など、多くのデータが従う釣鐘型の確率分布はどれか。",
-    "choices": [
-      { "label": "ア", "text": "正規分布" },
-      { "label": "イ", "text": "二項分布" },
-      { "label": "ウ", "text": "ポアソン分布" },
-      { "label": "エ", "text": "ベルヌーイ分布" }
+    "correctLabel": "ウ",
+    "explanation": "条件を満たす30人に絞って計算し、そのうちの12人なので12÷30＝40％です。",
+    "keywords": [
+      "条件付き確率",
+      "分母",
+      "利用者"
     ],
-    "correctLabel": "ア"
+    "syllabusRef": "技術分野-中分類37",
+    "difficulty": "beginner"
   },
   {
     "id": "g-kentei-course-ch7-8",
-    "text": "統計的仮説検定において、「差がない」という立場から出発し、データによって棄却できるかどうかを判定する仮説はどれか。",
+    "examId": "g-kentei",
+    "chapterOrder": 7,
+    "field": "technology",
+    "subField": "AIに必要な数理・統計知識",
+    "year": "予想問題",
+    "questionNumber": 8,
+    "text": "改善前と改善後の平均処理時間を比較します。検定の出発点として『二つの母平均に差がない』と置く仮説は何ですか？",
     "choices": [
-      { "label": "ア", "text": "帰無仮説" },
-      { "label": "イ", "text": "対立仮説" },
-      { "label": "ウ", "text": "確率変数" },
-      { "label": "エ", "text": "確率密度" }
+      {
+        "label": "ア",
+        "text": "帰無仮説"
+      },
+      {
+        "label": "イ",
+        "text": "対立仮説"
+      },
+      {
+        "label": "ウ",
+        "text": "最尤法"
+      },
+      {
+        "label": "エ",
+        "text": "相互情報量"
+      }
     ],
-    "correctLabel": "ア"
+    "correctLabel": "ア",
+    "explanation": "この例では差がないという仮説を出発点にして、観測データで棄却できるかを調べます。",
+    "keywords": [
+      "帰無仮説",
+      "対立仮説",
+      "仮説検定"
+    ],
+    "syllabusRef": "技術分野-中分類37",
+    "difficulty": "beginner"
   }
 ]

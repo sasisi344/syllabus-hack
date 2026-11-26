@@ -1,90 +1,150 @@
 [
   {
     "id": "g-kentei-course-ch8-1",
-    "text": "日本の著作権法において、AI開発のための機械学習を目的としたデータ利用（情報解析）に関する規定が置かれている条文はどれか。",
+    "examId": "g-kentei",
+    "chapterOrder": 8,
+    "field": "strategy",
+    "subField": "著作権法",
+    "year": "予想問題",
+    "questionNumber": 1,
+    "text": "既存の著作物を表現の鑑賞のためでなく情報解析のために必要な範囲で利用する場面です。適用条件や権利者の利益への影響を検討する際、関係する日本の著作権法の規定はどれですか？",
     "choices": [
-      { "label": "ア", "text": "著作権法第30条の4" },
-      { "label": "イ", "text": "個人情報保護法第20条" },
-      { "label": "ウ", "text": "不正競争防止法第2条" },
-      { "label": "エ", "text": "特許法第29条" }
+      {
+        "label": "ア",
+        "text": "特許法の新規性"
+      },
+      {
+        "label": "イ",
+        "text": "著作権法第30条の4"
+      },
+      {
+        "label": "ウ",
+        "text": "個人データの第三者提供"
+      },
+      {
+        "label": "エ",
+        "text": "限定提供データ"
+      }
     ],
-    "correctLabel": "ア"
-  },
-  {
-    "id": "g-kentei-course-ch8-2",
-    "text": "EU域内の個人データを扱う場合に適用される可能性がある、日本の個人情報保護法より厳格な規則はどれか。",
-    "choices": [
-      { "label": "ア", "text": "GDPR" },
-      { "label": "イ", "text": "GLUE" },
-      { "label": "ウ", "text": "CRISP-DM" },
-      { "label": "エ", "text": "SaaS" }
+    "correctLabel": "イ",
+    "explanation": "情報解析などの非享受目的の利用に関係する規定です。目的や必要な範囲、権利者の利益を不当に害するかなどで適用を判断します。",
+    "keywords": [
+      "著作権法第30条の4",
+      "著作物",
+      "情報解析"
     ],
-    "correctLabel": "ア"
+    "syllabusRef": "法律・倫理分野-中分類2",
+    "difficulty": "beginner"
   },
   {
     "id": "g-kentei-course-ch8-3",
-    "text": "AI開発は完成責任を事前に約束しづらい不確実性が高い性質を持つため、請負契約より適することが多いとされる契約形態はどれか。",
+    "examId": "g-kentei",
+    "chapterOrder": 8,
+    "field": "strategy",
+    "subField": "AI開発委託契約",
+    "year": "予想問題",
+    "questionNumber": 3,
+    "text": "開発委託で、成果物が完成することよりも、合意した検証業務を適切に行うことを依頼します。何を目的とする契約かで整理したとき、対応する契約類型はどれですか？",
     "choices": [
-      { "label": "ア", "text": "準委任契約" },
-      { "label": "イ", "text": "SaaS型契約" },
-      { "label": "ウ", "text": "秘密保持契約(NDA)のみ" },
-      { "label": "エ", "text": "限定提供データ契約" }
+      {
+        "label": "ア",
+        "text": "準委任契約"
+      },
+      {
+        "label": "イ",
+        "text": "請負契約"
+      },
+      {
+        "label": "ウ",
+        "text": "NDA"
+      },
+      {
+        "label": "エ",
+        "text": "保守契約"
+      }
     ],
-    "correctLabel": "ア"
+    "correctLabel": "ア",
+    "explanation": "準委任では業務の遂行が中心になります。請負は仕事の完成を約束する点に着目します。",
+    "keywords": [
+      "準委任契約",
+      "請負契約",
+      "PoC"
+    ],
+    "syllabusRef": "法律・倫理分野-中分類6",
+    "difficulty": "beginner"
   },
   {
     "id": "g-kentei-course-ch8-4",
-    "text": "AIの学習データに社会的な偏りが含まれることで、予測・判断結果にも偏りが生じてしまう問題を何と呼ぶか。",
+    "examId": "g-kentei",
+    "chapterOrder": 8,
+    "field": "strategy",
+    "subField": "公平性",
+    "year": "予想問題",
+    "questionNumber": 4,
+    "text": "ある属性を入力から除いたのに、その属性と強く結びつく別の変数を使ったため、判断への影響が残りました。この別の変数を何と呼びますか？",
     "choices": [
-      { "label": "ア", "text": "アルゴリズムバイアス" },
-      { "label": "イ", "text": "過学習" },
-      { "label": "ウ", "text": "勾配消失" },
-      { "label": "エ", "text": "次元の呪い" }
+      {
+        "label": "ア",
+        "text": "センシティブ属性"
+      },
+      {
+        "label": "イ",
+        "text": "サンプリングバイアス"
+      },
+      {
+        "label": "ウ",
+        "text": "データの来歴"
+      },
+      {
+        "label": "エ",
+        "text": "代理変数"
+      }
     ],
-    "correctLabel": "ア"
-  },
-  {
-    "id": "g-kentei-course-ch8-5",
-    "text": "経済産業省・総務省が公表している、AI開発者・提供者・利用者それぞれの立場で留意すべき事項をまとめた指針はどれか。",
-    "choices": [
-      { "label": "ア", "text": "AI事業者ガイドライン" },
-      { "label": "イ", "text": "個人情報保護法" },
-      { "label": "ウ", "text": "不正アクセス禁止法" },
-      { "label": "エ", "text": "特定商取引法" }
+    "correctLabel": "エ",
+    "explanation": "元の属性を直接使っていなくても、相関が強い別の入力を通して同様の影響が残ることがあります。",
+    "keywords": [
+      "代理変数",
+      "センシティブ属性",
+      "公平性"
     ],
-    "correctLabel": "ア"
-  },
-  {
-    "id": "g-kentei-course-ch8-6",
-    "text": "実在しない映像・音声を精巧に合成し、悪用されると社会に混乱を招く技術を何と呼ぶか。",
-    "choices": [
-      { "label": "ア", "text": "ディープフェイク" },
-      { "label": "イ", "text": "データ拡張" },
-      { "label": "ウ", "text": "データ汚染" },
-      { "label": "エ", "text": "蒸留" }
-    ],
-    "correctLabel": "ア"
-  },
-  {
-    "id": "g-kentei-course-ch8-7",
-    "text": "AIの判断根拠を人間が理解できる形で説明可能にする技術・概念を何と呼ぶか。",
-    "choices": [
-      { "label": "ア", "text": "説明可能なAI（XAI）" },
-      { "label": "イ", "text": "強いAI" },
-      { "label": "ウ", "text": "エッジAI" },
-      { "label": "エ", "text": "生成AI" }
-    ],
-    "correctLabel": "ア"
+    "syllabusRef": "法律・倫理分野-中分類10",
+    "difficulty": "beginner"
   },
   {
     "id": "g-kentei-course-ch8-8",
-    "text": "AIガバナンスにおいて、問題が起きた際にその原因まで遡って追跡できるようにする実務上の要点を何と呼ぶか。",
+    "examId": "g-kentei",
+    "chapterOrder": 8,
+    "field": "strategy",
+    "subField": "AIガバナンス",
+    "year": "予想問題",
+    "questionNumber": 8,
+    "text": "AIの判定に異議が出た際、当時使った入力、データやモデルの版、承認記録を時系列でたどれるようにしました。確保した性質はどれですか？",
     "choices": [
-      { "label": "ア", "text": "トレーサビリティ" },
-      { "label": "イ", "text": "ダイバーシティ" },
-      { "label": "ウ", "text": "リスクベースアプローチ" },
-      { "label": "エ", "text": "プライバシー・バイ・デザイン" }
+      {
+        "label": "ア",
+        "text": "再現性"
+      },
+      {
+        "label": "イ",
+        "text": "モデルの軽量化"
+      },
+      {
+        "label": "ウ",
+        "text": "トレーサビリティ"
+      },
+      {
+        "label": "エ",
+        "text": "インクルージョン"
+      }
     ],
-    "correctLabel": "ア"
+    "correctLabel": "ウ",
+    "explanation": "判断や変更の経緯を過去の記録からたどれることです。同じ条件を再実行して同じ結果を得られることとは区別します。",
+    "keywords": [
+      "トレーサビリティ",
+      "人間の関与",
+      "記録"
+    ],
+    "syllabusRef": "法律・倫理分野-中分類18",
+    "difficulty": "beginner"
   }
 ]

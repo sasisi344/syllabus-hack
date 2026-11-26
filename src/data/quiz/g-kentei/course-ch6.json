@@ -1,90 +1,150 @@
 [
   {
     "id": "g-kentei-course-ch6-1",
-    "text": "行動価値関数（Q値）をニューラルネットワークで近似する、深層強化学習の代表的な出発点となった手法はどれか。",
+    "examId": "g-kentei",
+    "chapterOrder": 6,
+    "field": "technology",
+    "subField": "深層強化学習",
+    "year": "予想問題",
+    "questionNumber": 1,
+    "text": "四つの行動から選ぶゲームで、現在の画面の情報を入力し、各行動の価値をニューラルネットワークで推定します。代表的な手法はどれですか？",
     "choices": [
-      { "label": "ア", "text": "DQN" },
-      { "label": "イ", "text": "決定木" },
-      { "label": "ウ", "text": "ランダムフォレスト" },
-      { "label": "エ", "text": "k-means法" }
+      {
+        "label": "ア",
+        "text": "PPO"
+      },
+      {
+        "label": "イ",
+        "text": "DQN"
+      },
+      {
+        "label": "ウ",
+        "text": "SHAP"
+      },
+      {
+        "label": "エ",
+        "text": "CLIP"
+      }
     ],
-    "correctLabel": "ア"
-  },
-  {
-    "id": "g-kentei-course-ch6-2",
-    "text": "大規模言語モデルを人間にとって望ましい出力に調整するため、人間のフィードバックを報酬として利用する強化学習の手法はどれか。",
-    "choices": [
-      { "label": "ア", "text": "RLHF" },
-      { "label": "イ", "text": "BPTT" },
-      { "label": "ウ", "text": "CTC" },
-      { "label": "エ", "text": "NAS" }
+    "correctLabel": "イ",
+    "explanation": "DQNは状態から行動価値を推定します。有限の候補を比べて行動を選べます。",
+    "keywords": [
+      "DQN",
+      "深層強化学習",
+      "行動価値"
     ],
-    "correctLabel": "ア"
-  },
-  {
-    "id": "g-kentei-course-ch6-3",
-    "text": "生成器（Generator）と識別器（Discriminator）を競わせながら学習させ、本物らしいデータを生成する手法はどれか。",
-    "choices": [
-      { "label": "ア", "text": "敵対的生成ネットワーク(GAN)" },
-      { "label": "イ", "text": "変分オートエンコーダ(VAE)" },
-      { "label": "ウ", "text": "サポートベクターマシン(SVM)" },
-      { "label": "エ", "text": "決定木" }
-    ],
-    "correctLabel": "ア"
+    "syllabusRef": "技術分野-中分類29",
+    "difficulty": "beginner"
   },
   {
     "id": "g-kentei-course-ch6-4",
-    "text": "元の画像に少しずつノイズを加える過程を学習し、その逆の過程を再現することで新しい画像を生成する、近年主流の生成モデルはどれか。",
+    "examId": "g-kentei",
+    "chapterOrder": 6,
+    "field": "technology",
+    "subField": "データ生成",
+    "year": "予想問題",
+    "questionNumber": 4,
+    "text": "画像の生成で、ノイズの多い入力を少しずつ整え、段階を踏んで新しい画像を得ます。この考え方はどれですか？",
     "choices": [
-      { "label": "ア", "text": "Diffusion Model" },
-      { "label": "イ", "text": "DCGAN" },
-      { "label": "ウ", "text": "ResNet" },
-      { "label": "エ", "text": "LSTM" }
+      {
+        "label": "ア",
+        "text": "Diffusion Model"
+      },
+      {
+        "label": "イ",
+        "text": "DQN"
+      },
+      {
+        "label": "ウ",
+        "text": "Grad-CAM"
+      },
+      {
+        "label": "エ",
+        "text": "Permutation Importance"
+      }
     ],
-    "correctLabel": "ア"
-  },
-  {
-    "id": "g-kentei-course-ch6-5",
-    "text": "既に大規模データで学習済みのモデルを、少量の目的タスク用データで再調整して特定タスクに適応させる手法はどれか。",
-    "choices": [
-      { "label": "ア", "text": "ファインチューニング" },
-      { "label": "イ", "text": "アンサンブル学習" },
-      { "label": "ウ", "text": "正則化" },
-      { "label": "エ", "text": "ドロップアウト" }
+    "correctLabel": "ア",
+    "explanation": "拡散モデルは、ノイズを段階的に除く方向を学習し、生成に利用します。",
+    "keywords": [
+      "Diffusion Model",
+      "画像生成",
+      "ノイズ"
     ],
-    "correctLabel": "ア"
+    "syllabusRef": "技術分野-中分類30",
+    "difficulty": "beginner"
   },
   {
     "id": "g-kentei-course-ch6-6",
-    "text": "転移学習・ファインチューニングにおいて、新しいタスクに適応させる過程で元のタスクで学習した知識を忘れてしまう現象を何と呼ぶか。",
+    "examId": "g-kentei",
+    "chapterOrder": 6,
+    "field": "technology",
+    "subField": "転移学習・ファインチューニング",
+    "year": "予想問題",
+    "questionNumber": 6,
+    "text": "既存モデルを新しい分類課題に合わせて調整すると、新課題では成績が上がった一方、以前の分類が大きく悪化しました。何を疑いますか？",
     "choices": [
-      { "label": "ア", "text": "破滅的忘却" },
-      { "label": "イ", "text": "勾配消失問題" },
-      { "label": "ウ", "text": "過学習" },
-      { "label": "エ", "text": "次元の呪い" }
+      {
+        "label": "ア",
+        "text": "データリーケージ"
+      },
+      {
+        "label": "イ",
+        "text": "量子化"
+      },
+      {
+        "label": "ウ",
+        "text": "破滅的忘却"
+      },
+      {
+        "label": "エ",
+        "text": "報酬成形"
+      }
     ],
-    "correctLabel": "ア"
-  },
-  {
-    "id": "g-kentei-course-ch6-7",
-    "text": "画像分類において、モデルがどの領域に着目して判断したかをヒートマップで可視化する、説明可能AI(XAI)の代表的な手法はどれか。",
-    "choices": [
-      { "label": "ア", "text": "Grad-CAM" },
-      { "label": "イ", "text": "ドロップアウト" },
-      { "label": "ウ", "text": "k-分割交差検証" },
-      { "label": "エ", "text": "早期終了" }
+    "correctLabel": "ウ",
+    "explanation": "新しい課題への追加学習で、以前の課題に必要な能力が失われる事態です。",
+    "keywords": [
+      "破滅的忘却",
+      "事前学習済みモデル",
+      "転移学習"
     ],
-    "correctLabel": "ア"
+    "syllabusRef": "技術分野-中分類31",
+    "difficulty": "beginner"
   },
   {
     "id": "g-kentei-course-ch6-8",
-    "text": "大きな学習済みモデル（教師モデル）の知識を、小さなモデル（生徒モデル）に転移させるモデル軽量化の手法はどれか。",
+    "examId": "g-kentei",
+    "chapterOrder": 6,
+    "field": "technology",
+    "subField": "モデルの軽量化",
+    "year": "予想問題",
+    "questionNumber": 8,
+    "text": "大きなモデルの出力を手がかりにして、端末で動く小さな別モデルを学ばせます。この方法はどれですか？",
     "choices": [
-      { "label": "ア", "text": "蒸留" },
-      { "label": "イ", "text": "プルーニング" },
-      { "label": "ウ", "text": "量子化" },
-      { "label": "エ", "text": "正則化" }
+      {
+        "label": "ア",
+        "text": "プルーニング"
+      },
+      {
+        "label": "イ",
+        "text": "量子化"
+      },
+      {
+        "label": "ウ",
+        "text": "CAM"
+      },
+      {
+        "label": "エ",
+        "text": "蒸留"
+      }
     ],
-    "correctLabel": "ア"
+    "correctLabel": "エ",
+    "explanation": "蒸留は、教師モデルの出力などを生徒モデルの学習に利用します。",
+    "keywords": [
+      "蒸留",
+      "モデル圧縮",
+      "エッジAI"
+    ],
+    "syllabusRef": "技術分野-中分類34",
+    "difficulty": "beginner"
   }
 ]

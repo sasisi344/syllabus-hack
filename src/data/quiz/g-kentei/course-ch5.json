@@ -1,90 +1,150 @@
 [
   {
-    "id": "g-kentei-course-ch5-1",
-    "text": "画像内の物体の位置とクラスの両方を検出するタスクの名称として適切なものはどれか。",
-    "choices": [
-      { "label": "ア", "text": "物体検出" },
-      { "label": "イ", "text": "一般物体認識" },
-      { "label": "ウ", "text": "セマンティックセグメンテーション" },
-      { "label": "エ", "text": "姿勢推定" }
-    ],
-    "correctLabel": "ア"
-  },
-  {
     "id": "g-kentei-course-ch5-2",
-    "text": "画像全体を一度に処理して高速に物体検出を行う1段階方式の代表的なモデルはどれか。",
+    "examId": "g-kentei",
+    "chapterOrder": 5,
+    "field": "technology",
+    "subField": "画像認識",
+    "year": "予想問題",
+    "questionNumber": 2,
+    "text": "候補領域を切り出す独立の段階を設けず、画像から直接、物体の種類と枠を推定する代表的な方式はどれですか？",
     "choices": [
-      { "label": "ア", "text": "YOLO" },
-      { "label": "イ", "text": "Faster R-CNN" },
-      { "label": "ウ", "text": "Mask R-CNN" },
-      { "label": "エ", "text": "UNet" }
+      {
+        "label": "ア",
+        "text": "Mask R-CNN"
+      },
+      {
+        "label": "イ",
+        "text": "UNet"
+      },
+      {
+        "label": "ウ",
+        "text": "YOLO"
+      },
+      {
+        "label": "エ",
+        "text": "Open Pose"
+      }
     ],
-    "correctLabel": "ア"
+    "correctLabel": "ウ",
+    "explanation": "YOLOは一段階の物体検出方式です。UNetは画素単位の区分、Open Poseは姿勢推定に使われます。",
+    "keywords": [
+      "YOLO",
+      "物体検出",
+      "一段階方式"
+    ],
+    "syllabusRef": "技術分野-中分類26",
+    "difficulty": "beginner"
   },
   {
     "id": "g-kentei-course-ch5-3",
-    "text": "画像を画素単位でカテゴリ分けし、同じカテゴリでも個体ごとに領域を分けるセグメンテーションタスクはどれか。",
+    "examId": "g-kentei",
+    "chapterOrder": 5,
+    "field": "technology",
+    "subField": "画像認識",
+    "year": "予想問題",
+    "questionNumber": 3,
+    "text": "画素単位の出力が必要で、同じ種類の果実が重なっている場合でも一個ずつ区別したいとします。どのタスクですか？",
     "choices": [
-      { "label": "ア", "text": "インスタンスセグメンテーション" },
-      { "label": "イ", "text": "物体識別" },
-      { "label": "ウ", "text": "一般物体認識" },
-      { "label": "エ", "text": "姿勢推定" }
+      {
+        "label": "ア",
+        "text": "セマンティックセグメンテーション"
+      },
+      {
+        "label": "イ",
+        "text": "インスタンスセグメンテーション"
+      },
+      {
+        "label": "ウ",
+        "text": "物体識別"
+      },
+      {
+        "label": "エ",
+        "text": "姿勢推定"
+      }
     ],
-    "correctLabel": "ア"
-  },
-  {
-    "id": "g-kentei-course-ch5-4",
-    "text": "単語や文章を、意味的な関係性を保ったまま数値ベクトルに変換する技術を何と呼ぶか。",
-    "choices": [
-      { "label": "ア", "text": "単語埋め込み（分散表現）" },
-      { "label": "イ", "text": "ワンホットベクトル" },
-      { "label": "ウ", "text": "形態素解析" },
-      { "label": "エ", "text": "構文解析" }
+    "correctLabel": "イ",
+    "explanation": "画素を割り当てるだけでなく、同種の物体を個体ごとに分けます。",
+    "keywords": [
+      "インスタンスセグメンテーション",
+      "個体",
+      "画素"
     ],
-    "correctLabel": "ア"
+    "syllabusRef": "技術分野-中分類26",
+    "difficulty": "beginner"
   },
   {
     "id": "g-kentei-course-ch5-5",
-    "text": "Transformerを応用し、文章の前後両方向の文脈を同時に読み込んで単語の意味を捉える代表的な自然言語処理モデルはどれか。",
+    "examId": "g-kentei",
+    "chapterOrder": 5,
+    "field": "technology",
+    "subField": "自然言語処理",
+    "year": "予想問題",
+    "questionNumber": 5,
+    "text": "『橋を渡る』と『箸を使う』のように語の前後を参照して、文章中での意味を表したいとします。前後の文脈を使う代表的なモデルはどれですか？",
     "choices": [
-      { "label": "ア", "text": "BERT" },
-      { "label": "イ", "text": "word2vec" },
-      { "label": "ウ", "text": "TF-IDF" },
-      { "label": "エ", "text": "n-gram" }
+      {
+        "label": "ア",
+        "text": "BERT"
+      },
+      {
+        "label": "イ",
+        "text": "BoW(Bag-of-Words)"
+      },
+      {
+        "label": "ウ",
+        "text": "TF-IDF"
+      },
+      {
+        "label": "エ",
+        "text": "WaveNet"
+      }
     ],
-    "correctLabel": "ア"
-  },
-  {
-    "id": "g-kentei-course-ch5-6",
-    "text": "音声データを文字列に変換する技術の名称はどれか。",
-    "choices": [
-      { "label": "ア", "text": "音声認識" },
-      { "label": "イ", "text": "音声合成" },
-      { "label": "ウ", "text": "話者識別" },
-      { "label": "エ", "text": "感情分析" }
+    "correctLabel": "ア",
+    "explanation": "BERTは前後の文脈を利用します。語の頻度に基づく方式とは目的に使える情報が異なります。",
+    "keywords": [
+      "BERT",
+      "文脈",
+      "自然言語処理"
     ],
-    "correctLabel": "ア"
+    "syllabusRef": "技術分野-中分類27",
+    "difficulty": "beginner"
   },
   {
     "id": "g-kentei-course-ch5-7",
-    "text": "人間の聴覚特性に基づくメル尺度で調整され、音声認識モデルへの入力特徴量として広く使われるものはどれか。",
+    "examId": "g-kentei",
+    "chapterOrder": 5,
+    "field": "technology",
+    "subField": "音声処理",
+    "year": "予想問題",
+    "questionNumber": 7,
+    "text": "音声認識用に、人の聴覚を考慮した尺度でスペクトル包絡の特徴を表したいとします。どの特徴量ですか？",
     "choices": [
-      { "label": "ア", "text": "メル周波数ケプストラム係数(MFCC)" },
-      { "label": "イ", "text": "パルス符号変調器(PCM)" },
-      { "label": "ウ", "text": "隠れマルコフモデル" },
-      { "label": "エ", "text": "CTC" }
+      {
+        "label": "ア",
+        "text": "n-gram"
+      },
+      {
+        "label": "イ",
+        "text": "TF-IDF"
+      },
+      {
+        "label": "ウ",
+        "text": "パルス符号変調器(PCM)"
+      },
+      {
+        "label": "エ",
+        "text": "メル周波数ケプストラム係数(MFCC)"
+      }
     ],
-    "correctLabel": "ア"
-  },
-  {
-    "id": "g-kentei-course-ch5-8",
-    "text": "第4章で学んだスキップ結合を導入し、非常に深い層の学習を可能にした画像分類モデルはどれか。",
-    "choices": [
-      { "label": "ア", "text": "ResNet" },
-      { "label": "イ", "text": "word2vec" },
-      { "label": "ウ", "text": "WaveNet" },
-      { "label": "エ", "text": "Open Pose" }
+    "correctLabel": "エ",
+    "explanation": "MFCCは、聴覚に近いメル尺度を使ってスペクトル包絡の特徴を表します。",
+    "keywords": [
+      "メル周波数ケプストラム係数(MFCC)",
+      "メル尺度",
+      "音声認識"
     ],
-    "correctLabel": "ア"
+    "syllabusRef": "技術分野-中分類28",
+    "difficulty": "beginner"
   }
 ]

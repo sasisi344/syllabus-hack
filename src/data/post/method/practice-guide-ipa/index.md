@@ -2,7 +2,7 @@
 title: 'IPA試験のAI勉強法まとめ｜学習の段階と試験区分から、読む記事を選ぶ'
 image: ~/data/post/method/common-cover.png
 publishDate: 2026-03-10T00:00:00Z
-lastmod: 2026-10-30
+lastmod: 2026-11-26
 category: method
 toc: true
 tags: ['学習法', 'ChatGPT', 'Claude', 'Gemini', 'NotebookLM']
@@ -11,7 +11,7 @@ knowledge:
   type: method
   difficulty: beginner
 metadata:
-  description: 'ITパスポートから応用情報まで、IPA試験の勉強に生成AIをどう使うかを、学習の段階と試験区分から探せるまとめ。全体像の把握、用語の理解、問題の自作、間違いの分析、直前期まで、サイト内の記事へ案内します。'
+  description: 'IPAの資格を生成AIで勉強するとき、全体像の把握、用語の理解、演習、間違いの分析、試験直前の五つの段階から教材を選べます。ITパスポート、基本情報、情報セキュリティマネジメント、応用情報・高度試験の入口と、AIの答えを公式資料で確かめる手順も紹介します。'
 ---
 
 生成AIで資格の勉強をしたいけれど、サイトの記事が多くて、どれから読めばよいか分からない。そんな人のための、入口になる記事です。
@@ -33,6 +33,14 @@ AIは、問題を大量に出す道具としてではなく、<strong>理解を�
 
 ## 学習の段階別に、読む記事を選ぶ
 
+```mermaid
+flowchart TD
+  A["全体像：シラバスハックの学習メソッド一覧"] --> B["用語：ストラテジ系をAIのたとえ話で理解する"]
+  B --> C["問題演習：ITパスポート分野別ドリル"]
+  C --> D["間違い：資格の間違いノートをAIで分析する"]
+  D --> E["直前期：資格試験の直前10日の過ごし方"]
+```
+
 ### 段階1：全体像をつかむ
 
 何から手をつけるかを決める段階です。
@@ -40,6 +48,8 @@ AIは、問題を大量に出す道具としてではなく、<strong>理解を�
 - [シラバスハックの学習メソッド一覧](/method/guide/)：サイト全体の地図。目的別に記事を探せる
 - [なぜシラバスハックは「20時間学習法」を採用しているのか](/method/20hours-method-reason/)：学習の進め方の考え方
 - [ITパスポート 20時間コース](/course/ip/)：全体像をつかむための無料のコース
+
+仕事との両立から考える人は、[AIをメンターにする学習ロードマップ](/method/ai-mentor-study-method-roadmap/)から順番を決められます。受験する試験の範囲を確認するときは、[シラバスの更新を追う仕組み](/method/syllabus-diff-hack/)も役立ちます。
 
 ### 段階2：用語を理解する
 
@@ -81,8 +91,10 @@ AIは、問題を大量に出す道具としてではなく、<strong>理解を�
 | ITパスポート | [ITパスポート 合格ロードマップ](/method/itp-hub/) | [生成AIをコーチにしてITパスポートに合格するには](/method/chatgpt-itpassport-ai-complete-guide/) |
 | 基本情報技術者 | [基本情報技術者試験 合格ロードマップ](/method/fe-hub/) | [FE科目Bを生成AIで攻略するプロンプト集](/method/fe-subject-b-ai-prompt-hub/) |
 | 情報セキュリティマネジメント | [情報セキュリティマネジメント試験（SG）合格ロードマップ](/method/sg-hub/) | [科目B対策のインシデント対応3事例](/app/sg-subject-b-quiz/) |
-| 応用情報・高度試験 | [IPA資格の高難易度対策](/method/advanced-ipa-hub/) | [応用情報の午後・記述式をAIで対策するプロンプト集](/method/ap-pm-descriptive-ai-prompts/) |
+| 応用情報・高度試験 | [IPA資格の高難易度対策](/method/advanced-ipa-hub/) | [応用情報の科目B（旧午後）・記述式をAIで対策するプロンプト集](/method/ap-pm-descriptive-ai-prompts/) |
 | 2027年からの新試験 | [新IPA試験の勉強法](/method/new-ipa-exam-study-strategy/) | 上の各区分の記事を併用 |
+
+2026年11月時点の[IPAの案内](https://www.ipa.go.jp/shiken/2026/cbt-202701-yotei.html)では、ITパスポート・情報セキュリティマネジメント・基本情報は2026年12月28日から一時休止し、2027年1月下旬に再開予定です。年内に受ける場合は12月27日までに受験してください。
 
 生成AIの使い方を試験別のプロンプトで知りたい人は、[GeminiでIT資格試験を勉強する方法](/method/gemini-cert-complete/)も参考になります。
 
