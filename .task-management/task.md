@@ -40,7 +40,7 @@
 | T-45 | 時期待ち | 3 | S | 生成AI実務練習コース・Gemini コラムの見直し（主軸KWの再実査、Workspace・教育機関の Gem 移行の注記） | Claude | 2027-03 | 再開 2027-03 | 旧schedule | — |
 | T-46 | 時期待ち | 3 | S | 令和9年度の土木施工管理技術検定の日程を `doboku-sekou-hub` に反映する（公表後） | Codex | 公表後 | — | 旧TODO | — |
 | T-47 | 時期待ち | 3 | M | 生成AIパスポート 新シラバス初回試験（2027-02）の後に、コース・問題を見直す | 両方 | 2027-03 | 再開 2027-03 | 旧TODO | — |
-| T-49 | 時期待ち | 2 | L | マーケティング基礎講座 第5〜8章・事前チェック・総復習・コースTOP（draft） | Codex | 11/27 | 再開 11/20 | hq:H-26 | T-30 |
+| T-49 | 着手可 | 2 | L | マーケティング基礎講座 第5〜8章・事前チェック・総復習・コースTOP（draft）。アウトライン5本は 11/27 作成済み、次は指示書を書いて Codex へ | Codex | 12/05 | 変更 11/27 | hq:H-26 | T-30 |
 | T-50 | 時期待ち | 3 | L | マーケティング ①物を売るコピーライティング コースの設計と本文 | 両方 | 2026-12 | 再開 2026-12 | ユーザー | T-49 |
 | T-51 | 時期待ち | 3 | L | マーケティング ②市場を創る構想力 コースの設計と本文 | 両方 | 2027-01 | 再開 2027-01 | ユーザー | T-50 |
 | T-52 | 時期待ち | 3 | L | マーケティング ③リサーチからはじめて戦略的に売り込む コースの設計と本文 | 両方 | 2027-02 | 再開 2027-02 | ユーザー | T-51 |
@@ -52,6 +52,7 @@
 | T-64 | 進行中 | 1 | M | 2027年度 IPA 新試験の対策一覧 hub 記事（11/14 に検収・公開、2f4f709。残りは AI_EXAMPLE 2個） | ユーザー | 11/30 | — | ユーザー | T-63 |
 | T-65 | 完了 | 1 | S | コースTOP 2本を GSC の URL 検査で「インデックス登録をリクエスト」（`/course/pd-d/`・`/course/genai-pass/`。TOP だけ） | Claude | 11/15 | 11/15 リクエスト済み・IndexNow 送信済み | ユーザー | T-63・T-25 |
 | T-66 | 完了 | 1 | M | `trend/ipa-2027-restructuring` を新試験制度の最新情報にリライト（8区分の扱い・数字を IPA で確認、コースへの導線、FE はコース準備中と明記） | Codex | 11/16 | 11/15 公開（373a94e）・本番確認・IndexNow 送信済み | ユーザー | T-64・T-26 |
+| T-67 | 着手可 | 2 | M | 11/27 にユーザーが Codex へ直接頼んだ下書きの検収（_inbox の記事候補23件のアウトライン、完成稿4本: 生成AIパスポートの採用・配属／会社の資格取得支援の相談文／秘書の日程調整／プロンプト練習問題）。新規記事は draft で、公開は審査結果の後 | Claude | 12/05 | — | ユーザー | — |
 
 ## 本文
 
@@ -176,6 +177,7 @@
 - 2026-11-19: T-30 検収合格（`.workspace/admin-review/2026-11-19-T-30.md`、ビルド成功・全ページ draft）。本文はブランチ `t30-marketing-ch1-4` にあり、main への取り込み（deploy が走る）はユーザーの承認待ち。LEARNER_NOTE 6個（第2章の exp を含む）は筆者の記入待ち
 - 2026-11-27: 筆者が Notion のタスク欄に書いたメモ6つを、第1〜4章の LEARNER_NOTE に反映（think 5・exp 1。意味を変えずにですます調へ整えた）。第3章の欄は候補「アンカリングとフレーミングの違い」とは別の、LP の言い回しの繰り返しについての感想をそのまま使った。T-30 完了。全ページ draft のまま
 - 2026-11-20: ユーザー承認のうえ main に取り込み（074e37c、C07 と同じ push・deploy 44637624070）。全ページ draft のまま。残りは LEARNER_NOTE 6個の記入（T-49 と一緒に 11/27 まで）
+- 2026-11-27: T-49 のアウトライン5本を作成（CC）: `.workspace/codex/outlines/2026-11-27-T-49-ch5.md`〜`ch8.md`・`2026-11-27-T-49-top.md`（コースTOP・事前チェック16問・総復習20問）。第5〜8章の title は T-48a の章タイトル案で CC が決定。ステマ規制（消費者庁）と GA4 デモアカウント（Google ヘルプ）は 11/27 に CC がページで確認。「広告」「PR」の表記の付け方は運用基準を未読なので、書き手が確かめる指定。次は指示書（`order-base.md` の常設部＋5本のアウトライン）を書いて Codex へ
 - 筆者の失敗談（第2章の `[!exp]`）は筆者が記入する。下書きには LEARNER_NOTE だけ置く
 - 知識×経験の4ルート: T-48 のスキャフォールドで `ChapterQuiz` を拡張する（設計は `20hours-course-template.md` §1-1 の末尾。資格コースの3ルートは T-53 で実装済み）
 
@@ -209,6 +211,7 @@
 ### T-36 日商PC検定のドラフト
 
 - `.workspace/draft/career-nissho-pc-kentei-imi-nai.md`。LEARNER_NOTE 3か所（筆者）、FACT_CHECK 2か所（職業訓練の案内・資格名の正式表記）、知恵袋の投稿の確認 → `/check-draft` → `/publish-post`。公開は審査結果の後
+- 2026-11-27: ユーザーの依頼で Codex がリード文を悩みの問いかけに直した（報告 `.workspace/codex/reports/2026-11-27-nissho-pc-lead.md`）。LEARNER_NOTE・FACT_CHECK は残ったまま
 
 ### T-37 筆者の判断待ちの小項目
 
@@ -304,3 +307,9 @@
 - 指示書: `.workspace/codex/orders/2026-11-14-T-66-restructuring.md`
 - 2026-11-15: Codex がリライト、CC が検収（`.workspace/admin-review/2026-11-15-T-66.md`。IPA と15件照合で全件一致、冒頭の余分な横線を削除）。ユーザー承認のうえ公開（373a94e、deploy 43661549520 成功）。本番: 200・noindex なし・canonical 正・新タイトル。IndexNow 200。筆者メモは削除されていたため使っていない
 - 完了条件: CC が検収し、ユーザーの承認後に main へ取り込む（deploy が走る）
+
+### T-67 11/27 の Codex 直接依頼の下書き（2026-11-27 起票）
+
+- ユーザーが hq を通さず Codex に頼んだ作業。報告書: `.workspace/codex/reports/2026-11-27-inbox-article-candidates.md`（アウトライン候補23件 `.workspace/codex/outlines/2026-11-27-inbox-article-candidates.md`、競合の確認 `2026-11-27-inbox-competitor-review.md`）、`2026-11-27-inbox-draft-manuscripts.md`（完成稿3本）、`2026-11-27-prompt-practice-manuscript.md`（プロンプト練習問題。筆者が課題を AI で実行して確かめる LEARNER_NOTE 2つが残る。cover は `src/data/post/method/prompt-writing-practice-problems/cover.jpg`）
+- 検収: site-admin の手順で事実・規約・4観点を見て、公開可なら `src/data/post/` へ移す（draft のまま）。候補23件はどれを起票するかをユーザーと決める
+- 同じ日に、画像生成の標準手段を Codex の組み込み `image_gen` に改めた（ユーザーの依頼。`CLAUDE.md`・`AGENTS.md`・`.agents/image_rules.md`・`image-style.md`、報告 `2026-11-27-imagegen-rule-update.md`）。API スクリプトはユーザーが明示したときだけ
