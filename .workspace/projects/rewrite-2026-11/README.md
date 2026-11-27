@@ -65,7 +65,7 @@
 |---|---|
 | 出典 | 変わりうる事実（日程・受験料・合格率・出題数・制度・法令・統計）の直後に、一次情報（IPA・試験団体・省庁・法令）へのリンク。確認日を報告書に書く。まとめサイト・ブログは出典にしない。確かめられない事実は書かない |
 | 判断の基準 | 「どちらを選ぶか」「何から始めるか」に、条件ごとの答え（表か箇条書き）を置く。一般論で終わらせない |
-| 図 | 手順・順番・構成（要素4つ以上がつながる）は Mermaid（` ```mermaid `、`.md` でも描画される）。ハブは取得までのルート図。1記事1枚まで。Mermaid にできない図は画像マーカー（`hq/org/README.md` §4） |
+| 図 | 手順・順番・構成（要素4つ以上がつながる）は Mermaid（` ```mermaid `、`.md` でも描画される）。ハブは取得までのルート図。1記事1枚まで。Mermaid にできない図は画像マーカー（`hq/.workspace/task/org/README.md` §4） |
 | AIの実行例 | **載せない**（2026-11-15 ユーザー決定。`CLAUDE.md`「学習体験の共有ルール」）。AI 活用はプロンプト例を示すまで。`AI_EXAMPLE` マーカーは置かず、直す記事にマーカーが残っていたら消す。**すでにある「〇〇で実行した結果」の節は筆者の実行記録なので、中身を変えない・消さない**（ウェーブA で置き換えた例があった） |
 | 筆者の体験 | Codex は書かない。体験が合う箇所に `<!-- LEARNER_NOTE: 候補=… / 種類=exp・think・question / 筆者の実体験で記入 -->` を置くだけ。置けるのは `src/data/author-exam-status.ts` で受験・学習・実務の記録がある資格だけ。1つの H2 に最大1個、記事で0〜2個 |
 
@@ -97,10 +97,10 @@
 
 ---
 
-## 3. 流れ（`hq/org/README.md` §2）
+## 3. 流れ（`hq/.workspace/task/org/README.md` §2）
 
 1. CC: `python .workspace/projects/rewrite-2026-11/plan.py orders --wave A --date YYYY-MM-DD` で指示書を作る（`.workspace/codex/orders/`）。GSC のクエリなど、記事ごとの補足は作った指示書に手で足す
-2. CC: Codex に渡す（`hq/org/README.md` §3。10本の指示書は `--background`）
+2. CC: Codex に渡す（`hq/.workspace/task/org/README.md` §3。10本の指示書は `--background`）
 3. Codex: 記事を直し、報告書 `.workspace/codex/reports/` を書く。1本終えるごとに報告書へその記事の行を足す（利用上限で止まっても、終わった分を CC が検収できるように）。ビルドは `--outDir .workspace/tmp/<指示書ID>-dist`
 4. CC: 検収（`344blog/.claude/skills/site-admin` の手順、`/check-draft`、`pnpm build`）。差し戻しは同じスレッドで（2回まで）。Codex はサンドボックスでビルドできないことがある（ウェーブB）ので、**ビルドと Mermaid・ツールの表示確認は CC がする**。複数の指示書を同時に出したときは、inbox の ID がぶつかっていないかを最後に確かめる
 5. CC: `progress.md` を更新。LEARNER_NOTE の一覧を T-15 の本文と記入リスト（`.workspace/_inbox/`）に足す（ユーザーの作業）

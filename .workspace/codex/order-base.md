@@ -1,6 +1,6 @@
 # 指示書の常設部（シラバスハック）
 
-作成: 2026-11-16（CC）。書き手は**指示書の次に、毎回これを開く**。記事の書き手は Codex または CC のサブエージェント（`C:\Users\sasis\344blog\hq\org\writer.md`）。CC のサブエージェントが書くときは、この文書の「Codex」を書き手と読み替える
+作成: 2026-11-16（CC）。書き手は**指示書の次に、毎回これを開く**。記事の書き手は Codex または CC のサブエージェント（`C:\Users\sasis\344blog\hq\.workspace\task\org\writer.md`）。CC のサブエージェントが書くときは、この文書の「Codex」を書き手と読み替える
 
 これまで指示書ごとに書いていた「読むルール」「完了条件」「禁止事項」「検収で直したこと」のうち、毎回同じ部分をここに集めた。指示書には、その回だけのこと（対象・材料・その回の指定）だけが書いてある。
 
@@ -15,7 +15,7 @@
 
 ### 全種別で読む
 
-- `C:\Users\sasis\344blog\hq\org\codex-worker.md`
+- `C:\Users\sasis\344blog\hq\.workspace\task\org\codex-worker.md`
 - `AGENTS.md` と、この文書
 - `CLAUDE.md`「学習体験の共有ルール」「必須ルール」
 

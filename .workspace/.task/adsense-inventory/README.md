@@ -1,6 +1,6 @@
 # AdSense 再申請に向けた棚卸し（2026-10-27）
 
-AdSense に3回不合格（「有用性の低いコンテンツ」）。11/15 の再申請に向けて、**記事ごとの扱い**と、**どの記事に何を足すか（リッチ要素の判定基準）**を整理した。hq 側の計画は [`hq/adsense-redesign.md`](../../../../hq/adsense-redesign.md) §3、進捗は hq `backlog.md` H-22〜H-25。
+AdSense に3回不合格（「有用性の低いコンテンツ」）。11/15 の再申請に向けて、**記事ごとの扱い**と、**どの記事に何を足すか（リッチ要素の判定基準）**を整理した。hq 側の計画は [`hq/.workspace/kpi/adsense-redesign.md`](../../../../hq/.workspace/kpi/adsense-redesign.md) §3、進捗は hq `backlog.md` H-22〜H-25。
 
 | ファイル | 中身 |
 |---|---|

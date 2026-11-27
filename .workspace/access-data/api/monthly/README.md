@@ -1,6 +1,6 @@
 # API の月次データ（GA4・GSC の正本）
 
-2026-11-01 から、GA4・GSC の月次はこのフォルダのデータを正本にする（hq:H-30〜H-32）。取り方と項目は `hq/tools/analytics-fetch/README.md`・`monthly.json`。
+2026-11-01 から、GA4・GSC の月次はこのフォルダのデータを正本にする（hq:H-30〜H-32）。取り方と項目は `hq/.workspace/seo/tools/analytics-fetch/README.md`・`monthly.json`。
 
 - 置き場: `{YYYY}/m{MM}/`。各フォルダの `meta.json` に期間・表ごとの条件・行数・取得日時がある
 - GA4 は翌月1日以降、GSC は翌月4日以降に取る（GSC の直近2〜3日は未確定）

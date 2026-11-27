@@ -113,7 +113,7 @@
 
 ### T-16 画像の段階B
 
-- 検収済みの記事の「画像計画」（報告書）を材料に、サムネイルと説明画像をまとめて作る（`hq/org/README.md` §4、`.workspace/codex/image-style.md`）
+- 検収済みの記事の「画像計画」（報告書）を材料に、サムネイルと説明画像をまとめて作る（`hq/.workspace/task/org/README.md` §4、`.workspace/codex/image-style.md`）
 - 生成はユーザーの指示があるときだけ。指示があれば CC が指示書の「画像」欄に許可を書く。theory は共通カバー
 - 生成AI実務練習コースのコラム2本、日商PC検定の記事のカバーもここに含める
 
@@ -189,7 +189,7 @@
 
 ### T-32 月次取得への切り替え
 
-- hq の原則は月次取得（`hq/export-spec.md`）。このサイトは週次（w41・w42）のまま。暦月で取る取得仕様を `.workspace/.task/access-data/export-spec.md` に書き（T-44 で `.workspace/access-data/` へ移す）、`/weekly-report` を月次の分析に合わせる（防音Lab・生ごみ手帖の移行を参考に）
+- hq の原則は月次取得（`hq/.workspace/seo/export-spec.md`）。このサイトは週次（w41・w42）のまま。暦月で取る取得仕様を `.workspace/.task/access-data/export-spec.md` に書き（T-44 で `.workspace/access-data/` へ移す）、`/weekly-report` を月次の分析に合わせる（防音Lab・生ごみ手帖の移行を参考に）
 - m11 の取得（12/02〜03）から月次にする
 
 ### T-33 Gemini の Gem → スキル
@@ -228,7 +228,7 @@
 
 ### T-44 作業層の移行
 
-- `.workspace/.task/` に残っている access-data（`/weekly-report` が参照）・adsense-inventory・course-seat-notes・exam-id-catalog ほかを、標準（`hq/task-control/standard.md` §6）の場所へ移す。参照の書き換えは `rewrite-links.mjs`
+- `.workspace/.task/` に残っている access-data（`/weekly-report` が参照）・adsense-inventory・course-seat-notes・exam-id-catalog ほかを、標準（`hq/.workspace/task/standard.md` §6）の場所へ移す。参照の書き換えは `rewrite-links.mjs`
 - 審査と11月の作業が終わってから（コマンドが参照するパスを動かすため）
 
 ### T-45〜T-47 時期待ち

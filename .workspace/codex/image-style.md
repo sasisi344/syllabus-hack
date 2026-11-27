@@ -1,6 +1,6 @@
 # シラバスハック — 画像のトーンとキャラクター性
 
-作成: 2026-10-30（CC。既存のルールをまとめた案。ユーザー確認待ちの項目は §6）。画像の流れは `C:\Users\sasis\344blog\hq\org\README.md` §4。
+作成: 2026-10-30（CC。既存のルールをまとめた案。ユーザー確認待ちの項目は §6）。画像の流れは `C:\Users\sasis\344blog\hq\.workspace\task\org\README.md` §4。
 
 ## 1. 絵の人格（キャラクター性）
 
@@ -31,11 +31,14 @@
 
 - サムネイル: `.agents/image_rules.md` §4 のスタイル修飾子とネガティブプロンプトを必ず付ける
 - 説明画像: `Minimalist pictogram diagram, flat design, white icons on deep navy background, terminal green accents: <何を>. Labels in Japanese only where listed: <文言>. No photos, no faces, no clutter.`
-- 既存の `<!-- IMAGE_PROMPT: … -->` は、記事の段階では画像マーカー（`hq/org/README.md` §4）に置き換える
+- 既存の `<!-- IMAGE_PROMPT: … -->` は、記事の段階では画像マーカー（`hq/.workspace/task/org/README.md` §4）に置き換える
 
-## 5. 生成（サムネイルの段階だけ）
+## 5. 生成（Codexを標準手段とする）
 
-`node .workspace/scripts/Antigravity-nanobana/generate-image.js "<prompt>" "src/data/post/{category}/{slug}/cover.jpg"`（`CLAUDE.md`「画像生成ルール」）。
+- サムネイル・説明画像は Codex の組み込み画像生成 `image_gen` で作成する。APIスクリプトは標準手段にしない。
+- 生成結果を記事の Page Bundle にコピーし、記事の参照先と一致させる。サムネイルは原則 `cover.jpg`。
+- Codex の画像生成が利用できない、または失敗した場合は自動でAPIスクリプトへ切り替えない。実行するのはユーザーが明示的に指定したときだけ。
+- 既存の `node .workspace/scripts/Antigravity-nanobana/generate-image.js` は、ユーザーから明示的に指定された場合に限る。
 
 ## 6. 未決（ユーザー確認）
 

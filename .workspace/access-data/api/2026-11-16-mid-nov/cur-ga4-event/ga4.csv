@@ -1,0 +1,14 @@
+﻿eventName,eventCount,totalUsers
+page_view,755,432
+course_complete,697,388
+chapter_complete,695,386
+session_start,499,432
+first_visit,423,423
+user_engagement,358,306
+scroll,83,70
+click,11,10
+quiz_start,7,3
+quiz_complete,3,1
+route_assigned,3,1
+file_download,1,1
+form_start,1,1

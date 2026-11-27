@@ -21,7 +21,7 @@
 
 **隣の席で学ぶ、AIと資格学習（短縮形: 隣の席の、AI資格学習）**
 
-記事を作るか・どう書くかで迷ったら、この一言に照らす。正本は `344blog/hq/brand-mantra.md`（変えるときは hq を直してから、ここへ写す）。
+記事を作るか・どう書くかで迷ったら、この一言に照らす。正本は `344blog/hq/.workspace/task/brand-mantra.md`（変えるときは hq を直してから、ここへ写す）。
 
 | 要素 | 内容 |
 |---|---|
@@ -283,14 +283,17 @@ src/data/post/{category}/{slug}/
 
 ## 画像生成ルール
 
-- **禁止**: Claude Code の組み込みツールでの直接生成（`generate_image` 等）は使用禁止
-- **必須手順**: `.workspace/scripts/Antigravity-nanobana/generate-image.js` を `node` で実行
+- **標準手段**: Codex の組み込み画像生成（`image_gen`）を使う。サムネイル・説明画像とも、画像作成はCodexに任せる。
+- 生成後、画像を記事の Page Bundle にコピーし、記事の `image` 参照を合わせる。組み込み画像生成の保存先は既定の場所を使い、生成後に必要な形式（サムネイルは原則JPEG）へ変換して配置する。
+- **既存APIスクリプト** `.workspace/scripts/Antigravity-nanobana/generate-image.js` は標準手段にしない。Codexの画像生成が使えない場合も自動で切り替えず、ユーザーが明示的にAPIスクリプトを指定したときだけ使う。
+
+ユーザーがAPIスクリプトを明示的に指定した場合に限り、次のコマンドを使う。
 
 ```bash
 node .workspace/scripts/Antigravity-nanobana/generate-image.js "Prompt" "src/data/post/{category}/{slug}/cover.jpg"
 ```
 
-- **ドラフト中**: 画像コメントをファイルに残す形で対応
+- **ドラフト中**: 画像コメントをファイルに残し、Codexで画像を生成して記事から参照する
 
 ```markdown
 <!-- IMAGE_PROMPT: minimalist pictogram, white [icon] on dark navy background, flat design, 16:9 -->
@@ -345,7 +348,7 @@ Read(.workspace/data-set/kw-pattern-library.md)
 - 問題点・気づき・hq からの修正依頼: `.task-management/inbox.md`（作業の開始時に未処置を処理する）
 - 実行記録: `.task-management/records/index.md`（起票前・解析前に Grep する）
 - 計画書・調査・データは `.workspace/` に置き、タスクからリンクする
-- 書き手（CC のサブエージェントまたは Codex）への指示書は `.workspace/codex/orders/`、報告書は `.workspace/codex/reports/`（組織は `C:\Users\sasis\344blog\hq\org\README.md`）
+- 書き手（CC のサブエージェントまたは Codex）への指示書は `.workspace/codex/orders/`、報告書は `.workspace/codex/reports/`（組織は `C:\Users\sasis\344blog\hq\.workspace\task\org\README.md`）
 - 11月の計画（2026-10-31〜）: 全面リライト `.workspace/projects/rewrite-2026-11/`、20時間コースの追加 `.workspace/projects/course-expansion-2026-11/`
 
 ---

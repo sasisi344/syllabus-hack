@@ -1,6 +1,6 @@
 # Syllabus Hack Article Index
 
-Generated on: 2026/11/14 14:12:44
+Generated on: 2026/11/19 7:20:34
 
 | Publish Date | Category | Title | Tags | Path |
 | :--- | :--- | :--- | :--- | :--- |
@@ -12,7 +12,7 @@ Generated on: 2026/11/14 14:12:44
 | 2026-10-25 | theory | 多要素認証・SQLインジェクション・XSS・ランサムウェアとは？攻撃と対策を1ページで | 情報セキュリティ, 多要素認証, SQLインジェクション, XSS, ランサムウェア, ITパスポート | `src/data/post/theory/cyber-attack-countermeasures-basics/index.md` |
 | 2026-10-25 | theory | ハルシネーション・RAG・マルチモーダルAI・XAI・MLOpsとは？生成AIの用語を1ページで | 生成AI, ハルシネーション, RAG, マルチモーダルAI, XAI, MLOps, ITパスポート | `src/data/post/theory/generative-ai-terms-basics/index.md` |
 | 2026-10-11 | trend | 資格試験は申込から本番まで何日？2026年度の日程と受付状況を比較 | 試験日程, スケジュール, ITパスポート, 宅建, 電験三種 | `src/data/post/trend/exam-application-to-exam-period-table/index.md` |
-| 2026-10-07 | trend | 今さら聞けない情報漏えい対策｜相次ぐ流出から自分と会社を守る方法 | 情報セキュリティ, 情報漏えい, フィッシング, 標的型メール, 情報セキュリティマネジメント, 生成AI | `src/data/post/trend/security-incident-prevention-basics/index.md` |
+| 2026-10-07 | trend | 今さら聞けない情報漏えい対策｜相次ぐ流出から自分と会社を守る方法 | 情報セキュリティマネジメント, 情報漏えい, フィッシング, 標的型メール, 生成AI | `src/data/post/trend/security-incident-prevention-basics/index.md` |
 | 2026-10-03 | method | ITパスポート NotebookLM勉強法｜シラバスから無料で問題集を自作し、手書きで解く | ITパスポート, 生成AI, NotebookLM, 独学, 問題集 | `src/data/post/method/notebooklm-ip-study-hack/index.md` |
 | 2026-09-29 | method | AIプログラミングの事前準備｜Python初心者が動作を確かめる手順 | 生成AI, Claude, Python, プログラミング, 環境構築 | `src/data/post/method/ai-programming-prep/index.md` |
 | 2026-09-29 | method | AIに社内ルールを覚えさせる設定｜登録先の選び方と確認手順 | 生成AI, ChatGPT, Claude, プロンプト, 業務効率化 | `src/data/post/method/ai-skill-rules-setup/index.md` |
@@ -25,10 +25,10 @@ Generated on: 2026/11/14 14:12:44
 | 2026-09-15 | theory | P/L・B/S・C/Fの違い｜同じ取引から損益分岐点・ROIまで読む | 財務諸表, 損益計算書, 貸借対照表, キャッシュフロー, ITパスポート | `src/data/post/theory/corporate-finance-pl-bs-cf-roi-basics/index.md` |
 | 2026-09-15 | theory | DWH・データマイニング・回帰分析の違い｜目的から選ぶ判断表 | データ分析, データウェアハウス, データマイニング, 回帰分析, ITパスポート | `src/data/post/theory/data-warehouse-mining-regression-basics/index.md` |
 | 2026-09-15 | theory | IT法務の使い分け｜知的財産・営業秘密・取適法・契約の判断基準 | ITパスポート, 知的財産権, 取適法, 契約, 生成AI | `src/data/post/theory/it-legal-basics-ip-subcontract-contracts/index.md` |
-| 2026-09-15 | theory | OSI参照モデル・TCP/IP・サブネット・DNS・正規化とは？ネットワークとDBの基礎 | ネットワーク, TCP/IP, サブネット, データベース, 正規化, ITパスポート | `src/data/post/theory/network-database-fundamentals/index.md` |
+| 2026-09-15 | theory | OSI参照モデル・TCP/IP・サブネット・DNS・正規化とは？ネットワークとDBの基礎 | ネットワーク, TCP/IP, データベース, 正規化, ITパスポート | `src/data/post/theory/network-database-fundamentals/index.md` |
 | 2026-09-15 | theory | WBS・ガントチャート・クリティカルパスの違い｜SLAまで役割で整理 | プロジェクトマネジメント, WBS, ガントチャート, SLA, 試験対策 | `src/data/post/theory/project-service-management-overview/index.md` |
 | 2026-09-15 | theory | ABC分析・特性要因図・散布図の使い分け｜QC手法を選ぶ流れ | QC七つ道具, ABC分析, 特性要因図, 散布図, ITパスポート | `src/data/post/theory/qc-seven-tools-abc-fishbone-scatter/index.md` |
-| 2026-09-15 | theory | 共通鍵暗号・公開鍵暗号・TLS・IPsec・インシデント対応・BYOD対策とは？セキュリティ対策の基礎 | 情報セキュリティ, 暗号化, TLS, IPsec, インシデント対応, ゼロトラスト, ITパスポート, セキュリティ対策 | `src/data/post/theory/security-controls-crypto-incident-basics/index.md` |
+| 2026-09-15 | theory | 共通鍵暗号・公開鍵暗号・TLS・IPsec・インシデント対応・BYOD対策とは？セキュリティ対策の基礎 | 情報セキュリティ, 暗号化, TLS, インシデント対応, ITパスポート | `src/data/post/theory/security-controls-crypto-incident-basics/index.md` |
 | 2026-09-15 | theory | 平均値・分散・標準偏差の使い分け｜確率と標本抽出まで計算で理解 | 統計, 平均値, 標準偏差, 確率, ITパスポート | `src/data/post/theory/statistics-mean-variance-probability-sampling/index.md` |
 | 2026-09-15 | theory | UI・UX・アクセシビリティの違い｜5用語の判断例と改善の流れ | UI, UX, アクセシビリティ, ユーザビリティ, ITパスポート | `src/data/post/theory/ui-ux-accessibility-universal-design/index.md` |
 | 2026-07-20 | method | TOEIC 目標スコア到達ロードマップ｜600点から900点までAIを専任講師にする | TOEIC, 英語学習, 生成AI, キャリアアップ, ロードマップ | `src/data/post/method/toeic-hub/index.md` |
@@ -79,29 +79,29 @@ Generated on: 2026/11/14 14:12:44
 | 2026-06-15 | method | ビル管理の管理者を目指す資格｜ビル管理士・マンション管理士・エネルギー管理士の合格ロードマップ | ビル管理士, マンション管理士, エネルギー管理士, 生成AI, ロードマップ | `src/data/post/method/biru-kanri-hub/index.md` |
 | 2026-06-15 | method | 【2026年最新】土木施工管理技士1級2級｜経験記述をAIで添削し独学合格 | 土木施工管理技士, 施工管理, 建設業界, 生成AI, ロードマップ | `src/data/post/method/doboku-sekou-hub/index.md` |
 | 2026-06-10 | method | 秘書検定2級・3級の費用と勉強時間｜身につく知識で選ぶ | 秘書検定, ビジネスマナー, 独学, 生成AI, Claude | `src/data/post/method/secretarial-cost-time-knowledge/index.md` |
-| 2026-06-09 | career | G検定・DS検定・E資格の違いと取る順番｜AI・データ系の仕事につなげる資格の選び方 | G検定, DS検定, E資格, AIエンジニア, キャリア | `src/data/post/career/ai-data-career/index.md` |
-| 2026-06-09 | career | 社員のSG取得を会社が補助すべき理由｜2026年9月の情報漏えいから考えるセキュリティ人材の育て方 | 情報セキュリティマネジメント, SG, リスキリング, 社内育成, セキュリティ | `src/data/post/career/sg-company-security-roadmap/index.md` |
+| 2026-06-09 | career | G検定・DS検定・E資格の違いと取る順番｜AI・データ系の仕事につなげる資格の選び方 | G検定, データサイエンティスト検定, E資格, AIエンジニア, キャリア | `src/data/post/career/ai-data-career/index.md` |
+| 2026-06-09 | career | 社員のSG取得を会社が補助すべき理由｜2026年9月の情報漏えいから考えるセキュリティ人材の育て方 | 情報セキュリティマネジメント, リスキリング, 社内育成, セキュリティ | `src/data/post/career/sg-company-security-roadmap/index.md` |
 | 2026-06-09 | method | 日商簿記3級・2級 合格ロードマップ｜経理なら3級、製造業なら2級。仕事で決める級の選び方 | 日商簿記, 簿記2級, 簿記3級, CBT, キャリアアップ | `src/data/post/method/boki-hub/index.md` |
 | 2026-06-09 | method | CCNAとは？勉強時間の目安とIPA試験でいうとどのレベルか｜合格までの進め方と落ちたときの立て直し方 | CCNA, ネットワーク, インフラ, ロードマップ, 勉強時間 | `src/data/post/method/ccna-hub/index.md` |
 | 2026-06-09 | method | 電験三種は取るべき？知名度は低いが高給と独立が狙える資格の合格ロードマップ | 電験三種, 電気主任技術者, 電気設備, ビル管理, ロードマップ | `src/data/post/method/denken-hub/index.md` |
-| 2026-06-09 | method | DS検定（データサイエンティスト検定）合格ロードマップ｜統計が難しく感じる理由と、G検定と組み合わせて広がる仕事 | DS検定, データサイエンス, 統計, ロードマップ, データ分析 | `src/data/post/method/ds-kentei-hub/index.md` |
+| 2026-06-09 | method | DS検定（データサイエンティスト検定）合格ロードマップ｜統計が難しく感じる理由と、G検定と組み合わせて広がる仕事 | データサイエンティスト検定, データサイエンス, 統計, ロードマップ, データ分析 | `src/data/post/method/ds-kentei-hub/index.md` |
 | 2026-06-09 | method | G検定（JDLA）合格ロードマップ｜最新ニュースより公式テキストの読み込みと反復テスト | G検定, JDLA, ディープラーニング, AI資格, ロードマップ | `src/data/post/method/g-kentei-hub/index.md` |
 | 2026-06-09 | method | 危険物取扱者の甲種・乙種・丙種どれから取る？合格率と勉強時間で比べる | 危険物取扱者, 乙4, 危険物乙種, 資格取得, ロードマップ | `src/data/post/method/kiken-butsu-hub/index.md` |
 | 2026-06-09 | method | MOSはどれから取る？事務職はExcelとWordが基本、エキスパートで難しくなる理由 | MOS, Excel, Word, Office資格, ロードマップ | `src/data/post/method/mos-hub/index.md` |
 | 2026-06-09 | method | 宅建（宅地建物取引士）合格ロードマップ｜合格率18%の壁をAI学習でどう越えるか | 宅建, 不動産, 生成AI, Gemini, ロードマップ | `src/data/post/method/takken-hub/index.md` |
-| 2026-06-09 | theory | 線形探索・二分探索・ソート・スタック・キュー・木とは？アルゴリズムとデータ構造の基礎 | アルゴリズム, データ構造, 二分探索, スタック, 基本情報技術者, 科目B | `src/data/post/theory/algorithm-search-sort/index.md` |
-| 2026-06-09 | theory | VLAN・STP・ルーティング（OSPF・EIGRP・RIP）とは？CCNAの主要2領域を1ページで | CCNA, VLAN, STP, ルーティング, OSPF, ネットワーク | `src/data/post/theory/ccna-vlan-stp/index.md` |
-| 2026-06-09 | theory | 機械学習の3種類とディープラーニングとは？G検定・DS検定の基礎理論を1ページで | 機械学習, ディープラーニング, G検定, DS検定, ニューラルネットワーク | `src/data/post/theory/ml-supervised-unsupervised/index.md` |
+| 2026-06-09 | theory | 線形探索・二分探索・ソート・スタック・キュー・木とは？アルゴリズムとデータ構造の基礎 | アルゴリズム, データ構造, 二分探索, 基本情報技術者, 科目B | `src/data/post/theory/algorithm-search-sort/index.md` |
+| 2026-06-09 | theory | VLAN・STP・ルーティング（OSPF・EIGRP・RIP）とは？CCNAの主要2領域を1ページで | CCNA, VLAN, STP, ルーティング, OSPF | `src/data/post/theory/ccna-vlan-stp/index.md` |
+| 2026-06-09 | theory | 機械学習の3種類とディープラーニングとは？G検定・DS検定の基礎理論を1ページで | 機械学習, ディープラーニング, G検定, データサイエンティスト検定, ニューラルネットワーク | `src/data/post/theory/ml-supervised-unsupervised/index.md` |
 | 2026-06-03 | career | 地方でIT資格は意味ない？都道府県別の年収差と、資格が効く地域・職種の見分け方 | ITパスポート, 年収, 地方, キャリア, 愛知県 | `src/data/post/career/regional-salary-qualification-correlation/index.md` |
-| 2026-06-03 | method | IPA資格の高難易度対策｜応用情報・高度試験と2027年の新試験の選び方 | 高度試験, 応用情報技術者, 情報処理安全確保支援士, プロフェッショナルデジタルスキル, ロードマップ | `src/data/post/method/advanced-ipa-hub/index.md` |
+| 2026-06-03 | method | IPA資格の高難易度対策｜応用情報・高度試験と2027年の新試験の選び方 | 高度試験, 応用情報技術者, 情報処理安全確保支援士, プロフェッショナルデジタルスキル試験, ロードマップ | `src/data/post/method/advanced-ipa-hub/index.md` |
 | 2026-06-03 | method | Geminiで資格勉強をする方法｜IT用語・科目B・記述の確認手順 | 生成AI, Gemini, 資格試験, プロンプト, 学習法 | `src/data/post/method/gemini-cert-complete/index.md` |
-| 2026-06-03 | method | 情報セキュリティマネジメント試験（SG）合格ロードマップ｜非エンジニアは何から始めるか | 情報セキュリティマネジメント, SG, セキュリティ, 独学, ロードマップ | `src/data/post/method/sg-hub/index.md` |
+| 2026-06-03 | method | 情報セキュリティマネジメント試験（SG）合格ロードマップ｜非エンジニアは何から始めるか | 情報セキュリティマネジメント, セキュリティ, 独学, ロードマップ | `src/data/post/method/sg-hub/index.md` |
 | 2026-05-31 | method | AWS・CCNA・LPICの取る順番｜インフラエンジニアの資格ロードマップ | AWS認定, CCNA, インフラ, ロードマップ, 転職 | `src/data/post/method/aws-hub/index.md` |
-| 2026-05-31 | method | AWS SAAは未経験でも取れる？基本情報・応用情報と比べた難易度と学習の順番 | AWS, AWS SAA, 未経験, 独学, クラウド | `src/data/post/method/aws-saa-beginner-reality/index.md` |
+| 2026-05-31 | method | AWS SAAは未経験でも取れる？基本情報・応用情報と比べた難易度と学習の順番 | AWS認定, AWS SAA, 未経験, 独学, クラウド | `src/data/post/method/aws-saa-beginner-reality/index.md` |
 | 2026-05-31 | method | CCNAを文系・未経験から6ヶ月で目指す手順｜最初にITパスポート過去問で現在地を測る | CCNA, ネットワーク, 文系, 未経験, ロードマップ | `src/data/post/method/ccna-liberal-arts-roadmap/index.md` |
 | 2026-05-31 | method | 基本情報技術者試験 合格ロードマップ｜科目A・B対策から合格後のキャリアまで | 基本情報技術者, 科目B, アルゴリズム, AI活用, ロードマップ | `src/data/post/method/fe-hub/index.md` |
 | 2026-05-31 | method | FP合格ロードマップ｜3級・2級・1級の違いと、2級を受けるか決める過去問10問チェック | FP, CBT, 独学, ロードマップ, 生成AI | `src/data/post/method/fp-hub/index.md` |
-| 2026-05-31 | method | FP2級を3ヶ月で目指す勉強計画｜初心者と金融の知識がある人で変わる進め方 | FP2級, 社会人, 勉強時間, 独学, ロードマップ | `src/data/post/method/fp2-3month-plan/index.md` |
+| 2026-05-31 | method | FP2級を3ヶ月で目指す勉強計画｜初心者と金融の知識がある人で変わる進め方 | FP, 社会人, 勉強時間, 独学, ロードマップ | `src/data/post/method/fp2-3month-plan/index.md` |
 | 2026-05-31 | method | ITパスポート 合格ロードマップ｜AI時代に最初の一手としてこれを選ぶ理由 | ITパスポート, リスキリング, 生成AI, 独学, ロードマップ | `src/data/post/method/itp-hub/index.md` |
 | 2026-05-31 | method | NotebookLM（Gemini Notebook）資格試験活用ガイド｜2026年版・機能別の使い倒し方 | 生成AI, NotebookLM, 資格試験, 学習法, ドリル | `src/data/post/method/notebooklm-features-guide/index.md` |
 | 2026-05-31 | trend | CCNAとAWS SAAはどっちが先？ネットワーク知識から見た取得順番の正解 | CCNA, AWS認定, AWS SAA, 資格戦略, ネットワーク | `src/data/post/trend/ccna-vs-aws-saa/index.md` |
@@ -114,20 +114,20 @@ Generated on: 2026/11/14 14:12:44
 | 2026-04-18 | method | CCNAのサブネット計算は実務で使う？社内LANの分け方から理解する計算の手順 | CCNA, ネットワーク, 生成AI, 計算問題, 基本情報技術者 | `src/data/post/method/ip-address-ai-metaphor-hack/index.md` |
 | 2026-04-18 | method | ITパスポート受験中に改姓したら——本人確認・領収書・証明書の3つを一気に解決する | ITパスポート, 事務ハック, 生成AI, 手続き, 改姓 | `src/data/post/method/itp-name-change-marriage-hack/index.md` |
 | 2026-04-18 | method | ITパスポートのスマホ勉強法｜スキマ時間の長さで変えるアプリとAIの使い方 | ITパスポート, スマホ学習, スキマ時間, 学生, 生成AI | `src/data/post/method/smartphone-study-guide/index.md` |
-| 2026-04-18 | method | SQLのJOINが覚えられない人へ｜AIの図解で、基本情報とDS検定のSQL問題に備える | 基本情報技術者, DS検定, SQL, 生成AI, データベース | `src/data/post/method/sql-join-visual-ai-hack/index.md` |
+| 2026-04-18 | method | SQLのJOINが覚えられない人へ｜AIの図解で、基本情報とDS検定のSQL問題に備える | 基本情報技術者, データサイエンティスト検定, SQL, 生成AI, データベース | `src/data/post/method/sql-join-visual-ai-hack/index.md` |
 | 2026-04-18 | trend | 「情報I」と「ITパスポート」どっちが難しい？高校生のうちに国家資格を取る理由 | ITパスポート, 高校生, 情報I, 共通テスト, 試験対策 | `src/data/post/trend/itp-vs-info1-comparison-hack/index.md` |
-| 2026-04-15 | method | 生成AIをコーチにしてITパスポートに合格するには｜ChatGPT・Gemini・Claude共通の進め方 | ITパスポート, ChatGPT, Claude, Gemini, 学習法 | `src/data/post/method/chatgpt-itpassport-ai-complete-guide/index.md` |
-| 2026-04-15 | method | FE科目Bを生成AIで攻略するプロンプト集｜場面別・ツール別インデックス【ChatGPT・Gemini・Claude】 | 基本情報技術者, 科目B, ChatGPT, Claude, Gemini | `src/data/post/method/fe-subject-b-ai-prompt-hub/index.md` |
+| 2026-04-15 | method | 生成AIをコーチにしてITパスポートに合格するには｜ChatGPT・Gemini・Claude共通の進め方 | ITパスポート, 生成AI, ChatGPT, 学習法, プロンプト | `src/data/post/method/chatgpt-itpassport-ai-complete-guide/index.md` |
+| 2026-04-15 | method | FE科目Bを生成AIで攻略するプロンプト集｜場面別・ツール別インデックス【ChatGPT・Gemini・Claude】 | 基本情報技術者, 科目B, 生成AI, ChatGPT, Gemini | `src/data/post/method/fe-subject-b-ai-prompt-hub/index.md` |
 | 2026-04-15 | trend | SGシラバスの変更点｜現行Ver.4.1と新シラバス案、生成AIのセキュリティはニュースでも学ぶ | 情報セキュリティマネジメント, シラバス, 生成AI, 情報セキュリティ | `src/data/post/trend/sg-syllabus-latest-change-guide/index.md` |
 | 2026-04-11 | career | 基本情報の科目B不合格は履歴書にどう書く？「現在進行形の努力」として伝える方法 | 基本情報技術者, 転職ハック, 履歴書, プロセス重視 | `src/data/post/career/fe-resume-liar-hack/index.md` |
 | 2026-04-11 | career | 高校の「情報I」をITパスポートにつなげる｜18歳以下の履歴書マッピング術 | ITパスポート, 高校生, 共通テスト, 情報I, キャリア戦略 | `src/data/post/career/itp-high-school-resume-hack/index.md` |
 | 2026-04-11 | career | ITパスポートが「恥ずかしい」と感じるあなたへ｜履歴書から真っ先に消すべき時と武器にする時の境界線 | ITパスポート, キャリア戦略, 転職ハック | `src/data/post/career/itp-shameful-career-hack/index.md` |
 | 2026-04-11 | career | 情報処理安全確保支援士は転職で隠すと損？知名度の低さを補う伝え方と、責任を背負いすぎない選び方 | 情報処理安全確保支援士, キャリア戦略, 転職 | `src/data/post/career/sc-unregistered-benefit-hack/index.md` |
-| 2026-04-11 | method | 応用情報の記述式で点が取れない理由｜答えはひとつではない、論理で説明する練習法 | 応用情報技術者試験, 試験対策, 記述対策, ChatGPT, Claude | `src/data/post/method/ap-grader-blackbox-hack/index.md` |
+| 2026-04-11 | method | 応用情報の記述式で点が取れない理由｜答えはひとつではない、論理で説明する練習法 | 応用情報技術者, 試験対策, 記述対策, ChatGPT, 生成AI | `src/data/post/method/ap-grader-blackbox-hack/index.md` |
 | 2026-04-11 | method | 生成AIで10分で自作する、自分専用のIT資格対策アプリ | ITパスポート, ChatGPT, Gemini, シラバスハック, 効率学習 | `src/data/post/method/genai-self-made-app-hack/index.md` |
 | 2026-04-11 | method | 新IPA試験の勉強法｜区分選びとデータ・AIを使った学習計画 | 試験対策, 生成AI, Gemini, データマネジメント試験 | `src/data/post/method/new-ipa-exam-study-strategy/index.md` |
 | 2026-04-11 | method | ITストラテジスト論文で実務経験がないとき｜経験を補う順番と、今からできる業務の練習 | ITストラテジスト, 論文対策, 実務経験, ChatGPT, MOS | `src/data/post/method/st-no-experience-essay-hack/index.md` |
-| 2026-04-11 | trend | 2027年からのIPA試験再編まとめ｜データマネジメントと新区分PDとは？ | IPA, 情報処理技術者試験, 試験情報, DX | `src/data/post/trend/ipa-2027-restructuring/index.md` |
+| 2026-04-11 | trend | IPA試験2027年度の新制度｜8区分の変更点と受ける試験の選び方 | 情報処理技術者試験, 試験情報, ITパスポート, データマネジメント試験, プロフェッショナルデジタルスキル試験 | `src/data/post/trend/ipa-2027-restructuring/index.md` |
 | 2026-04-06 | method | 働きながら資格取得を続けるための現実的なリスキリング戦略 | リスキリング, 学習継続, 資格取得, 時間管理 | `src/data/post/method/reskilling-strategy-while-working/index.md` |
 | 2026-04-05 | career | ITパスポートの次はAWSかFPか？金融系に進むならFP＋SGの組み合わせ | ITパスポート, AWS, FP3級, キャリアパス, リスキリング | `src/data/post/career/next-step-aws-vs-fp-strategy/index.md` |
 | 2026-04-05 | method | 【内部構成】AIにサイト開発を任せる仕組み｜Syllabus Hackの技術構成とルール設計 | 生成AI, Astro, Antigravity, Cursor, ClaudeCode, SyllabusHack | `src/data/post/method/ai-driven-architecture-hack/index.md` |
@@ -183,10 +183,10 @@ Generated on: 2026/11/14 14:12:44
 | 2026-03-09 | method | 情報セキュリティマネジメント試験は未経験だと難しい？差がつくのは日頃のセキュリティ意識 | 情報セキュリティマネジメント, 科目A, 科目B, 未経験, ロードマップ | `src/data/post/method/sg-beginner-roadmap/index.md` |
 | 2026-03-08 | career | ITパスポートを飛ばして基本情報から受けてよい人｜過去問7割が目安、開発部門を目指す資格ステップ | 基本情報技術者, ITパスポート, キャリアチェンジ, 地方エンジニア, SyllabusHack | `src/data/post/career/fe-career-modern-web/index.md` |
 | 2026-03-08 | career | 生成AI時代の「エンジニアOS」— 基本情報技術者で手に入れる指示の解像度 | 基本情報技術者, 生成AI, アルゴリズム, キャリア, SyllabusHack | `src/data/post/career/fe-engineer-foundation/index.md` |
-| 2026-03-08 | method | ITパスポートを社会人が最短で取る捨て問戦略｜まず勉強なしで過去問を解く | ITパスポート, 学習法, 時短学習, 捨て問, SyllabusHack | `src/data/post/method/ip-discard-strategy/index.md` |
-| 2026-03-08 | method | 経済学ゼロからでも解ける！ストラテジ系をAIの「たとえ話」で攻略する技術 | ITパスポート, ストラテジ系, ChatGPT, Gemini, 学習法 | `src/data/post/method/ip-strategy-ai-hack/index.md` |
+| 2026-03-08 | method | ITパスポートを社会人が最短で取る捨て問戦略｜計算問題を捨てる前に過去問を解く | ITパスポート, 学習法, 時短学習, 捨て問, SyllabusHack | `src/data/post/method/ip-discard-strategy/index.md` |
+| 2026-03-08 | method | 経済学ゼロからでも解ける！ストラテジ系をAIの「たとえ話」で攻略する技術 | ITパスポート, ストラテジ系, 生成AI, ChatGPT, 学習法 | `src/data/post/method/ip-strategy-ai-hack/index.md` |
 | 2026-03-08 | method | 東京で働き続けるなら取っておきたい資格｜IT・セキュリティ・クラウドの選び方と、合格までの道のり | 地域最適化, 東京都, リスキリング, 資格選び, キャリアアップ | `src/data/post/method/region-hack-tokyo/index.md` |
-| 2026-03-08 | method | 情報セキュリティマネジメント｜公的機関のレポートで事故対応をシミュレーションする勉強法 | 情報セキュリティマネジメント, 科目B, ChatGPT, Gemini, インシデント | `src/data/post/method/sg-news-study-hack/index.md` |
+| 2026-03-08 | method | 情報セキュリティマネジメント｜公的機関のレポートで事故対応をシミュレーションする勉強法 | 情報セキュリティマネジメント, 科目B, 生成AI, インシデント | `src/data/post/method/sg-news-study-hack/index.md` |
 | 2026-03-07 | trend | 応用情報・高度試験CBTの申込日程と試験期間｜後期の申込は2027年1月27日から | IPA試験, CBT, 応用情報技術者, 高度試験, スケジュール | `src/data/post/trend/ipa-2026-cbt-schedule-guide/index.md` |
 | 2026-03-04 | app | Syllabus Hack開発記：メンテナンス性を高めるファイル構成と実装戦略 | Astro, React, 個人開発, 設計, SyllabusHack | `src/data/post/app/dev-doc-structure-astro/index.md` |
 | 2026-03-01 | app | 【開発記】1,171語のシラバスからクイズを自動生成する「AIエンジン」の仕組み | Gemini, API, SyllabusHack, 開発記 | `src/data/post/app/dev-story-ai-engine/index.md` |
@@ -214,7 +214,7 @@ Generated on: 2026/11/14 14:12:44
 | 2026-02-19 | method | 勉強は紙に書くと覚えられる？デジタル教科書の時代に手書きをすすめる理由 | 学習法, 手書き, アウトプット, デジタルデトックス | `src/data/post/method/digital-detox-learning/index.md` |
 | 2026-02-19 | method | 覚えられない専門用語は「絵」にしろ。生成AIで記憶の宮殿を建築する狂気の暗記術 | 学習法, 画像生成AI, 記憶術, Midjourney | `src/data/post/method/generative-memory-palace/index.md` |
 | 2026-02-19 | method | システムアーキテクチャ図を「写経」する。Miroを使った構造化思考トレーニング | 学習法, 図解, Miro, システム設計 | `src/data/post/method/miro-diagram-thinking/index.md` |
-| 2026-02-19 | method | 資格の間違いノートをAIで分析する方法｜Markdownで記録して、ミスのパターンを見つける | 基本情報技術者, ChatGPT, Gemini, 間違いノート, メタ認知 | `src/data/post/method/miss-note-db/index.md` |
+| 2026-02-19 | method | 資格の間違いノートをAIで分析する方法｜Markdownで記録して、ミスのパターンを見つける | 基本情報技術者, 生成AI, ChatGPT, 間違いノート, メタ認知 | `src/data/post/method/miss-note-db/index.md` |
 | 2026-02-19 | method | 【Active Recall】科学的に「脳に効く」勉強法だけをやる。エビデンスベースの資格試験攻略 | 学習法, 科学的根拠, ActiveRecall, 効率化 | `src/data/post/method/scientific-study-methods/index.md` |
 | 2026-02-19 | method | 資格のシラバス更新を見逃さない仕組み作り｜URLの記録・RSS・自動チェック・AIで変更点を知る | 学習法, シラバス, 情報収集, 自動化, AI活用 | `src/data/post/method/syllabus-diff-hack/index.md` |
 | 2026-02-18 | app | 基本情報技術者試験 攻略シミュレーター | 基本情報技術者, アルゴリズム, SyllabusHack | `src/data/post/app/fe-quiz/index.mdx` |
