@@ -285,9 +285,9 @@ src/data/post/{category}/{slug}/
 
 - **標準手段**: Codex の組み込み画像生成（`image_gen`）を使う。サムネイル・説明画像とも、画像作成はCodexに任せる。
 - 生成後、画像を記事の Page Bundle にコピーし、記事の `image` 参照を合わせる。組み込み画像生成の保存先は既定の場所を使い、生成後に必要な形式（サムネイルは原則JPEG）へ変換して配置する。
-- **既存APIスクリプト** `.workspace/scripts/Antigravity-nanobana/generate-image.js` は標準手段にしない。Codexの画像生成が使えない場合も自動で切り替えず、ユーザーが明示的にAPIスクリプトを指定したときだけ使う。
+- **既存APIスクリプト** `.workspace/scripts/Antigravity-nanobana/generate-image.js` は代わりの手段。Codex のリソースがない（使用量の上限・起動できない・組み込みの生成が使えない）ときだけ使う（2026-11-27 ユーザー決定。同日朝の「ユーザーが指定したときだけ」を改めた。代わりの手順の正本は `C:\Users\sasis\344blog\hq\.workspace\task\org\codex-imagegen.md`）。
 
-ユーザーがAPIスクリプトを明示的に指定した場合に限り、次のコマンドを使う。
+Codex のリソースがないときは、次のコマンドを使う。
 
 ```bash
 node .workspace/scripts/Antigravity-nanobana/generate-image.js "Prompt" "src/data/post/{category}/{slug}/cover.jpg"

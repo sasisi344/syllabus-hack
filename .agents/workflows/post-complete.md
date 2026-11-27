@@ -18,8 +18,8 @@ description: 執筆したドラフトを本番用コンテンツに変換・移�
     - **画像パスの正規化**: フロントマターの `image` パスを `~/data/post/{category}/{slug}/cover.jpg` (or png) の形式に強制変換する。
         - エラー回避のため、必ず `~/` エイリアスを使用し、相対パスや絶対パスを排除する。
     - **アイキャッチ画像の生成（厳格ルール）**: 
-        - 内蔵の `generate_image` ツールを **直接使用することは禁止**。
-        - 必ず `.workspace/scripts/Antigravity-nanobana/generate-image.js` を `node` で実行して生成すること。
+        - 生成は Codex に任せ、Codex の組み込み画像生成 `image_gen` で作る（2026-11-27 ユーザー決定。`CLAUDE.md`「画像生成ルール」）。
+        - Codex のリソースがないときだけ、`.workspace/scripts/Antigravity-nanobana/generate-image.js` を `node` で実行して生成する。
         - スタイルは「ピクトグラム形式（濃い紺色背景に白の単一アイコン）」を厳守する。
     - フロントマターの `draft` を `false` に設定する。
     - `lastmod` に今日の日付（YYYY-MM-DD）をセットする。

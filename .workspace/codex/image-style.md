@@ -33,12 +33,11 @@
 - 説明画像: `Minimalist pictogram diagram, flat design, white icons on deep navy background, terminal green accents: <何を>. Labels in Japanese only where listed: <文言>. No photos, no faces, no clutter.`
 - 既存の `<!-- IMAGE_PROMPT: … -->` は、記事の段階では画像マーカー（`hq/.workspace/task/org/README.md` §4）に置き換える
 
-## 5. 生成（Codexを標準手段とする）
+## 5. 生成（Codexを標準手段とし、APIスクリプトは代わり）
 
-- サムネイル・説明画像は Codex の組み込み画像生成 `image_gen` で作成する。APIスクリプトは標準手段にしない。
+- サムネイル・説明画像は Codex の組み込み画像生成 `image_gen` で作成する（2026-11-27 ユーザー決定。手順・保存・確認・報告の正本は `C:\Users\sasis\344blog\hq\.workspace\task\org\codex-imagegen.md`）。
 - 生成結果を記事の Page Bundle にコピーし、記事の参照先と一致させる。サムネイルは原則 `cover.jpg`。
-- Codex の画像生成が利用できない、または失敗した場合は自動でAPIスクリプトへ切り替えない。実行するのはユーザーが明示的に指定したときだけ。
-- 既存の `node .workspace/scripts/Antigravity-nanobana/generate-image.js` は、ユーザーから明示的に指定された場合に限る。
+- Codex のリソースがない（使用量の上限・起動できない・組み込みの画像生成が使えない・2回続けて失敗）ときだけ、代わりに `node .workspace/scripts/Antigravity-nanobana/generate-image.js "<prompt>" "<保存先>"` を使う。Codex が使えないときは CC が実行する。
 
 ## 6. 未決（ユーザー確認）
 

@@ -52,7 +52,7 @@ text, letters, words, realistic photo, complex details, gradient overkill, human
 
 ## 5. 生成ツール・ワークフロー（2026-11-27 改定）
 
-画像作成は **Codex に任せ、Codex の組み込み画像生成 `image_gen` を標準手段** とする。既存のAPIスクリプトは標準手段にしない。
+画像作成は **Codex に任せ、Codex の組み込み画像生成 `image_gen` を標準手段** とする。既存のAPIスクリプトは、Codex のリソースがないときの代わり。
 
 1. 上記のスタイル仕様に従い、英語プロンプトを作成する。
 2. **ドラフト段階**: Markdownファイル内にプロンプトをコメントとして残す。
@@ -61,5 +61,5 @@ text, letters, words, realistic photo, complex details, gradient overkill, human
    ```
 3. Codex で生成後、出力を対象記事の Page Bundle にコピーする。サムネイルは原則 `cover.jpg` とし、`image` の参照を合わせる。既定の生成先にしか画像がない状態で作業を終えない。
 4. **本番移行前**: 記事から参照されている画像を確認し、必要ならプロンプトコメントを削除する。
-5. Codex の組み込み画像生成が利用できない、または失敗した場合は、自動でAPIスクリプトに切り替えずユーザーに伝える。APIスクリプトの実行は、ユーザーが明示的に指定した場合に限る。
+5. Codex のリソースがない（使用量の上限・起動できない・組み込みの画像生成が使えない・2回続けて失敗）場合は、APIスクリプト `node .workspace/scripts/Antigravity-nanobana/generate-image.js "Prompt" "<保存先>"` で作る（2026-11-27 ユーザー決定。代わりの手順の正本は `C:\Users\sasis\344blog\hq\.workspace\task\org\codex-imagegen.md`）。報告書の「手段」に理由を書く。
 6. 個別画像を作らない場合は、`image` フロントマターフィールドを省略するか、`src/assets/images/post/common/` の共通画像を使用する。
