@@ -26,11 +26,11 @@
 
 | 作業 | 読むもの |
 |---|---|
-| 筆者の立ち位置・学習体験の扱い（正本） | `CLAUDE.md`「学習体験の共有ルール」、受験歴 `src/data/author-exam-status.ts` |
-| 記事の執筆 | `CLAUDE.md`「ワークフロー早見表 A」「必須ルール」「記事執筆フレームワーク」、`.agents/post_writer.md`、`.agents/content_structure.md` |
+| 筆者の立ち位置・学習体験の扱い（正本） | `.agents/learner_experience.md`（要点は `CLAUDE.md`「学習体験の共有ルール」）、受験歴 `src/data/author-exam-status.ts` |
+| 記事の執筆 | `.agents/workflows/README.md` A、`.agents/article_format.md`（frontmatter・記法）、`.agents/post_writer.md`（フレームワークの選び方を含む）、`.agents/content_structure.md` |
 | カテゴリ・タグ | `.agents/category_rules.md`、`.agents/tag_rules.md` |
 | ファクトチェック | `.agents/fact-check/` |
-| 画像・図 | `CLAUDE.md`「画像生成ルール」、`.agents/image_rules.md` |
+| 画像・図 | `.agents/image_rules.md`、`.workspace/codex/image-style.md` |
 | 既存記事の全面リライト（2026-11） | `.workspace/projects/rewrite-2026-11/README.md` §2（点検の順番と基準） |
 | 20時間コースの章 | `.workspace/.new-contentplan/20hours-course-template.md`、`.workspace/projects/course-expansion-2026-11/README.md` §4 |
 

@@ -17,17 +17,17 @@
 
 - `C:\Users\sasis\344blog\hq\.workspace\task\org\codex-worker.md`
 - `AGENTS.md` と、この文書
-- `CLAUDE.md`「学習体験の共有ルール」「必須ルール」
+- `CLAUDE.md`、`.agents/learner_experience.md`（学習体験の共有ルール）、`.agents/article_format.md`（frontmatter・記法）
 
 ### 種別ごとに足す
 
 | 種別 | 足して読むもの |
 |---|---|
-| リライト（既存記事） | `.workspace/projects/rewrite-2026-11/README.md`（§1 深さ・§2 点検の順番）、`.agents/post_writer.md`（Step 0）、`.agents/reader_segments.md`、`.agents/tag_rules.md`、`.agents/fact-check/FAILURE_LOG.md`・`REGEX_LIBRARY.md`、`src/data/author-exam-status.ts`、`CLAUDE.md`「記事執筆フレームワーク」 |
-| 新規記事 | `.agents/post_writer.md`（Step 0・ルール8）、`.agents/content_structure.md`、`.agents/category_rules.md`・`.agents/tag_rules.md`・`.agents/image_rules.md`、`CLAUDE.md`「記事執筆フレームワーク」、`.workspace/projects/rewrite-2026-11/README.md` §2-2・§2-5。hub は `.agents/cert_hub_template.md` も |
+| リライト（既存記事） | `.workspace/projects/rewrite-2026-11/README.md`（§1 深さ・§2 点検の順番）、`.agents/post_writer.md`（Step 0）、`.agents/reader_segments.md`、`.agents/tag_rules.md`、`.agents/fact-check/FAILURE_LOG.md`・`REGEX_LIBRARY.md`、`src/data/author-exam-status.ts`、`.agents/post_writer.md`「Strategy Dispatcher」 |
+| 新規記事 | `.agents/post_writer.md`（Step 0・ルール8）、`.agents/content_structure.md`、`.agents/category_rules.md`・`.agents/tag_rules.md`・`.agents/image_rules.md`、`.agents/post_writer.md`「Strategy Dispatcher」、`.workspace/projects/rewrite-2026-11/README.md` §2-2・§2-5。hub は `.agents/cert_hub_template.md` も |
 | コースの章 | `.workspace/.new-contentplan/20hours-course-template.md`、`.workspace/projects/course-expansion-2026-11/README.md` §4・§6、`.workspace/projects/rewrite-2026-11/README.md` §2-2・§2-5、`.agents/quiz_data_rules.md`、指示書が指す設計書と事実のファイル |
 | KW の調査 | `CLAUDE.md`「KWリサーチルール」、`.agents/kw_pattern_research.md`、`.workspace/data-set/kw-pattern-library.md` |
-| サイトの改修（コード・表示） | `CLAUDE.md`「ワークフロー早見表 C」「改行コード」「既知の落とし穴」。クイズ・アプリは「ワークフロー早見表 B」と `.agents/quiz_app_rules.md` |
+| サイトの改修（コード・表示） | `.agents/workflows/README.md` C、`CLAUDE.md`「改行コード」「既知の落とし穴」。クイズ・アプリは `.agents/workflows/README.md` B と `.agents/quiz_app_rules.md` |
 | 画像を作る作業すべて | `.workspace/codex/image-style.md` |
 
 ## 2. 共通の完了条件
